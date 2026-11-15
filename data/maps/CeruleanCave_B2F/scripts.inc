@@ -79,54 +79,28 @@ NamelessDungeon_Leaf_5:
 
 
 NamelessDungeon_Leaf_Text_0:
-	.string "???: Hmm, Mewtwo should be just ahead...$"
+	.string "？？？：嗯，超梦应该就在前面……$"
 
 NamelessDungeon_Leaf_Text_1:
-	.string "???: Oh, hello! Who might you be?\p"
-	.string "...\p"
-	.string "Oh, you're {PLAYER}? Nice to meet you!\p"
-	.string "I'm Leaf. \p"
-	.string "I'm in search of some rarer\n"
-	.string "than your average rare Pokémon.$"
+	.string "？？？：哦，你好！你是哪位？\p……\p哦，你叫{PLAYER}啊？\n很高兴认识你！\p我叫叶子。\p我正在寻找比普通的稀有宝可梦\n还要更稀有的宝可梦。$"
 
 NamelessDungeon_Leaf_Text_2:
-	.string "I've tracked it down to this cave, and\n"
-	.string "the only place it can be hiding in is\l"
-	.string "just past this pool of water.$"
+	.string "我一路追查到了这个洞窟，\n它唯一可能藏身的地方，\l就在这片水域的对面。$"
 
 NamelessDungeon_Leaf_Text_3:
-	.string "Piqued your interest, eh?\p"
-	.string "Can't blame you, this one is\n"
-	.string "apparently an experiment created\l"
-	.string "from the DNA of another Pokémon!\p"
-	.string "Unfortunately for you, I was here\n"
-	.string "first!\p"
-	.string "Only way to convince me otherwise\n"
-	.string "would involve beating me in a battle.$"
+	.string "勾起你的兴趣了吧？\p这也难怪，听说这只宝可梦\n是用其他宝可梦的基因\l制造出来的实验体呢！\p不过很可惜，是我先到的！\p想让我改变主意，\n就只有在对战中打赢我了。$"
 
 NamelessDungeon_Leaf_Text_4:
-	.string "What do you say? Interested?\n"
-	.string "I'll warn you though, I'm really\l"
-	.string "tough!$"
+	.string "怎么样？有兴趣吗？\n不过我可提醒你，\l我真的很强哦！$"
 
 NamelessDungeon_Leaf_Text_5:
-	.string "Ah shame, I was hoping you'd say\n"
-	.string "yes.$"
+	.string "啊，真可惜，\n我还盼着你答应呢。$"
 
 NamelessDungeon_Leaf_Text_6:
-	.string "Great! Get ready for a beatdown!$"
+	.string "太好了！准备好被我痛打一顿吧！$"
 
 NamelessDungeon_Leaf_Text_7:
-	.string "Damn, you're good!$"
+	.string "可恶，你真厉害！$"
 
 NamelessDungeon_Leaf_Text_8:
-	.string "Let me tell you, \n"
-	.string "I was not expecting that!\p"
-	.string "You are a monster in battle!\p"
-	.string "What? You're this region's Champion?\p"
-	.string "Oh...\p"
-	.string "That explains a few things!\p"
-	.string "Anyway, as promised, I'll let you have\n"
-	.string "this one, but mark my words, I'll get\l"
-	.string "the better of you next time we meet!\p"
-	.string "Laters!$"
+	.string "说实话，\n这我可真没想到！\p你对战起来简直是个怪物！\p什么？你是这个地区的冠军？\p哦……\p那就难怪了！\p总之，按照约定，\n这只就让给你了。不过你记住，\l下次见面我一定会赢过你！\p回头见！$"

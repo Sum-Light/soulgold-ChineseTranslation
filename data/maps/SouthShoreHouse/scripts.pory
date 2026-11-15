@@ -4,43 +4,20 @@ script SouthShoreHouseMan {
     lock
     faceplayer
     if (flag(FLAG_SHOWN_MIRROR)) {
-        msgbox("You must follow the ravens with the
-                mirror in hand to find the lair of the
-                beast.")
+        msgbox("你必须拿着镜子，\n跟随乌鸦，找到那头\l野兽的巢穴。")
             release
             end
     }
-    msgbox("My grandparent always used to tell
-            stories of a beast hiding in the
-            depths of the forest.
-            
-            No normal person could ever hope to 
-            find it no matter how hard they looked,
-            for it lived on a path that could only
-            be revealed by a mirror that does not
-            reflect its owner.
-            
-            I wonder if such object even exists.")
+    msgbox("我的祖辈总爱讲这样的故事：\n有一头野兽藏在森林深处。\p普通人无论怎么找，\n都别想找到它，\l因为它栖身于一条小路，\l只有一面不映照主人的镜子\l才能让这条路显现。\p我怀疑世上是否真有这样的东西。")
     checkitem(ITEM_BLACK_MIRROR)
     if (var(VAR_RESULT) == TRUE) {
         if (flag(FLAG_SHOWN_MIRROR) == FALSE) {
-            msgbox("Oh! That object you hold! That looks
-                exactly like the item my grandpa
-                described to me!
-                
-                To think that the stories were true.
-                
-                He told me that the path can be
-                found by following the ravens. 
-                
-                Best of luck finding the beast, trainer.")
+            msgbox("哦！你手里的那个东西！那和\n我爷爷描述给我听的\l物件一模一样！\p没想到那些故事是真的。\p他说，只要跟着乌鸦，\n就能找到那条路。\p训练家，祝你顺利找到野兽。")
                 setflag(FLAG_SHOWN_MIRROR)
                 release
                 end
         } else {
-            msgbox("You must follow the ravens with the
-                    mirror in hand to find the lair of the
-                    beast.")
+            msgbox("你必须拿着镜子，\n跟随乌鸦，找到那头\l野兽的巢穴。")
             release
             end
         }
@@ -54,7 +31,7 @@ script SouthShoreHouseSableye {
     lock
     faceplayer
     playmoncry(SPECIES_SABLEYE, CRY_MODE_NORMAL)
-    msgbox("Sableye: Sablblbllblb!")
+    msgbox("勾魂眼：叽哩咕噜噜噜！")
     waitmoncry
     release
     end

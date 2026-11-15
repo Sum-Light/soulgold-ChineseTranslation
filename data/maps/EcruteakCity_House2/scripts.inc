@@ -2,29 +2,29 @@ EcruteakCity_House2_MapScripts::
 	.byte 0
 
 Ecruteak_Text_ItemfinderAdventure:
-	.string "Ah. You're on an adventure with\n"
-	.string "your Pokémon?\p"
-	.string "Well, what's an adventure without\n"
-	.string "treasure hunting?\p"
-	.string "Am I right, or am I right?$"
+	.string "哦。你在和宝可梦\n一起冒险？\p那么，冒险怎么能少了\n寻宝呢？\p我说得对吧？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Ecruteak_Text_ItemfinderTrueSpirit:
-	.string "Good! You understand the true\n"
-	.string "spirit of adventure.\p"
-	.string "I like that! Take this with you.$"
+	.string "好！你懂冒险的\n真正精神。\p我喜欢！这个拿去用吧。$"
+	.string ""
+	.string ""
 
 Ecruteak_Text_ItemfinderExplanation:
-	.string "There are many items lying about\n"
-	.string "that aren't obvious.\p"
-	.string "Use Itemfinder to check if there\n"
-	.string "is an item on the ground near you.\p"
-	.string "It doesn't show the exact spot,\n"
-	.string "so you'll have to look yourself.\p"
-	.string "Oh yeah--I heard there are items\n"
-	.string "in Ecruteak's Burned Tower.$"
+	.string "地上散落着很多\n一眼看不出的道具。\p用探宝器就能查出身边\n地上有没有道具。\p它不会指出确切位置，\n还得你自己找。\p对了，听说圆朱的烧焦塔里\n也有道具。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Ecruteak_Text_ItemfinderToEachHisOwn:
-	.string "Oh… To each his own, I suppose…$"
+	.string "哦……大概是\n人各有志吧……$"
 
 EcruteakCity_House2_EventScript_ItemFinderMan::
 	lock
@@ -55,30 +55,30 @@ EcruteakCity_House2_EventScript_Book3::
 	end
 
 Ecruteak_Text_ItemFinderMan::
-	.string "Ecruteak is a very old city.\n"
-	.string "Many generations passed down\l"
-	.string "their history in books like these.$"
+	.string "圆朱是座非常古老的城市。\n一代代人靠着这样的书\l把历史传了下来。$"
+	.string ""
+	.string ""
 
 Ecruteak_Text_HistoryBook:
-	.string "History Of Ecruteak\p"
-	.string "Want to read it?$"
+	.string "圆朱的历史\p要读读看吗？$"
+	.string ""
 
 Ecruteak_Text_TwoTowers:
-	.string "In Ecruteak, there were two towers.\p"
-	.string "Each tower was the roost of\n"
-	.string "powerful flying Pokémon.\p"
-	.string "But one of the towers burned to\n"
-	.string "the ground.\p"
-	.string "The two Pokémon haven't been seen\n"
-	.string "since…\p"
-	.string "Keep reading?$"
+	.string "在圆朱，曾有两座塔。\p每座塔都是强大飞行\n宝可梦的栖息地。\p但其中一座塔\n被烧成了灰烬。\p那两只宝可梦\n从此再没出现过……\p要继续读下去吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Ecruteak_Text_ThreeMon:
-	.string "Ecruteak was also home to three\n"
-	.string "Pokémon that raced around the town.\p"
-	.string "They were said to have been born\n"
-	.string "of water, lightning and fire.\p"
-	.string "But they could not contain their\n"
-	.string "excessive power.\p"
-	.string "So they say the three ran like the\n"
-	.string "wind off into the grassland.$"
+	.string "圆朱也曾是三只宝可梦的故乡，\n它们绕着城镇奔跑。\p据说它们诞生自\n水、雷电和火焰。\p但它们无法抑制\n自身过剩的力量。\p于是传说这三只宝可梦\n如风一般奔向了草原。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""

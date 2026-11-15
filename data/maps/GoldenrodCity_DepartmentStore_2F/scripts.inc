@@ -35,21 +35,21 @@ GoldenrodDeptStore2_EventScript_Sign::
 	end
 
 GoldenrodDeptStore_Text_2FYoungster:
-    .string "Pokégear can store up to 25 phone\n"
-    .string "numbers.\p"
-    .string "It's hard to decide which numbers\n"
-    .string "to keep.$"
+    .string "宝可梦装置最多能存25个\n电话号码。\p要决定留下哪些号码\n可真难。$"
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodDeptStore_Text_2FCooltrainerF:
-    .string "I got my Deino at the Game Corner.\p"
-    .string "Now it's my best partner.$"
+    .string "我的单首龙是在游戏城\n得到的。\p现在它是我最好的\n伙伴。$"
+    .string ""
 
 GoldenrodDeptStore_Text_2FGentleman:
-    .string "This Dept.Store makes me realize\n"
-    .string "that Goldenrod is a big city.\p"
-    .string "The selection here is unmatched\n"
-    .string "anywhere else.$"
+    .string "这家百货店让我真切感到\n满金市真是座大城市。\p这里的商品之丰富，\n别处根本比不了。$"
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodDeptStore_Text_2FDirectory:
-    .string "Your Travel Companion\p"
-    .string "2F Trainer's Market$"
+    .string "旅行的好帮手\p2楼　训练家超市$"
+    .string ""

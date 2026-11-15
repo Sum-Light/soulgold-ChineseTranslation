@@ -23,16 +23,14 @@ mapscripts GoldenrodBattleAracdeLobby_MapScripts {
 
 script GoldenrodArcadeLobby_Rocker {
 	lock
-	msgbox("These machines have to be rigged!
-			There's no way I just lost it all!")
+	msgbox("这些机器肯定动了手脚！\n我怎么可能一下子全输光！")
 	release
 	end
 }
 
 script GoldenrodArcadeLobby_Oldman {
 	lock
-	msgbox("Hah! Another win! I'll get to buy my
-			daughter something nice this weekend!")
+	msgbox("哈哈！又赢了一局！\n这周末能给女儿买点好东西！")
 
 	release
 	end
@@ -40,18 +38,17 @@ script GoldenrodArcadeLobby_Oldman {
 
 script GoldenrodArcadeLobby_Battlegirl {
 	lock
-	msgbox("RAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH!
-			JUST ONE MORE WIN AND I'LL STOP!")
+	msgbox("啊啊啊啊啊啊啊啊啊啊啊啊！\n再赢一局我就收手！")
 	release
 	end
 }
 
 script GoldenrodArcadeLobby_Shop {
 	lock
-	msgbox("Welcome.")
+	msgbox("欢迎光临。")
 	waitmessage
 	pokemart(GoldenrodArcade_Shop)
-	msgbox("Pleasure doing business.")
+	msgbox("欢迎下次再来。")
 	release
 	end
 }
@@ -71,72 +68,46 @@ mart GoldenrodArcade_Shop {
 }
 
 script GoldenrodArcade_Queue2 {
-	msgbox("I can't wait to see the next battle
-			from the front-row seats!", MSGBOX_NPC)
+	msgbox("我都等不及想在前排\n看下一场对战了！", MSGBOX_NPC)
 }
 
 script GoldenrodArcade_Queue3 {
-	msgbox("Hey! No shoving! I was here first!", MSGBOX_NPC)
+	msgbox("喂！别推！是我先来的！", MSGBOX_NPC)
 }
 
 script GoldenrodArcade_Queue4 {
-	msgbox("Is this the Goldenrod Casino? I think
-			I'm a little lost...", MSGBOX_NPC)
+	msgbox("这里是满金游戏城吗？\n我好像有点迷路了……", MSGBOX_NPC)
 }
 
 script ArcadeLobby_GameMachine {
-	msgbox("Bright flashes and vivid pictures are
-			flashing across the screen. Better not
-			try...", MSGBOX_NPC)
+	msgbox("屏幕上刺眼的光和画面不断\n闪烁，看得人眼花。\l还是别碰了……", MSGBOX_NPC)
 }
 
 script MagernaKeyBurglar {
 	lock
 	faceplayer
 	if (flag(FLAG_GOT_MAGERNA_KEY)) {
-		msgbox("You can use the key to access the top 
-				floor of Goldenrod apartment building.")
-		msgbox("As for me, I'm rich beyond belief 
-				now! Good bye ice soup, hello gravlax!")
+		msgbox("用这把钥匙就能进入
+				满金天空公寓的顶层。")
+		msgbox("至于我嘛，现在已经\n富得流油啦！\l再见了冰汤，你好腌鲑鱼！")
 		release
 		end
 	}
 	if (!flag(FLAG_GOT_MAGERNA_KEY_INTRODONE)) {
-		msgbox("Hey there champ, may I interest
-			you in some special wares that
-			may or may not have been legally
-			acquired?
-			
-			For example, this key to the top
-			floor apartment residence in the
-			Goldenrod apartment building!
-			
-			Who knows what kind of riches are
-			available for the taking up there?
-			
-			I just need you to do me a tiny
-			favour and it could be yours for
-			the taking.")
+		msgbox("嘿，冠军，有没有兴趣看看\n一些来路可能不太合法的\l特别货品？\p比如说，这把能打开\n满金天空公寓顶层住户\l大门的钥匙！\p谁知道上面有多少财宝\n等着人去拿呢？\p你只要帮我一个小忙，\n它说不定就是你的了。")
 		setflag(FLAG_GOT_MAGERNA_KEY_INTRODONE)
 	}
-	msgbox("I need you to win at least 25 battles
-			in the Rocket Arcade battles, my
-			bets are riding on you winning
-			me a fortune!")
+	msgbox("我要你在火箭游戏城的\n对战里至少赢下25场，\l我的赌注可全押在你\l身上，就等着你替我\l赢一大笔了！")
 
 	specialvar(VAR_RESULT, GetRocketArcadeWins)
 	if (var(VAR_RESULT) >= 25) {
-		msgbox("You... You did it!
-		
-				I can't thank you enough. Here, it's
-				yours as promised.")
+		msgbox("你……你真的做到了！\p太感谢你了。来，这是\n说好的东西。")
 		playfanfare(MUS_HG_OBTAIN_KEY_ITEM)
-		msgbox("{PLAYER} obtained Apartment Key!")
+		msgbox("{PLAYER}得到了公寓钥匙！")
 		waitfanfare
-		msgbox("You can use it to access the top floor
-				of Goldenrod apartment building.")
-		msgbox("As for me, it's time to say goodbye
-				to ice soup!")
+		msgbox("用它就能进入满金天空
+				公寓的顶层。")
+		msgbox("至于我嘛，也该跟冰汤\n说再见了！")
 		setflag(FLAG_GOT_MAGERNA_KEY)
 		release
 		end

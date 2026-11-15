@@ -71,69 +71,69 @@ CianwoodCity_EventScript_KirkReturnedShuckie::
 	end
 
 CianwoodCity_Text_ManiacAskShuckle:
-	.string "I, I'm in shock!\p"
-	.string "A guy about your age with piercing\n"
-	.string "eyes and long hair came in.\p"
-	.string "He scared me into giving him my\n"
-	.string "prized Pokémon!\p"
-	.string "I still have one left, but what if\n"
-	.string "he comes back?\p"
-	.string "You look strong. Could you look\n"
-	.string "after my Pokémon for a while?$"
+	.string "我、我吓坏了！\p来了一个和你差不多年纪、\n目光锐利、留着长发的家伙。\p他把我吓得\n把心爱的宝可梦交了出去！\p我还剩一只，可万一\n他再回来怎么办？\p你看起来很厉害。能帮我\n照顾一阵子宝可梦吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CianwoodCity_Text_ManiacTakeCareShuckle:
-	.string "Oh, thank you!\p"
-	.string "Take good care of it, please!$"
+	.string "哦，谢谢你！\p请好好照顾它！$"
+	.string ""
 
 CianwoodCity_Text_ManiacGotShuckle:
-	.string "{PLAYER} received a Pokémon.$"
+	.string "{PLAYER}得到了一只宝可梦。$"
 
 CianwoodCity_Text_ManiacPartyFull:
-	.string "Your Pokémon party is full.$"
+	.string "你的宝可梦队伍已经满了。$"
 
 CianwoodCity_Text_ManiacIfHeComesBack:
-	.string "Oh, no… What'll I do if he comes\n"
-	.string "back?$"
+	.string "哎呀……要是他再回来，\n我可怎么办？$"
+	.string ""
 
 CianwoodCity_Text_ManiacHowsdoing:
-	.string "Hi! How's my Pokémon?$"
+	.string "嗨！我的宝可梦还好吗？$"
 
 CianwoodCity_Text_ManiacAskReturn:
-	.string "Hi! How's my Pokémon?\p"
-	.string "I think I'm safe now, so may I\n"
-	.string "have it back?$"
+	.string "嗨！我的宝可梦还好吗？\p我想现在应该没事了，能把\n它还给我吗？$"
+	.string ""
+	.string ""
 
 CianwoodCity_Text_ManiacThankYou:
-	.string "Thank you!$"
+	.string "谢谢你！$"
 
 CianwoodCity_Text_ManiacShuckleNotThere:
-	.string "Hey, you don't have my Pokémon\n"
-	.string "with you.$"
+	.string "喂，我的宝可梦\n不在你身上啊。$"
+	.string ""
 
 CianwoodCity_Text_ManiacShuckleLikesYou:
-	.string "My Pokémon has come to like you.\p"
-	.string "All right, you should keep it.\p"
-	.string "But promise to be good to it!$"
+	.string "我的宝可梦喜欢上你了。\p好吧，就送给你了。\p但要答应我，\n一定要好好待它！$"
+	.string ""
+	.string ""
 
 CianwoodCity_Text_ManiacRobbed:
-	.string "Huh, something's not right.$"
+	.string "嗯？有点不对劲。$"
 
 CianwoodCity_Text_ManiacRobbed2:
-	.string "Oh, no, no… That's the same as\n"
-	.string "being robbed.$"
+	.string "哎呀，不行不行……那跟\n被抢走有什么两样。$"
+	.string ""
 
 CianwoodCity_Text_ManiacHappinessSpeech:
-	.string "For Pokémon, happiness is being\n"
-	.string "with a person who treats them well.$"
+	.string "对宝可梦来说，幸福就是\n和善待它的人在一起。$"
+	.string ""
 
 CianwoodCity_Text_ManiacLastMon:
-	.string "If I take my Pokémon back,\n"
-	.string "what are you going to use\n"
-	.string "in battle?$"
+	.string "要是把我的宝可梦要回去，\n你拿什么来对战？$"
+	.string ""
+	.string ""
 
 
 CianwoodCity_Text_ManiacReturnedMon:
-	.string "{PLAYER} returned Shuckie.$"
+	.string "{PLAYER}把Shuckie还了回去。$"
 
 Cianwood_Kirk::
 	lock
@@ -164,22 +164,13 @@ Cianwood_Kirk_5:
 
 
 Cianwood_Kirk_Text_0:
-	.string "Hi, how's my Pokémon doing?$"
+	.string "嗨，我的宝可梦还好吗？$"
 
 Cianwood_Kirk_Text_1:
-	.string "I, I'm in shock!\p"
-	.string "A guy about your age with piercing\n"
-	.string "eyes and long hair came in.\p"
-	.string "He scared me into giving him my\n"
-	.string "prized Pokémon!\p"
-	.string "I still have one left, but what if\n"
-	.string "he comes back?\p"
-	.string "You look strong. Could you look\n"
-	.string "after my Pokémon for a while?$"
+	.string "我、我吓坏了！\p来了一个和你差不多年纪、\n目光锐利、留着长发的家伙。\p他把我吓得\n把心爱的宝可梦交了出去！\p我还剩一只，可万一\n他再回来怎么办？\p你看起来很厉害。能帮我\n照顾一阵子宝可梦吗？$"
 
 Cianwood_Kirk_Text_2:
-	.string "Oh, thank you!\p"
-	.string "Take good care of it, please!$"
+	.string "哦，谢谢你！\p请好好照顾它！$"
 
 Cianwood_Kirk_Text_3:
-	.string "Oh, what am I going to do...$"
+	.string "哎呀，我该怎么办……$"

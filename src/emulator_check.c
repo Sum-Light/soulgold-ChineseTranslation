@@ -114,14 +114,14 @@ static const u16 sTextBoxBottomPal[] = {
 static const u8 sTextColors_ErrorMsg[] = {TEXT_COLOR_TRANSPARENT, 1, 2};
 static const u8 sTextColors_Bottom[] = {TEXT_COLOR_TRANSPARENT, 1, 2};
 static const u8 sText_ErrorMessage[] = _(
-    "Inaccurate emulator detected!\nPlease use mGBA or one of these:"
+    "检测到精度不足的模拟器！\n请使用mGBA或以下模拟器之一："
     VIABLE_MGBA_RA_IOS
     VIABLE_MGBA_MANIC_IOS
     VIABLE_MGBA_RA_ANDROID
     VIABLE_LEMUROID
     VIABLE_PIZZABOY
 );
-static const u8 sText_BottomMessage[] = _("Press START to continue.");
+static const u8 sText_BottomMessage[] = _("按START键继续。");
 
 static const u32 sErrorScreen_Gfx[] = INCBIN_U32( "graphics/intro/emulator_check/background.4bpp.smol");
 static const u32 sErrorScreen_Map[] = INCBIN_U32( "graphics/intro/emulator_check/background.bin.smolTM");

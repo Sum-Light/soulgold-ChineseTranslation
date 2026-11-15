@@ -26,23 +26,23 @@ VermilionPokeCenter_EventScript_Bugcatcher::
 	end
 
 VermilionCity_PokemonCenter1F_Text_FishingGuru:
-	.string "A sleeping Pokémon is lying in\n"
-	.string "front of Diglett's Cave.\p"
-	.string "It's a fantastic opportunity to\n"
-	.string "get it, but how do you wake it up?$"
+	.string "地鼠洞穴前面\n躺着一只睡着的宝可梦。\p这是收服它的好机会，\n可是要怎么弄醒它呢？$"
+	.string ""
+	.string ""
+	.string ""
 
 VermilionCity_PokemonCenter1F_Text_FishingGuru_FoughtSnorlax:
-	.string "There used to be a sleeping\n"
-	.string "Pokémon lying in front of\l"
-	.string "Diglett's Cave.\p"
-	.string "But it seems to have disappeared.$"
+	.string "以前有只宝可梦\n睡在地鼠洞穴的\l入口前面。\p可是现在好像\n不见了。$"
+	.string ""
+	.string ""
+	.string ""
 
 VermilionCity_PokemonCenter1F_Text_Sailor:
-	.string "The Fast Ship is a great place to\n"
-	.string "meet and battle trainers.$"
+	.string "高速船上很适合\n和训练家相遇、对战。$"
+	.string ""
 
 VermilionCity_PokemonCenter1F_Text_BugCatcher:
-	.string "Oh? You have some Badges I've\n"
-	.string "never seen before.\p"
-	.string "Oh, I get it. You got them in\n"
-	.string "Johto.$"
+	.string "哦？你有几枚我\n从没见过的徽章？\p哦，我明白了。\n你是在城都得到的吧。$"
+	.string ""
+	.string ""
+	.string ""

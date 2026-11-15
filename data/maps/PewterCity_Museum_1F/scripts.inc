@@ -42,34 +42,34 @@ PewterCity_Museum_1F_EventScript_Bones::
 	end
 
 PewterCity_Museum_1F_Text_Recptionist:
-	.string "Welcome!\p"
-	.string "Just to let you know, all the large\n"
-	.string "specimens have been taken to the\l"
-	.string "other museums for display.\p"
-	.string "So for now, admission is free of\n"
-	.string "charge!\p"
-	.string "Please go ahead.$"
+	.string "欢迎光临！\p先说一声，所有大型标本\n都已经送到别的博物馆\l去展出了。\p所以现在入场免费！\p请进吧。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 PewterCity_Museum_1F_Text_FossilWoman:
-	.string "You must be a strong trainer.\p"
-	.string "We don't have much use for the\n"
-	.string "fossils on the counter over there.\p"
-	.string "A strange man with silver hair\n"
-	.string "dropped a ton of them off here.\p"
-	.string "Go ahead and take them if you like.$"
+	.string "你一定是位很强的训练家。\p那边柜台上的化石我们\n用不太上。\p有个银发的奇怪男人往这儿\n丢下了一大堆。\p你想要的话，尽管拿走吧。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 PewterCity_Museum_1F_Text_FossilWomanAfter:
-	.string "We often share research with the\n"
-	.string "Ruins Of Alph researchers.\p"
-	.string "We even share fossils with them\n"
-	.string "through the PC!$"
+	.string "我们常和阿露福遗迹的\n研究员交流研究。\p连化石都会通过电脑\n和他们交换呢！$"
+	.string ""
+	.string ""
+	.string ""
 
 PewterCity_Museum_1F_Text_Oldman:
-	.string "I should be grateful for my long\n"
-	.string "life.\p"
-	.string "Never did I think I would get to\n"
-	.string "see the bones of a dragon!$"
+	.string "能活这么久，我该知足了。\p我从没想过这辈子能亲眼\n见到龙的骨头！$"
+	.string ""
+	.string ""
+	.string ""
 
 PewterCity_Museum_1F_Text_Bones:
-	.string "Bones of an ancient dragon\n"
-	.string "Pokémon.$"
+	.string "古代龙属性宝可梦的骨头。$"
+	.string ""

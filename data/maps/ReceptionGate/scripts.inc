@@ -18,13 +18,13 @@ ReceptionGate_EventScript_Janine::
     end
 
 ReceptionGate_Text_Janine:
-    .string "Jaine: I'm on the way to my dad's\n"
-    .string "house to give him his lunch.\p"
-    .string "The Elite Four has no time to rest\n"
-    .string "day or night. It's such hard work,\l"
-    .string "you know?\p"
-    .string "If you're ready for another battle,\n"
-    .string "I'll be at the Dojo later.$"
+    .string "阿杏：我正要去父亲家里\n给他送午饭。\p四天王不分昼夜\n都没空休息。真是\l辛苦的差事啊。\p你要是还想再战一场，\n回头来道场找我。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 
 ReceptionGate_EventScript_Officer::
@@ -111,48 +111,48 @@ ReceptionGate_EventScript_KantoGuard::
     end
 
 VictoryRoadGate_Text_VisitElm:
-    .string "You're {PLAYER}, right?\p"
-    .string "Prof. Elm has been trying to\n"
-    .string "reach you.\p"
-    .string "Go see him at his Lab in\n"
-    .string "New Bark Town!$"
+    .string "你是{PLAYER}吧？\p空木博士一直在\n想办法联系你。\p请去若叶镇的\n研究所找他！$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 VictoryRoadGate_Text_VisitKimonoGirls:
-    .string "One of the Kimono Girls asked me\n"
-    .string "to relay a message.\p"
-    .string "They're waiting for you at the\n"
-    .string "Ecruteak Dance Theater.$"
+    .string "一位和服女孩让我\n给你带个话。\p她们在圆朱舞场\n等你。$"
+    .string ""
+    .string ""
+    .string ""
 
 VictoryRoadGate_Text_VisitWhirlIslands:
-    .string "The Kimono Girls traced the\n"
-    .string "Legendary Pokémon to the\l"
-    .string "Whirl Islands.\p"
-    .string "Head there before challenging the\n"
-    .string "Pokémon League.$"
+    .string "和服女孩追踪传说的宝可梦，\n一路追到了\l漩涡岛。\p请在挑战宝可梦联盟之前\n先去那里。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 VictoryRoadGate_Text_VisitTinTower:
-    .string "The Kimono Girls traced the\n"
-    .string "Legendary Pokémon to the\l"
-    .string "Tin Tower.\p"
-    .string "Head there before challenging the\n"
-    .string "Pokémon League.$"
+    .string "和服女孩追踪传说的宝可梦，\n一路追到了\l铃铛塔。\p请在挑战宝可梦联盟之前\n先去那里。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 VictoryRoadGate_Text_NotEnoughBadges:
-    .string "You don't have all the Gym Badges\n"
-    .string "of Johto.\p"
-    .string "I'm sorry, but I can't let you go\n"
-    .string "through.$"
+    .string "你还没有集齐城都地区的\n所有道馆徽章。\p很抱歉，我不能\n放你过去。$"
+    .string ""
+    .string ""
+    .string ""
 
 VictoryRoadGate_Text_EightBadges:
-    .string "Oh! The eight Badges of Johto!\p"
-    .string "Please, go right on through!$"
+    .string "哦！城都地区的八枚徽章！\p请吧，您可以直接通过！$"
+    .string ""
 
 VictoryRoadGate_Text_LeftBlackBelt:
-    .string "This way leads to Mt.Silver.\p"
-    .string "You'll see scary-strong Pokémon out\n"
-    .string "there.$"
+    .string "这边通往白银山。\p山那边有强得\n吓人的宝可梦。$"
+    .string ""
+    .string ""
 
 VictoryRoadGate_Text_RightBlackBelt:
-    .string "Off to the Pokémon League, are you?\p"
-    .string "The Elite Four are so strong it's\n"
-    .string "scary, and they're ready for you!$"
+    .string "要去宝可梦联盟吗？\p四天王强得吓人，\n他们可都等着你呢！$"
+    .string ""
+    .string ""

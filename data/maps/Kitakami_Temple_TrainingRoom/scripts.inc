@@ -27,16 +27,10 @@ dojoTrainer::
 
 
 dojoFexpert_Text_0:
-	.string "Training yourself mentally and \n"
-	.string "physically is as important as \l"
-	.string "training your Pokémon. \p"
-	.string "Tough challenges cannot be faced \n"
-	.string "with weak body and mind.$"
+	.string "锻炼身心与锻炼宝可梦\n同样重要。\p身心柔弱，就无法\n面对艰难的挑战。$"
 
 dojoFexpert_Text_1:
-	.string "Perhaps this will help you focus on your\n"
-	.string "training.$"
+	.string "这个或许能帮您集中精神修行。$"
 
 dojoTrainer_Text_0:
-	.string "The trainee is meditating, \n"
-	.string "it would be rude to disturb them.$"
+	.string "弟子正在打坐，\n打扰他未免失礼。$"

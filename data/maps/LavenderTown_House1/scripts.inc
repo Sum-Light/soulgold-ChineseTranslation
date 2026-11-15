@@ -22,19 +22,19 @@ LavenderTown_House1_EventScript_Marowak::
 	end
 
 LavenderTown_House1_Text_Girl:
-	.string "Can you believe it?\p"
-	.string "Some people get bored with taking\n"
-	.string "care of Pokémon.\p"
-	.string "Granpda takes in such poor homeless\n"
-	.string "Pokémon and takes care of them.$"
+	.string "你能相信吗？\p居然有人会照顾宝可梦\n照顾到腻烦。\p爷爷收留了那些无家可归的\n可怜宝可梦，照顾它们。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 LavenderTown_House1_Text_Guy:
-	.string "Mr. Fuji does live here but he's\n"
-	.string "away now. He should be at the\l"
-	.string "Soul House.$"
+	.string "富士老人确实住在这里，不过\n他现在出去了。他应该在\l灵魂之家。$"
+	.string ""
+	.string ""
 LavenderTown_House1_Text_Marowak:
 	.string ".............................$"
 
 LavenderTown_House1_Text_Marowak2:
-	.string "The Marowak is quiet, though it\n"
-	.string "appears quite happy.$"
+	.string "嘎啦嘎啦很安静，不过看起来\n相当开心。$"
+	.string ""
 

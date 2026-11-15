@@ -8,12 +8,9 @@ script TohjoPassGuard {
     lock
     faceplayer
     playmoncry(SPECIES_RHYPERIOR, CRY_MODE_NORMAL)
-    msgbox("Rhyperior: Grr...")
+    msgbox("超甲狂犀：呜……")
     waitmoncry
-    msgbox("The Rhyperior is guarding the entrance
-            with a menacing presence.
-            
-            You decide to come back another time.")
+    msgbox("超甲狂犀守在山洞入口，\n气势逼人。\p你决定改天再来。")
     release
     end
 }

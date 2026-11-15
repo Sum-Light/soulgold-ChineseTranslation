@@ -113,71 +113,71 @@ LakeOfRage_House2_EventScript_FisherSatisfied::
 	end
 
 LakeOfRage_House2_Text_LakeHistory:
-    .string "Lake Of Rage is actually a crater\n"
-    .string "made by rampaging Gyarados.\p"
-    .string "The crater filled up with rainwater\n"
-    .string "and the Lake was formed.\p"
-    .string "That's the story passed on from my\n"
-    .string "Grandpa's great-great-grandpa.\p"
-    .string "It used to be that you could catch\n"
-    .string "lively Magikarp there, but…\p"
-    .string "I don't understand what's happening.$"
+    .string "愤怒之湖其实是暴鲤龙\n发狂时留下的坑。\p坑里积蓄了雨水，\n就形成了这座湖。\p这是从我爷爷的曾祖父那代\n传下来的故事。\p以前还能在这里钓到\n活蹦乱跳的鲤鱼王，可是……\p我不明白到底发生了什么。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 LakeOfRage_House2_Text_MenInBlack:
-    .string "The Lake hasn't been normal since\n"
-    .string "those men wearing black arrived.$"
+    .string "自从那些穿黑衣的男人来了\n以后，湖就不太正常了。$"
+    .string ""
 
 LakeOfRage_House2_Text_LastMon:
-    .string "Well don't let me take your last\n"
-    .string "Pokémon!$"
+    .string "哎，可别让我拿走你最后\n一只宝可梦啊！$"
+    .string ""
 
 LakeOfRage_House2_Text_WorldsLargest:
-    .string "Lake Of Rage is back to normal.\p"
-    .string "The Magikarp have returned.\p"
-    .string "I may yet realize my dream of own-\n"
-    .string "ing the world's largest Magikarp.\p"
-    .string "In fact... I'll pay you ¥2000 for\n"
-	.string "every Magikarp you give me, and\l"
-	.string "¥100,000 for a Huge Magikarp!$"
+    .string "愤怒之湖恢复正常了。\p鲤鱼王也都回来了。\p我还说不定能实现梦想，\n拥有世界上最大的鲤鱼王。\p其实，你每给我一条鲤鱼王，\n我就付你¥2000，\l大号的鲤鱼王付你¥100,000！$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+	.string ""
+	.string ""
 
 LakeOfRage_House2_Text_ForMe:
-	.string "So... Do you have a Magikarp for\n"
-	.string "me?$"
+	.string "那么……你有鲤鱼王\n要给我吗？$"
+	.string ""
 
 LakeOfRage_House2_Text_HaveMagikarp:
-    .string "Ah, you have a Magikarp! Let's\n"
-    .string "see how big that baby is.$"
+    .string "啊，你有鲤鱼王！让我看看\n那家伙有多大。$"
+    .string ""
 
 LakeOfRage_House2_Text_BigPayout:
-    .string "Wow! This one is outstanding!\p"
-    .string "I tip my hat to you!\p"
-    .string "Here's a little something for your\n"
-	.string "trouble.$"
+    .string "哇！这条真是极品！\p我向你脱帽致敬！\p这点小意思，就当是\n谢礼了。$"
+    .string ""
+    .string ""
+	.string ""
 
 LakeOfRage_House2_Text_Bonus:
-    .string "The record is the important thing.\p"
-    .string "Think of that as a bonus!$"
+    .string "记录才是最重要的。\p就把这个当成额外的奖励吧！$"
+    .string ""
 
 LakeOfRage_House2_Text_TooShort:
-    .string "Wow! This one is outstanding!\p"
-    .string "…I wish I could say that, but I've\n"
-    .string "seen a bigger one before.\p"
-    .string "I guess it's worth something.$"
+    .string "哇！这条真是极品！\p……我本想这么说，\n不过我见过更大的。\p我看它也就值这么点吧。$"
+    .string ""
+    .string ""
+    .string ""
 
 LakeOfRage_House2_Text_NotMagikarp:
-    .string "What? That's not a Magikarp!$"
+    .string "什么？这可不是鲤鱼王！$"
 
 LakeOfRage_House2_Text_CantAcceptEgg:
-	.string "I can't accept a Pokémon Egg.$"
+	.string "我不能收下宝可梦的蛋。$"
 
 LakeOfRage_House2_Text_RemoveHeldItem:
-	.string "That Magikarp is holding something.\p"
-	.string "Please take it back first.$"
+	.string "这条鲤鱼王身上带着东西。\p请你先把它取回来。$"
+	.string ""
 
 LakeOfRage_House2_Text_NoPaymentRoom:
-	.string "You can't carry the full payment.\p"
-	.string "Come back after spending some money.$"
+	.string "你带不了这么多钱。\p请先花掉一些，再回来吧。$"
+	.string ""
 
 LakeOfRage_House2_Text_Refused:
-    .string "Oh… So you didn't get one good\n"
-    .string "enough to show me? Maybe next time.$"
+    .string "哦……这么说，你没找到\n能让我满意的？那下次吧。$"
+    .string ""

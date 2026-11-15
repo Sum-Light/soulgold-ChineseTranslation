@@ -52,105 +52,105 @@ Route44_EventScript_Sign2::
 	end
 
 Route44_Text_FisherWilton1Seen:
-    .string "Aack!\p"
-    .string "You made me lose a Poliwag!\n"
-    .string "What are you going to do about it?$"
+    .string "啊！\p你害我跑掉了一只蚊香蝌蚪！\n你打算怎么赔？$"
+    .string ""
+    .string ""
 
 Route44_Text_FisherWilton1Beaten:
-    .string "Just forget about it.$"
+    .string "算了，别提了。$"
 
 Route44_Text_FisherWiltonHugePoliwag:
-    .string "That Poliwag that got away…\n"
-    .string "it was huge.\p"
-    .string "I swear it must've been\n"
-    .string "16 feet long!$"
+    .string "跑掉的那只蚊香蝌蚪……\n个头可大了。\p我发誓，它足有\n16英尺长！$"
+    .string ""
+    .string ""
+    .string ""
 
 Route44_Text_FisherEdgarSeen:
-    .string "I fish until I can't anymore.\p"
-    .string "I also battle until I drop.\p"
-    .string "That's my relationship with my\n"
-    .string "Pokémon.$"
+    .string "我会一直钓鱼，直到钓不动。\p我也会一直对战，直到打不动。\p这就是我和宝可梦的关系。$"
+    .string ""
+    .string ""
+    .string ""
 
 Route44_Text_FisherEdgarBeaten:
-    .string "Hmmmm… This isn't right.$"
+    .string "唔……这样不对。$"
 
 Route44_Text_FisherEdgarAfter:
-    .string "That's 100 wins to 101 losses.\p"
-    .string "I won't battle again for a while.$"
+    .string "这样就100胜101败了。\p暂时不打了。$"
+    .string ""
 
 Route44_Text_BirdKeeperVance1Seen:
-    .string "Do you know about the legendary\n"
-    .string "bird Pokémon?$"
+    .string "你知道传说的鸟\n宝可梦吗？$"
+    .string ""
 
 Route44_Text_BirdKeeperVance1Beaten:
-    .string "Whew! You're hot stuff.$"
+    .string "呼！你真有两下子。$"
 
 Route44_Text_BirdKeeperVanceBirds:
-    .string "Articuno, Zapdos and Moltres are\n"
-    .string "the three legendary bird Pokémon.\p"
-    .string "I heard there are other legendary\n"
-    .string "birds, though.$"
+    .string "急冻鸟、闪电鸟、火焰鸟，\n是传说的三只鸟宝可梦。\p不过听说还有别的\n传说的鸟宝可梦。$"
+    .string ""
+    .string ""
+    .string ""
 
 Route44_Text_PsychicPhilSeen:
-    .string "I'm gonna win, for sure!$"
+    .string "我一定会赢！$"
 
 Route44_Text_PsychicPhilBeaten:
-    .string "Arrgh… That's a shocking loss…$"
+    .string "唉……输得好让人震惊……$"
 
 Route44_Text_PsychicPhilAfter:
-    .string "It's important to have conviction\n"
-    .string "on your side.$"
+    .string "人要对自己的信念\n有信心，这很重要。$"
+    .string ""
 
 Route44_Text_PokemaniacZachSeen:
-    .string "I'll do anything to get my hands\n"
-    .string "on rare Pokémon!$"
+    .string "为了弄到稀有的宝可梦，\n我什么都肯做！$"
+    .string ""
 
 Route44_Text_PokemaniacZachBeaten:
-    .string "Oooh, your Pokémon are so\n"
-    .string "appealing.$"
+    .string "哦哦，你的宝可梦\n真是迷人。$"
+    .string ""
 
 Route44_Text_PokemaniacZachAfter:
-    .string "If a Pokémon has different colors\n"
-    .string "from usual, it's more valuable.\p"
-    .string "What? You mean that's not true?$"
+    .string "宝可梦的颜色要是\n和平时不同，就更值钱了。\p什么？你说不是这样？$"
+    .string ""
+    .string ""
 
 Route44_Text_CooltrainermAllenSeen:
-    .string "I can tell you're a good trainer\n"
-    .string "by looking at you.\p"
-    .string "I'm good at Pokémon, and I can\n"
-    .string "see that you are too.$"
+    .string "看你那样子就知道，\n你是个好训练家。\p我宝可梦很在行，\n一眼就看出你也是。$"
+    .string ""
+    .string ""
+    .string ""
 
 Route44_Text_CooltrainermAllenBeaten:
-    .string "Tch! It's a total loss on my part.$"
+    .string "啧！我输得彻彻底底。$"
 
 Route44_Text_CooltrainermAllenAfter:
-    .string "Wow. You have a lot of Badges.\p"
-    .string "No wonder you're so tough.\p"
-    .string "I wonder if Ecruteak Gym's Morty\n"
-    .string "is still in training?\p"
-    .string "He really hammered me.$"
+    .string "哇，你有好多徽章。\p难怪你这么强。\p缘朱市道馆的松叶\n现在还在修行吗？\p我可被他好好教训了一顿。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 Route44_Text_CooltrainerfCybilSeen:
-    .string "You look strong.\p"
-    .string "Good trainers seek tough\n"
-    .string "opponents instinctively.$"
+    .string "你看起来很强。\p好训练家会本能地\n寻找强大的对手。$"
+    .string ""
+    .string ""
 
 Route44_Text_CooltrainerfCybilBeaten:
-    .string "Nope! This won't do at all.$"
+    .string "不行！这样根本不行。$"
 
 Route44_Text_CooltrainerfCybilAfter:
-    .string "We all get better by experiencing\n"
-    .string "many battles.\p"
-    .string "I battled a lot to become what I\n"
-    .string "am today--an elite.$"
+    .string "经历了形形色色的对战，\n大家都会变强。\p我打了很多场对战，才成了\n今天这样的精英。$"
+    .string ""
+    .string ""
+    .string ""
 
 Route44_Text_Sign1:
-    .string "Route 44\n"
-    .string "Ice Path Ahead$"
+    .string "44号道路\n前方是冰雪小径$"
+    .string ""
 
 Route44_Text_Sign2:
-    .string "Route 44\p"
-    .string "Mahogany Town - Blackthorn City$"
+    .string "44号道路\p卡吉镇——烟墨市$"
+    .string ""
 
 Route44_HiddenGrotto::
 	msgbox Route44_HiddenGrotto_Text_0, MSGBOX_YESNO
@@ -167,5 +167,4 @@ Route44_HiddenGrotto_2:
 
 
 Route44_HiddenGrotto_Text_0:
-	.string "There seems to be a path behind the\n"
-	.string "trees. Enter?$"
+	.string "树丛后面好像有一条小路。\n要进去吗？$"

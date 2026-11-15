@@ -17,15 +17,15 @@ PewterCity_PokemonCenter_EventScript_BugCatcher::
 	end
 
 PewterCity_PokemonCenter1F_Text_Teacher:
-	.string "…Yeah, and the Gym in Cinnabar's gone.\p"
-	.string "I was really amazed.\p"
-	.string "…Yes? I'm on the phone. Go away!$"
+	.string "……对，红莲的道馆也没了。\p我真是吓了一跳。\p……啊？我在打电话呢。\n走开啦！$"
+	.string ""
+	.string ""
 
 PewterCity_PokemonCenter1F_Text_Jigglypuff:
-	.string "Jigglypuff: Puu pupuu.$"
+	.string "胖丁：噗——噗噗。$"
 
 PewterCity_PokemonCenter1F_Text_BugCatcher:
-	.string "Most Pokémon get drowsy if they hear a\n"
-	.string "Jigglypuff singing.\p"
-	.string "There are several moves that can be\n"
-	.string "used only while a Pokémon is asleep.$"
+	.string "大多数宝可梦只要听到\n胖丁唱歌，就会犯困。\p有些招式只有在宝可梦\n睡着时才能用。$"
+	.string ""
+	.string ""
+	.string ""

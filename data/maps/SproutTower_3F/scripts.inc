@@ -166,98 +166,98 @@ SproutTower_3F_Movement_EscapeRope:
 	step_end
 
 SproutTower_Text_ElderLecturesRival:
-	.string "Elder: You are indeed skilled\n"
-	.string "as a trainer.\p"
-	.string "As promised, here is your HM.\p"
-	.string "But let me say this: You should\n"
-	.string "treat your Pokémon better.\p"
-	.string "The way you battle is far too\n"
-	.string "harsh.\p"
-	.string "Pokémon are not tools of war…$"
+	.string "长老：你的实力\n确实称得上训练家。\p按照约定，\n这个秘传学习器给你。\p不过我要说一句：\n你该对宝可梦更好一点。\p你的对战方式\n实在太过粗暴了。\p宝可梦不是战争的工具……$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SproutTower_Text_RivalOnlyCaresStrong:
-	.string "…\n"
-	.string "…Humph!\p"
-	.string "He claims to be the Elder but\n"
-	.string "he's weak.\p"
-	.string "It stands to reason.\p"
-	.string "I'd never lose to fools who babble\n"
-	.string "about being nice to Pokémon.\p"
-	.string "I only care about strong\n"
-	.string "Pokémon that can win.\p"
-	.string "I really couldn't care less\n"
-	.string "about weak Pokémon.$"
+	.string "……\n……哼！\p自称长老，\n却这么弱。\p这也难怪。\p我可不会输给那些\n整天念叨对宝可梦要温柔的蠢货。\p我只在乎能赢的\n强大的宝可梦。\p弱小的宝可梦，\n我根本不屑一顾。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SproutTower_Text_RivalUsedEscapeRope:
-	.string "{RIVAL} used an Escape Rope!$"
+	.string "{RIVAL}使用了离洞绳！$"
 
 SproutTower_Text_SageLi_Seen:
-	.string "So good of you to come here!\p"
-	.string "Sprout Tower is a place of\n"
-	.string "training.\p"
-	.string "People and Pokémon test their\n"
-	.string "bonds to build a bright future\l"
-	.string "together.\p"
-	.string "I am the final test.\p"
-	.string "Allow me to check the ties\n"
-	.string "between your Pokémon and you!$"
+	.string "你能来到这里，\n真是太好了！\p喇叭芽之塔是修行之地。\p人与宝可梦在此考验羁绊，\n为的是共同开创\l光明的未来。\p我就是最后的试炼。\p让我来检验一下\n你和宝可梦之间的羁绊吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SproutTower_Text_SageLi_Beaten:
-	.string "Ah, excellent!$"
+	.string "嗯嗯，漂亮！$"
 
 SproutTower_Text_SageLi_TakeFlash:
-	.string "You and your Pokémon should\n"
-	.string "have no problem using this move.\p"
-	.string "Take this Flash HM.$"
+	.string "你和你的宝可梦\n用这招应该没问题。\p这枚闪光的秘传学习器，拿去吧。$"
+	.string ""
+	.string ""
 
 SproutTower_Text_SageLi_FlashExplain:
-	.string "Flash illuminates even the\n"
-	.string "darkest of all places.\p"
-	.string "But to use it out of battle, you\n"
-	.string "need the Badge from Violet's Gym.$"
+	.string "闪光连最黑暗的地方\n也能照亮。\p但要在对战外使用，\n需要桔梗道馆的徽章。$"
+	.string ""
+	.string ""
+	.string ""
 
 SproutTower_Text_SageLi_AfterBattle:
-	.string "I hope you learn and grow from\n"
-	.string "your journey.$"
+	.string "希望你在旅途中\n学习、成长。$"
+	.string ""
 
 SproutTower_Text_SageJin_Seen:
-	.string "I train to find enlightenment\n"
-	.string "in Pokémon!$"
+	.string "我通过修行，\n在宝可梦身上寻求开悟！$"
+	.string ""
 
 SproutTower_Text_SageJin_Beaten:
-	.string "My training is incomplete…$"
+	.string "我的修行还不到家……$"
 
 SproutTower_Text_SageJin_AfterBattle:
-	.string "As Pokémon grow stronger,\n"
-	.string "so does the trainer.\p"
-	.string "No, wait. As the trainer\n"
-	.string "grows stronger, so do the\l"
-	.string "Pokémon.$"
+	.string "宝可梦变强时，\n训练家也会变强。\p不，等等。\n是训练家变强时，\l宝可梦也会变强。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SproutTower_Text_SageTroy_Seen:
-	.string "Let me see how much you trust\n"
-	.string "your Pokémon.$"
+	.string "让我来见识一下，\n你有多信任你的宝可梦。$"
+	.string ""
 
 SproutTower_Text_SageTroy_Beaten:
-	.string "Yes, your trust is real!$"
+	.string "没错，你的信任是真的！$"
 
 SproutTower_Text_SageTroy_AfterBattle:
-	.string "It is not far to the Elder.$"
+	.string "离长老不远了。$"
 
 SproutTower_Text_SageNeal_Seen:
-	.string "The Elder's HM lights even\n"
-	.string "pitch-black darkness.$"
+	.string "长老给的秘传学习器，\n连一片漆黑也能照亮。$"
+	.string ""
 
 SproutTower_Text_SageNeal_Beaten:
-	.string "It is my head that is bright!$"
+	.string "发亮的是我的脑袋！$"
 
 SproutTower_Text_SageNeal_AfterBattle:
-	.string "Let there be light on your\n"
-	.string "journey.$"
+	.string "愿你的旅途\n充满光明。$"
+	.string ""
 
 SproutTower_Text_3F_Painting:
-	.string "It's a powerful painting of a\n"
-	.string "Bellsprout.$"
+	.string "是一幅很有气势的\n喇叭芽画作。$"
+	.string ""
 
 SageLiPostBadges::
 	goto_if_unset FLAG_HIDE_SPROUT_BASEMENT_GUARD, SageLiPostBadges_2
@@ -280,32 +280,16 @@ SageLiPostBadges_2:
 
 
 SageLiPostBadges_Text_0:
-	.string "{PLAYER}!\p"
-	.string "I have heard of your triumphs across\n"
-	.string "Johto!\p"
-	.string "I am overjoyed to see how far the bonds\n"
-	.string "between Trainers and Pokémon can go.\p"
-	.string "To that end, I would like to test you\n"
-	.string "once again. \p"
-	.string "This time I won't be holding back.$"
+	.string "{PLAYER}！\p我听说了你在城都地区\n立下的赫赫战功！\p我很高兴能看到训练家与宝可梦\n之间的羁绊究竟能有多深。\p为此，我想再考验你\n一次。\p这次我可不会手下留情了。$"
 
 SageLiPostBadges_Text_1:
-	.string "Prepare yourself!$"
+	.string "准备好了吗！$"
 
 SageLiPostBadges_Text_2:
-	.string "Future generations shine brighter than\n"
-	.string "ever! Walk this path, young Trainer.$"
+	.string "下一代人会比我们更加耀眼！\n年轻的训练家啊，走这条路吧。$"
 
 SageLiPostBadges_Text_3:
-	.string "A marvelous display of skill!\p"
-	.string "I believe the borders of Johto won't\n"
-	.string "be enough for you at your current pace.\p"
-	.string "I will allow you access to this tower's\n"
-	.string "basement floor.\p"
-	.string "A strong Pokémon resides there.\p"
-	.string "Guarding it has been one of our\n"
-	.string "tasks for a very long time.$"
+	.string "真是精彩的战斗！\p我想以你现在的实力，\n城都地区已经容不下你了。\p我允许你进入这座塔的\n地下一层。\p那里栖息着一只强大的宝可梦。\p长久以来，守护它\n一直是我们的一项使命。$"
 
 SageLiPostBadges_Text_4:
-	.string "I look forward to hearing where your\n"
-	.string "journey next takes you.$"
+	.string "我很期待听到你的旅程\n接下来会去往哪里。$"

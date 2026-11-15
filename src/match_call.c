@@ -1702,12 +1702,12 @@ static void PopulateMatchCallStringVar(int matchCallId, int funcId, u8 *destStr)
 
 static const struct MultiTrainerMatchCallText sMultiTrainerMatchCallTexts[] =
 {
-    { .trainerId = TRAINER_KIRA_AND_DAN_1, .text = COMPOUND_STRING("KIRA") },
-    { .trainerId = TRAINER_AMY_AND_MAY,  .text = COMPOUND_STRING("AMY & MAY") },
-    { .trainerId = TRAINER_JOHN_AND_JAY_1, .text = COMPOUND_STRING("JOHN") },
-    { .trainerId = TRAINER_LILA_AND_ROY_1, .text = COMPOUND_STRING("ROY") },
-    { .trainerId = TRAINER_REENA, .text = COMPOUND_STRING("REENA") },
-    { .trainerId = TRAINER_ANNA_AND_MEG_1, .text = COMPOUND_STRING("ANNA") },
+    { .trainerId = TRAINER_KIRA_AND_DAN_1, .text = COMPOUND_STRING("夏") },
+    { .trainerId = TRAINER_AMY_AND_MAY,  .text = COMPOUND_STRING("艾米与梅") },
+    { .trainerId = TRAINER_JOHN_AND_JAY_1, .text = COMPOUND_STRING("源") },
+    { .trainerId = TRAINER_LILA_AND_ROY_1, .text = COMPOUND_STRING("小勇") },
+    { .trainerId = TRAINER_REENA, .text = COMPOUND_STRING("夏帆") },
+    { .trainerId = TRAINER_ANNA_AND_MEG_1, .text = COMPOUND_STRING("美穗") },
 };
 
 static void PopulateTrainerName(int matchCallId, u8 *destStr)

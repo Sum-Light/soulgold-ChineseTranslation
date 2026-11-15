@@ -18,13 +18,13 @@ BlackthornCity_PokemonCenter_EventScript_Twin::
 	end
 
 BlackthornCity_PokemonCenter1FGentlemanText:
-	.string "Deep inside far-off Indigo\n"
-	.string "Plateau is the Pokémon League.\p"
-	.string "I hear the best trainers gather\n"
-	.string "there from around the country.$"
+	.string "遥远的石英高原深处，\n就是宝可梦联盟。\p听说全国最强的训练家\n都聚集在那里。$"
+	.string ""
+	.string ""
+	.string ""
 
 BlackthornCity_PokemonCenter1FTwinText:
-	.string "There was this move I just had\n"
-	.string "to teach my Pokémon.\p"
-	.string "So I got the Move Deleter to make\n"
-	.string "it forget an HM move.$"
+	.string "我有个招式无论如何都想\n教给宝可梦。\p所以我请遗忘爷爷帮它\n忘掉了一个秘传招式。$"
+	.string ""
+	.string ""
+	.string ""

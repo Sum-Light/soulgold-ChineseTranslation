@@ -88,41 +88,41 @@ IcePath_Movement_KimonoLeave:
 	step_end
 
 IcePath_1F_Text_Leave:
-	.string "Kimono Girl: .....................$"
+	.string "和服女孩：………………$"
 
 IcePath_1F_Text_Stuck1:
-    .string "Me oh my... Is that you, {PLAYER}?\n"
-    .string "Fancy meeting you here!\p"
-    .string "To tell the truth... my sandals are\n"
-    .string "frozen on the ice, and I am stuck.\p"
-    .string "In other words, my flip-flops are\n"
-    .string "quick-frozen to the ground.\p"
-    .string "Tee hee.\p"
-    .string "Well, it's no laughing matter.\p"
-    .string "Would you come around and push\n"
-    .string "my back?$"
+    .string "哎呀呀……这不是{PLAYER}吗？\n真没想到会在这里遇见你！\p说实话……我的草鞋\n冻在冰上了，我动不了了。\p也就是说，我的人字拖\n被速冻在地面上了。\p嘻嘻。\p不过，这可不是好笑的事。\p能请你绕到我身后，\n推一下我的后背吗？$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 IcePath_1F_Text_Stuck2:
-    .string "Me oh my... Is that you, {PLAYER}?\n"
-    .string "Fancy meeting you here!\p"
-    .string "To tell the truth... my sandals are\n"
-    .string "frozen on the ice, and I am stuck.\p"
-    .string "In other words, my flip-flops are\n"
-    .string "quick-frozen with the ground.\p"
-    .string "Tee hee.\p"
-    .string "Well, it's no laughing matter.\n"
-    .string "Would you push my back?$"
+    .string "哎呀呀……这不是{PLAYER}吗？\n真没想到会在这里遇见你！\p说实话……我的草鞋\n冻在冰上了，我动不了了。\p也就是说，我的人字拖\n和地面速冻在一起了。\p嘻嘻。\p不过，这可不是好笑的事。\n能请你推一下我的后背吗？$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 IcePath_1F_Text_Shove:
-    .string "....Shove!....$"
+    .string "……用力一推！……$"
 
 IcePath_1F_Text_Cruel:
-    .string "Don't be so cruel.\n"
-    .string "You will push my back, won't you?$"
+    .string "请别这么狠心嘛。\n你会帮我推一下后背的，对吧？$"
+    .string ""
 
 IcePath_1F_Text_Thanks:
-    .string "You really are kind.\n"
-    .string "Thank you so much!$"
+    .string "你真是个好心人。\n太感谢你了！$"
+    .string ""
 
 IcePath_1F_Rival::
 	compare VAR_RIVAL_STATE, 9
@@ -193,28 +193,13 @@ IcePath_1F_Rival_Movement_2:
 	step_end
 
 IcePath_1F_Rival_Text_0:
-	.string "So you've made it here too... With all\n"
-	.string "those badges in tow...\p"
-	.string "I'm not surprised, you just have the\n"
-	.string "raw talent for it I suppose.\p"
-	.string "However!\n"
-	.string "I've been training so hard now!\p"
-	.string "There's just no way you can make\n"
-	.string "up for that. Let me prove it to you,\l"
-	.string "right here, right now, {PLAYER}!$"
+	.string "你也走到这里了啊……\n还带着那么多徽章……\p我倒不意外，\n大概你天生就有这份才能吧。\p可是！\n我现在也在拼命地训练！\p这一点你是绝对弥补不了的。\n就在此时此地，\l让我证明给你看吧，{PLAYER}！$"
 
 IcePath_1F_Rival_Text_1:
-	.string "How...?$"
+	.string "怎么会……？$"
 
 IcePath_1F_Rival_Text_2:
-	.string "I trained every route from\n"
-	.string "here to Cianwood. Without any breaks.\p"
-	.string "And you just do it without breaking a\n"
-	.string "sweat, like it's all a fun little game\l"
-	.string "to you.$"
+	.string "从这里到湛蓝市，\n每一条道路我都训练过了，\l一刻也没休息。\p而你却毫不费力就做到了，\n好像这一切对你来说\l只是个有趣的小游戏。$"
 
 IcePath_1F_Rival_Text_3:
-	.string "I'm just... So frustrated with my\n"
-	.string "progress.\p"
-	.string "No matter how much I train...\p"
-	.string "I need to keep pushing on.$"
+	.string "我只是……\n对自己的进步太不甘心了。\p不管我怎么训练……\p我必须继续努力下去。$"

@@ -131,30 +131,30 @@ EcruteakCity_Movement_Silver2:
 	step_end
 
 EcruteakCity_Text_Silver1:
-	.string "Thud!!$"
+	.string "咚！！$"
 
 EcruteakCity_Text_Silver2:
-	.string "Silver: How...? How is this\n"
-	.string "possible? How can I lose to mere\l"
-	.string "Kimono Girls...?$"
+	.string "小银：怎么……？怎么可能？\n我怎么会输给几个\l和服女孩……？$"
+	.string ""
+	.string ""
 
 EcruteakCity_Text_Silver3:
-	.string "Silver: You were watching me,\n"
-	.string "{PLAYER}...\p"
-	.string "Yeah, that's right!\p"
-	.string "I never thought defeating five\n"
-	.string "Kimono Girls would be so hard...\p"
-	.string "I got beaten to a pulp...\p"
-	.string "...\p"
-	.string "You must have come here for the\n"
-	.string "same reason, right?\p"
-	.string "Don't get cocky just because you\n"
-	.string "defeated Team Rocket!\p"
-	.string "These Kimono Girls are insanely\n"
-	.string "strong.\p"
-	.string "See if you can defeat them.\p"
-	.string "But I'm not going back, I don't\n"
-	.string "want to see you win.$"
+	.string "小银：你一直在看着我啊，\n{PLAYER}……\p没错，就是这样！\p我没想到打赢五个\n和服女孩会这么难……\p我被打得惨败……\p……\p你肯定也是为了同样的\n理由才来的吧？\p别因为打赢了火箭队\n就得意忘形！\p这群和服女孩强得\n离谱。\p有本事你去打赢她们看看。\p不过我不会再进去了，\n我不想看到你赢。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 EcruteakCity_EventScript_Gramps::
 	lock
@@ -290,124 +290,114 @@ EcruteakCity_EventScript_Vulpix::
 	end
 
 EcruteakCity_Text_Eevee:
-	.string "Eevee: Veee!$"
+	.string "伊布：呜咿！$"
 
 EcruteakCity_Text_Vulpix:
-	.string "Vulpix: Vullll Pix!$"
+	.string "六尾：呜噜噜　吡！$"
 
 
 EcruteakCity_Text_UnusedMissingDaughter:
-	.string "Oh, no. Oh, no…\p"
-	.string "My daughter is missing.\p"
-	.string "No… She couldn't have gone to the\n"
-	.string "Burned Tower.\p"
-	.string "I told her not to go near it…\p"
-	.string "People seem to disappear there…\p"
-	.string "Oh, what should I do…?$"
+	.string "糟了，糟了……\p我女儿不见了。\p不会的……她不会去\n烧焦塔了吧。\p我跟她说过别靠近那里……\p去了那儿的人似乎\n都会失踪……\p唉，我该怎么办才好……？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 EcruteakCity_Text_Gramps1:
-	.string "Ecruteak used to have two towers:\n"
-	.string "one each in the east and west.$"
+	.string "缘朱市原本有两座塔：\n东边一座，西边一座。$"
+	.string ""
 
 EcruteakCity_Text_Gramps2:
-	.string "Ah, child. Have you learned to\n"
-	.string "dance like the Kimono Girls?\p"
-	.string "If you go to their Dance Theater,\n"
-	.string "an odd old man will give you\l"
-	.string "something nice, I hear.$"
+	.string "哦，孩子。你也学会像\n和服女孩那样跳舞了吗？\p听说你只要去她们的舞场，\n就会有奇怪的老人\l送你好东西。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 EcruteakCity_Text_Lass1:
-	.string "I'm going to practice at the Dance\n"
-	.string "Theater. Care to join me?$"
+	.string "我要去舞场练习。\n要不要一起来？$"
+	.string ""
 
 EcruteakCity_Text_Lass2:
-	.string "The tower that used to be here…\p"
-	.string "My grandma told me it used to be\n"
-	.string "much taller.\p"
-	.string "I hear there are ghosts in it now.$"
+	.string "原来立在这里的那座塔……\p我奶奶说，它以前\n比现在高得多。\p听说现在塔里\n闹鬼。$"
+	.string ""
+	.string ""
+	.string ""
 
 EcruteakCity_Text_Lass2_ReleasedBeasts:
-	.string "Three big Pokémon ran off in different\n"
-	.string "directions. What were they?$"
+	.string "三只很大的宝可梦朝不同\n方向跑掉了。它们是什么？$"
+	.string ""
 
 EcruteakCity_Text_Fisher:
-	.string "I heard a rumor about Olivine\n"
-	.string "Lighthouse.\p"
-	.string "The Pokémon that serves as the\n"
-	.string "beacon fell ill. Sounds like they\l"
-	.string "are in trouble.$"
+	.string "我听到一个关于浅葱灯塔\n的传闻。\p在那里充当塔灯的宝可梦\n病倒了。看来他们\l遇到了麻烦。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 EcruteakCity_Text_Fisher_JasmineReturned:
-	.string "The Pokémon at Olivine Lighthouse\n"
-	.string "has been cured.\p"
-	.string "Boats can safely sail out to sea at\n"
-	.string "night again.$"
+	.string "浅葱灯塔的宝可梦\n已经痊愈了。\p船只在夜里又能\n安全出海了。$"
+	.string ""
+	.string ""
+	.string ""
 
 EcruteakCity_Text_Youngster:
-	.string "I hear Pokémon are rampaging at the\n"
-	.string "Lake Of Rage. I'd like to see that.$"
+	.string "听说愤怒之湖的宝可梦\n在大闹。我倒想去看一眼。$"
+	.string ""
 
 EcruteakCity_Text_Gramps3:
-	.string "In the distant past…\p"
-	.string "This tower burned in a fire. Three\n"
-	.string "nameless Pokémon perished in it.\p"
-	.string "A rainbow-colored Pokémon descended\n"
-	.string "from the sky and resurrected them…\p"
-	.string "It's a legend that has been passed\n"
-	.string "down by Ecruteak Gym Leaders.\p"
-	.string "Me?\p"
-	.string "I was a trainer way back when.\n"
-	.string "Hohoho!$"
+	.string "在遥远的过去……\p这座塔被大火烧毁。三只\n无名的宝可梦葬身其中。\p一只虹色的宝可梦从天而降，\n让它们复活了……\p这是缘朱市历代道馆馆主\n口耳相传的传说。\p我？\p我从前也是训练家哦。\n呵呵呵！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 EcruteakCity_Text_SageGym:
-	.string "Gym Leader Morty is not here right\n"
-	.string "now. You may find him at the\l"
-	.string "Burned Tower.$"
+	.string "道馆馆主松叶现在不在。\n你可以在\l烧焦塔找到他。$"
+	.string ""
+	.string ""
 
 EcruteakCity_Text_Sign:
-	.string "Ecruteak City\n"
-	.string "A Historical City\p"
-	.string "Where the Past Meets the Present$"
+	.string "缘朱市\n历史之城\p过去与现在\n在此交汇$"
+	.string ""
+	.string ""
 
 EcruteakCity_Text_TinTowerSign:
-	.string "Tin Tower\p"
-	.string "A legendary Pokémon is said to\n"
-	.string "roost here.$"
+	.string "铃铛塔\p据说有传说的宝可梦\n在此栖息。$"
+	.string ""
+	.string ""
 
 EcruteakCity_Text_OfficeSign:
-	.string "Barrier Station to Tin Tower\p"
-	.string "No Trespassing by the Unworthy.$"
+	.string "通往铃铛塔的关卡\p无资格者禁止通行。$"
+	.string ""
 
 EcruteakCity_Text_GymSign:
-	.string "Ecruteak City Pokémon Gym\n"
-	.string "Leader: Morty\p"
-	.string "The Mystic Seer of the Future$"
+	.string "缘朱市宝可梦道馆\n馆主：松叶\p预见未来的神秘修行者$"
+	.string ""
+	.string ""
 
 EcruteakCity_Text_DanceTheaterSign:
-	.string "Ecruteak Dance Theater$"
+	.string "圆朱舞场$"
 
 EcruteakCity_Text_BurnedTowerSign:
-	.string "Burned Tower\p"
-	.string "It was destroyed by a mysterious\n"
-	.string "fire.\p"
-	.string "Please stay away, as it is unsafe.$"
+	.string "烧焦塔\p它被一场神秘的大火\n烧毁了。\p此处危险，请勿靠近。$"
+	.string ""
+	.string ""
+	.string ""
 `
 
 script EcruteakCity_RivalPostBattle {
 	lock
 	faceplayer
 	createfieldmugshotrival
-	msgbox("What's up {PLAYER}?
-
-			Mowing down more gyms left and right?
-			
-			Same as always. You're on a roll,
-			woohoo.
-			
-			I can't even beat Morty yet...
-			
-			I'm going to train in Olivine for a while.
-			Don't wait up.")
+	msgbox("怎么了，{PLAYER}？\p又在到处刷道馆了？\p还是老样子。你真是\n顺风顺水啊，哇哦。\p我连松叶都还打不过……\p我要去浅葱市修行一阵子。\n别等我了。")
 	removefieldmugshot
 	closemessage
 	moveobjecttocoords(LOCALID_ECRUTEAK_RIVAL, 8, 35, DIR_WEST)
@@ -416,8 +406,7 @@ script EcruteakCity_RivalPostBattle {
 	applymovement(LOCALID_ECRUTEAK_RIVAL, moves(face_right))
 	delay(30)
 	createfieldmugshotrival
-	msgbox("...You're doing really well.
-			I mean that.")
+	msgbox("……你干得真不错。\n我是说真的。")
 	removefieldmugshot
 	closemessage
 	applymovement(LOCALID_ECRUTEAK_RIVAL, moves(face_left))

@@ -4,28 +4,17 @@ script OlivineTutorMoveMaster {
     lock
     faceplayer
     if (flag(FLAG_TUTOR_MOVES_UNLOCKED)) {
-        msgbox("You can teach Tutor Moves by
-                pressing Start on the Battle Moves
-                page of the Summary Screen and
-                switching to the Tutor Moves page.")
+        msgbox("想教宝可梦教授招式，\n请在查看能力画面的\l战斗招式页按START键，\l再切换到教授招式页。")
         release
         end
     }
-    msgbox("I'm the Tutor Move Master.
-    
-            I know all there is to know about Tutor
-            Moves.
-            
-            If you wish, I can teach you all that I 
-            know for a one-time fee of ¥44,444.")
+    msgbox("我是教授招式大师。\p关于教授招式，我无所不知。\p只要你愿意，我可以把我\n知道的全部教给你，\l一次性收费¥44,444。")
     showmoneybox(0, 0)
-    msgbox("What do you say? Do you wish to learn
-            everything about Tutor Moves?", MSGBOX_YESNO)
+    msgbox("怎么样？你想学会\n教授招式的全部吗？", MSGBOX_YESNO)
     if (var(VAR_RESULT) == YES) {
         checkmoney(44444)
         if (var(VAR_RESULT) == FALSE) {
-            msgbox("It seems you do not have the money
-                    to learn. Shame.")
+            msgbox("看来你的钱不够\n学这些啊。真遗憾。")
             hidemoneybox
             release
             end
@@ -36,10 +25,7 @@ script OlivineTutorMoveMaster {
         waitse
         setflag(FLAG_TUTOR_MOVES_UNLOCKED)
         special(Achievement_CheckAll)
-        msgbox("Thank you for the business!
-
-                Now let me teach you the grand
-                secrets of the Tutor Moves.")
+        msgbox("多谢惠顾！\p现在，就让我来传授你\n教授招式的奥秘吧。")
         hidemoneybox
         closemessage
         fadescreen(FADE_TO_BLACK)
@@ -47,16 +33,12 @@ script OlivineTutorMoveMaster {
         fadescreen(FADE_FROM_BLACK)
         delay(20)
         playfanfare(MUS_OBTAIN_ITEM)
-        msgbox("You can now teach Tutor Moves to
-                your Pokémon!")
+        msgbox("你现在可以教自己的宝可梦\n学习教授招式了！")
         waitse
-        msgbox("You can teach Tutor Moves by
-                pressing Start on the Battle Moves
-                page of the Summary Screen and
-                switching to the Tutor Moves page.")
+        msgbox("想教宝可梦教授招式，\n请在查看能力画面的\l战斗招式页按START键，\l再切换到教授招式页。")
     } else {
         hidemoneybox
-        msgbox("A pity.")
+        msgbox("真遗憾。")
         release
         end
     }

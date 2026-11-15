@@ -38,12 +38,12 @@ enum
 
 DEFINE_CREDITS_ENTRY(EmptyString, "", FALSE);
 DEFINE_CREDITS_ENTRY(PkmnSoulGold, "Pokémon Soulgold", TRUE);
-DEFINE_CREDITS_ENTRY(Credits, "Credits", TRUE);
+DEFINE_CREDITS_ENTRY(Credits, "制作名单", TRUE);
 
-DEFINE_CREDITS_ENTRY(SoulgoldDeveloper, "Soulgold Developer", TRUE);
+DEFINE_CREDITS_ENTRY(SoulgoldDeveloper, "Soulgold开发者", TRUE);
 DEFINE_CREDITS_ENTRY(Rahtak, "Rahtak", FALSE);
 
-DEFINE_CREDITS_ENTRY(SoulgoldPlaytesters, "Soulgold playtesters", TRUE);
+DEFINE_CREDITS_ENTRY(SoulgoldPlaytesters, "Soulgold测试员", TRUE);
 DEFINE_CREDITS_ENTRY(Athena, "Athena", FALSE);
 DEFINE_CREDITS_ENTRY(Baia, "Baia", FALSE);
 DEFINE_CREDITS_ENTRY(Hanoe, "Hanoe", FALSE);
@@ -55,13 +55,13 @@ DEFINE_CREDITS_ENTRY(Wook, "Wook", FALSE);
 DEFINE_CREDITS_ENTRY(Dvs, "Dvs", FALSE);
 DEFINE_CREDITS_ENTRY(Tylarie, "Tylarie", FALSE);
 
-DEFINE_CREDITS_ENTRY(HnSCreator, "Pokemon Heart and Soul Creator", TRUE);
+DEFINE_CREDITS_ENTRY(HnSCreator, "Pokemon Heart and Soul创作者", TRUE);
 DEFINE_CREDITS_ENTRY(LilDill, "LIL DILL", FALSE);
 
-DEFINE_CREDITS_ENTRY(ExpansionPort, "Expansion Port by", TRUE);
+DEFINE_CREDITS_ENTRY(ExpansionPort, "Expansion版移植", TRUE);
 DEFINE_CREDITS_ENTRY(IAmAwesome2, "IAmAwesome2", FALSE);
 
-DEFINE_CREDITS_ENTRY(HnSDevs, "H&S Devs", TRUE);
+DEFINE_CREDITS_ENTRY(HnSDevs, "H&S开发者", TRUE);
 DEFINE_CREDITS_ENTRY(InfiniteBacon42, "InfiniteBacon42", FALSE);
 DEFINE_CREDITS_ENTRY(Exclsior, "Exclsior", FALSE);
 DEFINE_CREDITS_ENTRY(TixoRebel, "TixoRebel", FALSE);
@@ -71,7 +71,7 @@ DEFINE_CREDITS_ENTRY(Resetes, "Resetes", FALSE);
 DEFINE_CREDITS_ENTRY(Jozuno, "Jozuno", FALSE);
 
 // Names credited in README.md, in the order in which they appear there.
-DEFINE_CREDITS_ENTRY(SpecialThanks, "Special thanks to", TRUE);
+DEFINE_CREDITS_ENTRY(SpecialThanks, "特别感谢", TRUE);
 DEFINE_CREDITS_ENTRY(HnSDevTeam, "HnS Dev Team", FALSE);
 DEFINE_CREDITS_ENTRY(smithk200, "smithk200", FALSE);
 DEFINE_CREDITS_ENTRY(RafaelSanna, "Rafael Sanna", FALSE);

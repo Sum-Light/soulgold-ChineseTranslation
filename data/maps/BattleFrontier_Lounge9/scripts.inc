@@ -15,8 +15,8 @@ BattleFrontier_Lounge9_Heal::
 	end
 
 BattleFrontier_Lounge9_Heal_TEXT:
-	.string "Hi! Welcome to the Fighting Dojo!\n"
-	.string "I will heal your Pokémon.$"
+	.string "您好！欢迎来到格斗道场！\n我来为您治疗宝可梦。$"
+	.string ""
 
 BattleFrontier_Lounge9_Heal_TEXT2:
-	.string "We hope to see you again!$"
+	.string "期待您再次光临！$"

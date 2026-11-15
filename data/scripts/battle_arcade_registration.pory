@@ -26,19 +26,19 @@ script BattleArcade_Registration_EventScript_Attendant
 	special(SavePlayerParty)
 	if (var(VAR_ATTENDANT_TALKED) == FRONTIER_MODE_SINGLES)
 	{
-		msgbox(format("Welcome to the Rocket Arcade! I am your guide to the Single and Double Battle challenges. Please be aware that these challenges are designed for a single Trainer."))
+		msgbox(format("欢迎来到火箭游戏城！\n我是单打与双打挑战的向导。\l请注意，这些挑战\l是为单人训练家设计的。"))
 		goto(BattleArcade_Registration_EventScript_AskEnterChallenge)
 	}
 	else
 	{
-		msgbox(format("Welcome to the Rocket Arcade! I am your guide to the Multi Battle challenge. Please be aware that this challenge requires two Trainers."), MSGBOX_DEFAULT)
+		msgbox(format("欢迎来到火箭游戏城！\n我是多人对战挑战的向导。\l请注意，此挑战需要两名训练家。"), MSGBOX_DEFAULT)
 		goto(BattleArcade_Registration_EventScript_AskEnterMultiChallenge)
 	}
 }
 
 script BattleArcade_Registration_EventScript_AskEnterChallenge
 {
-	message(format("Which challenge would you like to take?"))
+	message(format("你想接受哪种挑战？"))
 	waitmessage
 	multichoice(17, 4, MULTI_CHALLENGE_TYPES_INFO, FALSE)
 	switch(var(VAR_RESULT))
@@ -57,7 +57,7 @@ script BattleArcade_Registration_EventScript_AskEnterChallenge
 
 script BattleArcade_Registration_EventScript_AskEnterMultiChallenge
 {
-	message(format("Would you like to take the Rocket Arcade Multi Battle challenge?"))
+	message(format("要接受火箭游戏城的多人对战挑战吗？"))
 	waitmessage
 	multichoice(17,5,MULTI_CHALLENGEINFO, FALSE)
 	switch(var(VAR_RESULT))
@@ -77,19 +77,19 @@ script BattleArcade_Registration_EventScript_ExplainChallenge
 {
 	if (var(VAR_ATTENDANT_TALKED) == FRONTIER_MODE_SINGLES)
 	{
-		msgbox(format("At the Rocket Arcade, you may take a Single or Double Battle challenge. Each challenge lasts seven games, with the game board activated before every match. Depending on what comes up on the game board, an event takes place. Some events will be good for the challenger, while others won't be. After each of the first six wins, you may cash out your prize money or risk it all on the next round. Win game seven to receive the top prize automatically. If you want to interrupt your challenge, please save the game. If you don't save, you will be disqualified from your challenge. Please be aware of that!"), MSGBOX_DEFAULT)
+		msgbox(format("在火箭游戏城，你可以接受\n单打或双打挑战。\l每次挑战共七局，\l每场比赛前都会启动游戏盘。\l游戏盘转出的结果会触发事件，\l有的事件对挑战者有利，\l有的则不利。\l前六局每获胜一局，\l你都可以选择兑现奖金，\l或在下一局中全部押上。\l赢下第七局，\l就能自动获得最高奖金。\l如果想中断挑战，请先保存游戏。\l不保存的话，挑战资格将被取消。\l请务必注意！"), MSGBOX_DEFAULT)
 		goto(BattleArcade_Registration_EventScript_AskEnterChallenge)
 	}
 	else
 	{
-		msgbox(format("You may team up with a friend for a Multi Battle challenge. Here, a game board is activated before every match. Depending on what comes up on the game board, an event takes place. The events may have great impact on the match's outcome, good or bad. The objective is to keep a winning streak alive as long as possible. During your challenge, any items held by your Pokémon will be kept in storage. Please note: a Rocket Arcade Multi Battle challenge can't be interrupted."), MSGBOX_DEFAULT)
+		msgbox(format("你可以和朋友组队参加多人对战挑战。\n这里每场比赛前都会启动游戏盘。\l游戏盘转出的结果会触发事件，\l事件可能对比赛结果产生很大影响，\l或有利或不利。\l目标是尽可能延长连胜。\l挑战期间，宝可梦持有的道具\l将由我们保管。\l请注意：\l火箭游戏城的多人对战挑战\l无法中断。"), MSGBOX_DEFAULT)
 		goto(BattleArcade_Registration_EventScript_AskEnterMultiChallenge)
 	}
 }
 
 script BattleArcade_Registration_EventScript_TryEnterChallenge
 {
-	message(format("The Rocket Arcade offers two levels of challenge, Classic and Chaos. Which is your choice?"))
+	message(format("火箭游戏城提供两种难度：经典与混沌。\n你要选哪一种？"))
 	waitmessage
 	multichoice(17, 2, MULTI_LEVEL_MODE, FALSE)
 	switch(var(VAR_RESULT))
@@ -142,14 +142,14 @@ script BattleArcade_Registration_EventScript_GetPartySize
 script BattleArcade_Registration_EventScript_NotEnoughValidMons
 {
 	buffernumberstring(STR_VAR_2,LOCAL_VAR_PARTY_SIZE)
-	msgbox(format("Excuse me! You don't have {STR_VAR_2} eligible Pokémon. You must have {STR_VAR_2} different Pokémon to enter."), MSGBOX_DEFAULT)
+	msgbox(format("抱歉！你没有{STR_VAR_2}只\n符合条件的宝可梦。\l参赛需要{STR_VAR_2}只不同的宝可梦。"), MSGBOX_DEFAULT)
 
 	call(BattleFrontier_EventScript_GetLvlMode)
 	if(var(VAR_RESULT) == FRONTIER_LVL_50)
 	{
-		msgbox(format("The {STR_VAR_2} different Pokémon must all be eligible."), MSGBOX_DEFAULT)
+		msgbox(format("这{STR_VAR_2}只不同的宝可梦\n必须全部符合条件。"), MSGBOX_DEFAULT)
 	}
-	msgbox(format("Eggs{STR_VAR_1} are not allowed to enter."), MSGBOX_DEFAULT)
+	msgbox(format("蛋{STR_VAR_1}不能参赛。"), MSGBOX_DEFAULT)
 	closemessage
 	end
 }
@@ -285,14 +285,14 @@ script BattleArcade_Registration_EventScript_CheckStreakAndSymbols
 script BattleArcade_Registration_EventScript_GiveGoldPrint
 {
 	msgbox(BattleArcade_Entrance_Text_CongratulationsInHonorOf,MSGBOX_DEFAULT)
-	msgbox(format("The Gold Print was added to {PLAYER}'s Vs. Recorder!"),MSGBOX_DEFAULT)
+	msgbox(format("金印花已添加到{PLAYER}的对战记录器中！"),MSGBOX_DEFAULT)
 		call(BattleArcade_Registration_EventScript_GivePrint)
 }
 
 script BattleArcade_Registration_EventScript_GiveSilverPrint
 {
 	msgbox(BattleArcade_Entrance_Text_CongratulationsInHonorOf,MSGBOX_DEFAULT)
-	msgbox(format("The Silver Print was added to {PLAYER}'s Vs. Recorder!"),MSGBOX_DEFAULT)
+	msgbox(format("银印花已添加到{PLAYER}的对战记录器中！"),MSGBOX_DEFAULT)
 	call(BattleArcade_Registration_EventScript_GivePrint)
 }
 
@@ -300,7 +300,7 @@ script BattleArcade_Registration_EventScript_QuitWithoutSaving
 {
 	lock
 	faceplayer
-	msgbox(format("Excuse me! You didn't save before you quit your challenge last time. Because of that, you have been disqualified from your challenge!"), MSGBOX_DEFAULT)
+	msgbox(format("抱歉！你上次退出挑战前\n没有保存游戏。\l因此，你的挑战资格已被取消！"), MSGBOX_DEFAULT)
 	closemessage
 	arcade_set(ARCADE_DATA_WIN_STREAK, 0)
 	arcade_set(ARCADE_DATA_WIN_STREAK_ACTIVE, FALSE)
@@ -360,7 +360,7 @@ script BattleArcade_Registration_EventScript_ResumeChallenge
 	lock
 	faceplayer
 
-	message(format("We've missed you! You must save the game before you resume your challenge. Please wait."))
+	message(format("欢迎回来！\n继续挑战前必须先保存游戏。\l请稍候。"))
 	waitmessage
 
 	arcade_save(CHALLENGE_STATUS_SAVING)
@@ -374,7 +374,7 @@ script BattleArcade_Registration_EventScript_ResumeChallenge
 
 script BattleArcade_Entrance_LinkMulti_EventScript_Cancel
 {
-	msgbox(format("I'm sorry! Link Multi Battles have not been implemented at this time. Please come back later."))
+	msgbox(format("很抱歉！连线多人对战目前尚未实装。\n请日后再来。"))
 	closemessage
 	frontier_set(FRONTIER_DATA_CHALLENGE_STATUS)
 	goto(BattleArcade_Registration_EventScript_CancelChallenge)
@@ -383,7 +383,7 @@ script BattleArcade_Entrance_LinkMulti_EventScript_Cancel
 script BattleArcade_Registration_EventScript_AskModeResultsBoard
 {
 	lockall
-	message(format("Which record would you like to see?"))
+	message(format("你想查看哪项记录？"))
 	waitmessage
 	multichoice(17, 2, MULTI_BATTLE_ARCADE_RECORDS, FALSE)
 	switch(var(VAR_RESULT))
@@ -410,20 +410,20 @@ script BattleArcade_Registration_EventScript_ShowResults
 
 text BattleArcade_Entrance_Text_CongratulationsInHonorOf
 {
-	format("Congratulations! In honor of your victory, we present you with this commemorative print!")
+	format("恭喜！为纪念你的胜利，\n我们送上这枚纪念印花！")
 }
 
 // These are not used because Link Multis have not been implemented.
 
 text BattleArcade_Entrance_Text_OneTrainerShouldSelectBecome
 {
-	format("One Trainer should select “Become Leader.” The other Trainer must select “Join Group.”")
+	format("一名训练家请选择“成为队长”，\n另一名训练家请选择“加入队伍”。")
 }
 text BattleArcade_Entrance_Text_WeNeedToLaunchDs
 {
-	format("We need to launch DS Wireless Communications.")
+	format("需要启动DS无线通信。")
 }
 text BattleArcade_Entrance_Text_YouMustSaveTheGame
 {
-	format("You must save the game before I show you in. Please wait.")
+	format("在我带你进去之前，必须先保存游戏。\n请稍候。")
 }

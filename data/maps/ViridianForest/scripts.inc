@@ -17,10 +17,10 @@ ViridianForest_EventScript_Bugsy::
 	end
 
 ViridianForest_Text_Bugsy:
-	.string "Bugsy: I came to Kanto to look for\n"
-	.string "Bug-Type Pokémon, so I can become\l"
-	.string "a stronger Bug-Type Pokémon\l"
-	.string "Trainer!\p"
-    .string "If you're ready for another match,\n"
-    .string "I'll be at the Dojo in Saffron!$"
+	.string "阿笔：我来到了关都，\n寻找虫属性宝可梦，\l为了成为更强的\l虫属性宝可梦训练家！\p想再和我较量的话，\n就到金黄市的格斗道场来！$"
+	.string ""
+	.string ""
+	.string ""
+    .string ""
+    .string ""
 

@@ -2,14 +2,11 @@ mapscripts RailwayCave_MapScripts {}
 
 
 script RailwayCave1_Keira {
-    trainerbattle_single(TRAINER_KEIRA, "Hey! It's dangerous here!", "Just be careful, we're still working 
-                                                                      here...")
-    msgbox("We've been expanding the railway lines
-            with the help of Pokémon found here.", MSGBOX_AUTOCLOSE)
+    trainerbattle_single(TRAINER_KEIRA, "喂！这里很危险！", "小心点，我们还在施工……")
+    msgbox("我们正在借助这里的\n宝可梦，扩建铁路。", MSGBOX_AUTOCLOSE)
 }
 
 script RailwayCave1_Tammy {
-	trainerbattle_single(TRAINER_TAMMY, "This place is filled with electricity!", "It's sending shivers down my spine!")
-    msgbox("This place seems ideal for training
-            Ground-type Pokémon.", MSGBOX_AUTOCLOSE)
+	trainerbattle_single(TRAINER_TAMMY, "这里充满了电！", "我脊背都发麻了！")
+    msgbox("这里似乎很适合\n训练地面属性的宝可梦。", MSGBOX_AUTOCLOSE)
 }

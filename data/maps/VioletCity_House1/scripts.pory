@@ -11,10 +11,10 @@ VioletCity_House1_EventScript_Kyle::
 	end
 
 VioletCity_House1_Text_PokefanM:
-	.string "A Pokémon you get in a trade\n"
-	.string "grows quickly.\p"
-	.string "But if you don't have the right\n"
-	.string "Gym Badge, they may disobey you.$"
+	.string "交换来的宝可梦\n成长得很快。\p但如果没有相应的\n道馆徽章，它可能会不听话。$"
+	.string ""
+	.string ""
+	.string ""
 
 `
 
@@ -22,16 +22,12 @@ script Violet_PawmiTrade {
     lock
     faceplayer
     if (flag(FLAG_VIOLET_NPC_TRADE_COMPLETED)) {
-        msgbox("Hi, how is my old Pawmi doing?")
+        msgbox("你好，我那只布拨过得还好吗？")
     } else {
-        ingame_trade(INGAME_TRADE_PAWMI, "I collect Pokémon
-                                         Do you have a Cottonee?
-                                         Want to trade it for my
-                                         Pawmi?", 
+        ingame_trade(INGAME_TRADE_PAWMI, "我在收集宝可梦\n你有木棉球吗？\l要不要拿它换\l我的布拨？", 
                                          PawmiTrade_Declined,
                                          PawmiTrade_NotRequested,
-                                         "Yay! I got myself a Cottonee!
-                                          Pawmi, you take care!")
+                                         "太好了！我得到木棉球了！\n布拨，你要保重哦！")
         setflag(FLAG_VIOLET_NPC_TRADE_COMPLETED)
     }
     release
@@ -39,14 +35,13 @@ script Violet_PawmiTrade {
 }
 
 script PawmiTrade_Declined {
-    msgbox("You don't want to trade? Aww...")
+    msgbox("不想换吗？唉……")
     release
     end                                 
 }
 
 script PawmiTrade_NotRequested {
-    msgbox("Uh, no, I don't think so.
-            That doesn't look like a Cottonee.")
+    msgbox("呃，这个不行。\n那看起来不像木棉球。")
     release
     end
 }

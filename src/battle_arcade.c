@@ -1403,8 +1403,8 @@ static void PrintHelpBar(void)
 
 static const u8 *GetHelpBarText(void)
 {
-    static const u8 sText_HelpBarStart[] =_("{A_BUTTON} Start Game");
-    static const u8 sText_HelpBarFinish[] =_("{A_BUTTON} Select Event");
+    static const u8 sText_HelpBarStart[] =_("{A_BUTTON} 开始游戏");
+    static const u8 sText_HelpBarFinish[] =_("{A_BUTTON} 选择事件");
 
     switch (GetGameBoardMode())
     {
@@ -2716,7 +2716,7 @@ static const u8 *BattleArcade_GenerateRecordName(void)
 
 static void HandleHeader(u32 windowId, u32 fontID, u32 letterSpacing, u32 lineSpacing, u8 *color, u32 speed, u32 lvlMode)
 {
-    static const u8 sText_BattleArcade[] = _("Rocket Arcade");
+    static const u8 sText_BattleArcade[] = _("火箭游戏城");
 
     AddTextPrinterParameterized4(windowId, fontID, 0,ARCADE_RECORD_HEADER_Y_POSITION, letterSpacing, lineSpacing, color, speed, sText_BattleArcade);
     AddTextPrinterParameterized4(windowId, fontID, 122, ARCADE_RECORD_HEADER_Y_POSITION, letterSpacing, lineSpacing, color, speed, BattleArcade_GenerateRecordName());
@@ -2790,7 +2790,7 @@ static u32 GetRecordValue(u32 level, u32 streakIndex)
 static void PrintRecord(u32 windowId, u32 fontID, u32 letterSpacing, u32 lineSpacing, u8 *color, u32 speed, u32 streakIndex, u32 level, u32 y)
 {
     u32 record = GetRecordValue(level, streakIndex);
-    static const u8 sText_GamesStreak[] = _("Games cleared: {STR_VAR_1}");
+    static const u8 sText_GamesStreak[] = _("通关局数：{STR_VAR_1}");
 
     ConvertIntToDecimalStringN(gStringVar1,record,STR_CONV_MODE_LEFT_ALIGN,CountDigits(record));
     StringExpandPlaceholders(gStringVar4,sText_GamesStreak);

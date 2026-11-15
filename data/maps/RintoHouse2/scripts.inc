@@ -407,116 +407,91 @@ RintoHouse2_BottleCapManiac_Goodbye::
 
 
 RintoHouse2_BottleCapManiac_Text_0:
-	.string "The name's Mr. Hyper!\p"
-	.string "I can put your Pokémon through my\n"
-	.string "amazing Hyper Training!\p"
-	.string "A Bottle Cap trains one stat, while a\n"
-	.string "Gold Bottle Cap trains every stat.\p"
-	.string "Want to get your Pokémon hyped up?$"
+	.string "我就是极限特训爷爷！\p我可以给您的宝可梦\n做神奇的极限特训！\p银色王冠特训一项能力，\n金色王冠则特训所有能力。\p想让您的宝可梦燃起来吗？$"
 
 RintoHouse2_BottleCapManiac_ChooseMon_Text_0:
-	.string "Which one of your Pokémon wants some\n"
-	.string "Hyper Training?$"
+	.string "您的哪一只宝可梦\n想接受极限特训？$"
 
 RintoHouse2_BottleCapManiac_ChooseMon_Text_1:
-	.string "An Egg?! I admire the enthusiasm,\n"
-	.string "but I can't train that just yet!$"
+	.string "是蛋？！我欣赏这份热情，\n不过这还没法特训！$"
 
 RintoHouse2_BottleCapManiac_ChooseMon_Text_2:
-	.string "But {STR_VAR_1} is already so\n"
-	.string "awesome that it doesn't need any\l"
-	.string "training!$"
+	.string "可是{STR_VAR_1}已经这么\n出色了，完全不需要\l特训！$"
 
 RintoHouse2_BottleCapManiac_ChooseCap_Text_0:
-	.string "So, will it be a Bottle Cap or a\n"
-	.string "Gold Bottle Cap?$"
+	.string "那么，是要银色王冠，\n还是金色王冠？$"
 
 RintoHouse2_BottleCapManiac_ChooseCap_Text_1:
-	.string "Bottle Cap$"
+	.string "银色王冠$"
 
 RintoHouse2_BottleCapManiac_ChooseCap_Text_2:
-	.string "Gold Bottle Cap$"
+	.string "金色王冠$"
 
 RintoHouse2_BottleCapManiac_ChooseCap_Text_3:
-	.string "Choose another Pokémon$"
+	.string "换一只宝可梦$"
 
 RintoHouse2_BottleCapManiac_ChooseCap_Text_4:
-	.string "Cancel$"
+	.string "取消$"
 
 RintoHouse2_BottleCapManiac_ChooseCap_Text_5:
-	.string "Oh no! You don't have a\n"
-	.string "Bottle Cap!$"
+	.string "哎呀！您没有\n银色王冠！$"
 
 RintoHouse2_BottleCapManiac_ChooseCap_Text_6:
-	.string "Oh no! You don't have a\n"
-	.string "Gold Bottle Cap!$"
+	.string "哎呀！您没有\n金色王冠！$"
 
 RintoHouse2_BottleCapManiac_ChooseCap_Text_7:
-	.string "Exchange a Gold Bottle Cap to\n"
-	.string "train all of {STR_VAR_1}'s stats?$"
+	.string "用一枚金色王冠来特训\n{STR_VAR_1}的所有能力？$"
 
 RintoHouse2_BottleCapManiac_ChooseStat_Text_0:
-	.string "Which one of {STR_VAR_1}'s stats\n"
-	.string "should I train?$"
+	.string "要特训{STR_VAR_1}的\n哪一项能力？$"
 
 RintoHouse2_BottleCapManiac_ChooseStat_Text_1:
 	.string "HP$"
 
 RintoHouse2_BottleCapManiac_ChooseStat_Text_2:
-	.string "Attack$"
+	.string "攻击$"
 
 RintoHouse2_BottleCapManiac_ChooseStat_Text_3:
-	.string "Defense$"
+	.string "防御$"
 
 RintoHouse2_BottleCapManiac_ChooseStat_Text_4:
-	.string "Sp. Atk$"
+	.string "特攻$"
 
 RintoHouse2_BottleCapManiac_ChooseStat_Text_5:
-	.string "Sp. Def$"
+	.string "特防$"
 
 RintoHouse2_BottleCapManiac_ChooseStat_Text_6:
-	.string "Speed$"
+	.string "速度$"
 
 RintoHouse2_BottleCapManiac_ChooseStat_Text_7:
-	.string "Go back$"
+	.string "返回$"
 
 RintoHouse2_BottleCapManiac_StatAlreadyMaxed_Text_0:
-	.string "That stat can't get any more hyper!\n"
-	.string "It's already as high as it can get!$"
+	.string "这项能力已经到极限了！\n没法再高一点了！$"
 
 RintoHouse2_BottleCapManiac_ConfirmHP_Text_0:
-	.string "Exchange a Bottle Cap to train\n"
-	.string "{STR_VAR_1}'s HP?$"
+	.string "用一枚银色王冠来特训\n{STR_VAR_1}的HP？$"
 
 RintoHouse2_BottleCapManiac_ConfirmAttack_Text_0:
-	.string "Exchange a Bottle Cap to train\n"
-	.string "{STR_VAR_1}'s Attack?$"
+	.string "用一枚银色王冠来特训\n{STR_VAR_1}的攻击？$"
 
 RintoHouse2_BottleCapManiac_ConfirmDefense_Text_0:
-	.string "Exchange a Bottle Cap to train\n"
-	.string "{STR_VAR_1}'s Defense?$"
+	.string "用一枚银色王冠来特训\n{STR_VAR_1}的防御？$"
 
 RintoHouse2_BottleCapManiac_ConfirmSpAttack_Text_0:
-	.string "Exchange a Bottle Cap to train\n"
-	.string "{STR_VAR_1}'s Sp. Atk?$"
+	.string "用一枚银色王冠来特训\n{STR_VAR_1}的特攻？$"
 
 RintoHouse2_BottleCapManiac_ConfirmSpDefense_Text_0:
-	.string "Exchange a Bottle Cap to train\n"
-	.string "{STR_VAR_1}'s Sp. Def?$"
+	.string "用一枚银色王冠来特训\n{STR_VAR_1}的特防？$"
 
 RintoHouse2_BottleCapManiac_ConfirmSpeed_Text_0:
-	.string "Exchange a Bottle Cap to train\n"
-	.string "{STR_VAR_1}'s Speed?$"
+	.string "用一枚银色王冠来特训\n{STR_VAR_1}的速度？$"
 
 RintoHouse2_BottleCapManiac_TrainingDone_Text_0:
-	.string "Then get hyped! It's time for some\n"
-	.string "real Hyper Training!$"
+	.string "那就燃起来！真正的\n极限特训开始了！$"
 
 RintoHouse2_BottleCapManiac_TrainingDone_Text_1:
-	.string "{STR_VAR_1} grew stronger thanks\n"
-	.string "to Hyper Training!\p"
-	.string "Want to keep the hype rolling?$"
+	.string "{STR_VAR_1}多亏了极限特训\n变得更强了！\p还想继续燃下去吗？$"
 
 RintoHouse2_BottleCapManiac_Goodbye_Text_0:
-	.string "Come back anytime! I'll always be\n"
-	.string "hyped to see you!$"
+	.string "随时再来！我随时都\n热情满满地等着您！$"

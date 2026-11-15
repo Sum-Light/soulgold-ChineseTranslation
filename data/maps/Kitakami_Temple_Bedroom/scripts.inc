@@ -13,15 +13,7 @@ KitakamiTempleBedroom_BattleGirl::
 
 
 KitakamiTempleBedroom_Expert_Text_0:
-	.string "It is not uncommon for travellers to\n"
-	.string "spend some time training with us.\p"
-	.string "It helps keep traditions alive in\n"
-	.string "hearts of the youth.$"
+	.string "常有旅客来我们这里\n修行一段时间。\p这也能让传统在年轻人\n心中延续下去。$"
 
 KitakamiTempleBedroom_BattleGirl_Text_0:
-	.string "Ugh...\p"
-	.string "They make us wake up at the\n"
-	.string "crack of dawn every day...\p"
-	.string "We have to fetch water from the base\n"
-	.string "of the mountains to wash ourselves...\p"
-	.string "I'm so sleepy... Zzz....$"
+	.string "唉……\p每天天不亮就\n把人家叫起来……\p还得从山脚下打水\n来洗漱……\p好困……呼……呼……$"

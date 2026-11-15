@@ -284,119 +284,119 @@ CherryGroveCity_Silver_AfterBattle::
 	end
 
 CherrygroveCity_Text_GuideGentIntro:
-	.string "You're a rookie trainer,\n"
-	.string "aren't you? I can tell!\p"
-	.string "That's Ok! Everyone is a\n"
-	.string "rookie at some point!\p"
-	.string "If you'd like, I can teach\n"
-	.string "you a few things.$"
+	.string "你是新手训练家吧？\n我看得出来！\p没关系！谁都有过\n当新手的时候！\p愿意的话，我可以\n教你几样东西。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CherrygroveCity_Text_GuideGentTourStart:
-	.string "Ok, then!\n"
-	.string "Follow me!$"
+	.string "好嘞！\n跟我来吧！$"
+	.string ""
 
 CherrygroveCity_Text_GuideGentPokecenter:
-	.string "This is a Pokémon Center.\p"
-	.string "They heal your Pokémon in no\n"
-	.string "time at all.\p"
-	.string "You'll be relying on them a lot,\n"
-	.string "so you better learn about them.$"
+	.string "这里是宝可梦中心。\p他们一下子就能\n治好你的宝可梦。\p你以后会经常依赖它，\n最好先了解清楚。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CherrygroveCity_Text_GuideGentMart:
-	.string "This is a Pokémon Mart.\p"
-	.string "They sell Balls for catching wild\n"
-	.string "Pokémon and other useful items.$"
+	.string "这里是友好商店。\p他们出售捕捉野生宝可梦的\n精灵球和其他实用道具。$"
+	.string ""
+	.string ""
 
 CherrygroveCity_Text_GuideGentRoute30:
-	.string "Route 30 is out this way.\p"
-	.string "Trainers will be battling\n"
-	.string "their prized Pokémon there.$"
+	.string "30号道路在这边。\p训练家们会在那里\n派出心爱的宝可梦对战。$"
+	.string ""
+	.string ""
 
 CherrygroveCity_Text_GuideGentSea:
-	.string "This is the sea, as you can see.\p"
-	.string "Some Pokémon are found only in\n"
-	.string "in water.$"
+	.string "如你所见，这里是大海。\p有些宝可梦只生活在\n水里。$"
+	.string ""
+	.string ""
 
 CherrygroveCity_Text_GuideGentMap:
-	.string "Here…\p"
-	.string "It's my house! Thanks for\n"
-	.string "your company.\p"
-	.string "Oh, and if you're ever lost, check\n"
-	.string "the Map on your Pokégear!\p"
-	.string "I wish you luck on your journey!$"
+	.string "给……\p这是我家！谢谢你\n陪我走这一趟。\p对了，要是迷路了，就看看\n宝可梦装置上的地图！\p祝你旅途顺利！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CherrygroveCity_Text_GuideGentDecline:
-	.string "Oh… It's something I enjoy\n"
-	.string "doing…\p"
-	.string "Fine. Come see me whenever\n"
-	.string "you like.$"
+	.string "哦……我还挺喜欢\n给人带路的……\p好吧。想找我的时候\n随时来。$"
+	.string ""
+	.string ""
+	.string ""
 
 CherrygroveCity_Text_RivalSeen:
-	.string "… … … … … … … …\p"
-	.string "You got a Pokémon at the Lab.\p"
-	.string "What a waste.\n"
-	.string "A wimp like you.\p"
-	.string "… … … … … … … …\p"
-	.string "Don't you get what I'm saying?\n"
-	.string "Well, I too, have a good Pokémon.\p"
-	.string "I'll show you what I mean!$"
+	.string "………………\p你已经在研究所得到\n宝可梦了吧。\p真是浪费。\n像你这种窝囊废。\p………………\p你听不懂我在说什么吗？\n哼，我也有只好宝可梦。\p我就让你见识见识！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CherrygroveCity_Text_SilverWin:
-	.string "Humph. Are you happy you won?$"
+	.string "哼。赢了就这么高兴？$"
 
 CherrygroveCity_Text_RivalAfter:
-	.string "… … … … … … … …\p"
-	.string "Do you want to know who I am?\p"
-	.string "I'm going to be the world's\n"
-	.string "greatest Pokémon trainer.$"
+	.string "………………\p想知道我是谁吗？\p我将成为全世界\n最厉害的宝可梦训练家。$"
+	.string ""
+	.string ""
+	.string ""
 
 CherrygroveCity_Text_RivalID:
-	.string "Give it back!\n"
-	.string "That's my Trainer Card!\p"
-	.string "Oh no!\n"
-	.string "You saw my name...$"
+	.string "还给我！\n那是我的训练家卡！\p糟了！\n你看到我的名字了……$"
+	.string ""
+	.string ""
+	.string ""
 
 CherrygroveCity_Text_TeacherHaveMapCard:
-	.string "When you're with Pokémon,\n"
-	.string "going anywhere is fun.$"
+	.string "和宝可梦在一起，\n去哪里都开心。$"
+	.string ""
 
 CherrygroveCity_Text_YoungsterNoPokedex:
-	.string "Mr. Pokémon's house is still\n"
-	.string "farther up ahead.$"
+	.string "宝可梦爷爷的家\n还在前面更远处。$"
+	.string ""
 
 CherrygroveCity_Text_YoungsterHavePokedex:
-	.string "I battled the trainers on the\n"
-	.string "road.\p"
-	.string "My Pokémon lost. They're a\n"
-	.string "mess! I must take them to a\l"
-	.string "Pokémon Center.$"
+	.string "我在路上和训练家们\n打过架。\p我的宝可梦输了，伤得\n一塌糊涂！得带它们去\l宝可梦中心。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CherrygroveCity_Text_MysticWaterGuyBefore:
-	.string "A Pokémon I caught had an\n"
-	.string "item.\p"
-	.string "I think it's Mystic Water.\p"
-	.string "I don't need it, so do you\n"
-	.string "want it?$"
+	.string "我抓到的宝可梦身上\n带着道具。\p好像是神秘水滴。\p我用不着，你\n要吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CherrygroveCity_Text_MysticWaterGuyAfter:
-	.string "Back to fishing for me, then.$"
+	.string "那我继续去钓鱼吧。$"
 
 CherrygroveCity_Text_CitySign:
-	.string "Cherrygrove City\p"
-	.string "The City of Cute, Fragrant\n"
-	.string "Flowers$"
+	.string "吉花市\p可爱而芬芳的\n花之城镇$"
+	.string ""
+	.string ""
 
 CherrygroveCity_Text_GuideGentsHouseSign:
-	.string "Guide Gent's House$"
+	.string "带路爷爷的家$"
 
 CherryGroveCity_Text_Staryu:
-	.string "Staryu: Yuuuuuuuu.$"
+	.string "海星星：呜——呜呜呜！$"
 
 CherryGroveCity_Text_Corsola:
-	.string "Corsola: Corsola! La!$"
+	.string "太阳珊瑚：太阳珊瑚！啦！$"
 
 CherryGroveCity_Text_Krabby:
-	.string "Krabby: Kooookeee!$"
+	.string "大钳蟹：库——可可可！$"
 
 CherryGroveCity_Movement_Trigger_Gent:
 	walk_down
@@ -725,86 +725,64 @@ Cherrygrove_FriendlyTrader_12:
 
 
 Cherrygrove_FadedSign_Text_0:
-	.string "Cherrygrove inn...\n"
-	.string "The text is too faded to read.$"
+	.string "吉花旅店……\n字迹褪色，看不清了。$"
 
 Cherrygrove_DarkraiEventDoor_Text_0:
-	.string "Darkrai might be residing in this \n"
-	.string "old inn.\p"
-	.string "It would be best to prepare for\n"
-	.string "anything.$"
+	.string "达克莱伊也许就住在这家\n老旧的旅店里。\p最好做足准备，\n以应对任何情况。$"
 
 Cherrygrove_DarkraiEventDoor_Text_1:
-	.string "You should also bring Cresselia with \n"
-	.string "you.$"
+	.string "最好也带上\n克雷色利亚。$"
 
 Cherrygrove_DarkraiEventDoor_Text_2:
-	.string "Are you absolutely sure you are ready?$"
+	.string "你真的准备好了吗？$"
 
 Cherrygrove_DarkraiEventDoor_Text_3:
-	.string "Prepare first$"
+	.string "先做准备$"
 
 Cherrygrove_DarkraiEventDoor_Text_4:
-	.string "Go in$"
+	.string "进去$"
 
 Cherrygrove_DarkraiEventDoor_Text_5:
-	.string "You grab the door handle and-$"
+	.string "你握住门把手——$"
 
 Cherrygrove_DarkraiEventDoor_Text_6:
-	.string "Best to prepare first.$"
+	.string "还是先做好准备吧。$"
 
 Cherrygrove_DarkraiEventDoor_Text_7:
-	.string "The door won't budge. It seems\n"
-	.string "to be stuck.$"
+	.string "门纹丝不动。好像\n卡住了。$"
 
 Cherrygrove_Littlegirl_Text_0:
-	.string "I saw you dozing off in front of the\n"
-	.string "old inn's door. Are you okay?$"
+	.string "我看到你在那家老旅店\n门口打瞌睡。你没事吧？$"
 
 Cherrygrove_Littlegirl_Text_1:
-	.string "That inn... I don't think it\n"
-	.string "has ever been open. My mom said it was\l"
-	.string "abandoned even in her youth.$"
+	.string "那家旅店……我觉得它\n从来没开过门。我妈说，\l她小时候它就是废弃的。$"
 
 Cherrygrove_Zigzagoon_Text_0:
-	.string "Zig!$"
+	.string "兹！$"
 
 Cherrygrove_Rattata_Text_0:
-	.string "Rat!$"
+	.string "吱！$"
 
 Cherrygrove_FriendlyTrader_Text_0:
-	.string "Hi! Has my Pokémon been helpful?$"
+	.string "你好！我的宝可梦有帮上忙吗？$"
 
 Cherrygrove_FriendlyTrader_Text_1:
-	.string "Hello! Are you a new trainer per chance?\p"
-	.string "Listen, I received two exotic Pokémon\n"
-	.string "as a gift from my uncle in the Safari\l"
-	.string "Zone, but I can't keep both. \p"
-	.string "Would you be willing to take one of \n"
-	.string "them with you?\p"
-	.string "I'm sure either one would love to go on\n"
-	.string "an adventure with you!$"
+	.string "你好！请问你是新手训练家吗？\p是这样，我叔叔从狩猎地带\n送了我两只稀有的宝可梦，\l可我养不了两只。\p你愿意带走其中一只吗？\p我敢说，无论哪一只都会\n乐意跟你一起去冒险的！$"
 
 Cherrygrove_FriendlyTrader_Text_2:
-	.string "Zigzagoon$"
+	.string "蛇纹熊$"
 
 Cherrygrove_FriendlyTrader_Text_3:
-	.string "Rattata$"
+	.string "小拉达$"
 
 Cherrygrove_FriendlyTrader_Text_4:
-	.string "No thanks$"
+	.string "不用了$"
 
 Cherrygrove_FriendlyTrader_Text_5:
-	.string "Take good care of my {STR_VAR_1}!\p"
-	.string "Say hi to my uncle, Baoba if you are\n"
-	.string "ever visiting the Safari Zone!$"
+	.string "要好好照顾我的{STR_VAR_1}啊！\p要是去狩猎地带，替我向\n我叔叔巴奥巴问好！$"
 
 Cherrygrove_FriendlyTrader_Text_6:
-	.string "Oh... That's a shame...$"
+	.string "哦……那真可惜……$"
 
 Cherrygrove_FriendlyTrader_Text_7:
-	.string "Hey! Can I ask you a favour? \p"
-	.string "Wait... You don't have any\n"
-	.string "Poké Balls...\p"
-	.string "Sorry,\n"
-	.string "I thought you were a trainer.$"
+	.string "喂！能请你帮个忙吗？\p等等……你身上没有\n精灵球啊……\p抱歉，\n我还以为你是训练家。$"

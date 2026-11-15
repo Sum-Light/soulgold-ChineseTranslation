@@ -3,7 +3,7 @@ mapscripts VajraPyramidFloor2_MapScripts {}
 script VajraPyramid2_Urn1 {
     lock
     if (flag(FLAG_VAJRAPYRAMID2_URN1)) {
-        msgbox("The urn is empty.")
+        msgbox("瓮里已经空了。")
         release
         end
     }
@@ -16,7 +16,7 @@ script VajraPyramid2_Urn1 {
 script VajraPyramid2_Urn2 {
     lock
     if (flag(FLAG_VAJRAPYRAMID2_URN2)) {
-        msgbox("The urn is empty.")
+        msgbox("瓮里已经空了。")
         release
         end
     }

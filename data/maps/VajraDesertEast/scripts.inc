@@ -43,76 +43,61 @@ VajraDesertEastSign::
 
 
 VajraDesertEast_TrainerSirocco_Text_0:
-	.string "Let me see how tough you are!$"
+	.string "让我看看你有多少本事！$"
 
 VajraDesertEast_TrainerSirocco_Text_1:
-	.string "Tough enough, I guess...$"
+	.string "看来还挺能打……$"
 
 VajraDesertEast_TrainerSirocco_Text_2:
-	.string "The hardest environments make the\n"
-	.string "toughest trainers.\p"
-	.string "I hope to become the very best\n"
-	.string "someday!$"
+	.string "最严酷的环境造就\n最强的训练家。\p总有一天，我也要\n成为最厉害的！$"
 
 VajraDesertEast_TrainerSol_Text_0:
-	.string "Huff, huff! One more lap!$"
+	.string "呼哧，呼哧！再跑一圈！$"
 
 VajraDesertEast_TrainerSol_Text_1:
-	.string "Need... water...!$"
+	.string "水……给我水……！$"
 
 VajraDesertEast_TrainerSol_Text_2:
-	.string "Hey, you need two Pokémon ready to\n"
-	.string "battle!$"
+	.string "嘿，你得带两只\n能对战的宝可梦才行！$"
 
 VajraDesertEast_TrainerSol_Text_3:
-	.string "There's an oasis behind those palm\n"
-	.string "trees, but you can't just go through\l"
-	.string "them!$"
+	.string "那些棕榈树后面有片绿洲，\n可你不能直接穿过去！$"
 
 VajraDesertEast_TrainerDune_Text_0:
-	.string "Riding high!$"
+	.string "全速前进！$"
 
 VajraDesertEast_TrainerDune_Text_1:
-	.string "You caught me off guard...$"
+	.string "你攻得我措手不及……$"
 
 VajraDesertEast_TrainerDune_Text_2:
-	.string "Two Pokémon I'd never seen before\n"
-	.string "flew past here. They've returned a\l"
-	.string "few times.\p"
-	.string "What were they, I wonder?$"
+	.string "有两只我从没见过的宝可梦\n从这儿飞了过去。它们已经\l回来过好几次了。\p它们到底是什么呢？$"
 
 VajraDesertEast_TrainerNori_Text_0:
-	.string "Are you the Trainer who beat Lance?$"
+	.string "你就是打赢了阿渡的训练家？$"
 
 VajraDesertEast_TrainerNori_Text_1:
-	.string "No way! The Champion beat me!$"
+	.string "不是吧！冠军居然打赢了我！$"
 
 VajraDesertEast_TrainerNori_Text_2:
-	.string "How does the Champion not have two\n"
-	.string "Pokémon ready to battle?$"
+	.string "冠军怎么会没带\n两只宝可梦来对战？$"
 
 VajraDesertEast_TrainerNori_Text_3:
-	.string "Can't wait to tell all my friends about\n"
-	.string "this!$"
+	.string "我一定要把这事\n告诉所有朋友！$"
 
 VajraDesertEast_TrainerAtlas_Text_0:
-	.string "Think you can reach the oasis?$"
+	.string "你觉得你能到达绿洲吗？$"
 
 VajraDesertEast_TrainerAtlas_Text_1:
-	.string "Looks like you won't get lost among\n"
-	.string "the trees!$"
+	.string "看来你是不会在\n树林里迷路了！$"
 
 VajraDesertEast_TrainerAtlas_Text_2:
-	.string "Sorry, bud, but you need two Pokémon\n"
-	.string "ready to battle.$"
+	.string "抱歉啦，伙计，你得带两只\n宝可梦来才能对战。$"
 
 VajraDesertEast_TrainerAtlas_Text_3:
-	.string "This place is almost like a savanna,\n"
-	.string "even though it's part of the desert!$"
+	.string "这地方简直就像热带草原，\n虽然它其实是沙漠的一部分！$"
 
 VajraDesertEast_LadyofLake_Text_0:
-	.string "This stream of water is crucial for the\n"
-	.string "life here. I hope it never dries up.$"
+	.string "这条水流对这里的生命\n至关重要。希望它永远不干涸。$"
 
 VajraDesertEastSign_Text_0:
-	.string "Vajra Desert East$"
+	.string "金刚沙漠东部$"

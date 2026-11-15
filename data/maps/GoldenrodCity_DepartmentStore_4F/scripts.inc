@@ -52,28 +52,28 @@ Goldenrod_DepartmentStore_3F_Pokemart_Vitamins:
 	pokemartlistend
 
 GoldenrodDeptStore_Text_4FCooltrainerM:
-    .string "Hey. I love strong Pokémon.\p"
-    .string "I feed them Protein to crank up\n"
-    .string "their Attack.$"
+    .string "嘿。我最喜欢强大的宝可梦。\p我会喂它们攻击增强剂，\n把攻击力提上去。$"
+    .string ""
+    .string ""
 
 GoldenrodDeptStore_Text_4FBugCatcher:
-    .string "Iron adds to your Pokémon's\n"
-    .string "Defense.$"
+    .string "防御增强剂能提升\n宝可梦的防御力。$"
+    .string ""
 
 GoldenrodDeptStore_Text_4FGameboyKid:
-    .string "There were rumours that some\n"
-    .string "Pokémon evolve only by\l"
-    .string "being traded via a Game Link\l"
-    .string "cable.\p"
-    .string "Pfft...\p"
-    .string "Such misinformation.\p"
-    .string "I know some of the rumoured\n"
-    .string "Pokémon:\l"
-    .string "Machoke, Kadabra, Haunter and,\l"
-    .string "um, Graveler,\l"
-    .string "but they all evolve by using\l"
-    .string "Linking Cord.$"
+    .string "有传闻说，有些宝可梦\n只有通过连接线\l和别人交换\l才会进化。\p切……\p这种假消息。\p我知道好几种传闻里的\n宝可梦：\l豪力、勇基拉、鬼斯通，\l还有，嗯，隆隆石，\l但它们其实都是靠\l联系绳进化的。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodDeptStore_Text_4FDirectory:
-    .string "Let Us Pump Up Your Pokémon!\p"
-    .string "4F Medicine Box$"
+    .string "让您的宝可梦更强！\p4楼　药盒$"
+    .string ""

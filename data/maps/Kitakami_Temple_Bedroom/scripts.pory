@@ -1,21 +1,9 @@
 mapscripts Kitakami_Temple_Bedroom_MapScripts {}
 
 script KitakamiTempleBedroom_Expert {
-    msgbox("It is not uncommon for travellers to
-            spend some time training with us.
-            
-            It helps keep traditions alive in
-            hearts of the youth.", MSGBOX_NPC)
+    msgbox("常有旅客来我们这里\n修行一段时间。\p这也能让传统在年轻人\n心中延续下去。", MSGBOX_NPC)
 }
 
 script KitakamiTempleBedroom_BattleGirl {
-    msgbox("Ugh...
-            
-            They make us wake up at the
-            crack of dawn every day...
-
-            We have to fetch water from the base
-            of the mountains to wash ourselves...
-
-            I'm so sleepy... Zzz....", MSGBOX_NPC)
+    msgbox("唉……\p每天天不亮就\n把人家叫起来……\p还得从山脚下打水\n来洗漱……\p好困……呼……呼……", MSGBOX_NPC)
 }

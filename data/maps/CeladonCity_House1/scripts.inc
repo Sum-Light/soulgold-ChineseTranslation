@@ -54,47 +54,47 @@ CeladonCity_House1_EventScript_Sign::
 	end
 
 CeladonCity_House1_Text_ChefEatathon:
-	.string "Hi!\p"
-	.string "We're holding an eatathon contest.\p"
-	.string "We can't serve you right now.\n"
-	.string "Sorry.$"
+	.string "您好！\p我们现在正在举办大胃王比赛。\p现在没法为您服务，\n抱歉。$"
+	.string ""
+	.string ""
+	.string ""
 
 CeladonCity_House1_Text_Fisher1Snarfle:
-	.string "…Snarfle, chew…$"
+	.string "……吸溜，吧唧吧唧……$"
 
 CeladonCity_House1_Text_Fisher1Concentration:
-	.string "Don't talk to me!\p"
-	.string "You'll break my concentration!$"
+	.string "别跟我说话！\p你害我分心了！$"
+	.string ""
 
 CeladonCity_House1_Text_Fisher2GulpChew:
-	.string "…Gulp… Chew…$"
+	.string "……咕咚……吧唧……$"
 
 CeladonCity_House1_Text_Fisher2Quantity:
-	.string "I take quantity over quality!\p"
-	.string "I'm happy when I'm full!$"
+	.string "我讲究数量大于质量！\p吃饱了我就开心！$"
+	.string ""
 
 CeladonCity_House1_Text_Fisher3MunchMunch:
-	.string "Munch, munch…$"
+	.string "吧唧，吧唧……$"
 
 CeladonCity_House1_Text_Fisher3GoldenrodIsBest:
-	.string "The food is good here, but\n"
-	.string "Goldenrod has the best food\l"
-	.string "anywhere.$"
+	.string "这里的饭菜很好吃，\n不过要说最好吃的，\l还得是满金市。$"
+	.string ""
+	.string ""
 
 CeladonCity_House1_Text_TeacherCrunchCrunch:
-	.string "Crunch… Crunch…$"
+	.string "咔嚓……咔嚓……$"
 
 CeladonCity_House1_Text_TeacherNoCoinCase:
-	.string "Nobody here will give you a Coin\n"
-	.string "Case. You should look in Johto.$"
+	.string "这里没人会给你代币盒。\n你该去城都地区找找看。$"
+	.string ""
 
 CeladonCity_House1_Text_TeacherKeepEating:
-	.string "Crunch… Crunch…\p"
-	.string "I can keep eating!\p"
-	.string "More, Chef!$"
+	.string "咔嚓……咔嚓……\p我还能继续吃！\p再来一份，厨师！$"
+	.string ""
+	.string ""
 
 CeladonCity_House1_Text_EatathonContestPoster:
-	.string "Eatathon Contest! No time limit!\p"
-	.string "A battle without end! The biggest\n"
-	.string "muncher gets it all for free!$"
+	.string "大胃王比赛！不限时间！\p永无止境的对决！\n吃得最多的人，全部免单！$"
+	.string ""
+	.string ""
 

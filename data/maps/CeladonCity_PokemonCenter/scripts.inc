@@ -21,37 +21,37 @@ CeladonCity_PokemonCenter_EventScript_Eusine::
 	end
 
 CeladonCity_PokemonCenter1F_Text_CooltrainerF:
-	.string "Erika is a master of grass\n"
-	.string "Pokémon.\p"
-	.string "She'll make you pay if you don't\n"
-	.string "watch yourself.$"
+	.string "莉佳是草属性宝可梦的高手。\p你要是不当心，\n可是要付出代价的。$"
+	.string ""
+	.string ""
+	.string ""
 
 CeladonCity_PokemonCenter1F_Text_Pharmacist:
-	.string "Team Rocket's hideout is in the\n"
-	.string "basement of the Game Corner.\p"
-	.string "Oh, wait. That was three years\n"
-	.string "ago.$"
+	.string "火箭队的基地就在游戏城的地下。\p哦，等等。那都是三年前的事了。$"
+	.string ""
+	.string ""
+	.string ""
 
 Celadon_Text_Eusine1:
-	.string "Eusine: Hi!\p"
-	.string "I'm back visiting my hometown.\p"
-	.string "It's been quite a while.$"
+	.string "米那君：嗨！\p我回老家来看看。\p好久没回来了。$"
+	.string ""
+	.string ""
 
 Celadon_Text_EusineLeaves:
-	.string "{PLAYER}, have you heard?\p"
-	.string "There have been fresh rumors of a\n"
-	.string "rainbow-colored Pokémon\n"
-	.string "appearing at Tin Tower.\p"
-	.string "I've just had my party healed,\n"
-	.string "so now I'm headed to Ecruteak.\p"
-	.string "I'll be seeing you, {PLAYER}!$"
+	.string "{PLAYER}，你听说了吗？\p听说最近又有传闻，\n有虹色的宝可梦出现在铃铛塔。\p我刚治好宝可梦，\n现在正要去缘朱市。\p再见了，{PLAYER}！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Celadon_Text_NoBeasts:
-	.string "Oh, by the way, {PLAYER}.\p"
-	.string "Have you caught the legendary\n"
-	.string "Pokémon Raikou and Entei?\p"
-	.string "<……><……><……>\p"
-	.string "Okay…\p"
-	.string "If you catch even one, I hope\n"
-	.string "that you'll inform me.\p"
-	.string "I'm counting on you, {PLAYER}!$"
+	.string "对了，{PLAYER}。\p你抓到传说的宝可梦\n雷公和炎帝了吗？\p<……><……><……>\p好吧……\p就算只抓到一只，\n也希望你能告诉我。\p拜托你了，{PLAYER}！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""

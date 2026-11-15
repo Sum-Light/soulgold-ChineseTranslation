@@ -138,16 +138,16 @@ const struct FrontierBrain gFrontierBrainInfo[NUM_FRONTIER_BRAIN_FACILITIES] =
     {
         .trainerPic = TRAINER_PIC_FRONT_SALON_MAIDEN_ANABEL,
         .trainerClass = TRAINER_CLASS_SALON_MAIDEN,
-        .trainerName = COMPOUND_STRING("Anabel"),
+        .trainerName = COMPOUND_STRING("莉拉"),
         .objEventGfx = OBJ_EVENT_GFX_ANABEL,
         .isFemale = TRUE,
         .lostTexts = {
-            COMPOUND_STRING("Okay, I understand…"), //Silver
-            COMPOUND_STRING("Thank you…")           //Gold
+            COMPOUND_STRING("好的，我明白了……"), //Silver
+            COMPOUND_STRING("谢谢你……")           //Gold
         },
         .wonTexts = {
-            COMPOUND_STRING("It's very disappointing…"), //Silver
-            COMPOUND_STRING("I'm terribly sorry…")       //Gold
+            COMPOUND_STRING("好令人失望……"), //Silver
+            COMPOUND_STRING("我真的很抱歉……")       //Gold
         },
         .battledBit = {1 << 0, 1 << 1},
         .streakAppearances = {21, 42, 21, 1},
@@ -156,22 +156,22 @@ const struct FrontierBrain gFrontierBrainInfo[NUM_FRONTIER_BRAIN_FACILITIES] =
     {
         .trainerPic = TRAINER_PIC_FRONT_DOME_ACE_TUCKER,
         .trainerClass = TRAINER_CLASS_DOME_ACE,
-        .trainerName = COMPOUND_STRING("Tucker"),
+        .trainerName = COMPOUND_STRING("石南"),
         .objEventGfx = OBJ_EVENT_GFX_TUCKER,
         .isFemale = FALSE,
         .lostTexts = {
             COMPOUND_STRING(
-                "Grr…\n"
-                "What the…"),        //Silver
+                "咕……\n怎么会……"
+                ""),        //Silver
             COMPOUND_STRING(
-                "Ahahaha!\n"
-                "You're inspiring!") //Gold
+                "啊哈哈哈！\n你真让人振奋！"
+                "") //Gold
         },
         .wonTexts = {
             COMPOUND_STRING(
-                "Ahahaha! Aren't you embarrassed?\n"
-                "Everyone's watching!"),                              //Silver
-            COMPOUND_STRING("My DOME ACE title isn't just for show!") //Gold
+                "啊哈哈！你不尴尬吗？\n所有人都在看着呢！"
+                ""),                              //Silver
+            COMPOUND_STRING("我巨蛋超级巨星\n可不是浪得虚名！") //Gold
         },
         .battledBit = {1 << 2, 1 << 3},
         .streakAppearances = {4, 9, 5, 0},
@@ -180,24 +180,24 @@ const struct FrontierBrain gFrontierBrainInfo[NUM_FRONTIER_BRAIN_FACILITIES] =
     {
         .trainerPic = TRAINER_PIC_FRONT_PALACE_MAVEN_SPENSER,
         .trainerClass = TRAINER_CLASS_PALACE_MAVEN,
-        .trainerName = COMPOUND_STRING("Spenser"),
+        .trainerName = COMPOUND_STRING("宇康"),
         .objEventGfx = OBJ_EVENT_GFX_SPENSER,
         .isFemale = FALSE,
         .lostTexts = {
             COMPOUND_STRING(
-                "Ah…\n"
-                "Now this is something else…"), //Silver
+                "啊……\n这可真是不得了……"
+                ""), //Silver
             COMPOUND_STRING(
-                "Gwah!\n"
-                "Hahahaha!")                    //Gold
+                "咕哇！\n哈哈哈哈！"
+                "")                    //Gold
         },
         .wonTexts = {
             COMPOUND_STRING(
-                "Your Pokémon are wimpy because\n"
-                "you're wimpy as a TRAINER!"),           //Silver
+                "你的宝可梦之所以弱小，\n是因为你是个弱小的训练家。"
+                ""),           //Silver
             COMPOUND_STRING(
-                "Gwahahaha!\n"
-                "My brethren, we have nothing to fear!") //Gold
+                "唔哈哈哈！\n弟兄们，我们无所畏惧！"
+                "") //Gold
         },
         .battledBit = {1 << 4, 1 << 5},
         .streakAppearances = {21, 42, 21, 1},
@@ -206,24 +206,24 @@ const struct FrontierBrain gFrontierBrainInfo[NUM_FRONTIER_BRAIN_FACILITIES] =
     {
         .trainerPic = TRAINER_PIC_FRONT_ARENA_TYCOON_GRETA,
         .trainerClass = TRAINER_CLASS_ARENA_TYCOON,
-        .trainerName = COMPOUND_STRING("Greta"),
+        .trainerName = COMPOUND_STRING("黄瓜香"),
         .objEventGfx = OBJ_EVENT_GFX_GRETA,
         .isFemale = TRUE,
         .lostTexts = {
             COMPOUND_STRING(
-                "No way!\n"
-                "Good job!"),        //Silver
+                "不会吧！\n干得好！"
+                ""),        //Silver
             COMPOUND_STRING(
-                "Huh?\n"
-                "Are you serious?!") //Gold
+                "咦？\n你是认真的吗？！"
+                "") //Gold
         },
         .wonTexts = {
             COMPOUND_STRING(
-                "Oh, come on!\n"
-                "You have to try harder than that!"), //Silver
+                "喂，加把劲！\n你得做得更好才行！"
+                ""), //Silver
             COMPOUND_STRING(
-                "Heheh!\n"
-                "What did you expect?")               //Gold
+                "嘿嘿嘿！\n你在期待什么？"
+                "")               //Gold
         },
         .battledBit = {1 << 6, 1 << 7},
         .streakAppearances = {28, 56, 28, 1},
@@ -232,22 +232,22 @@ const struct FrontierBrain gFrontierBrainInfo[NUM_FRONTIER_BRAIN_FACILITIES] =
     {
         .trainerPic = TRAINER_PIC_FRONT_FACTORY_HEAD_NOLAND,
         .trainerClass = TRAINER_CLASS_FACTORY_HEAD,
-        .trainerName = COMPOUND_STRING("Noland"),
+        .trainerName = COMPOUND_STRING("达拉"),
         .objEventGfx = OBJ_EVENT_GFX_NOLAND,
         .isFemale = FALSE,
         .lostTexts = {
             COMPOUND_STRING(
-                "Good job!\n"
-                "You know what you're doing!"),    //Silver
-            COMPOUND_STRING("What happened here?") //Gold
+                "干得好！\n你很清楚自己在做什么！"
+                ""),    //Silver
+            COMPOUND_STRING("这是怎么回事？") //Gold
         },
         .wonTexts = {
             COMPOUND_STRING(
-                "Way to work!\n"
-                "That was a good lesson, eh?"), //Silver
+                "干得好！\n这也是不错的一课，对吧？"
+                ""), //Silver
             COMPOUND_STRING(
-                "Hey, hey, hey!\n"
-                "You're finished already?")     //Gold
+                "喂，喂，喂！\n你已经结束了吗？"
+                "")     //Gold
         },
         .battledBit = {1 << 8, 1 << 9},
         .streakAppearances = {21, 42, 21, 1},
@@ -256,16 +256,16 @@ const struct FrontierBrain gFrontierBrainInfo[NUM_FRONTIER_BRAIN_FACILITIES] =
     {
         .trainerPic = TRAINER_PIC_FRONT_PIKE_QUEEN_LUCY,
         .trainerClass = TRAINER_CLASS_PIKE_QUEEN,
-        .trainerName = COMPOUND_STRING("Lucy"),
+        .trainerName = COMPOUND_STRING("小蓟"),
         .objEventGfx = OBJ_EVENT_GFX_LUCY,
         .isFemale = TRUE,
         .lostTexts = {
-            COMPOUND_STRING("Urk…"), //Silver
-            COMPOUND_STRING("Darn!") //Gold
+            COMPOUND_STRING("呜……"), //Silver
+            COMPOUND_STRING("可恶！") //Gold
         },
         .wonTexts = {
-            COMPOUND_STRING("Humph…"), //Silver
-            COMPOUND_STRING("Hah!")    //Gold
+            COMPOUND_STRING("哼……"), //Silver
+            COMPOUND_STRING("哈！")    //Gold
         },
         .battledBit = {1 << 10, 1 << 11},
         .streakAppearances = {28, 140, 56, 1},
@@ -274,24 +274,24 @@ const struct FrontierBrain gFrontierBrainInfo[NUM_FRONTIER_BRAIN_FACILITIES] =
     {
         .trainerPic = TRAINER_PIC_FRONT_PYRAMID_KING_BRANDON,
         .trainerClass = TRAINER_CLASS_PYRAMID_KING,
-        .trainerName = COMPOUND_STRING("Brandon"),
+        .trainerName = COMPOUND_STRING("神代"),
         .objEventGfx = OBJ_EVENT_GFX_BRANDON,
         .isFemale = FALSE,
         .lostTexts = {
             COMPOUND_STRING(
-                "That's it! You've done great!\n"
-                "You've worked hard for this!"), //Silver
+                "就是这样！你做得很棒！\n这是你努力的成果！"
+                ""), //Silver
             COMPOUND_STRING(
-                "That's it! You've done it!\n"
-                "You kept working for this!")    //Gold
+                "就是这样！你做到了！\n这是你不懈努力的成果！"
+                "")    //Gold
         },
         .wonTexts = {
             COMPOUND_STRING(
-                "Hey! What's wrong with you!\n"
-                "Let's see some effort! Get up!"),       //Silver
+                "嘿！你怎么了！\n让我看看你的毅力！站起来！"
+                ""),       //Silver
             COMPOUND_STRING(
-                "Hey! Don't you give up now!\n"
-                "Get up! Don't lose faith in yourself!") //Gold
+                "嘿！不要放弃！\n站起来！别对自己丧失信心！"
+                "") //Gold
         },
         .battledBit = {1 << 12, 1 << 13},
         .streakAppearances = {21, 70, 35, 0},
@@ -300,16 +300,16 @@ const struct FrontierBrain gFrontierBrainInfo[NUM_FRONTIER_BRAIN_FACILITIES] =
     {
         .trainerPic = TRAINER_PIC_FRONT_ARCHER,
         .trainerClass = TRAINER_CLASS_ROCKETA,
-        .trainerName = COMPOUND_STRING("Archer"),
+        .trainerName = COMPOUND_STRING("阿波罗"),
         .objEventGfx = OBJ_EVENT_GFX_ARCHER,
         .isFemale = FALSE,
         .lostTexts = {
-            COMPOUND_STRING("So your gamble paid off."), // Silver
-            COMPOUND_STRING("If only Giovanni was here.") // Gold
+            COMPOUND_STRING("看来你赌赢了。"), // Silver
+            COMPOUND_STRING("要是坂木在这里就好了。") // Gold
         },
         .wonTexts = {
-            COMPOUND_STRING("You should have walked away."), // Silver
-            COMPOUND_STRING("Cover before the might of Team Rocket.")     // Gold
+            COMPOUND_STRING("你早该见好就收的。"), // Silver
+            COMPOUND_STRING("在火箭队的力量面前颤抖吧。")     // Gold
         },
         .battledBit = {1 << 14, 1 << 15},
         .streakAppearances = {21, 49, 28, 0},
@@ -1339,10 +1339,10 @@ static void ShowTowerResultsWindow(u8 battleMode)
 
 void BattleCafe_ShowRecordsWindow(void)
 {
-    static const u8 sText_Title[] = _("BATTLE CAFÉ RECORDS");
-    static const u8 sText_EndlessChallenge[] = _("Endless Challenge");
-    static const u8 sText_EndlessRush[] = _("Endless Rush");
-    static const u8 sText_Record[] = _("Record: {STR_VAR_1} wins");
+    static const u8 sText_Title[] = _("对战咖啡馆记录");
+    static const u8 sText_EndlessChallenge[] = _("无尽挑战");
+    static const u8 sText_EndlessRush[] = _("无尽连战");
+    static const u8 sText_Record[] = _("记录：{STR_VAR_1}胜");
     u16 record;
 
     gRecordsWindowId = AddWindow(&sFrontierResultsWindowTemplate);

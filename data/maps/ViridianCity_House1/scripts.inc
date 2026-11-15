@@ -31,18 +31,18 @@ ViridianCity_House1_EventScript_Rattey::
 	end
 
 ViridianCity_House1_Text_PokefanM:
-	.string "Do you put a lot of thought into\n"
-	.string "naming your Pokémon?\p"
-	.string "Giving them good nicknames adds to\n"
-	.string "the fun of trading with others.$"
+	.string "你给宝可梦起名字时\n会花很多心思吗？\p起个好昵称，和别人\n交换时会更有乐趣。$"
+	.string ""
+	.string ""
+	.string ""
 
 ViridianCity_House1_Text_Lass:
-	.string "They're Speary--a Spearow--and\n"
-	.string "Rattey--a Rattata.$"
+	.string "它们叫小尖——一只烈雀——\n还有小吱——一只小拉达。$"
+	.string ""
 
 ViridianCity_House1_Text_Speary:
-	.string "Speary: Ch-chun!$"
+	.string "小尖：叽——叽！$"
 
 ViridianCity_House1_Text_Rattey:
-	.string "Rattey: Kikiii!$"
+	.string "小吱：唧唧唧！$"
 

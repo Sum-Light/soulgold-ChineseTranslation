@@ -9,11 +9,9 @@ mapscripts LatiTempleLobby_MapScripts {
 script LobbyDoorLati {
     lock
     if (flag(FLAG_CAUGHT_LATIAS) && flag(FLAG_CAUGHT_LATIOS)) {
-        msgbox("The door is now open.")
+        msgbox("门已经打开了。")
     } else {
-        msgbox("Ancient writings fill the door.
-        
-                It is sealed shut.")
+        msgbox("门上刻满了\n古老的文字。\p门扉紧闭。")
     }
     release
     end

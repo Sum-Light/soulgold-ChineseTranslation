@@ -1508,7 +1508,7 @@ BattleCafe_TrainerDoves::
 	msgbox BattleCafe_TrainerDoves_Text_1
 	trainerbattle_no_intro TRAINER_CAFE_DOVES, BattleCafe_TrainerDoves_Text_2
 	setflag FLAG_DAILY_BATTLE_CAFE_DOVES
-	msgbox BattleCafe_TrainerDoves_Text_3
+	msgbox BattleCafe_TrainerDoves_Text_0
 	call BattleCafe_GiveDailyCandyReward
 	release
 	end
@@ -1643,671 +1643,469 @@ BattleCafe_FreshWaterFountain_1:
 
 
 BattleCafe_GiveDiancie_Text_0:
-	.string "Well, look at that. You've beaten\n"
-	.string "every one of my regulars at least\l"
-	.string "once.\p"
-	.string "Seems only right you leave with a\n"
-	.string "rare dining companion, Diancie!$"
+	.string "哎呀，真了不起。您可把我的常客\n个个都至少赢过一次。\p那就该让您带走一位稀有的\n用餐伙伴——蒂安希！$"
 
 BattleCafe_GiveDiancie_Text_1:
-	.string "It'll be waiting right here. Make\n"
-	.string "whatever preparations you need, then\l"
-	.string "come talk to me when you're ready to\l"
-	.string "welcome it aboard.$"
+	.string "它就在这儿等着。您需要\n做什么准备都行，准备好了\l就来跟我说话，把它\l迎进队伍吧。$"
 
 BattleCafe_GiveDiancie_Text_2:
-	.string "Diancie is waiting for you.\p"
-	.string "Are you ready to receive it?$"
+	.string "蒂安希在等着您。\p您准备好收下它了吗？$"
 
 BattleCafe_GiveDiancie_Text_3:
-	.string "No rush. Diancie will be right\n"
-	.string "here whenever you're ready.$"
+	.string "不着急。您什么时候\n准备好，蒂安希都在这儿。$"
 
 BattleCafe_GiveDiancie_Text_4:
-	.string "Diancie's a fine addition to the menu.\n"
-	.string "Take good care of it!$"
+	.string "蒂安希给菜单增色不少。\n要好好照顾它！$"
 
 BattleCafe_OwnerMenu_Text_0:
-	.string "Welcome to my Battle Café!\p"
-	.string "I picked up my recipes and my battling\n"
-	.string "chops back home in Galar.\p"
-	.string "These days I bring Trainers together\n"
-	.string "for good food and good battles, right\l"
-	.string "here in Johto.\p"
-	.string "There's even a special prize if you\n"
-	.string "manage to beat all the regulars here.\p"
-	.string "However I must warn you that all the\n"
-	.string "regulars here are really tough!\p"
-	.string "Anyway, enough about me...$"
+	.string "欢迎光临我的对战咖啡馆！\p我的厨艺和战斗本事，\n都是在老家伽勒尔练出来的。\p如今，我在城都把训练家们\n聚到一起，共享美食和\l精彩的对战。\p要是您能打赢这里所有的常客，\n还有一份特别的奖品。\p不过我得提醒您，这里的\n常客可都是硬茬子！\p好了，不说我了……$"
 
 BattleCafe_OwnerMenu_Text_1:
-	.string "After seeing you clear Super Challenge,\n"
-	.string "I can offer you a new format:\p"
-	.string "Endless Challenge!$"
+	.string "看您打通了超级挑战，\n我可以再提供一个新模式：\p无尽挑战！$"
 
 BattleCafe_OwnerMenu_Text_2:
-	.string "After seeing you conquer Super Rush,\n"
-	.string "I can offer you one final format:\p"
-	.string "Endless Rush!$"
+	.string "看您征服了超级连战，\n我可以再提供最后一个模式：\p无尽连战！$"
 
 BattleCafe_OwnerMenu_Text_3:
-	.string "Welcome! What'll it be today?$"
+	.string "欢迎！今天想吃点什么？$"
 
 BattleCafe_OwnerMenu_Text_4:
-	.string "Daily Challenge$"
+	.string "每日挑战$"
 
 BattleCafe_OwnerMenu_Text_5:
-	.string "Rush Mode$"
+	.string "连战模式$"
 
 BattleCafe_OwnerMenu_Text_6:
-	.string "Super Challenge$"
+	.string "超级挑战$"
 
 BattleCafe_OwnerMenu_Text_7:
-	.string "Super Rush$"
+	.string "超级连战$"
 
 BattleCafe_OwnerMenu_Text_8:
-	.string "Endless Modes$"
+	.string "无尽模式$"
 
 BattleCafe_OwnerMenu_Text_9:
-	.string "Exchange Points$"
+	.string "积分兑换$"
 
 BattleCafe_OwnerMenu_Text_10:
-	.string "Café Options$"
+	.string "咖啡馆选项$"
 
 BattleCafe_OwnerMenu_Text_11:
-	.string "Leave$"
+	.string "离开$"
 
 BattleCafe_OptionsMenu_Text_0:
-	.string "What would you like to check?$"
+	.string "您想查看什么？$"
 
 BattleCafe_OptionsMenu_Text_1:
-	.string "Battle BGM$"
+	.string "战斗BGM$"
 
 BattleCafe_OptionsMenu_Text_2:
-	.string "High Scores$"
+	.string "最高分$"
 
 BattleCafe_OptionsMenu_Text_3:
-	.string "Innates$"
+	.string "天赋特性$"
 
 BattleCafe_OptionsMenu_Text_4:
-	.string "Café Rules$"
+	.string "咖啡馆规则$"
 
 BattleCafe_OptionsMenu_Text_5:
-	.string "Back$"
+	.string "返回$"
 
 BattleCafe_ExplainRules_Text_0:
-	.string "Three Café visitors will answer each\n"
-	.string "challenge, one after another.\p"
-	.string "In the Daily Challenge, they bring\n"
-	.string "dependable teams of four.\p"
-	.string "I'll tend to your Pokémon after each\n"
-	.string "battle.\p"
-	.string "Win all three for 3 Café Points.$"
+	.string "每次挑战会有三位咖啡馆来客\n轮番上阵。\p在每日挑战中，他们会带来\n可靠的4只宝可梦队伍。\p每场战斗后，我都会为您\n治疗宝可梦。\p连胜三场，可获得3点咖啡馆点数。$"
 
 BattleCafe_ExplainRules_Text_1:
-	.string "Rush Mode draws seasoned battlers with\n"
-	.string "teams of four.\p"
-	.string "Anything goes, and I can't heal\n"
-	.string "your Pokémon between the matches.\p"
-	.string "Win all three for 5 points.$"
+	.string "连战模式会招来身经百战的\n对手，队伍同样是4只。\p百无禁忌，而且战斗之间\n我不能为您治疗宝可梦。\p连胜三场，可获得5点咖啡馆点数。$"
 
 BattleCafe_ExplainRules_Text_2:
-	.string "Super Challenge and Super Rush pit\n"
-	.string "you against full teams of six Pokémon.\p"
-	.string "Anyone might show up so prepare to\n"
-	.string "face literally anything.\p"
-	.string "Same rules apply here for healing\n"
-	.string "between the rounds.$"
+	.string "超级挑战和超级连战，\n对手都是6只宝可梦的完整队伍。\p谁都可能出现，请做好\n应对一切的心理准备。\p轮间治疗规则与前面相同。$"
 
 BattleCafe_ExplainRules_Text_3:
-	.string "There are no breaks once service\n"
-	.string "begins.\p"
-	.string "A loss ends the run, though\n"
-	.string "you may retry until you win.\p"
-	.string "Each challenge can be won once per day.$"
+	.string "服务开始后就没有休息了。\p一旦落败，本次挑战就结束，\n不过在获胜前可以反复重试。\p每种挑战每天只能获胜一次。$"
 
 BattleCafe_ExplainRules_Text_4:
-	.string "Both Endless formats use full teams\n"
-	.string "of six and continue until you lose\l"
-	.string "or choose to retire.\p"
-	.string "Endless Challenge heals your party\n"
-	.string "after every win and awards 1 point.$"
+	.string "无尽的两个模式都使用6只的\n完整队伍，直到您落败或\l选择退出为止。\p无尽挑战每赢一场都会治疗\n队伍，并获得1点咖啡馆点数。$"
 
 BattleCafe_ExplainRules_Text_5:
-	.string "Endless Rush restores your party\n"
-	.string "after every third victory and awards\l"
-	.string "2 points per win.\p"
-	.string "Your best streak in each format is\n"
-	.string "saved under High Scores.$"
+	.string "无尽连战每三场胜利治疗\n一次队伍，每场胜利得2点。\p每种模式的最佳连胜纪录，\n都保存在最高分里。$"
 
 BattleCafe_AskDailyChallenge_Text_0:
-	.string "You've already cleared today's\n"
-	.string "Daily Challenge.\p"
-	.string "Come back tomorrow,\n"
-	.string "or try another challenge!$"
+	.string "您今天已经通过了\n每日挑战。\p明天再来吧，\n或者试试其他挑战！$"
 
 BattleCafe_AskDailyChallenge_Text_1:
-	.string "Three Café visitors are ready with\n"
-	.string "teams of four.\p"
-	.string "I'll tend to your party\n"
-	.string "after rounds one and two.\p"
-	.string "Begin today's challenge?$"
+	.string "三位咖啡馆来客已经准备好\n4只宝可梦的队伍。\p第一、二轮之后，\n我会为您治疗队伍。\p要开始今天的挑战吗？$"
 
 BattleCafe_AskRushMode_Text_0:
-	.string "You've already conquered Rush Mode\n"
-	.string "today.\p"
-	.string "Come back tomorrow, or take\n"
-	.string "another challenge!$"
+	.string "您今天已经征服了\n连战模式。\p明天再来吧，或者\n换个挑战试试！$"
 
 BattleCafe_AskRushMode_Text_1:
-	.string "Three seasoned visitors are waiting\n"
-	.string "with teams of four.\p"
-	.string "I can't tend to your party between \n"
-	.string "these battles.\p"
-	.string "Begin today's rush?$"
+	.string "三位身经百战的来客\n带着4只队伍在等着。\p这些战斗之间，我无法\n为您治疗队伍。\p要开始今天的连战吗？$"
 
 BattleCafe_AskSuperChallenge_Text_0:
-	.string "You've already cleared today's\n"
-	.string "Super Challenge.\p"
-	.string "Come back tomorrow,\n"
-	.string "or attempt another challenge!$"
+	.string "您今天已经通过了\n超级挑战。\p明天再来吧，\n或者挑战其他项目！$"
 
 BattleCafe_AskSuperChallenge_Text_1:
-	.string "Every Pokémon gets a seat in Super\n"
-	.string "Challenge. Bring a full party of six\l"
-	.string "before entering.$"
+	.string "超级挑战要求每只宝可梦\n都上桌。进场前请带满\l6只宝可梦的队伍。$"
 
 BattleCafe_AskSuperChallenge_Text_2:
-	.string "Three visitors will each meet your full\n"
-	.string "party with six Pokémon of their own.\p"
-	.string "I'll tend to your team between battles.\p"
-	.string "Begin the Super Challenge?$"
+	.string "三位来客各会用6只宝可梦\n迎战您的完整队伍。\p战斗之间，我会为您\n治疗队伍。\p要开始超级挑战吗？$"
 
 BattleCafe_AskSuperRush_Text_0:
-	.string "You've already conquered Super Rush\n"
-	.string "today.\p"
-	.string "Come back tomorrow for\n"
-	.string "another full-team trial!$"
+	.string "您今天已经征服了\n超级连战。\p明天再来体验\n又一场全队试炼吧！$"
 
 BattleCafe_AskSuperRush_Text_1:
-	.string "Every Pokémon gets a seat in Super\n"
-	.string "Rush.\p"
-	.string "Bring a full party of six\n"
-	.string "before entering.$"
+	.string "超级连战要求每只宝可梦\n都上桌。\p进场前请带满\n6只宝可梦的队伍。$"
 
 BattleCafe_AskSuperRush_Text_2:
-	.string "Three visitors will each bring a full\n"
-	.string "team of six.\p"
-	.string "Once the rush begins, I can't heal\n"
-	.string "your Pokémon between the battles.\p"
-	.string "Begin the Super Rush?$"
+	.string "三位来客各会带来一支\n6只宝可梦的完整队伍。\p连战一旦开始，战斗之间\n我就不能为您治疗宝可梦了。\p要开始超级连战吗？$"
 
 BattleCafe_EndlessMenu_Text_0:
-	.string "Which Endless format will you try?$"
+	.string "您想试哪种无尽模式？$"
 
 BattleCafe_EndlessMenu_Text_1:
-	.string "Endless Challenge$"
+	.string "无尽挑战$"
 
 BattleCafe_EndlessMenu_Text_2:
-	.string "Endless Rush$"
+	.string "无尽连战$"
 
 BattleCafe_EndlessMenu_Text_3:
-	.string "Endless Rules$"
+	.string "无尽规则$"
 
 BattleCafe_ExplainEndlessRules_Text_0:
-	.string "Endless Challenge restores your party\n"
-	.string "after every victory. \p"
-	.string "Each win immediately awards 1 \n"
-	.string "Café Point.\p"
-	.string "Clear Super Challenge to unlock it.$"
+	.string "无尽挑战每胜一场\n都会治疗您的队伍。\p每场胜利立刻获得\n1点咖啡馆点数。\p通关超级挑战后解锁。$"
 
 BattleCafe_ExplainEndlessRules_Text_1:
-	.string "Endless Rush restores your party after\n"
-	.string "every third victory. \p"
-	.string "Each win immediately awards 2 \n"
-	.string "Café Points.\p"
-	.string "Clear Super Rush to unlock it.$"
+	.string "无尽连战每三场胜利\n治疗一次队伍。\p每场胜利立刻获得\n2点咖啡馆点数。\p通关超级连战解锁。$"
 
 BattleCafe_ExplainEndlessRules_Text_2:
-	.string "Both formats use full 6-vs-6 battles.\n"
-	.string "You may retire after any victory,\l"
-	.string "and your best streak is saved.$"
+	.string "两种模式都是6对6的完整对战。\n任何一场胜利后都可以退出，\l最佳连胜纪录会被保存。$"
 
 BattleCafe_AskEndlessChallenge_Text_0:
-	.string "Clear Super Challenge to unlock\n"
-	.string "Endless Challenge.$"
+	.string "通关超级挑战，\n即可解锁无尽挑战。$"
 
 BattleCafe_AskEndlessChallenge_Text_1:
-	.string "Every Endless opponent brings\n"
-	.string "six Pokémon.\p"
-	.string "Bring a full party of six before\n"
-	.string "taking your seat.$"
+	.string "无尽模式的每位对手\n都会带上6只宝可梦。\p就座前请带满\n6只宝可梦的队伍。$"
 
 BattleCafe_AskEndlessChallenge_Text_2:
-	.string "Full teams of six will keep coming\n"
-	.string "until you lose or retire.\p"
-	.string "I'll restore your party after every win,\n"
-	.string "and each victory earns 1 Café Point.\p"
-	.string "Begin Endless Challenge?$"
+	.string "6只的完整队伍会一直\n涌来，直到您落败或退出。\p每场胜利后我都会治疗队伍，\n每场胜利得1点咖啡馆点数。\p要开始无尽挑战吗？$"
 
 BattleCafe_AskEndlessRush_Text_0:
-	.string "Clear Super Rush to unlock\n"
-	.string "Endless Rush.$"
+	.string "通关超级连战，\n即可解锁无尽连战。$"
 
 BattleCafe_AskEndlessRush_Text_1:
-	.string "Full teams of six will keep coming\n"
-	.string "until you lose or retire.\p"
-	.string "I'll restore your party after every third\n"
-	.string "victory. Each win earns 2 Café Points.\p"
-	.string "Begin Endless Rush?$"
+	.string "6只的完整队伍会一直\n涌来，直到您落败或退出。\p每三场胜利治疗一次队伍。\n每场胜利得2点咖啡馆点数。\p要开始无尽连战吗？$"
 
 BattleCafe_BeginChallenge_Text_0:
-	.string "No final course. No final opponent.\n"
-	.string "Endless service begins now!$"
+	.string "没有最后一道菜。没有最后的对手。\n无尽服务现在开始！$"
 
 BattleCafe_BeginChallenge_Text_1:
-	.string "Three courses. Three opponents.\n"
-	.string "Service begins now!$"
+	.string "三道菜。三位对手。\n服务现在开始！$"
 
 BattleCafe_ChallengeNextRound_Text_0:
-	.string "Victory! Streak: {STR_VAR_1}.\n"
-	.string "You received {STR_VAR_2} Café Points,\l"
-	.string "and your party was restored.\p"
-	.string "Continue the run?$"
+	.string "胜利！连胜：{STR_VAR_1}。\n获得{STR_VAR_2}点咖啡馆点数，\l队伍已恢复。\p要继续挑战吗？$"
 
 BattleCafe_ChallengeNextRound_Text_1:
-	.string "Victory! Streak: {STR_VAR_1}.\n"
-	.string "You received {STR_VAR_2} Café Points.\p"
-	.string "Three battles cleared! Your party\n"
-	.string "was restored. Continue the run?$"
+	.string "胜利！连胜：{STR_VAR_1}。\n获得{STR_VAR_2}点咖啡馆点数。\p三场战斗已通过！队伍\n已恢复。要继续挑战吗？$"
 
 BattleCafe_ChallengeNextRound_Text_2:
-	.string "Victory! Streak: {STR_VAR_1}.\n"
-	.string "You received {STR_VAR_2} Café Points.\p"
-	.string "Your party has not been restored.\n"
-	.string "Continue the run?$"
+	.string "胜利！连胜：{STR_VAR_1}。\n获得{STR_VAR_2}点咖啡馆点数。\p队伍尚未恢复。\n要继续挑战吗？$"
 
 BattleCafe_ChallengeNextRound_Text_3:
-	.string "Your party was restored.\n"
-	.string "The next challenger is arriving!$"
+	.string "队伍已恢复。\n下一位挑战者马上就到！$"
 
 BattleCafe_ChallengeNextRound_Text_4:
-	.string "Your party was restored.\n"
-	.string "The next full team is arriving!$"
+	.string "队伍已恢复。\n下一支完整队伍马上就到！$"
 
 BattleCafe_ChallengeNextRound_Text_5:
-	.string "No healing in Super Rush!\n"
-	.string "The next full team is arriving!$"
+	.string "超级连战不提供治疗！\n下一支完整队伍马上就到！$"
 
 BattleCafe_ChallengeNextRound_Text_6:
-	.string "No healing in Rush Mode!\n"
-	.string "The next challenger is arriving!$"
+	.string "连战模式不提供治疗！\n下一位挑战者马上就到！$"
 
 BattleCafe_EndlessRetired_Text_0:
-	.string "Run retired at {STR_VAR_1} wins.\p"
-	.string "Your party is fully restored, your record\n"
-	.string "is safe, and every point is yours to keep.$"
+	.string "您在{STR_VAR_1}连胜时退出了。\p您的队伍已完全恢复，纪录\n保留，所有点数都归您。$"
 
 BattleCafe_ChallengeLost_Text_0:
-	.string "Your Endless run ends at {STR_VAR_1}\n"
-	.string "wins. I've fully\l"
-	.string "restored your party.\p"
-	.string "Every Café Point you earned is yours\n"
-	.string "to keep. Try to push even farther\l"
-	.string "next time!$"
+	.string "您的无尽挑战止于{STR_VAR_1}\n连胜。我已经\l把您的队伍完全治疗好了。\p您赚到的咖啡馆点数都归您。\n下次试着走得更远吧！$"
 
 BattleCafe_ChallengeLost_Text_1:
-	.string "Tough course, huh? I've fully restored\n"
-	.string "your party.\p"
-	.string "Catch your breath, rework\n"
-	.string "your strategy, and come at it again\l"
-	.string "whenever you like!$"
+	.string "这顿套餐够呛吧？我已经\n把您的队伍完全治疗好了。\p您先喘口气，重新想想\n战术，随时都可以\l再来挑战！$"
 
 BattleCafe_ChallengeWon_Text_0:
-	.string "Daily Challenge complete!\p"
-	.string "That's {STR_VAR_1} Café Points for you.$"
+	.string "每日挑战完成！\p这是给您的{STR_VAR_1}点\n咖啡馆点数。$"
 
 BattleCafe_ChallengeWon_Text_1:
-	.string "Rush Mode complete! That took\n"
-	.string "some real grit.\p"
-	.string "Here's {STR_VAR_1} Café Points.$"
+	.string "连战模式完成！真是\n一场硬仗。\p这是{STR_VAR_1}点咖啡馆点数。$"
 
 BattleCafe_ChallengeWon_Text_2:
-	.string "Super Challenge complete!\n"
-	.string "Full team, full effort!\p"
-	.string "That's {STR_VAR_1} Café Points.$"
+	.string "超级挑战完成！\n全队出战，全力以赴！\p这是给您的{STR_VAR_1}点\n咖啡馆点数。$"
 
 BattleCafe_ChallengeWon_Text_3:
-	.string "Incredible! You have beaten\n"
-	.string "the Super Rush mode!\p"
-	.string "I can hardly believe it!\p"
-	.string "Here's your reward of\n"
-	.string "{STR_VAR_1} Café Points.$"
+	.string "太惊人了！您打通了\n超级连战模式！\p我简直不敢相信！\p这是给您的奖励：\n{STR_VAR_1}点咖啡馆点数。$"
 
 BattleCafe_RewardMenu_Text_0:
-	.string "You have {STR_VAR_1} Café Points.\n"
-	.string "Anything you want to exchange for?$"
+	.string "您有{STR_VAR_1}点咖啡馆点数。\n有什么想兑换的吗？$"
 
 BattleCafe_RewardMenu_Text_1:
-	.string "Vitamin Set Atk - 4$"
+	.string "攻击增强剂套装 - 4$"
 
 BattleCafe_RewardMenu_Text_2:
-	.string "Vitamin Set Def - 4$"
+	.string "防御增强剂套装 - 4$"
 
 BattleCafe_RewardMenu_Text_3:
-	.string "Vitamin Set Spe - 2$"
+	.string "速度增强剂套装 - 2$"
 
 BattleCafe_RewardMenu_Text_4:
-	.string "Shiny Genome - 4$"
+	.string "异色基因 - 4$"
 
 BattleCafe_RewardMenu_Text_5:
-	.string "2 Gold Caps - 5$"
+	.string "金色王冠×2 - 5$"
 
 BattleCafe_RewardMenu_Text_6:
 	.string "¥250,000 - 5$"
 
 BattleCafe_RewardMenu_Text_7:
-	.string "G. Articuno - 5$"
+	.string "伽勒尔急冻鸟 - 5$"
 
 BattleCafe_RewardMenu_Text_8:
-	.string "G. Zapdos - 5$"
+	.string "伽勒尔闪电鸟 - 5$"
 
 BattleCafe_RewardMenu_Text_9:
-	.string "G. Moltres - 5$"
+	.string "伽勒尔火焰鸟 - 5$"
 
 BattleCafe_RewardMenu_Text_10:
-	.string "Tornadus - 5$"
+	.string "龙卷云 - 5$"
 
 BattleCafe_RewardMenu_Text_11:
-	.string "Thundurus - 5$"
+	.string "雷电云 - 5$"
 
 BattleCafe_RewardMenu_Text_12:
-	.string "Landorus - 5$"
+	.string "土地云 - 5$"
 
 BattleCafe_RewardMenu_Text_13:
-	.string "Enamorus - 5$"
+	.string "眷恋云 - 5$"
 
 BattleCafe_RewardMenu_Text_14:
-	.string "Tapu Koko - 5$"
+	.string "卡璞・鸣鸣 - 5$"
 
 BattleCafe_RewardMenu_Text_15:
-	.string "Tapu Lele - 5$"
+	.string "卡璞・蝶蝶 - 5$"
 
 BattleCafe_RewardMenu_Text_16:
-	.string "Tapu Bulu - 5$"
+	.string "卡璞・哞哞 - 5$"
 
 BattleCafe_RewardMenu_Text_17:
-	.string "Tapu Fini - 5$"
+	.string "卡璞・鳍鳍 - 5$"
 
 BattleCafe_RewardMenu_Text_18:
-	.string "Miraidon - 25$"
+	.string "密勒顿 - 25$"
 
 BattleCafe_RewardMenu_Text_19:
-	.string "Koraidon - 25$"
+	.string "故勒顿 - 25$"
 
 BattleCafe_ChooseArticuno_Text_0:
-	.string "I've already entrusted Galarian\n"
-	.string "Articuno to you.$"
+	.string "我已经\n把伽勒尔急冻鸟托付给您了。$"
 
 BattleCafe_ChooseZapdos_Text_0:
-	.string "I've already entrusted Galarian\n"
-	.string "Zapdos to you.$"
+	.string "我已经\n把伽勒尔闪电鸟托付给您了。$"
 
 BattleCafe_ChooseMoltres_Text_0:
-	.string "I've already entrusted Galarian\n"
-	.string "Moltres to you.$"
+	.string "我已经\n把伽勒尔火焰鸟托付给您了。$"
 
 BattleCafe_ChooseTornadus_Text_0:
-	.string "I've already entrusted Tornadus\n"
-	.string "to you.$"
+	.string "我已经把龙卷云\n托付给您了。$"
 
 BattleCafe_ChooseThundurus_Text_0:
-	.string "I've already entrusted Thundurus\n"
-	.string "to you.$"
+	.string "我已经把雷电云\n托付给您了。$"
 
 BattleCafe_ChooseLandorus_Text_0:
-	.string "I've already entrusted Landorus\n"
-	.string "to you.$"
+	.string "我已经把土地云\n托付给您了。$"
 
 BattleCafe_ChooseEnamorus_Text_0:
-	.string "I've already entrusted Enamorus\n"
-	.string "to you.$"
+	.string "我已经把眷恋云\n托付给您了。$"
 
 BattleCafe_ChooseTapuKoko_Text_0:
-	.string "I've already entrusted Tapu Koko\n"
-	.string "to you.$"
+	.string "我已经把卡璞・鸣鸣\n托付给您了。$"
 
 BattleCafe_ChooseTapuLele_Text_0:
-	.string "I've already entrusted Tapu Lele\n"
-	.string "to you.$"
+	.string "我已经把卡璞・蝶蝶\n托付给您了。$"
 
 BattleCafe_ChooseTapuBulu_Text_0:
-	.string "I've already entrusted Tapu Bulu\n"
-	.string "to you.$"
+	.string "我已经把卡璞・哞哞\n托付给您了。$"
 
 BattleCafe_ChooseTapuFini_Text_0:
-	.string "I've already entrusted Tapu Fini\n"
-	.string "to you.$"
+	.string "我已经把卡璞・鳍鳍\n托付给您了。$"
 
 BattleCafe_ConfirmRewardMon_Text_0:
-	.string "Exchange 5 Café Points for\n"
-	.string "{STR_VAR_1}?$"
+	.string "用5点咖啡馆点数\n兑换{STR_VAR_1}吗？$"
 
 BattleCafe_ConfirmRewardMon_Text_1:
-	.string "You might find this useful.$"
+	.string "这个也许对您有用。$"
 
 BattleCafe_ConfirmRewardMon_Text_2:
-	.string "A fair trade. I'm sure it'll fit right\n"
-	.string "into your team.$"
+	.string "很划算的交易。它一定会\n和您的队伍很合拍。$"
 
 BattleCafe_ChooseMiraidon_Text_0:
-	.string "I've already entrusted Miraidon\n"
-	.string "to you.$"
+	.string "我已经把密勒顿\n托付给您了。$"
 
 BattleCafe_ChooseKoraidon_Text_0:
-	.string "I've already entrusted Koraidon\n"
-	.string "to you.$"
+	.string "我已经把故勒顿\n托付给您了。$"
 
 BattleCafe_ConfirmParadoxLegend_Text_0:
-	.string "Exchange 25 Café Points for\n"
-	.string "{STR_VAR_1}?$"
+	.string "用25点咖啡馆点数\n兑换{STR_VAR_1}吗？$"
 
 BattleCafe_ConfirmParadoxLegend_Text_1:
-	.string "A rare specimen from Paldea. Take good\n"
-	.string "care of it!$"
+	.string "这是来自帕底亚的稀有\n个体。好好照顾它！$"
 
 BattleCafe_ChooseShinyGenome_Text_0:
-	.string "Exchange 4 Café Points for a\n"
-	.string "Shiny Genome?$"
+	.string "用4点咖啡馆点数\n兑换一个异色基因吗？$"
 
 BattleCafe_ChooseShinyGenome_Text_1:
-	.string "A rare find. Use it on whichever\n"
-	.string "Pokémon you want to bring out the\l"
-	.string "shine.$"
+	.string "稀有的宝贝。用在您想\n让它闪闪发光的\l宝可梦身上吧。$"
 
 BattleCafe_ChooseGoldBottleCaps_Text_0:
-	.string "Exchange 5 Café Points for two\n"
-	.string "Gold Bottle Caps?$"
+	.string "用5点咖啡馆点数\n兑换2个金色王冠吗？$"
 
 BattleCafe_ChooseGoldBottleCaps_Text_1:
-	.string "Two Gold Bottle Caps, polished up and\n"
-	.string "ready. Here you go!$"
+	.string "2个金色王冠，已经打磨好，\n随时可用。拿去吧！$"
 
 BattleCafe_ChooseMoney_Text_0:
-	.string "Exchange 5 Café Points for\n"
-	.string "¥250,000?$"
+	.string "用5点咖啡馆点数\n兑换¥250,000吗？$"
 
 BattleCafe_ChooseMoney_Text_1:
-	.string "Use it well, and perhaps spend a little\n"
-	.string "on dessert!$"
+	.string "好好用它，也许还可以\n分一点买甜点！$"
 
 BattleCafe_ChooseVitaminSetAtk_Text_0:
-	.string "Exchange 4 Café Points for two each of\n"
-	.string "Protein EX and Calcium EX?$"
+	.string "用4点咖啡馆点数兑换\n攻击增强剂EX和特攻增强剂EX\l各2个吗？$"
 
 BattleCafe_ChooseVitaminSetAtk_Text_1:
-	.string "Two Protein EX and two Calcium EX,\n"
-	.string "power and wisdom!$"
+	.string "攻击增强剂EX和特攻增强剂EX\n各2个，力量与智慧！$"
 
 BattleCafe_ChooseVitaminSetDef_Text_0:
-	.string "Exchange 4 Café Points for two each of\n"
-	.string "Iron EX and Zinc EX?$"
+	.string "用4点咖啡馆点数兑换\n防御增强剂EX和特防增强剂EX\l各2个吗？$"
 
 BattleCafe_ChooseVitaminSetDef_Text_1:
-	.string "Two Iron EX and two Zinc EX,\n"
-	.string "time to bulk up!$"
+	.string "防御增强剂EX和特防增强剂EX\n各2个，该变得结实了！$"
 
 BattleCafe_ChooseVitaminSetSpe_Text_0:
-	.string "Exchange 2 Café Points for\n"
-	.string "two Carbos EX?$"
+	.string "用2点咖啡馆点数\n兑换2个速度增强剂EX吗？$"
 
 BattleCafe_ChooseVitaminSetSpe_Text_1:
-	.string "Two Carbos EX, ready to speed up!$"
+	.string "2个速度增强剂EX，准备加速！$"
 
 BattleCafe_NotEnoughPoints_Text_0:
-	.string "That prize costs 5 Café Points.\n"
-	.string "Complete one of my challenges and try\l"
-	.string "again!$"
+	.string "那件奖品要5点咖啡馆点数。\n完成我的一项挑战后\l再来试试！$"
 
 BattleCafe_NotEnoughLegendPoints_Text_0:
-	.string "That prize costs 25 Café Points.\n"
-	.string "Complete more of my challenges and\l"
-	.string "try again!$"
+	.string "那个奖品要25点咖啡馆点数。\n再多完成些挑战，然后再来！$"
 
 BattleCafe_NotEnoughFourPoints_Text_0:
-	.string "The Shiny Genome costs 4 Café Points.\n"
-	.string "Complete one of my challenges and try\l"
-	.string "again!$"
+	.string "异色基因要4点咖啡馆点数。\n完成一次挑战再来吧！$"
 
 BattleCafe_NotEnoughVitaminSetPoints_Text_0:
-	.string "You don't have enough Café Points for\n"
-	.string "that vitamin set. \p"
-	.string "Complete one of my\n"
-	.string "challenges and try again!$"
+	.string "您的咖啡馆点数不够\n换那套增强剂。\p再多完成些挑战，\n然后再来吧！$"
 
 BattleCafe_NotEnoughBagSpace_Text_0:
-	.string "Your Bag is too full for that prize.\n"
-	.string "Make some room and come back whenever\l"
-	.string "you're ready!$"
+	.string "您的背包放不下那个奖品。\n腾出些空间，准备好了再来！$"
 
 BattleCafe_Goodbye_Text_0:
-	.string "Come back hungry for another battle!$"
+	.string "欢迎再回来，带着再战的胃口！$"
 
 BattleCafe_TrainerAthena_Text_0:
-	.string "Did you have fun? Let's try this\n"
-	.string "again tomorrow!$"
+	.string "玩得开心吗？明天我们再\n打一场吧！$"
 
 BattleCafe_TrainerAthena_Text_1:
-	.string "Let's see if you can survive this\n"
-	.string "stall!$"
+	.string "看看你能不能扛住我这套\n消耗战术！$"
 
 BattleCafe_TrainerAthena_Text_2:
-	.string "Huh?$"
+	.string "咦？$"
 
 BattleCafe_TrainerAthena_Text_3:
-	.string "Did you have fun?$"
+	.string "玩得开心吗？$"
 
 BattleCafe_TrainerDoves_Text_0:
-	.string "Doves: Let's fight again tomorrow when \n"
-	.string "my Genesect is allowed on the \l"
-	.string "battlefield.$"
+	.string "多夫斯：等明天我的盖诺赛克特\n能上场了，我们再打一场。$"
 
 BattleCafe_TrainerDoves_Text_1:
-	.string "Doves: Let me show you the power of \n"
-	.string "Genesect!$"
+	.string "多夫斯：让你见识一下\n盖诺赛克特的实力！$"
 
 BattleCafe_TrainerDoves_Text_2:
-	.string "Banned again from Overused...$"
-
-BattleCafe_TrainerDoves_Text_3:
-	.string "Doves: Let's fight again tomorrow when\n"
-	.string "my Genesect is allowed on the \l"
-	.string "battlefield.$"
+	.string "又因为太强被禁赛了……$"
 
 BattleCafe_TrainerElton_Text_0:
-	.string "Elton: Rematch tomorrow! Be there!$"
+	.string "埃尔顿：明天再战！一定要来！$"
 
 BattleCafe_TrainerElton_Text_1:
-	.string "Elton: Let's have a battle with our\n"
-	.string "favourite Pokémon!$"
+	.string "埃尔顿：用我们最喜欢的宝可梦\n来打一场吧！$"
 
 BattleCafe_TrainerElton_Text_2:
-	.string "You handled every trick I had!$"
+	.string "我的花招全被你破解了！$"
 
 BattleCafe_TrainerElton_Text_3:
-	.string "Elton: Even Gengar's impressed, and it\n"
-	.string "rarely takes a loss seriously.$"
+	.string "埃尔顿：连耿鬼都服气了，\n它可是很少把输当回事的。$"
 
 BattleCafe_TrainerNem_Text_0:
-	.string "Nem: Come back tomorrow.$"
+	.string "内姆：明天再来。$"
 
 BattleCafe_TrainerNem_Text_1:
-	.string "Nem: Think fast!$"
+	.string "内姆：接招吧！$"
 
 BattleCafe_TrainerNem_Text_2:
-	.string "I'll be watching.$"
+	.string "我会盯着你的。$"
 
 BattleCafe_TrainerNem_Text_3:
-	.string "Nem: We can fight again tomorrow.$"
+	.string "内姆：明天还能再打。$"
 
 BattleCafe_TrainerBai_Text_0:
-	.string "Bai: That was a good match!\n"
-	.string "Let's fight again tomorrow!$"
+	.string "拜伊：打得真不错！\n明天再打一场吧！$"
 
 BattleCafe_TrainerBai_Text_1:
-	.string "Bai: Let's see what you bring to \n"
-	.string "the table!$"
+	.string "拜伊：让我看看你能拿出\n什么本事来！$"
 
 BattleCafe_TrainerBai_Text_2:
-	.string "Guess I'm cooked this time...$"
+	.string "这下可真是被你炖熟了……$"
 
 BattleCafe_TrainerBai_Text_3:
-	.string "Bai: Good match! Let's try this again \n"
-	.string "tomorrow!$"
+	.string "拜伊：打得真不错！\n明天再来一场吧！$"
 
 BattleCafe_TrainerDrac_Text_0:
-	.string "Drac: You're really tough! Let's fight\n"
-	.string "again tomorrow!$"
+	.string "德拉克：你真厉害！\n明天再打一场吧！$"
 
 BattleCafe_TrainerDrac_Text_1:
-	.string "Drac: Care for a double battle?$"
+	.string "德拉克：要不要来场双打？$"
 
 BattleCafe_TrainerDrac_Text_2:
-	.string "Soothed.$"
+	.string "消气了。$"
 
 BattleCafe_TrainerSimpli_Text_0:
-	.string "Tomorrow will surely be better.$"
+	.string "明天一定会更好。$"
 
 BattleCafe_TrainerSimpli_Text_1:
-	.string "Gamble with the rain!$"
+	.string "来和雨天赌一把吧！$"
 
 BattleCafe_TrainerSimpli_Text_2:
-	.string "Weathered...$"
+	.string "被风雨磨垮了……$"
 
 BattleCafe_TrainerSimpli_Text_3:
-	.string "Maybe tomorrow will go better.$"
+	.string "明天也许会好一些。$"
 
 BattleCafe_TrainerTylarie_Text_0:
-	.string "Steelix has settled down for\n"
-	.string "lunch. We'll be ready tomorrow!$"
+	.string "大钢蛇已经安顿下来吃午饭了。\n明天我们就能准备好！$"
 
 BattleCafe_TrainerTylarie_Text_1:
-	.string "Tylarie: Let me show you how sturdy my\n"
-	.string "team is!$"
+	.string "泰拉莉：让你看看我的队伍\n有多结实！$"
 
 BattleCafe_TrainerTylarie_Text_2:
-	.string "Ouch.$"
+	.string "哎哟。$"
 
 BattleCafe_TrainerTylarie_Text_3:
-	.string "Tylarie: Not bad. We can go at it again\n"
-	.string "another day.$"
+	.string "泰拉莉：不错嘛。改天我们\n再比一场。$"
 
 BattleCafe_FreshWaterFountain_Text_0:
-	.string "It's a small fountain of water.$"
+	.string "是一小座喷泉。$"
 
 BattleCafe_FreshWaterFountain_Text_1:
-	.string "You decide to grab some fresh water\n"
-	.string "from the fountain.$"
+	.string "您从喷泉里接了些\n清凉的水。$"
 
 BattleCafe_FreshWaterFountain_Text_2:
-	.string "Stay hydrated.$"
+	.string "注意补水。$"

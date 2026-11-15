@@ -9,8 +9,8 @@ BattleFrontier_ShowCaughtBannedSpeciesEnd:
 
 
 BattleFrontier_DoYouWantToSeeTheListOfCaughtBannedSpecies:
-	.string "Do you want to see the list of\n"
-	.string "Pokémon species you can't bring?$"
+	.string "要查看无法参加的\n宝可梦名单吗？$"
+	.string ""
 
 BattleFrontier_EventScript_ShowLevelModeInfo::
 	msgbox BattleFrontier_Text_LevelModeInfo, MSGBOX_DEFAULT
@@ -48,32 +48,32 @@ BattleFrontier_EventScript_ChooseBattleBgmEnd:
 	return
 
 BattleFrontier_Text_LevelModeInfo:
-	.string "In Classic, your party is scaled to\n"
-	.string "Lv. 50, and restricted legends are\l"
-	.string "excluded from facility battles.\p"
-	.string "In Chaos, your party is scaled to\n"
-	.string "Lv. 100, and anything goes.\p"
-	.string "Innates can be enabled or disabled\n"
-	.string "separately.$"
+	.string "经典模式下，队伍等级会调整为\nLv. 50，并且受限的传说宝可梦\l无法参加设施对战。\p混沌模式下，队伍等级会调整为\nLv. 100，没有任何限制。\p天赋特性可以另外\n单独开启或关闭。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_Text_DisableInnates:
-	.string "Innates are currently enabled.\n"
-	.string "Disable them?$"
+	.string "当前天赋特性为开启状态。\n要关闭吗？$"
+	.string ""
 
 BattleFrontier_Text_EnableInnates:
-	.string "Innates are currently disabled.\n"
-	.string "Enable them?$"
+	.string "当前天赋特性为关闭状态。\n要开启吗？$"
+	.string ""
 
 BattleFrontier_Text_InnatesDisabled:
-	.string "Innates are now disabled in all\n"
-	.string "facilities.$"
+	.string "所有设施中的天赋特性\n均已关闭。$"
+	.string ""
 
 BattleFrontier_Text_InnatesEnabled:
-	.string "Innates are now enabled in all\n"
-	.string "facilities.$"
+	.string "所有设施中的天赋特性\n均已开启。$"
+	.string ""
 
 BattleFrontier_Text_ChooseBattleBgm:
-	.string "Choose the music for facility battles.$"
+	.string "请选择设施对战的音乐。$"
 
 BattleFrontier_Text_BattleBgmUpdated:
-	.string "The facility battle BGM was updated.$"
+	.string "设施对战的音乐已更改。$"

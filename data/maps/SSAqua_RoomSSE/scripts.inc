@@ -74,33 +74,33 @@ SSAqua_RoomSSE_Movement_PlayerEnter:
     step_end
 
 SSAqua_RoomSSE_Text_CantFindGranddaughter:
-    .string "Oh, hello…\p"
-    .string "I still can't find my\n"
-    .string "granddaughter.\p"
-    .string "If she's on the ship,\n"
-    .string "that's Ok.\p"
-    .string "She's an energetic child,\n"
-    .string "so she may be bugging someone\l"
-    .string "I'm worried…$"
+    .string "哎呀，你好……\p我还是没找到\n我的孙女。\p她要是还在船上，\n那倒还好。\p那孩子精力旺盛，\n说不定正在给谁\l添麻烦呢……我很担心。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 SSAqua_RoomSSE_Text_EntertainedGranddaughter:
-    .string "{PLAYER}, was it?\n"
-    .string "I heard you entertained my\l"
-    .string "granddaughter.\p"
-    .string "I want to thank you for that.$"
+    .string "{PLAYER}，是吧？\n我听说您陪我孙女\l玩了。\p真是太感谢您了。$"
+    .string ""
+    .string ""
+    .string ""
 
 SSAqua_RoomSSE_Text_GrandpaHaveThis:
-    .string "I know! I'd like you\n"
-    .string "to have this!$"
+    .string "我知道了！这个请您收下！$"
+    .string ""
 
 SSAqua_RoomSSE_Text_GrandpaTravelling:
-    .string "We're traveling around\n"
-    .string "the world.$"
+    .string "我们正在世界各地旅行呢。$"
+    .string ""
 
 SSAqua_RoomSSE_Text_GranddaughterWasPlaying:
-    .string "Grandpa, here I am!\n"
-    .string "I was playing with\l"
-    .string "the Captain and this person!$"
+    .string "爷爷，我在这儿！\n我刚才在和\l船长还有这个人玩！$"
+    .string ""
+    .string ""
 
 SSAqua_RoomSSE_Text_GranddaughterHadFun:
-    .string "I had lots of fun playing!$"
+    .string "我玩得可开心了！$"

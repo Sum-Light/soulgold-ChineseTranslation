@@ -10,8 +10,8 @@ Gate_EcruteakCity_Route42_EventScript_Policeman::
 	end
 
 Route42_Text_EcruteakGateOfficer:
-	.string "Mt.Mortar is like a maze\n"
-	.string "inside.\p"
-	.string "Be careful. Don't get lost\n"
-	.string "in there.$"
+	.string "擂钵山里面\n就像迷宫一样。\p小心点，别在里面\n迷路了。$"
+	.string ""
+	.string ""
+	.string ""
 

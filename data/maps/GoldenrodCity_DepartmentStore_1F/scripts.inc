@@ -39,27 +39,27 @@ GoldenrodDeptStore1_EventScript_Directory::
 	end
 
 GoldenrodDeptStor1_Text_Receptionist:
-    .string "Welcome to Goldenrod Dept.Store.$"
+    .string "欢迎光临满金百货店。$"
 
 GoldenrodDeptStore1_Text_Gentleman:
-    .string "The Dept.Store has a decent\n"
-    .string "selection.\p"
-    .string "But some items are only available\n"
-    .string "as Game Corner prizes.$"
+    .string "百货店的商品还算\n齐全。\p不过有些商品只有游戏城\n兑换奖品里才有。$"
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodDeptStore1_Text_PokefanF:
-    .string "I'm raring to shop again today!$"
+    .string "今天也要大买特买！$"
 
 GoldenrodDeptStore1_Text_BugCatcher:
-    .string "Mom's good at bargain hunting.\p"
-    .string "She always buys stuff at lower\n"
-    .string "prices.$"
+    .string "我妈很会淘便宜货。\p她总能以更低的\n价格买到东西。$"
+    .string ""
+    .string ""
 
 GoldenrodDeptStore1_Text_Directory:
-    .string "<1F Service Counter>\p"
-    .string "2F Trainer's Market\p"
-    .string "3F Battle Collection\p"
-    .string "4F Medicine Box\p"
-    .string "5F TM Corner\p"
-    .string "6F Tranquil Square\p"
-    .string "Rooftop Lookout$"
+    .string "<1楼　服务台>\p2楼　训练家超市\p3楼　对战藏品\p4楼　药盒\p5楼　招式学习器专柜\p6楼　休息广场\p屋顶观景台$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""

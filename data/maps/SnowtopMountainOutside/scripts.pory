@@ -9,7 +9,7 @@ script SnowtopMountainOutside_Snover {
     lock
     faceplayer
     playmoncry(SPECIES_SNOVER, CRY_MODE_NORMAL)
-    msgbox("Snover: Snoo!")
+    msgbox("雪笠怪：雪呜！")
     waitmoncry
     release
     end
@@ -24,6 +24,5 @@ script SnowtopMountainOutside_Articuno {
 }
 
 script SnowtopMountainOutside_Sign {
-    msgbox("Snowtop Mountain
-            Chilling temperatures ahead!", MSGBOX_SIGN)
+    msgbox("雪顶山\n前方气温严寒！", MSGBOX_SIGN)
 }

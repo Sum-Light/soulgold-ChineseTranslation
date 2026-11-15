@@ -53,80 +53,80 @@ LavenderTown_RadioStation_EventScript_Library::
 	end
 
 LavenderTown_RadioStation_Text_Receptionist:
-	.string "Welcome! Feel free to look around\n"
-	.string "anywhere on this floor.$"
+	.string "欢迎！这一层您可以随意参观。$"
+	.string ""
 
 LavenderTown_RadioStation_Text_Officer:
-	.string "Sorry, but you can only tour the\n"
-	.string "ground floor.\p"
-	.string "Ever since Johto's Radio Tower\n"
-	.string "was taken over by a criminal gang,\l"
-	.string "we have had to step up our\l"
-	.string "security.$"
+	.string "抱歉，您只能参观一楼。\p自从城都地区的播音塔\n被犯罪团伙占据以后，\l我们的警备\l就不得不加强了。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LavenderTown_RadioStation_Text_SuperNerd1:
-	.string "Many people are hard at work here\n"
-	.string "in the Radio Tower.\p"
-	.string "They must be doing their best to\n"
-	.string "put on good shows.$"
+	.string "播音塔里有很多人\n在辛勤工作。\p他们一定在全力以赴\n制作好节目。$"
+	.string ""
+	.string ""
+	.string ""
 
 LavenderTown_RadioStation_Text_Gentleman:
-	.string "Oh, no, no, no!\p"
-	.string "We've been off the air ever since\n"
-	.string "the Power Plant shut down.\p"
-	.string "All my efforts to start this\n"
-	.string "station would be wasted if I can't\l"
-	.string "broadcast.\p"
-	.string "I'll be ruined!$"
+	.string "不不不，糟了！\p自从发电厂停工，\n我们就一直没法广播。\p要是不能继续播出，我创办\n这个播音塔的全部心血\l就白费了。\p我就要完蛋了！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LavenderTown_RadioStation_Text_Gentleman_ReturnedMachinePart:
-	.string "Ah! So you're the {PLAYER} who\n"
-	.string "solved the Power Plant's problem?\p"
-	.string "Thanks to you, I never lost my\n"
-	.string "job.\p"
-	.string "I tell you, you're a real\n"
-	.string "lifesaver!\p"
-	.string "Please take this as my thanks.$"
+	.string "啊！您就是那位解决了\n发电厂问题的{PLAYER}？\p多亏了您，我才没有丢掉工作。\p跟您说，您真是我的大救星！\p请收下这个，聊表谢意。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LavendertownRadioStation_Text_Upgraded_Radio:
-	.string "{PLAYER} obtained the\n"
-	.string "Radio Upgrade!$"
+	.string "{PLAYER}得到了\n收音机升级装置！$"
+	.string ""
 
 LavenderTown_RadioStation_Text_Gentleman_GotExpnCard:
-	.string "With that thing, you can tune into\n"
-	.string "the radio programs here in Kanto.\p"
-	.string "Gahahahaha!$"
+	.string "有了那个，您就能收听\n关都地区的广播节目了。\p嘎哈哈哈哈哈！$"
+	.string ""
+	.string ""
 
 LavenderTown_RadioStation_Text_SuperNerd2:
-	.string "Hey there!\p"
-	.string "I am the super Music Director!\p"
-	.string "Huh? Your Radio can't tune into\n" @Pokégear
-	.string "my music programs. How unfortunate!\p"
-	.string "If you get an Expn Card upgrade,\n"
-	.string "you can tune in. You'd better get\l"
-	.string "one!$"
+	.string "你好呀！\p我是超级音乐总监！\p嗯？你的收音机收不到\n我的音乐节目。真可惜！\p只要装上扩张卡升级一下，\n就能收听了。你最好\l去弄一个！$"
+	.string ""
+	.string "" @Pokégear
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LavenderTown_RadioStation_Text_SuperNerd2_GotExpnCard:
-	.string "Hey there!\p"
-	.string "I am the super Music Director!\p"
-	.string "I'm responsible for the gorgeous\n"
-	.string "melodies that go out over the air.\p"
-	.string "Don't be square. Grab your music\n"
-	.string "off the air!$"
+	.string "你好呀！\p我是超级音乐总监！\p空中飘荡的那些优美旋律，\n可都是经由我手的。\p别落伍了，快打开收音机\n听音乐吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LavenderTown_RadioStation_Text_Directory:
-	.string "1F Reception 2F Sales\p"
-	.string "3F Personnel 4F Production\p"
-	.string "5F Director's Office$"
+	.string "1楼　接待处　2楼　营业部\p3楼　人事部　4楼　制作部\p5楼　局长室$"
+	.string ""
+	.string ""
 
 LavenderTown_RadioStation_Text_PokeFluteSign:
-	.string "Perk Up Pokémon with Mellow\n"
-	.string "Sounds of the Poké Flute on\l"
-	.string "Channel 20$"
+	.string "用宝可梦之笛的舒缓音色\n让宝可梦打起精神\l第20频道$"
+	.string ""
+	.string ""
 
 LavenderTown_RadioStation_Text_ReferenceLibrary:
-	.string "Wow! A full rack of Pokémon CDs\n"
-	.string "and videos.\p"
-	.string "This must be the reference\n"
-	.string "library.$"
+	.string "哇！满满一架子的\n宝可梦CD和录像带。\p这里一定就是参考资料室。$"
+	.string ""
+	.string ""
+	.string ""
 

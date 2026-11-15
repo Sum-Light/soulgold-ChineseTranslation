@@ -46,54 +46,54 @@ ViridianCity_Gym_EventScript_BlueGotoDojo::
 	end
 
 ViridianCity_Gym_Text_BlueGotoDojo:
-	.string "Blue: Back for more already?\p"
-	.string "If you want another shot at me,\n"
-	.string "come to the Fighting Dojo!$"
+	.string "青绿：又来挑战了？\p还想再和我打一场，\n就到格斗道场来！$"
+	.string ""
+	.string ""
 
 ViridianCity_Gym_Text_LeaderBlue_Before:
-	.string "Blue: Yo! Finally got here, huh?\p"
-	.string "I wasn't in the mood at Cinnabar,\p"
-	.string "but now I'm ready to battle you.\p"
-	.string "…\p"
-	.string "You're telling me you conquered all\n"
-	.string "the Gyms in Johto?\p"
-	.string "Heh! Johto's Gyms must be pretty\n"
-	.string "pathetic then.\p"
-	.string "Hey, don't worry about it.\p"
-	.string "I'll know if you are good or not by\n"
-	.string "battling you right now.\p"
-	.string "Ready, Johto Champ?$"
+	.string "青绿：哟！你终于来了啊？\p在红莲的时候我没那个心情，\p但现在我准备好和你一战了。\p……\p你说你把城都地区的\n道馆全都打下来了？\p哼！那城都的道馆\n想必也够差劲的。\p喂，别在意。\p你现在就和我打一场，\n我自然知道你有几斤几两。\p准备好了吗，城都的冠军？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 ViridianCity_Gym_Text_LeaderBlue_Win:
-	.string "Blue: What?\p"
-	.string "How the heck did I lose to you?\p"
-	.string "…\p"
-	.string "Tch, all right… Here, take this--it's\n"
-	.string "Earthbadge.$"
+	.string "青绿：怎么会？\p我到底是怎么\n输给你的？\p……\p嘁，好吧……给，这个给你——\n绿色徽章。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 ViridianCity_Gym_Text_ReceivedEarthBadge:
-	.string "{PLAYER} received Earthbadge.$"
+	.string "{PLAYER}得到了绿色徽章。$"
 
 ViridianCity_Gym_Text_BulkUpSpeech:
-    .string "That TM contains Bulk Up.\p"
-    .string "It lets a Pokémon become an\n"
-    .string "unstoppable force and an\l"
-	.string "immovable object all at once!\p"
-    .string "Don't let anyone tell you\n"
-    .string "that you have to choose\l"
-	.string "between offense and defense.$"
+    .string "这枚招式学习器里\n装的是健美。\p它能让宝可梦同时变成\n势不可挡的力量和\l无可撼动的堡垒！\p别让别人告诉你，\n必须在攻和守之间\l二选一。$"
+    .string ""
+    .string ""
+	.string ""
+    .string ""
+    .string ""
+	.string ""
 
 ViridianCity_Gym_Text_LeaderBlue_After:
-	.string "Blue: …\p"
-	.string "All right, I was wrong. You're the\n"
-	.string "real deal. You are a good trainer.\p"
-	.string "But I'm going to beat you someday.\p"
-	.string "Don't you forget it!$"
+	.string "青绿：……\p好吧，是我错了。你是\n真有本事。你是个好训练家。\p但我总有一天会打倒你。\p你可别忘了！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 ViridianCity_Gym_Text_LeaderBlue_Epilogue:
-	.string "Blue: Listen, you.\p"
-	.string "You'd better not lose until I beat\n"
-	.string "you. Got it?$"
+	.string "青绿：听好了。\p在我打倒你之前，\n你可不许输给别人。记住了？$"
+	.string ""
+	.string ""
 
 
 ViridianCity_Gym_EventScript_GymGuy::
@@ -106,18 +106,18 @@ ViridianCity_Gym_EventScript_GymGuyAfter::
 	end
 
 ViridianCity_Gym_Text_Guide:
-	.string "Yo, Champ in making!\p"
-	.string "How's it going? Looks like you're on\n"
-	.string "a roll.\p"
-	.string "The Gym Leader is a guy who battled\n"
-	.string "the Champion three years ago.\p"
-	.string "He's no pushover.\p"
-	.string "Give it everything you've got!$"
+	.string "哟，未来的冠军！\p最近怎么样？看来你\n势头正猛啊。\p这里的馆主，就是三年前\n和冠军交过手的那个人。\p他可不是好对付的。\p拿出全力来吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 ViridianCity_Gym_Text_Guide_Win:
-	.string "Man, you are truly tough…\p"
-	.string "That was a heck of an inspirational\n"
-	.string "battle. It brought tears to my eyes.$"
+	.string "真是厉害啊……\p那场对战令人振奋，\n我都看哭了。$"
+	.string ""
+	.string ""
 
 
 ViridianCity_Gym_EventScript_GymStatue::
@@ -133,13 +133,13 @@ ViridianCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 ViridianCity_Gym_Text_GymStatue::
-    .string "Viridian Pokémon Gym\n"
-    .string "Leader: Blue\p"
-	.string "Winning Trainers:\n"
-	.string "Blue, Red$"
+    .string "常青宝可梦道馆\n馆主：青绿\p优胜训练家：\n青绿、赤红$"
+    .string ""
+	.string ""
+	.string ""
 
 ViridianCity_Gym_Text_GymStatuePlayerWon::
-    .string "Viridian Pokémon Gym\n"
-    .string "Leader: Blue\p"
-    .string "Winning Trainers:\n"
-	.string "Blue, Red, {PLAYER}$"
+    .string "常青宝可梦道馆\n馆主：青绿\p优胜训练家：\n青绿、赤红、{PLAYER}$"
+    .string ""
+    .string ""
+	.string ""

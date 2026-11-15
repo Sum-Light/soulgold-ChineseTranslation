@@ -12,31 +12,31 @@ SSAqua_RoomSW_EventScript_Clyde::
 	end
 
 SSAqua_RoomSW_Text_BeautyCassieSeen:
-    .string "I'm trying to forget my woes.\n"
-    .string "Let's battle!$"
+    .string "我想忘掉烦心事。\n来对战吧！$"
+    .string ""
 
 SSAqua_RoomSW_Text_BeautyCassieBeaten:
-    .string "My heart weeps…$"
+    .string "我的心在哭泣……$"
 
 SSAqua_RoomSW_Text_BeautyCassieAfterBattle:
-    .string "A voyage is best for getting over\n"
-    .string "a broken heart.\p"
-    .string "But a Fast Ship trip is too short\n"
-    .string "for grieving.$"
+    .string "坐船旅行最适合\n治愈心碎。\p可是高速船的旅程\n太短了，来不及伤心。$"
+    .string ""
+    .string ""
+    .string ""
 
 SSAqua_RoomSW_Text_GuitaristClydeSeen:
-    .string "I'm going to audition my songs\n"
-    .string "at Goldenrod's Radio Station.$"
+    .string "我要去满金市的播音塔\n参加歌曲试音。$"
+    .string ""
 
 SSAqua_RoomSW_Text_GuitaristClydeBeaten:
-    .string "Yowza! Total distortion!$"
+    .string "哇！\n彻底走音了！$"
 
 SSAqua_RoomSW_Text_GuitaristClydeAfterBattleMobile:
-    .string "I was going to make my debut at\n"
-    .string "the Battle Tower…\p"
-    .string "I should go back to Vermilion and\n"
-    .string "redo my training…$"
+    .string "我本来想在对战塔\n首次登台的……\p我还是回枯叶市\n重新修行吧……$"
+    .string ""
+    .string ""
+    .string ""
 
 SSAqua_RoomSW_Text_GuitaristClydeAfterBattle:
-    .string "Speaking of the Radio Station,\n"
-    .string "what's this week's lucky number?$"
+    .string "说起播音塔，\n这周的幸运数字是几号？$"
+    .string ""

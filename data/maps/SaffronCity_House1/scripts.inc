@@ -16,13 +16,13 @@ SaffronCity_House1_EventScript_MrPsychicAfter::
 	end
 
 MrPsychic_Text_1:
-	.string "…\p"
-	.string "…\p"
-	.string "…\p"
-	.string "…I got it!\p"
-	.string "You wanted this!$"
+	.string "……\p……\p……\p……我明白了！\p你想要这个吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MrPsychic_Text_2:
-	.string "TM29 is Psychic.\p"
-	.string "It may lower the target's\n"
-	.string "Spcl.Def.$"
+	.string "招式学习器29里装的是\n精神强念。\p有时还能降低对手的\n特防。$"
+	.string ""
+	.string ""

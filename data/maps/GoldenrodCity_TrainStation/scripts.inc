@@ -297,29 +297,29 @@ GoldenrodCity_TrainStation_Movement_SlideRight:
 	step_end
 
 GoldenrodMagnetTrainStation_Text_OfficerTrainHasntComeIn:
-    .string "The train hasn't come in…\p"
-    .string "I know! I'll carry the passengers\n"
-    .string "on my back!\p"
-    .string "That won't work.$"
+    .string "列车还没来……\p我知道了！我就把乘客\n一个个背过去！\p不行，这办法行不通。$"
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodMagnetTrainStation_Text_OfficerRightThisWay:
-    .string "May I see your rail Pass, please?\p"
-    .string "Ok. Right this way, please.$"
+    .string "请出示您的磁浮列车自由票。\p好的，请您往这边走。$"
+    .string ""
 
 GoldenrodMagnetTrainStation_Text_OfficerNoRailPass:
-    .string "Sorry. You don't have a rail Pass.$"
+    .string "抱歉。您没有磁浮列车自由票。$"
 
 GoldenrodMagnetTrainStation_Text_GentlemanPresident:
-    .string "I'm the President.\p"
-    .string "My dream was to build a train that\n"
-    .string "is faster than any Pokémon.\p"
-    .string "It really brings Johto much closer\n"
-    .string "to the other regions.$"
+    .string "我是社长。\p我的梦想，就是造出一列\n比任何宝可梦都快的列车。\p它让城都和别的地区，\n一下子近了许多。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodCity_TrainStation_Text_Boy:
-	.string "You brought the Magnet Train Pass,\n"
-	.string "right?$"
+	.string "你带磁浮列车自由票了吧？$"
+	.string ""
 
 GoldenrodCity_TrainStation_Text_Psychic:
-	.string "I thought you had it!$"
+	.string "我还以为你带着呢！$"
 	

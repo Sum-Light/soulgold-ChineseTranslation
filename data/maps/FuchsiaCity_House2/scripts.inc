@@ -16,23 +16,23 @@ FuchsiaCity_House2_EventScript_Photo::
 	end
 
 FuchsiaCity_House2_Text_WardensGranddaughter1:
-	.string "My grandpa is the Safari Zone\n"
-	.string "Warden.\p"
-	.string "At least he was…\p"
-	.string "He decided to go on a vacation and\n"
-	.string "took off overseas all by himself.\p"
-	.string "He quit running Safari Zone just\n"
-	.string "like that.$"
+	.string "我爷爷是狩猎地带的\n园长。\p至少以前是……\p他决定去度假，\n就一个人跑到国外去了。\p他就这么撒手不管\n狩猎地带了。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 FuchsiaCity_House2_Text_WardensGranddaughter2:
-	.string "Many people were disappointed that\n"
-	.string "Safari Zone closed down, but Grandpa\l"
-	.string "is so stubborn…$"
+	.string "狩猎地带关门，\n让很多人失望了，但我爷爷\l就是这么固执……$"
+	.string ""
+	.string ""
 
 FuchsiaCity_House2_Text_WardenPhoto:
-	.string "It's a photo of a grinning old man\n"
-	.string "who's surrounded by Pokémon.$"
+	.string "是一张照片：一位老爷爷\n笑得开心，被宝可梦围着。$"
+	.string ""
 
 FuchsiaCity_House2_Text_SafariZonePhoto:
-	.string "It's a photo of a huge grassy plain\n"
-	.string "with rare Pokémon frolicking in it.$"
+	.string "是一张照片：辽阔的草原上，\n稀有的宝可梦在嬉戏。$"
+	.string ""

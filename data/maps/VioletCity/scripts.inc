@@ -392,105 +392,105 @@ VioletCity_EventScript_GymSign::
 	end
 
 VioletCity_Text_LiquidJustice:
-	.string "Look around!\p"
-	.string "It's easy to see what Pokémon\n"
-	.string "you can catch in an area without\l"
-	.string "having to run around in tall\l"
-	.string "grass all day!$"
+	.string "到处看看吧！\p很容易就能看出，\n这片区域里\l能抓到什么宝可梦，\l不用整天在草丛里跑来跑去！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 VioletCity_Text_EarlAsksIfYouBeatFalkner:
-	.string "Hello!\n"
-	.string "You are trainer?\p"
-	.string "Battle Gym Leader,\n"
-	.string "win you did?$"
+	.string "嗨！你是训练家？\p道馆馆主，\n打赢过没有？$"
+	.string ""
+	.string ""
+	.string ""
 
 VioletCity_Text_VeryNiceIndeed:
-	.string "Ooh, la la!\n"
-	.string "Very indeed nice!$"
+	.string "哦啦啦！\n真是厉害，实在厉害！$"
+	.string ""
 
 VioletCity_Text_FollowEarl:
-	.string "Is that so? Then study shall\n"
-	.string "you! Follow me!$"
+	.string "原来如此！那你就\n学一学吧！跟我来！$"
+	.string ""
 
 VioletCity_Text_HereTeacherIAm:
-	.string "Here, teacher I am.\n"
-	.string "Good it is you study here!$"
+	.string "我就是老师，老师！\n你在这里学习，好！$"
+	.string ""
 
 VioletCity_Text_Lass:
-	.string "Ghosts are rumored to appear\n"
-	.string "in Sprout Tower.\p"
-	.string "They say that Ghost-type\n"
-	.string "moves can bypass the defenses\p"
-	.string "of tough Pokémon like Onix\n"
-	.string "and Geodude.$"
+	.string "听说喇叭芽之塔里\n会闹幽灵。\p据说幽灵属性招式\n能绕过防御，\p对大岩蛇、小拳石\n这类结实的宝可梦有效。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 VioletCity_Text_Boy:
-	.string "Hey, you're a Pokémon trainer?\p"
-	.string "If you head to the Academy,\n"
-	.string "you might learn something new!$"
+	.string "嘿，你是宝可梦训练家？\p去学院看看，\n说不定能学到点新东西！$"
+	.string ""
+	.string ""
 
 VioletCity_Text_Gramps:
-	.string "Falkner, from the Violet\n"
-	.string "Pokémon Gym, is a fine trainer!\p"
-	.string "He inherited his father's gym\n"
-	.string "and has done a great job with\l"
-	.string "it.$"
+	.string "桔梗宝可梦道馆的阿速，\n是个了不起的训练家！\p他继承了父亲的\n道馆，\l经营得有声有色。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 VioletCity_Text_Youngster:
-	.string "I saw a wiggly tree up ahead!\p"
-	.string "If you touch it, it squirms\n"
-	.string "and dances! Cool!$"
+	.string "我看见前面有一棵\n摇来摇去的树！\p一碰它就会扭来扭去，\n还会跳舞！真酷！$"
+	.string ""
+	.string ""
 
 VioletCity_Text_Sign:
-	.string "Violet City\p"
-	.string "The City of Nostalgic Scents$"
+	.string "桔梗市\p怀古飘香的城市$"
+	.string ""
 
 VioletCity_Text_GymSign:
-	.string "Violet City Pokémon Gym\p"
-	.string "Leader: Falkner, The Elegant\n"
-	.string "Master of Flying Pokémon$"
+	.string "桔梗市宝可梦道馆\p馆主：阿速\n优雅的飞行宝可梦使者$"
+	.string ""
+	.string ""
 
 VioletCity_Text_SproutTowerSign:
-	.string "Sprout Tower\p"
-	.string "Experience the Way of Pokémon$"
+	.string "喇叭芽之塔\p体验宝可梦之道$"
+	.string ""
 
 VioletCity_Text_EarlsAcademySign:
-	.string "Earl's Pokémon Academy$"
+	.string "虎男的宝可梦学院$"
 
 VioletCity_Text_Pichu:
-	.string "Pichu: Chuuuu!$"
+	.string "皮丘：啾——！$"
 
 VioletCity_Text_Bellsprout:
-	.string "Bellsprout: Sprouuuut.$"
+	.string "喇叭芽：芽——。$"
 
 VioletCity_Text_Rattata:
-	.string "Rattata: Rattataratta!$"
+	.string "小拉达：拉达拉达！$"
 
 VioletCity_Text_Elm_Call:
-	.string "Elm: Hello, {PLAYER}? We discovered\n"
-	.string "something about the Egg!\p"
-	.string "My assistant is at the Pokémon\n"
-	.string "Center in Violet City.\p"
-	.string "Could you talk to him?$"
+	.string "空木博士：你好，{PLAYER}？\n关于那颗蛋，我们有了新发现！\p我的助手在桔梗市的\n宝可梦中心。\p你能去见见他吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 VioletCity_Text_Kimono_Girl1:
-.string "Me oh my...\n"
-.string "That Egg must be...!$"
+.string "哎呀呀……\n那枚蛋一定是……！$"
+.string ""
 
 VioletCity_Text_Kimono_Girl2:
-.string "I see...\p"
-.string "So it was handed from Mr. Pokémon\n"
-.string "to Prof. Elm, then from \l"
-.string "Prof. Elm to you.\p"
-.string "Now I get it...$"
+.string "我想想……\p这枚蛋从宝可梦爷爷那里\n交到空木博士手上，\l又从空木博士交到你手上。\p原来如此……$"
+.string ""
+.string ""
+.string ""
+.string ""
 
 VioletCity_Text_Kimono_Girl3:
-.string "That Egg is truly an important Egg.\p"
-.string "Please do take good care of it\n"
-.string "for me. Is that understood?$"
+.string "那枚蛋真是很重要的蛋。\p请替我好好照顾它。\n明白了吗？$"
+.string ""
+.string ""
 
 VioletCity_Text_Kimono_Girl4:
-.string "I am counting on you.$"
+.string "就拜托你了。$"
 
 berrytrader_juggler::
 	lock
@@ -589,49 +589,46 @@ DexnavDude::
 
 
 berrytrader_juggler_Text_0:
-	.string "Yah yah! I'm a huge fan of colored\n"
-	.string "shards. Do you have any to trade for\l"
-	.string "me? I will give you three berries for\l"
-	.string "each shard.$"
+	.string "呀呀！我最喜欢彩色碎片！\n"
+	.string "有碎片就跟我换吧，\l"
+	.string "一块换三颗树果。$"
 
 berrytrader_juggler_Text_1:
-	.string "Red Shard$"
+	.string "红色碎片$"
 
 berrytrader_juggler_Text_2:
-	.string "Blue Shard$"
+	.string "蓝色碎片$"
 
 berrytrader_juggler_Text_3:
-	.string "Yellow Shard$"
+	.string "黄色碎片$"
 
 berrytrader_juggler_Text_4:
-	.string "Green Shard$"
+	.string "绿色碎片$"
 
 berrytrader_juggler_Text_5:
-	.string "Cancel$"
+	.string "取消$"
 
 berrytrader_juggler_Text_6:
-	.string "I'll give you my berry set A for that\n"
-	.string "one, yah!$"
+	.string "那我就把树果组合A\n"
+	.string "送给你，呀！$"
 
 berrytrader_juggler_Text_7:
-	.string "You don't seem to have that shard with\n"
-	.string "you.$"
+	.string "你身上好像没有那种碎片。$"
 
 berrytrader_juggler_Text_8:
-	.string "I'll give you my berry set B for that\n"
-	.string "one, yah!$"
+	.string "那我就把树果组合B\n"
+	.string "送给你，呀！$"
 
 berrytrader_juggler_Text_9:
-	.string "I'll give you my berry set C for that\n"
-	.string "one, yah!$"
+	.string "那我就把树果组合C\n"
+	.string "送给你，呀！$"
 
 berrytrader_juggler_Text_10:
-	.string "I'll give you my berry set D for that\n"
-	.string "one, yah!$"
+	.string "那我就把树果组合D\n"
+	.string "送给你，呀！$"
 
 berrytrader_juggler_Text_11:
-	.string "Not interested huh? Shame...$"
+	.string "没兴趣吗？真可惜……$"
 
 DexnavDude_Text_0:
-	.string "If you have a Pokegéar, you should\n"
-	.string "make use of the Dexnav feature in it.$"
+	.string "要是你有宝可梦装置，\n就该用用里面的图鉴导航功能。$"

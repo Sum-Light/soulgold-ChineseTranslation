@@ -18,8 +18,8 @@ Route39_EventScript_Woman::
 	end
 
 Route39_Text_Woman:
-	.string "That shadow... Maybe it was a giant\n"
-	.string "Pidgey?$"
+	.string "那个影子……会不会是\n一只巨大的波波？$"
+	.string ""
 
 Route39_EventScript_Miltank::
 	lock
@@ -32,7 +32,7 @@ Route39_EventScript_Miltank::
 	end
 
 Route39_Text_Miltank:
-	.string "Miltank: Mooo!$"
+	.string "大奶罐：哞——！$"
 
 Route39_EventScript_Eugene::
 	trainerbattle_single TRAINER_EUGENE, Route39_Text_SailorEugeneSeen, Route39_Text_SailorEugeneBeaten
@@ -40,17 +40,17 @@ Route39_EventScript_Eugene::
 	end
 
 Route39_Text_SailorEugeneSeen:
-	.string "I just got back to Olivine.\p"
-	.string "So how about a Pokémon battle?$"
+	.string "我刚回到浅葱市。\p来一场宝可梦对战\n怎么样？$"
+	.string ""
 
 Route39_Text_SailorEugeneBeaten:
-	.string "Awaaargh!$"
+	.string "哇啊啊——！$"
 
 Route39_Text_SailorEugeneAfter:
-	.string "My Pokémon were caught and\n"
-	.string "raised overseas.\p"
-	.string "They're my companions on\n"
-	.string "those long voyages.$"
+	.string "我的宝可梦是在国外\n捕捉并培育的。\p它们是我漫长航海\n旅途中的伙伴。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route39_EventScript_Derek::
 	trainerbattle_single TRAINER_DEREK, Route39_Text_PokefanMDerekSeen, Route39_Text_PokefanMDerekBeaten
@@ -58,18 +58,18 @@ Route39_EventScript_Derek::
 	end
 
 Route39_Text_PokefanMDerekSeen:
-	.string "This is a good time to brag\n"
-	.string "about my Pikachu!$"
+	.string "现在正是炫耀我的\n皮卡丘的好时机！$"
+	.string ""
 
 Route39_Text_PokefanMDerekBeaten:
-	.string "I had no time to show off\n"
-	.string "Pikachu…$"
+	.string "我都没机会炫耀\n皮卡丘……$"
+	.string ""
 
 Route39_Text_PokefanMDerekAfter:
-	.string "I'm not listening to your\n"
-	.string "bragging!\p"
-	.string "We Poké Fans have a policy\n"
-	.string "of not listening to bragging!$"
+	.string "我才不听你自吹自擂！\p我们发烧友有个规矩，\n就是不听别人自吹自擂！$"
+	.string ""
+	.string ""
+	.string ""
 
 Route39_EventScript_Ruth::
 	trainerbattle_single TRAINER_RUTH, Route39_Text_PokefanFRuthSeen, Route39_Text_PokefanFRuthBeaten
@@ -77,17 +77,17 @@ Route39_EventScript_Ruth::
 	end
 
 Route39_Text_PokefanFRuthSeen:
-	.string "Such darling Pokémon.\p"
-	.string "Let's show our Pokémon\n"
-	.string "together at the same time.$"
+	.string "多可爱的宝可梦。\p我们一起来把各自的\n宝可梦展示出来吧。$"
+	.string ""
+	.string ""
 
 Route39_Text_PokefanFRuthBeaten:
-	.string "I don't mind losing.$"
+	.string "输了也没关系。$"
 
 Route39_Text_PokefanFRuthAfter:
-	.string "Do you know about baby\n"
-	.string "Pokémon?\p"
-	.string "I bet they're just adorable!$"
+	.string "你知道幼年宝可梦吗？\p我敢说它们肯定\n特别可爱！$"
+	.string ""
+	.string ""
 
 Route39_EventScript_Norman::
 	trainerbattle_single TRAINER_NORMAN, Route39_Text_PsychicNormanSeen, Route39_Text_PsychicNormanBeaten
@@ -95,19 +95,19 @@ Route39_EventScript_Norman::
 	end
 
 Route39_Text_PsychicNormanSeen:
-	.string "Let me see what your\n"
-	.string "Pokémon are capable of.$"
+	.string "让我看看你的宝可梦\n有什么本事。$"
+	.string ""
 
 Route39_Text_PsychicNormanBeaten:
-	.string "Ooh, your Pokémon have\n"
-	.string "potential.$"
+	.string "哦，你的宝可梦\n很有潜力。$"
+	.string ""
 
 Route39_Text_PsychicNormanAfter:
-	.string "You know how Pokémon have\n"
-	.string "different abilities?\p"
-	.string "People are like that too.\n"
-	.string "Everyone has different\l"
-	.string "potential.$"
+	.string "你知道宝可梦有着\n各种不同的能力吧？\p人也一样，每个人\n都有不同的\l潜力。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route39_EventScript_Jamie::
 	trainerbattle_single TRAINER_JAMIE, Route39_Text_PokefanFJaimeSeen, Route39_Text_PokefanFJaimeBeaten
@@ -115,22 +115,22 @@ Route39_EventScript_Jamie::
 	end
 
 Route39_Text_PokefanFJaimeSeen:
-	.string "You came at just the right\n"
-	.string "time.\p"
-	.string "Let's battle.$"
+	.string "你来得正是\n时候。\p来对战吧。$"
+	.string ""
+	.string ""
 
 Route39_Text_PokefanFJaimeBeaten:
-	.string "Oh, how disappointing…$"
+	.string "唉，真让人失望……$"
 
 Route39_Text_PokefanFJaimeAfter:
-	.string "I met Umbreon at night right\n"
-	.string "here on Route 39.\p"
-	.string "I'm not sure why, but it\n"
-	.string "seems to like it when I\l"
-	.string "train here.\p"
-	.string "It seems to become friendlier\n"
-	.string "by training here than\l"
-	.string "anywhere else.$"
+	.string "我是在39号道路的这里\n夜里遇见月亮伊布的。\p不知为什么，它好像\n很喜欢我在这里\l训练。\p比起别的地方，在这里\n训练似乎能让它\l更亲近我。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route39_EventScript_Sign1::
 	lock
@@ -140,8 +140,8 @@ Route39_EventScript_Sign1::
 	end
 
 Route39_Text_Sign:
-	.string "Route 39\p"
-	.string "Olivine City - Ecruteak City$"
+	.string "39号道路\p浅葱市——缘朱市$"
+	.string ""
 
 Route39_EventScript_Sign2::
 	lock
@@ -151,8 +151,8 @@ Route39_EventScript_Sign2::
 	end
 
 Route39_Text_MoomooFarmSign:
-	.string "Moomoo Farm\p"
-	.string "Enjoy Our Fresh and Tasty Milk$"
+	.string "哞哞牧场\p请品尝新鲜美味的牛奶$"
+	.string ""
 
 Route39_EventScript_Sign3::
 	lock
@@ -162,17 +162,17 @@ Route39_EventScript_Sign3::
 	end
 
 Route39_Text_TrainerTips:
-	.string "Trainer Tips\p"
-	.string "Use Headbutt on trees to shake\n"
-	.string "Pokémon out.\p"
-	.string "Different kinds of Pokémon\n"
-	.string "drop out of trees.\p"
-	.string "Use Headbutt on any tree\n"
-	.string "you see!$"
+	.string "训练家提示\p对着树使用头锤，\n就能把宝可梦摇下来。\p不同的树会掉下\n不同种类的宝可梦。\p见到的树都用头锤\n撞一撞吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 `
 
 script Route39_NorthSign {
-    msgbox("{UP_ARROW} Snowtop Mountain trail", MSGBOX_SIGN)
+    msgbox("{UP_ARROW} 雪顶山山道", MSGBOX_SIGN)
 }
 
 script Route39_BaobaTrigger {
@@ -185,42 +185,16 @@ script Route39_BaobaTrigger {
 	approachobject(LOCALID_R39_BAOBA, LOCALID_PLAYER, DIR_EAST, DIR_WEST)
 	waitmovement(0)
 	createfieldmugshot(MUGSHOT_GENTLEMAN)
-	msgbox("Baoba: ...Ohh! 
-			What you are holding is...
-			what they call... a Pokédex!
-			Haven't seen one of those in ages.
-			
-			My name is Baoba!
-			
-			I used to run a Safari Zone in Fuchsia
-			City, but it was becoming out of date
-			with the new entertainment options
-			coming out.
-			
-			I decided to go overseas to learn the
-			newest technology and open a
-			state-of-the-art Safari Zone in
-			Cianwood.
-			
-			It may be more than a coincidence that
-			we are chatting.
-			
-			Why don't we register each other's
-			numbers in the Pokégear?
-			
-			I can give you a call once the Safari
-			Zone is open before I call anyone else!")
+	msgbox("巴奥巴：……哦哦！\n你手里拿的那个……\l就是传说中的……宝可梦图鉴！\l我已经好久没见过那东西了。\p我叫巴奥巴！\p我以前在浅红市经营狩猎地带，\n可随着各种新奇娱乐项目\l不断出现，那里渐渐\l跟不上时代了。\p于是我决定出国学习\n最新技术，在湛蓝市开一家\l最先进的狩猎地带。\p我们在这里聊上天，\n也许不只是巧合。\p要不要在宝可梦装置里\n互相登录一下号码？\p等狩猎地带开业，我会第一个\n打电话通知你！")
 			waitmessage
 			removefieldmugshot
 			msgbox("...")
 			waitmessage
 			playse(MUS_HG_POKEGEAR_REGISTERED)
-			msgbox("{PLAYER} registered Baoba
-					in the Pokégear!")
+			msgbox("{PLAYER}在宝可梦装置里\n登录了巴奥巴！")
 			waitse
 			createfieldmugshot(MUGSHOT_GENTLEMAN)
-			msgbox("That's the way! I'll let you know
-					over the Pokégear once it's ready!")
+			msgbox("这就对了！等它准备好了，\n我会用宝可梦装置通知你！")
 			closemessage
 			applymovement(LOCALID_R39_BAOBA, moves(walk_left*5, walk_down*6))
 			waitmovement(0)

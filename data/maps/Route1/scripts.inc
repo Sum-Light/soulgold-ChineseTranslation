@@ -22,27 +22,27 @@ Route1_EventScript_Sign::
 	end
 
 Route1_Text_SchoolboyDanny_Seen:
-	.string "If trainers meet, the first\n"
-	.string "thing to do is battle.$"
+	.string "训练家碰了面，\n第一件事就是对战。$"
+	.string ""
 
 Route1_Text_SchoolboyDanny_Beaten:
-	.string "Awww… I've got a losing record…$"
+	.string "唉……我又多了一场败绩……$"
 
 Route1_Text_SchoolboyDanny_AfterBattle:
-	.string "For trainers, it's a given that\n"
-	.string "we'll battle whenever we meet.$"
+	.string "对训练家来说，\n碰了面就该对战，这是常识。$"
+	.string ""
 
 Route1_Text_CooltrainerFQuinn_Seen:
-	.string "You there! Want to battle?$"
+	.string "喂，你！要不要对战？$"
 
 Route1_Text_CooltrainerFQuinn_Beaten:
-	.string "Down and out…$"
+	.string "一败涂地……$"
 
 Route1_Text_CooltrainerFQuinn_AfterBattle:
-	.string "You're strong.\p"
-	.string "You obviously must have trained\n"
-	.string "hard.$"
+	.string "你挺强的。\p看来你一定下过\n不少苦功。$"
+	.string ""
+	.string ""
 
 Route1_Text_Sign:
-	.string "Route 1\p"
-	.string "Pallet Town - Viridian City$"
+	.string "1号道路\p真新镇——常青市$"
+	.string ""

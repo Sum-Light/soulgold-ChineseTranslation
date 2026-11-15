@@ -90,32 +90,32 @@ CianwoodCity_EventScript_ChucksWifeAlreadyHasFly::
 	end
 
 CianwoodCity_Text_ChucksWifeEasierToFly:
-	.string "You crossed the sea to get here?\p"
-	.string "That must have been hard.\p"
-	.string "It would be much easier if your\n"
-	.string "Pokémon knew how to Fly...$"
+	.string "你是渡海来这儿的？\p那一定很辛苦吧。\p要是宝可梦会飞翔，\n就轻松多了……$"
+	.string ""
+	.string ""
+	.string ""
 
 CianwoodCity_Text_ChucksWifeBeatChuck:
-	.string "But you can't use Fly without this\n"
-	.string "city's Gym Badge.\p"
-	.string "If you beat the Gym Leader here,\n"
-	.string "come see me.\p"
-	.string "I'll have a nice gift for you.$"
+	.string "可是没有本市的道馆徽章，\n是用不了飞翔的。\p你要是打赢了这里的道馆馆主，\n就来找我。\p我会送你好东西。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CianwoodCity_Text_ChucksWifeGiveHM:
-	.string "That's Cianwood's Gym Badge!\p"
-	.string "Then you should take this HM.$"
+	.string "那是湛蓝市的道馆徽章！\p那你该收下这个秘传学习器。$"
+	.string ""
 
 CianwoodCity_Text_ChucksWifeFlySpeech:
-	.string "Teach Fly to your Pokémon.\p"
-	.string "You will be able to Fly instantly\n"
-	.string "to anywhere you have visited.$"
+	.string "让宝可梦学会飞翔吧。\p这样就能一下子飞到你\n去过的任何地方。$"
+	.string ""
+	.string ""
 
 CianwoodCity_Text_ChucksWifeChubby:
-	.string "My husband lost to you, so he needs\n"
-	.string "to train harder.\p"
-	.string "That's good, since he was getting\n"
-	.string "a little chubby.$"
+	.string "我丈夫输给了你，所以\n得加倍修行才行。\p这样也好，他最近\n本来有点发福了。$"
+	.string ""
+	.string ""
+	.string ""
 
 CianwoodCity_EventScript_Youngster::
 	lock
@@ -126,8 +126,8 @@ CianwoodCity_EventScript_Youngster::
 	end
 
 CianwoodCity_Text_Youngster:
-	.string "If you use Fly, you can get back\n"
-	.string "to Olivine instantly.$"
+	.string "用飞翔的话，一下子就能\n回到浅葱市。$"
+	.string ""
 
 CianwoodCity_EventScript_PokefanM::
 	lock
@@ -138,11 +138,11 @@ CianwoodCity_EventScript_PokefanM::
 	end
 
 CianwoodCity_Text_PokefanM:
-	.string "Boulders to the north of town can\n"
-	.string "be crushed.\p"
-	.string "They may be hiding something.\p"
-	.string "Your Pokémon could use Rock Smash\n"
-	.string "to break them.$"
+	.string "城镇北边的岩石可以打碎。\p里面也许藏着什么。\p让宝可梦用碎岩，\n就能把它们打破。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CianwoodCity_EventScript_Lass::
 	lock
@@ -153,8 +153,8 @@ CianwoodCity_EventScript_Lass::
 	end
 
 CianwoodCity_Text_Lass:
-	.string "Chuck, the Gym Leader, spars with\n"
-	.string "his fighting Pokémon.$"
+	.string "道馆馆主阿四会和他的\n格斗宝可梦对练。$"
+	.string ""
 
 CianwoodCity_EventScript_SuicuneTrigger::
 	lock
@@ -273,32 +273,32 @@ CianwoodCity_Movement_Eusine3:
 	step_end
 
 CianwoodCity_Text_EusineSuicune:
-	.string "Eusine: Yo, {PLAYER}.\p"
-	.string "Wasn't that Suicune just now?\p"
-	.string "I only caught a quick glimpse, but\n"
-	.string "I thought I saw Suicune running on\l"
-	.string "the waves.\p"
-	.string "Suicune is beautiful and grand.\p"
-	.string "And it races through towns and\n"
-	.string "roads at simply awesome speeds.\p"
-	.string "It's wonderful…\p"
-	.string "I want to see Suicune up close…\p"
-	.string "I've decided.\p"
-	.string "I'll battle you as a trainer to\n"
-	.string "earn Suicune's respect!\p"
-	.string "Come on, {PLAYER}. Let's battle now!$"
+	.string "米那君：哟，{PLAYER}。\p刚才那是水君吧？\p我只看到一眼，不过\n我觉得我看见水君在\l浪尖上奔跑。\p水君既美丽又威严。\p它以惊人的速度，\n穿梭于城镇和道路之间。\p真是太棒了……\p我想近距离看看水君……\p我决定了。\p我要作为训练家和你对战，\n以此赢得水君的尊敬！\p来吧，{PLAYER}。\n现在就一决胜负！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CianwoodCity_Text_EusineBeaten:
-	.string "I hate to admit it, but you win.$"
+	.string "虽然不甘心，但我输了。$"
 
 CianwoodCity_Text_EusineAfter:
-	.string "You're amazing, {PLAYER}!\p"
-	.string "No wonder Pokémon gravitate to you.\p"
-	.string "I get it now.\p"
-	.string "I'm going to keep searching for\n"
-	.string "Suicune.\p"
-	.string "I'm sure we'll see each other again.\p"
-	.string "See you around!$"
+	.string "你太厉害了，{PLAYER}！\p难怪宝可梦都被你吸引。\p我明白了。\p我会继续寻找\n水君。\p我们一定还会再见的。\p回头见！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CianwoodCity_EventScript_CitySign::
 	lock
@@ -308,8 +308,8 @@ CianwoodCity_EventScript_CitySign::
 	end
 
 CianwoodCity_Text_Sign:
-	.string "Cianwood City\p"
-	.string "A Port Surrounded by Rough Seas$"
+	.string "湛蓝市\p被汹涌大海环绕的港口$"
+	.string ""
 
 CianwoodCity_EventScript_GymSign::
 	lock
@@ -319,9 +319,9 @@ CianwoodCity_EventScript_GymSign::
 	end
 
 CianwoodCity_Text_GymSign:
-	.string "Cianwood City Pokémon Gym\p"
-	.string "Leader: Chuck\p"
-	.string "His Roaring Fists Do the Talking$"
+	.string "湛蓝市宝可梦道馆\p馆主：阿四\p怒吼的拳头会说话$"
+	.string ""
+	.string ""
 
 CianwoodCity_EventScript_Pharmacy::
 	lock
@@ -331,9 +331,9 @@ CianwoodCity_EventScript_Pharmacy::
 	end
 
 CianwoodCity_Text_PharmacySign:
-	.string "500 Years of Tradition\p"
-	.string "Cianwood City Pharmacy\p"
-	.string "We Await Your Medicinal Queries$"
+	.string "五百年传统\p湛蓝市药房\p医药咨询，恭候光临$"
+	.string ""
+	.string ""
 
 CianwoodCity_EventScript_CaveSign::
 	lock
@@ -351,10 +351,10 @@ CianwoodCity_EventScript_Engineer::
 	end
 
 CianwoodCity_Text_Safari:
-	.string "Cliff Edge Cave\n"
-	.string "Road to the Safari Zone.$"
+	.string "断崖洞窟\n通往狩猎地带。$"
+	.string ""
 
 CianwoodCity_Text_Engineer:
-	.string "This path is under construction.\n"
-	.string "We're getting the new Safari Zone\l"
-	.string "up and running!$"
+	.string "这条路正在施工。\n我们正在建设新的狩猎地带，\l马上就要开张了！$"
+	.string ""
+	.string ""

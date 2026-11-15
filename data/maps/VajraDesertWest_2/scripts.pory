@@ -1,19 +1,14 @@
 mapscripts VajraDesertWest_2_MapScripts {}
 
 script VajraCrossroad_Girl {
-    msgbox("Many strong trainers around the world 
-            come to visit our village to partake
-            in the Battle Pyramid challenge. 
-            
-            It was relocated here from Hoenn region
-            some time ago.", MSGBOX_NPC)
+    msgbox("世界各地的许多强大训练家都会\n来到我们村子，参加\l对战金字塔的挑战。\p它是前些时候从丰缘地区\n搬到这里来的。", MSGBOX_NPC)
 }
 
 script VajraCrossroad_Sign {
-    msgbox("{LEFT_ARROW} Old Pyramid
-            {RIGHT_ARROW} Rinto Village", MSGBOX_SIGN)
+    msgbox("{LEFT_ARROW} 古金字塔
+            {RIGHT_ARROW} 林都村", MSGBOX_SIGN)
 }
 
 script VajraCrossroad_SignBP {
-    msgbox("Battle Pyramid, brave trainers welcome!", MSGBOX_SIGN)
+    msgbox("金刚金字塔，欢迎勇敢的训练家！", MSGBOX_SIGN)
 }

@@ -92,57 +92,28 @@ MtSilver_SummitDay_EventScript_Rival_Movement_0:
 	step_end
 
 MtSilver_SummitDay_EventScript_Rival_Text_0:
-	.string "I knew you'd come here.$"
+	.string "我就知道你会来这里。$"
 
 MtSilver_SummitDay_EventScript_Rival_Text_1:
-	.string "I've been up here thinking.\n"
-	.string "Not much else to do.\p"
-	.string "I kept telling myself,\n"
-	.string "one more badge. One more win.\p"
-	.string "Then I would finally catch up.\p"
-	.string "Silly isn't it? In the end I was\n"
-	.string "just trying to stand out.\p"
-	.string "Assuming everyone had some sort of\n"
-	.string "expectation of me to reach these \l"
-	.string "heights and become the best.$"
+	.string "我一直在上面想事情。\n反正也没别的事可做。\p我总对自己说，\n再来一枚徽章，再赢一场。\p然后我就终于能追上你了。\p很傻对吧？说到底，我不过\n是想出风头而已。\p总以为大家对我抱着某种期待，\n指望我攀上高峰、成为最强。$"
 
 MtSilver_SummitDay_EventScript_Rival_Text_2:
-	.string "In the end it was just all in my head\n"
-	.string "when you get down to it, haha.\p"
-	.string "So! I want you, {PLAYER} to give me\n"
-	.string "one last battle to knock some sense\l"
-	.string "into me!\p"
-	.string "Not asking as a bitter rival, \n"
-	.string "but as your best friend!\p"
-	.string "I got nothing to prove, but let's\n"
-	.string "have fun like we used to.$"
+	.string "说到底，这一切都只是\n我在钻牛角尖，哈哈。\p那么！{PLAYER}，就让我\n跟你再打最后一场，好让\l我清醒清醒！\p不是作为心存芥蒂的劲敌，\n而是作为你最好的朋友！\p我没什么要证明的了，\n就让我们像从前那样\l开心地打一场吧。$"
 
 MtSilver_SummitDay_EventScript_Rival_Text_3:
-	.string "Hah, nice one.$"
+	.string "哈，真有你的。$"
 
 MtSilver_SummitDay_EventScript_Rival_Text_4:
-	.string "Okay.\n"
-	.string "That's what I needed.$"
+	.string "好。\n这才是我想要的。$"
 
 MtSilver_SummitDay_EventScript_Rival_Text_5:
-	.string "You always do the battling\n"
-	.string "with a smile, I felt that too\l"
-	.string "in this battle.$"
+	.string "你对战的时候总是带着笑容，\n这场对战里我也\l感受到了。$"
 
 MtSilver_SummitDay_EventScript_Rival_Text_6:
-	.string "When I was just standing here alone, I\n"
-	.string "was wishing you could arrive.\p"
-	.string "then, I saw this egg in the ground\n"
-	.string "here. \p"
-	.string "I think it appeared in reaction to my\n"
-	.string "wish, but you should have it instead.\p"
-	.string "After all, you made my wish come true!\p"
-	.string "So, thanks {PLAYER}.$"
+	.string "我一个人站在这里的时候，\n正盼着你能来。\p然后，我就看到了地上\n这颗蛋。\p我觉得它是回应我的愿望\n才出现的，但它应该\l属于你。\p毕竟，是你让我的愿望\n成真了！\p所以，谢谢你，{PLAYER}。$"
 
 MtSilver_SummitDay_EventScript_Rival_Text_7:
-	.string "{PLAYER} received an Egg!$"
+	.string "{PLAYER}得到了蛋！$"
 
 MtSilver_SummitDay_EventScript_Rival_Text_8:
-	.string "Now c'mon, let's race back home!\p"
-	.string "My fingers are freezing from just \n"
-	.string "standing around here.$"
+	.string "来呀，我们一路跑回家吧！\p光是站在这里，我的手指\n都快冻僵了。$"

@@ -8,12 +8,7 @@ script MtSilver_Regigigas {
         if (var(VAR_RESULT) == TRUE) {
             checkspecies(SPECIES_REGICE)
             if (var(VAR_RESULT) == TRUE) {
-                msgbox("...!
-                
-                        The statue suddenly started moving
-                        in reaction to your Pokémon!
-                        
-                        The statue attacked!")
+                msgbox("……！\p雕像在感应到你的宝可梦后，\n突然动了起来！\p雕像发动了攻击！")
                 bosslegendaryencounter(SPECIES_REGIGIGAS, 70, LOCALID_MTSILVER_REGIGIGAS, FLAG_HIDE_REGIGIGAS, 4, SPECIES_NONE, 110)
                 release
                 end
@@ -32,12 +27,7 @@ script MtSilver_Regigigas {
 }
 
 script RegigigasSlumbers {
-    msgbox("A large, almost statue-like Pokémon
-            seems to be resting here.
-             
-            ...
-            
-            It does not react to your presence.")
+    msgbox("一只巨大得几乎像雕像的\n宝可梦，似乎正在这里\l休息。\p……\p它对你的到来\n没有任何反应。")
     release
     end
 }

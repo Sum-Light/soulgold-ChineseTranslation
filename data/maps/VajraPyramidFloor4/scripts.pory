@@ -1,24 +1,24 @@
 mapscripts VajraPyramidFloor4_MapScripts {}
 
 script Floor4_Ghost1 {
-    trainerbattle_single(TRAINER_SPIRIT1, "Woo!", "Woo...")
-    msgbox("Woowoo...", MSGBOX_AUTOCLOSE)
+    trainerbattle_single(TRAINER_SPIRIT1, "呜！", "呜……")
+    msgbox("呜呜……", MSGBOX_AUTOCLOSE)
 }
 
 script Floor4_Ghost2 {
-    trainerbattle_single(TRAINER_SPIRIT2, "Give...", "Taken...")
-    msgbox("Lost...", MSGBOX_AUTOCLOSE)
+    trainerbattle_single(TRAINER_SPIRIT2, "给我……", "被拿走了……")
+    msgbox("丢了……", MSGBOX_AUTOCLOSE)
 }
 
 script Floor4_Ghost3 {
-    trainerbattle_single(TRAINER_SPIRIT3, "Do not release it!", "It must be kept imprisoned...")
-    msgbox("It shall consume you.", MSGBOX_AUTOCLOSE)
+    trainerbattle_single(TRAINER_SPIRIT3, "不要放它出来！", "必须一直封印着……")
+    msgbox("它会把你也吞掉。", MSGBOX_AUTOCLOSE)
 }
 
 script Floor4_Urn1 {
     lock
     if (flag(FLAG_FLOOR4_URN1LOOT)) {
-        msgbox("The urn is empty.")
+        msgbox("瓮里已经空了。")
         release
         end
     }
@@ -31,7 +31,7 @@ script Floor4_Urn1 {
 script Floor4_Urn2 {
     lock
     if (flag(FLAG_FLOOR4_URN2LOOT)) {
-        msgbox("The urn is empty.")
+        msgbox("瓮里已经空了。")
         release
         end
     }

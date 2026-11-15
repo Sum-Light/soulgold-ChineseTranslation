@@ -408,211 +408,211 @@ BattleFrontier_ExchangeServiceCorner_EventScript_OldWTMan::
 	end
 
 BattleFrontier_ExchangeServiceCorner_Text_YouAlreadyHaveThis:
-	.string "You already have this item.$"
+	.string "您已经拥有这个道具了。$"
 
 BattleFrontier_ExchangeServiceCorner_EventScript_OldWTMan_Text:
-	.string "Hi! If you are looking for the\n"
-	.string "Wondertrade, they're now located in\l"
-	.string "every Pokémon Center. Have fun!$"
+	.string "嗨！您要是想找\n奇迹交换，它现在已经设在了\l每个宝可梦中心。玩得开心！$"
+	.string ""
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize:
-	.string "Hello, this is the Exchange Service\n"
-	.string "Corner.\p"
-	.string "We exchange the Battle Points you\n"
-	.string "have collected for lovely prizes.\p"
-	.string "Please choose a prize from this list.$"
+	.string "您好，这里是兑换服务区。\p我们用精美的奖品同您收集到的\n对战点数进行兑换。\p请在列表中选择一个奖品。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 @ Unused
 BattleFrontier_ExchangeServiceCorner_Text_PleaseChoosePrize:
-	.string "Please choose a prize from this list.$"
+	.string "请选择一个奖品。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmPurchase:
-	.string "You've chosen the {STR_VAR_1}.\n"
-	.string "Is that correct?$"
+	.string "您选择了{STR_VAR_1}。\n可以吗？$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmEonTicket:
-	.string "You've chosen the Eon Ticket.\n"
-	.string "Is that correct?$"
+	.string "您选择了无限船票。\n可以吗？$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmMysticTicket:
-	.string "You've chosen the Mystic\n"
-	.string "Ticket. Is that correct?$"
+	.string "您选择了神秘船票。\n可以吗？$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmAuroraTicket:
-	.string "You've chosen the Aurora\n"
-	.string "Ticket Is that correct?$"
+	.string "您选择了极光船票。\n可以吗？$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmOldMap:
-	.string "You've chosen the Old Map.\n"
-	.string "Is that correct?$"
+	.string "您选择了古航海图。\n可以吗？$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmBrace:
-	.string "You've chosen the Macho\n"
-	.string "Brace. Is that correct?$"
+	.string "您选择了强制锻炼器。\n可以吗？$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmUpgrade:
-	.string "You've chosen the Up Grade.\n"
-	.string "Is that correct?$"
+	.string "您选择了升级数据。\n可以吗？$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_WellSendItToPC:
-	.string "Thank you!\n"
-	.string "We'll send it to your PC at home.$"
+	.string "谢谢！\n我们会把它送到您家的电脑上的。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_HereIsYourPrize:
-	.string "Here is your prize!$"
+	.string "这里是您的奖品！$"
 
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveEnoughPoints:
-	.string "I'm so sorry…\n"
-	.string "You don't have enough Battle Points…$"
+	.string "很抱歉……\n您没有足够的对战点数……$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_PCIsFull:
-	.string "I'm so sorry…\n"
-	.string "Your PC appears to be full…$"
+	.string "很抱歉……\n您的电脑好像满了……$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_DontHaveSpaceToHoldIt:
-	.string "I'm so sorry…\n"
-	.string "You don't have space to hold it…$"
+	.string "很抱歉……\n您的包包已经放不下了……$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_ThankYouVisitWithPoints:
-	.string "Thank you very much.\p"
-	.string "Please visit us when you have\n"
-	.string "saved up Battle Points.$"
+	.string "非常感谢。\p存够了对战点数的话，\n欢迎再来光顾。$"
+	.string ""
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_WishIHadAllDolls:
-	.string "Oh, they're so nice!\n"
-	.string "I wish I had them!\l"
-	.string "Cute cushions!\l"
-	.string "Big plush Dolls!\l"
-	.string "Little plush Dolls!\l"
-	.string "I wish I had them all!$"
+	.string "哦，它们真棒！\n我想要它们！\l漂亮的垫子！\l大号豪华的玩偶！\l小号豪华的玩偶！\l我希望能全部得到！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_GetYouAnythingYouWant:
-	.string "Leave it to your mommy!\p"
-	.string "If it's anything you want, I'll go\n"
-	.string "through anything to get it, honey!$"
+	.string "交给你的妈妈吧！\p无论你想要什么，我都会尽我所能\n为你得到的，我的小宝贝！$"
+	.string ""
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_ItemsWillGetMonTougher:
-	.string "If I can get hold of the items here,\n"
-	.string "my Pokémon will get tougher.\p"
-	.string "You bet they will!\n"
-	.string "No question about it!$"
+	.string "如果我能获得这里的道具，\n我的宝可梦会变得更强。\p你要相信它们肯定会的！\n毫无疑问！$"
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_GoGetYourOwnDoll:
-	.string "Hah?\n"
-	.string "What are you gawking at?\p"
-	.string "I don't like you staring at my plush\n"
-	.string "doll like that.\p"
-	.string "If you want it, go get one yourself!\n"
-	.string "Isn't that right, Smoochum?$"
+	.string "啊？\n你在看什么呢？\p我不喜欢你那样盯着\n我的漂亮娃娃看。\p如果你想要，自己去弄一只！\n对不对，迷唇娃？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_MoreBattlePointsForRecord:
-	.string "Did you know?\p"
-	.string "If you stretch your record at any of\n"
-	.string "the Battle facilities, they start\l"
-	.string "giving you more and more Battle Points.$"
+	.string "你知道吗？\p如果你能在任何对战设施\n创造新纪录，他们会开始给你\l越来越多的对战点数。$"
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_TreeckoDollDesc::
-	.string "A Treecko Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "一个木守宫玩偶。\n要放置在地毯或桌子上。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_TorchicDollDesc::
-	.string "A Torchic Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "一个火稚鸡玩偶。\n要放置在地毯或桌子上。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_MudkipDollDesc::
-	.string "A Mudkip Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "一个水跃鱼玩偶。\n要放置在地毯或桌子上。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_TogepiDollDesc::
-	.string "A Togepi Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "一个波克比玩偶。\n要放置在地毯或桌子上。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_MeowthDollDesc::
-	.string "A Meowth Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "一个喵喵玩偶。\n要放置在地毯或桌子上。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_ClefairyDollDesc::
-	.string "A Clefairy Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "一个皮皮玩偶。\n要放置在地毯或桌子上。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_DittoDollDesc::
-	.string "A Ditto Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "一个百变怪玩偶。\n要放置在地毯或桌子上。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_CyndaquilDollDesc::
-	.string "A Cyndaquil Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "一个火球鼠玩偶。\n要放置在地毯或桌子上。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_ChikoritaDollDesc::
-	.string "A Chikorita Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "一个菊草叶玩偶。\n要放置在地毯或桌子上。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_TotodileDollDesc::
-	.string "A Totodile Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "一个小锯鳄玩偶。\n要放置在地毯或桌子上。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_LargeDollDesc::
-	.string "A large Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "一个巨大的玩偶。\n要放置在地毯或桌子上。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_ProteinDesc::
-	.string "Raises the stat Attack of one\n"
-	.string "Pokémon.$"
+	.string "提升宝可梦的攻击\n能力。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_CalciumDesc::
-	.string "Raises the stat Sp. Atk of one\n"
-	.string "Pokémon.$"
+	.string "提升宝可梦的特攻\n能力。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_IronDesc::
-	.string "Raises the stat Defense of one\n"
-	.string "Pokémon.$"
+	.string "提升宝可梦的防御\n能力。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_ZincDesc::
-	.string "Raises the stat Sp. Def of one\n"
-	.string "Pokémon.$"
+	.string "提升宝可梦的特防\n能力。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_CarbosDesc::
-	.string "Raises the stat Speed of one\n"
-	.string "Pokémon.$"
+	.string "提升宝可梦的速度\n能力。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_HPUpDesc::
-	.string "Raises the Hp of one Pokémon.$"
+	.string "提升宝可梦的体力。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_LeftoversDesc::
-	.string "A hold item that gradually restores\n"
-	.string "Hp in battle.$"
+	.string "一件能在对战中逐渐\n回复体力的道具。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_WhiteHerbDesc::
-	.string "A hold item that restores any\n"
-	.string "lowered stat.$"
+	.string "一件能回复所有能力\n的道具。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_QuickClawDesc::
-	.string "A hold item that occasionally allows\n"
-	.string "the first strike.$"
+	.string "一件有概率能先制\n攻击的道具。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_MentalHerbDesc::
-	.string "A hold item that snaps Pokémon out\n"
-	.string "of infatuation.$"
+	.string "一件能解除宝可梦着迷\n的道具。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_BrightpowderDesc::
-	.string "A hold item that casts a glare to\n"
-	.string "reduce accuracy.$"
+	.string "一件能射出眩目的光降低\n命中率的道具。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_ChoiceBandDesc::
-	.string "Raises a move's power, but permits\n"
-	.string "only that move.$"
+	.string "提升物理招式的威力，但无法\n使用其他招式。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_KingsRockDesc::
-	.string "A hold item that may cause flinching\n"
-	.string "when the foe is hit.$"
+	.string "一件在接触攻击时能使对手\n畏缩的道具。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_FocusBandDesc::
-	.string "A hold item that occasionally\n"
-	.string "prevents fainting.$"
+	.string "一件能偶尔防止昏厥\n的道具。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_ScopeLensDesc::
-	.string "A hold item that raises the\n"
-	.string "critical-hit rate.$"
+	.string "一件能提高击中要害率的\n道具。$"
+	.string ""
 
 EventScript_DoWonderTrade::
 	goto_if_set FLAG_GARBAGEFLAG, EventScript_DoWonderTradeStartNoLimit
@@ -747,71 +747,71 @@ EventScript_End::
 	end
 
 EventScript_DoWonderTrade_Text_Welcome:
-	.string "Welcome to the Wondertrade\n"
-	.string "Station of the Pokémon Center!\p"
-	.string "Please select the Pokémon that\n"
-	.string "is going to get Wondertraded.$"
+	.string "欢迎来到宝可梦中心的\n奇迹交换站！\p请选择要进行\n奇迹交换的宝可梦。$"
+	.string ""
+	.string ""
+	.string ""
 
 EventScript_NoMoreForToday_Text:
-	.string "Oh! Seems that you have\n"
-	.string "used all 3 Daily Trades.\p"
-	.string "Come back tomorrow!$"
+	.string "哦！看来今天的3次\n每日交换机会已经用完了。\p明天再来吧！$"
+	.string ""
+	.string ""
 
 EventScript_FirstTimeWonder_Text:
-	.string "Hello trainer!\p"
-	.string "Oh, is this your first time\n"
-	.string "using the Wondertrade System?\p"
-	.string "Wondertrade is a technology developed\n"
-	.string "by Devon Corp. to trade anonymously.\p"
-	.string "You basically send a selected\n"
-	.string "Pokémon to someone, and they send\p"
-	.string "you another one in exchange.\n"
-	.string "Neither you nor the other trainer\p"
-	.string "know which Pokémon is going to\n"
-	.string "show up. And that is the fun of\p"
-	.string "Wondertrade! Oh, also, to not\n"
-	.string "overload the server, there is a\p"
-	.string "maximum of 3 Daily Wondertrades.\p"
-	.string "We hope you have a great\n"
-	.string "Wondertrade experience!$"
+	.string "你好，训练家！\p哦，这是你第一次\n使用奇迹交换系统吗？\p奇迹交换是得文公司开发的\n匿名交换技术。\p简单来说，就是把选中的宝可梦\n发送给某个人，对方也会\p送你一只作为交换。\n你和对方都不知道\p会出现哪只宝可梦。\n而这正是奇迹交换的\p乐趣！哦对了，为了不让\n服务器超负荷，\p每天最多只能进行3次\n奇迹交换。\p希望你能享受\n奇迹交换的乐趣！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 EventScript_FirstTimeWonder_Text_Unlimited:
-	.string "Hello trainer!\p"
-	.string "Oh, is this your first time\n"
-	.string "using the Wondertrade System?\p"
-	.string "Wondertrade is a technology developed\n"
-	.string "by Devon Corp. to trade anonymously.\p"
-	.string "You basically send a selected\n"
-	.string "Pokémon to someone, and they send\p"
-	.string "you another one in exchange.\n"
-	.string "Neither you nor the other trainer\p"
-	.string "know which Pokémon is going to\n"
-	.string "show up. And that is the fun of\l"
-	.string "Wondertrade!\p"
-	.string "We hope you have a great\n"
-	.string "Wondertrade experience!$"
+	.string "你好，训练家！\p哦，这是你第一次\n使用奇迹交换系统吗？\p奇迹交换是得文公司开发的\n匿名交换技术。\p简单来说，就是把选中的宝可梦\n发送给某个人，对方也会\p送你一只作为交换。\n你和对方都不知道\p会出现哪只宝可梦。\n而这正是\l奇迹交换的乐趣！\p希望你能享受\n奇迹交换的体验！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 EventScript_DoWonderTrade_Text_Done:
-	.string "We hope you had a good\n"
-	.string "Wondertrade!$"
+	.string "希望你这次\n奇迹交换玩得开心！$"
+	.string ""
 
 EventScript_DoWonderTrade_Text_Challenges:
-	.string "Looks like you have challenges\n"
-	.string "activated. Please come back\l"
-	.string "again after the Pokémon League.$"
+	.string "看来你开启了挑战模式。\n请在打过宝可梦联盟之后\l再来吧。$"
+	.string ""
+	.string ""
 
 EventScript_DoWonderTrade_Text_FiveBadges:
-	.string "Sadly, the Wondertrade System is\n"
-	.string "not active yet. Please do come\l"
-	.string "back later.$"
+	.string "很遗憾，奇迹交换系统\n目前还没有开放。\l请过些时候再来吧。$"
+	.string ""
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_KissPosterDesc::
-	.string "A large poster with a Smoochum print.$"
+	.string "一幅有迷唇娃\n图案的大海报。$"
 
 BattleFrontier_ExchangeServiceCorner_Text_KissCushionDesc::
-	.string "A Smoochum cushion.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "一个迷唇娃垫子。\n要放置在地毯或桌子上。$"
+	.string ""
 
 BattleFrontier_ExchangeServiceCorner_Text_SmoochumDollDesc::
-	.string "A Smoochum Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "一个迷唇娃玩偶。\n要放置在地毯或桌子上。$"
+	.string ""

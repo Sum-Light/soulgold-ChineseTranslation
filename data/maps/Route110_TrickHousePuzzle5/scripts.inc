@@ -896,127 +896,127 @@ Route110_TrickHousePuzzle5_Movement_MechadollShake:
 	step_end
 
 Route110_TrickHousePuzzle5_Text_WroteSecretCodeLockOpened:
-	.string "{PLAYER} wrote down the secret code\n"
-	.string "on the door.\p"
-	.string "“Trick Master is a genius.”\n"
-	.string "… … … … … … … …\p"
-	.string "The lock clicked open!$"
+	.string "{PLAYER}在门上写下\n密码。\p“戏法大王是天才”\n…… …… …… ……\p锁“咔嗒”一声开了！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Intro:
-	.string "Clickety-Clack…\n"
-	.string "Mechadoll 1 AM I!\p"
-	.string "If You Answer Quizzes Correctly,\n"
-	.string "Then You Will Go To Mechadoll 5.\l"
-	.string "Then You Can Obtain The Secret Code.$"
+	.string "咔嗒、噼啪……\n我是机械娃娃1！\p正确回答问题，\n通过机械娃娃5，\l就能得到密码。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz1:
-	.string "Mechadoll 1 Quiz.\p"
-	.string "One of these Pokémon is not found\n"
-	.string "on Route 110. Which one is it?$"
+	.string "机械娃娃1问答。\p下列宝可梦中哪一个不能\n在110号道路找到？$"
+	.string ""
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz2:
-	.string "Mechadoll 1 Quiz.\p"
-	.string "One of these Pokémon is not of the\n"
-	.string "Water type. Which one is it?$"
+	.string "机械娃娃1问答。\p下列宝可梦中哪一个不是\n水属性？$"
+	.string ""
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_Mechadoll1Quiz3:
-	.string "Mechadoll 1 Quiz.\p"
-	.string "One of these Pokémon does not use\n"
-	.string "Leech Life. Which one is it?$"
+	.string "机械娃娃1问答。\p下列宝可梦中哪一个不能\n使用吸血？$"
+	.string ""
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_CorrectGoThrough:
-	.string "Congratulations. Correct You Are.\n"
-	.string "Go Through. Please.$"
+	.string "恭喜你，回答正确。\n请继续前进。$"
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_DisappointmentError:
-	.string "Bzzzt. Disappointment.\n"
-	.string "Error.$"
+	.string "滋滋，很遗憾，\n错误。$"
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_Wahahahaha:
-	.string "Wahahahaha! Wahahahaha!\n"
-	.string "Clickety-Clack!$"
+	.string "哇哈哈哈哈！哇哈哈哈哈！\n咔嗒、噼啪！$"
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_WaitForNextChallenge:
-	.string "Your Next Challenge We Wait For.$"
+	.string "我们等你再次挑战。$"
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Intro:
-	.string "Clickety-Clack…\n"
-	.string "Mechadoll 2 AM I!\p"
-	.string "Mechadoll 1's Quiz Difficulty Level\n"
-	.string "Is Set Too Low.$"
+	.string "咔嗒、噼啪……\n我是机械娃娃2！\p机械娃娃1的问答\n难度等级太低了。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz1:
-	.string "Mechadoll 2 Quiz.\p"
-	.string "Which of these Pokémon did Wally\n"
-	.string "borrow from your father?$"
+	.string "机械娃娃2问答。\p满充从你的父亲那里\n借来的是哪只宝可梦？$"
+	.string ""
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz2:
-	.string "Mechadoll 2 Quiz.\p"
-	.string "Which of these Pokémon was chasing\n"
-	.string "Prof. Birch?$"
+	.string "机械娃娃2问答。\p追逐小田卷博士的\n是哪只宝可梦？$"
+	.string ""
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_Mechadoll2Quiz3:
-	.string "Mechadoll 2 Quiz.\p"
-	.string "Which of these Pokémon did Team Aqua\n"
-	.string "use in Petalburg Forest?$"
+	.string "机械娃娃2问答。\p海洋队在橙华市森林\n里用的是哪只宝可梦？$"
+	.string ""
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Intro:
-	.string "Clickety-Clack…\n"
-	.string "Mechadoll 3 AM I!\p"
-	.string "Matters Of Money Are My Sole Focus.$"
+	.string "咔嗒、噼啪……\n我是机械娃娃3！\p我关心的只有价格。$"
+	.string ""
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz1:
-	.string "Mechadoll 3 Quiz.\p"
-	.string "Which costs more?\n"
-	.string "Three Harbor Mails or one Burn Heal?$"
+	.string "机械娃娃3问答。\p买3个港湾邮件或买1个灼伤药\n哪样花钱更多？$"
+	.string ""
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz2:
-	.string "Mechadoll 3 Quiz.\p"
-	.string "Sell one Great Ball and buy\n"
-	.string "one Potion. How much money remains?$"
+	.string "机械娃娃3问答。\p卖出1个超级球并买入\n1个伤药，还剩多少钱？$"
+	.string ""
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_Mechadoll3Quiz3:
-	.string "Mechadoll 3 Quiz.\p"
-	.string "Do one Repel and Soda Pop cost\n"
-	.string "more than one Super Potion?$"
+	.string "机械娃娃3问答。\p买1个除虫喷雾和1个劲爽汽水\n花的钱比1个厉害伤药多吗？$"
+	.string ""
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Intro:
-	.string "Clickety-Clack…\n"
-	.string "Mechadoll 4 That Is Me!\p"
-	.string "My Quiz Is An Object Of Beauty.$"
+	.string "咔嗒、噼啪……\n机械娃娃4就是我！\p我的问答是关于人的。$"
+	.string ""
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz1:
-	.string "Mechadoll 4 Quiz.\p"
-	.string "In Seashore House, were there more men\n"
-	.string "or women?$"
+	.string "机械娃娃4问答。\p大海之家里，\n男人多还是女人多？$"
+	.string ""
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz2:
-	.string "Mechadoll 4 Quiz.\p"
-	.string "In Lavaridge Town, were there more\n"
-	.string "elderly men or elderly women?$"
+	.string "机械娃娃4问答。\p釜炎镇里，\n老爷爷多还是老奶奶多？$"
+	.string ""
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_Mechadoll4Quiz3:
-	.string "Mechadoll 4 Quiz.\p"
-	.string "In the Trainer's School, how many\n"
-	.string "girl students were there?$"
+	.string "机械娃娃4问答。\p训练家学校里，\n女生有多少个？$"
+	.string ""
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Intro:
-	.string "Clickety-Clack…\n"
-	.string "Mechadoll 5 AM I!\p"
-	.string "The Master's Best And Proudest\n"
-	.string "Achievement AM I.$"
+	.string "咔嗒、噼啪……\n我是机械娃娃5！\p主人最得意的作品\n就是我。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz1:
-	.string "Mechadoll 5 Quiz.\p"
-	.string "In Slateport's Pokémon Fan Club,\n"
-	.string "how many Pokémon were there?$"
+	.string "机械娃娃5问答。\p在凯那市的宝可梦发烧友俱乐部里，\n一共有多少只宝可梦？$"
+	.string ""
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz2:
-	.string "Mechadoll 5 Quiz.\p"
-	.string "In Fortree City, how many\n"
-	.string "tree houses were there?$"
+	.string "机械娃娃5问答。\p茵郁市里一共有\n多少间树屋？$"
+	.string ""
+	.string ""
 
 Route110_TrickHousePuzzle5_Text_Mechadoll5Quiz3:
-	.string "Mechadoll 5 Quiz.\p"
-	.string "On the Cycling Road, how many\n"
-	.string "Triathletes were there?$"
+	.string "机械娃娃5问答。\p在自行车道上\n一共有多少铁人三项选手？$"
+	.string ""
+	.string ""

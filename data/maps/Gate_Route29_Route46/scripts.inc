@@ -18,12 +18,12 @@ Gate_Route29_Route46_EventScript_Youngster::
 	end
 
 Gate_Route29_Route46_Text_Officer:
-	.string "You can't climb ledges.\p"
-	.string "But you can jump down from\n"
-	.string "them to take a shortcut.$"
+	.string "台阶是爬不上去的。\p但可以从上面跳下来，\n抄个近路。$"
+	.string ""
+	.string ""
 
 Gate_Route29_Route46_Text_Youngster:
-	.string "Different kinds of Pokémon\n"
-	.string "appear past here.\p"
-	.string "If you want to catch them all,\n"
-	.string "you have to look everywhere.$"
+	.string "过了这里，出现的宝可梦\n种类就不一样了。\p想把它们全都捉到，\n就得四处去找。$"
+	.string ""
+	.string ""
+	.string ""

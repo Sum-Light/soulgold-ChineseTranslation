@@ -4,16 +4,12 @@ script Azalea_SlowpokeTrade {
     lock
     faceplayer
     if (flag(FLAG_SLOWPOKE_TRADE)) {
-        msgbox("Have you been amassing more slowpoke?")
+        msgbox("你又攒了更多呆呆兽吗？")
     } else {
-        ingame_trade(INGAME_TRADE_SLOWPOKE, "I love Slowpoke! They are adorable,
-                                         cuddly, cute, sweet, amazing and
-                                         awesome! How about I prove it to you?
-                                         I'll give you one of my finest slowpoke
-                                         if you give me one of yours.", 
+        ingame_trade(INGAME_TRADE_SLOWPOKE, "我最喜欢呆呆兽了！\n它们又可爱又软乎乎，\l又萌又甜，了不起又超级棒！\l要不要我证明给你看？\l只要你给我一只你的呆呆兽，\l我就把我最棒的呆呆兽送给你。", 
                                          SlowpokeTrade_Declined,
                                          SlowpokeTrade_NotRequested,
-                                         "Another one joins the cult of slowpoke.")
+                                         "呆呆兽教又多了一位信徒。")
         setflag(FLAG_SLOWPOKE_TRADE)
     }
     release
@@ -21,15 +17,13 @@ script Azalea_SlowpokeTrade {
 }
 
 script SlowpokeTrade_Declined {
-    msgbox("Huh? Don't you understand how amazing
-           slowpoke are?!?")
+    msgbox("咦？你难道不明白\n呆呆兽有多棒吗？！")
     release
     end                                 
 }
 
 script SlowpokeTrade_NotRequested {
-    msgbox("Hey! That's not a real slowpoke! Are you
-            trying to offer me an inferior Pokémon?")
+    msgbox("喂！这可不是真正的呆呆兽！\n你是想拿差劲的宝可梦\l来糊弄我吗？")
     release
     end
 }

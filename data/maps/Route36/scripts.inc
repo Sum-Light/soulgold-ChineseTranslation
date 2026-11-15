@@ -214,113 +214,113 @@ Route36_Movement_SudoWoodo:
 	step_end
 
 Route36_Text_UseSquirtbottle:
-	.string "Use Squirtbottle?$"
+	.string "要使用杰尼龟喷壶吗？$"
 
 Route36_Text_UsedSquirtbottle:
-	.string "{PLAYER} used the Squirtbottle.$"
+	.string "{PLAYER}使用了杰尼龟喷壶。$"
 
 Route36_Text_SudowoodoAttacked:
-	.string "The weird tree doesn't like the\n"
-	.string "Squirtbottle!\p"
-	.string "The weird tree attacked!$"
+	.string "奇怪的树很讨厌\n杰尼龟喷壶！\p奇怪的树发动了攻击！$"
+	.string ""
+	.string ""
 
 Route36_Text_RockSmashGuy1:
-	.string "Wa-hey!\p"
-	.string "I was going to snap that tree\n"
-	.string "with my straight-arm punch.\p"
-	.string "But I couldn't! I'm a failure!$"
+	.string "哇哈！\p我本打算一记直拳\n把那棵树打断的。\p可我做不到！我是个废物！$"
+	.string ""
+	.string ""
+	.string ""
 
 Route36_Text_RockSmashGuy2:
-	.string "Did you clear that wretched tree?\p"
-	.string "I'm impressed!\n"
-	.string "I want you to have this.$"
+	.string "你把那棵可恶的树清掉了？\p真了不起！\n这个就送给你吧。$"
+	.string ""
+	.string ""
 
 Route36_Text_RockSmashGuy3:
-	.string "That happens to be Rock Smash.\p"
-	.string "You can shatter rocks with just a\n"
-	.string "single well-aimed smack.\p"
-	.string "If any rocks are in your way,\n"
-	.string "just smash 'em up!$"
+	.string "这就是碎岩。\p只要瞄准了一拳砸下去，\n岩石就能粉碎。\p路上要是有岩石挡道，\n就统统砸碎吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route36_Text_OddTree:
-	.string "A weird tree is blocking the way.$"
+	.string "一棵奇怪的树挡住了去路。$"
 
 Route36_Text_Lass1:
-	.string "Be careful at night on this route!\p"
-	.string "I saw a Pokémon that looked like\n"
-	.string "Growlithe, but it had a scary aura\l"
-	.string "to it.$"
+	.string "夜里走这条路要小心！\p我看见一只长得很像\n卡蒂狗的宝可梦，可它\l散发着可怕的气场。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route36_Text_Lass2_ClearedSudowoodo:
-	.string "That odd tree disappeared without\n"
-	.string "a trace.\p"
-	.string "Oh! That tree was really a\n"
-	.string "Pokémon?$"
+	.string "那棵怪树一转眼就\n消失得无影无踪。\p哦！原来那棵树\n是宝可梦啊？$"
+	.string ""
+	.string ""
+	.string ""
 
 Route36_Text_PsychicMarkSeen:
-	.string "I'm going to read your thoughts!$"
+	.string "我来读读你的心思！$"
 
 Route36_Text_PsychicMarkBeaten:
-	.string "I misread you!$"
+	.string "我看走眼了！$"
 
 Route36_Text_PsychicMarkAfter:
-	.string "I'd be strong if only I could tell\n"
-	.string "what my opponent was thinking.$"
+	.string "要是能看穿对手在想什么，\n我就会很强了。$"
+	.string ""
 
 Route36_Text_SchoolboyAlan1Seen:
-	.string "Thanks to my studies, I'm ready\n"
-	.string "for any Pokémon!$"
+	.string "多亏用功学习，不管遇上\n什么宝可梦我都准备好了！$"
+	.string ""
 
 Route36_Text_SchoolboyAlan1Beaten:
-	.string "Oops! Computation error?$"
+	.string "哎呀！是我算错了吗？$"
 
 Route36_Text_SchoolboyAlanAfter:
-	.string "Darn. I study five hours a day too.\p"
-	.string "There's more to learning than just\n"
-	.string "reading books.$"
+	.string "可恶。我每天可要学上\n五个小时呢。\p看来光读书是不够的。$"
+	.string ""
+	.string ""
 
 Route36_Text_MeetArthur:
-	.string "Arthur: Who are you?\n"
-	.string "I'm Arthur of the Weekday Family.\p"
-	.string "If you can guess my favorite day,\n"
-	.string "I'll give you a reward.$"
+	.string "星琪思：你是谁？\n我是星期兄弟里的星琪思。\p你要是猜中我最喜欢\n哪天，我就给你奖励。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route36_Text_ArthurNope:
-	.string "Not quite!$"
+	.string "猜得不对！$"
 
 Route36_Text_ArthurGivesGift:
-	.string "Here. You can have this.$"
+	.string "来，这个给你。$"
 
 Route36_Text_ArthurGaveGift:
-	.string "Arthur: A Pokémon that uses rock-\n"
-	.string "type moves should hold on to that.\p"
-	.string "It pumps up rock-type attacks.$"
+	.string "星琪思：会使用岩石属性招式\n的宝可梦最好带上它。\p它能增强岩石属性招式的威力。$"
+	.string ""
+	.string ""
 
 Route36_Text_ArthurThursday:
-	.string "Arthur: I'm Arthur of Thursday.\n"
-	.string "I'm the fifth son out of seven.$"
+	.string "星琪思：我是星期四的星琪思。\n我是七兄弟里排行第五的。$"
+	.string ""
 
 Route36_Text_Sign:
-	.string "Route 36$"
+	.string "36号道路$"
 
 Route36_Text_Sign_RuinsNorth:
-	.string "Ruins Of Alph\n"
-	.string "North Entrance$"
+	.string "阿露福遗迹\n北侧入口$"
+	.string ""
 
 Route36_Text_Tips1:
-	.string "Trainer Tips\n"
-	.string "Pokémon stats vary--even within\l"
-	.string "the same species.\p"
-	.string "Their stats may be similar at first.\p"
-	.string "However, differences will become\n"
-	.string "pronounced as the Pokémon grow.$"
+	.string "训练家提示\n宝可梦的能力值是有差别的，\l即使种类相同也一样。\p起初能力值可能很接近。\p但随着宝可梦成长，\n差距就会越来越明显。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route36_Text_Tips2:
-	.string "Trainer Tips\n"
-	.string "Use Dig to return to the entrance of\n"
-	.string "any place.\p"
-	.string "It is convenient for exploring\n"
-	.string "caves and other landmarks.$"
+	.string "训练家提示\n用挖洞就能回到任何地点的入口。\p探索洞窟等地方时\n非常方便。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route36_SudowoodoHintLady::
 	lock
@@ -349,24 +349,13 @@ Route36_SudowoodoHintLady_4:
 
 
 Route36_SudowoodoHintLady_Text_0:
-	.string "How strange... That odd tree has\n"
-	.string "returned!$"
+	.string "真奇怪……那棵怪树\n又回来了！$"
 
 Route36_SudowoodoHintLady_Text_1:
-	.string "That strange tree has been blocking\n"
-	.string "the road for a while.\p"
-	.string "It reacts strangely to water. I think\n"
-	.string "my sister in Goldenrod's Flower Shop\l"
-	.string "might have a solution, but you'll\l"
-	.string "need the 3rd badge to convince her.$"
+	.string "那棵怪树挡住道路\n已经好一阵子了。\p它一碰到水，反应就很奇怪。\n我姐姐在满金市的花店，\l或许有办法，不过得拿到\l第三个徽章才能说服她。$"
 
 Route36_SudowoodoHintLady_Text_2:
-	.string "You beat Whitney? You should go see\n"
-	.string "my sister in the Goldenrod Flower Shop!\p"
-	.string "She might lend you a special watering\n"
-	.string "bottle!$"
+	.string "你打赢小茜了？那你去见见\n我姐姐吧，就在满金花店！\p她也许能借你一个\n特别的浇水壶！$"
 
 Route36_SudowoodoHintLady_Text_3:
-	.string "Oh, you have the Squirtbottle!\p"
-	.string "You should try soaking the tree over\n"
-	.string "there and see how it reacts!$"
+	.string "哦，你已经拿到杰尼龟喷壶了！\p你去浇一浇那边的树，\n看看它有什么反应吧！$"

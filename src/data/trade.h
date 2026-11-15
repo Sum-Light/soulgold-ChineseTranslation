@@ -33,27 +33,27 @@ static const u8 sText_UnusedTextFormat[] = _("{BACKGROUND TRANSPARENT}{TEXT_COLO
 const u8 gText_MaleSymbol4[] = _("♂");
 const u8 gText_FemaleSymbol4[] = _("♀");
 const u8 gText_GenderlessSymbol[] = _("");
-static const u8 sText_SpaceMove[] = _(" MOVE"); // unused
+static const u8 sText_SpaceMove[] = _("移动"); // unused
 static const u8 sText_NewLine[] = _("\n");
 static const u8 sText_Slash[] = _("/");
 static const u8 sText_Lv[] = _("Lv. ");
 static const u8 sText_ThreeDashes[] = _("---");
 static const u8 sText_FourQuestionMarks[] = _("????");
 static const u8 sText_UnusedEmpty[] = _("");
-static const u8 sText_IsThisTradeOkay[] = _("Is this trade okay?");
-static const u8 sText_Cancel[] = _("Cancel");
-static const u8 sText_ChooseAPkmn[] = _("Choose a Pokémon.");
-static const u8 sText_Summary[] = _("Summary");
-static const u8 sText_Trade[] = _("Trade");
-static const u8 sText_CancelTrade[] = _("Cancel trade?");
+static const u8 sText_IsThisTradeOkay[] = _("确定进行交换吗？");
+static const u8 sText_Cancel[] = _("取消");
+static const u8 sText_ChooseAPkmn[] = _("请选择宝可梦。");
+static const u8 sText_Summary[] = _("查看能力");
+static const u8 sText_Trade[] = _("交换");
+static const u8 sText_CancelTrade[] = _("要结束宝可梦交换吗？");
 static const u8 sJPText_PressBButtonToQuit[] = _("Bボタン　で　もどります");
-static const u8 sText_Summary2[] = _("SUMMARY");
-static const u8 sText_Trade2[] = _("TRADE");
-static const u8 sText_CommunicationStandby[] = _("{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}Communication standby…\nPlease wait.");
-static const u8 sText_TheTradeHasBeenCanceled[] = _("{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}The trade has\nbeen canceled.");
-static const u8 sText_OnlyPkmnForBattle[] = _("That's your only\nPokémon for battle.");
-static const u8 sText_WaitingForYourFriend[] = _("{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}Waiting for your friend\nto finish…");
-static const u8 sText_YourFriendWantsToTrade[] = _("Your friend wants\nto trade Pokémon.");
+static const u8 sText_Summary2[] = _("查看能力");
+static const u8 sText_Trade2[] = _("交换");
+static const u8 sText_CommunicationStandby[] = _("{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}正在等待连接……\n请稍等片刻。");
+static const u8 sText_TheTradeHasBeenCanceled[] = _("{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}宝可梦交换\n已中止。");
+static const u8 sText_OnlyPkmnForBattle[] = _("最后1只同行的宝可梦\n不能用来交换。");
+static const u8 sText_WaitingForYourFriend[] = _("{BACKGROUND WHITE}{TEXT_COLORS DARK_GRAY LIGHT_GRAY WHITE}正在等待对方的回复……\n请稍等片刻。");
+static const u8 sText_YourFriendWantsToTrade[] = _("对方想要\n交换宝可梦。");
 
 static const struct OamData sOamData_MenuText =
 {
@@ -970,7 +970,7 @@ static const struct InGameTrade sIngameTrades[] =
 {
     [INGAME_TRADE_SEEDOT] =
     {
-        .nickname = _("Buddy"),
+        .nickname = _("苞弟"),
         .species = SPECIES_BUDEW,
         .ivs = {5, 4, 5, 4, 4, 4},
         .abilityNum = 0,
@@ -979,14 +979,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x84,
         .heldItem[0] = ITEM_CHESTO_BERRY,
         .mailNum = -1,
-        .otName = _("KOBE"),
+        .otName = _("小马"),
         .otGender = FEMALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_RALTS
     },
     [INGAME_TRADE_PAWMI] =
     {
-        .nickname = _("Fluff"),
+        .nickname = _("绒绒"),
         .species = SPECIES_PAWMI,
         .ivs = {24, 24, 24, 24, 24, 24},
         .abilityNum = 2,
@@ -995,14 +995,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x96,
         .heldItem[0] = ITEM_SHUCA_BERRY,
         .mailNum = 0,
-        .otName = _("Rudy"),
+        .otName = _("鲁迪"),
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_COTTONEE
     },
     [INGAME_TRADE_HORSEA] =
     {
-        .nickname = _("Seasor"),
+        .nickname = _("五郎"),
         .species = SPECIES_HORSEA,
         .ivs = {5, 4, 4, 4, 5, 4},
         .abilityNum = 0,
@@ -1011,14 +1011,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x7F,
         .heldItem[0] = ITEM_WAVE_MAIL,
         .mailNum = 1,
-        .otName = _("Skylar"),
+        .otName = _("苏加仔"),
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_BAGON
     },
     [INGAME_TRADE_MEOWTH] =
     {
-        .nickname = _("Meowow"),
+        .nickname = _("小奇"),
         .species = SPECIES_MEOWTH,
         .ivs = {4, 5, 4, 5, 4, 4},
         .abilityNum = 0,
@@ -1027,14 +1027,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x8B,
         .heldItem[0] = ITEM_RETRO_MAIL,
         .mailNum = 2,
-        .otName = _("ISIS"),
+        .otName = _("玛莉贝"),
         .otGender = FEMALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_SKITTY
     },
     [INGAME_TRADE_HONEDGE] =
     {
-        .nickname = _("Slicer"),
+        .nickname = _("斩斩"),
         .species = SPECIES_HONEDGE,
         .ivs = {25, 25, 25, 25, 25, 25},
         .abilityNum = 0,
@@ -1043,14 +1043,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x19,
         .heldItem[0] = ITEM_MACHO_BRACE,
         .mailNum = 0,
-        .otName = _("Jose"),
+        .otName = _("何塞"),
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_CLEFAIRY
     },
     [INGAME_TRADE_VOLTORB] =
     {
-        .nickname = _("Old Bolt"),
+        .nickname = _("老雷"),
         .species = SPECIES_VOLTORB_HISUI,
         .ivs = {25, 25, 25, 25, 25, 25},
         .abilityNum = 2,
@@ -1059,14 +1059,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x00000000,
         .heldItem[0] = ITEM_MAGNET,
         .mailNum = 0,
-        .otName = _("Tim"),
+        .otName = _("蒂姆"),
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_MAREANIE
     },
     [INGAME_TRADE_GABITE] =
     {
-        .nickname = _("Draco"),
+        .nickname = _("小龙"),
         .species = SPECIES_GABITE,
         .ivs = {25, 25, 25, 25, 25, 25},
         .abilityNum = 2,
@@ -1075,14 +1075,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x00000008,
         .heldItem[0] = ITEM_YACHE_BERRY,
         .mailNum = 0,
-        .otName = _("Emy"),
+        .otName = _("艾米"),
         .otGender = FEMALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_DRAGONAIR
     },
     [INGAME_TRADE_MAGNETON] =
     {
-        .nickname = _("Maggie"),
+        .nickname = _("小磁"),
         .species = SPECIES_MAGNETON,
         .ivs = {4, 4, 4, 5, 5, 4},
         .abilityNum = 0,
@@ -1091,14 +1091,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x00000008,
         .heldItem[0] = ITEM_METAL_COAT,
         .mailNum = 0,
-        .otName = _("LORENZO"),
+        .otName = _("洛伦佐"),
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_DUGTRIO
     },
     [INGAME_TRADE_HAUNTER] =
     {
-        .nickname = _("Paul"),
+        .nickname = _("保罗"),
         .species = SPECIES_HAUNTER,
         .ivs = {4, 4, 4, 5, 5, 4},
         .abilityNum = 0,
@@ -1107,14 +1107,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x0000008F,
         .heldItem[0] = ITEM_LUM_BERRY,
         .mailNum = 0,
-        .otName = _("MONDO"),
+        .otName = _("蒙多"),
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_XATU
     },
     [INGAME_TRADE_MELTAN] =
     {
-        .nickname = _("Brick"),
+        .nickname = _("小砖"),
         .species = SPECIES_MELTAN,
         .ivs = {25, 25, 25, 25, 25, 25},
         .abilityNum = 0,
@@ -1123,14 +1123,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0xA0C6230D,
         .heldItem[0] = ITEM_METAL_ALLOY,
         .mailNum = 0,
-        .otName = _("Vincent"),
+        .otName = _("文森特"),
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_TINKATON
     },
     [INGAME_TRADE_BELDUM] =
     {
-        .nickname = _("Iron"),
+        .nickname = _("小铁"),
         .species = SPECIES_BELDUM,
         .ivs = {4, 4, 4, 5, 5, 4},
         .abilityNum = 0,
@@ -1139,14 +1139,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x00000002,
         .heldItem[0] = ITEM_METAL_COAT,
         .mailNum = 0,
-        .otName = _("Steven"),
+        .otName = _("大吾"),
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_FORRETRESS
     },
     [INGAME_TRADE_BONSLY] =
     {
-        .nickname = _("Woody"),
+        .nickname = _("小木"),
         .species = SPECIES_BONSLY,
         .ivs = {4, 4, 4, 5, 5, 4},
         .abilityNum = 0,
@@ -1155,14 +1155,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x00000007,
         .heldItem[0] = ITEM_ORAN_BERRY,
         .mailNum = 0,
-        .otName = _("BROCK"),
+        .otName = _("小刚"),
         .otGender = MALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_RHYHORN
     },
     [INGAME_TRADE_STEELIX] =
     {
-        .nickname = _("Rusty"),
+        .nickname = _("锈锈"),
         .species = SPECIES_STEELIX,
         .ivs = {4, 4, 4, 5, 5, 4},
         .abilityNum = 0,
@@ -1171,14 +1171,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x00000082,
         .heldItem[0] = ITEM_SOOTHE_BELL,
         .mailNum = 0,
-        .otName = _("JASMINE"),
-        .otGender = MALE,
+        .otName = _("阿蜜"),
+        .otGender = FEMALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_MEOWTH
     },
     [INGAME_TRADE_SLOWPOKE] =
     {
-        .nickname = _("Chum"),
+        .nickname = _("阿伴"),
         .species = SPECIES_SLOWPOKE_GALAR,
         .ivs = {28, 28, 28, 28, 28, 28},
         .abilityNum = 2,
@@ -1187,14 +1187,14 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x84,
         .heldItem[0] = ITEM_CHESTO_BERRY,
         .mailNum = 0,
-        .otName = _("Rick"),
+        .otName = _("里克"),
         .otGender = FEMALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_SLOWPOKE
     },
     [INGAME_TRADE_ROTOM] =
     {
-        .nickname = _("Sparkle"),
+        .nickname = _("闪闪"),
         .species = SPECIES_ROTOM,
         .ivs = {28, 28, 28, 28, 28, 28},
         .abilityNum = 2,
@@ -1203,7 +1203,7 @@ static const struct InGameTrade sIngameTrades[] =
         .personality = 0x84,
         .heldItem[0] = ITEM_ABSORB_BULB,
         .mailNum = 0,
-        .otName = _("Jorda"),
+        .otName = _("乔达"),
         .otGender = FEMALE,
         .sheen = 10,
         .requestedSpecies = SPECIES_ZORUA

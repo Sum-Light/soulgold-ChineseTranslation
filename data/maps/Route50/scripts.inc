@@ -47,49 +47,40 @@ Route50CafeSign::
 
 
 Route50_TrainerRowan_Text_0:
-	.string "Let's see if you still got energy left\n"
-	.string "to face me!$"
+	.string "让我看看你还有没有\n力气来对付我！$"
 
 Route50_TrainerRowan_Text_1:
-	.string "You never lost your footing!$"
+	.string "你一步都没踏错！$"
 
 Route50_TrainerRowan_Text_2:
-	.string "Lake of Rage ain't far away. The climate\n"
-	.string "can change rapidly around here.$"
+	.string "愤怒之湖离这儿不远。\n这一带气候说变就变。$"
 
 Route50_TrainerCaspian_Text_0:
-	.string "I'm doing a tour of all the routes!$"
+	.string "我正在把所有的道路\n都巡游一遍！$"
 
 Route50_TrainerCaspian_Text_1:
-	.string "You might be the strongest trainer so\n"
-	.string "far.$"
+	.string "你也许是我遇到过的\n最强的训练家。$"
 
 Route50_TrainerCaspian_Text_2:
-	.string "Bring two Pokémon ready to battle!$"
+	.string "带上两只宝可梦来对战！$"
 
 Route50_TrainerCaspian_Text_3:
-	.string "Have you been making use of the \n"
-	.string "weather? It can turn the tide of\l"
-	.string "battle in a flash.$"
+	.string "你有在利用天气吗？\n天气能在一瞬间\l扭转战局。$"
 
 Route50_TrainerIgnis_Text_0:
-	.string "This place is perfect for practicing\n"
-	.string "firebreathing!$"
+	.string "这地方练喷火\n再合适不过了！$"
 
 Route50_TrainerIgnis_Text_1:
-	.string "No! My flames!$"
+	.string "不！我的火焰！$"
 
 Route50_TrainerIgnis_Text_2:
-	.string "Can't accidentally set anything on fire \n"
-	.string "here.$"
+	.string "在这儿不会不小心\n把什么东西点着。$"
 
 Route50_ObservingWoman_Text_0:
-	.string "What kind of Pokémon is that thing\n"
-	.string "over there?$"
+	.string "那边那个东西\n是什么宝可梦？$"
 
 Route50_ObservingWoman_Text_1:
-	.string "Oh you caught that thing! Nice going!$"
+	.string "哦，你抓住那家伙了！干得好！$"
 
 Route50CafeSign_Text_0:
-	.string "Battle Cafe\n"
-	.string "All challengers welcome!$"
+	.string "对战咖啡馆\n欢迎所有挑战者！$"

@@ -104,8 +104,8 @@ GoldenrodCity_UndergroundSwitches_EventScript_AntiSoftLock_TP::
 	end
 
 GoldenrodCity_UndergroundSwitches_EventScript_AntiSoftLock_Text::
-	.string "Go back to the entrance\n"
-	.string "and reset switches?$"
+	.string "要回到入口，\n重新设置开关吗？$"
+	.string ""
 
 @ The sequence is deliberately strict: 3 -> 2 -> 1.
 @ Pressing any other switch resets both the visible shutters and the switch flags.
@@ -522,146 +522,146 @@ GoldenrodCity_UndergroundSwitches_EventScript_Grunt27::
 	end
 
 GoldenrodUnderground_Text_SilverBefore:
-    .string "Hold it!\p"
-    .string "I saw you, so I tailed you.\p"
-    .string "I don't need you underfoot while I\n"
-    .string "take care of Team Rocket.\p"
-    .string "…Wait a second. You beat me before,\n"
-    .string "didn't you?\p"
-    .string "That was just a fluke.\p"
-    .string "I've been training my team and now\n"
-    .string "I will repay my debts!$"
+    .string "站住！\p我看到你了，就一直跟着。\p我要去收拾火箭队，\n可不需要你在旁边碍事。\p……等等。你以前打赢过我，\n对吧？\p那不过是碰巧。\p我一直在锻炼我的队伍，\n现在该还这笔账了！$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodUnderground_Text_SilverWin:
-    .string "…Why… Why do I lose?\p"
-    .string "I've assembled the toughest Pokémon.\p"
-    .string "I didn't ease up on the gas.\p"
-    .string "So why do I lose?$"
+    .string "……为什么……\n我为什么会输？\p我明明集齐了最强的宝可梦。\p我也一点没有松劲。\p那我为什么还会输？$"
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodUnderground_Text_SilverAfter:
-    .string "…I don't understand…\p"
-    .string "Is what that Lance guy said true?\p"
-    .string "That I don't treat Pokémon properly?\p"
-    .string "Love…\p"
-    .string "Trust…\p"
-    .string "Are they really what I lack?\p"
-    .string "Are they keeping me from winning?\p"
-    .string "I… I just don't understand.\p"
-    .string "But it's not going to end here.\p"
-    .string "Not now. Not because of this.\p"
-    .string "I won't give up my dream of becoming\n"
-    .string "the world's best Pokémon trainer!$"
+    .string "……我不明白……\p那个叫阿渡的家伙说的，\n是真的吗？\p说我没有好好对待宝可梦？\p爱……\p信任……\p我缺少的，真的是这些吗？\p就是这些让我赢不了吗？\p我……我实在不明白。\p但事情不会就这样结束。\p不会是现在。不会因为这种事。\p我不会放弃成为世界第一\n宝可梦训练家的梦想！$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodUnderground_Text_SilverLoss:
-    .string "Humph. This is my real power, wimp.\p"
-    .string "I'll make Team Rocket history.\p"
-    .string "And I'm going to grind that Lance\n"
-    .string "under my heels.$"
+    .string "哼。这才是我的真正实力，\n废物。\p我会让火箭队成为历史。\p我还要把那个阿渡，\n踩在我的脚下。$"
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodUnderground_Text_GruntM11Seen:
-    .string "Open one shutter, another closes.\p"
-    .string "Bet you can't get where you want!$"
+    .string "打开一扇卷帘门，\n另一扇就会关上。\p你肯定到不了想去的地方！$"
+    .string ""
 
 GoldenrodUnderground_Text_GruntM11Beaten:
-    .string "Drat! I was sunk by indecision!$"
+    .string "可恶！我居然因为犹豫栽了！$"
 
 GoldenrodUnderground_Text_GruntM11After:
-    .string "I'm confused too…\p"
-    .string "The switch at the far end comes\n"
-    .string "first. Then work back this way.$"
+    .string "我也搞糊涂了……\p得先按最里面的开关，\n然后再往回按。$"
+    .string ""
+    .string ""
 
 GoldenrodUnderground_Text_GruntM25Seen:
-    .string "Kwahaha!\p"
-    .string "Confounded by the shutters, are we?\p"
-    .string "I'll let you in on a secret if you\n"
-    .string "can beat me!$"
+    .string "哇哈哈！\p被卷帘门搞得晕头转向了吧？\p你要是能打赢我，\n我就告诉你一个秘密！$"
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodUnderground_Text_GruntM25Beaten:
-    .string "Uwww… I blew it.$"
+    .string "呜……我搞砸了。$"
 
 GoldenrodUnderground_Text_GruntM25After:
-    .string "All right. A hint!\p"
-    .string "Pressing the wrong switch resets\n"
-    .string "the whole system.\p"
-    .string "Make sure all three are OFF before\n"
-    .string "you begin.$"
+    .string "好吧，给你个提示！\p按错开关，整套系统就会\n重新启动。\p开始之前，先确认三个开关\n全都在关闭状态。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodUnderground_Text_BurglarDuncanSeen:
-    .string "Fork over your goodies!$"
+    .string "把好东西都交出来！$"
 
 GoldenrodUnderground_Text_BurglarDuncanBeaten:
-    .string "Mercy!$"
+    .string "饶了我吧！$"
 
 GoldenrodUnderground_Text_BurglarDuncanAfter:
-    .string "Steal and sell! That's basic in\n"
-    .string "crime, kid!$"
+    .string "偷来东西再卖掉！\n这是犯罪的基本，小鬼！$"
+    .string ""
 
 GoldenrodUnderground_Text_BurglarEddieSeen:
-    .string "They ditched this project before they\n"
-    .string "finished.\p"
-    .string "I'm searching for leftover loot.$"
+    .string "这工程没完工，\n他们就不要了。\p我在找有没有剩下值钱的东西。$"
+    .string ""
+    .string ""
 
 GoldenrodUnderground_Text_BurglarEddieBeaten:
-    .string "Over the top!$"
+    .string "真是太厉害了！$"
 
 GoldenrodUnderground_Text_BurglarEddieAfter:
-    .string "Underground Warehouse?\p"
-    .string "What do you want to go there for?\p"
-    .string "There's nothing down there.$"
+    .string "地下仓库？\p你去那儿干什么？\p下面什么都没有。$"
+    .string ""
+    .string ""
 
 GoldenrodUnderground_Text_GruntM13Seen:
-    .string "I don't care if you're lost.\p"
-    .string "You show up here, you're nothing but\n"
-    .string "a victim!$"
+    .string "我管你是不是迷路了。\p落到这儿来，你就只能\n当个活靶子！$"
+    .string ""
+    .string ""
 
 GoldenrodUnderground_Text_GruntM13Beaten:
-    .string "Urk! Yeah, think you're cool, huh?$"
+    .string "呃！哼，你以为自己很帅吗？$"
 
 GoldenrodUnderground_Text_GruntM13After:
-    .string "You must have ice in your veins to\n"
-    .string "dis Team Rocket.$"
+    .string "敢看不起火箭队，\n你还真是胆大包天。$"
+    .string ""
 
 GoldenrodUnderground_Text_GruntF3Seen:
-    .string "Are you lost? No, you can't be.\p"
-    .string "You don't have that scared look.\p"
-    .string "I'll give you something to be\n"
-    .string "scared about!$"
+    .string "迷路了？不对，不可能。\p你脸上可没有害怕的样子。\p那我就让你知道\n什么叫害怕！$"
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodUnderground_Text_GruntF3Beaten:
-    .string "How could you?$"
+    .string "你怎么能这样？$"
 
 GoldenrodUnderground_Text_GruntF3After:
-    .string "Go wherever you'd like! Get lost!\n"
-    .string "See if I care!$"
+    .string "爱去哪去哪！滚吧！\n我才不管呢！$"
+    .string ""
 
 GoldenrodUnderground_Text_SequenceStep1:
-    .string "Switch 3 activated.\p"
-    .string "The first shutter lock\n"
-    .string "disengaged.$"
+    .string "3号开关已启动。\p第一道卷帘门锁\n已经解开。$"
+    .string ""
+    .string ""
 
 GoldenrodUnderground_Text_SequenceStep2:
-    .string "Switch 2 activated.\p"
-    .string "The second shutter lock\n"
-    .string "disengaged.$"
+    .string "2号开关已启动。\p第二道卷帘门锁\n已经解开。$"
+    .string ""
+    .string ""
 
 GoldenrodUnderground_Text_SequenceComplete:
-    .string "Switch 1 activated.\p"
-    .string "All shutter locks disengaged!$"
+    .string "1号开关已启动。\p所有卷帘门锁均已解开！$"
+    .string ""
 
 GoldenrodUnderground_Text_SequenceReset:
-    .string "That was the wrong switch!\p"
-    .string "The sequence and shutters reset.$"
+    .string "按错开关了！\p顺序和卷帘门都已复位。$"
+    .string ""
 
 GoldenrodUnderground_Text_AlreadySolved:
-    .string "The shutters are already unlocked.$"
+    .string "卷帘门已经解开了。$"
 
 GoldenrodUnderground_Text_EmergencyRelease:
-    .string "The emergency release was\n"
-    .string "activated!\p"
-    .string "All shutters opened.$"
+    .string "紧急解锁装置\n启动了！\p所有卷帘门都已打开。$"
+    .string ""
+    .string ""
 
 GoldenrodUnderground_Text_EmergencyReleaseLocked:
-    .string "The emergency release is locked.$"
+    .string "紧急解锁装置已被锁住。$"
 
 GoldenrodUnderground_Text_AllShuttersAlreadyOpen:
-    .string "All shutters are already open.$"
+    .string "所有卷帘门都已经打开了。$"

@@ -12,25 +12,25 @@ SSAqua_RoomNNE_EventScript_Carol::
 	end
 
 SSAqua_RoomNNE_Text_CooltrainermSeanSeen:
-    .string "I'm going to Kanto\n"
-    .string "to test my skills.$"
+    .string "我要去关都\n检验一下自己的实力。$"
+    .string ""
 
 SSAqua_RoomNNE_Text_CooltrainermSeanBeaten:
-    .string "I wanted to win!$"
+    .string "我本来想赢的！$"
 
 SSAqua_RoomNNE_Text_CooltrainermSeanAfterBattle:
-    .string "Trainers from Johto\n"
-    .string "can battle with Kanto\l"
-    .string "Gym Leaders.$"
+    .string "城都的训练家\n也能和关都的\l道馆馆主对战。$"
+    .string ""
+    .string ""
 
 SSAqua_RoomNNE_Text_CooltrainerfCarolSeen:
-    .string "I'm training to\n"
-    .string "become the Champ!$"
+    .string "我正在特训，\n要成为冠军！$"
+    .string ""
 
 SSAqua_RoomNNE_Text_CooltrainerfCarolBeaten:
-    .string "What's so different\n"
-    .string "between us?$"
+    .string "我们之间到底\n差在哪里？$"
+    .string ""
 
 SSAqua_RoomNNE_Text_CooltrainerfCarolAfterBattle:
-    .string "I'm going to beat\n"
-    .string "you someday!$"
+    .string "总有一天\n我要赢过你！$"
+    .string ""

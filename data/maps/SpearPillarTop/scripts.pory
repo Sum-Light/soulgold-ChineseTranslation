@@ -11,10 +11,8 @@ script exitPortalSP {
 script PortalDialga {
     lock
     faceplayer
-    msgbox("You gaze deep into the portal.
-
-            It shows you the sea of flowing time.")
-    msgbox("Touch the portal?", MSGBOX_YESNO)
+    msgbox("你凝视着传送门的深处。\p其中展现出时间流动之海。")
+    msgbox("要触碰传送门吗？", MSGBOX_YESNO)
     if (var(VAR_RESULT) == YES) {
         bosslegendaryencounter(SPECIES_DIALGA, 85, LOCALID_SPEAR_PILLAR_DIALGA_PORTAL, FLAG_HIDE_SPEAR_PILLAR_DIALGA_PORTAL, 4, SPECIES_NONE, 110, BOSS_PHASE_PROFILE_DIALGA)
         if (var(VAR_RESULT) == B_OUTCOME_CAUGHT) {
@@ -33,10 +31,8 @@ script PortalDialga {
 script PortalPalkia {
     lock
     faceplayer
-    msgbox("You gaze deep into the portal.
-
-            It shows you a vast and endless space.")
-    msgbox("Touch the portal?", MSGBOX_YESNO)
+    msgbox("你凝视着传送门的深处。\p其中展现出广阔无垠的空间。")
+    msgbox("要触碰传送门吗？", MSGBOX_YESNO)
     if (var(VAR_RESULT) == YES) {
         bosslegendaryencounter(SPECIES_PALKIA, 85, LOCALID_SPEAR_PILLAR_PALKIA_PORTAL, FLAG_HIDE_SPEAR_PILLAR_PALKIA_PORTAL, 4, SPECIES_NONE, 110, BOSS_PHASE_PROFILE_PALKIA)
         if (var(VAR_RESULT) == B_OUTCOME_CAUGHT) {
@@ -55,10 +51,8 @@ script PortalPalkia {
 script PortalGiratina {
     lock
     faceplayer
-    msgbox("You gaze deep into the portal.
-
-            It shows you a bottomless abyss.")
-    msgbox("Touch the portal?", MSGBOX_YESNO)
+    msgbox("你凝视着传送门的深处。\p其中展现出深不见底的深渊。")
+    msgbox("要触碰传送门吗？", MSGBOX_YESNO)
     if (var(VAR_RESULT) == YES) {
         bosslegendaryencounter(SPECIES_GIRATINA, 85, LOCALID_SPEAR_PILLAR_GIRATINA_PORTAL, FLAG_HIDE_SPEAR_PILLAR_GIRATINA_PORTAL, 4, SPECIES_NONE, 110, BOSS_PHASE_PROFILE_GIRATINA)
         if (var(VAR_RESULT) == B_OUTCOME_CAUGHT) {
@@ -77,7 +71,7 @@ script PortalGiratina {
 script TimeGearPrimal {
     lock
     faceplayer
-    msgbox("A strange gear lies on the ground.")
+    msgbox("地上躺着一个奇怪的齿轮。")
     checkspecies(SPECIES_GROVYLE)
     if (var(VAR_RESULT) == FALSE) {
         goto(TimeGearDoesNotReact)
@@ -90,9 +84,7 @@ script TimeGearPrimal {
     if (var(VAR_RESULT) == FALSE) {
         goto(TimeGearDoesNotReact)
     }
-    msgbox("The Time Gear suddenly started glowing!
-
-            Touch it?", MSGBOX_YESNO)
+    msgbox("时之齿轮突然开始发光了！\p要触碰它吗？", MSGBOX_YESNO)
     if (var(VAR_RESULT) == YES) {
         bosslegendaryencounterwithmoves(SPECIES_DIALGA_PRIMAL, 85, LOCALID_SPEAR_PILLAR_TIME_GEAR, FLAG_HIDE_SPEAR_PILLAR_TIME_GEAR, 4, SPECIES_NONE, 110, MOVE_ROAR_OF_TIME, MOVE_FLASH_CANNON, MOVE_EARTH_POWER, MOVE_THUNDER)
     }
@@ -101,7 +93,7 @@ script TimeGearPrimal {
 }
 
 script TimeGearDoesNotReact {
-    msgbox("It does not react to your presence.")
+    msgbox("它对你的存在毫无反应。")
     release
     end
 }

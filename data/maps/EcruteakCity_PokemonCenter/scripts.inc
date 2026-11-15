@@ -101,46 +101,46 @@ EcruteakCity_PokemonCenter_Movement_BillBot:
 
 
 EcruteakCity_PokemonCenter1F_Text_Bill1:
-	.string "Hi, I'm Bill. And who are you?\p"
-	.string "Hmm, {PLAYER}, huh?\n"
-	.string "You've come at the right time.$"
+	.string "嗨，我是正辉。\n你是？\p嗯，{PLAYER}啊？\n你来得正是时候。$"
+	.string ""
+	.string ""
 
 EcruteakCity_PokemonCenter1F_Text_Bill2:
-	.string "I just finished adjustments on my\n"
-	.string "Pokémon Storage System.\p"
-	.string "You know that PC you use to store\n"
-	.string "all your Pokémon?\p"
-	.string "I developed that myself!\p"
-	.string "Now that I've installed this one,\n"
-	.string "my PC is running at all\l"
-	.string "Pokémon Centers in Johto.\p"
-	.string "I have to hurry on back to\n"
-	.string "Goldenrod and see my folks. Feel\l"
-	.string "free to visit anytime!\p"
-	.string "Buh-bye!$"
+	.string "我刚把宝可梦寄放系统\n调整完毕。\p你知道用来存放宝可梦的\n那台电脑吧？\p那是我开发的！\p这次装好之后，\n城都地区所有宝可梦中心的\l电脑都能用了。\p我得赶紧回满金市\n去看看家人。你有空\l随时来玩啊！\p拜拜！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 EcruteakCity_PokemonCenter1F_Text_PokefanM:
-	.string "The way the Kimono Girls dance is\n"
-	.string "marvelous.\p"
-	.string "Just like the way they use their\n"
-	.string "Pokémon.$"
+	.string "和服女孩们跳舞的样子\n真是太美了。\p她们用宝可梦的方式\n也一样美。$"
+	.string ""
+	.string ""
+	.string ""
 
 EcruteakCity_PokemonCenter1F_Text_PokefanM_Mobile:
-	.string "You must be hoping to battle more\n"
-	.string "people, right?\p"
-	.string "There's apparently some place where\n"
-	.string "trainers gather.\p"
-	.string "Where, you ask?\p"
-	.string "It's a little past Olivine City.$"
+	.string "你是想和更多的人\n对战，对吧？\p听说有个地方\n聚集了很多训练家。\p你问在哪儿？\p就在浅葱市再过去一点。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 EcruteakCity_PokemonCenter1F_Text_CooltrainerF:
-	.string "Morty, the Gym Leader, is soooo\n"
-	.string "cool.\p"
-	.string "His Pokémon are really tough too.$"
+	.string "道馆馆主松叶\n真的超帅的。\p他的宝可梦也强得很。$"
+	.string ""
+	.string ""
 
 EcruteakCity_PokemonCenter1F_Text_GymGuide:
-	.string "Lake Of Rage…\p"
-	.string "The appearance of a Gyarados\n"
-	.string "swarm…\p"
-	.string "I smell a conspiracy. I know it!$"
+	.string "愤怒之湖……\p暴鲤龙成群出现……\p我嗅到阴谋的味道了。\n绝对没错！$"
+	.string ""
+	.string ""
+	.string ""
 

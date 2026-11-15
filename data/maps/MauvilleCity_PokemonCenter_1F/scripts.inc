@@ -34,21 +34,21 @@ MauvilleCity_PokemonCenter_1F_EventScript_Youngster::
 	end
 
 MauvilleCity_PokemonCenter_1F_Text_ManOverThereSaysWeirdThings:
-	.string "That man over there, he says weird\n"
-	.string "things!\p"
-	.string "He's funny in a weird way.\n"
-	.string "I doubt I'll forget about him!$"
+	.string "那边那个人总是在说些\n奇怪的话！\p那个怪人真有趣，\n我想我不可能忘了他！$"
+	.string ""
+	.string ""
+	.string ""
 
 MauvilleCity_PokemonCenter_1F_Text_MyDataUpdatedFromRecordCorner:
-	.string "When I accessed the Record Corner,\n"
-	.string "the data for what's hot in Dewford\l"
-	.string "got updated.\p"
-	.string "Now that bit of data is the same\n"
-	.string "as my friend's!$"
+	.string "我去联机俱乐部的记录角时，\n武斗镇的流行词的资料就更新了。\p现在这部分资料和我朋友的\n一模一样！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MauvilleCity_PokemonCenter_1F_Text_RecordCornerSoundsFun:
-	.string "A Record Corner opened upstairs in\n"
-	.string "the Pokémon Center.\p"
-	.string "I don't know what it's about, but it\n"
-	.string "sounds fun. I'll go check it out!$"
+	.string "宝可梦中心楼上\n开了个联机俱乐部，\p不知道是干什么的，\n但听起来挺好玩。我要去看看！$"
+	.string ""
+	.string ""
+	.string ""
 

@@ -351,7 +351,7 @@ AzaleaTown_KurtsHouse_EventScript_KurtGsBall3::
 	release
 	end
 KurtsHouse_Text_BallAnyway:
-	.string "Anyway, can I make you some Balls?$"
+	.string "话说回来，要我给您做些球吗？$"
 
 AzaleaTown_KurtsHouse_EventScript_OakPhoto::
 	msgbox KurtsHouse_Text_OakPhoto, MSGBOX_SIGN
@@ -401,141 +401,138 @@ AzaleaTown_KurtsHouse_Movement_KurtWalkDown:
 	step_end
 
 KurtsHouse_Text_KurtGetStarted:
-	.string "Kurt: I'll get started right now!$"
+	.string "钢铁：我这就开工！$"
 
 KurtsHouse_Text_KurtMakingBallsMustWait:
-	.string "Hm? Who are you?\p"
-	.string "{PLAYER}, eh? You want me to make\n"
-	.string "some Balls?\p"
-	.string "Sorry, but that'll have to wait.\p"
-	.string "Do you know Team Rocket?\n"
-	.string "Ah, don't worry.\p"
-	.string "I'll tell you anyhow.\p"
-	.string "Team Rocket's an evil gang that\n"
-	.string "uses Pokémon for their dirty work.\p"
-	.string "They're supposed to have disbanded\n"
-	.string "three years ago.\p"
-	.string "Anyway, they're at the Well,\n"
-	.string "cutting off Slowpoketails to sell!\p"
-	.string "So I'm going to go give them a\n"
-	.string "lesson in pain!\p"
-	.string "Hang on, Slowpoke! Old Kurt\n"
-	.string "is on his way!$"
+	.string "嗯？你是谁？\p{PLAYER}啊。你想让我\n给你做些球？\p抱歉，那得先等等。\p你知道火箭队吗？\n啊，不知道也没关系。\p我来告诉你。\p火箭队是一群利用宝可梦\n干坏事的邪恶团伙。\p听说他们三年前\n就已经解散了。\p总之，他们现在就在井里，\n砍下呆呆兽的尾巴拿去卖！\p所以我要去给他们\n一点苦头尝尝！\p等着我，呆呆兽！\n老钢铁这就来救你们！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 KurtsHouse_Text_KurtHonoredToMakeBalls:
-	.string "Kurt: Hi, {PLAYER}!\p"
-	.string "You handled yourself like a\n"
-	.string "real hero at the Well.\p"
-	.string "I like your style!\p"
-	.string "I would be honored to make\n"
-	.string "Balls for a trainer like you.\p"
-	.string "This is all I have now, \n"
-	.string "but take it.$"
+	.string "钢铁：嗨，{PLAYER}！\p你在井边干得\n真像个英雄。\p我喜欢你这种作风！\p能为像你这样的训练家做球，\n是我的荣幸。\p现在我手上只有这个，\n不过拿去吧。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 KurtsHouse_Text_KurtBallsFromApricorns:
-	.string "Kurt: I make Balls from Berries.\p"
-	.string "Collect them from trees and bring\n"
-	.string "'em to me in batches of 5.\p"
-	.string "I'll make Balls out of them.$"
+	.string "钢铁：我用树果做球。\p从树上收集树果，\n5个一批拿来给我。\p我就用它们给你做球。$"
+	.string ""
+	.string ""
+	.string ""
 
 KurtsHouse_Text_KurtAskYouHaveAnApricorn:
-	.string "Kurt: You have 5 Berries for me?\p"
-	.string "Fine! I'll turn them into Balls.$"
+	.string "钢铁：你带了5个树果给我？\p好！我这就把它们做成球。$"
+	.string ""
 
 KurtsHouse_Text_KurtThatsALetdown:
-	.string "Kurt: I don't see 5 {STR_VAR_1}s!$"
+	.string "钢铁：我没看到5个{STR_VAR_1}！$"
 
 KurtsHouse_Text_KurtJustFinishedYourBall:
-	.string "Kurt: Ah, {PLAYER}! \p"
-	.string "I just finished your Ball. Here!$"
+	.string "钢铁：啊，{PLAYER}！\p你的球刚做好。\n给你！$"
+	.string ""
 
 KurtsHouse_Text_KurtTurnedOutGreat:
-	.string "Kurt: That turned out great.\p"
-	.string "Try catching Pokémon with it.$"
+	.string "钢铁：做得真不错。\p拿它去抓宝可梦试试吧。$"
+	.string ""
 
 KurtsHouse_Text_KurtWhatIsThat:
-	.string "Wh-what is that?\p"
-	.string "I've never seen one before.\p"
-	.string "It looks a like a Poké Ball, but\n"
-	.string "it appears to be something else.\p"
-	.string "Let me check it for you.$"
+	.string "这、这是什么？\p我从没见过这种东西。\p看起来像精灵球，\n但好像又不是。\p让我帮你检查一下吧。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 KurtsHouse_Text_KurtImCheckingItNow:
-	.string "I'm checking it now.$"
+	.string "我现在正在检查。$"
 
 KurtsHouse_Text_KurtAhHaISee:
-	.string "Ah-ha! I see! So…$"
+	.string "啊哈！我明白了！那么……$"
 
 KurtsHouse_Text_KurtThisBallStartedToShake:
-	.string "{PLAYER}!\p"
-	.string "This Ball started to shake\n"
-	.string "while I was checking it.\p"
-	.string "There must be something to this!$"
+	.string "{PLAYER}！\p我检查的时候，这个球\n突然开始摇晃了。\p这里面一定有什么名堂！$"
+	.string ""
+	.string ""
+	.string ""
 
 KurtsHouse_Text_Kurt_Whatwasthat:
-	.string "What was that sound?!\p"
-	.string "Let's go outside to investigate!$"
+	.string "那是什么声音？！\p我们出去看看吧！$"
+	.string ""
 
 KurtsHouse_Text_GranddaughterSlowpokeGone:
-	.string "The Slowpoke are gone… \n"
-	.string "Were they taken away by bad people?$"
+	.string "呆呆兽不见了……\n是被坏人抓走了吗？$"
+	.string ""
 
 KurtsHouse_Text_GranddaughterLonely:
-	.string "Grandpa's gone… I'm so lonely…$"
+	.string "爷爷走了……我好孤单……$"
 
 KurtsHouse_Text_GranddaughterSlowpokeBack:
-	.string "The Slowpoke my dad gave me came back!\p"
-	.string "Its Tail is growing back too!$"
+	.string "爸爸送我的那只呆呆兽回来了！\p它的尾巴也正在长回来！$"
+	.string ""
 
 KurtsHouse_Text_GranddaughterDad:
-	.string "Dad works at Silph where\n"
-	.string "he studies Poké Balls.\p"
-	.string "I have to stay home\n"
-	.string "with Grandpa and Slowpoke.$"
+	.string "爸爸在西尔佛公司上班，\n研究精灵球。\p我得和爷爷还有呆呆兽\n一起看家。$"
+	.string ""
+	.string ""
+	.string ""
 
 KurtsHouse_Text_GranddaughterHelp:
-	.string "I get to help Grandpa now!\p"
-	.string "We'll make good Balls\n"
-	.string "for you, so please wait!$"
+	.string "现在我也可以帮爷爷的忙了！\p我们会为你做好球的，\n请等着吧！$"
+	.string ""
+	.string ""
 
 KurtsHouse_Text_GranddaughterFun:
-	.string "It's fun to make Balls!$"
+	.string "做球真好玩！$"
 
 KurtsHouse_Text_GranddaughterSound:
-	.string "Did that sound come from\n"
-	.string "Ilex Forest????$"
+	.string "刚才那个声音是从\n栎树林传来的吗？？？？$"
+	.string ""
 
 KurtsHouse_Text_Forest:
-	.string "Did you check Ilex Forest yet?\n"
-	.string "It sounds very restless.$"
+	.string "你去栎树林看过了吗？\n那里好像很不安宁。$"
+	.string ""
 
 KurtsHouse_Text_Slowpoke:
-	.string "Slowpoke: … Yawn?$"
+	.string "呆呆兽：……哈欠？$"
 
 KurtsHouse_Text_OakPhoto:
-	.string "…A young Prof. Oak?$"
+	.string "……年轻时候的大木博士？$"
 
 KurtsHouse_Text_CelebiStatue:
-	.string "It's a statue of the forest's\n"
-	.string "protector.$"
+	.string "这是森林守护神的\n雕像。$"
+	.string ""
 `
 
 script KurtMakesBallsDaily {
-	msgbox("I will give you any surplus Poké Balls
-			I create every day, so stop by!")
+	msgbox("我每天多做出来的精灵球\n都会送给你，记得常来啊！")
 	closemessage
 	return
 }
 
 script KurtDaily {
 	if (flag(FLAG_DAILY_KURT_FREE_BALLS)) {
-		msgbox("Come back tomorrow when I have crafted
-				some more.")
+		msgbox("等我再多做几个，\n明天再来吧。")
 		release
 		end
 	}
-	msgbox("Here's what I got for you today.
-			Stop by tomorrow again for more.")
+	msgbox("这是今天给你的份。\n明天再来拿吧。")
 	if (var(VAR_KURT_PROFICIENCY) >= 4) {
 		random(16)
 	} else {
@@ -573,10 +570,7 @@ script KurtDaily {
 		case 14:
 			giveitem(ITEM_STRANGE_BALL, 5)
 		case 15:
-			msgbox("This once is a masterpiece!
-
-					I can hardly believe I managed
-					to craft it.")
+			msgbox("这回可是杰作！\p我都不敢相信\n这是我自己做出来的。")
 			giveitem(ITEM_MASTER_BALL, 1)
 			setflag(FLAG_KURT_CRAFTED_MASTER_BALL)
 			special(Achievement_CheckAll)

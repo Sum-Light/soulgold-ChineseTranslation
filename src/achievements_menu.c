@@ -358,7 +358,7 @@ static void DrawHeader(void)
 {
     PutWindowTilemap(WIN_HEADER);
     FillWindowPixelBuffer(WIN_HEADER, PIXEL_FILL(0));
-    AddTextPrinterParameterized3(WIN_HEADER, FONT_SMALL, 10, 2, sColor_DarkGray, TEXT_SKIP_DRAW, COMPOUND_STRING("Trophies"));
+    AddTextPrinterParameterized3(WIN_HEADER, FONT_SMALL, 10, 2, sColor_DarkGray, TEXT_SKIP_DRAW, COMPOUND_STRING("奖杯"));
 
     ConvertIntToDecimalStringN(gStringVar1, Achievement_CountUnlocked(), STR_CONV_MODE_LEFT_ALIGN, 3);
     ConvertIntToDecimalStringN(gStringVar2, Achievement_GetCount(), STR_CONV_MODE_LEFT_ALIGN, 3);
@@ -391,11 +391,11 @@ static void PrintAchievementProgress(const struct Achievement *achievement, u8 y
 
     if (Achievement_IsUnlocked(achievement->id))
     {
-        PrintListStatusText(COMPOUND_STRING("Done"), y, sColor_Green);
+        PrintListStatusText(COMPOUND_STRING("已完成"), y, sColor_Green);
     }
     else if (achievement->id == ACH_MILLIONAIRE || achievement->id == ACH_SPENDTHRIFT)
     {
-        PrintListStatusText(COMPOUND_STRING("Locked"), y, sColor_DarkGray);
+        PrintListStatusText(COMPOUND_STRING("未解锁"), y, sColor_DarkGray);
     }
     else if (target > 1)
     {
@@ -408,7 +408,7 @@ static void PrintAchievementProgress(const struct Achievement *achievement, u8 y
     }
     else
     {
-        PrintListStatusText(COMPOUND_STRING("Locked"), y, sColor_DarkGray);
+        PrintListStatusText(COMPOUND_STRING("未解锁"), y, sColor_DarkGray);
     }
 }
 
@@ -425,13 +425,13 @@ static const u8 *GetAchievementDescription(const struct Achievement *achievement
         {
             StringExpandPlaceholders(
                 gStringVar4,
-                COMPOUND_STRING("Earn ¥1,000,000 in total.\n(¥{STR_VAR_1} / ¥1,000,000)"));
+                COMPOUND_STRING("累计赚取¥1,000,000。\n(¥{STR_VAR_1} / ¥1,000,000)"));
         }
         else
         {
             StringExpandPlaceholders(
                 gStringVar4,
-                COMPOUND_STRING("Spend ¥1,000,000 in total.\n(¥{STR_VAR_1} / ¥1,000,000)"));
+                COMPOUND_STRING("累计花费¥1,000,000。\n(¥{STR_VAR_1} / ¥1,000,000)"));
         }
         return gStringVar4;
     }

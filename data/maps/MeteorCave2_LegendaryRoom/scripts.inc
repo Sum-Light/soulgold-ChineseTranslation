@@ -156,19 +156,16 @@ MeteorCave2_LegeRoom_IronCrown::
 
 
 MeteorCave1_LegendaryRoom_IronLeavesDoor_Text_0:
-	.string "The path is open.$"
+	.string "路已经打开了。$"
 
 MeteorCave1_LegendaryRoom_IronLeavesDoor_Text_1:
-	.string "There's an inscription on the wall.\p"
-	.string "BRING LEAVES$"
+	.string "墙上刻着铭文。\p带来叶子$"
 
 MeteorCave1_LegendaryRoom_IronLeavesDoor_Text_2:
-	.string "Nothing seems to happen.$"
+	.string "似乎什么也没发生。$"
 
 MeteorCave1_LegendaryRoom_IronBoulderDoor_Text_0:
-	.string "There's an inscription on the wall.\p"
-	.string "BRING TERRA$"
+	.string "墙上刻着铭文。\p带来大地$"
 
 MeteorCave1_LegendaryRoom_IronCrownDoor_Text_0:
-	.string "There's an inscription on the wall.\p"
-	.string "BRING WILL$"
+	.string "墙上刻着铭文。\p带来意志$"

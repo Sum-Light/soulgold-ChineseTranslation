@@ -5,6 +5,7 @@
 #include "task.h"
 #include "sprite.h"
 #include "string_util.h"
+#include "chinese_text.h"
 #include "window.h"
 #include "bg.h"
 #include "gpu_regs.h"
@@ -46,6 +47,10 @@ enum {
 
 #define KBROW_COUNT 4
 #define KBCOL_COUNT 8
+#define PINYIN_MAX_LENGTH 6
+#define CANDIDATE_COLUMNS 6
+#define CANDIDATE_ROWS 3
+#define CANDIDATES_PER_PAGE (CANDIDATE_COLUMNS * CANDIDATE_ROWS)
 
 enum {
     GFXTAG_BACK_BUTTON,
@@ -60,6 +65,8 @@ enum {
     GFXTAG_CURSOR_FILLED,
     GFXTAG_INPUT_ARROW,
     GFXTAG_UNDERSCORE,
+    GFXTAG_PAGE_SWAP_PINYIN,
+    GFXTAG_CURSOR_CANDIDATES,
 };
 
 enum {
@@ -79,15 +86,17 @@ enum {
     WIN_TEXT_ENTRY,
     WIN_TEXT_ENTRY_BOX,
     WIN_BANNER,
+    WIN_PINYIN,
     WIN_COUNT,
 };
 
 // The constants for the pages are needlessly complicated because GF didn't keep the indexing order consistent
 // This set is used for sNamingScreen->currentPage. It uses the order that the pages are cycled in
 enum {
-    KBPAGE_SYMBOLS,
+    KBPAGE_PINYIN,
     KBPAGE_LETTERS_UPPER,
     KBPAGE_LETTERS_LOWER,
+    KBPAGE_SYMBOLS,
     KBPAGE_COUNT,
 };
 
@@ -96,6 +105,7 @@ enum {
     KEYBOARD_LETTERS_LOWER,
     KEYBOARD_LETTERS_UPPER,
     KEYBOARD_SYMBOLS,
+    KEYBOARD_PINYIN,
 };
 
 // This set is used for getting the gfx/pal tags of the page's swap button
@@ -103,6 +113,7 @@ enum {
     PAGE_SWAP_UPPER,
     PAGE_SWAP_OTHERS,
     PAGE_SWAP_LOWER,
+    PAGE_SWAP_PINYIN,
 };
 
 enum {
@@ -179,10 +190,22 @@ struct NamingScreenData
     u16 monGender;
     u32 monPersonality;
     bool8 monIsShiny;
+    u8 pinyin[PINYIN_MAX_LENGTH + 1];
+    u8 pinyinLength;
+    u8 candidatePage;
+    u8 candidateCount;
+    u16 candidateOffset;
+    bool8 choosingCandidates;
+    s16 letterX;
+    s16 letterY;
     MainCallback returnCallback;
 };
 
 EWRAM_DATA static struct NamingScreenData *sNamingScreen = NULL;
+
+#include "data/naming_pinyin.h"
+static const u8 sPinyinLabel_Gfx[] = INCBIN_U8("graphics/naming_screen/page_swap_pinyin.4bpp");
+static const u8 sCandidateCursor_Gfx[] = INCBIN_U8("graphics/naming_screen/cursor_candidates.4bpp");
 
 static const u8 sPCIconOff_Gfx[] = INCBIN_U8("graphics/naming_screen/pc_icon_off.4bpp");
 static const u8 sPCIconOn_Gfx[] = INCBIN_U8("graphics/naming_screen/pc_icon_on.4bpp");
@@ -274,6 +297,15 @@ static const struct WindowTemplate sWindowTemplates[WIN_COUNT + 1] =
         .paletteNum = 11,
         .baseBlock = 0x074
     },
+    [WIN_PINYIN] = {
+        .bg = 0,
+        .tilemapLeft = 18,
+        .tilemapTop = 4,
+        .width = 7,
+        .height = 2,
+        .paletteNum = 10,
+        .baseBlock = 0x0B0
+    },
     DUMMY_WIN_TEMPLATE
 };
 
@@ -281,6 +313,12 @@ static const struct WindowTemplate sWindowTemplates[WIN_COUNT + 1] =
 // The keys shown on the keyboard are handled separately by sNamingScreenKeyboardText
 static const u8 sKeyboardChars[KBPAGE_COUNT][KBROW_COUNT][KBCOL_COUNT] = {
     [KEYBOARD_LETTERS_LOWER] = {
+        __("abcdef ."),
+        __("ghijkl ,"),
+        __("mnopqrs "),
+        __("tuvwxyz "),
+    },
+    [KEYBOARD_PINYIN] = {
         __("abcdef ."),
         __("ghijkl ,"),
         __("mnopqrs "),
@@ -303,15 +341,28 @@ static const u8 sKeyboardChars[KBPAGE_COUNT][KBROW_COUNT][KBCOL_COUNT] = {
 static const u8 sPageColumnCounts[KBPAGE_COUNT] = {
     [KEYBOARD_LETTERS_LOWER] = KBCOL_COUNT,
     [KEYBOARD_LETTERS_UPPER] = KBCOL_COUNT,
-    [KEYBOARD_SYMBOLS]       = 6
+    [KEYBOARD_SYMBOLS]       = 6,
+    [KEYBOARD_PINYIN]        = KBCOL_COUNT
 };
 static const u8 sPageColumnXPos[KBPAGE_COUNT][KBCOL_COUNT] = {
     [KEYBOARD_LETTERS_LOWER] = {0, 12, 24, 56, 68, 80, 92, 123},
     [KEYBOARD_LETTERS_UPPER] = {0, 12, 24, 56, 68, 80, 92, 123},
-    [KEYBOARD_SYMBOLS]       = {0, 22, 44, 66, 88, 110}
+    [KEYBOARD_SYMBOLS]       = {0, 22, 44, 66, 88, 110},
+    [KEYBOARD_PINYIN]        = {0, 12, 24, 56, 68, 80, 92, 123}
 };
 
 static const struct NamingScreenTemplate *const sNamingScreenTemplates[];
+static bool8 IsPinyinPage(void);
+static void UpdatePinyin(void);
+static void DrawPinyin(void);
+static void DrawCandidates(void);
+static void EnterCandidates(void);
+static void LeaveCandidates(void);
+static void TurnCandidatePage(s8 direction);
+static bool8 AppendNamingCharacter(u16 code);
+static void DrawNamingTitle(const u8 *title);
+static const u32 *GetKeyboardTilemap(u8 keyboard);
+static u8 GetCharAtKeyboardPos(s16 x, s16 y);
 static const struct SubspriteTable sSubspriteTable_PageSwapFrame[];
 static const struct SubspriteTable sSubspriteTable_PageSwapText[];
 static const struct SubspriteTable sSubspriteTable_Button[];
@@ -374,9 +425,9 @@ static u8 GetInputEvent(void);
 static void SetInputState(u8);
 static void DrawTextEntryBox(void);
 static u8 GetTextEntryPosition(void);
+static u8 GetPreviousTextCaretPosition(void);
 static void DeleteTextCharacter(void);
 static bool8 AddTextCharacter(void);
-static void BufferCharacter(u8);
 static void SaveInputText(void);
 static void LoadGfx(void);
 static void CreateHelperTasks(void);
@@ -394,7 +445,9 @@ static void VBlankCB_NamingScreen(void);
 static void NamingScreen_ShowBgs(void);
 static bool8 IsWideLetter(u8);
 
-static const u8 sText_MoveOkBack[] = _("{DPAD_NONE}MOVE  {A_BUTTON}OK  {B_BUTTON}BACK");
+static const u8 sText_MoveOkBack[] = _("{DPAD_NONE}移动  {A_BUTTON}确认  {B_BUTTON}返回");
+static const u8 sText_PinyinControls[] = _("{A_BUTTON}输入  {B_BUTTON}删除  {DPAD_UP}/{START_BUTTON}选字");
+static const u8 sText_CandidateControls[] = _("{A_BUTTON}选字  {B_BUTTON}返回  {L_BUTTON}{R_BUTTON}翻页");
 
 void DoNamingScreen(u8 templateNum, u8 *destBuffer, u16 monSpecies, u16 monGender, u32 monPersonality, bool8 monIsShiny, MainCallback returnCallback)
 {
@@ -478,13 +531,35 @@ static void NamingScreen_Init(void)
     sNamingScreen->bgToHide = 1;
     sNamingScreen->template = sNamingScreenTemplates[sNamingScreen->templateNum];
     sNamingScreen->currentPage = sNamingScreen->template->initialPage;
+    sNamingScreen->pinyinLength = 0;
+    sNamingScreen->pinyin[0] = EOS;
+    sNamingScreen->candidateCount = 0;
+    sNamingScreen->candidatePage = 0;
+    sNamingScreen->candidateOffset = 0;
+    sNamingScreen->choosingCandidates = FALSE;
+    sNamingScreen->letterX = 0;
+    sNamingScreen->letterY = 0;
     sNamingScreen->inputCharBaseXPos = (DISPLAY_WIDTH - sNamingScreen->template->maxChars * 8) / 2 + 6;
     if (sNamingScreen->templateNum == NAMING_SCREEN_WALDA)
         sNamingScreen->inputCharBaseXPos += 11;
     sNamingScreen->keyRepeatStartDelayCopy = gKeyRepeatStartDelay;
     memset(sNamingScreen->textBuffer, EOS, sizeof(sNamingScreen->textBuffer));
     if (sNamingScreen->template->copyExistingString)
-        StringCopy(sNamingScreen->textBuffer, sNamingScreen->destBuffer);
+    {
+        u8 pos = 0;
+        u8 limit = sNamingScreen->template->maxChars;
+        while (pos < limit && sNamingScreen->destBuffer[pos] != EOS)
+        {
+            u8 size = 1;
+            if (sNamingScreen->destBuffer[pos] == CHAR_EXTRA_SYMBOL
+             || IsChineseChar(sNamingScreen->destBuffer[pos], sNamingScreen->destBuffer[pos + 1], FONT_NORMAL, FALSE))
+                size = 2;
+            if (pos + size > limit)
+                break;
+            memcpy(sNamingScreen->textBuffer + pos, sNamingScreen->destBuffer + pos, size);
+            pos += size;
+        }
+    }
     gKeyRepeatStartDelay = 16;
 }
 
@@ -588,23 +663,26 @@ static void Task_NamingScreen(u8 taskId)
 // Which gfx/pal to load for the swap page button
 static const u8 sPageToNextGfxId[KBPAGE_COUNT] =
 {
-    [KBPAGE_SYMBOLS]       = PAGE_SWAP_UPPER,
-    [KBPAGE_LETTERS_UPPER] = PAGE_SWAP_LOWER,
-    [KBPAGE_LETTERS_LOWER] = PAGE_SWAP_OTHERS
+    [KBPAGE_PINYIN]        = PAGE_SWAP_PINYIN,
+    [KBPAGE_LETTERS_UPPER] = PAGE_SWAP_UPPER,
+    [KBPAGE_LETTERS_LOWER] = PAGE_SWAP_LOWER,
+    [KBPAGE_SYMBOLS]       = PAGE_SWAP_OTHERS
 };
 
 static const u8 sPageToNextKeyboardId[KBPAGE_COUNT] =
 {
-    [KBPAGE_SYMBOLS]       = KEYBOARD_LETTERS_UPPER,
+    [KBPAGE_SYMBOLS]       = KEYBOARD_PINYIN,
     [KBPAGE_LETTERS_UPPER] = KEYBOARD_LETTERS_LOWER,
-    [KBPAGE_LETTERS_LOWER] = KEYBOARD_SYMBOLS
+    [KBPAGE_LETTERS_LOWER] = KEYBOARD_SYMBOLS,
+    [KBPAGE_PINYIN]        = KEYBOARD_LETTERS_UPPER
 };
 
 static const u8 sPageToKeyboardId[KBPAGE_COUNT] =
 {
     [KBPAGE_SYMBOLS]       = KEYBOARD_SYMBOLS,
     [KBPAGE_LETTERS_UPPER] = KEYBOARD_LETTERS_UPPER,
-    [KBPAGE_LETTERS_LOWER] = KEYBOARD_LETTERS_LOWER
+    [KBPAGE_LETTERS_LOWER] = KEYBOARD_LETTERS_LOWER,
+    [KBPAGE_PINYIN]        = KEYBOARD_PINYIN
 };
 
 static u8 PageToNextGfxId(u8 page)
@@ -625,16 +703,14 @@ static u8 CurrentPageToKeyboardId(void)
 static bool8 MainState_FadeIn(void)
 {
     DrawBgTilemap(3, gNamingScreenBackground_Tilemap);
-    sNamingScreen->currentPage = KBPAGE_LETTERS_UPPER;
-    DrawBgTilemap(2, gNamingScreenKeyboardLower_Tilemap);
-    DrawBgTilemap(1, gNamingScreenKeyboardUpper_Tilemap);
-    PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_2], KEYBOARD_LETTERS_LOWER);
-    PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_1], KEYBOARD_LETTERS_UPPER);
-    NamingScreen_Dummy(2, KEYBOARD_LETTERS_LOWER);
-    NamingScreen_Dummy(1, KEYBOARD_LETTERS_UPPER);
+    DrawBgTilemap(2, GetKeyboardTilemap(CurrentPageToNextKeyboardId()));
+    DrawBgTilemap(1, GetKeyboardTilemap(CurrentPageToKeyboardId()));
+    PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_2], CurrentPageToNextKeyboardId());
+    PrintKeyboardKeys(sNamingScreen->windows[WIN_KB_PAGE_1], CurrentPageToKeyboardId());
     DrawTextEntry();
     DrawTextEntryBox();
     PrintControls();
+    DrawPinyin();
     CopyBgTilemapBufferToVram(1);
     CopyBgTilemapBufferToVram(2);
     CopyBgTilemapBufferToVram(3);
@@ -700,6 +776,8 @@ static bool8 MainState_Exit(void)
         else
             SetMainCallback2(sNamingScreen->returnCallback);
         DestroyTask(FindTaskIdByFunc(Task_NamingScreen));
+        SetVBlankCallback(NULL);
+        gKeyRepeatStartDelay = sNamingScreen->keyRepeatStartDelayCopy;
         FreeAllWindowBuffers();
         FREE_AND_SET_NULL(sNamingScreen);
     }
@@ -744,6 +822,11 @@ static bool8 MainState_WaitSentToPCMessage(void)
 
 static bool8 MainState_StartPageSwap(void)
 {
+    if (sNamingScreen->choosingCandidates)
+        LeaveCandidates();
+    sNamingScreen->pinyinLength = 0;
+    sNamingScreen->pinyin[0] = EOS;
+    sNamingScreen->candidateCount = 0;
     SetInputState(INPUT_STATE_DISABLED);
     StartPageSwapButtonAnim();
     StartPageSwapAnim();
@@ -782,6 +865,9 @@ static bool8 MainState_WaitPageSwap(void)
 
         SetCursorPos(cursorX, cursorY);
         DrawKeyboardPageOnDeck();
+        DrawTextEntryBox();
+        DrawPinyin();
+        PrintControls();
         SetInputState(INPUT_STATE_ENABLED);
         SetCursorInvisibility(FALSE);
     }
@@ -1019,7 +1105,7 @@ static void StartButtonFlash(struct Task *task, u8 button, bool8 keepFlashing)
 
 static void SpriteCB_Cursor(struct Sprite *sprite)
 {
-    if (sprite->animEnded)
+    if (sprite->animEnded && !sNamingScreen->choosingCandidates)
         StartSpriteAnim(sprite, 0);
 
     // Hide cursor when on button column
@@ -1129,13 +1215,30 @@ static void CreateCursorSprite(void)
 static void SetCursorPos(s16 x, s16 y)
 {
     struct Sprite *cursorSprite = &gSprites[sNamingScreen->cursorSpriteId];
+    bool8 candidate = sNamingScreen->choosingCandidates && x < CANDIDATE_COLUMNS && y < CANDIDATE_ROWS;
 
-    if (x < sPageColumnCounts[CurrentPageToKeyboardId()])
+    cursorSprite->oam.shape = candidate ? SPRITE_SHAPE(32x32) : SPRITE_SHAPE(16x16);
+    cursorSprite->oam.size = candidate ? SPRITE_SIZE(32x32) : SPRITE_SIZE(16x16);
+    CalcCenterToCornerVec(cursorSprite, cursorSprite->oam.shape, cursorSprite->oam.size, cursorSprite->oam.affineMode);
+    cursorSprite->sheetTileStart = GetSpriteTileStartByTag(candidate ? GFXTAG_CURSOR_CANDIDATES : GFXTAG_CURSOR);
+    cursorSprite->animPaused = candidate;
+    cursorSprite->oam.tileNum = cursorSprite->sheetTileStart;
+
+    if (sNamingScreen->choosingCandidates && x < CANDIDATE_COLUMNS)
+    {
+        cursorSprite->x = y == CANDIDATE_ROWS ? (x < 3 ? 49 : 151) : 40 + x * 24;
+        cursorSprite->y = y == CANDIDATE_ROWS ? 138 : 89 + y * 18;
+    }
+    else if (x < sPageColumnCounts[CurrentPageToKeyboardId()])
+    {
         cursorSprite->x = sPageColumnXPos[CurrentPageToKeyboardId()][x] + 38;
+        cursorSprite->y = y * 16 + 88;
+    }
     else
+    {
         cursorSprite->x = 0;
-
-    cursorSprite->y = y * 16 + 88;
+        cursorSprite->y = y * 16 + 88;
+    }
     cursorSprite->sPrevX = cursorSprite->sX;
     cursorSprite->sPrevY = cursorSprite->sY;
     cursorSprite->sX = x;
@@ -1195,6 +1298,8 @@ static u8 GetKeyRoleAtCursorPos(void)
 // If the cursor's x is equal to the column count, cursor is in the button column
 static u8 GetCurrentPageColumnCount(void)
 {
+    if (sNamingScreen->choosingCandidates)
+        return CANDIDATE_COLUMNS;
     return sPageColumnCounts[CurrentPageToKeyboardId()];
 }
 
@@ -1309,13 +1414,15 @@ static bool8 PageSwapSprite_SlideOn(struct Sprite *sprite)
 static const u16 sPageSwapPalTags[] = {
     [PAGE_SWAP_UPPER]  = PALTAG_PAGE_SWAP_UPPER,
     [PAGE_SWAP_OTHERS] = PALTAG_PAGE_SWAP_OTHERS,
-    [PAGE_SWAP_LOWER]  = PALTAG_PAGE_SWAP_LOWER
+    [PAGE_SWAP_LOWER]  = PALTAG_PAGE_SWAP_LOWER,
+    [PAGE_SWAP_PINYIN] = PALTAG_PAGE_SWAP_OTHERS
 };
 
 static const u16 sPageSwapGfxTags[] = {
     [PAGE_SWAP_UPPER]  = GFXTAG_PAGE_SWAP_UPPER,
     [PAGE_SWAP_OTHERS] = GFXTAG_PAGE_SWAP_OTHERS,
-    [PAGE_SWAP_LOWER]  = GFXTAG_PAGE_SWAP_LOWER
+    [PAGE_SWAP_LOWER]  = GFXTAG_PAGE_SWAP_LOWER,
+    [PAGE_SWAP_PINYIN] = GFXTAG_PAGE_SWAP_PINYIN
 };
 
 static void SetPageSwapButtonGfx(u8 page, struct Sprite *text, struct Sprite *button)
@@ -1453,6 +1560,143 @@ static void NamingScreen_CreateSilverIcon(void)
 // Keyboard handling
 //--------------------------------------------------
 
+static bool8 IsPinyinPage(void)
+{
+    return sNamingScreen->currentPage == KBPAGE_PINYIN;
+}
+
+static u8 CurrentKeyboardWindow(void)
+{
+    return sNamingScreen->windows[sNamingScreen->bg1Priority < sNamingScreen->bg2Priority ? WIN_KB_PAGE_1 : WIN_KB_PAGE_2];
+}
+
+static void DrawPinyin(void)
+{
+    u8 window = sNamingScreen->windows[WIN_PINYIN];
+    const u8 colors[] = {1, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_LIGHT_GRAY};
+    FillWindowPixelBuffer(window, PIXEL_FILL(1));
+    if (IsPinyinPage())
+    {
+        AddTextPrinterParameterized3(window, FONT_SMALL, 0, 1, colors, TEXT_SKIP_DRAW, COMPOUND_STRING("拼音"));
+        AddTextPrinterParameterized3(window, FONT_SMALL, 24, 1, colors, TEXT_SKIP_DRAW, sNamingScreen->pinyin);
+        PutWindowTilemap(window);
+    }
+    else
+        ClearWindowTilemap(window);
+    CopyWindowToVram(window, COPYWIN_FULL);
+}
+
+static void DrawCandidates(void)
+{
+    u8 window = CurrentKeyboardWindow();
+    u16 start = sNamingScreen->candidatePage * CANDIDATES_PER_PAGE;
+    u8 i;
+    u8 pageText[8];
+    u8 *end;
+    const u8 colors[] = {TEXT_DYNAMIC_COLOR_5, TEXT_COLOR_WHITE, TEXT_COLOR_DARK_GRAY};
+
+    FillWindowPixelBuffer(window, PIXEL_FILL(14));
+    for (i = 0; i < CANDIDATES_PER_PAGE && start + i < sNamingScreen->candidateCount; i++)
+    {
+        u16 code = sNamingCandidates[sNamingScreen->candidateOffset + start + i];
+        u8 text[] = {code >> 8, code & 255, EOS};
+        AddTextPrinterParameterized3(window, FONT_NORMAL, 10 + (i % CANDIDATE_COLUMNS) * 24,
+                                    1 + (i / CANDIDATE_COLUMNS) * 18, colors, TEXT_SKIP_DRAW, text);
+    }
+    AddTextPrinterParameterized3(window, FONT_SMALL, 5, 51, colors, TEXT_SKIP_DRAW, COMPOUND_STRING("{L_BUTTON}上页"));
+    AddTextPrinterParameterized3(window, FONT_SMALL, 108, 51, colors, TEXT_SKIP_DRAW, COMPOUND_STRING("{R_BUTTON}下页"));
+    end = ConvertIntToDecimalStringN(pageText, sNamingScreen->candidatePage + 1, STR_CONV_MODE_LEFT_ALIGN, 1);
+    *end++ = CHAR_SLASH;
+    ConvertIntToDecimalStringN(end, (sNamingScreen->candidateCount + CANDIDATES_PER_PAGE - 1) / CANDIDATES_PER_PAGE,
+                               STR_CONV_MODE_LEFT_ALIGN, 1);
+    AddTextPrinterParameterized3(window, FONT_SMALL, 72, 51, colors, TEXT_SKIP_DRAW, pageText);
+    PutWindowTilemap(window);
+    CopyWindowToVram(window, COPYWIN_FULL);
+}
+
+static void UpdatePinyin(void)
+{
+    u16 i;
+    sNamingScreen->candidatePage = 0;
+    sNamingScreen->candidateCount = 0;
+    sNamingScreen->candidateOffset = 0;
+    if (sNamingScreen->pinyinLength)
+    {
+        for (i = 0; i < ARRAY_COUNT(sNamingPinyin); i++)
+        {
+            if (memcmp(sNamingScreen->pinyin, sNamingPinyin[i].keys, sNamingScreen->pinyinLength) == 0)
+            {
+                sNamingScreen->candidateOffset = sNamingPinyin[i].offset;
+                sNamingScreen->candidateCount = sNamingPinyin[i].count;
+                break;
+            }
+        }
+    }
+    DrawPinyin();
+    if (sNamingScreen->choosingCandidates)
+        DrawCandidates();
+}
+
+static void EnterCandidates(void)
+{
+    if (!sNamingScreen->candidateCount)
+        return;
+    if (!sNamingScreen->choosingCandidates)
+    {
+        GetCursorPos(&sNamingScreen->letterX, &sNamingScreen->letterY);
+        if (sNamingScreen->letterX >= KBCOL_COUNT)
+            sNamingScreen->letterX = 0;
+        sNamingScreen->choosingCandidates = TRUE;
+    }
+    SetCursorPos(0, 0);
+    DrawCandidates();
+    PrintControls();
+}
+
+static void LeaveCandidates(void)
+{
+    sNamingScreen->choosingCandidates = FALSE;
+    PrintKeyboardKeys(CurrentKeyboardWindow(), KEYBOARD_PINYIN);
+    SetCursorPos(sNamingScreen->letterX, sNamingScreen->letterY);
+    PrintControls();
+}
+
+static void TurnCandidatePage(s8 direction)
+{
+    s16 next = sNamingScreen->candidatePage + direction;
+    if (next < 0 || next * CANDIDATES_PER_PAGE >= sNamingScreen->candidateCount)
+        return;
+    sNamingScreen->candidatePage = next;
+    if (sNamingScreen->choosingCandidates)
+    {
+        s16 x, y;
+        GetCursorPos(&x, &y);
+        if (y < CANDIDATE_ROWS)
+            SetCursorPos(0, 0);
+        DrawCandidates();
+    }
+    PlaySE(SE_SELECT);
+}
+
+static bool8 AppendNamingCharacter(u16 code)
+{
+    u8 pos = GetTextEntryPosition();
+    u8 size = code > 255 ? 2 : 1;
+    if (size > sNamingScreen->template->maxChars - pos)
+    {
+        PlaySE(SE_BOO);
+        return FALSE;
+    }
+    if (size == 2)
+        sNamingScreen->textBuffer[pos++] = code >> 8;
+    sNamingScreen->textBuffer[pos++] = code & 255;
+    sNamingScreen->textBuffer[pos] = EOS;
+    DrawTextEntry();
+    CopyBgTilemapBufferToVram(3);
+    PlaySE(SE_SELECT);
+    return TRUE;
+}
+
 static bool8 KeyboardKeyHandler_Character(u8);
 static void SwapKeyboardToLowerAfterFirstCapitalLetter(void);
 static bool8 KeyboardKeyHandler_Page(u8);
@@ -1478,12 +1722,20 @@ static bool8 HandleKeyboardEvent(void)
     }
     else if (input == INPUT_B_BUTTON)
     {
+        if (sNamingScreen->choosingCandidates)
+        {
+            LeaveCandidates();
+            return FALSE;
+        }
         DeleteTextCharacter();
         return FALSE;
     }
     else if (input == INPUT_START)
     {
-        MoveCursorToOKButton();
+        if (IsPinyinPage() && sNamingScreen->pinyinLength)
+            EnterCandidates();
+        else
+            MoveCursorToOKButton();
         return FALSE;
     }
     else
@@ -1497,6 +1749,43 @@ static bool8 KeyboardKeyHandler_Character(u8 input)
     TryStartButtonFlash(BUTTON_COUNT, FALSE, FALSE);
     if (input == INPUT_A_BUTTON)
     {
+        if (IsPinyinPage())
+        {
+            s16 x, y;
+            GetCursorPos(&x, &y);
+            if (sNamingScreen->choosingCandidates)
+            {
+                u16 index;
+                if (y == CANDIDATE_ROWS)
+                {
+                    TurnCandidatePage(x < 3 ? -1 : 1);
+                    return FALSE;
+                }
+                index = sNamingScreen->candidatePage * CANDIDATES_PER_PAGE + y * CANDIDATE_COLUMNS + x;
+                if (index < sNamingScreen->candidateCount
+                 && AppendNamingCharacter(sNamingCandidates[sNamingScreen->candidateOffset + index]))
+                {
+                    sNamingScreen->pinyinLength = 0;
+                    sNamingScreen->pinyin[0] = EOS;
+                    LeaveCandidates();
+                    UpdatePinyin();
+                    if (GetTextEntryPosition() == sNamingScreen->template->maxChars)
+                        MoveCursorToOKButton();
+                }
+            }
+            else
+            {
+                u8 ch = GetCharAtKeyboardPos(x, y);
+                if (ch >= CHAR_a && ch <= CHAR_z && sNamingScreen->pinyinLength < PINYIN_MAX_LENGTH)
+                {
+                    sNamingScreen->pinyin[sNamingScreen->pinyinLength++] = ch;
+                    sNamingScreen->pinyin[sNamingScreen->pinyinLength] = EOS;
+                    UpdatePinyin();
+                    PlaySE(SE_SELECT);
+                }
+            }
+            return FALSE;
+        }
         bool8 textFull = AddTextCharacter();
 
         SwapKeyboardToLowerAfterFirstCapitalLetter();
@@ -1547,6 +1836,11 @@ static bool8 KeyboardKeyHandler_OK(u8 input)
     TryStartButtonFlash(BUTTON_OK, TRUE, FALSE);
     if (input == INPUT_A_BUTTON)
     {
+        if (IsPinyinPage() && sNamingScreen->pinyinLength)
+        {
+            EnterCandidates();
+            return FALSE;
+        }
         PlaySE(SE_SELECT);
         sNamingScreen->state = STATE_PRESSED_OK;
         return TRUE;
@@ -1615,7 +1909,27 @@ static void Input_Disabled(struct Task *task)
 
 static void Input_Enabled(struct Task *task)
 {
+    s16 cursorX, cursorY;
     task->tKeyboardEvent = INPUT_NONE;
+    GetCursorPos(&cursorX, &cursorY);
+
+    if (IsPinyinPage() && JOY_NEW(L_BUTTON))
+    {
+        TurnCandidatePage(-1);
+        return;
+    }
+    if (IsPinyinPage() && JOY_NEW(R_BUTTON))
+    {
+        TurnCandidatePage(1);
+        return;
+    }
+    if (IsPinyinPage() && !sNamingScreen->choosingCandidates
+     && cursorX < KBCOL_COUNT && cursorY == 0 && JOY_NEW(DPAD_UP)
+     && sNamingScreen->candidateCount)
+    {
+        EnterCandidates();
+        return;
+    }
 
     if (JOY_NEW(A_BUTTON))
         task->tKeyboardEvent = INPUT_A_BUTTON;
@@ -1728,6 +2042,15 @@ static void HandleDpadMovement(struct Task *task)
             cursorY = KBROW_COUNT - 1;
         if (cursorY > KBROW_COUNT - 1)
             cursorY = 0;
+        if (sNamingScreen->choosingCandidates && cursorY == CANDIDATE_ROWS)
+        {
+            if (input == INPUT_DPAD_RIGHT && prevCursorX == 0)
+                cursorX = CANDIDATE_COLUMNS - 1;
+            else if (input == INPUT_DPAD_LEFT && prevCursorX == CANDIDATE_COLUMNS - 1)
+                cursorX = 0;
+            else
+                cursorX = cursorX < 3 ? 0 : CANDIDATE_COLUMNS - 1;
+        }
     }
     SetCursorPos(cursorX, cursorY);
 }
@@ -1739,7 +2062,7 @@ static void HandleDpadMovement(struct Task *task)
 static void DrawNormalTextEntryBox(void)
 {
     FillWindowPixelBuffer(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], PIXEL_FILL(1));
-    AddTextPrinterParameterized(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], FONT_NORMAL, sNamingScreen->template->title, 8, 1, 0, 0);
+    DrawNamingTitle(sNamingScreen->template->title);
     PutWindowTilemap(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX]);
 }
 
@@ -1747,11 +2070,19 @@ static void DrawMonTextEntryBox(void)
 {
     u8 buffer[64];
 
-    u8 *end = StringCopy(buffer, GetSpeciesName(sNamingScreen->monSpecies));
-    WrapFontIdToFit(buffer, end, FONT_NORMAL, 128 - 64);
-    StringAppendN(end, sNamingScreen->template->title, 15);
+    if (IsPinyinPage())
+    {
+        StringCopy(gStringVar1, GetSpeciesName(sNamingScreen->monSpecies));
+        StringExpandPlaceholders(buffer, sNamingScreen->template->title);
+    }
+    else
+    {
+        u8 *end = StringCopy(buffer, GetSpeciesName(sNamingScreen->monSpecies));
+        WrapFontIdToFit(buffer, end, FONT_NORMAL, 128 - 64);
+        StringAppendN(end, sNamingScreen->template->title, 15);
+    }
     FillWindowPixelBuffer(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], PIXEL_FILL(1));
-    AddTextPrinterParameterized(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], FONT_NORMAL, buffer, 8, 1, 0, 0);
+    DrawNamingTitle(buffer);
     PutWindowTilemap(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX]);
 }
 
@@ -1779,6 +2110,37 @@ void NameRival(void)
 static void DrawTextEntryBox(void)
 {
     sDrawTextEntryBoxFuncs[sNamingScreen->templateNum]();
+    CopyWindowToVram(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], COPYWIN_FULL);
+}
+
+static void DrawNamingTitle(const u8 *title)
+{
+    u8 buffer[80];
+    u8 font = IsPinyinPage() ? FONT_SMALL : FONT_NORMAL;
+    if (IsPinyinPage() && GetStringWidth(font, title, 0) > 72)
+    {
+        u8 length = 0;
+        u8 last = 0;
+        while (title[length] != EOS && length + 3 < sizeof(buffer))
+        {
+            u8 size = (title[length] == CHAR_EXTRA_SYMBOL
+                     || IsChineseChar(title[length], title[length + 1], font, FALSE)) ? 2 : 1;
+            memcpy(buffer + length, title + length, size);
+            last = length;
+            length += size;
+            buffer[length] = CHAR_ELLIPSIS;
+            buffer[length + 1] = EOS;
+            if (GetStringWidth(font, buffer, 0) > 72)
+            {
+                length = last;
+                break;
+            }
+        }
+        buffer[length] = CHAR_ELLIPSIS;
+        buffer[length + 1] = EOS;
+        title = buffer;
+    }
+    AddTextPrinterParameterized(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], font, title, 8, 1, TEXT_SKIP_DRAW, NULL);
 }
 
 static void DummyGenderIcon(void);
@@ -1838,19 +2200,25 @@ static u8 GetTextEntryPosition(void)
         if (sNamingScreen->textBuffer[i] == EOS)
             return i;
     }
-    return sNamingScreen->template->maxChars - 1;
+    return i;
 }
 
 static u8 GetPreviousTextCaretPosition(void)
 {
-    s8 i;
+    u8 i = 0;
+    u8 previous = 0;
+    u8 limit = sNamingScreen->template->maxChars;
 
-    for (i = sNamingScreen->template->maxChars - 1; i > 0; i--)
+    while (i < limit && sNamingScreen->textBuffer[i] != EOS)
     {
-        if (sNamingScreen->textBuffer[i] != EOS)
-            return i;
+        previous = i;
+        if (i + 1 < limit && (sNamingScreen->textBuffer[i] == CHAR_EXTRA_SYMBOL
+            || IsChineseChar(sNamingScreen->textBuffer[i], sNamingScreen->textBuffer[i + 1], FONT_NORMAL, FALSE)))
+            i += 2;
+        else
+            i++;
     }
-    return 0;
+    return previous;
 }
 
 static void DeleteTextCharacter(void)
@@ -1858,8 +2226,17 @@ static void DeleteTextCharacter(void)
     u8 index;
     u8 keyRole;
 
+    if (IsPinyinPage() && sNamingScreen->pinyinLength)
+    {
+        sNamingScreen->pinyin[--sNamingScreen->pinyinLength] = EOS;
+        if (sNamingScreen->choosingCandidates)
+            LeaveCandidates();
+        UpdatePinyin();
+        PlaySE(SE_BALL);
+        return;
+    }
     index = GetPreviousTextCaretPosition();
-    sNamingScreen->textBuffer[index] = 0;
+    memset(&sNamingScreen->textBuffer[index], EOS, sizeof(sNamingScreen->textBuffer) - index);
     DrawTextEntry();
     CopyBgTilemapBufferToVram(3);
     sNamingScreen->textBuffer[index] = EOS;
@@ -1879,21 +2256,8 @@ static bool8 AddTextCharacter(void)
     s16 y;
 
     GetCursorPos(&x, &y);
-    BufferCharacter(GetCharAtKeyboardPos(x, y));
-    DrawTextEntry();
-    CopyBgTilemapBufferToVram(3);
-    PlaySE(SE_SELECT);
-
-    if (GetPreviousTextCaretPosition() != sNamingScreen->template->maxChars - 1)
-        return FALSE;
-    else
-        return TRUE;
-}
-
-static void BufferCharacter(u8 ch)
-{
-    u8 index = GetTextEntryPosition();
-    sNamingScreen->textBuffer[index] = ch;
+    AppendNamingCharacter(GetCharAtKeyboardPos(x, y));
+    return GetTextEntryPosition() == sNamingScreen->template->maxChars;
 }
 
 static void SaveInputText(void)
@@ -1904,7 +2268,7 @@ static void SaveInputText(void)
     {
         if (sNamingScreen->textBuffer[i] != CHAR_SPACE && sNamingScreen->textBuffer[i] != EOS)
         {
-            StringCopyN(sNamingScreen->destBuffer, sNamingScreen->textBuffer, sNamingScreen->template->maxChars + 1);
+            memcpy(sNamingScreen->destBuffer, sNamingScreen->textBuffer, GetTextEntryPosition() + 1);
             break;
         }
     }
@@ -1946,7 +2310,7 @@ static void NamingScreen_Dummy(u8 bg, u8 page)
 static void DrawTextEntry(void)
 {
     u8 i;
-    u8 temp[2];
+    u8 temp[3];
     u16 extraWidth;
     u8 maxChars = sNamingScreen->template->maxChars;
     u16 x = sNamingScreen->inputCharBaseXPos - 0x40;
@@ -1957,9 +2321,16 @@ static void DrawTextEntry(void)
     {
         temp[0] = sNamingScreen->textBuffer[i];
         temp[1] = gText_ExpandedPlaceholder_Empty[0];
+        temp[2] = EOS;
+        if (i + 1 < maxChars && (temp[0] == CHAR_EXTRA_SYMBOL
+            || IsChineseChar(temp[0], sNamingScreen->textBuffer[i + 1], FONT_NORMAL, FALSE)))
+            temp[1] = sNamingScreen->textBuffer[i + 1];
         extraWidth = (IsWideLetter(temp[0]) == TRUE) ? 2 : 0;
 
-        AddTextPrinterParameterized(sNamingScreen->windows[WIN_TEXT_ENTRY], FONT_NORMAL, temp, i * 8 + x + extraWidth, 1, TEXT_SKIP_DRAW, NULL);
+        AddTextPrinterParameterized(sNamingScreen->windows[WIN_TEXT_ENTRY], FONT_NORMAL, temp, i * 8 + x + extraWidth,
+                                    IsChineseChar(temp[0], temp[1], FONT_NORMAL, FALSE) ? 0 : 1, TEXT_SKIP_DRAW, NULL);
+        if (temp[1] != EOS)
+            i++;
     }
 
     TryDrawGenderIcon();
@@ -1992,6 +2363,9 @@ static void PrintKeyboardKeys(u8 window, u8 page)
 {
     u8 i;
 
+    if (page == KEYBOARD_PINYIN)
+        page = KEYBOARD_LETTERS_LOWER;
+
     FillWindowPixelBuffer(window, sFillValues[page]);
 
     for (i = 0; i < KBROW_COUNT; i++)
@@ -2000,12 +2374,14 @@ static void PrintKeyboardKeys(u8 window, u8 page)
     PutWindowTilemap(window);
 }
 
-static const u32 *const sNextKeyboardPageTilemaps[] =
+static const u32 *GetKeyboardTilemap(u8 keyboard)
 {
-    [KBPAGE_SYMBOLS] = gNamingScreenKeyboardUpper_Tilemap,
-    [KBPAGE_LETTERS_UPPER] = gNamingScreenKeyboardLower_Tilemap, // lower
-    [KBPAGE_LETTERS_LOWER] = gNamingScreenKeyboardSymbols_Tilemap  // symbols
-};
+    if (keyboard == KEYBOARD_SYMBOLS)
+        return gNamingScreenKeyboardSymbols_Tilemap;
+    if (keyboard == KEYBOARD_LETTERS_UPPER)
+        return gNamingScreenKeyboardUpper_Tilemap;
+    return gNamingScreenKeyboardLower_Tilemap;
+}
 
 // There are always 2 keyboard pages drawn, the current page and the one that will shown next if the player swaps
 // When the page swap is complete this function invisibly replaces the old page with the new next one
@@ -2030,7 +2406,7 @@ static void DrawKeyboardPageOnDeck(void)
         windowId = sNamingScreen->windows[WIN_KB_PAGE_2];
     }
 
-    DrawBgTilemap(bg, sNextKeyboardPageTilemaps[sNamingScreen->currentPage]);
+    DrawBgTilemap(bg, GetKeyboardTilemap(CurrentPageToNextKeyboardId()));
     PrintKeyboardKeys(windowId, CurrentPageToNextKeyboardId());
     NamingScreen_Dummy(bg, CurrentPageToNextKeyboardId());
     CopyBgTilemapBufferToVram(bg_);
@@ -2041,7 +2417,12 @@ static void PrintControls(void)
     const u8 color[3] = { TEXT_DYNAMIC_COLOR_6, TEXT_COLOR_WHITE, TEXT_COLOR_DARK_GRAY };
 
     FillWindowPixelBuffer(sNamingScreen->windows[WIN_BANNER], PIXEL_FILL(15));
-    AddTextPrinterParameterized3(sNamingScreen->windows[WIN_BANNER], FONT_SMALL, 2, 1, color, 0, sText_MoveOkBack);
+    const u8 *controls = sText_MoveOkBack;
+    if (IsPinyinPage())
+        controls = sNamingScreen->choosingCandidates
+            ? sText_CandidateControls
+            : sText_PinyinControls;
+    AddTextPrinterParameterized3(sNamingScreen->windows[WIN_BANNER], FONT_SMALL, 2, 1, color, 0, controls);
     PutWindowTilemap(sNamingScreen->windows[WIN_BANNER]);
     CopyWindowToVram(sNamingScreen->windows[WIN_BANNER], COPYWIN_FULL);
 }
@@ -2049,6 +2430,8 @@ static void PrintControls(void)
 static void CB2_NamingScreen(void)
 {
     RunTasks();
+    if (sNamingScreen == NULL)
+        return;
     AnimateSprites();
     BuildOamBuffer();
     UpdatePaletteFade();
@@ -2124,16 +2507,16 @@ static void UNUSED Debug_NamingScreenNickname(void)
 // Forward-declared variables
 //--------------------------------------------------
 
-// Initial pages below are pointless, they're overwritten with KBPAGE_LETTERS_UPPER in MainState_FadeIn()
+// Select the initial keyboard for each naming entry point.
 static const struct NamingScreenTemplate sPlayerNamingScreenTemplate =
 {
     .copyExistingString = FALSE,
     .maxChars = PLAYER_NAME_LENGTH,
     .iconFunction = 1,
     .addGenderIcon = FALSE,
-    .initialPage = KBPAGE_LETTERS_UPPER,
+    .initialPage = KBPAGE_PINYIN,
     .unused = 35,
-    .title = COMPOUND_STRING("Your name?"),
+    .title = COMPOUND_STRING("你的名字？"),
 };
 
 static const struct NamingScreenTemplate sPCBoxNamingTemplate =
@@ -2142,9 +2525,9 @@ static const struct NamingScreenTemplate sPCBoxNamingTemplate =
     .maxChars = BOX_NAME_LENGTH,
     .iconFunction = 2,
     .addGenderIcon = FALSE,
-    .initialPage = KBPAGE_LETTERS_UPPER,
+    .initialPage = KBPAGE_PINYIN,
     .unused = 19,
-    .title = COMPOUND_STRING("Box name?"),
+    .title = COMPOUND_STRING("盒子的名字？"),
 };
 
 static const struct NamingScreenTemplate sMonNamingScreenTemplate =
@@ -2153,9 +2536,9 @@ static const struct NamingScreenTemplate sMonNamingScreenTemplate =
     .maxChars = POKEMON_NAME_LENGTH,
     .iconFunction = 3,
     .addGenderIcon = TRUE,
-    .initialPage = KBPAGE_LETTERS_UPPER,
+    .initialPage = KBPAGE_PINYIN,
     .unused = 35,
-    .title = COMPOUND_STRING("{STR_VAR_1}'s nickname?"),
+    .title = COMPOUND_STRING("{STR_VAR_1}的昵称？"),
 };
 
 static const struct NamingScreenTemplate sWaldaWordsScreenTemplate =
@@ -2166,7 +2549,7 @@ static const struct NamingScreenTemplate sWaldaWordsScreenTemplate =
     .addGenderIcon = FALSE,
     .initialPage = KBPAGE_LETTERS_UPPER,
     .unused = 11,
-    .title = COMPOUND_STRING("Tell him the words."),
+    .title = COMPOUND_STRING("告诉他特定的短语。"),
 };
 
 static const struct NamingScreenTemplate sCodeScreenTemplate =
@@ -2177,17 +2560,17 @@ static const struct NamingScreenTemplate sCodeScreenTemplate =
     .addGenderIcon = FALSE,
     .initialPage = KBPAGE_LETTERS_UPPER,
     .unused = 35,
-    .title = COMPOUND_STRING("Enter code:"),
+    .title = COMPOUND_STRING("请输入代码："),
 };
 
-static const u8 sText_RivalsName[] = _("Rival's Name?");
+static const u8 sText_RivalsName[] = _("劲敌的名字？");
 static const struct NamingScreenTemplate sRivalNamingScreenTemplate =
 {
     .copyExistingString = FALSE,
     .maxChars = PLAYER_NAME_LENGTH,
     .iconFunction = 6,
     .addGenderIcon = FALSE,
-    .initialPage = KBPAGE_LETTERS_UPPER,
+    .initialPage = KBPAGE_PINYIN,
     .unused = 35,
     .title = sText_RivalsName,
 };
@@ -2343,6 +2726,18 @@ static const struct Subsprite sSubsprites_PageSwapText[] =
     }
 };
 
+static const struct Subsprite sSubsprites_PinyinText[] =
+{
+    {
+        .x = -16,
+        .y = -8,
+        .shape = SPRITE_SHAPE(32x16),
+        .size = SPRITE_SIZE(32x16),
+        .tileOffset = 0,
+        .priority = 1
+    }
+};
+
 /*
 [0_____][] <-1   40x24
 [2_____][] <-3
@@ -2442,7 +2837,8 @@ static const struct SubspriteTable sSubspriteTable_PageSwapText[] =
 {
     {ARRAY_COUNT(sSubsprites_PageSwapText), sSubsprites_PageSwapText},
     {ARRAY_COUNT(sSubsprites_PageSwapText), sSubsprites_PageSwapText},
-    {ARRAY_COUNT(sSubsprites_PageSwapText), sSubsprites_PageSwapText}
+    {ARRAY_COUNT(sSubsprites_PageSwapText), sSubsprites_PageSwapText},
+    {ARRAY_COUNT(sSubsprites_PinyinText), sSubsprites_PinyinText}
 };
 
 static const struct SubspriteTable sSubspriteTable_Button[] =
@@ -2613,6 +3009,8 @@ static const struct SpriteSheet sSpriteSheets[] =
     {gNamingScreenCursorFilled_Gfx,   0x080,  GFXTAG_CURSOR_FILLED},
     {gNamingScreenInputArrow_Gfx,     0x020,  GFXTAG_INPUT_ARROW},
     {gNamingScreenUnderscore_Gfx,     0x020,  GFXTAG_UNDERSCORE},
+    {sPinyinLabel_Gfx, sizeof(sPinyinLabel_Gfx), GFXTAG_PAGE_SWAP_PINYIN},
+    {sCandidateCursor_Gfx, sizeof(sCandidateCursor_Gfx), GFXTAG_CURSOR_CANDIDATES},
     {}
 };
 

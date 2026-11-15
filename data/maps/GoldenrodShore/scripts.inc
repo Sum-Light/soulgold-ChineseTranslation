@@ -136,49 +136,31 @@ MareaniesGoldenrodShore::
 
 
 GoldenrodShore_Expert_Text_0:
-	.string "Guess I'm free to go home now\n"
-	.string "that I no longer have to maintain\l"
-	.string "this route expert title.$"
+	.string "既然不用再守着\n这个道路名人头衔了，\l我想我总算能回家了。$"
 
 GoldenrodShore_Expert_Text_1:
-	.string "Hi! I'm the route expert of local area!\p"
-	.string "If you can beat every trainer on routes\n"
-	.string "34, 35 and 36. Come have a battle with\l"
-	.string "me.$"
+	.string "嗨！我是这一带的道路名人！\p如果你能把34号、35号\n和36号道路上的训练家全部打败，\l就来和我一较高下吧。$"
 
 GoldenrodShore_Expert_Text_2:
-	.string "I've heard the words of your victories!\p"
-	.string "Let's have a battle then, I'll show\n"
-	.string "you a new type of strategy!$"
+	.string "你获胜的消息，我已经听说了！\p那就来比一场吧，我让你见识\n一种全新的战术！$"
 
 GoldenrodShore_Expert_Text_3:
-	.string "Outsmarted!$"
+	.string "被你看穿了！$"
 
 GoldenrodShore_Expert_Text_4:
-	.string "Even against my unrelenting tide\n"
-	.string "of attacks, you prevailed. \p"
-	.string "Please, have this item to boost \n"
-	.string "your odds of keeping up the \l"
-	.string "winning streak.$"
+	.string "面对我这如潮水般连绵不绝的攻势，\n你竟然还是赢了。\p请收下这个，它能让你\n更容易保持\l连胜的势头。$"
 
 GoldenrodShore_Expert_Text_5:
-	.string "Loaded Dice boosts the minimum hit \n"
-	.string "count of multi-hit moves, you should \l"
-	.string "try it with moves like Bullet Seed!$"
+	.string "机变骰子能提高连续招式的\n最低攻击次数，\l你可以配合种子机关枪这类招式！$"
 
 GoldenrodShore_Sign_Text_0:
-	.string "Goldenrod Shore, no littering!$"
+	.string "满金海岸，请勿乱扔垃圾！$"
 
 GoldenrodShore_Engineer_Text_0:
-	.string "Alright, time to start digging a path \n"
-	.string "here. The Pokéathlon construction\l"
-	.string "starts here!$"
+	.string "好，就在这儿开始挖一条路吧。\n宝可梦全能竞技赛的工程\l就从这里动工！$"
 
 GoldenrodShore_HiddenGrotto_Text_0:
-	.string "There seems to be a path behind the\n"
-	.string "trees. Enter?$"
+	.string "树后好像有条小路。\n要进去吗？$"
 
 MareaniesGoldenrodShore_Text_0:
-	.string "Mareanies seem to be blocking the way.\p"
-	.string "Perhaps there is another way to\n"
-	.string "the Olivine City?$"
+	.string "好坏星群似乎挡住了去路。\p也许还有别的路能\n通往浅葱市？$"

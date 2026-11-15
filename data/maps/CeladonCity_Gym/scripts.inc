@@ -29,56 +29,56 @@ CeladonCity_Gym_EventScript_Erika_Defeated::
 	end
 
 CeladonCity_Gym_Text_ErikaBeforeBattle:
-	.string "Erika: Hello… Lovely weather,\n"
-	.string "isn't it? It's so pleasant…\p"
-	.string "…I'm afraid I may doze off…\p"
-	.string "My name is Erika. I am the Leader\n"
-	.string "of Celadon Gym.\p"
-	.string "…Oh? All the way from Johto, you\n"
-	.string "say? How nice…\p"
-	.string "Oh. I'm sorry, I didn't realize\n"
-	.string "that you wished to challenge me.\p"
-	.string "Very well, but I shall not lose.$"
+	.string "莉佳：你好……天气真好，\n不是吗？真让人舒服……\p……我恐怕要打瞌睡了……\p我叫莉佳，是玉虹道馆的\n馆主。\p……哦？你是从城都\n远道而来的？真好啊……\p啊，抱歉，我刚才没注意到\n你是来挑战我的。\p好吧，不过我是不会输的。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CeladonCity_Gym_Text_ErikaBeaten:
-	.string "Erika: Oh! I concede defeat…\p"
-	.string "You are remarkably strong…\p"
-	.string "I shall give you Rainbowbadge…$"
+	.string "莉佳：哦！我认输了……\p你真是强得惊人……\p这枚彩虹徽章\n就交给你吧……$"
+	.string ""
+	.string ""
 
 CeladonCity_Gym_Text_PlayerReceivedRainbowBadge:
-	.string "{PLAYER} received Rainbowbadge.$"
+	.string "{PLAYER}得到了彩虹徽章。$"
 
 CeladonCity_Gym_Text_ErikaExplainTM:
-	.string "Erika: That was a delightful\n"
-	.string "match.\p"
-	.string "I felt inspired. Please, I wish\n"
-	.string "you to have this TM.\p"
-	.string "It is Giga Drain.\p"
-	.string "It is a wonderful move that\n"
-	.string "drains half the damage it inflicts\l"
-	.string "to heal your Pokémon.\p"
-	.string "Please use it if it pleases you…$"
+	.string "莉佳：刚才真是场\n愉快的对战。\p我很受触动。这枚招式学习器\n请你收下。\p里面是终极吸取。\p这是个很棒的招式，能把造成\n伤害的一半\l吸收来治疗宝可梦。\p如果你喜欢，就用用看吧……$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CeladonCity_Gym_Text_ErikaAfterBattle:
-	.string "Erika: Losing leaves a bitter\n"
-	.string "aftertaste…\p"
-	.string "But knowing that there are strong\n"
-	.string "trainers spurs me to do better…$"
+	.string "莉佳：输了总会留下\n苦涩的余味……\p但知道有强大的训练家\n存在，反而让我更想进步……$"
+	.string ""
+	.string ""
+	.string ""
 
 CeladonCity_Gym_Text_ErikaRematch:
-	.string "Erika: Oh, hello.\p"
-	.string "What a surprise, Kanto Champion!\p"
-	.string "It's so lovely to see you again.\p"
-	.string "Your journey must have been so\n"
-	.string "exciting.\p"
-	.string "Even champions enjoy a challenge.\p"
-	.string "Want to have a rematch with me?$"
+	.string "莉佳：哦，你好。\p真没想到，关都的冠军！\p又见到你真好。\p你的旅途一定\n很精彩吧。\p就算是冠军，也喜欢挑战。\p要不要和我再打一场？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CeladonCity_Gym_Text_ErikaRematchDefeat:
-	.string "Erika: Losing still leaves a\n"
-	.string "bitter aftertaste…\p"
-	.string "But knowing that there are strong\n"
-	.string "trainers spurs me to do better…$"
+	.string "莉佳：输了还是留下\n苦涩的余味……\p但知道有强大的训练家\n存在，反而让我更想进步……$"
+	.string ""
+	.string ""
+	.string ""
 
 CeladonCity_Gym_EventScript_Michelle::
 	trainerbattle_single TRAINER_MICHELLE CeladonCity_Gym_Text_LassMichelleSeen, CeladonCity_Gym_Text_LassMichelleBeaten
@@ -86,14 +86,14 @@ CeladonCity_Gym_EventScript_Michelle::
 	end
 
 CeladonCity_Gym_Text_LassMichelleSeen:
-	.string "Do you think a girls-only Gym is\n"
-	.string "rare?$"
+	.string "你觉得只有女孩子的道馆\n很少见吗？$"
+	.string ""
 
 CeladonCity_Gym_Text_LassMichelleBeaten:
-	.string "Oh, bleah!$"
+	.string "啊啊，真不甘心！$"
 
 CeladonCity_Gym_Text_LassMichelleAfter:
-	.string "I just got careless, that's all!$"
+	.string "我只是大意了而已！$"
 
 
 CeladonCity_Gym_EventScript_Tanya::
@@ -102,15 +102,15 @@ CeladonCity_Gym_EventScript_Tanya::
 	end
 
 CeladonCity_Gym_Text_PicnickerTanyaSeen:
-	.string "Oh, a battle? That's kind of scary,\n"
-	.string "but Ok!$"
+	.string "哦，要对战？有点吓人，\n不过好吧！$"
+	.string ""
 
 CeladonCity_Gym_Text_PicnickerTanyaBeaten:
-	.string "Oh, that's it?$"
+	.string "哦，这就完了？$"
 
 CeladonCity_Gym_Text_PicnickerTanyaAfter:
-	.string "Oh, look at all your Badges. No\n"
-	.string "wonder I couldn't win!$"
+	.string "哦，看看你那一身的徽章。\n难怪我赢不了！$"
+	.string ""
 
 CeladonCity_Gym_EventScript_Julia::
 	trainerbattle_single TRAINER_JULIA CeladonCity_Gym_Text_BeautyJuliaSeen, CeladonCity_Gym_Text_BeautyJuliaBeaten
@@ -118,15 +118,15 @@ CeladonCity_Gym_EventScript_Julia::
 	end
 
 CeladonCity_Gym_Text_BeautyJuliaSeen:
-	.string "Were you looking at these flowers\n"
-	.string "or at me?$"
+	.string "你刚才是在看花，\n还是在看我？$"
+	.string ""
 
 CeladonCity_Gym_Text_BeautyJuliaBeaten:
-	.string "How annoying!$"
+	.string "真讨厌！$"
 
 CeladonCity_Gym_Text_BeautyJuliaAfter:
-	.string "How do I go about becoming\n"
-	.string "ladylike like Erika?$"
+	.string "我要怎么做才能变得\n像莉佳那样有淑女气质呢？$"
+	.string ""
 
 CeladonCity_Gym_EventScript_Jo::
 	trainerbattle_double TRAINER_JO_AND_ZOE, CeladonCity_Gym_Text_TwinsJoAndZoe1Seen, CeladonCity_Gym_Text_TwinsJoAndZoe1Beaten, Route104_Text_GinaNotEnoughMons
@@ -140,23 +140,23 @@ CeladonCity_Gym_EventScript_Zoe::
 	end
 
 CeladonCity_Gym_Text_TwinsJoAndZoe1Seen:
-	.string "We'll show you Pokémon moves that\n"
-	.string "Erika taught us!$"
+	.string "让你见识见识莉佳教给\n我们的宝可梦招式！$"
+	.string ""
 
 CeladonCity_Gym_Text_TwinsJoAndZoe1Beaten:
-	.string "Oh… We lost…$"
+	.string "唉……我们输了……$"
 
 CeladonCity_Gym_Text_TwinsJoAndZoe1After:
-	.string "Erika will get you back for us!$"
+	.string "莉佳会替我们报仇的！$"
 
 CeladonCity_Gym_Text_TwinsJoAndZoe2Seen:
-	.string "We're going to protect Erika!$"
+	.string "我们要保护莉佳！$"
 
 CeladonCity_Gym_Text_TwinsJoAndZoe2Beaten:
-	.string "We couldn't win…$"
+	.string "我们赢不了……$"
 
 CeladonCity_Gym_Text_TwinsJoAndZoe2After:
-	.string "Erika is much, much stronger!$"
+	.string "莉佳要强得多得多！$"
 
 CeladonCity_Gym_EventScript_GymStatue::
 	lockall
@@ -171,13 +171,13 @@ CeladonCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 CeladonCity_Gym_Text_GymStatue::
-    .string "Celadon Pokémon Gym\n"
-    .string "Leader: Erika\p"
-	.string "Winning Trainers:\n"
-	.string "Blue, Red$"
+    .string "玉虹宝可梦道馆\n馆主：莉佳\p优胜训练家：\n青绿、赤红$"
+    .string ""
+	.string ""
+	.string ""
 
 CeladonCity_Gym_Text_GymStatuePlayerWon::
-    .string "Celadon Pokémon Gym\n"
-    .string "Leader: Erika\p"
-    .string "Winning Trainers:\n"
-	.string "Blue, Red, {PLAYER}$"
+    .string "玉虹宝可梦道馆\n馆主：莉佳\p优胜训练家：\n青绿、赤红、{PLAYER}$"
+    .string ""
+    .string ""
+	.string ""

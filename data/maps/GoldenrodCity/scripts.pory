@@ -277,185 +277,185 @@ GoldenrodCity_EventScript_Beauty::
 	end
 
 GoldenrodCity_Text_Beauty:
-	.string "This is the Goldenrod Gym!\p"
-	.string "Our leader Whitney is not here\n"
-	.string "right now. She might be at the\l"
-	.string "Radio Tower.$"
+	.string "这里是满金道馆！\p馆主小茜现在不在馆里。\n她可能去\l播音塔那边了。$"
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_Text_Woman:
-	.string "I used to train in Whitney's Gym,\n"
-	.string "but all her crying gave me a\l"
-	.string "headache.$"
+	.string "我以前在小茜的道馆里修行，\n可她老是哭，\l哭得我头疼。$"
+	.string ""
+	.string ""
 
 GoldenrodCity_Text_HikerDay:
-	.string "When I went into the Game Corner\n"
-	.string "it was night time... How long was I\l"
-	.string "in there?!$"
+	.string "我进游戏城的时候\n还是晚上……我到底\l在里面待了多久？！$"
+	.string ""
+	.string ""
 
 GoldenrodCity_Text_HikerNight:
-	.string "When I went into the Game Corner\n"
-	.string "it was day time... How long was I\l"
-	.string "in there?!$"
+	.string "我进游戏城的时候\n还是白天……我到底\l在里面待了多久？！$"
+	.string ""
+	.string ""
 
 GoldenrodCity_Text_Snubbull:
-	.string "Audino: Audiiinii!$"
+	.string "差不多娃娃：呜嘀嘀——！$"
 
 GoldenrodCity_Text_MrMime:
 	.string "............................$"
 
 GoldenrodCity_Text_ElmCall:
-	.string "Elm: Hello, {PLAYER}?\n"
-	.string "Has that egg hatched yet?\p"
-	.string "Once it hatches, don't forget to\n"
-	.string "bring it by the lab! I need to\l"
-	.string "see it!$"
+	.string "空木博士：喂，是{PLAYER}吗？\n那颗蛋孵出来了吗？\p孵出来以后，别忘了\n带来研究所给我看看！我\l一定要亲眼瞧瞧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_Text_PokefanM:
-	.string "They built the new Radio Tower\n"
-	.string "to replace the old creaky one.$"
+	.string "为了替换那座吱呀作响的旧塔，\n他们建起了新的播音塔。$"
+	.string ""
 
 GoldenrodCity_Text_Youngster1:
-	.string "I know there's a new Bike Shop,\n"
-	.string "but I can't find it anywhere.$"
+	.string "听说新开了一家自行车店，\n可我怎么也找不到。$"
+	.string ""
 
 GoldenrodCity_Text_CooltrainerF1:
-	.string "Is that man in black dressed up\n"
-	.string "like a Team Rocket member?\p"
-	.string "How silly!$"
+	.string "那个穿黑衣服的人，\n打扮得像个火箭队成员？\p真是滑稽！$"
+	.string ""
+	.string ""
 
 GoldenrodCity_Text_CooltrainerF1_Cleared:
-	.string "Was that man in black really part\n"
-	.string "of Team Rocket? I can't believe it!$"
+	.string "那个穿黑衣服的人真的是\n火箭队的人吗？真不敢相信！$"
+	.string ""
 
 GoldenrodCity_Text_CooltrainerF2:
-	.string "The Radio Tower in Goldenrod City\n"
-	.string "is quite the landmark.\p"
-	.string "They're running a campaign now.\p"
-	.string "They'll give you a shiny new\n"
-	.string "Radio if you can pass their quiz.$"
+	.string "满金市的播音塔\n可是这里的地标。\p他们现在正在搞活动。\p只要答对他们的问答，\n就能得到一台崭新的收音机。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_Text_CooltrainerF2_GotCard:
-	.string "Oh, your Pokégear already works\n"
-	.string "as a radio!$"
+	.string "哦，你的宝可梦装置\n已经能当收音机用了！$"
+	.string ""
 
 GoldenrodCity_Text_Youngster2:
-	.string "E-he-he-he…\p"
-	.string "I got in trouble for playing in\n"
-	.string "the Dept.Store basement.$"
+	.string "嘿、嘿嘿嘿……\p我在百货店的地下室\n玩闹被骂了一顿。$"
+	.string ""
+	.string ""
 
 GoldenrodCity_Text_Lass:
-	.string "That man inside rates your\n"
-	.string "Pokémon nicknames.\p"
-	.string "He can even rename them.$"
+	.string "里面的那个人会评价你\n宝可梦的昵称。\p他还能帮你改名。$"
+	.string ""
+	.string ""
 
 GoldenrodCity_Text_Gramps:
-	.string "Whew! This city is so big,\n"
-	.string "I can't find anything at all.$"
+	.string "呼！这城市真大，\n我什么都找不到。$"
+	.string ""
 
 GoldenrodCity_Text_RocketScout1:
-	.string "So this is the Radio Tower…$"
+	.string "原来这就是播音塔……$"
 
 GoldenrodCity_Text_RocketScout2:
-	.string "What do you want, pest?\n"
-	.string "Scram already!$"
+	.string "干什么，小毛孩？\n快给我滚开！$"
+	.string ""
 
 GoldenrodCity_Text_Rocket1:
-	.string "Stay out of the way!\n"
-	.string "Beat it, kid!$"
+	.string "别挡道！\n滚一边去，小鬼！$"
+	.string ""
 
 GoldenrodCity_Text_Rocket2:
-	.string "Take over the Radio Tower…\p"
-	.string "What? It's none of your business!$"
+	.string "接管播音塔……\p什么？这不关你的事！$"
+	.string ""
 
 GoldenrodCity_Text_Rocket3:
-	.string "Pokémon? They're just tools\n"
-	.string "we use to make money!$"
+	.string "宝可梦？那不过是\n我们赚钱的工具！$"
+	.string ""
 
 GoldenrodCity_Text_Rocket4:
-	.string "Our dream will soon come true…\p"
-	.string "It was a long, hard struggle…$"
+	.string "我们的梦想马上就要实现了……\p这一路走来，真是漫长又艰难……$"
+	.string ""
 
 GoldenrodCity_Text_Rocket5:
-	.string "Hey, brat! You don't belong here!\n"
-	.string "Get lost already!$"
+	.string "喂，小鬼！\n这里不是你该来的地方！$"
+	.string ""
 
 GoldenrodCity_Text_Rocket6:
-	.string "Come and taste the terror of\n"
-	.string "Team Rocket!$"
+	.string "来尝尝火箭队的\n恐怖滋味吧！$"
+	.string ""
 
 GoldenrodCity_Text_StationSign:
-	.string "Goldenrod City Station$"
+	.string "满金市车站$"
 
 GoldenrodCity_Text_RadioTowerSign:
-	.string "Goldenrod City Radio Tower$"
+	.string "满金市播音塔$"
 
 GoldenrodCity_Text_DeptStoreSign:
-	.string "Full Selection of Pokémon Goods!\p"
-	.string "Goldenrod City Dept.Store$"
+	.string "宝可梦商品一应俱全！\p满金市百货店$"
+	.string ""
 
 GoldenrodCity_Text_GymSign:
-	.string "Goldenrod City Pokémon Gym\n"
-	.string "Leader: Whitney\p"
-	.string "The Incredibly Pretty Girl!$"
+	.string "满金市宝可梦道馆\n馆主：小茜\p超级漂亮的大姐姐！$"
+	.string ""
+	.string ""
 
 GoldenrodCity_Text_CitySign:
-	.string "Goldenrod City\p"
-	.string "The Festive City of Opulent Charm$"
+	.string "满金市\p洋溢华丽魅力的节庆之城$"
+	.string ""
 
 GoldenrodCity_Text_BikeShopSign:
-	.string "The World is a Cycle Path!\n"
-	.string "Bike Shop$"
+	.string "世界就是一条自行车道！\n自行车店$"
+	.string ""
 
 GoldenrodCity_Text_GameCornerSign:
-	.string "Your Playground!\p"
-	.string "Goldenrod City Game Corner$"
+	.string "您的游乐场！\p满金市游戏城$"
+	.string ""
 
 GoldenrodCity_Text_NameRaterSign:
-	.string "Name Rater\p"
-	.string "Get Your Pokémon Nicknames Rated$"
+	.string "姓名鉴定师\p为您评价宝可梦的昵称$"
+	.string ""
 
 GoldenrodCity_Text_UndergroundNorthSign:
-	.string "Underground Entrance$"
+	.string "地下通道入口$"
 
 GoldenrodCity_Text_UndergroundSouthSign:
-	.string "Underground Entrance$"
+	.string "地下通道入口$"
 
 
 GoldenrodCity_Text_FlowerShopSign:
-	.string "Blooming Beautiful Flower Shop$"
+	.string "花开烂漫的花店$"
 
 GoldenrodCity_Text_MoveTutorAsk:
-	.string "I can teach your Pokémon some\n"
-	.string "amazing moves!\p"
-	.string "Should I teach one?$"
+	.string "我能教你的宝可梦\n一些厉害的招式！\p要我教你吗？$"
+	.string ""
+	.string ""
 
 GoldenrodCity_Text_MoveTutorCost:
-	.string "It'll cost you 1000 coins.\n"
-	.string "Okay?$"
+	.string "要花1000枚代币。\n可以吗？$"
+	.string ""
 
 GoldenrodCity_Text_MoveTutorDecline:
-	.string "Aww… But these moves are great!$"
+	.string "唉……可这些招式明明很棒啊！$"
 
 GoldenrodCity_Text_MoveTutorWhich:
-	.string "Wahahah! You won't regret it!\p"
-	.string "Which move should I teach?$"
+	.string "哇哈哈哈！包你不后悔！\p想学哪一招？$"
+	.string ""
 
 GoldenrodCity_Text_MoveTutorNoCash:
-	.string "Too bad. Guess I'll need to\n"
-	.string "get some cash from home…$"
+	.string "真可惜。看来我得\n回家拿点钱了……$"
+	.string ""
 
 GoldenrodCity_Text_MoveTutorUnderstand:
-	.string "If you understand this move,\n"
-	.string "you've made it as a trainer.$"
+	.string "等你弄懂了这一招，\n就算得上是独当一面的训练家了。$"
+	.string ""
 
 GoldenrodCity_Text_MoveTutorFarewell:
-	.string "Wahahah! Farewell, kid!$"
+	.string "哇哈哈哈！再会了，小鬼！$"
 
 GoldenrodCity_Text_MoveTutorBut:
-	.string "B-but…$"
+	.string "可、可是……$"
 
 GoldenrodCity_Text_MoveTutorNotEnoughCoins:
-	.string "…You don't have enough coins…$"
+	.string "……您的代币不够啊……$"
 
 Goldenrod_OnFrame:: 
 	map_script_2 VAR_RIVAL_STATE, 6, GoldenrodCity_RivalAfterWhitney
@@ -464,8 +464,7 @@ Goldenrod_OnFrame::
 
 script Goldenrod_Daytime_ExpertM {
 	lock
-	msgbox("This time I will defeat you, Tiffany!
-			We've been training for the whole week!")
+	msgbox("这次我一定要赢你，蒂法妮！\n我们可是整整训练了一星期！")
 	closemessage
 	playmoncry(SPECIES_STARAVIA, CRY_MODE_NORMAL)
 	applymovement(LOCALID_GOLDENROD_STARAVIA, moves(jump_in_place_right*2))
@@ -475,8 +474,7 @@ script Goldenrod_Daytime_ExpertM {
 }
 script Goldenrod_Daytime_ExpertF {
 	lock
-	msgbox("Hah! If you still have not learned the
-			type-matchups, you will never beat me!")
+	msgbox("哈！你要是还没把属性相克\n学明白，就永远赢不了我！")
 	closemessage
 	playmoncry(SPECIES_ELECTABUZZ, CRY_MODE_NORMAL)
 	applymovement(LOCALID_GOLDENROD_ELECTABUZZ, moves(jump_in_place_left*2))
@@ -487,7 +485,7 @@ script Goldenrod_Daytime_ExpertF {
 script Goldenrod_Daytime_Staravia {
 	lock
 	playmoncry(SPECIES_STARAVIA, CRY_MODE_NORMAL)
-	msgbox("Staa!")
+	msgbox("嘎啊！")
 	waitmoncry
 	release
 	end
@@ -495,7 +493,7 @@ script Goldenrod_Daytime_Staravia {
 script Goldenrod_Daytime_Electabuzz {
 	lock
 	playmoncry(SPECIES_ELECTABUZZ, CRY_MODE_NORMAL)
-	msgbox("Bzz!")
+	msgbox("哔哩！")
 	waitmoncry
 	release
 	end
@@ -503,9 +501,7 @@ script Goldenrod_Daytime_Electabuzz {
 script Goldenrod_Daytime_Bystander {
 	lock
 	faceplayer
-	msgbox("Those two have been going on with their
-			rivalry for weeks. The city should build
-			a battle arena just for them.")
+	msgbox("那两个人已经较劲了好几周。\n市政府真该给他们专建一座对战场。")
 	release
 	end
 
@@ -513,16 +509,7 @@ script Goldenrod_Daytime_Bystander {
 script Goldenrod_Nighttime_Burglar {
 	lock
 	faceplayer
-	msgbox("The city's rapid development has
-			raised some questions regarding
-			where all the money is coming from.
-			
-			If they knew just how much money
-			changes hands in the underground every
-			day, their eyeballs would pop out.
-			
-			Perhaps one day you too will learn, if
-			you grow strong enough.")
+	msgbox("这座城市发展得这么快，\n已经有人开始怀疑\l这么多钱都是从哪儿来的。\p要是他们知道地下每天都\n有多少钱转手，怕是\l连眼珠子都要瞪出来。\p等你再变强一些，\n说不定有一天也会明白的。")
 	release
 	end
 }
@@ -530,24 +517,14 @@ script Goldenrod_Nighttime_Oldlady {
 	lock
 	faceplayer
 	if (flag(FLAG_GOLDENROD_SMACKDOWN)) {
-		msgbox("Smack Down lets you ground any target.
-				It's also very useful against Flying
-				Pokémon.")
+		msgbox("击落能让任何目标落到地上。\n对付飞行属性的\l宝可梦也很有用。")
 		release
 		end
 	}
-	msgbox("Some petty thief tried to jump me on a
-			dark alleyway, he was not expecting me
-			to Smack Down him with a good old
-			Ippon seoinage.
-			
-			Here, you should try
-			it too.")
+	msgbox("有个小偷想在昏暗的小巷里打劫我，\n他可没想到我会用一记漂亮的\l一本背负投把他击落在地。\p来，这个你也\n拿去试试吧。")
 	giveitem(ITEM_TM_SMACK_DOWN)
 	setflag(FLAG_GOLDENROD_SMACKDOWN)
-	msgbox("Smack Down lets you ground any target.
-			It's also very useful against Flying
-			Pokémon.")
+	msgbox("击落能让任何目标落到地上。\n对付飞行属性的\l宝可梦也很有用。")
 	release
 	end
 }
@@ -571,25 +548,9 @@ script GoldenrodCity_RivalAfterWhitney {
 		delay(30)
 		playbgm(MUS_HG_LYRA, TRUE)
 		createfieldmugshotrival
-		msgbox("Hey {PLAYER}! 
-				How did the battle with Whitney go? 
-				
-				Her Miltank made short work of 
-				my team a while ago!")
-		msgbox("Oh, you have got the badge... 
-				
-				Congratulations. 
-				
-				Another easy victory eh?
-				Just like always.")
-		msgbox("Hey, want to head to
-				Ecruteak together?
-				
-				Actually never mind, you'll probably
-				want to catch more Pokémon, I'll
-				go visit my grandparents instead.
-				
-				Well, see ya!")
+		msgbox("嘿，{PLAYER}！\n和小茜的对战怎么样了？\p她那头大奶罐可是\n三两下就把我的队伍打垮了！")
+		msgbox("哦，你已经拿到徽章了……\p恭喜你。\p又一场轻松的胜利，是吧？\n还是一如既往啊。")
+		msgbox("嘿，要不要一起去\n缘朱市？\p算了，还是当没说过吧。你多半\n还想多抓些宝可梦，我就\l先去看看我的爷爷奶奶好了。\p那么，回见！")
 		removefieldmugshot
 		closemessage
 		applymovement(LOCALID_GOLDENROD_RIVAL, moves(walk_left*4, walk_down*6))

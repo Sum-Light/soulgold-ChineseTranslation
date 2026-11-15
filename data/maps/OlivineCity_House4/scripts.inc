@@ -56,34 +56,22 @@ OlivineTutorMoveMaster_9:
 
 
 OlivineTutorMoveMaster_Text_0:
-	.string "You can teach Tutor Moves by\n"
-	.string "pressing Start on the Battle Moves\l"
-	.string "page of the Summary Screen and\l"
-	.string "switching to the Tutor Moves page.$"
+	.string "想教宝可梦教授招式，\n请在查看能力画面的\l战斗招式页按START键，\l再切换到教授招式页。$"
 
 OlivineTutorMoveMaster_Text_1:
-	.string "I'm the Tutor Move Master.\p"
-	.string "I know all there is to know about Tutor\n"
-	.string "Moves.\p"
-	.string "If you wish, I can teach you all that I \n"
-	.string "know for a one-time fee of ¥44,444.$"
+	.string "我是教授招式大师。\p关于教授招式，我无所不知。\p只要你愿意，我可以把我\n知道的全部教给你，\l一次性收费¥44,444。$"
 
 OlivineTutorMoveMaster_Text_2:
-	.string "What do you say? Do you wish to learn\n"
-	.string "everything about Tutor Moves?$"
+	.string "怎么样？你想学会\n教授招式的全部吗？$"
 
 OlivineTutorMoveMaster_Text_3:
-	.string "It seems you do not have the money\n"
-	.string "to learn. Shame.$"
+	.string "看来你的钱不够\n学这些啊。真遗憾。$"
 
 OlivineTutorMoveMaster_Text_4:
-	.string "Thank you for the business!\p"
-	.string "Now let me teach you the grand\n"
-	.string "secrets of the Tutor Moves.$"
+	.string "多谢惠顾！\p现在，就让我来传授你\n教授招式的奥秘吧。$"
 
 OlivineTutorMoveMaster_Text_5:
-	.string "You can now teach Tutor Moves to\n"
-	.string "your Pokémon!$"
+	.string "你现在可以教自己的宝可梦\n学习教授招式了！$"
 
 OlivineTutorMoveMaster_Text_6:
-	.string "A pity.$"
+	.string "真遗憾。$"

@@ -1,13 +1,5 @@
 mapscripts Gate_KitakamiBorder_MapScripts {}
 
 script KitakamiBorderGuard {
-    msgbox("Welcome to Kitakami, traveller!
-
-            You're quite far off from the
-            civilization here, but I hope
-            you still enjoy the sights.
-            
-            If you're planning on visiting the
-            Kitakami mountain, be careful of rock
-            slides!", MSGBOX_NPC)
+    msgbox("欢迎来到北上乡，旅行者！\p这里离人烟相当远，\n不过还是希望您\l能好好欣赏这里的风景。\p要去北上山的话，\n请当心落石！", MSGBOX_NPC)
 }

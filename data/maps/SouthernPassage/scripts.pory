@@ -2,12 +2,7 @@ mapscripts SouthernPassage_MapScripts {}
 
 script BlockSouthJohtoAccess {
     lock
-    msgbox("The tides ahead seem too strong to 
-            proceed right now. Better turn back
-            for now.
-    
-            System note: The area ahead is not 
-            yet accessible in this version.")
+    msgbox("前方的潮水似乎太急，现在\n过不去。最好先回去吧。\p系统提示：前方区域在此版本\n中尚未开放。")
     applymovement(LOCALID_PLAYER, moves(walk_up))
     release
     end

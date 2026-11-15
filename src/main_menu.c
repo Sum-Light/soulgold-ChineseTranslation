@@ -271,26 +271,26 @@ static const u32 sOakSpeechOakGfx[] = INCBIN_U32("graphics/oak_speech/oak/pic.8b
 #define NEW_GAME_SPEECH_FADE_DELAY 4
 #define NEW_GAME_SPEECH_SCENE_PAUSE 24
 #define NEW_GAME_SPEECH_GENDER_DIM 8
-static const u8 gText_SaveFileCorrupted[] = _("The save file is corrupted. The\nprevious save file will be loaded.");
-static const u8 gText_SaveFileErased[] = _("The save file has been erased\ndue to corruption or damage.");
-static const u8 gJPText_No1MSubCircuit[] = _("1Mサブきばんが ささっていません！");
-static const u8 gText_BatteryRunDry[] = _("The internal battery has run dry.\nThe game can be played.\pHowever, clock-based events will\nno longer occur.");
+static const u8 gText_SaveFileCorrupted[] = _("因为先前游戏中的记录没有正确保存，\n将读取在那之前保存的那一份记录！");
+static const u8 gText_SaveFileErased[] = _("记录的内容消失了！");
+static const u8 gJPText_No1MSubCircuit[] = _("1M的存档用电子基板未安装！");
+static const u8 gText_BatteryRunDry[] = _("因电池已经没电，\n所以时钟不会走动。\p与时钟相关的所有事件不会发生，\n但游戏依然可以继续游玩。");
 
-static const u8 gText_MainMenuNewGame[] = _("New Game");
-static const u8 gText_MainMenuContinue[] = _("Continue");
-static const u8 gText_MainMenuOption[] = _("Option");
+static const u8 gText_MainMenuNewGame[] = _("从头开始");
+static const u8 gText_MainMenuContinue[] = _("从记录继续");
+static const u8 gText_MainMenuOption[] = _("改变设定");
 static const u8 gText_MainMenuVersion[] = _(DISPLAY_VERSION);
-static const u8 gText_MainMenuMysteryGift[] = _("MYSTERY GIFT");
-static const u8 gText_MainMenuMysteryGift2[] = _("MYSTERY GIFT");
-static const u8 gText_MainMenuMysteryEvents[] = _("MYSTERY EVENTS");
-static const u8 gText_WirelessNotConnected[] = _("The Wireless Adapter is not\nconnected.");
-static const u8 gText_MysteryGiftCantUse[] = _("MYSTERY GIFT can't be used while\nthe Wireless Adapter is attached.");
-static const u8 gText_MysteryEventsCantUse[] = _("MYSTERY EVENTS can't be used while\nthe Wireless Adapter is attached.");
+static const u8 gText_MainMenuMysteryGift[] = _("神秘礼物");
+static const u8 gText_MainMenuMysteryGift2[] = _("神秘礼物");
+static const u8 gText_MainMenuMysteryEvents[] = _("神秘事件");
+static const u8 gText_WirelessNotConnected[] = _("没有连接\n无线接收器！");
+static const u8 gText_MysteryGiftCantUse[] = _("因为没有连接无线接收器\n不能使用神秘礼物功能！");
+static const u8 gText_MysteryEventsCantUse[] = _("因为没有连接无线接收器\n不能使用神秘事件功能！");
 
-static const u8 gText_ContinueMenuPlayer[] = _("Player");
-static const u8 gText_ContinueMenuTime[] = _("Time");
-static const u8 gText_ContinueMenuPokedex[] = _("Pokédex");
-static const u8 gText_ContinueMenuBadges[] = _("Badges");
+static const u8 gText_ContinueMenuPlayer[] = _("主人公");
+static const u8 gText_ContinueMenuTime[] = _("冒险时间");
+static const u8 gText_ContinueMenuPokedex[] = _("宝可梦图鉴");
+static const u8 gText_ContinueMenuBadges[] = _("获得徽章");
 
 #define MENU_LEFT 2
 #define MENU_TOP_WIN0 1
@@ -501,21 +501,21 @@ static const union AffineAnimCmd *const sSpriteAffineAnimTable_PlayerShrink[] =
 };
 
 static const struct MenuAction sMenuActions_Gender[] = {
-    {COMPOUND_STRING("Boy"), {NULL}},
-    {COMPOUND_STRING("Girl"), {NULL}}
+    {COMPOUND_STRING("男孩"), {NULL}},
+    {COMPOUND_STRING("女孩"), {NULL}}
 };
 
-static const u8 sText_GenderBoy[] = _("boy");
-static const u8 sText_GenderGirl[] = _("girl");
+static const u8 sText_GenderBoy[] = _("男孩");
+static const u8 sText_GenderGirl[] = _("女孩");
 
 static const u8 *const sMalePresetNames[] = {
-    COMPOUND_STRING("Ethan"),
-    COMPOUND_STRING("Gold")
+    COMPOUND_STRING("阿响"),
+    COMPOUND_STRING("小金")
 };
 
 static const u8 *const sFemalePresetNames[] = {
-    COMPOUND_STRING("Lyra"),
-    COMPOUND_STRING("Kris")
+    COMPOUND_STRING("琴音"),
+    COMPOUND_STRING("克丽丝")
 };
 
 // The number of male vs. female names is assumed to be the same.

@@ -4,6 +4,7 @@
 #include "berry.h"
 #include "pokeball.h"
 #include "string_util.h"
+#include "chinese_text.h"
 #include "text.h"
 #include "event_data.h"
 #include "malloc.h"
@@ -202,6 +203,16 @@ u8 *CopyItemNameHandlePlural(enum Item itemId, u8 *dst, u32 quantity)
     else
     {
         u8 *end = StringCopy(dst, GetItemName(itemId));
+        const u8 *name = dst;
+
+        while (*name != EOS)
+        {
+            if (IsChineseChar(*name, name[1], FONT_NORMAL, FALSE))
+                return end;
+            if (*name == CHAR_EXTRA_SYMBOL)
+                name++;
+            name++;
+        }
         return StringCopy(end, sText_s);
     }
 }

@@ -3,8 +3,7 @@ mapscripts Route40_House5_MapScripts {}
 script Route40Cafe_InpatientWoman {
     lock
     faceplayer
-    msgbox("Where's my order?! I've been waiting for
-            10 minutes already!")
+    msgbox("我的点单呢？！我都等了\n十分钟了！")
     release
     end
 }
@@ -12,15 +11,14 @@ script Route40Cafe_InpatientWoman {
 script Route40Cafe_Fatman {
     lock
     faceplayer
-    msgbox("This cafe has been a hit among the 
-            tourists ever since it opened last year.")
+    msgbox("这家咖啡厅从去年开业起\n就一直很受游客欢迎。")
     release
     end
 }
 
 script Route40Cafe_Rocker {
     lock
-    msgbox("I'll have uhh...")
+    msgbox("我要一份，呃……")
     release
     end
 }
@@ -28,8 +26,7 @@ script Route40Cafe_Rocker {
 script Route40Cafe_Lady {
     lock
     faceplayer
-    msgbox("I bought a mint from the lady over
-            there and my Pokémon's nature changed!")
+    msgbox("我在那边那位女士那儿买了\n薄荷，结果宝可梦的性格变了！")
     release
     end
 }
@@ -37,9 +34,9 @@ script Route40Cafe_Lady {
 script Route40Cafe_SellerLady {
     lock
     faceplayer
-    msgbox("Welcome! We sell mints for Pokémon!")
+    msgbox("欢迎光临！本店出售宝可梦薄荷！")
     pokemart(CafeCook2)
-    msgbox("We hope to see you again!")
+    msgbox("欢迎您随时再来！")
     release
     end
 }
@@ -47,9 +44,9 @@ script Route40Cafe_SellerLady {
 script Route40Cafe_SellerCook {
     lock
     faceplayer
-    msgbox("Welcome, what will you have?")
+    msgbox("欢迎光临，您要点什么？")
     pokemart(CafeCook)
-    msgbox("Come back soon!")
+    msgbox("欢迎下次再来！")
     release
     end
 }

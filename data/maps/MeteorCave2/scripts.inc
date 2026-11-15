@@ -95,9 +95,7 @@ AncientWallMet_23:
 
 
 AncientWallMet_Text_0:
-	.string "The way is open.$"
+	.string "路已经打开了。$"
 
 AncientWallMet_Text_1:
-	.string "There's an inscription on the wall.\p"
-	.string "GATHER ALL\n"
-	.string "OF THE FUTURE$"
+	.string "墙上刻着铭文。\p聚集所有\n未来之物$"

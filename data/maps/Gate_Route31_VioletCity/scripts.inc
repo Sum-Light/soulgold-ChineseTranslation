@@ -24,13 +24,13 @@ Gate_Route31_VioletCity_EventScript_CooltrainerF::
 	end
 
 Gate_Route31_VioletCity_Text_Policeman:
-	.string "Hi there! Did you visit\n"
-	.string "Sprout Tower?$"
+	.string "你好！你去过\n喇叭芽之塔了吗？$"
+	.string ""
 
 Gate_Route31_VioletCity_Text_CooltrainerF:
-	.string "I saw the cutest Pokémon out\n"
-	.string "there.\p"
-	.string "It looked a lot like Pikachu!$"
+	.string "我在外面看到一只\n超可爱的宝可梦。\p它长得特别像皮卡丘！$"
+	.string ""
+	.string ""
 
 Gate_Route31_VioletCity_RivalExpShare::
 	lock
@@ -80,20 +80,16 @@ Gate_Route31_VioletCity_RivalExpShare_Movement_1:
 	step_end
 
 Gate_Route31_VioletCity_RivalExpShare_Text_0:
-	.string "{PLAYER}! Wait up!$"
+	.string "{PLAYER}！等一下！$"
 
 Gate_Route31_VioletCity_RivalExpShare_Text_1:
-	.string "Professor Elm forgot to give you this.$"
+	.string "空木博士忘了\n把这个交给你。$"
 
 Gate_Route31_VioletCity_RivalExpShare_Text_2:
-	.string "It lets you train multiple Pokémon at\n"
-	.string "once, quite a handy piece of tech!$"
+	.string "能让多只宝可梦同时\n接受训练，相当方便！$"
 
 Gate_Route31_VioletCity_RivalExpShare_Text_3:
-	.string "If you haven't already, you should make\n"
-	.string "use of those Poké Balls and catch lots\l"
-	.string "of new Pokémon.$"
+	.string "要是还没用过，就用那些\n精灵球多捉些新宝可梦吧。$"
 
 Gate_Route31_VioletCity_RivalExpShare_Text_4:
-	.string "Anyway, I need to head back home.\n"
-	.string "Hope to see you soon {PLAYER}!$"
+	.string "我得回家去了。\n希望很快再见到你，{PLAYER}！$"

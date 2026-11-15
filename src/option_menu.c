@@ -224,31 +224,31 @@ EWRAM_DATA static u8 sOptionScrollArrowTaskId = 0;
 EWRAM_DATA static u8 sOptionDrawY = 0;
 EWRAM_DATA static bool8 sFastHMs = FALSE;
 
-static const u8 gText_Option[]             = _("Options");
-static const u8 gText_TextSpeedFast[]      = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal");
-static const u8 gText_TextSpeedFaster[]    = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Fast");
-static const u8 gText_TextSpeedInstant[]   = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Inst");
-static const u8 gText_BattleSceneOn[]      = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}On");
-static const u8 gText_BattleSceneOff[]     = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Off");
-static const u8 gText_BattleStyleShift[]   = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Shift");
-static const u8 gText_BattleStyleSet[]     = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Set");
-static const u8 gText_SoundMono[]          = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Mono");
-static const u8 gText_SoundStereo[]        = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Stereo");
-static const u8 gText_FrameType[]          = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Type");
+static const u8 gText_Option[]             = _("设置");
+static const u8 gText_TextSpeedFast[]      = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}普通");
+static const u8 gText_TextSpeedFaster[]    = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}快速");
+static const u8 gText_TextSpeedInstant[]   = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}瞬间");
+static const u8 gText_BattleSceneOn[]      = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}开");
+static const u8 gText_BattleSceneOff[]     = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}关");
+static const u8 gText_BattleStyleShift[]   = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}接力制");
+static const u8 gText_BattleStyleSet[]     = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}淘汰制");
+static const u8 gText_SoundMono[]          = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}单声道");
+static const u8 gText_SoundStereo[]        = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}立体声");
+static const u8 gText_FrameType[]          = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}类型");
 static const u8 gText_FrameTypeNumber[]    = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}");
-static const u8 gText_ButtonTypeNormal[]   = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal");
+static const u8 gText_ButtonTypeNormal[]   = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}一般");
 static const u8 gText_ButtonTypeLR[]       = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}LR");
-static const u8 gText_ButtonTypeLEqualsA[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}L=A");
-static const u8 gText_AutorunOn[]            = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}On");
-static const u8 gText_AutorunOff[]          = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Off");
+static const u8 gText_ButtonTypeLEqualsA[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}L同A");
+static const u8 gText_AutorunOn[]            = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}开");
+static const u8 gText_AutorunOff[]          = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}关");
 
-static const u8 gText_NoCaps[]             = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}None");
-static const u8 gText_SoftCaps[]             = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Soft");
-static const u8 gText_HardCaps[]             = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Hard");
-static const u8 gText_ScalingOff[]         = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Off");
-static const u8 gText_ScalingOn[]          = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}On");
-static const u8 gText_DifficultyNormal[]   = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Normal");
-static const u8 gText_DifficultyHard[]     = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Hard");
+static const u8 gText_NoCaps[]             = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}无");
+static const u8 gText_SoftCaps[]             = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}软性");
+static const u8 gText_HardCaps[]             = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}硬性");
+static const u8 gText_ScalingOff[]         = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}关");
+static const u8 gText_ScalingOn[]          = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}开");
+static const u8 gText_DifficultyNormal[]   = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}普通");
+static const u8 gText_DifficultyHard[]     = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}困难");
 static const u8 gText_OverworldSpeed1x[]   = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}1x");
 static const u8 gText_OverworldSpeed2x[]   = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}2x");
 static const u8 gText_OverworldSpeed3x[]   = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}3x");
@@ -256,41 +256,41 @@ static const u8 gText_OverworldSpeed4x[]   = _("{COLOR GREEN}{SHADOW LIGHT_GREEN
 static const u8 gText_BattleSpeed1x[]      = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}1x");
 static const u8 gText_BattleSpeed2x[]      = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}2x");
 static const u8 gText_BattleSpeed3x[]      = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}3x");
-static const u8 gText_IntroSlideOn[]       = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}On");
-static const u8 gText_IntroSlideOff[]      = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Off");
-static const u8 gText_BattleUiLight[]      = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Light");
-static const u8 gText_BattleUiDark[]       = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Dark");
+static const u8 gText_IntroSlideOn[]       = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}开");
+static const u8 gText_IntroSlideOff[]      = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}关");
+static const u8 gText_BattleUiLight[]      = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}浅色");
+static const u8 gText_BattleUiDark[]       = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}深色");
 static const u8 *const sShinyRateLabels[SHINY_RATE_COUNT] = {
         [SHINY_RATE_256] = COMPOUND_STRING("{COLOR GREEN}{SHADOW LIGHT_GREEN}<1/256>"),
         [SHINY_RATE_512] = COMPOUND_STRING("{COLOR GREEN}{SHADOW LIGHT_GREEN}<1/512>"),
         [SHINY_RATE_1024] = COMPOUND_STRING("{COLOR GREEN}{SHADOW LIGHT_GREEN}<1/1024>"),
     };
 
-static const u8 gText_FastMegasOn[]        = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}On");
-static const u8 gText_FastMegasOff[]       = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Off");
-static const u8 gText_FastWeatherOn[]      = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}On");
-static const u8 gText_FastWeatherOff[]     = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Off");
-static const u8 gText_SurfMusicOn[]        = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}On");
-static const u8 gText_SurfMusicOff[]       = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Off");
-static const u8 gText_BattleMusicDefault[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}<Default>");
-static const u8 gText_BattleMusicHgssKanto[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}<Kanto>");
+static const u8 gText_FastMegasOn[]        = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}开");
+static const u8 gText_FastMegasOff[]       = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}关");
+static const u8 gText_FastWeatherOn[]      = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}开");
+static const u8 gText_FastWeatherOff[]     = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}关");
+static const u8 gText_SurfMusicOn[]        = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}开");
+static const u8 gText_SurfMusicOff[]       = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}关");
+static const u8 gText_BattleMusicDefault[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}<默认>");
+static const u8 gText_BattleMusicHgssKanto[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}<关都>");
 static const u8 gText_BattleMusicFrlg[]    = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}<FRLG>");
 static const u8 gText_BattleMusicRse[]     = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}<RSE>");
 static const u8 gText_BattleMusicDppt[]    = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}<D/P/Pt>");
-static const u8 gText_BattleMusicRandom[]  = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}<Random>");
-static const u8 gText_PartyMenuCustom[]    = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Custom");
+static const u8 gText_BattleMusicRandom[]  = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}<随机>");
+static const u8 gText_PartyMenuCustom[]    = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}定制");
 static const u8 gText_PartyMenuHGSS[]      = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}HGSS");
 static const u8 gText_PartyMenuBW[]        = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}BW");
-static const u8 gText_BattleFormatDefault[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Default");
-static const u8 gText_BattleFormatSingles[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Singles");
-static const u8 gText_BattleFormatDoubles[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Doubles");
-static const u8 sText_OptionHelp[]           = _("Options guide");
-static const u8 sText_CloseHelp[]            = _("{SELECT_BUTTON} Close");
-static const u8 sText_OpenHelp[]             = _("{SELECT_BUTTON} Help");
-static const u8 sText_Close[]                = _("Close");
+static const u8 gText_BattleFormatDefault[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}默认");
+static const u8 gText_BattleFormatSingles[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}单打");
+static const u8 gText_BattleFormatDoubles[] = _("{COLOR GREEN}{SHADOW LIGHT_GREEN}双打");
+static const u8 sText_OptionHelp[]           = _("设置说明");
+static const u8 sText_CloseHelp[]            = _("{SELECT_BUTTON} 关闭");
+static const u8 sText_OpenHelp[]             = _("{SELECT_BUTTON} 说明");
+static const u8 sText_Close[]                = _("关闭");
 static const u8 sText_CloseDescription[]     = _(
-    "Saves the current settings and\n"
-    "returns to the previous screen.");
+    "保存当前设置，\n并返回上一个画面。"
+    "");
 
 static const u16 sOptionMenuText_Pal[] = INCBIN_U16("graphics/interface/option_menu_text.gbapal");
 #define OPTION_GUIDE_TEXT_COLOR_DARK_GRAY  8
@@ -311,173 +311,173 @@ static const u8 sEqualSignGfx[] = INCBIN_U8("graphics/interface/option_menu_equa
 
 static const u8 *const sOptionMenuItemsNames[MENUITEM_COUNT] =
 {
-    [MENUITEM_TEXTSPEED]   = COMPOUND_STRING("Text speed"),
-    [MENUITEM_BATTLESCENE] = COMPOUND_STRING("Battle scene"),
-    [MENUITEM_BATTLESTYLE] = COMPOUND_STRING("Battle style"),
-    [MENUITEM_SOUND]       = COMPOUND_STRING("Sound"),
-    [MENUITEM_BUTTONMODE]  = COMPOUND_STRING("Button mode"),
-    [MENUITEM_FRAMETYPE]   = COMPOUND_STRING("Frame"),
-    [MENUITEM_LEVELCAPS]   = COMPOUND_STRING("Level caps"),
+    [MENUITEM_TEXTSPEED]   = COMPOUND_STRING("文字速度"),
+    [MENUITEM_BATTLESCENE] = COMPOUND_STRING("战斗动画"),
+    [MENUITEM_BATTLESTYLE] = COMPOUND_STRING("对战方式"),
+    [MENUITEM_SOUND]       = COMPOUND_STRING("声音"),
+    [MENUITEM_BUTTONMODE]  = COMPOUND_STRING("按键模式"),
+    [MENUITEM_FRAMETYPE]   = COMPOUND_STRING("边框类型"),
+    [MENUITEM_LEVELCAPS]   = COMPOUND_STRING("等级上限"),
 };
 
 static const u8 *const sOptionMenuItemsNames_Pg2[MENUITEM_COUNT_PG2] =
 {
     [MENUITEM_FOLLOWERS]        = gText_Followers,
-    [MENUITEM_AUTORUN]         = COMPOUND_STRING("Autorun"),
-    [MENUITEM_OVERWORLD_SPEEDUP] = COMPOUND_STRING("OW speed"),
-    [MENUITEM_BATTLE_SPEED] = COMPOUND_STRING("Battle speed"),
-    [MENUITEM_TRAINER_LEVEL_SCALING] = COMPOUND_STRING("Trainer scaling"),
-    [MENUITEM_WILD_LEVEL_SCALING] = COMPOUND_STRING("Wild scaling"),
-    [MENUITEM_DIFFICULTY] = COMPOUND_STRING("Difficulty"),
+    [MENUITEM_AUTORUN]         = COMPOUND_STRING("自动奔跑"),
+    [MENUITEM_OVERWORLD_SPEEDUP] = COMPOUND_STRING("地图速度"),
+    [MENUITEM_BATTLE_SPEED] = COMPOUND_STRING("对战速度"),
+    [MENUITEM_TRAINER_LEVEL_SCALING] = COMPOUND_STRING("训练家等级调整"),
+    [MENUITEM_WILD_LEVEL_SCALING] = COMPOUND_STRING("野生等级调整"),
+    [MENUITEM_DIFFICULTY] = COMPOUND_STRING("难度"),
 };
 
 static const u8 *const sOptionMenuItemsNames_Pg3[MENUITEM_COUNT_PG3] =
 {
-    [MENUITEM_INTRO_SLIDE] = COMPOUND_STRING("Battle intro"),
-    [MENUITEM_UI_ANIMATIONS] = COMPOUND_STRING("UI animations"),
-    [MENUITEM_DARK_BATTLE_UI] = COMPOUND_STRING("Battle/Bag UI"),
-    [MENUITEM_OW_LIGHTING] = COMPOUND_STRING("OW lighting"),
-    [MENUITEM_BATTLE_LIGHTING] = COMPOUND_STRING("Battle lighting"),
-    [MENUITEM_FOLLOWER_MEGA] = COMPOUND_STRING("Follower Mega"),
-    [MENUITEM_SHINY_RATE] = COMPOUND_STRING("Shiny odds"),
-    [MENUITEM_FAST_MEGAS] = COMPOUND_STRING("Fast megas"),
-    [MENUITEM_FAST_WEATHER] = COMPOUND_STRING("Fast weather"),
-    [MENUITEM_FAST_HMS] = COMPOUND_STRING("Fast HMs"),
-    [MENUITEM_SURF_MUSIC] = COMPOUND_STRING("Surf music"),
-    [MENUITEM_BATTLE_MUSIC] = COMPOUND_STRING("Battle music"),
-    [MENUITEM_PARTY_MENU] = COMPOUND_STRING("Party menu"),
-    [MENUITEM_BATTLE_FORMAT] = COMPOUND_STRING("Trainer format"),
+    [MENUITEM_INTRO_SLIDE] = COMPOUND_STRING("对战开场"),
+    [MENUITEM_UI_ANIMATIONS] = COMPOUND_STRING("界面动画"),
+    [MENUITEM_DARK_BATTLE_UI] = COMPOUND_STRING("对战/包包界面"),
+    [MENUITEM_OW_LIGHTING] = COMPOUND_STRING("地图光影"),
+    [MENUITEM_BATTLE_LIGHTING] = COMPOUND_STRING("对战光影"),
+    [MENUITEM_FOLLOWER_MEGA] = COMPOUND_STRING("跟随超级形态"),
+    [MENUITEM_SHINY_RATE] = COMPOUND_STRING("异色概率"),
+    [MENUITEM_FAST_MEGAS] = COMPOUND_STRING("快速超级进化"),
+    [MENUITEM_FAST_WEATHER] = COMPOUND_STRING("快速天气"),
+    [MENUITEM_FAST_HMS] = COMPOUND_STRING("快速秘传"),
+    [MENUITEM_SURF_MUSIC] = COMPOUND_STRING("冲浪音乐"),
+    [MENUITEM_BATTLE_MUSIC] = COMPOUND_STRING("对战音乐"),
+    [MENUITEM_PARTY_MENU] = COMPOUND_STRING("队伍菜单"),
+    [MENUITEM_BATTLE_FORMAT] = COMPOUND_STRING("训练家对战形式"),
 };
 
 static const u8 *const sOptionMenuHelpTexts[MENUITEM_COUNT] =
 {
     [MENUITEM_TEXTSPEED] = COMPOUND_STRING(
-        "Controls how quickly dialogue\n"
-        "appears. Normal uses standard\n"
-        "speed, Fast is quicker, and Inst\n"
-        "shows text immediately."),
+        "调整对话文字的显示速度。\n“普通”为标准速度，\n“快速”更快，\n“瞬间”则立刻显示全部文字。"
+        ""
+        ""
+        ""),
     [MENUITEM_BATTLESCENE] = COMPOUND_STRING(
-        "Controls move animations in\n"
-        "battle. On plays them normally.\n"
-        "Off skips most move animations."),
+        "设定对战中的招式动画。\n“开”会正常播放，\n“关”会跳过大部分招式动画。"
+        ""
+        ""),
     [MENUITEM_BATTLESTYLE] = COMPOUND_STRING(
-        "Shift offers a free switch when\n"
-        "an opposing Pokémon faints. Set\n"
-        "sends the next foe in without a\n"
-        "free switch."),
+        "“接力制”下，对手的宝可梦\n倒下时可以免费替换一次。\n“淘汰制”下，对手会直接\n派出下一只，不能免费替换。"
+        ""
+        ""
+        ""),
     [MENUITEM_SOUND] = COMPOUND_STRING(
-        "Mono mixes audio for one speaker.\n"
-        "Stereo separates some sounds\n"
-        "between the left and right\n"
-        "speakers."),
+        "“单声道”把声音混合到\n一个扬声器播放。\n“立体声”会把部分声音\n分到左右扬声器。"
+        ""
+        ""
+        ""),
     [MENUITEM_BUTTONMODE] = COMPOUND_STRING(
-        "Normal uses standard controls.\n"
-        "LR makes L/R act as left/right\n"
-        "in some menus. L=A also lets L\n"
-        "confirm like the A Button."),
+        "“一般”为标准操作。\n“LR”让L/R键在部分菜单中\n充当左右键。“L同A”还能\n让L键像A键一样确定。"
+        ""
+        ""
+        ""),
     [MENUITEM_FRAMETYPE] = COMPOUND_STRING(
-        "Changes dialogue and text-window\n"
-        "borders. This is purely visual\n"
-        "and does not affect gameplay."),
+        "更换对话框和文字窗口的边框。\n只改变外观，\n不影响游戏内容。"
+        ""
+        ""),
     [MENUITEM_LEVELCAPS] = COMPOUND_STRING(
-        "None gives full EXP at all\n"
-        "levels. Soft sharply reduces EXP\n"
-        "at the level cap. Hard gives no\n"
-        "EXP at the cap."),
+        "“无”时任何等级都能获得\n全部经验值。“软性”在到达\n等级上限后经验值大幅减少。\n“硬性”到达上限后不再获得。"
+        ""
+        ""
+        ""),
 };
 
 static const u8 *const sOptionMenuHelpTexts_Pg2[MENUITEM_COUNT_PG2] =
 {
     [MENUITEM_FOLLOWERS] = COMPOUND_STRING(
-        "Shows your first usable Pokémon\n"
-        "behind you in the overworld.\n"
-        "Some maps and scenes may hide it."),
+        "让队伍中第一只可出战的\n宝可梦在地图上跟在身后。\n部分地图和场景中可能隐藏。"
+        ""
+        ""),
     [MENUITEM_AUTORUN] = COMPOUND_STRING(
-        "On runs automatically once\n"
-        "running is unlocked. Hold B to\n"
-        "walk while On, or run while Off."),
+        "“开”时在解锁奔跑后会自动\n奔跑。开启时按住B键步行，\n关闭时按住B键奔跑。"
+        ""
+        ""),
     [MENUITEM_OVERWORLD_SPEEDUP] = COMPOUND_STRING(
-        "Sets overworld movement and\n"
-        "animation speed. Hold R for 1x.\n"
-        "If R starts DexNav, use Select\n"
-        "there to unbind the target."),
+        "设定地图上的移动和动画速度。\n按住R键可恢复1x。\n如果R键会启动图鉴导航，请在\n图鉴导航中按SELECT键解除登记。"
+        ""
+        ""
+        ""),
     [MENUITEM_BATTLE_SPEED] = COMPOUND_STRING(
-        "Sets battle animation and delay\n"
-        "speed. Move selection remains at\n"
-        "normal speed. Hold L for 1x."),
+        "设定对战动画和等待的速度。\n选择招式时仍为正常速度。\n按住L键可恢复1x。"
+        ""
+        ""),
     [MENUITEM_TRAINER_LEVEL_SCALING] = COMPOUND_STRING(
-        "On scales trainer levels to trail\n"
-        "your party's average level.\n"
-        "Off uses each trainer's curated\n"
-        "levels."),
+        "“开”时训练家的等级会\n随队伍平均等级调整，并略低\n于平均等级。“关”时使用\n各训练家原本设定的等级。"
+        ""
+        ""
+        ""),
     [MENUITEM_WILD_LEVEL_SCALING] = COMPOUND_STRING(
-        "On scales wild Pokémon levels to\n"
-        "trail 8-10 levels behind your party.\n"
-        "Never scales below the nonscaled\n"
-        "wild encounter levels."),
+        "“开”时野生宝可梦的等级会\n调整为比队伍低8-10级。\n不会低于未调整时的\n野生遇敌等级。"
+        ""
+        ""
+        ""),
     [MENUITEM_DIFFICULTY] = COMPOUND_STRING(
-        "Normal uses standard trainer teams.\n"
-        "Hard uses tougher teams for Gym\n"
-        "battles, the Elite Four and\n"
-        "makes them Doubles.\n"),
+        "“普通”使用标准的训练家队伍。\n“困难”下道馆战和四天王\n会使用更强的队伍，\n并改为双打对战。\n"
+        ""
+        ""
+        ""),
 };
 
 static const u8 *const sOptionMenuHelpTexts_Pg3[MENUITEM_COUNT_PG3] =
 {
     [MENUITEM_INTRO_SLIDE] = COMPOUND_STRING(
-        "On plays the sliding entrance.\n"
-        "Off skips it to begin battles\n"
-        "more quickly."),
+        "“开”会播放滑入的开场演出。\n“关”会跳过演出，\n更快开始对战。"
+        ""
+        ""),
     [MENUITEM_UI_ANIMATIONS] = COMPOUND_STRING(
-        "On animates dialogue boxes and\n"
-        "the pause menu. Off makes these\n"
-        "interfaces appear immediately."),
+        "“开”时对话框和暂停菜单\n带有动画。“关”时这些界面\n会立刻出现。"
+        ""
+        ""),
     [MENUITEM_DARK_BATTLE_UI] = COMPOUND_STRING(
-        "Light uses the standard UI. Dark\n"
-        "uses dark healthboxes, battle\n"
-        "menus, and Bag screens."),
+        "“浅色”为标准界面。\n“深色”会使用深色的HP栏、\n对战菜单和包包画面。"
+        ""
+        ""),
     [MENUITEM_OW_LIGHTING] = COMPOUND_STRING(
-        "On applies day/night visuals in\n"
-        "the overworld. Off keeps daytime\n"
-        "colors. Time-based encounters and\n"
-        "events are unaffected by this."),
+        "“开”时地图会呈现昼夜变化。\n“关”时保持白天的色调。\n随时间变化的遇敌和事件\n不受此设置影响。"
+        ""
+        ""
+        ""),
     [MENUITEM_BATTLE_LIGHTING] = COMPOUND_STRING(
-        "On applies day/night effects to\n"
-        "battle backgrounds, Pokémon,\n"
-        "Trainers, and other sprites."),
+        "“开”时对战背景、宝可梦、\n训练家及其他图像\n会带有昼夜效果。"
+        ""
+        ""),
     [MENUITEM_FOLLOWER_MEGA] = COMPOUND_STRING(
-        "Show Mega forms on follower\n"
-        "instead of base form when equipped\n"
-        "with Mega Stone. Some newer Megas\n"
-        "lack overworld sprites currently."),
+        "跟随的宝可梦携带超级石时，\n显示超级形态而不是原本形态。\n部分较新的超级形态\n目前还没有地图图像。"
+        ""
+        ""
+        ""),
     [MENUITEM_SHINY_RATE] = COMPOUND_STRING(
-        "Odds of finding shiny Pokémon."),
+        "遇到异色宝可梦的概率。"),
     [MENUITEM_FAST_MEGAS] = COMPOUND_STRING(
-        "On uses a near-instant Mega\n"
-        "Evolution animation. Off plays\n"
-        "the full animation."),
+        "“开”时超级进化动画\n几乎瞬间完成。\n“关”时播放完整动画。"
+        ""
+        ""),
     [MENUITEM_FAST_WEATHER] = COMPOUND_STRING(
-        "On skips repeated weather text\n"
-        "and animations."),
+        "“开”时跳过重复出现的\n天气文字和动画。"
+        ""),
     [MENUITEM_FAST_HMS] = COMPOUND_STRING(
-        "On skips the yes/no prompt when\n"
-        "using HMs."),
+        "“开”时使用秘传招式\n不再出现“是/否”确认。"
+        ""),
     [MENUITEM_SURF_MUSIC] = COMPOUND_STRING(
-        "On plays the Surf theme while\n"
-        "surfing. Off keeps the map music."),
+        "“开”时冲浪中播放冲浪乐曲。\n“关”时保持当前地图的音乐。"
+        ""),
     [MENUITEM_BATTLE_MUSIC] = COMPOUND_STRING(
-        "Changes wild, Trainer, and Gym\n"
-        "battle music."),
+        "更换野生、训练家\n和道馆对战的音乐。"
+        ""),
     [MENUITEM_PARTY_MENU] = COMPOUND_STRING(
-        "Custom uses the redesigned screen.\n"
-        "HGSS and BW use their respective\n"
-        "DS-style layouts."),
+        "“定制”使用重新设计的画面。\n“HGSS”和“BW”分别使用\n对应DS作品风格的布局。"
+        ""
+        ""),
     [MENUITEM_BATTLE_FORMAT] = COMPOUND_STRING(
-        "Default uses curated formats.\n"
-        "Singles/Doubles override eligible\n"
-        "trainers; Doubles needs 2 Pokémon.\n"
-        "Wild/facility/partner/multi\n"
-        "battles keep their own format."),
+        "“默认”使用原本设定的形式。\n“单打/双打”会覆盖符合条件的\n训练家，双打需要2只宝可梦。\n野生、设施、搭档和多人对战\n保持各自的形式。"
+        ""
+        ""
+        ""
+        ""),
 };
 
 static const struct WindowTemplate sOptionMenuWinTemplates[] =

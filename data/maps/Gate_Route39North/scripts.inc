@@ -67,61 +67,37 @@ RotomTrade_NotRequested::
 
 
 Route39North_Police_Text_0:
-	.string "If you want to head further north, you\n"
-	.string "should find yourself some protection\l"
-	.string "against the cold. The higher altitude\l"
-	.string "takes a toll on the body.$"
+	.string "再往北走的话，\n最好先准备好御寒的衣物。\l海拔一高，身体会吃不消的。$"
 
 Route39North_Elder_Text_0:
-	.string "When I was younger, I would hike the\n"
-	.string "trail to the mountain every day, uphill\l"
-	.string "both ways! I didn't have any Pokémon\l"
-	.string "carrying me or any of those fancy bikes\l"
-	.string "you kids have these days!$"
+	.string "我年轻时每天都要徒步\n上山，来回全靠一双腿！\l哪像你们现在，有宝可梦驮，\l还有时髦的自行车！$"
 
 Route39North_Hiker_Text_0:
-	.string "Rocky Helmet makes sure your enemies\n"
-	.string "will also suffer the pain they inflict\l"
-	.string "upon you!$"
+	.string "凸凸头盔能让伤害你的对手，\n也尝到同样的痛楚！$"
 
 Route39North_Hiker_Text_1:
-	.string "Tired of only taking the beating? Try\n"
-	.string "this!$"
+	.string "总挨打，受够了吧？\n试试这个！$"
 
 Route39North_Hiker_Text_2:
-	.string "That should put the pain back to your\n"
-	.string "enemies.$"
+	.string "疼痛这下该回到对手身上了。$"
 
 Route39North_Poster_Text_0:
-	.string "There's a sign about a large bird \n"
-	.string "Pokémon being sighted in the mountains.$"
+	.string "告示上写着：\n有人在群山中目击到大型鸟宝可梦。$"
 
 Route39North_Binoculars_Text_0:
-	.string "You peer into the binoculars...\n"
-	.string "...\l"
-	.string "..!\l"
-	.string "A majestic snowy mountain towers in the\l"
-	.string "distance!$"
+	.string "你朝望远镜里望去……\n……\l……！\l远处矗立着一座\l雄伟的雪山！$"
 
 Route39North_Gameboykid_Text_0:
-	.string "I hear Rotom can possess common\n"
-	.string "household appliances to change\l"
-	.string "form.$"
+	.string "听说洛托姆能附身在家用电器上，\n借此改变形态。$"
 
 Route39North_Gameboykid_Text_1:
-	.string "There's this rare Pokémon\n"
-	.string "I've been seeking for a while.\l"
-	.string "Would you happen to have a Zorua?\l"
-	.string "I would trade it for Rotom.$"
+	.string "我找一只稀有宝可梦\n找了很久。\l你身上有索罗亚吗？\l我愿意用洛托姆跟你换。$"
 
 Route39North_Gameboykid_Text_2:
-	.string "Much appreciated! I'm a huge fan\n"
-	.string "of Unova, I can't wait to show this\l"
-	.string "to my friends!$"
+	.string "太感谢了！我可是合众地区的\n超级粉丝，真想快点给朋友看看！$"
 
 RotomTrade_Declined_Text_0:
-	.string "Shame, it is quite a rare Pokémon.$"
+	.string "真遗憾，那可是相当稀有的宝可梦。$"
 
 RotomTrade_NotRequested_Text_0:
-	.string "Uh, no, I don't think so.\n"
-	.string "That doesn't look like a Zorua.$"
+	.string "呃，不行，不对。\n那看起来不像索罗亚。$"

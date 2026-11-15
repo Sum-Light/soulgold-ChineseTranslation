@@ -22,51 +22,51 @@ UnionCave_B1F_EventScript_PokemaniacCalvin::
 	end
 
 UnionCave_B1F_Text_HikerPhillipSeen:
-	.string "It's been a while since I last saw\n"
-	.string "another person.\p"
-	.string "Don't be shy. Let's battle!$"
+	.string "好久没见过\n别的人了。\p别害羞，来对战吧！$"
+	.string ""
+	.string ""
 
 UnionCave_B1F_Text_HikerPhillipBeaten:
-	.string "Uurggh…$"
+	.string "呜啊啊……$"
 
 UnionCave_B1F_Text_HikerPhillipAfter:
-	.string "I've been lost for a long time…\p"
-	.string "I don't mind it here, but I am\n"
-	.string "soooo hungry!$"
+	.string "我迷路好久了……\p待在这里倒无所谓，\n可是我肚子好饿好饿啊！$"
+	.string ""
+	.string ""
 
 UnionCave_B1F_Text_HikerLeonardSeen:
-	.string "What do you know! A visitor!$"
+	.string "真没想到！\n有客人来了！$"
 
 UnionCave_B1F_Text_HikerLeonardBeaten:
-	.string "Wahahah! You're a feisty one!$"
+	.string "哇哈哈！你还挺有精神！$"
 
 UnionCave_B1F_Text_HikerLeonardAfter:
-	.string "I live down here.\p"
-	.string "You can, too, if you'd like.\p"
-	.string "There's plenty of room, you see.$"
+	.string "我就住在这下面。\p你要是愿意，\n也可以住下来。\p你看，这里宽敞得很。$"
+	.string ""
+	.string ""
 
 UnionCave_B1F_Text_PokemaniacAndrewSeen:
-	.string "Who's there?\p"
-	.string "Leave me and my Pokémon alone!$"
+	.string "谁在那儿？\p别打扰我和我的宝可梦！$"
+	.string ""
 
 UnionCave_B1F_Text_PokemaniacAndrewBeaten:
-	.string "Go… Go away!$"
+	.string "走……走开！$"
 
 UnionCave_B1F_Text_PokemaniacAndrewAfter:
-	.string "Just me and my Pokémon. I'm de-\n"
-	.string "lirious with joy.$"
+	.string "只有我和我的宝可梦。\n我高兴得快疯了。$"
+	.string ""
 
 UnionCave_B1F_Text_PokemaniacCalvinSeen:
-	.string "I came all the way here to conduct\n"
-	.string "my Pokémon research.\p"
-	.string "Let me demonstrate my findings in a\n"
-	.string "real battle!$"
+	.string "我大老远跑到这里，\n就是为了研究宝可梦。\p让我用实战\n来展示我的研究成果！$"
+	.string ""
+	.string ""
+	.string ""
 
 UnionCave_B1F_Text_PokemaniacCalvinBeaten:
-	.string "You demonstrated on me!$"
+	.string "反倒是你给我演示了一番！$"
 
 UnionCave_B1F_Text_PokemaniacCalvinAfter:
-	.string "I should compile and announce my\n"
-	.string "study findings.\p"
-	.string "I might even become famous like\n"
-	.string "Prof. Elm.$"
+	.string "我该把研究结果\n整理起来发表了。\p说不定我会像空木博士\n一样出名。$"
+	.string ""
+	.string ""
+	.string ""

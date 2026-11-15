@@ -1,130 +1,130 @@
 @ Same as Hoenn's day-care text, used by the Four Island Day-Care. Unused text translated in Emerald
 
 DayCare_Text_ImDaycareManSpeakToMyWife::
-	.string "I'm the DAY-CARE MAN.\p"
-	.string "I help take care of the precious\n"
-	.string "Pokémon of TRAINERS.\p"
-	.string "If you'd like me to raise your\n"
-	.string "Pokémon, have a word with my wife.$"
+	.string "我是培育屋的培育爷爷。\p我会帮忙照看训练家的那些\n珍贵的宝可梦。\p如果想要培育你的宝可梦，\n去和我老伴说吧。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 DayCare_Text_DoYouWantEgg::
-	.string "Ah, it's you!\p"
-	.string "We were raising your Pokémon, and\n"
-	.string "my goodness, were we surprised!\p"
-	.string "Your Pokémon had an EGG!\p"
-	.string "We don't know how it got there,\n"
-	.string "but your Pokémon had it.\p"
-	.string "You do want it, yes?$"
+	.string "是你啊！\p我们正在培育你的宝可梦，\n天哪，真是大吃一惊！\p你的宝可梦有了一个蛋！\p虽然不清楚它是怎么来的，\n但确实是你的宝可梦的。\p你想要这颗蛋对吧？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 DayCare_Text_YourMonIsDoingFine::
-	.string "Ah, it's you! Good to see you.\n"
-	.string "Your {STR_VAR_1}'s doing fine.$"
+	.string "啊，是你呀！很高兴见到你。\n你的{STR_VAR_1}状态很好。$"
+	.string ""
 
 DayCare_Text_IllKeepIt::
-	.string "Well then, I'll keep it.\n"
-	.string "Thanks!$"
+	.string "那好吧，我会留着它。\n谢谢！$"
+	.string ""
 
 DayCare_Text_YouHaveNoRoomForIt::
-	.string "You have no room for it…\n"
-	.string "Come back when you've made room.$"
+	.string "你没有地方放它了……\n请整理宝可梦后再来吧。$"
+	.string ""
 
 DayCare_Text_ReceivedEgg::
-	.string "{PLAYER} received the EGG from\n"
-	.string "the DAY-CARE MAN.$"
+	.string "{PLAYER}从培育爷爷\n那里得到了蛋。$"
+	.string ""
 
 DayCare_Text_TakeGoodCareOfIt::
-	.string "Take good care of it.$"
+	.string "请好好照顾它。$"
 
 DayCare_Text_SeeWifeIfYouWantToPickUpMon::
-	.string "ポケモンを　ひきとりたい　ときは\n"
-	.string "ばさんに　いって　おくれ$"
+	.string "如果想取回你的宝可梦，\n就去和我老伴说一声。$"
+	.string ""
 
 DayCare_Text_YourMonsAreDoingFine::
-	.string "Ah, it's you! Your {STR_VAR_1} and\n"
-	.string "{STR_VAR_2} are doing fine.$"
+	.string "啊，是你呀！你的{STR_VAR_1}和\n{STR_VAR_2}状态都很好。$"
+	.string ""
 
 DayCare_Text_IWillKeepDoYouWantIt::
-	.string "I really will keep it.\n"
-	.string "You do want this, yes?$"
+	.string "那我可真的留下它了。\n你其实是想要的吧？$"
+	.string ""
 
 DayCare_Text_WouldYouLikeUsToRaiseMon::
-	.string "I'm the DAY-CARE LADY.\p"
-	.string "We can raise Pokémon for you.\p"
-	.string "Would you like us to raise one?$"
+	.string "我是培育婆婆。\p我们可以为你培育宝可梦。\p想让我们培育1只吗？$"
+	.string ""
+	.string ""
 
 DayCare_Text_WhichMonShouldWeRaise::
-	.string "Which Pokémon should we raise for\n"
-	.string "you?$"
+	.string "请选择想要我来帮你\n培育的宝可梦。$"
+	.string ""
 
 DayCare_Text_WellRaiseYourMon::
-	.string "Fine, we'll raise your {STR_VAR_1}\n"
-	.string "for a while.\p"
-	.string "Come back for it later.$"
+	.string "那么，我会照顾好\n{STR_VAR_1}的。\p你什么时候有时间了再过来吧。$"
+	.string ""
+	.string ""
 
 DayCare_Text_WeCanRaiseOneMore::
-	.string "We can raise two of your Pokémon.\p"
-	.string "Would you like us to raise one\n"
-	.string "more Pokémon for you?$"
+	.string "我们可以培育你的2只宝可梦。\p想再让我们\n培育1只吗？$"
+	.string ""
+	.string ""
 
 DayCare_Text_HusbandWasLookingForYou::
-	.string "My husband was looking for you.$"
+	.string "我老伴正在找你。$"
 
 DayCare_Text_FineThenComeAgain::
-	.string "Oh, fine, then.\n"
-	.string "Come again.$"
+	.string "哦，那好吧。\n欢迎随时过来。$"
+	.string ""
 
 DayCare_Text_NotEnoughMoney::
-	.string "You don't have enough money…$"
+	.string "哎呀，你的钱好像不够呢……$"
 
 DayCare_Text_TakeOtherOneBackToo::
-	.string "Will you take back the other one,\n"
-	.string "too?$"
+	.string "要把另一只也领回去吗？$"
+	.string ""
 
 DayCare_Text_ComeAgain::
-	.string "Fine.\n"
-	.string "Come again.$"
+	.string "好的。\n欢迎随时过来。$"
+	.string ""
 
 DayCare_Text_GoodToSeeYou::
-	.string "Ah, it's you!\n"
-	.string "Good to see you.\p"
-	.string "Your Pokémon can only be doing\n"
-	.string "good!$"
+	.string "啊，是你呀！\n很高兴见到你。\p你的宝可梦成长得很好！$"
+	.string ""
+	.string ""
+	.string ""
 
 DayCare_Text_YourMonHasGrownXLevels::
-	.string "By level, your {STR_VAR_1} has\n"
-	.string "grown by {STR_VAR_2}.$"
+	.string "{STR_VAR_1}的等级\n提高了{STR_VAR_2}级。$"
+	.string ""
 
 DayCare_Text_YourPartyIsFull::
-	.string "Your Pokémon party is full.\n"
-	.string "Make room, then come see me.$"
+	.string "你的同行宝可梦已经满了。\n请整理宝可梦后再来吧。$"
+	.string ""
 
 DayCare_Text_TakeBackWhichMon::
-	.string "どっちの　ポケモンを　ひきとるかい？$"
+	.string "你想领回哪只宝可梦？$"
 
 DayCare_Text_ItWillCostX::
-	.string "If you want your {STR_VAR_1} back,\n"
-	.string "it will cost ¥{STR_VAR_2}.$"
+	.string "如果领回{STR_VAR_1}，\n需要支付费用¥{STR_VAR_2}哦。$"
+	.string ""
 
 DayCare_Text_HeresYourMon::
-	.string "Perfect!\n"
-	.string "Here's your Pokémon.$"
+	.string "好的！\n这是你的宝可梦。$"
+	.string ""
 
 DayCare_Text_TookBackMon::
-	.string "{PLAYER} took back {STR_VAR_1} from\n"
-	.string "the DAY-CARE LADY.$"
+	.string "{PLAYER}把{STR_VAR_1}从\n培育婆婆那里领回来了。$"
+	.string ""
 
 DayCare_Text_YouHaveJustOneMon::
-	.string "Oh? But you have just one\n"
-	.string "Pokémon.\p"
-	.string "Come back another time.$"
+	.string "咦？你只有1只\n宝可梦呀。\p下次再来吧。$"
+	.string ""
+	.string ""
 
 DayCare_Text_TakeYourMonBack::
-	.string "Will you take your Pokémon back?$"
+	.string "要领回你的宝可梦吗？$"
 
 DayCare_Text_WhatWillYouBattleWith::
-	.string "If you leave me that Pokémon,\n"
-	.string "what will you battle with?\p"
-	.string "Come back another time.$"
+	.string "要是把那只宝可梦寄放在这里，\n你拿什么去对战呢？\p下次再来吧。$"
+	.string ""
+	.string ""
 
 DayCare_Text_Huh::
-	.string "Huh?$"
+	.string "哦……？$"

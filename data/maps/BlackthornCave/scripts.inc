@@ -31,25 +31,13 @@ BlackThornCave_Expert_2:
 
 
 BlackthornCave_Hint_Text_0:
-	.string "Noon o'clock, one to add,\n"
-	.string "another to subtract.$"
+	.string "正午时分，一格加上，\n另一格减去。$"
 
 BlackThornCave_Expert_Text_0:
-	.string "Now leave me be! I wish to meditate!$"
+	.string "让我一个人待着！我要冥想！$"
 
 BlackThornCave_Expert_Text_1:
-	.string "Hmph, \n"
-	.string "of course someone had figure it out.\p"
-	.string "I've been living as a hermit in this\n"
-	.string "cave to hone my martial and spiritual\l"
-	.string "talents.\p"
-	.string "I suppose you are expecting something\n"
-	.string "from me. Fine! Take this and leave.$"
+	.string "哼，\n果然有人解开了啊。\p我一直作为隐者\n在这洞窟里修行，\l磨炼武术与精神。\p看来你是想从我\n这里得到点什么。\l行吧！拿上这个，走吧。$"
 
 BlackThornCave_Expert_Text_2:
-	.string "I hear a batch of scrolls for evolving\n"
-	.string "that Pokémon were stolen by Team\l"
-	.string "Rocket.\p"
-	.string "Such an act of disgrace! If I was 30\n"
-	.string "years younger, I would hunt them down\l"
-	.string "myself!$"
+	.string "我听说，一批用来让\n那只宝可梦进化的挂轴\l被火箭队偷走了。\p真是丢人现眼！要是\n我再年轻30岁，一定\l亲手去追回来！$"

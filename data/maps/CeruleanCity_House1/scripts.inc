@@ -6,5 +6,5 @@ CeruleanCity_House1_EventScript_BadgeMan::
 	end
 
 CeruleanHouse1_Text_PokefanM:
-	.string "Are you collecting Kanto Gym\n"
-	.string "Badges?$"
+	.string "你在收集关都的\n道馆徽章吗？$"
+	.string ""

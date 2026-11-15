@@ -40,13 +40,7 @@ RegigigasSlumbers::
 
 
 MtSilver_Regigigas_Text_0:
-	.string "...!\p"
-	.string "The statue suddenly started moving\n"
-	.string "in reaction to your Pokémon!\p"
-	.string "The statue attacked!$"
+	.string "……！\p雕像在感应到你的宝可梦后，\n突然动了起来！\p雕像发动了攻击！$"
 
 RegigigasSlumbers_Text_0:
-	.string "A large, almost statue-like Pokémon\n"
-	.string "seems to be resting here.\p"
-	.string "...\p"
-	.string "It does not react to your presence.$"
+	.string "一只巨大得几乎像雕像的\n宝可梦，似乎正在这里\l休息。\p……\p它对你的到来\n没有任何反应。$"

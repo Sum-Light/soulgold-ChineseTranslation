@@ -77,104 +77,104 @@ GoldenrodCity_RadioTower_4F4_EventScript_Meowth::
 
 
 GoldenrodCity_RadioTower_4F4_Text_Proton_Seen:
-	.string "Proton: Now wait just one second!\p"
-	.string "Aren't you the one who got in our\n"
-	.string "way at Slowpoke Well?\p"
-	.string "I see... You're doing all this\n"
-	.string "because you want to make me angry.\l"
-	.string "Be careful!\p"
-	.string "But since you seem to wish it, I'll\n"
-	.string "show you the full extent of a Team\l"
-	.string "Rocket Executive's wrath!$"
+	.string "兰斯：等等，别急！\p在呆呆兽之井\n妨碍我们的，不就是你吗？\p我明白了……你这么做\n就是想惹我发火。\l小心点！\p既然你这么想，我就让你\n见识一下火箭队干部的\l怒火到底有多可怕！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_4F4_Text_Proton_Beaten:
-	.string "Phew...$"
+	.string "呼……$"
 
 GoldenrodCity_RadioTower_4F4_Text_Proton_After:
-	.string "Proton: You may have won this\n"
-	.string "time... But all you did was make\p"
-	.string "Team Rocket's wrath grow.$"
+	.string "兰斯：这次算你赢了……\n不过，你只是让火箭队的\p怒火烧得更旺而已。$"
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_4F4_Text_Fisher:
-	.string "I listened to the radio while I was\n"
-	.string "at the Ruins.\p"
-	.string "I heard a strange broadcast there.$"
+	.string "我去遗迹的时候，\n听了收音机。\p那边收到了一段\n很奇怪的广播。$"
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_4F4_Text_DJMary:
-	.string "Mary: Why? Why do I have to suffer\n"
-	.string "through this?\p"
-	.string "Meowth, help me!$"
+	.string "胡桃：为什么？为什么\n我非得受这种罪？\p喵喵，救救我！$"
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_4F4_Text_DJMaryCleared:
-	.string "Mary: Oh! You're my little savior!\p"
-	.string "Will you take this as my thanks?$"
+	.string "胡桃：哎呀！你可是我的小救星！\p这个就当作谢礼，\n你肯收下吗？$"
+	.string ""
 
 GoldenrodCity_RadioTower_4F4_Text_DJMaryPinkBow:
-	.string "Mary: It's good for dodging the\p"
-	.string "enemy's attacks.$"
+	.string "胡桃：有了它，就能躲开\p敌人的攻击。$"
+	.string ""
 
 GoldenrodCity_RadioTower_4F4_Text_DJMaryAfter:
-	.string "Mary: Please tune into me on Prof.\n"
-	.string "Oak's Pokémon Talk show!$"
+	.string "胡桃：请一定收听大木博士的\n宝可梦讲座，听我主持哦！$"
+	.string ""
 
 GoldenrodCity_RadioTower_4F4_Text_Meowth:
-	.string "Meowth: Meowth…$"
+	.string "喵喵：喵……$"
 
 GoldenrodCity_RadioTower_4F4_Text_GruntM10Seen:
-	.string "You plan to rescue the Director?\p"
-	.string "That won't be possible because I'm\n"
-	.string "going to beat you!$"
+	.string "你想救出局长？\p那是不可能的，\n因为我会把你打趴下！$"
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_4F4_Text_GruntM10Beaten:
-	.string "No! Unbelievable!$"
+	.string "不！难以置信！$"
 
 GoldenrodCity_RadioTower_4F4_Text_GruntM10After:
-	.string "I don't believe it! I was beaten!$"
+	.string "我不信！我居然输了！$"
 
 GoldenrodCity_RadioTower_4F4_Text_ExecutiveM2Seen:
-	.string "Stop! I'm known as the Team Rocket\n"
-	.string "fortress!\p"
-	.string "You're not taking another step!$"
+	.string "站住！我可是人称\n火箭队的堡垒！\p你休想再往前走一步！$"
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_4F4_Text_ExecutiveM2Beaten:
-	.string "The fortress came down!$"
+	.string "我这个堡垒……垮了！$"
 
 GoldenrodCity_RadioTower_4F4_Text_ExecutiveM2After:
-	.string "You've earned my respect, so here's\n"
-	.string "some advice.\p"
-	.string "It's not too late. You can still turn\n"
-	.string "back.$"
+	.string "你赢得了我的敬意，\n我劝你一句。\p现在还不晚，\n你还可以回头。$"
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_4F4_Text_GruntF4Seen:
-	.string "Don't I think Pokémon are cute?\p"
-	.string "I'll think my Pokémon are cute--\p"
-	.string "after they beat yours!$"
+	.string "问我觉不觉得宝可梦可爱？\p等我的宝可梦打赢你的，\p我才会觉得它们可爱！$"
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_4F4_Text_GruntF4Beaten:
-	.string "Oh, no! They're so useless!$"
+	.string "哎呀！真是没用的东西！$"
 
 GoldenrodCity_RadioTower_4F4_Text_GruntF4After:
-	.string "I love my beautiful self!\p"
-	.string "Who cares about Pokémon?$"
+	.string "我最爱的就是美丽的自己！\p宝可梦什么的，谁管啊？$"
+	.string ""
 
 GoldenrodCity_RadioTower_4F4_Text_ScientistRichSeen:
-	.string "Most excellent.\p"
-	.string "This Radio Tower will fulfill our\n"
-	.string "grand design.$"
+	.string "太棒了。\p这座播音塔，会让我们的\n宏伟计划得以实现。$"
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_4F4_Text_ScientistRichBeaten:
-	.string "Hmmm…\p"
-	.string "All grand plans come with snags.$"
+	.string "嗯……\p再宏伟的计划，也会遇到\n些许阻碍。$"
+	.string ""
 
 GoldenrodCity_RadioTower_4F4_Text_ScientistRichAfter:
-	.string "Do you honestly believe you can stop\n"
-	.string "Team Rocket?$"
+	.string "你真的以为，凭你就能\n阻止火箭队吗？$"
+	.string ""
 
 GoldenrodCity_RadioTower_4F4_Text_ProductionSign:
-	.string "4F Production$"
+	.string "4楼　制作部$"
 
 GoldenrodCity_RadioTower_4F4_Text_Studio2Sign:
-	.string "4F Studio 2$"
+	.string "4楼　第2演播室$"
 
 RadioF4_Mary3::
 	msgbox RadioF4_Mary3_Text_0
@@ -190,9 +190,7 @@ RadioF4_Mary3::
 
 
 RadioF4_Mary3_Text_0:
-	.string "Mary: Oh my little savior!\n"
-	.string "Won't you take this as my thanks?$"
+	.string "胡桃：哎呀，我的小救星！\n这个就当作谢礼，你肯收下吗？$"
 
 RadioF4_Mary3_Text_1:
-	.string "It's good for dodging enemy attacks!\n"
-	.string "My Meowth loves it!$"
+	.string "有了它，就能躲开敌人的攻击！\n我的喵喵最喜欢它了！$"

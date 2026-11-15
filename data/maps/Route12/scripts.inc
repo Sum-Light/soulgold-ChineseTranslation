@@ -42,59 +42,59 @@ Route12_EventScript_Tentacruel::
 	end
 
 Route12_Text_NewFisher:
-	.string "Careful, something vicious lives in\n"
-	.string "these waters.$"
+	.string "小心，这片水域里\n住着凶猛的家伙。$"
+	.string ""
 
 Route12_Text_FisherMartinSeen:
-	.string "Patience is the key to both\n"
-	.string "fishing and Pokémon.$"
+	.string "钓鱼和宝可梦\n都讲究耐心。$"
+	.string ""
 
 Route12_Text_FisherMartinBeaten:
-	.string "Gwaaah!$"
+	.string "哇啊啊！$"
 
 Route12_Text_FisherMartinAfterBattle:
-	.string "I'm too impatient for fishing…$"
+	.string "我这急性子\n实在不适合钓鱼……$"
 
 Route12_Text_FisherStephenSeen:
-	.string "I feel so content, fishing while\n"
-	.string "listening to some tunes on my\l"
-	.string "radio.$"
+	.string "一边钓鱼，\n一边听着收音机里的音乐，\l真是太惬意了。$"
+	.string ""
+	.string ""
 
 Route12_Text_FisherStephenBeaten:
-	.string "My stupid radio distracted me!$"
+	.string "都怪这破收音机\n分了我的心！$"
 
 Route12_Text_FisherStephenAfterBattle:
-	.string "Have you checked out Kanto's radio\n"
-	.string "programs? We get a good variety\l"
-	.string "here.$"
+	.string "你听过关都的电台节目吗？\n这边的节目\l种类可丰富了。$"
+	.string ""
+	.string ""
 
 Route12_Text_FisherBarneySeen:
-	.string "What's most important in our\n"
-	.string "everyday lives?$"
+	.string "日常生活中\n最重要的是什么？$"
+	.string ""
 
 Route12_Text_FisherBarneyBeaten:
-	.string "The answer is coming up next!$"
+	.string "答案马上揭晓！$"
 
 Route12_Text_FisherBarneyAfterBattle:
-	.string "I think electricity is the most\n"
-	.string "important thing in our daily\l"
-	.string "lives.\p"
-	.string "If it weren't, people wouldn't\n"
-	.string "have made such a fuss when the\l"
-	.string "Power Plant went out of\l"
-	.string "commission.$"
+	.string "我觉得日常生活中\n最重要的东西\l就是电。\p不然的话，\n发电厂停摆时\l大家也不会这么\l大惊小怪。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route12_Text_FisherKyleSeen:
-	.string "Do you remember?$"
+	.string "你还记得吗？$"
 
 Route12_Text_FisherKyleBeaten:
-	.string "You do remember?$"
+	.string "你真的记得？$"
 
 Route12_Text_FisherKyleAfterBattle:
-	.string "The tug you feel on the Rod when\n"
-	.string "you hook a Pokémon…\p"
-	.string "That's the best feeling ever for\n"
-	.string "an angler like me.$"
+	.string "钓上宝可梦时，\n钓竿传来的拉扯感……\p对钓鱼迷来说，\n那可是最棒的感觉。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route12_EventScript_Sign::
 	msgbox Route12_Text_Sign, MSGBOX_SIGN
@@ -105,9 +105,9 @@ Route12_EventScript_FishingSign::
 	end
 
 Route12_Text_Sign:
-	.string "Route 12\p"
-	.string "North To Lavender Town$"
+	.string "12号道路\p北　紫苑镇$"
+	.string ""
 
 Route12_Text_FishingSpotSign:
-	.string "Fishing Spot$"
+	.string "钓鱼点$"
 

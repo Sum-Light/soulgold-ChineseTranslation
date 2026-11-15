@@ -82,100 +82,100 @@ VermilionCity_FanClub_EventScript_Bayleef::
 
 
 PokemonFanClub_Text_Chairman_Intro:
-	.string "I'm the Chairman of the Pokémon\n"
-	.string "Fan Club.\p"
-	.string "I've raised over 150 Pokémon.\p"
-	.string "I'm very fussy when it comes to\n"
-	.string "Pokémon.\p"
-	.string "Did you visit just to hear about\n"
-	.string "my Pokémon?$"
+	.string "我是宝可梦发烧友俱乐部的\n会长。\p我培育的宝可梦\n超过了150只。\p一聊起宝可梦，我可是\n非常讲究的。\p你特地来，是想听听\n我的宝可梦的事吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 PokemonFanClub_Text_Chairman_Rapidash:
-	.string "Good! Then listen up!\p"
-	.string "So… my favorite Rapidash…\p"
-	.string "It… cute… lovely… smart…\n"
-	.string "unbearably…\l"
-	.string "plus… amazing… oh… you think\l"
-	.string "so?…\l"
-	.string "Too much… wild… beautiful…\l"
-	.string "kindly…\l"
-	.string "love it!\p"
-	.string "Hug it… when… sleeping… warm\n"
-	.string "and cuddly…\l"
-	.string "Oh, and… spectacular…\l"
-	.string "ravishing… simply divine…\p"
-	.string "Oops! Look at the time!\n"
-	.string "I've kept you too long!$"
+	.string "好！那你听好了！\p说起……我最喜欢的烈焰马……\p它……可爱……迷人……聪明……\n讨人喜欢得不得了……\l还有……惊人……哦……你觉得\l是吧？……\l太过头了……狂野……美丽……\l温柔……\l我爱死它了！\p抱着它……睡觉时……又暖\n又软……\l哦，还有……壮观……\l娇艳……简直是神圣……\p哎呀！都这个时间了！\n我留你太久了！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 PokemonFanClub_Text_Chairman_Gift:
-	.string "Thanks for hearing me out.\n"
-	.string "I want you to have this!$"
+	.string "谢谢你听我说完。\n这个就给你吧！$"
+	.string ""
 
 PokemonFanClub_Text_Chairman_Candy:
-	.string "It's a Rare Candy that makes\n"
-	.string "Pokémon stronger.\p"
-	.string "I prefer making my Pokémon\n"
-	.string "stronger by battling, so you\l"
-	.string "can have it.$"
+	.string "这是能让宝可梦变强的\n神奇糖果。\p我更喜欢靠对战让宝可梦\n变强，所以这个\l就给你吧。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 PokemonFanClub_Text_Chairman_MoreTales:
-	.string "Hello, {PLAYER}!\p"
-	.string "Did you come see me about my\n"
-	.string "Pokémon again?\p"
-	.string "No? Oh… I had more tales to\n"
-	.string "tell…$"
+	.string "你好，{PLAYER}！\p你又来听我讲\n宝可梦的事了吗？\p不是？哦……我本来还有\n更多故事想讲呢……$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 PokemonFanClub_Text_Chairman_Disappointed:
-	.string "How disappointing…\p"
-	.string "Come back if you want to listen.$"
+	.string "真失望……\p想听的话就再来吧。$"
+	.string ""
 
 PokemonFanClub_Text_Receptionist:
-	.string "Our Chairman is very vocal when\n"
-	.string "it comes to Pokémon…$"
+	.string "我们的会长一聊起宝可梦，\n话就特别多……$"
+	.string ""
 
 @=Clefairy=Guy=========================================================================================================
 PokemonFanClub_Text_ClefairyGuy_Adorable:
-	.string "I love the way Clefairy waggles\n"
-	.string "its finger when it's trying to\l"
-	.string "use Metronome.\p"
-	.string "It's so adorable!$"
+	.string "皮皮想用挥指时，会\n摇动它的手指，\l我最爱看那模样。\p真是太可爱了！$"
+	.string ""
+	.string ""
+	.string ""
 
 PokemonFanClub_Text_ClefairyGuy_MakingDo:
-	.string "I love Clefairy, but I could\n"
-	.string "never catch one.\p"
-	.string "So I'm making do with a\n"
-	.string "Poké Doll that I found.$"
+	.string "我很喜欢皮皮，可是\n怎么也抓不到。\p所以只好拿捡来的\n皮皮玩偶凑合着。$"
+	.string ""
+	.string ""
+	.string ""
 
 PokemonFanClub_Text_ClefairyGuy_ReturnDoll:
-	.string "Oh, I see now. The girl who lost\n"
-	.string "this Poké Doll is sad…\p"
-	.string "Ok. Could you take this Poké Doll\n"
-	.string "back to that poor little girl?\p"
-	.string "I'll befriend a real Clefairy on\n"
-	.string "my own one day. No worries!$"
+	.string "哦，我明白了。弄丢这个\n皮皮玩偶的女孩很伤心……\p好吧。能请你把这个皮皮玩偶\n还给那个可怜的小女孩吗？\p总有一天，我会靠自己的力量\n和真正的皮皮成为伙伴。别担心！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 PokemonFanClub_Text_ClefairyGuy_GoingToGetOne:
-	.string "You watch. I'm going to get a\n"
-	.string "real Clefairy as my friend.$"
+	.string "你等着瞧。我一定会和真正的\n皮皮成为伙伴的。$"
+	.string ""
 
 @============================================================================================================================
 
 PokemonFanClub_Text_Teacher:
-	.string "Look at my darling Bayleef!\p"
-	.string "The leaf on its head is so cute!$"
+	.string "你看我可爱的月桂叶！\p它头上的叶子太可爱了！$"
+	.string ""
 
 PokemonFanClub_Text_ClefairyDoll:
-	.string "It's a Clefairy! Huh?\p"
-	.string "Oh, right. It's a Clefairy Poké\n"
-	.string "Doll.$"
+	.string "是皮皮！咦？\p哦，对。是皮皮玩偶啊。$"
+	.string ""
+	.string ""
 
 PokemonFanClub_Text_Bayleef:
-	.string "Bayleef: Li liif!$"
+	.string "月桂叶：哩哩～$"
 
 PokemonFanClub_Text_Listen:
-	.string "Let's all listen politely to\n"
-	.string "other trainers.$"
+	.string "我们要有礼貌地听\n其他训练家说话。$"
+	.string ""
 
 PokemonFanClub_Text_Bragging:
-	.string "If someone brags, brag right\n"
-	.string "back!$"
+	.string "别人跟你炫耀，\n你就加倍炫耀回去！$"
+	.string ""

@@ -167,28 +167,28 @@ Route123_EventScript_RematchFernando::
 	end
 
 Route123_Text_LoveGrassMonsHaveAny:
-	.string "I love Grass-type Pokémon!\p"
-	.string "Do you have any Grass-type Pokémon?$"
+	.string "我喜欢草属性宝可梦！\p你有草属性宝可梦吗？$"
+	.string ""
 
 Route123_Text_YouLikeGrassMonsTooHaveThis:
-	.string "Oh?\p"
-	.string "You like Grass-type Pokémon, too,\n"
-	.string "don't you?\p"
-	.string "I'm so happy, you can have this!\n"
-	.string "It's a token of our friendship.$"
+	.string "哦？\p你也喜欢草属性\n宝可梦是吗？\p太高兴了，这个给你！\n这是我们友情的象征。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route123_Text_CheckTreesWithMyGrassMon:
-	.string "I check trees with my Grass-type\n"
-	.string "Pokémon. I'm like a tree doctor.$"
+	.string "我用草属性宝可梦\n检查树木。我就像树的医生。$"
+	.string ""
 
 Route123_Text_RouteSign:
-	.string "{RIGHT_ARROW} Route 123\n"
-	.string "{LEFT_ARROW} Route 118$"
+	.string "{RIGHT_ARROW}123号道路\n{LEFT_ARROW}118号道路$"
+	.string ""
 
 Route123_Text_RouteSignMtPyre:
-	.string "{UP_ARROW} Mt. Pyre\n"
-	.string "“Forbidden to the faint of heart.”$"
+	.string "{UP_ARROW}送神山\n“胆小者禁止进入。”$"
+	.string ""
 
 Route123_Text_BerryMastersHouse:
-	.string "Berry Master's House$"
+	.string "树果名人的家$"
 

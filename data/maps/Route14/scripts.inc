@@ -181,60 +181,60 @@ Route14_EventScript_Trevor::
 
 
 Route14_Text_Eusine:
-	.string "Eusine: {PLAYER}! Not again!\n"
-	.string "I'll be there first next time!\p"
-	.string "Having followed it here, I'm\n"
-	.string "starting to understand what Suicune\l"
-	.string "is after.\p"
-	.string "To be honest, I would like to keep\n"
-	.string "this information to myself.\p"
-	.string "But I want to be an honest trainer\n"
-	.string "in front of Suicune!\p"
-	.string "That's why I am sharing a clue with\n"
-	.string "you.\p"
-	.string "It seems that...\n"
-	.string "Suicune prefers a hilly place...\l"
-	.string "Near water...\l"
-	.string "Somewhere north...\p"
-	.string "I don't know exactly where yet.\n"
-	.string "It will just be you and me!\p"
-	.string "Who'll find it first?\n"
-	.string "I challenge you!$"
+	.string "米那君：{PLAYER}！又是这样！\n下次我一定比你先到！\p追着它来到这里，\n我渐渐明白\l水君想要做什么了。\p说实话，这些信息\n我本来想自己留着。\p但在水君面前，\n我想当一个诚实的训练家！\p所以，我分你一条线索。\p看来……\n水君喜欢地势高的地方……\l靠近水边……\l还要偏北……\p具体在哪里，我还不知道。\n这次就只有你和我！\p看谁先找到它？\n我向你发出挑战！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route14_Text_PokefanmCarterSeen:
-	.string "Let me tell you, I had a hard time\n"
-	.string "catching my prized Pokémon.$"
+	.string "跟你说，我抓到这只心爱的\n宝可梦可费了不少劲。$"
+	.string ""
 
 Route14_Text_PokefanmCarterBeaten:
-	.string "Awaaah!$"
+	.string "呜哇啊！$"
 
 Route14_Text_PokefanmCarterAfterBattle:
-	.string "Totodile, Cyndaquil, Chikorita…\p"
-	.string "I think that's a well-balanced mix.$"
+	.string "小锯鳄、火球鼠、菊草叶……\p我觉得这个搭配\n相当均衡。$"
+	.string ""
 
 Route14_Text_BirdKeeperRoySeen:
-	.string "My dream is to fly with my beloved\n"
-	.string "bird Pokémon.$"
+	.string "和心爱的鸟宝可梦\n一起飞翔，是我的梦想。$"
+	.string ""
 
 Route14_Text_BirdKeeperRoyBeaten:
-	.string "I can dream, but I can't ever fly…$"
+	.string "做梦可以，\n可我怎么也飞不起来……$"
 
 Route14_Text_BirdKeeperRoyAfterBattle:
-	.string "You have Pokémon that know the HM\n"
-	.string "move Fly, don't you? I envy you.$"
+	.string "你的宝可梦会秘传招式飞翔吧？\n真羡慕你。$"
+	.string ""
 
 Route14_Text_PokefanmTrevorSeen:
-	.string "Hi. Did you know…?\p"
-	.string "Pokémon get more friendly if you\n"
-	.string "train them in a place that they\n"
-	.string "remember.$"
+	.string "你好。你知道吗……？\p在宝可梦记得的地方训练，\n它会变得更亲近你。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route14_Text_PokefanmTrevorBeaten:
-	.string "Where did I meet this Scizor?$"
+	.string "我是在哪儿\n遇见这只巨钳螳螂的？$"
 
 Route14_Text_PokefanmTrevorAfterBattle:
-	.string "If only there were an easy way to\n"
-	.string "identify where I got my Pokémon…$"
+	.string "要是有个简单办法，\n能看出宝可梦的来处就好了……$"
+	.string ""
 
 Route14_EventScript_Pidgeotto::
 	lockall
@@ -324,11 +324,11 @@ Route14_Movement_StuckPidgeottoJump:
 	step_end
 
 Route14_Text_Pidgeotto:
-	.string "Pidgeotto: Kaaaaa!$"
+	.string "比比鸟：嘎啊啊啊！$"
 Route14_Text_PidgeottoBerry:
-	.string "Give the Pidgeotto a Berry?$"
+	.string "要给比比鸟树果吗？$"
 Route14_Text_PidgeottoAteBerry:
-	.string "Pidgeotto enjoyed the Qualot Berry!$"
+	.string "比比鸟高兴地吃下了比巴果！$"
 Route14_Text_PidgeottoTurnedAway:
-	.string "Pidgeotto doesn't like it!$"
+	.string "比比鸟不喜欢！$"
 

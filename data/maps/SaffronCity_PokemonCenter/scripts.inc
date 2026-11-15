@@ -25,25 +25,25 @@ SaffronCity_PokemonCenter_EventScript_Youngster::
 	end
 
 SaffronCity_PokemonCenter1F_Text_Teacher:
-	.string "What are Johto's Pokémon Centers\n"
-	.string "like?\p"
-	.string "…Oh, I see. So they're not much\n"
-	.string "different from the ones in Kanto.\p"
-	.string "I can go to Johto without\n"
-	.string "worrying, then!$"
+	.string "城都地区的宝可梦中心\n是什么样的呢？\p……哦，原来如此。看来和\n关都的没什么差别。\p那我可以放心去\n城都地区了！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_PokemonCenter1F_Text_Fisher:
-	.string "I just happened to come through\n"
-	.string "Rock Tunnel.\p"
-	.string "There was some commotion at the\n"
-	.string "Power Plant.$"
+	.string "我正好经过\n岩山隧道。\p发电厂那边好像\n出了什么乱子。$"
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_PokemonCenter1F_Text_Fisher_ReturnedPart:
-	.string "There's an odd cave in Cerulean.\p"
-	.string "As a pro Hiker, I should explore it,\n"
-	.string "but that place scares even me.$"
+	.string "华蓝有个奇怪的洞窟。\p身为专业的登山男，我本该\n去探一探，但那地方连我都怕。$"
+	.string ""
+	.string ""
 
 SaffronCity_PokemonCenter1F_Text_Youngster:
-	.string "Silph Co.'s Head Office and the\n"
-	.string "Magnet Train Station--they're the\l"
-	.string "places to see in Saffron.$"
+	.string "西尔佛公司的总部和\n磁浮列车车站——\l就是金黄市的名胜。$"
+	.string ""
+	.string ""

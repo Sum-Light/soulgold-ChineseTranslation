@@ -13,14 +13,14 @@ CeladonDept_EventScript_Directory::
 	end
 
 CeladonDeptStore4F_Text_SuperNerd:
-	.string "I'm here to buy Surf Mail to send\n"
-	.string "to my girlfriend.\p"
-	.string "Wait, they're out of stock?$"
+	.string "我来买冲浪邮件，\n想寄给我女朋友。\p等等，卖完了？$"
+	.string ""
+	.string ""
 
 CeladonDeptStore4F_Text_Youngster:
-	.string "This is the only place where you\n"
-	.string "can buy Lovely Mail.$"
+	.string "这里是唯一能买到\n可爱邮件的地方。$"
+	.string ""
 
 CeladonDeptStore4F_Text_Directory:
-	.string "Express Yourself With Gifts!\p"
-	.string "4F: Wiseman Gifts$"
+	.string "用礼物表达你的心意！\p4楼　智者礼品专柜$"
+	.string ""

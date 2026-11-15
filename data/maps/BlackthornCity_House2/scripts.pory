@@ -8,14 +8,12 @@ script Blackthorn_GabiteTrade {
     lock
     faceplayer
     if (flag(FLAG_BLACKTHORN_NPC_TRADE_COMPLETED)) {
-        msgbox("How has my Gabite been?")
+        msgbox("我的尖牙陆鲨过得还好吗？")
     } else {
-        ingame_trade(INGAME_TRADE_GABITE, "Hello. I gather Dragon-type Pokémon.
-                                           Do you have Dragonair? I'm willing to 
-                                           trade it for Gabite.", 
+        ingame_trade(INGAME_TRADE_GABITE, "你好。我在收集龙属性宝可梦。\n你有哈克龙吗？我愿意用它\l交换尖牙陆鲨。", 
                                          GabiteTrade_Declined,
                                          GabiteTrade_NotRequested,
-                                         "Thank you very much.")
+                                         "非常感谢。")
         setflag(FLAG_BLACKTHORN_NPC_TRADE_COMPLETED)
     }
     release
@@ -23,14 +21,13 @@ script Blackthorn_GabiteTrade {
 }
 
 script GabiteTrade_Declined {
-    msgbox("If you find one, come trade with me!")
+    msgbox("找到的话，就来和我交换吧！")
     release
     end                                 
 }
 
 script GabiteTrade_NotRequested {
-    msgbox("That doesn't look like a Dragonair to
-            me.")
+    msgbox("那看起来不像是哈克龙啊。")
     release
     end
 }

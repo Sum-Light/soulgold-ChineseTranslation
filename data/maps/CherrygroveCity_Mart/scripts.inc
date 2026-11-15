@@ -51,20 +51,20 @@ Cherrygrove_Pokemart_Pokemart:
 	end
 
 Cherrygrove_Pokemart_Text_CooltrainerM:
-	.string "They're fresh out of Poké Balls!\p"
-	.string "When will they get more of them?$"
+	.string "精灵球都卖光了！\p什么时候才能补货啊？$"
+	.string ""
 
 Cherrygrove_Pokemart_Text_CooltrainerM_PokeBallsInStock:
-	.string "Poké Balls are in stock!\n"
-	.string "Now I can catch Pokémon!$"
+	.string "精灵球有货了！\n这下我能抓宝可梦了！$"
+	.string ""
 
 Cherrygrove_Pokemart_Text_Youngster:
-	.string "When I was walking in the grass, a\n"
-	.string "bug Pokémon poisoned my Pokémon!\p"
-	.string "I just kept going, but then my\n"
-	.string "Pokémon fainted.\p"
-	.string "You should keep an Antidote\n"
-	.string "with you.$"
+	.string "我在草丛里走的时候，\n虫宝可梦让我的宝可梦中毒了！\p我硬撑着往前走，\n结果宝可梦昏了过去。\p你身上最好\n常备解毒药。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Cherrygrove_Mart2::
 	lock
@@ -92,11 +92,10 @@ Cherrygrove2:
 	.2byte ITEM_NONE
 
 Cherrygrove_Mart2_Text_0:
-	.string "We're still setting up, come back\n"
-	.string "a bit later.$"
+	.string "我们还在准备，\n请稍后再来。$"
 
 Cherrygrove_Mart2_Text_1:
-	.string "Welcome!$"
+	.string "欢迎光临！$"
 
 Cherrygrove_Mart2_Text_2:
-	.string "Come back soon.$"
+	.string "欢迎再次光临。$"

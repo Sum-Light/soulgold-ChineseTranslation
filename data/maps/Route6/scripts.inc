@@ -26,37 +26,37 @@ Route6_EventScript_Sign::
 	end
 
 Route6_Text_PokefanM:
-	.string "The road is closed until the\n"
-	.string "problem at the Power Plant is\l"
-	.string "solved.$"
+	.string "在无人发电厂的\n问题解决之前，\l这条路禁止通行。$"
+	.string ""
+	.string ""
 
 Route6_Text_UndergroundPathSign:
-	.string "Underground Path\p"
-	.string "Cerulean City - Vermilion City$"
+	.string "地下通道\p华蓝市——枯叶市$"
+	.string ""
 
 PokefanM_Text_RexSeen:
-	.string "My Stantler is the cutest in the\n"
-	.string "world.$"
+	.string "我的惊角鹿是全世界\n最可爱的。$"
+	.string ""
 
 PokefanM_Text_RexBeaten:
-	.string "My Stantler!$"
+	.string "我的惊角鹿！$"
 
 PokefanM_Text_RexAfter:
-	.string "Look how adorable my Stantler\n"
-	.string "acts!\p"
-	.string "Isn't it cute enough to make\n"
-	.string "your heart melt?$"
+	.string "你看我的惊角鹿\n多可爱！\p可爱得让人心都要\n融化了吧？$"
+	.string ""
+	.string ""
+	.string ""
 
 PokefanM_Text_AllanSeen:
-	.string "My Granbull is the cutest in the\n"
-	.string "world.$"
+	.string "我的布鲁皇是全世界\n最可爱的。$"
+	.string ""
 
 PokefanM_Text_AllanBeaten:
-	.string "My Granbull!$"
+	.string "我的布鲁皇！$"
 
 PokefanM_Text_AllanAfter:
-	.string "Look how adorable my Granbull\n"
-	.string "acts!\p"
-	.string "Isn't it cute enough to make\n"
-	.string "your heart melt?$"
+	.string "你看我的布鲁皇\n多可爱！\p可爱得让人心都要\n融化了吧？$"
+	.string ""
+	.string ""
+	.string ""
 

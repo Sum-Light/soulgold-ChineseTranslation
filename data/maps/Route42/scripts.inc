@@ -132,30 +132,30 @@ Route42_Movement_Eusine2:
 	step_end
 
 Route42_Text_EusineAdmireSuicune:
-	.string "Eusine: Suicune...\n"
-	.string "How brave it is!\p"
-	.string "How refreshing it is!\n"
-	.string "How beautiful it is!\p"
-	.string "And how quickly it moves!$"
+	.string "米那君：水君……\n多么勇敢！\p多么清爽！\n多么美丽！\p而且动作多么迅速！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route42_Text_EusineJealous:
-	.string "{PLAYER}!\p"
-	.string "You seem to be around where\n"
-	.string "Suicune would appear.\p"
-	.string "Well, that's Ok.\l"
-	.string "My desire to search for\n"
-	.string "Suicune is far beyond yours...\p"
-	.string "My grandpa was... quite into\n"
-	.string "myths.\p"
-	.string "I've heard so many stories\n"
-	.string "about Suicune from him.$"
+	.string "{PLAYER}！\p你好像总出现在\n水君会出现的地方。\p算了，没关系。\n我追寻水君的心情\l可比你强烈得多……\p我爷爷……对神话\n相当着迷。\p水君的故事，我从爷爷\n那儿听了不知多少。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route42_Text_EusineWontGiveUp:
-	.string "Suicune...\n"
-	.string "I won't stop following you\l"
-	.string "until I've found out what\l"
-	.string "you're after...\p"
-	.string "You hear me!$"
+	.string "水君……\n我会一直追着你，\l直到查明你究竟\l在追寻什么……\p你听见了吗！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 
 Route42_EventScript_Tully::
@@ -193,63 +193,63 @@ Route42_EventScript_Philip::
 	end
 
 Route42_Text_SawyerIntro:
-	.string "You there! fork over your\n"
-	.string "Pokémon!.$"
+	.string "喂，你！\n把宝可梦交出来！$"
+	.string ""
 
 Route42_Text_SawyerDefeat:
-	.string "Aiyaaaa!\n"
-	.string "Take my money instead!$"
+	.string "哎呀呀！\n那我付钱给你吧！$"
+	.string ""
 
 Route42_Text_SawyerPostBattle:
-	.string "I hear Team Rocket...\n"
-	.string "has been spotted nearby.$"
+	.string "听说有人在附近\n看见了火箭队……$"
+	.string ""
 
 Route42_Text_FisherTullySeen:
-	.string "Let me demonstrate the power\n"
-	.string "of the Pokémon I caught!$"
+	.string "让你见识一下我抓到的\n宝可梦有多强！$"
+	.string ""
 
 Route42_Text_FisherTullyBeaten:
-	.string "What? That's not right.\n"
-	.string "I can't believe this!$"
+	.string "什么？不可能。\n我简直不敢相信！$"
+	.string ""
 
 Route42_Text_FisherTullyAfter:
-	.string "I want to become the trainer\n"
-	.string "Champ using the Pokémon I\l"
-	.string "caught myself.\p"
-	.string "That's the best part of fishing!$"
+	.string "我想用自己亲手钓到的\n宝可梦\l成为训练家冠军。\p这才是钓鱼的最大乐趣！$"
+	.string ""
+	.string ""
+	.string ""
 
 Route42_Text_HikerBenjaminSeen:
-	.string "Ah, it's good to be outside!\n"
-	.string "I feel so free!$"
+	.string "啊，还是户外好啊！\n感觉真自由！$"
+	.string ""
 
 Route42_Text_HikerBenjaminBeaten:
-	.string "Gahahah! That was a good\n"
-	.string "battle!$"
+	.string "哇哈哈！打得真痛快！$"
+	.string ""
 
 Route42_Text_HikerBenjaminAfter:
-	.string "Losing feels insignificant\n"
-	.string "if you look up at the big sky!$"
+	.string "抬头看看广阔的天空，\n输赢就变得微不足道了！$"
+	.string ""
 
 Route42_Text_PokemaniacShaneSeen:
-	.string "Hey!\p"
-	.string "This is my secret place!\n"
-	.string "Get lost, you outsider!$"
+	.string "喂！\p这里是我的秘密地点！\n外人快走开！$"
+	.string ""
+	.string ""
 
 Route42_Text_PokemaniacShaneBeaten:
-	.string "I should have used my\n"
-	.string "Moon Stone…$"
+	.string "早知道就该用\n月之石的……$"
+	.string ""
 
 Route42_Text_PokemaniacShaneAfter:
-	.string "You're working on a Pokédex?\p"
-	.string "Wow, you must know some\n"
-	.string "pretty rare Pokémon!\p"
-	.string "May I please see it?\n"
-	.string "Please?$"
+	.string "你在收集宝可梦图鉴？\p哇，那你一定认识\n不少稀有的宝可梦！\p能让我看看吗？\n求你了！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route42_Text_Sign1:
-	.string "Route 42\p"
-	.string "Ecruteak City - Mahogany Town$"
+	.string "42号道路\p缘朱市——卡吉镇$"
+	.string ""
 
 Route42_Text_MtMortarSign1:
-	.string "Mt.Mortar\p"
-	.string "Waterfall Cave Inside$"
+	.string "擂钵山\p里面是攀瀑洞窟$"
+	.string ""

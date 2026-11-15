@@ -1,42 +1,17 @@
 mapscripts SouthPassageEnd_MapScripts {}
 
 script SouthPassageSign {
-    msgbox("Research Facility, keep out!
-    
-            The text is faded and difficult
-            to read.", MSGBOX_SIGN)
+    msgbox("研究所重地，闲人免进！\p文字已褪色，难以辨认。", MSGBOX_SIGN)
 }
 
 script SouthPassageAriana {
     lock
     faceplayer
-    msgbox("Oh. It's you.
-    
-            Didn't expect you to wander all the
-            way over here.")
+    msgbox("哦，是你啊。\p没想到你会跑到\n这种地方来。")
     turnobject(LOCALID_SP_ARIANA, DIR_NORTH)
-    msgbox("Archer sent me to check on something
-            here.
-            
-            This place had been conducting illegal
-            operations in the name of Team Rocket.
-            
-            Even Giovanni had not given an approval
-            for them. 
-            
-            Once he caught wind of it, he sent an
-            order to cease the operations and fired
-            all the scientists and grunts involved.")
+    msgbox("阿波罗派我来这里查点东西。\p这地方一直在以火箭队的\n名义从事非法活动。\p连坂木都没有批准过。\p他一得知消息，就下令\n停止这些活动，参与其中的\l科学家和手下全被开除了。")
     faceplayer
-    msgbox("They tried to burn all evidence, but
-            they were caught quickly.
-            
-            If you wish to explore around, then I'm 
-            not going to stop you, but don't expect
-            to find much.
-            
-            I got what I need already, so I'll be
-            heading back.")
+    msgbox("他们想烧掉所有证据，但很快\n就被抓住了。\p你想四处看看的话，我不拦你，\n但别指望能找到什么。\p我要的东西已经到手，\n这就回去了。")
     closemessage
     setfieldeffectargument(0, 1)
     dofieldeffect(FLDEFF_NPCFLY_OUT)

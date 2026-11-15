@@ -1,51 +1,35 @@
 mapscripts Gate_Route39North_MapScripts {}
 
 script Route39North_Police {
-    msgbox("If you want to head further north, you
-            should find yourself some protection
-            against the cold. The higher altitude
-            takes a toll on the body.", MSGBOX_NPC)
+    msgbox("再往北走的话，\n最好先准备好御寒的衣物。\l海拔一高，身体会吃不消的。", MSGBOX_NPC)
 }
 
 script Route39North_Elder {
-    msgbox("When I was younger, I would hike the
-            trail to the mountain every day, uphill
-            both ways! I didn't have any Pokémon
-            carrying me or any of those fancy bikes
-            you kids have these days!", MSGBOX_NPC)
+    msgbox("我年轻时每天都要徒步\n上山，来回全靠一双腿！\l哪像你们现在，有宝可梦驮，\l还有时髦的自行车！", MSGBOX_NPC)
 }
 
 script Route39North_Hiker {
     lock
     faceplayer
     if (flag(FLAG_R39_NORTH_ROCKY_HELMET)) {
-        msgbox("Rocky Helmet makes sure your enemies
-                will also suffer the pain they inflict
-                upon you!")
+        msgbox("凸凸头盔能让伤害你的对手，\n也尝到同样的痛楚！")
         release
         end
     }
-    msgbox("Tired of only taking the beating? Try
-            this!")
+    msgbox("总挨打，受够了吧？\n试试这个！")
     giveitem(ITEM_ROCKY_HELMET)
     setflag(FLAG_R39_NORTH_ROCKY_HELMET)
-    msgbox("That should put the pain back to your
-            enemies.")
+    msgbox("疼痛这下该回到对手身上了。")
     release
     end
 }
 
 script Route39North_Poster {
-    msgbox("There's a sign about a large bird 
-            Pokémon being sighted in the mountains.", MSGBOX_SIGN)
+    msgbox("告示上写着：\n有人在群山中目击到大型鸟宝可梦。", MSGBOX_SIGN)
 }
 
 script Route39North_Binoculars {
-    msgbox("You peer into the binoculars...
-            ...
-            ..!
-            A majestic snowy mountain towers in the
-            distance!", MSGBOX_SIGN)
+    msgbox("你朝望远镜里望去……\n……\l……！\l远处矗立着一座\l雄伟的雪山！", MSGBOX_SIGN)
 }
 
 
@@ -53,19 +37,12 @@ script Route39North_Gameboykid {
     lock
     faceplayer
     if (flag(FLAG_R39_NORTH_TRADE)) {
-        msgbox("I hear Rotom can possess common
-                household appliances to change
-                form.")
+        msgbox("听说洛托姆能附身在家用电器上，\n借此改变形态。")
     } else {
-        ingame_trade(INGAME_TRADE_ROTOM, "There's this rare Pokémon
-                                          I've been seeking for a while.
-                                          Would you happen to have a Zorua?
-                                          I would trade it for Rotom.", 
+        ingame_trade(INGAME_TRADE_ROTOM, "我找一只稀有宝可梦\n找了很久。\l你身上有索罗亚吗？\l我愿意用洛托姆跟你换。", 
                                          RotomTrade_Declined,
                                          RotomTrade_NotRequested,
-                                         "Much appreciated! I'm a huge fan
-                                         of Unova, I can't wait to show this
-                                         to my friends!")
+                                         "太感谢了！我可是合众地区的\n超级粉丝，真想快点给朋友看看！")
         setflag(FLAG_R39_NORTH_TRADE)
     }
     release
@@ -73,14 +50,13 @@ script Route39North_Gameboykid {
 }
 
 script RotomTrade_Declined {
-    msgbox("Shame, it is quite a rare Pokémon.")
+    msgbox("真遗憾，那可是相当稀有的宝可梦。")
     release
     end                                 
 }
 
 script RotomTrade_NotRequested {
-    msgbox("Uh, no, I don't think so.
-            That doesn't look like a Zorua.")
+    msgbox("呃，不行，不对。\n那看起来不像索罗亚。")
     release
     end
 }

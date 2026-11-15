@@ -52,15 +52,15 @@ BurnedTower_Movement_Eusine2:
 
 
 BurnedTower_1FEusineIntroText:
-	.string "Eusine: My name's Eusine.\p"
-	.string "I'm on the trail of a Pokémon\n"
-	.string "called Suicune.\p"
-	.string "And you are...?\p"
-	.string "{PLAYER}? Glad to meet you!\p"
-	.string "I heard Suicune might be in\n"
-	.string "this Burned Tower, so I came\l"
-	.string "to check it out.\p"
-	.string "But where exactly could it be?$"
+	.string "米那君：我叫米那君。\p我正在追寻一只\n名叫水君的宝可梦。\p你是……？\p{PLAYER}？很高兴认识你！\p听说水君可能就在\n这座烧焦塔里，\l所以我过来看看。\p可它到底会在哪里呢？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BurnedTower_1F_EventScript_Eusine::
 	lock
@@ -79,19 +79,19 @@ BurnedTower_1F_EventScript_Morty::
 	end
 
 BurnedTower_1FEusineText:
-	.string "Eusine: I heard Suicune might\n"
-	.string "be in this Burned Tower, so I\l"
-	.string "came to check it out.\p"
-	.string "But where exactly could it be?$"
+	.string "米那君：听说水君可能就在\n这座烧焦塔里，\l所以我过来看看。\p可它到底会在哪里呢？$"
+	.string ""
+	.string ""
+	.string ""
 
 BurnedTower_1FMortyText:
-	.string "Morty: Ecruteak's Gym Leader\n"
-	.string "has to study what are said to\l"
-	.string "be the legendary Pokémon--\l"
-	.string "Suicune, Entei and Raikou.\p"
-	.string "Eusine is here, so I've\n"
-	.string "decided to investigate the\l"
-	.string "Tower with him.$"
+	.string "松叶：圆朱的道馆馆主，\n必须研究被称为\l传说的宝可梦的\l水君、炎帝和雷公。\p既然米那君来了，\n我就决定和他一起\l调查这座塔。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BurnedTower_1F_EventScript_Silver::
 	lock
@@ -149,38 +149,38 @@ BurnedTower_1F_Silver_Battle_Chikorita::
 	return
 
 BurnedTowerSilver_BeforeText:
-	.string "..............................\p"
-	.string "...Oh, it's you.\p"
-	.string "I came looking for some\n"
-	.string "legendary Pokémon they say\l"
-	.string "roost here.\p"
-	.string "But there's nothing here!\p"
-	.string "Nothing, after all the effort\n"
-	.string "of coming to this dump?\l"
-	.string "No way!\p"
-	.string "It's all your fault!$"
+	.string "………………\p……哦，是你啊。\p听说有传说的宝可梦\n栖息在这里，\l我才过来找的。\p可这里什么都没有！\p特地跑到这种破地方来，\n结果却什么都没有？\l开什么玩笑！\p这全都怪你！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BurnedTowerSilver_WinText:
-	.string "...Humph!\p"
-	.string "I only lost because my\n"
-	.string "Pokémon are incredibly weak.\p"
-	.string "How pathetic.$"
+	.string "……哼！\p我会输，只是因为\n我的宝可梦太弱了。\p真没用。$"
+	.string ""
+	.string ""
+	.string ""
 
 BurnedTowerSilver_AfterText1:
-	.string "...Aw, whatever.\p"
-	.string "You'd never be able to catch\n"
-	.string "a legendary Pokémon anyway.$"
+	.string "……算了，无所谓。\p反正你也不可能\n抓到传说的宝可梦。$"
+	.string ""
+	.string ""
 
 BurnedTowerSilver_LossText:
-	.string "...Humph!\p"
-	.string "This is why I hate battling\n"
-	.string "wimps. It's a waste of time.$"
+	.string "……哼！\p所以我才讨厌和弱者对战，\n纯粹是浪费时间。$"
+	.string ""
+	.string ""
 
 BurnedTowerSilver_AfterText2:
-	.string "Humph!\p"
-	.string "What are you doing falling\n"
-	.string "into a hole? Some genius!\p"
-	.string "Serves you right!$"
+	.string "哼！\p居然会掉进洞里，\n你在干什么？真是个天才！\p活该！$"
+	.string ""
+	.string ""
+	.string ""
 
 BurnedTower_1F_EventScript_Nard::
 	trainerbattle_single TRAINER_NARD BurnedTower_Text_NardSeen, BurnedTower_Text_NardBeaten
@@ -193,23 +193,23 @@ BurnedTower_1F_EventScript_Richardo::
 	end
 
 BurnedTower_Text_NardSeen:
-	.string "Don't worry!\p"
-	.string "We fire-breathers know the true\n"
-	.string "power of fire better than anyone!$"
+	.string "别担心！\p我们喷火人比谁都清楚\n火焰真正的威力！$"
+	.string ""
+	.string ""
 BurnedTower_Text_NardBeaten:
-	.string "Thanks for such a heated battle!$"
+	.string "谢谢你带来这么火热的对战！$"
 BurnedTower_Text_NardAfter:
-	.string "The reason this tower's burned is\n"
-	.string "that it was hit by lightning.\p"
-	.string "The fire I'm breathing is tiny\n"
-	.string "in comparison...$"
+	.string "这座塔之所以会烧毁，\n是因为被雷击中了。\p跟那比起来，\n我喷出的火根本微不足道……$"
+	.string ""
+	.string ""
+	.string ""
 
 BurnedTower_Text_RichardoSeen:
-	.string "I'm practicing my stealing in the\n"
-	.string "Burned Tower! Don't try this at\p"
-	.string "home!$"
+	.string "我正在烧焦塔里\n练习偷东西！\p好孩子可不要模仿哦！$"
+	.string ""
+	.string ""
 BurnedTower_Text_RichardoBeaten:
-	.string "Pfffffffffffffff.$"
+	.string "噗噗噗噗噗……$"
 BurnedTower_Text_RichardoAfter:
-	.string "Maybe a life of crime isn't for\n"
-	.string "me...$"
+	.string "也许我不适合\n走犯罪这条路……$"
+	.string ""

@@ -13,24 +13,24 @@ Route12_House_EventScript_SuperRodGot::
 	end
 
 Route12_House_Text_OfferSuperRod:
-	.string "I'm the Fishing Guru's younger\n"
-	.string "brother.\p"
-	.string "I can see that you like fishing.\p"
-	.string "There's no doubt in my mind at\n"
-	.string "all!\p"
-	.string "So? I know I'm right.$"
+	.string "我是钓鱼名人的\n弟弟。\p我看得出来，\n你很喜欢钓鱼。\p我敢肯定，\n绝对错不了！\p怎么样？\n我没说错吧。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route12_House_Text_GiveSuperRod:
-	.string "Yes, yes. Just as I thought!\p"
-	.string "Here, fishing fan! Take this--\n"
-	.string "it's a Super Rod.$"
+	.string "好，好。果然不出我所料！\p来，钓鱼迷！\n这个给你——这是厉害钓竿。$"
+	.string ""
+	.string ""
 
 Route12_House_Text_GaveSuperRod:
-	.string "Try your hand at fishing wherever\n"
-	.string "there is water.\p"
-	.string "Remember--you can catch different\n"
-	.string "Pokémon using different Rods.$"
+	.string "有水的地方，\n都可以试试钓鱼。\p记住——不同的钓竿\n能钓到不同的宝可梦。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route12_House_Text_DontWantSuperRod:
-	.string "Huh? My own eyes deceived me?$"
+	.string "咦？\n难道我看走眼了？$"
 

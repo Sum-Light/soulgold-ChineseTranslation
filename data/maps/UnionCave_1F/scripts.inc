@@ -55,63 +55,63 @@ UnionCave_1F_EventScript_FirebreatherRay::
 	end	
 
 UnionCave_1F_Text_HikerRussellSeen:
-	.string "You're headed to Azalea, are you?\p"
-	.string "Let my Pokémon see if you are good\n"
-	.string "enough to battle.$"
+	.string "你要去桧皮镇吗？\p让我的宝可梦来试试，\n你有没有对战的实力。$"
+	.string ""
+	.string ""
 
 UnionCave_1F_Text_HikerRussellBeaten:
-	.string "Oh, oh, oh!$"
+	.string "哦，哦，哦！$"
 
 UnionCave_1F_Text_HikerRussellAfter:
-	.string "All right, then! I've decided.\p"
-	.string "I'm not leaving until my Pokémon\n"
-	.string "get tougher!$"
+	.string "好，就这么定了！\p在我的宝可梦变强之前，\n我哪儿也不去！$"
+	.string ""
+	.string ""
 
 UnionCave_1F_Text_PokemaniacLarrySeen:
-	.string "I roam far and wide in search of\n"
-	.string "Pokémon.\p"
-	.string "Are you looking for Pokémon too?\p"
-	.string "Then you're my collecting rival!$"
+	.string "我走遍各地寻找宝可梦。\p你也在找宝可梦吗？\p那你就是我的收集对手了！$"
+	.string ""
+	.string ""
+	.string ""
 
 UnionCave_1F_Text_PokemaniacLarryBeaten:
-	.string "Ugh. My poor Pokémon…$"
+	.string "唉。可怜的宝可梦……$"
 
 UnionCave_1F_Text_PokemaniacLarryAfter:
-	.string "Every Friday, you can hear Pokémon\n"
-	.string "roars from deep inside the cave.$"
+	.string "每到星期五，就能听见\n洞窟深处传来宝可梦的吼声。$"
+	.string ""
 
 UnionCave_1F_Text_HikerDanielSeen:
-	.string "Whoa! What a surprise!\p"
-	.string "I didn't expect to see anyone here!$"
+	.string "哇！吓我一跳！\p没想到这里居然有人！$"
+	.string ""
 
 UnionCave_1F_Text_HikerDanielBeaten:
-	.string "Whoa! I'm beaten big time!$"
+	.string "哇！输得一塌糊涂！$"
 
 UnionCave_1F_Text_HikerDanielAfter:
-	.string "I was conned into buying a\n"
-	.string "Slowpoketail.\p"
-	.string "I feel sorry for the poor Pokémon.$"
+	.string "我被人忽悠，\n买了一条呆呆兽的尾巴。\p那只宝可梦真可怜。$"
+	.string ""
+	.string ""
 
 UnionCave_1F_Text_FirebreatherBillSeen:
-	.string "Zubat's Supersonic keeps confusing\n"
-	.string "my Pokémon.\p"
-	.string "I'm seriously upset about that!$"
+	.string "超音蝠的超音波\n老是弄乱我的宝可梦。\p我真的很恼火！$"
+	.string ""
+	.string ""
 
 UnionCave_1F_Text_FirebreatherBillBeaten:
-	.string "I flamed out!$"
+	.string "我熄火了！$"
 
 UnionCave_1F_Text_FirebreatherBillAfter:
-	.string "On weekends, you can hear strange\n"
-	.string "roars from deep in the cave.$"
+	.string "一到周末，就能听见\n洞窟深处传来奇怪的吼声。$"
+	.string ""
 
 UnionCave_1F_Text_FirebreatherRaySeen:
-	.string "If it's light, a cave isn't scary.\p"
-	.string "If you're strong, Pokémon aren't\n"
-	.string "scary.$"
+	.string "只要有光，洞窟就不可怕。\p只要你够强，\n宝可梦就不可怕。$"
+	.string ""
+	.string ""
 
 UnionCave_1F_Text_FirebreatherRayBeaten:
-	.string "Flash!$"
+	.string "闪光！$"
 
 UnionCave_1F_Text_FirebreatherRayAfter:
-	.string "It's my Pokémon's fire that lights\n"
-	.string "up this cave.$"
+	.string "照亮这座洞窟的，\n是我宝可梦的火焰。$"
+	.string ""

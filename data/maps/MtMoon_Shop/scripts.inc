@@ -27,6 +27,6 @@ MtMoon_Shop_Pokemart:
 	end
 
 MtMoon_Shop_Text_GiftShopLass:
-	.string "When the sun goes down, Clefairy\n"
-	.string "come out to play.$"
+	.string "太阳下山后，皮皮就会\n出来玩耍。$"
+	.string ""
 

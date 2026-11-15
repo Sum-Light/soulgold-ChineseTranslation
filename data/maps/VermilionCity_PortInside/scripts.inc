@@ -12,12 +12,12 @@ VermilionPortIndoor_EventScript_Nerd::
 	end
 
 VermilionPortPassage_Text_Teacher:
-	.string "The Fast Ship sails every day!$"
+	.string "高速船每天都会出航！$"
 
 VermilionPort_Text_SuperNerd:
-	.string "You came from Johto?\p"
-	.string "I hear many rare Pokémon live\n"
-	.string "over there.$"
+	.string "您是从城都地区来的？\p听说那边住着许多\n珍稀的宝可梦。$"
+	.string ""
+	.string ""
 
 VermilionPort_EventScript_Sailor::
 	lock
@@ -172,46 +172,46 @@ VermilionPort_Movement_BoatLeave:
 	step_end
 
 VermilionPort_Text_SailorCantSail:
-	.string "There's been a break-in at the\n"
-	.string "Power Plant, so we cannot set sail\l"
-	.string "until the Thief is found.$"
+	.string "发电厂遭了贼，\n在找到小偷之前\l我们不能出航。$"
+	.string ""
+	.string ""
 
 VermilionPort_Text_NoPass:
-    .string "{PLAYER} tried to show the\n"
-    .string "{STR_VAR_1}…\p"
-    .string "…But no {STR_VAR_1}!\p"
-    .string "Sorry!\n"
-    .string "You may board only if you have an\l"
-    .string "{STR_VAR_1}.$"
+    .string "{PLAYER}想出示\n{STR_VAR_1}……\p……可是没有{STR_VAR_1}！\p抱歉！\n您必须持有\l{STR_VAR_1}才能上船。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 VermilionPort_Text_SailorGetOnBoard:
-    .string "We're departing soon.\n"
-    .string "Please get on board.$"
+    .string "马上就要出航了。\n请您上船吧。$"
+    .string ""
 
 VermilionPort_Text_CantBoard:
-    .string "Sorry. You can't board now.$"
+    .string "抱歉，您现在不能上船。$"
 
 VermilionPort_Text_WhereSail:
-    .string "Where would you like to sail?$"
+    .string "您想坐船去哪里？$"
 
 VermilionPort_Text_AskBoard:
-    .string "Welcome to Fast Ship S.S.Aqua.\p"
-    .string "Will you be boarding today?$"
+    .string "欢迎乘坐高速船水流号。\p您今天要乘船吗？$"
+    .string ""
 
 VermilionPort_Text_AskTicket:
-    .string "May I see your S.S.Ticket?$"
+    .string "能让我看一下您的船票吗？$"
 
 VermilionPort_Text_ComeAgain:
-    .string "We hope to see you again!$"
+    .string "欢迎您随时再来！$"
 
 VermilionPort_Text_FlashTicket:
-    .string "{PLAYER} flashed the S.S.Ticket.\p"
-    .string "That's it. Thank you!$"
+    .string "{PLAYER}出示了船票。\p没错，谢谢您！$"
+    .string ""
 
 VermilionPort_Text_NoTicket:
-    .string "{PLAYER} tried to show the\n"
-    .string "S.S.Ticket…\p"
-    .string "…But no Ticket!\p"
-    .string "Sorry!\n"
-    .string "You may board only\l"
-    .string "if you have an S.S.Ticket.$"
+    .string "{PLAYER}拿出了船票\n想出示给您……\p……可是没有船票！\p抱歉！\n您必须有船票\l才能上船。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""

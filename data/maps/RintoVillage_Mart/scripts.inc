@@ -33,16 +33,13 @@ RintoMart_Beauty::
 
 
 Rinto_Mart2_Text_0:
-	.string "Welcome! How may I help you?$"
+	.string "欢迎光临！您需要什么？$"
 
 Rinto_Mart2_Text_1:
-	.string "Come back soon!$"
+	.string "欢迎下次再来！$"
 
 RintoMart_Youngster_Text_0:
-	.string "Every Poké Mart in Johto stocks its\n"
-	.string "own selection of TMs.\p"
-	.string "Collecting them all gets expensive!$"
+	.string "城都的每家友好商店\n都备有自家的招式学习器。\p全都收集齐可是很花钱的！$"
 
 RintoMart_Beauty_Text_0:
-	.string "I'm just hanging out here for the air\n"
-	.string "conditioning.$"
+	.string "我只是来这儿蹭\n空调的。$"

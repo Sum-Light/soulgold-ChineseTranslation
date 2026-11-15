@@ -1,35 +1,28 @@
 mapscripts FoggyShore2_MapScripts {}
 
 script NijoTrainer {
-    trainerbattle_single(TRAINER_NIJO, "What are you doing here so far off the
-                                        beaten path?",
-                                        "You'll be fine.")
-    msgbox("Nearby path leads to a forest where
-            many get lost. 
-            
-            Be careful if you decide to 
-            venture there.", MSGBOX_AUTOCLOSE)
+    trainerbattle_single(TRAINER_NIJO, "这种荒郊野外，\n你跑这儿来做什么？",
+                                        "你不会有事的。")
+    msgbox("附近的小路通向一座森林，\n很多人都在里面迷了路。\p要是打算进去，\n可得当心点。", MSGBOX_AUTOCLOSE)
     end
 }
 
 script SaeTrainer {
-    trainerbattle_single(TRAINER_SAE, "A quiet beach, the perfect getaway!",
-                                        "Peace, ruined!")
-    msgbox("Not that many wander down here due to
-            the rumours of the spooky woods
-            nearby.", MSGBOX_AUTOCLOSE)
+    trainerbattle_single(TRAINER_SAE, "安静的海滩，最适合度假了！",
+                                        "清静全毁了！")
+    msgbox("因为附近有闹鬼树林的传闻，\n很少有人会到这儿来。", MSGBOX_AUTOCLOSE)
     end
 }
 
 script FoggyShoreSign {
-    msgbox("{UP_ARROW} Lost Woods", MSGBOX_SIGN)
+    msgbox("{UP_ARROW}迷失森林", MSGBOX_SIGN)
 }
 
 script FoggyShoreBuizel {
     lock
     faceplayer
     playmoncry(SPECIES_BUIZEL, CRY_MODE_NORMAL)
-    msgbox("Buizel: Buibuibuiiii!")
+    msgbox("泳圈鼬：噗咿噗咿噗咿——！")
     waitmoncry
     release
     end

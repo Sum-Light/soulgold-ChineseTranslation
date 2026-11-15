@@ -3,11 +3,8 @@ mapscripts SnowtopMountain_MapScripts {}
 script SnowtopMountain_Sage {
     lock
     faceplayer
-    msgbox("Only those who have proven themself to
-            be more than just the region's 
-            champion may proceed past 
-            here.")
-    msgbox("...You are not worthy yet.") // Postgame south johto champion needed
+    msgbox("只有证明了自己\n不仅仅是本地区冠军的人，\l才能从这里通过。")
+    msgbox("……你还没有资格。") // Postgame south johto champion needed
     release
     end
 }
@@ -16,7 +13,7 @@ script SnowtopMountain_Slowking {
     lock
     faceplayer
     playmoncry(SPECIES_SLOWKING, CRY_MODE_NORMAL)
-    msgbox("Slooooow...!")
+    msgbox("呆——呆……！")
     waitmoncry
     release
     end

@@ -49,31 +49,31 @@ Floor4_Urn2_2:
 
 
 Floor4_Ghost1_Text_0:
-	.string "Woo!$"
+	.string "呜！$"
 
 Floor4_Ghost1_Text_1:
-	.string "Woo...$"
+	.string "呜……$"
 
 Floor4_Ghost1_Text_2:
-	.string "Woowoo...$"
+	.string "呜呜……$"
 
 Floor4_Ghost2_Text_0:
-	.string "Give...$"
+	.string "给我……$"
 
 Floor4_Ghost2_Text_1:
-	.string "Taken...$"
+	.string "被拿走了……$"
 
 Floor4_Ghost2_Text_2:
-	.string "Lost...$"
+	.string "丢了……$"
 
 Floor4_Ghost3_Text_0:
-	.string "Do not release it!$"
+	.string "不要放它出来！$"
 
 Floor4_Ghost3_Text_1:
-	.string "It must be kept imprisoned...$"
+	.string "必须一直封印着……$"
 
 Floor4_Ghost3_Text_2:
-	.string "It shall consume you.$"
+	.string "它会把你也吞掉。$"
 
 Floor4_Urn1_Text_0:
-	.string "The urn is empty.$"
+	.string "瓮里已经空了。$"

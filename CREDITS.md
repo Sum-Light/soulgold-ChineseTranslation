@@ -133,3 +133,28 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 - [Data Files](https://www.pokecommunity.com/showthread.php?t=417909)
 - [Complete FireRed Upgrade](https://github.com/Skeli789/Complete-Fire-Red-Upgrade)
 - [pokeemerald](https://github.com/pret/pokeemerald/)
+
+
+### Additional glyph U+8535 (蔵)
+
+The normal glyph is from Ark Pixel Font 12px, version 2026.11.10, by TakWolf
+(https://github.com/TakWolf/ark-pixel-font). The small glyph is a pixel adaptation
+of the same character. These glyphs are licensed under the SIL Open Font License
+1.1; see graphics/fonts/ark_pixel_OFL.txt.
+
+### Chinese interface graphics
+
+Chinese interface graphics are reused and adapted from rh-hideout-chinese/pokeemerald-expansion
+(https://github.com/rh-hideout-chinese/pokeemerald-expansion), commit
+6e8bf4ab0bd334c2e59b2044b1156c39b4c818be, based on RHH (Rom Hacking Hideout)
+pokeemerald-expansion and pret/pokeemerald. Original contributor credits remain
+with the source project. Tile layout and palette adaptations retain Soulgold interface geometry.
+
+### Chinese type badges and summary labels
+
+The Chinese bitmap labels use Fusion Pixel Font 10px and 12px monospaced zh_Hans,
+version 2026.11.10, by TakWolf and upstream font contributors
+(https://github.com/TakWolf/fusion-pixel-font). Font copyright and bundled source
+licenses, including Ark Pixel, Boutique Bitmap 9x9, Cubic 11, and Galmuri, are
+preserved in graphics/fonts/fusion_pixel_OFL.txt (SIL OFL 1.1 and source notices).
+Soulgold's original badge symbols, palettes, and summary interface are retained.

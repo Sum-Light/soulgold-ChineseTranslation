@@ -307,10 +307,10 @@ static void PrintRegionMapSecName(void)
 
 static void PrintTitleWindowText(void)
 {
-    static const u8 sText_FlyPrompt[] = _("{A_BUTTON} Fly");
-    static const u8 sText_TrackPrompt[] = _("{R_BUTTON} Track");
-    static const u8 sText_ReturnToFlyPrompt[] = _("{R_BUTTON} Fly");
-    static const u8 sText_ReturnToMapPrompt[] = _("{R_BUTTON} Map");
+    static const u8 sText_FlyPrompt[] = _("{A_BUTTON} 飞翔");
+    static const u8 sText_TrackPrompt[] = _("{R_BUTTON} 追踪");
+    static const u8 sText_ReturnToFlyPrompt[] = _("{R_BUTTON} 飞翔");
+    static const u8 sText_ReturnToMapPrompt[] = _("{R_BUTTON} 地图");
     const u8 *text;
     u32 x;
 

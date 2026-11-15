@@ -63,51 +63,51 @@ GoldenrodCity_NameRatersHouse_EventScript_NewNameDifferent::
 	end
 
 GoldenrodCity_NameRatersHouse_Text_PleasedToRateMonNickname:
-	.string "Hi, hi! I'm the Name Rater!\n"
-	.string "I'm the fortune-teller of names!\p"
-	.string "I shall be pleased to rate your\n"
-	.string "Pokémon's nickname.$"
+	.string "嗨，嗨！我是姓名鉴定师！\n人称名字的占卜师！\p我很乐意为您的宝可梦\n鉴定一下昵称。$"
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_NameRatersHouse_Text_CritiqueWhichMonNickname:
-	.string "Which Pokémon's nickname should\n"
-	.string "I critique?$"
+	.string "要鉴定哪只宝可梦的\n昵称呢？$"
+	.string ""
 
 GoldenrodCity_NameRatersHouse_Text_FineNameSuggestBetterOne:
-	.string "Hmmm… {STR_VAR_1}, is it? That is\n"
-	.string "quite a fine name you bestowed.\p"
-	.string "But! What say you, if I were to\n"
-	.string "suggest a slightly better name?$"
+	.string "嗯……{STR_VAR_1}，是吗？\n这名字取得相当不错。\p不过！我要是给您提个\n更好一点的名字，如何？$"
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_NameRatersHouse_Text_WhatShallNewNameBe:
-	.string "Ah, good. Then, what shall the new\n"
-	.string "nickname be?$"
+	.string "啊，好的。那么，新的\n昵称要叫什么呢？$"
+	.string ""
 
 GoldenrodCity_NameRatersHouse_Text_MonShallBeKnownAsName:
-	.string "Done! From now on, this Pokémon\n"
-	.string "shall be known as {STR_VAR_1}!\p"
-	.string "It is a better name than before!\n"
-	.string "How fortunate for you!$"
+	.string "好了！从今以后，这只宝可梦\n就叫{STR_VAR_1}！\p这名字比原来更好！\n您真是有福气！$"
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_NameRatersHouse_Text_DoVisitAgain:
-	.string "I see.\n"
-	.string "Do come visit again.$"
+	.string "我明白了。\n欢迎您再来。$"
+	.string ""
 
 GoldenrodCity_NameRatersHouse_Text_NameNoDifferentYetSuperior:
-	.string "Done! From now on, this Pokémon\n"
-	.string "shall be known as {STR_VAR_1}!\p"
-	.string "It looks no different from before,\n"
-	.string "and yet, this is vastly superior!\p"
-	.string "How fortunate for you!$"
+	.string "好了！从今以后，这只宝可梦\n就叫{STR_VAR_1}！\p看起来和以前没什么两样，\n可这名字高明多了！\p您真是有福气！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_NameRatersHouse_Text_MagnificentName:
-	.string "Hmmm… {STR_VAR_1} it is!\p"
-	.string "This is a magnificent nickname!\n"
-	.string "It is impeccably beyond reproach!\p"
-	.string "You'll do well to cherish your\n"
-	.string "{STR_VAR_1} now and beyond.$"
+	.string "嗯……就叫{STR_VAR_1}！\p这是个绝妙的昵称！\n简直无可挑剔！\p从今往后，您可要好好\n珍惜{STR_VAR_1}。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_NameRatersHouse_Text_ThatIsMerelyAnEgg:
-	.string "Now, now.\n"
-	.string "That is merely an Egg!$"
+	.string "好了好了。\n那只是一颗蛋！$"
+	.string ""
 
 

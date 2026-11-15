@@ -1,14 +1,14 @@
 mapscripts GoldenrodCity_House4_MapScripts {}
 
 script Golderod_House4_Fatman {
-    msgbox(format("Some say once Pokémon reaches a certain level, it starts to gain more abilities. Could that be true?"), MSGBOX_NPC)
+    msgbox(format("听说宝可梦到了一定等级，\n就会获得更多特性。\l这是真的吗？"), MSGBOX_NPC)
 }
 
 script Goldenrod_House4_Venipede {
     lock
     faceplayer
     playmoncry(SPECIES_VENIPEDE, CRY_MODE_NORMAL)
-    msgbox("Hiss!")
+    msgbox("嘶——！")
     waitmoncry
     release
     end

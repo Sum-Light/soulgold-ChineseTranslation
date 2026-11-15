@@ -1,167 +1,167 @@
 CeladonCity_GameCorner_Text_TryPokemonPrinter::
-	.string "It's a Pokémon PRINTER!\p"
-	.string "It can put a print of your Pokémon\n"
-	.string "on the back of your TRAINER CARD.\p"
-	.string "It costs only ¥50.\n"
-	.string "Would you like to try it?$"
+	.string "是宝可梦打印机！\p可以把你的宝可梦\n印在训练家卡的背面。\p只需要¥50。\n要试试看吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CeladonCity_GameCorner_Text_DontHaveEnoughMoney::
-	.string "You don't have enough money.$"
+	.string "你的钱不够。$"
 
 CeladonCity_GameCorner_Text_ChoosePrintType::
-	.string "Please choose the print type.$"
+	.string "请选择打印的类型。$"
 
 CeladonCity_GameCorner_Text_BigSmileForPhoto::
-	.string "A big smile for the photo, please!\n"
-	.string "Three… Two… One…\p"
-	.string "Flash!$"
+	.string "要拍照了，笑一个！\n3……2……1……\p咔嚓！$"
+	.string ""
+	.string ""
 
 CeladonCity_GameCorner_Text_PrintIsReadyCheckTrainerCard::
-	.string "Your Pokémon print is ready!\n"
-	.string "Check your TRAINER CARD.$"
+	.string "宝可梦的照片印好了！\n请查看训练家卡。$"
+	.string ""
 
 FourIsland_House2_Text_WishICouldShowOffStickers::
-	.string "Giggle…\n"
-	.string "I collected a ton of STICKERS.\l"
-	.string "I wish I could show them off…$"
+	.string "嘻嘻……\n我收集了好多好多贴纸。\l真想拿出来炫耀一下……$"
+	.string ""
+	.string ""
 
 FourIsland_House2_Text_GiveYouStickerIfYouBrag::
-	.string "Oh, excellent!\n"
-	.string "You've come to the right place!\p"
-	.string "Look, look! See? See?\n"
-	.string "These are my STICKERS!\l"
-	.string "Look how many I got!\p"
-	.string "I bet you want some.\n"
-	.string "I bet you do!\p"
-	.string "I'll give a STICKER if you can tell\n"
-	.string "me something awesome about\l"
-	.string "yourself.\p"
-	.string "What will you brag about?$"
+	.string "哦，太好了！\n你来得正是地方！\p看，快看！看到了吗？\n这些是我的贴纸！\l看我有多少！\p你肯定很想要吧。\n肯定的！\p你要是能跟我说说\n自己有什么了不起的事，\l我就给你一张贴纸。\p你想炫耀什么呢？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 FourIsland_House2_Text_BragAboutSomethingForMe::
-	.string "Brag about something for me.\n"
-	.string "I'll give you a STICKER.$"
+	.string "跟我炫耀点什么吧。\n我会给你贴纸的。$"
+	.string ""
 
 FourIsland_House2_Text_BragAboutWhatToday::
-	.string "Oh, hi!\n"
-	.string "Here comes the braggart.\p"
-	.string "What are you going to brag about\n"
-	.string "today?$"
+	.string "哦，嗨！\n爱炫耀的人来了。\p今天你要\n炫耀什么呢？$"
+	.string ""
+	.string ""
+	.string ""
 
 FourIsland_House2_Text_WowHoFLowest::
-	.string "Oh, wow, you made it into the\n"
-	.string "HALL OF FAME.\p"
-	.string "That's pretty good, yup!\n"
-	.string "I'll give you one of these.$"
+	.string "哦，哇，\n你登入名人堂了啊。\p挺不错的嘛，嗯！\n这个给你一张。$"
+	.string ""
+	.string ""
+	.string ""
 
 FourIsland_House2_Text_WowHoFLow::
-	.string "Oh, wow, you've entered the\n"
-	.string "HALL OF FAME often!\p"
-	.string "That's impressive, yup!\n"
-	.string "I'll give you one of these.$"
+	.string "哦，哇，\n你登入名人堂好多次了！\p真了不起，嗯！\n这个给你一张。$"
+	.string ""
+	.string ""
+	.string ""
 
 FourIsland_House2_Text_WowHoFHigh::
-	.string "Whoa! You've made it into the\n"
-	.string "HALL OF FAME that often?\l"
-	.string "That's seriously incredible, yup!\p"
-	.string "You own the Pokémon LEAGUE!\n"
-	.string "I'll give you one of these.$"
+	.string "哇！\n你登入名人堂这么多次了？\l这可真是不得了，嗯！\p宝可梦联盟简直是你的天下！\n这个给你一张。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 FourIsland_House2_Text_WowHoFHighest::
-	.string "No way! You've gone into the\n"
-	.string "HALL OF FAME that many times?\p"
-	.string "You're beyond incredible, yup!\n"
-	.string "That's it, I have to give you this.$"
+	.string "不会吧！\n你居然登入名人堂那么多次？\p你已经厉害得没法形容了，嗯！\n没办法，这个必须给你。$"
+	.string ""
+	.string ""
+	.string ""
 
 FourIsland_House2_Text_HoFStickerApplied::
-	.string "The HALL OF FAME STICKER was\n"
-	.string "applied to the TRAINER CARD.$"
+	.string "名人堂贴纸\n贴到训练家卡上了。$"
+	.string ""
 
 FourIsland_House2_Text_ComeBackWithBetterStoryHoF::
-	.string "Hmm…\p"
-	.string "Come back with a better story next\n"
-	.string "time, okay?$"
+	.string "嗯……\p下次带个更厉害的故事\n再来吧，好吗？$"
+	.string ""
+	.string ""
 
 FourIsland_House2_Text_LivingLegendHoF::
-	.string "Oh, no, no can do.\p"
-	.string "You're practically a living legend.\n"
-	.string "I have no SITCKERS left to give.$"
+	.string "哎呀，不行不行。\p你简直就是活着的传说。\n我已经没有贴纸可以给你了。$"
+	.string ""
+	.string ""
 
 FourIsland_House2_Text_WowEggsLowest::
-	.string "Oh, wow, there are Pokémon EGGS?\n"
-	.string "I didn't know that!\p"
-	.string "That's pretty good, yup!\n"
-	.string "I'll give you one of these.$"
+	.string "哦，哇，宝可梦还有蛋？\n我都不知道！\p挺不错的嘛，嗯！\n这个给你一张。$"
+	.string ""
+	.string ""
+	.string ""
 
 FourIsland_House2_Text_WowEggsLow::
-	.string "You've hatched that many EGGS?\n"
-	.string "You really must like them!\p"
-	.string "That's impressive, yup!\n"
-	.string "I'll give you one of these.$"
+	.string "你孵了那么多蛋？\n你一定很喜欢蛋吧！\p真了不起，嗯！\n这个给你一张。$"
+	.string ""
+	.string ""
+	.string ""
 
 FourIsland_House2_Text_WowEggsHigh::
-	.string "Whoa! You've hatched a whole\n"
-	.string "bunch of EGGS!\p"
-	.string "You're an EGG-hatching machine!\n"
-	.string "I'll give you one of these.$"
+	.string "哇！\n你孵了一大堆蛋啊！\p你简直是台孵蛋机器！\n这个给你一张。$"
+	.string ""
+	.string ""
+	.string ""
 
 FourIsland_House2_Text_WowEggsHighest::
-	.string "Wh… You hatched that many EGGS?\p"
-	.string "What's behind your love of EGGS?\n"
-	.string "It's beyond incredible, yup!\p"
-	.string "You're too awesome, I tell you.\n"
-	.string "That's it, I have to give you this.$"
+	.string "什……你孵了那么多蛋？\p你到底为什么这么喜欢蛋啊？\n已经厉害得没法形容了，嗯！\p我说，你也太了不起了。\n没办法，这个必须给你。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 FourIsland_House2_Text_EggStickerApplied::
-	.string "The EGG STICKER was applied\n"
-	.string "to the TRAINER CARD.$"
+	.string "蛋贴纸\n贴到训练家卡上了。$"
+	.string ""
 
 FourIsland_House2_Text_ComeBackWithBetterStoryEggs::
-	.string "Hmm…\p"
-	.string "Come back with a better story next\n"
-	.string "time, okay?$"
+	.string "嗯……\p下次带个更厉害的故事\n再来吧，好吗？$"
+	.string ""
+	.string ""
 
 FourIsland_House2_Text_LivingLegendEggs::
-	.string "Oh, no, no can do.\p"
-	.string "You're practically a living legend.\n"
-	.string "I have no SITCKERS left to give.$"
+	.string "哎呀，不行不行。\p你简直就是活着的传说。\n我已经没有贴纸可以给你了。$"
+	.string ""
+	.string ""
 
 FourIsland_House2_Text_WowLinkWinsLowest::
-	.string "Oh, wow, you've had success\n"
-	.string "link battling?\p"
-	.string "You're pretty strong, yup!\n"
-	.string "I'll give you one of these.$"
+	.string "哦，哇，\n你在连接对战中赢过啊？\p你挺强的嘛，嗯！\n这个给你一张。$"
+	.string ""
+	.string ""
+	.string ""
 
 FourIsland_House2_Text_WowLinkWinsLow::
-	.string "You've beaten your friends a lot\n"
-	.string "link battling, huh?\p"
-	.string "You're impressively strong, yup!\n"
-	.string "I'll give you one of these.$"
+	.string "你在连接对战中\n赢了朋友好多次啊？\p你强得让人佩服，嗯！\n这个给你一张。$"
+	.string ""
+	.string ""
+	.string ""
 
 FourIsland_House2_Text_WowLinkWinsHigh::
-	.string "Whoa! You've beaten your friends\n"
-	.string "a frightful number of times.\p"
-	.string "Have you lost friends over this?\n"
-	.string "I'll give you one of these.$"
+	.string "哇！你赢朋友的次数\n多得吓人啊。\p你该不会因此没朋友了吧？\n这个给你一张。$"
+	.string ""
+	.string ""
+	.string ""
 
 FourIsland_House2_Text_WowLinkWinsHighest::
-	.string "Wh… Wickedly whoa!\n"
-	.string "You've won mind-blowingly often!\p"
-	.string "It just knocks me out thinking\n"
-	.string "about how tough you are.\p"
-	.string "You're the stuff of nightmares!\n"
-	.string "That's it, I have to give you this.$"
+	.string "什……太夸张了吧！\n你赢的次数多得让人头晕！\p光是想想你有多强，\n我就要晕过去了。\p你简直是噩梦般的存在！\n没办法，这个必须给你。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 FourIsland_House2_Text_VictoryStickerApplied::
-	.string "The VICTORY STICKER was applied\n"
-	.string "to the TRAINER CARD.$"
+	.string "胜利贴纸\n贴到训练家卡上了。$"
+	.string ""
 
 FourIsland_House2_Text_ComeBackWithBetterStoryLinkWins::
-	.string "Hmm…\p"
-	.string "Come back with a better story next\n"
-	.string "time, okay?$"
+	.string "嗯……\p下次带个更厉害的故事\n再来吧，好吗？$"
+	.string ""
+	.string ""
 
 FourIsland_House2_Text_LivingLegendLinkWins::
-	.string "Oh, no, no can do.\p"
-	.string "You're practically a living legend.\n"
-	.string "I have no SITCKERS left to give.$"
+	.string "哎呀，不行不行。\p你简直就是活着的传说。\n我已经没有贴纸可以给你了。$"
+	.string ""
+	.string ""

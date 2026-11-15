@@ -10,14 +10,14 @@ LavenderTown_Mart_EventScript_Rocker::
 	end
 
 LavenderMart_Text_PokefanM:
-	.string "Repel is a necessity if you are\n"
-	.string "going to explore a cave.\p"
-	.string "Even though I like exploring,\n"
-	.string "I still haven't made it to all\l"
-	.string "the caves.$"
+	.string "进洞穴探险的话，\n除虫喷雾可是必需品。\p我虽然很喜欢探险，\n但还没能走遍\l所有的洞穴。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LavenderMart_Text_Rocker:
-	.string "I heard about a craftsman who\n"
-	.string "makes custom Balls in the Johto\l"
-	.string "town of Azalea.\p"
-	.string "I wish I had some.$"
+	.string "我听说在城都地区的\n桧皮镇，有位工匠\l能定做精灵球。\p真希望我也能弄到几个。$"
+	.string ""
+	.string ""
+	.string ""

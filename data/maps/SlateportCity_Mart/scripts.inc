@@ -33,14 +33,14 @@ SlateportCity_Mart_EventScript_Man::
 	end
 
 SlateportCity_Mart_Text_SomeItemsOnlyAtMart:
-	.string "The Market does have some interesting\n"
-	.string "merchandise.\p"
-	.string "But there are some items you can only\n"
-	.string "get at a Pokémon Mart.$"
+	.string "市场里有些很有趣的\n商品，\p但有些东西只有\n在友好商店才能买到。$"
+	.string ""
+	.string ""
+	.string ""
 
 SlateportCity_Mart_Text_GreatBallIsBetter:
-	.string "A Great Ball is better than a Poké Ball\n"
-	.string "at catching Pokémon.\p"
-	.string "With this, I should be able to get that\n"
-	.string "elusive Pokémon…$"
+	.string "用超级球比精灵球\n更容易捕捉宝可梦。\p我可以用它捕捉那些\n比较难捕捉的宝可梦……$"
+	.string ""
+	.string ""
+	.string ""
 

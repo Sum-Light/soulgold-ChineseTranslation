@@ -26,21 +26,21 @@ CianwoodHouse2_EventScript_Twin::
 	end
 	
 CianwoodCity_Text_LugiaHouseTeacher:
-	.string "You came from Olivine?\p"
-	.string "Do you remember the four islands\n"
-	.string "along the way?\p"
-	.string "I heard that a mythical sea crea-\n"
-	.string "ture is hiding in them.$"
+	.string "你是从浅葱市来的吧？\p路上那四座岛，\n你记得吗？\p听说有传说中的海中生物\n就藏在里面。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CianwoodCity_Text_LugiaHouseLass:
-	.string "I heard that you can only see it\n"
-	.string "if you have a Silver Wing.\p"
-	.string "It must have the same scent as\n"
-	.string "the creature.$"
+	.string "听说只有拿着银色之羽，\n才能见到它。\p它身上一定有和那生物\n相同的气味。$"
+	.string ""
+	.string ""
+	.string ""
 
 CianwoodCity_Text_LugiaHouseTwin:
-	.string "I've heard that the whirlpools\n"
-	.string "around the islands are caused by\l"
-	.string "the sea creature.\p"
-	.string "You might need a special move\n"
-	.string "to get past them.$"
+	.string "听说那几座岛周围的漩涡，\n是那只海中生物\l造成的。\p要过去的话，也许需要\n特别的招式。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""

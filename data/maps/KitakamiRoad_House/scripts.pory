@@ -5,78 +5,34 @@ script KitakamiBorder_VictiniLady {
     faceplayer
 
     if (flag(FLAG_GOT_VICTINI)) {
-        msgbox("Victini chose well.
-
-                Keep our Leaders ambitious, won't
-                you? 
-                
-                Retirement gets dreadfully dull 
-                otherwise.")
+        msgbox("比克提尼选得不错。\p可要让我们的馆主们\n保持进取心啊？\p不然退休生活\n就太无聊了。")
         release
         end
     }
 
     if (!flag(FLAG_IS_CHAMPION)) {
         if (!flag(FLAG_MET_VICTINI_LADY)) {
-            msgbox("I once served on Johto's Gym
-                    Leader Board.
-
-                    Don't look so impressed. It was
-                    mostly budgets, bickering, and
-                    bruised egos.")
-            msgbox("These days, I watch promising
-                    Trainers.
-
-                    You look like you are still a bit
-                    wet behind the ears.
-                    
-                    Still, I'll keep an eye on you.")
+            msgbox("我曾在城都地区的\n道馆馆主委员会任职。\p别一副很佩服的样子。\n那工作多半就是算预算、\l吵架、伤面子。")
+            msgbox("这些日子，我在观察\n有前途的训练家。\p你看起来还乳臭未干。\p不过，我会盯着你的。")
             setflag(FLAG_MET_VICTINI_LADY)
             release
             end
         }
 
-        msgbox("Still finding your footing? Good.
-
-                I'll keep an eye on you. Try to give
-                me something worth watching.")
+        msgbox("还在摸索门道？很好。\p我会盯着你的。拿出点\n值得一看的东西来。")
         release
         end
     }
 
     if (!flag(FLAG_STARTED_VICTINI_QUEST)) {
         if (!flag(FLAG_MET_VICTINI_LADY)) {
-            msgbox("I once served on Johto's Gym
-                    Leader Board.
-
-                    Don't look so impressed. It was
-                    mostly budgets, bickering, and
-                    bruised egos.")
-            msgbox("A Champion, are you? Good.
-
-                    Titles make some Trainers soft.
-                    Let's see what you're made of.")
+            msgbox("我曾在城都地区的\n道馆馆主委员会任职。\p别一副很佩服的样子。\n那工作多半就是算预算、\l吵架、伤面子。")
+            msgbox("成为冠军了？很好。\p头衔会让一些训练家\n变得软弱。让我看看你的本事。")
             setflag(FLAG_MET_VICTINI_LADY)
         } else {
-            msgbox("So, our promising Trainer is
-                    a Champion now.
-
-                    Not bad. 
-                    
-                    Do stop looking so pleased though.
-                    Titles breed complacency.")
+            msgbox("我们寄予厚望的训练家，\n如今是冠军了。\p不错。\p不过别一脸得意。\n头衔会滋生自满。")
         }
-        msgbox("I may be retired, but I still
-                cultivate talent.
-
-                Help me test whether the current Gym 
-                Leaders are still fit for their jobs.
-
-                Beat all eight Leaders at their full
-                strength. 
-                
-                Make them grow and nurture your
-                own potential further.")
+        msgbox("我虽然退休了，\n但仍在培养人才。\p帮我验证一下，现任道馆馆主\n是否还胜任他们的工作。\p去战胜全部八位馆主，\n让他们拿出全部实力。\p让他们成长，也让你自己的\n潜力得到进一步的培养。")
         setflag(FLAG_STARTED_VICTINI_QUEST)
         release
         end
@@ -94,27 +50,9 @@ script KitakamiBorder_VictiniLady {
         applymovement(LOCALID_VICTINI_LADY, Common_Movement_ExclamationMark)
         waitmovement(0)
         delay(30)
-        msgbox("Well, well. All eight, beaten at
-                their best.
-
-                You didn't merely collect victories.
-
-                You gave every one of them a reason
-                to keep striving for even greater
-                heights.")
-        msgbox("I hope they learned as much from
-                those battles as you did.
-
-                If not, I'll send them a very
-                pointed memo.")
-        msgbox("Talent like yours deserves a proper
-                investment.
-
-                Take this Victini. 
-                
-                It seems rather fond of you now, 
-                having watched you grow stronger 
-                through every victory.")
+        msgbox("哎呀呀。八位馆主\n全都拿出了真本事。\p你不只是在收集胜利。\p你让每一位馆主都有了理由，\n去追求更高的境界。")
+        msgbox("希望他们从那些对战里学到的，\n不比你少。\p要是没有，我就给他们\n寄一份措辞严厉的通知。")
+        msgbox("像你这样的才能，\n值得好好投资。\p这只比克提尼，拿去吧。\p看着你在每一场胜利中变强，\n它现在似乎很喜欢你。")
         closemessage
         delay(30)
         setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_VICTINI)
@@ -126,21 +64,12 @@ script KitakamiBorder_VictiniLady {
         setflag(FLAG_GOT_VICTINI)
         special(Achievement_CheckAll)
         delay(60)
-        msgbox("Don't look so stunned. I said I
-                nurture the region's elite.
-
-                Now off you go. I'm quite busy
-                despite being retired.")
+        msgbox("别一脸目瞪口呆。我说过，\n我在培养本地区的精英。\p好了，去吧。我虽然退休了，\n可忙得很呢。")
         release
         end
     }
 
-    msgbox("Back already? Unless all eight Leaders
-            have shown you their full strength,
-            you're wasting both our time.
-
-            Go on. Inspire some hope in
-            this old lady.")
+    msgbox("又回来了？除非八位馆主\n都向你展示了全部实力，\l不然你就是在浪费\l我们两个人的时间。\p去吧。让我这个老太婆\n看到点希望。")
     release
     end
 }

@@ -12,15 +12,15 @@ Gate_SaffronCity_Route6_EventScript_Guard2::
 	end
 
 Route6_Text_SaffronGuardWelcome:
-	.string "Welcome to Saffron City, home of\n"
-	.string "the Magnet Train!\p"
-	.string "…That's what I'd normally say,\n"
-	.string "but the Magnet Train isn't\l"
-	.string "running now.\p"
-	.string "It's not getting any electricity\n"
-	.string "because there's something wrong\l"
-	.string "with the Power Plant.$"
+	.string "欢迎来到金黄市，\n磁浮列车的故乡！\p……平时我都会这么说的，\n不过磁浮列车现在\l停运了。\p因为无人发电厂出了故障，\n列车断了电，\l开不动了。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route6_Text_SaffronGuardMagnetTrain:
-	.string "The Magnet Train is the most\n"
-	.string "famous thing about Saffron.$"
+	.string "金黄市最有名的，\n就是磁浮列车了。$"
+	.string ""

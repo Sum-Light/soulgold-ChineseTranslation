@@ -12,26 +12,26 @@ SSAqua_RoomNE_EventScript_Ethan::
 	end
 
 SSAqua_RoomNE_Text_HikerNolandSeen:
-    .string "Are you alone?\n"
-    .string "Then let's battle!$"
+    .string "你是一个人吗？\n那就来对战吧！$"
+    .string ""
 
 SSAqua_RoomNE_Text_HikerNolandBeaten:
-    .string "That's too much to handle!$"
+    .string "这可应付不来！$"
 
 SSAqua_RoomNE_Text_HikerNolandAfterBattle:
-    .string "I wonder if there are any\n"
-    .string "mountains worth climbing in Kanto?$"
+    .string "不知道关都有没有\n值得一爬的山？$"
+    .string ""
 
 SSAqua_RoomNE_Text_PokemaniacEthanSeen:
-    .string "Do you know Lily?\n"
-    .string "She's a hot Dj in Kanto.$"
+    .string "你知道莉莉吗？\n她是关都当红的DJ。$"
+    .string ""
 
 SSAqua_RoomNE_Text_PokemaniacEthanBeaten:
-    .string "Gyaaaah!$"
+    .string "哇啊啊！$"
 
 SSAqua_RoomNE_Text_PokemaniacEthanAfterBattle:
-    .string "Lily's nice, but\n"
-    .string "Mary's the best!\n"
-    .string "I want to check\n"
-    .string "out Johto's radio\n"
-    .string "programs!$"
+    .string "莉莉是不错，但胡桃最棒！\n我想听城都的广播节目！$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""

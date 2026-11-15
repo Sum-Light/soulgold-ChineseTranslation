@@ -179,51 +179,51 @@ DragonsDen_Shrine_EventScript_ElderQuizFinish::
 
 
 DragonsDen_Shrine_Text_ElderGreeting:
-    .string "Hm… Good to see you here.\p"
-    .string "No need to explain why you came.\n"
-    .string "Clair sent you here, didn't she?\p"
-    .string "That girl is a handful…\n"
-    .string "I am sorry, but I must test you.\p"
-    .string "Not to worry, you are to answer\n"
-    .string "only a few questions.\l"
-    .string "Ready?$"
+    .string "嗯……很高兴你能来。\p不必解释你的来意。\n是小椿让你来的吧？\p那孩子真叫人头疼……\n抱歉，我必须考验你一下。\p不必担心，\n你只需回答几个问题。\l准备好了吗？$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 DragonsDen_Shrine_Text_Question1:
-    .string "What are Pokémon to you?$"
+    .string "对你来说，宝可梦是什么？$"
 
 DragonsDen_Shrine_Text_Question2:
-    .string "What helps you to win battles?$"
+    .string "是什么帮助你赢得对战？$"
 
 DragonsDen_Shrine_Text_Question3:
-    .string "What kind of trainer do you wish\n"
-    .string "to battle?$"
+    .string "你希望和什么样的训练家\n对战？$"
+    .string ""
 
 DragonsDen_Shrine_Text_Question4:
-    .string "What is most important for\n"
-    .string "raising Pokémon?$"
+    .string "培育宝可梦，\n最重要的是什么？$"
+    .string ""
 
 DragonsDen_Shrine_Text_Question5:
-    .string "Strong Pokémon. Weak Pokémon.\n"
-    .string "Which is more important?$"
+    .string "强大的宝可梦，弱小的宝可梦。\n哪一个更重要？$"
+    .string ""
 
 DragonsDen_Shrine_Text_WrongAnswer1:
-    .string "Hah? I didn't quite catch that…$"
+    .string "啊？我没太听清……$"
 
 DragonsDen_Shrine_Text_WrongAnswer2:
-    .string "What was it you said?$"
+    .string "你刚才说什么？$"
 
 DragonsDen_Shrine_Text_RightAnswer:
-    .string "Oh, I understand…$"
+    .string "哦，我明白了……$"
 
 DragonsDen_Shrine_Text_PassedTest:
-    .string "Hm… I see…\p"
-    .string "You care deeply for Pokémon.\p"
-    .string "Very commendable.\p"
-    .string "That conviction is what is\n"
-    .string "important!\p"
-    .string "{PLAYER}, don't lose that belief.\p"
-    .string "It will see you through at the\n"
-    .string "Pokémon League.$"
+    .string "嗯……原来如此……\p你非常珍惜宝可梦。\p很值得称赞。\p这份信念才是\n最重要的！\p{PLAYER}，不要丢掉这份信念。\p它会帮助你\n闯过宝可梦联盟。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 DragonsDen_Shrine_EventScript_ClairEnter::
 	clearflag FLAG_HIDE_DRAGONS_DEN_SHRINE_CLAIR
@@ -349,61 +349,61 @@ DragonsDen_Shrine_Movement_ClairLeave:
 	step_end
 
 DragonsDen_Shrine_Text_ClairYouPassed:
-    .string "So how did it go?\p"
-    .string "I guess there's no point\n"
-	.string "in asking. You did fail?\p"
-    .string "..................................\p"
-    .string "…What? You passed?$"
+    .string "结果怎么样？\p我看也用不着问了。\n你没通过吧？\p………………\p……什么？你通过了？$"
+    .string ""
+	.string ""
+    .string ""
+    .string ""
 
 DragonsDen_Shrine_Text_ClairThatCantBe:
-    .string "That can't be!$"
+    .string "这不可能！$"
 
 DragonsDen_Shrine_Text_ClairYoureLying:
-    .string "You're lying!\p"
-    .string "Even I haven't been approved!$"
+    .string "你骗人！\p连我都还没得到认可呢！$"
+    .string ""
 
 DragonsDen_Shrine_Text_MustIInformLance:
-    .string "Clair!\p"
-    .string "This child is impeccable,\n"
-    .string "in skill and spirit!\p"
-    .string "Admit defeat and confer the\n"
-    .string "Risingbadge!\p"
-    .string "…Or must I inform Lance of this?$"
+    .string "小椿！\p这孩子无论实力还是心性，\n都无可挑剔！\p认输吧，\n把升龙徽章颁给这孩子！\p……还是要我把这事告诉阿渡？$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 DragonsDen_Shrine_Text_IUnderstand:
-    .string "I-I understand…$"
+    .string "我、我明白了……$"
 
 DragonsDen_Shrine_Text_HereRisingBadge:
-    .string "Here, this is the Risingbadge…\p"
-    .string "Hurry up! Take it!$"
+    .string "给，这就是升龙徽章……\p快点！拿去！$"
+    .string ""
 
 DragonsDen_Shrine_Text_PlayerReceivedRisingBadge:
-    .string "{PLAYER} received Risingbadge.$"
+    .string "{PLAYER}得到了升龙徽章。$"
 
 DragonsDen_Shrine_Text_RisingBadgeExplanation:
-    .string "Risingbadge will enable your\n"
-    .string "Pokémon to use the move for\l"
-    .string "climbing waterfalls.\p"
-    .string "Also, all Pokémon will recognize\n"
-    .string "you as a trainer and obey your\l"
-    .string "every command without question.$"
+    .string "有了升龙徽章，\n你的宝可梦就能使用\l攀登瀑布的招式。\p另外，所有的宝可梦都会\n认可你这位训练家，\l无条件服从你的每一个命令。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 DragonsDen_Shrine_Text_ElderScoldsClair:
-    .string "Clair…\p"
-    .string "Reflect upon what it is that you\n"
-    .string "lack and this child has.$"
+    .string "小椿……\p好好反省一下，这孩子拥有\n而你所欠缺的究竟是什么。$"
+    .string ""
+    .string ""
 
 DragonsDen_Shrine_Text_Speechless:
     .string "..................................$"
 
 DragonsDen_Shrine_Text_ComeAgain:
-    .string "Come again, if you so desire.$"
+    .string "若你愿意，随时可以再来。$"
 
 DragonsDen_Shrine_Text_SilverIsInTraining:
-    .string "A boy close to your age is in\n"
-    .string "training here.\p"
-    .string "He is much like Clair when she was\n"
-    .string "younger. It is a little worrisome…$"
+    .string "有个和你年纪相仿的少年\n正在这里修行。\p他很像年轻时的小椿，\n让人有些担心……$"
+    .string ""
+    .string ""
+    .string ""
 
 DragonsDen_Shrine_EventScript_Elder2::
 	msgbox DragonsDen_Shrine_Text_Elder2, MSGBOX_NPC
@@ -422,10 +422,10 @@ DragonsDen_Shrine_EventScript_Elder3::
 	end
 
 DragonsDen_Shrine_Text_Elder2:
-    .string "It's been quite some time since a\n"
-    .string "trainer has gained our Master's\l"
-    .string "rare approval.\p"
-    .string "In fact, not since Master Lance.$"
+    .string "已经很久没有训练家\n能得到长老\l难得的认可了。\p事实上，上一位还是阿渡大人。$"
+    .string ""
+    .string ""
+    .string ""
 
 DragonsDen_Shrine_EventScript_DracoMeteorDeclined::
 	msgbox DragonsDen_Shrine_Text_DracoMeteorDeclined, MSGBOX_DEFAULT
@@ -438,21 +438,21 @@ DragonsDen_Shrine_EventScript_DracoMeteorTaught::
 	end
 
 DragonsDen_Shrine_Text_DracoMeteorTeach:
-    .string "Only the strongest Dragon Pokémon\n"
-    .string "can master Draco Meteor.\p"
-    .string "Would you like me to teach it to\n"
-    .string "one of your Pokémon?$"
+    .string "只有最强的龙属性宝可梦\n才能掌握流星群。\p要我把它教给\n你的一只宝可梦吗？$"
+    .string ""
+    .string ""
+    .string ""
 
 DragonsDen_Shrine_Text_DracoMeteorWhichMon:
-    .string "Which Pokémon should learn\n"
-    .string "Draco Meteor?$"
+    .string "要让哪只宝可梦\n学习流星群？$"
+    .string ""
 
 DragonsDen_Shrine_Text_DracoMeteorDeclined:
-    .string "Come back whenever you wish to\n"
-    .string "master the ultimate Dragon move.$"
+    .string "想掌握龙属性的终极招式时，\n随时再来吧。$"
+    .string ""
 
 DragonsDen_Shrine_Text_DracoMeteorTaught:
-    .string "May Draco Meteor serve you well.$"
+    .string "愿流星群能助你一臂之力。$"
 
 DragonsDen_Shrine_EventScript_ElderChooseDratini::
 	goto_if_eq VAR_DRAGONS_DEN_QUIZ, 0, DragonsDen_Shrine_EventScript_ElderGiveSpecialDratini
@@ -492,19 +492,19 @@ DragonsDen_Shrine_EventScript_ElderAlreadyGotDratini::
 	end
 
 DragonsDen_Shrine_Text_TakeThisDratini:
-    .string "Hm… Good to see you here.\p"
-    .string "Your arrival is most fortunate.\p"
-    .string "I have something for you.\p"
-    .string "Take this Dratini as proof that I\n"
-    .string "have recognized your worth.$"
+    .string "嗯……很高兴你能来。\p你来得正是时候。\p我有东西要给你。\p收下这只迷你龙吧，\n作为我认可你的证明。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 DragonsDen_Shrine_Text_SymbolicDragon:
-    .string "Dragon Pokémon are symbolic of our\n"
-    .string "clan.\p"
-    .string "You have shown that you can be\n"
-    .string "entrusted with one.$"
+    .string "龙属性宝可梦是\n我们一族的象征。\p你已经证明，\n自己值得托付一只。$"
+    .string ""
+    .string ""
+    .string ""
 
 DragonsDen_Shrine_Text_ClairsGrandfather:
-    .string "Clair appears to have learned an\n"
-    .string "invaluable lesson from you.\p"
-    .string "I thank you as her grandfather.$"
+    .string "小椿似乎从你身上\n学到了宝贵的一课。\p作为她的祖父，我要谢谢你。$"
+    .string ""
+    .string ""

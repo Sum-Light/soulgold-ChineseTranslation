@@ -32,12 +32,12 @@ Route25_EventScript_MistyRematch::
     end
 
 Route25_Text_Misty:
-    .string "Misty: I love the sunset here!\n"
-	.string "It gives me the courage to go on,\l"
-	.string "you know?\p"
-	.string "Right!\p"
-	.string "If you're ready for a real splash,\n"
-	.string "meet me at the Fighting Dojo!$"
+    .string "小霞：我好喜欢这里的夕阳！\n它给了我继续\l前进的勇气，你懂吗？\p没错！\p要是想来一场真正痛快的\n较量，就到格斗道场来找我吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route25_EventScript_Dudley::
 	trainerbattle_single TRAINER_DUDLEY Route25_Text_SchoolboyDudleySeen, Route25_Text_SchoolboyDudleyBeaten
@@ -184,31 +184,31 @@ Route25_EventScript_SuicuneMerge::
 	end
 	
 Route25_Text_Eusine1:
-	.string "Eusine: Puff, puff...\n"
-	.string "I am... no match for you.\p"
-	.string "...As I predicted.\n"
-	.string "..........................\l"
-	.string "... Go ahead.\p"
-	.string "Since I met you in the Burned Tower\n"
-	.string "at Ecruteak City, I've sort of\l"
-	.string "known that Suicune would choose\l"
-	.string "you.$"
+	.string "米那君：呼，呼……\n我……完全不是你的对手。\p……果然如我所料。\n………………\l……去吧。\p自从在缘朱市的烧焦塔\n遇见你，我就隐约\l觉得水君一定会\l选中你。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route25_Text_Eusine2:
-	.string "Take a look at it!\p"
-	.string "Suicune is waiting for you!\n"
-	.string "It has been waiting for a battle\l"
-	.string "with a worthy trainer to whom it\l"
-	.string "can entrust itself.$"
+	.string "你看吧！\p水君在等着你！\n它一直在等一场战斗，\l等一位值得\l它托付的训练家来交手。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route25_Text_Eusine3:
-	.string "{PLAYER}...\n"
-	.string "You two are truly amazing...\p"
-	.string "I have never seen a battle this\n"
-	.string "intense!\l"
-	.string "I have no regrets...\p"
-	.string "Farewell, Suicune!\n"
-	.string "Farewell... {PLAYER}!$"
+	.string "{PLAYER}……\n你们俩真是太厉害了……\p我从没见过这么\n激烈的对战！\l我没什么遗憾了……\p再见了，水君！\n再见了……{PLAYER}！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route25_EventScript_Eusine::
 	msgbox Route25_Text_Eusine2, MSGBOX_NPC
@@ -372,126 +372,126 @@ Route25_Movement_MistyWalkToPlayerLeft:
 	step_end
 
 Route25_Text_MistyDate:
-	.string "Misty: Aww! Why did you have to\n"
-	.string "show up and bug us now?\p"
-	.string "Do you know what they call\n"
-	.string "people like you?\p"
-	.string "Pests! You heard me right,\n"
-	.string "pest!\p"
-	.string "…\p"
-	.string "…Oh? Those Badges you have…\n"
-	.string "Are they Johto Gym Badges?\p"
-	.string "If you have eight, you must be\n"
-	.string "good.\p"
-	.string "Ok, then. Come to Cerulean Gym.\p"
-	.string "I'll be happy to take you on.\p"
-	.string "I'm Misty, the Gym Leader in\n"
-	.string "Cerulean.$"
+	.string "小霞：哎呀！你为什么\n偏偏这时候来捣乱？\p你知道大家怎么称呼\n你这种人吗？\p捣乱鬼！听到了吗，\n捣乱鬼！\p……\p……哦？你那些徽章……\n是城都地区的道馆徽章？\p要是集齐了八个，\n你就算有本事了。\p好，那就这样。\n到华蓝道馆来吧。\p我很乐意当你的对手。\p我是小霞，\n华蓝道馆的馆主。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route25_Text_SchoolboyDudleySeen:
-	.string "Beat the six of us trainers to\n"
-	.string "win a fabulous prize!\p"
-	.string "Think you've got what it takes?$"
+	.string "打赢我们六个训练家，\n就能拿到豪华奖品！\p你觉得你行吗？$"
+	.string ""
+	.string ""
 
 Route25_Text_SchoolboyDudleyBeaten:
-	.string "Whoo! Good stuff.$"
+	.string "嚯！打得不错。$"
 
 Route25_Text_SchoolboyDudleyAfter:
-	.string "I did my best.\n"
-	.string "I have no regrets.$"
+	.string "我已尽力，\n没有遗憾。$"
+	.string ""
 
 Route25_Text_LassEllenSeen:
-	.string "I'm second.\n"
-	.string "Now it's serious!$"
+	.string "我是第二个。\n接下来是动真格的了！$"
+	.string ""
 
 Route25_Text_LassEllenBeaten:
-	.string "How could I lose?$"
+	.string "我怎么可能会输？$"
 
 Route25_Text_LassEllenAfter:
-	.string "I did my best.\n"
-	.string "I have no regrets.$"
+	.string "我已尽力，\n没有遗憾。$"
+	.string ""
 
 Route25_Text_SchoolboyJoeSeen:
-	.string "Here's No. 3!\n"
-	.string "I won't be easy.$"
+	.string "3号登场！\n我可不会轻易输。$"
+	.string ""
 
 Route25_Text_SchoolboyJoeBeaten:
-	.string "Ow! Stomped flat!$"
+	.string "哎哟！被踩扁了！$"
 
 Route25_Text_SchoolboyJoeAfter:
-	.string "I did my best.\n"
-	.string "I have no regrets.$"
+	.string "我已尽力，\n没有遗憾。$"
+	.string ""
 
 Route25_Text_LassLauraSeen:
-	.string "I'm No. 4!\n"
-	.string "Getting tired?$"
+	.string "我是4号！\n开始累了吧？$"
+	.string ""
 
 Route25_Text_LassLauraBeaten:
-	.string "I lost too…$"
+	.string "我也输了……$"
 
 Route25_Text_LassLauraAfter:
-	.string "I did my best.\n"
-	.string "I have no regrets.$"
+	.string "我已尽力，\n没有遗憾。$"
+	.string ""
 
 Route25_Text_CamperLloydSeen:
-	.string "Ok! I'm No. 5.\n"
-	.string "I'll stomp you!$"
+	.string "好！我是5号。\n我要把你踩扁！$"
+	.string ""
 
 Route25_Text_CamperLloydBeaten:
-	.string "Whoa! Too much.$"
+	.string "哇！太强了。$"
 
 Route25_Text_CamperLloydAfter:
-	.string "I did my best.\n"
-	.string "I have no regrets.$"
+	.string "我已尽力，\n没有遗憾。$"
+	.string ""
 
 Route25_Text_LassShannonSeen:
-	.string "I'm the last in line, but I tell\n"
-	.string "you, I'm tough!$"
+	.string "我是排在最后的，\n不过我告诉你，我很强！$"
+	.string ""
 
 Route25_Text_LassShannonBeaten:
-	.string "You're kidding.$"
+	.string "骗人的吧。$"
 
 Route25_Text_LassShannonAfter:
-	.string "I did my best.\n"
-	.string "I have no regrets.$"
+	.string "我已尽力，\n没有遗憾。$"
+	.string ""
 
 Route25_Text_SupernerdPatSeen:
-	.string "Mufufufu…\p"
-	.string "I have nothing to do with the\n"
-	.string "six-pack trainers.\p"
-	.string "I waited here to beat you when\n"
-	.string "you were tired out by all the\l"
-	.string "battles.$"
+	.string "呋呋呋……\p我跟那六个训练家\n没有半点关系。\p我是等在这里，趁你\n被他们打得精疲力尽，\l再来打倒你的。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route25_Text_SupernerdPatBeaten:
-	.string "Aren't you tired at all?$"
+	.string "你就一点都不累吗？$"
 
 Route25_Text_SupernerdPatAfter:
-	.string "I'm sorry… I won't cheat\n"
-	.string "anymore…$"
+	.string "对不起……我再也不\n耍诈了……$"
+	.string ""
 
 Route25_Text_CooltrainerKevinNugget:
-	.string "You took on one more battle than\n"
-	.string "you expected, but you won\l"
-	.string "anyway.\p"
-	.string "As promised, you win a prize.$"
+	.string "你比预想的多打了\n一场对战，\l可还是赢了。\p按约定，奖品归你了。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route25_Text_CooltrainerKevinSeen:
-	.string "But after seeing how you battle,\n"
-	.string "I want to see how I'll fare.\p"
-	.string "How about it? Let me take you\n"
-	.string "on.$"
+	.string "可是看了你的对战，\n我也想试试身手了。\p怎么样？让我来做\n你的对手吧。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route25_Text_CooltrainerKevinBeaten:
-	.string "I've never had a battle this\n"
-	.string "good!$"
+	.string "我从没打过\n这么精彩的对战！$"
+	.string ""
 
 Route25_Text_CooltrainerKevinAfter:
-	.string "That was a great battle!\p"
-	.string "You and your Pokémon are truly\n"
-	.string "outstanding!$"
+	.string "真是一场精彩的对战！\p你和你的宝可梦\n真的很出色！$"
+	.string ""
+	.string ""
 
 Route25_Text_BillsHouseSign:
-	.string "Sea Cottage\n"
-	.string "Bill's House$"
+	.string "海角的小屋\n正辉的家$"
+	.string ""
 

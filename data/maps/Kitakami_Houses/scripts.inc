@@ -134,96 +134,49 @@ KitakamiHouses_2_Steven_Movement_0:
 	step_end
 
 KitakamiHouses_1_Oldman_Text_0:
-	.string "Come back tomorrow when I have\n"
-	.string "prepared another batch!$"
+	.string "等我明天做好下一批，\n你再来吧！$"
 
 KitakamiHouses_1_Oldman_Text_1:
-	.string "Ho ho ho! \p"
-	.string "I'm the best candy baker in the\n"
-	.string "entire Johto! \p"
-	.string "Here, have some from my daily batch!$"
+	.string "呵呵呵！\p我可是整个城都地区\n最棒的糖果师傅！\p来，尝尝我今天的这一批！$"
 
 KitakamiHouses_3_Sinistea_Text_0:
-	.string "Sinistea: Siii!$"
+	.string "来悲茶：嘶——！$"
 
 KitakamiHouses_2_Steven_Text_0:
-	.string "That face of determination... I assume\n"
-	.string "you have become the Champion of Johto?\p"
-	.string "...\p"
-	.string "Impressive! I was right about your\n"
-	.string "potential as a trainer.\p"
-	.string "I'd be more than happy to battle you\n"
-	.string "now, if you are alright with that.$"
+	.string "那副下定决心的表情……\n你是成为城都的冠军了吗？\p……\p了不起！我没看错\n你作为训练家的潜力。\p如果你不介意，\n我现在就很乐意和你对战。$"
 
 KitakamiHouses_2_Steven_Text_1:
-	.string "Are you ready to face me?$"
+	.string "你准备好面对我了吗？$"
 
 KitakamiHouses_2_Steven_Text_2:
-	.string "Splendid, I'll hold nothing back\n"
-	.string "and I expect you to do the same!$"
+	.string "好极了，我绝不会手下留情，\n也请你全力以赴！$"
 
 KitakamiHouses_2_Steven_Text_3:
-	.string "Outstanding, you truly have earned\n"
-	.string "the title of a Champion.$"
+	.string "精彩，你确实配得上\n冠军的头衔。$"
 
 KitakamiHouses_2_Steven_Text_4:
-	.string "It cannot be overstated how happy\n"
-	.string "this battle made me. \p"
-	.string "You are a trainer of exceptional skill.\p"
-	.string "I want you to have this as a gift\n"
-	.string "of our meeting. \p"
-	.string "I excavated it from the mountain. \n"
-	.string "up north. \p"
-	.string "You might find some use for it \n"
-	.string "near Route 47.$"
+	.string "这场对战让我高兴得\n没法形容。\p你是一位技艺出众的训练家。\p我想把这个送给你，\n作为我们相遇的纪念。\p这是我从北方的山里\n挖出来的。\p在47号道路附近，\n也许你能用得上。$"
 
 KitakamiHouses_2_Steven_Text_5:
-	.string "I think I'll start heading out to \n"
-	.string "explore new places now. \p"
-	.string "I hope our paths cross again some day, \n"
-	.string "{PLAYER}.$"
+	.string "我想我该出发，\n去探索新的地方了。\p希望有朝一日能再见到你，\n{PLAYER}。$"
 
 KitakamiHouses_2_Steven_Text_6:
-	.string "If you end up becoming a Champion of\n"
-	.string "the region, you should come see me.\p"
-	.string "I would love to battle you with my\n"
-	.string "full strength.$"
+	.string "如果你成了这个地区的冠军，\n就来找我吧。\p我很想用全部实力\n和你对战一场。$"
 
 KitakamiHouses_2_Steven_Text_7:
-	.string "Oh, hello. Who might you be?\p"
-	.string "...\p"
-	.string "{PLAYER}? \n"
-	.string "Nice to meet you.\p"
-	.string "My name is Steven, I hail from the Hoenn\n"
-	.string "region in search of rare stones.$"
+	.string "哦，你好。你是哪位？\p……\p{PLAYER}？\n幸会。\p我叫大吾，来自丰缘地区，\n正在寻找稀有的石头。$"
 
 KitakamiHouses_2_Steven_Text_8:
-	.string "You look like a trainer, are you on the\n"
-	.string "quest to collect badges in Johto?\p"
-	.string "Hmm.. Perhaps... \p"
-	.string "Yes, you may have the\n"
-	.string "potential for what it takes.\p"
-	.string "Would you be willing to hear my request?\p"
-	.string "I would like you to have this Beldum.\n"
-	.string "It's a rare Pokémon from Hoenn.\p"
-	.string "Take care of it and come see me again\n"
-	.string "if you become the Champion. \p"
-	.string "I would like to battle you then \n"
-	.string "in return.$"
+	.string "你看起来像个训练家，是在城都\n收集徽章吗？\p嗯……也许……\p对，你或许有\n这个潜力。\p你愿意听听我的请求吗？\p我希望你收下这只铁哑铃。\n它是来自丰缘的稀有宝可梦。\p好好照顾它，如果你成了冠军，\n再来找我。\p到时候，我想和你\n对战一场作为回报。$"
 
 KitakamiHouses_2_Steven_Text_9:
-	.string "I have high expectations for you.$"
+	.string "我对你抱有很高的期望。$"
 
 PorygonPC_Text_0:
-	.string "{PLAYER} booted up the Porygon \n"
-	.string "remote PC.$"
+	.string "{PLAYER}启动了多边兽\n远程电脑。$"
 
 KitakamiHouses_3_Lady_Text_0:
-	.string "Life is peaceful here with my family,\n"
-	.string "I couldn't ask for much else.$"
+	.string "和家人在这里生活很平静，\n我别无所求。$"
 
 KitakamiHouses_3_Man_Text_0:
-	.string "This town is protected by Ogerpon, who\n"
-	.string "sometimes visits this town. \p"
-	.string "Personally I have never seen it, \n"
-	.string "but kids say they have.$"
+	.string "这座城镇受到厄诡椪的守护，\n它偶尔会来镇上看看。\p我个人从没见过它，\n但孩子们都说见过。$"

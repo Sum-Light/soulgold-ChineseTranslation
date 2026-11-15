@@ -15,22 +15,19 @@ RailwayCave1_Tammy::
 
 
 RailwayCave1_Keira_Text_0:
-	.string "Hey! It's dangerous here!$"
+	.string "喂！这里很危险！$"
 
 RailwayCave1_Keira_Text_1:
-	.string "Just be careful, we're still working \n"
-	.string "here...$"
+	.string "小心点，我们还在施工……$"
 
 RailwayCave1_Keira_Text_2:
-	.string "We've been expanding the railway lines\n"
-	.string "with the help of Pokémon found here.$"
+	.string "我们正在借助这里的\n宝可梦，扩建铁路。$"
 
 RailwayCave1_Tammy_Text_0:
-	.string "This place is filled with electricity!$"
+	.string "这里充满了电！$"
 
 RailwayCave1_Tammy_Text_1:
-	.string "It's sending shivers down my spine!$"
+	.string "我脊背都发麻了！$"
 
 RailwayCave1_Tammy_Text_2:
-	.string "This place seems ideal for training\n"
-	.string "Ground-type Pokémon.$"
+	.string "这里似乎很适合\n训练地面属性的宝可梦。$"

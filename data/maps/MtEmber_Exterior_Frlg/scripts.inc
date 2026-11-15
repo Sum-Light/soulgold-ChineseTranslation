@@ -59,125 +59,125 @@ MtEmber_Exterior_EventScript_Jocelyn::
 	end
 
 Text_ExplosionTeach::
-	.string "Can you imagine?\n"
-	.string "If this volcano were to erupt?\p"
-	.string "The explosion would be the end of\n"
-	.string "us. How terrifying is that?\p"
-	.string "While we're terrified, would you\n"
-	.string "like me to teach Explosion?$"
+	.string "你能想象吗？\n如果这座火山喷发？\p随之而来的爆炸会要了\n我们的命。那该有多恐怖？\p趁我们还在害怕的时候\n你想让我教你大爆炸吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Text_ExplosionDeclined::
-	.string "Yeah, you're right.\n"
-	.string "It is too terrifying.$"
+	.string "嗯，没错。\n这太可怕了。$"
+	.string ""
 
 Text_ExplosionWhichMon::
-	.string "You're terribly brave!\p"
-	.string "Which Pokémon should I teach\n"
-	.string "Explosion?$"
+	.string "你真是勇敢！\p哪只宝可梦想要学会\n大爆炸？$"
+	.string ""
+	.string ""
 
 Text_ExplosionTaught::
-	.string "Using Explosion while on this\n"
-	.string "volcano…\p"
-	.string "What a terrifying thrill!$"
+	.string "在这座火山上使用大爆炸……\p这真是让我毛骨悚然地兴奋！$"
+	.string ""
+	.string ""
 
 MtEmber_Exterior_Text_WellTryDiggingHere::
-	.string "Over here.\n"
-	.string "We'll try digging here.\p"
-	.string "That treasure the ADMINS've been\n"
-	.string "talking about should be here.$"
+	.string "在这里。\n我们会试着在这里挖掘。\p干部们谈论的宝藏应该就在这里。$"
+	.string ""
+	.string ""
+	.string ""
 
 MtEmber_Exterior_Text_YoureInTheWayGetLost::
-	.string "What the…?\n"
-	.string "You're in the way. Get lost.$"
+	.string "搞什么呢……\n你挡道了。给我滚开。$"
+	.string ""
 
 MtEmber_Exterior_Text_PunchedThroughAtLast::
-	.string "Whew, punched through at last.\n"
-	.string "Let's go treasure hunting!$"
+	.string "呼，总算打穿了。\n让我们去挖掘宝藏吧！$"
+	.string ""
 
 MtEmber_Exterior_Text_WhatsPasswordAgain::
-	.string "Any treasure we find, we haul back\n"
-	.string "to the WAREHOUSE, understood?\p"
-	.string "…Oh, and what're the passwords?\n"
-	.string "At the ROCKET WAREHOUSE, I mean.$"
+	.string "我们发现的任何宝藏，\n都要拖回仓库的，明白吗？\p……哦，顺便密码是什么？\n我是说火箭队仓库的密码。$"
+	.string ""
+	.string ""
+	.string ""
 
 MtEmber_Exterior_Text_FirstPasswordGoldeen::
-	.string "What, you forgot the password?\n"
-	.string "There're actually two.\p"
-	.string "The first one's “GOLDEEN need\n"
-	.string "log.”\p"
-	.string "And the second one is…$"
+	.string "什么，你把密码忘了？\n实际上密码有两个。\p第一个是“多多少少\n少少多多。”\p第二个是……$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MtEmber_Exterior_Text_SnoopsBeenListeningIn::
-	.string "Hey!\n"
-	.string "This snoop's been listening in!$"
+	.string "嘿！\n这家伙一直在偷听！$"
+	.string ""
 
 MtEmber_Exterior_Text_Grunt1Intro::
-	.string "You've been eavesdropping on us,\n"
-	.string "haven't you?$"
+	.string "你一直在偷听我们说话，\n对吗？$"
+	.string ""
 
 MtEmber_Exterior_Text_Grunt1Defeat::
-	.string "Huh, what?$"
+	.string "呃，什么？$"
 
 MtEmber_Exterior_Text_Grunt1PostBattle::
-	.string "Why'd you have to win?$"
+	.string "为什么你一定要赢？$"
 
 MtEmber_Exterior_Text_Grunt2Intro::
-	.string "Trying to horn in on our treasure?\n"
-	.string "Don't bet on it!$"
+	.string "想要着偷走我们的宝藏？\n趁早放弃吧！$"
+	.string ""
 
 MtEmber_Exterior_Text_Grunt2Defeat::
-	.string "Wait!\n"
-	.string "But how?$"
+	.string "等等！\n可是现在该怎么办？$"
+	.string ""
 
 MtEmber_Exterior_Text_Grunt2PostBattle::
-	.string "Develop amnesia conveniently and\n"
-	.string "forget everything you heard!$"
+	.string "健忘症能很方便地\n使你忘记你所听到的一切！$"
+	.string ""
 
 MtEmber_Exterior_Text_WellRegroupDontStepInsideThere::
-	.string "What a setback…\n"
-	.string "We'll have to regroup.\p"
-	.string "You! Don't even think about taking\n"
-	.string "a step inside here!\p"
-	.string "If you know what's good for you,\n"
-	.string "don't even think about this!$"
+	.string "好一次挫折啊……\n我们要重新组队。\p你！不要妄想从这儿往里走一步！\p如果你想知道做什么最好，\n那就放弃往里走的念头吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MtEmber_Exterior_Text_LoganIntro::
-	.string "An active volcano is one that's\n"
-	.string "erupting, or about to.$"
+	.string "活火山是指正在喷发的，\n或将要喷发的火山。$"
+	.string ""
 
 MtEmber_Exterior_Text_LoganDefeat::
-	.string "Whew… That was hot!\n"
-	.string "Sweat's erupting from me!$"
+	.string "呜……太热了！\n汗山爆发啊！$"
+	.string ""
 
 MtEmber_Exterior_Text_LoganPostBattle::
-	.string "They say there're over 1,500\n"
-	.string "active volcanoes in the world.\p"
-	.string "Just thinking about them makes me\n"
-	.string "feel all hot and gooey inside!$"
+	.string "有人说世界上有超过1500个活火山。\p只是想想就让我感到全身发热！$"
+	.string ""
+	.string ""
+	.string ""
 
 MtEmber_Exterior_Text_BethIntro::
-	.string "Do you know how caves form inside\n"
-	.string "volcanoes?$"
+	.string "你知道火山中的洞穴是如何形成的吗？$"
+	.string ""
 
 MtEmber_Exterior_Text_BethDefeat::
-	.string "Atchah!\n"
-	.string "You're shockingly good!$"
+	.string "啊！\n你真是令人震惊的强大！$"
+	.string ""
 
 MtEmber_Exterior_Text_BethPostBattle::
-	.string "When lava at the surface of magma\n"
-	.string "hardens, and the magma inside flows\l"
-	.string "out, caverns are left behind.$"
+	.string "当岩浆表面的熔岩变硬，\n其内部的岩浆流了出来，\l洞穴就形成了。$"
+	.string ""
+	.string ""
 
 MtEmber_Exterior_Text_JocelynIntro::
-	.string "I've been in training so I can mend\n"
-	.string "my broken heart…\p"
-	.string "It toughened me up physically at\n"
-	.string "least! Hi-yah!$"
+	.string "我不断地锻炼来修补\n我破碎的心……\p那至少让我在身体上更坚韧！\n嗬呀！$"
+	.string ""
+	.string ""
+	.string ""
 
 MtEmber_Exterior_Text_JocelynDefeat::
-	.string "I think I tried to overdo it…$"
+	.string "我觉得我做太过了……$"
 
 MtEmber_Exterior_Text_JocelynPostBattle::
-	.string "The way you battle, it reminds me\n"
-	.string "of the guy who dumped me…$"
+	.string "你战斗的方式，\n使我想起了甩了我的家伙……$"
+	.string ""
 

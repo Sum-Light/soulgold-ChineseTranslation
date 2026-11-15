@@ -4,17 +4,11 @@ script KitakamiHouses_1_Oldman {
     lock
     faceplayer
     if (flag(FLAG_CANDY_KITAKAMI)) {
-        msgbox("Come back tomorrow when I have
-                prepared another batch!")
+        msgbox("等我明天做好下一批，\n你再来吧！")
         release
         end
     }
-    msgbox("Ho ho ho! 
-    
-            I'm the best candy baker in the
-            entire Johto! 
-            
-            Here, have some from my daily batch!")
+    msgbox("呵呵呵！\p我可是整个城都地区\n最棒的糖果师傅！\p来，尝尝我今天的这一批！")
     random(3)
     switch (var(VAR_RESULT)) {
         case 0:
@@ -27,8 +21,7 @@ script KitakamiHouses_1_Oldman {
         giveitem(ITEM_EXP_CANDY_L, 1)
     }
     setflag(FLAG_CANDY_KITAKAMI)
-    msgbox("Come back tomorrow when I have
-            prepared another batch!")
+    msgbox("等我明天做好下一批，\n你再来吧！")
     release
     end
 
@@ -38,7 +31,7 @@ script KitakamiHouses_3_Sinistea {
     lock
     faceplayer
     playmoncry(SPECIES_SINISTEA, CRY_MODE_NORMAL)
-    msgbox("Sinistea: Siii!")
+    msgbox("来悲茶：嘶——！")
     waitmoncry
     release
     end
@@ -56,45 +49,18 @@ script KitakamiHouses_2_Steven {
                 applymovement(LOCALID_KITAKAMI_STEVEN, moves(face_player))
                 waitmovement(0)
                 waitse
-                msgbox("That face of determination... I assume
-                        you have become the Champion of Johto?
-
-                        ...
-
-                        Impressive! I was right about your
-                        potential as a trainer.
-
-                        I'd be more than happy to battle you
-                        now, if you are alright with that.")
+                msgbox("那副下定决心的表情……\n你是成为城都的冠军了吗？\p……\p了不起！我没看错\n你作为训练家的潜力。\p如果你不介意，\n我现在就很乐意和你对战。")
                 setflag(FLAG_TEMP_10)
             }
-            msgbox("Are you ready to face me?", MSGBOX_YESNO)
+            msgbox("你准备好面对我了吗？", MSGBOX_YESNO)
             if (var(VAR_RESULT) == YES) {
                 //Do battle
-                msgbox("Splendid, I'll hold nothing back
-                        and I expect you to do the same!")
-                trainerbattle_no_intro(TRAINER_STEVEN, "Outstanding, you truly have earned
-                                                        the title of a Champion.")
-                msgbox("It cannot be overstated how happy
-                        this battle made me. 
-                        
-                        You are a trainer of exceptional skill.
-                        
-                        I want you to have this as a gift
-                        of our meeting. 
-                        
-                        I excavated it from the mountain. 
-                        up north. 
-                        
-                        You might find some use for it 
-                        near Route 47.")
+                msgbox("好极了，我绝不会手下留情，\n也请你全力以赴！")
+                trainerbattle_no_intro(TRAINER_STEVEN, "精彩，你确实配得上\n冠军的头衔。")
+                msgbox("这场对战让我高兴得\n没法形容。\p你是一位技艺出众的训练家。\p我想把这个送给你，\n作为我们相遇的纪念。\p这是我从北方的山里\n挖出来的。\p在47号道路附近，\n也许你能用得上。")
                 giveitem(ITEM_JADE_ORB)
                 waitmessage
-                msgbox("I think I'll start heading out to 
-                        explore new places now. 
-                        
-                        I hope our paths cross again some day, 
-                        {PLAYER}.")
+                msgbox("我想我该出发，\n去探索新的地方了。\p希望有朝一日能再见到你，\n{PLAYER}。")
                 waitmessage
                 closemessage
                 setflag(FLAG_BEAT_STEVEN_KITAKAMI)
@@ -113,43 +79,14 @@ script KitakamiHouses_2_Steven {
             }
         } else {
             // Not yet champion but received Beldum
-            msgbox("If you end up becoming a Champion of
-                    the region, you should come see me.
-
-                    I would love to battle you with my
-                    full strength.")
+            msgbox("如果你成了这个地区的冠军，\n就来找我吧。\p我很想用全部实力\n和你对战一场。")
         }
         release
         end
     }
     // First time meeting
-    msgbox("Oh, hello. Who might you be?
-
-            ...
-
-            {PLAYER}? 
-            Nice to meet you.
-
-            My name is Steven, I hail from the Hoenn
-            region in search of rare stones.")
-    msgbox("You look like a trainer, are you on the
-            quest to collect badges in Johto?
-
-            Hmm.. Perhaps... 
-            
-            Yes, you may have the
-            potential for what it takes.
-
-            Would you be willing to hear my request?
-
-            I would like you to have this Beldum.
-            It's a rare Pokémon from Hoenn.
-
-            Take care of it and come see me again
-            if you become the Champion. 
-            
-            I would like to battle you then 
-            in return.")
+    msgbox("哦，你好。你是哪位？\p……\p{PLAYER}？\n幸会。\p我叫大吾，来自丰缘地区，\n正在寻找稀有的石头。")
+    msgbox("你看起来像个训练家，是在城都\n收集徽章吗？\p嗯……也许……\p对，你或许有\n这个潜力。\p你愿意听听我的请求吗？\p我希望你收下这只铁哑铃。\n它是来自丰缘的稀有宝可梦。\p好好照顾它，如果你成了冠军，\n再来找我。\p到时候，我想和你\n对战一场作为回报。")
     setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_BELDUM)
     bufferspeciesname(STR_VAR_1, SPECIES_BELDUM)
     givemon(SPECIES_BELDUM, 15, ITEM_IRON_BALL, ITEM_LUXURY_BALL)
@@ -158,7 +95,7 @@ script KitakamiHouses_2_Steven {
     hidemonpic
     setflag(FLAG_MET_STEVEN)
     createfieldmugshot(MUGSHOT_STEVEN)
-    msgbox("I have high expectations for you.")
+    msgbox("我对你抱有很高的期望。")
     waitmessage
     release
     end
@@ -167,20 +104,14 @@ script KitakamiHouses_2_Steven {
 script PorygonPC {
     lockall
 	playmoncry(SPECIES_PORYGON_Z, CRY_MODE_NORMAL)
-	msgbox("{PLAYER} booted up the Porygon 
-            remote PC.")
+	msgbox("{PLAYER}启动了多边兽\n远程电脑。")
 	goto(EventScript_PCMainMenu)
 }
 
 script KitakamiHouses_3_Lady {
-    msgbox("Life is peaceful here with my family,
-            I couldn't ask for much else.", MSGBOX_NPC)
+    msgbox("和家人在这里生活很平静，\n我别无所求。", MSGBOX_NPC)
 }
 
 script KitakamiHouses_3_Man {
-    msgbox("This town is protected by Ogerpon, who
-            sometimes visits this town. 
-            
-            Personally I have never seen it, 
-            but kids say they have.", MSGBOX_NPC)
+    msgbox("这座城镇受到厄诡椪的守护，\n它偶尔会来镇上看看。\p我个人从没见过它，\n但孩子们都说见过。", MSGBOX_NPC)
 }

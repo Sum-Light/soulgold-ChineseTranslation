@@ -19,25 +19,25 @@ CeladonDept1_EventScript_Directory::
     end
 
 CeladonDeptStore_Text_1FReceptionist:
-    .string "Hello! Welcome to Celadon Dept.\n"
-    .string "Store!\p"
-    .string "The directory is on the wall.$"
+    .string "你好！欢迎光临\n玉虹百货！\p楼层导览图就在墙上。$"
+    .string ""
+    .string ""
 
 CeladonDeptStore_Text_1FGentleman:
-    .string "This Dept.Store is part of the same\n"
-    .string "chain as the one in Goldenrod City.\p"
-    .string "They were both renovated at the same\n"
-    .string "time.$"
+    .string "这家百货和满金市的那家\n是同一连锁店的。\p它们是同一时间\n重新装修的。$"
+    .string ""
+    .string ""
+    .string ""
 
 CeladonDeptStore_Text_1FTeacher:
-    .string "This is my first time here.\p"
-    .string "It's so big…\p"
-    .string "I'm afraid I'll get lost.$"
+    .string "我是第一次来这里。\p这里真大……\p我怕我会迷路。$"
+    .string ""
+    .string ""
 
 CeladonDeptStore_Text_1FDirectory:
-    .string "1F: Service Counter\p"
-    .string "2F: Trainer's Market\p"
-    .string "3F: TM Shop\p"
-    .string "4F: Wiseman Gifts\p"
-    .string "5F: Drug Store\p"
-    .string "6F: Rooftop Square$"
+    .string "1楼　服务台\p2楼　训练家超市\p3楼　招式学习器专柜\p4楼　智者礼品专柜\p5楼　药品专柜\p6楼　屋顶广场$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""

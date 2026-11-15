@@ -32,47 +32,47 @@ Route3_EventScript_Sign::
 	end
 
 Route3_Text_FirebreatherOtis_Seen:
-	.string "Ah! The weather's as fine as ever.$"
+	.string "啊！天气还是这么好。$"
 
 Route3_Text_FirebreatherOtis_Beaten:
-	.string "It's sunny, but I'm all wet…$"
+	.string "明明是大晴天，我却浑身是水……$"
 
 Route3_Text_FirebreatherOtis_AfterBattle:
-	.string "When it rains, it's hard to get\n"
-	.string "ignition…$"
+	.string "一下雨，就很难\n点着火……$"
+	.string ""
 
 Route3_Text_YoungsterWarren_Seen:
-	.string "Hmmm… I don't know what to do…$"
+	.string "嗯……我该怎么办呢……$"
 
 Route3_Text_YoungsterWarren_Beaten:
-	.string "I knew I'd lose…$"
+	.string "果然还是输了……$"
 
 Route3_Text_YoungsterWarren_AfterBattle:
-	.string "You looked strong.\p"
-	.string "I was afraid to take you on…$"
+	.string "你看起来很强。\p我都不敢跟你打了……$"
+	.string ""
 
 Route3_Text_YoungsterJimmy_Seen:
-	.string "I can run like the wind!$"
+	.string "我跑起来像风一样快！$"
 
 Route3_Text_YoungsterJimmy_Beaten:
-	.string "Blown away!$"
+	.string "被吹飞了！$"
 
 Route3_Text_YoungsterJimmy_AfterBattle:
-	.string "I wear shorts the whole year round.\p"
-	.string "That's my fashion policy.$"
+	.string "我一年到头都穿短裤。\p这就是我的穿衣之道。$"
+	.string ""
 
 Route3_Text_FirebreatherBurt_Seen:
-	.string "Step right up and take a look!$"
+	.string "快来看一看！$"
 
 Route3_Text_FirebreatherBurt_Beaten:
-	.string "Yow! That's hot!$"
+	.string "哎哟！好烫！$"
 
 Route3_Text_FirebreatherBurt_AfterBattle:
-	.string "The greatest fire-breather in Kanto,\n"
-	.string "that's me.\p"
-	.string "But not the best trainer…$"
+	.string "关都第一的喷火人，\n就是我。\p不过，最强训练家\n可轮不到我……$"
+	.string ""
+	.string ""
 
 Route3_Text_MtMoonSquareSign:
-	.string "Mt.Moon Square\p"
-	.string "Just go up the stairs.$"
+	.string "月见山广场\p沿楼梯上去就是。$"
+	.string ""
 

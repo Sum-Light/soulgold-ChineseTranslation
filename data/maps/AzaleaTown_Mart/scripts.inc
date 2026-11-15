@@ -11,10 +11,10 @@ AzaleaTown_Mart_EventScriptBugCatcher::
 	end
 
 AzaleaMart_Text_BugCatcher:
-	.string "A Great Ball is better for catch-\n"
-	.string "ing Pokémon than a Poké Ball.\p"
-	.string "But Kurt's might be better some-\n"
-	.string "times.$"
+	.string "用超级球抓宝可梦，\n比用精灵球更容易。\p不过有时候，\n钢铁做的球会更好用。$"
+	.string ""
+	.string ""
+	.string ""
 
 AzaleaTownMart2::
 	lock
@@ -69,23 +69,16 @@ AzaleaTownMartNpc_2:
 
 
 AzaleaTownMart2_Text_0:
-	.string "We're out of Galarica wreaths\n"
-	.string "and cuffs currently.\p"
-	.string "We hope to have them restocked soon.\n"
-	.string "Regardless, welcome!$"
+	.string "伽勒豆蔻花圈和\n伽勒豆蔻手环暂时缺货。\p我们很快会补货的。\n总之，欢迎光临！$"
 
 AzaleaTownMart2_Text_1:
-	.string "Come back again soon!$"
+	.string "欢迎下次再来！$"
 
 AzaleaTownMart2_Text_2:
-	.string "Welcome! The Galarian items back \n"
-	.string "in stock!$"
+	.string "欢迎光临！\n伽勒尔的道具\l已经补货了！$"
 
 AzaleaTownMartNpc_Text_0:
-	.string "Galarian evolution items are back in\n"
-	.string "stock!$"
+	.string "伽勒尔的进化道具\n补货了！$"
 
 AzaleaTownMartNpc_Text_1:
-	.string "Apparently the Team Rocket had taken \n"
-	.string "all evolution items specifically for\l"
-	.string "Galarian Slowpoke.$"
+	.string "听说火箭队把伽勒尔\n呆呆兽用的进化道具\l全都抢走了。$"

@@ -42,29 +42,13 @@ SouthShoreHouseSableye::
 
 
 SouthShoreHouseMan_Text_0:
-	.string "You must follow the ravens with the\n"
-	.string "mirror in hand to find the lair of the\l"
-	.string "beast.$"
+	.string "你必须拿着镜子，\n跟随乌鸦，找到那头\l野兽的巢穴。$"
 
 SouthShoreHouseMan_Text_1:
-	.string "My grandparent always used to tell\n"
-	.string "stories of a beast hiding in the\l"
-	.string "depths of the forest.\p"
-	.string "No normal person could ever hope to \n"
-	.string "find it no matter how hard they looked,\l"
-	.string "for it lived on a path that could only\l"
-	.string "be revealed by a mirror that does not\l"
-	.string "reflect its owner.\p"
-	.string "I wonder if such object even exists.$"
+	.string "我的祖辈总爱讲这样的故事：\n有一头野兽藏在森林深处。\p普通人无论怎么找，\n都别想找到它，\l因为它栖身于一条小路，\l只有一面不映照主人的镜子\l才能让这条路显现。\p我怀疑世上是否真有这样的东西。$"
 
 SouthShoreHouseMan_Text_2:
-	.string "Oh! That object you hold! That looks\n"
-	.string "exactly like the item my grandpa\l"
-	.string "described to me!\p"
-	.string "To think that the stories were true.\p"
-	.string "He told me that the path can be\n"
-	.string "found by following the ravens. \p"
-	.string "Best of luck finding the beast, trainer.$"
+	.string "哦！你手里的那个东西！那和\n我爷爷描述给我听的\l物件一模一样！\p没想到那些故事是真的。\p他说，只要跟着乌鸦，\n就能找到那条路。\p训练家，祝你顺利找到野兽。$"
 
 SouthShoreHouseSableye_Text_0:
-	.string "Sableye: Sablblbllblb!$"
+	.string "勾魂眼：叽哩咕噜噜噜！$"

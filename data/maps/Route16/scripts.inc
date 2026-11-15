@@ -12,6 +12,6 @@ Route16_EventScript_Sign::
 	end
 
 Route16_Text_Sign:
-	.string "Cycling Road\n"
-	.string "Downhill Coasing\l"
-	.string "All The Way Down!$"
+	.string "自行车道\n一路下坡\l畅行到底！$"
+	.string ""
+	.string ""

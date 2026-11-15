@@ -46,28 +46,21 @@ DojoTeacher2::
 
 
 megaKickTrainer_Text_0:
-	.string "No no, you don't get it, Mega Punch is\n"
-	.string "the superior move!$"
+	.string "不对不对，你不明白，\n"
+	.string "百万吨重拳才是更强的招式！$"
 
 megaPunchTrainer_Text_0:
-	.string "Fool! Everyone knows Mega Kick is the\n"
-	.string "true path to power!$"
+	.string "蠢货！谁都知道\n"
+	.string "百万吨重踢才是力量的象征！$"
 
 DojoTourist_Text_0:
-	.string "The traditions here have been kept\n"
-	.string "alive for countless lifetimes.\p"
-	.string "It is quite impressive!$"
+	.string "这里的传统历经无数代传承，\n至今仍延续不绝。\p真是令人敬佩！$"
 
 DojoTrainee_Text_0:
-	.string "We offer paid courses for visitors. \p"
-	.string "If you wish to grow stronger fast,\n"
-	.string "please consider supporting our temple.$"
+	.string "我们也为来访者提供付费课程。\p若您想早日变强，\n还请资助本寺。$"
 
 DojoTeacher_Text_0:
-	.string "Behind me is the practice room. \p"
-	.string "Take care not to disturb their\n"
-	.string "training.$"
+	.string "我身后是练习室。\p请留神，不要打扰\n他们修行。$"
 
 DojoTeacher2_Text_0:
-	.string "These doors lead to the sleeping \n"
-	.string "quarters.$"
+	.string "这些门通往\n休息的厢房。$"

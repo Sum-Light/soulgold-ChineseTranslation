@@ -26,55 +26,55 @@ GoldenrodCity_BillsHouse_EventScript_Mom2::
 	end
 
 BillHouse_Text_EeveeMayEvolve:
-    .string "Bill: Prof. Elm claims Eevee may\n"
-    .string "evolve in new and unknown ways.$"
+    .string "正辉：空木博士说，\n伊布可能会用未知的新方式进化。$"
+    .string ""
 
 BillHouse_Text_PartyFull:
-    .string "Whoa, wait. You can't carry any\n"
-    .string "more Pokémon.$"
+    .string "等等。你没法再带\n更多宝可梦了。$"
+    .string ""
 
 BillHouse_Text_NoEevee:
-    .string "Oh… Now what to do?$"
+    .string "哎呀……这可怎么办？$"
 
 BillHouse_Text_PopWontWork:
-    .string "Bill: My pop, he won't work. All he\n"
-    .string "does is goof off all day long.\p"
-    .string "He's getting to be a real headache…$"
+    .string "正辉：我爸爸他不肯干活，\n整天就知道偷懒。\p真是越来越让人头疼……$"
+    .string ""
+    .string ""
 
 BillHouse_Text_MomBeforeEcruteak:
-    .string "Oh, you collect Pokémon? My son\n"
-    .string "Bill is an expert.\p"
-    .string "He just got called to the Pokémon\n"
-    .string "Center in Ecruteak City.\p"
-    .string "My husband went off to the Game\n"
-    .string "Corner without being called…$"
+    .string "哦，你在收集宝可梦啊？\n我儿子正辉可是专家。\p他刚被叫去缘朱市的\n宝可梦中心。\p我丈夫没接到叫唤就\n自己跑去游戏城了……$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 BillHouse_Text_MomAfterEcruteak:
-    .string "My husband was once known as a\n"
-    .string "Pokémaniac.\p"
-    .string "Bill must have taken after his\n"
-    .string "father.$"
+    .string "我丈夫以前可是个出了名的\n宝可梦狂热迷。\p正辉一定是随了他\n爸爸吧。$"
+    .string ""
+    .string ""
+    .string ""
 
 BillHouse_Text_SisterUsefulNumber:
-    .string "Are you a trainer?\p"
-    .string "I've got a useful phone number\n"
-    .string "for you.$"
+    .string "你是训练家吗？\p我这有个很有用的\n电话号码给你。$"
+    .string ""
+    .string ""
 
 BillHouse_Text_RecordedBillsNumber:
-    .string "{PLAYER} recorded Bill's number.$"
+    .string "{PLAYER}记下了正辉的号码。$"
 
 BillHouse_Text_SisterRefusedNumber:
-    .string "My brother made the PC Pokémon\n"
-    .string "storage system.\p"
-    .string "I was going to give you Bill's\n"
-    .string "number…$"
+    .string "电脑的宝可梦寄放系统\n是我哥哥做的。\p我本来想把正辉的\n电话号码给你的……$"
+    .string ""
+    .string ""
+    .string ""
 
 BillHouse_Text_SisterPhoneFull:
-    .string "You can't record any more numbers.$"
+    .string "没法再记录更多号码了。$"
 
 BillHouse_Text_SisterStorageSystem:
-    .string "My big brother Bill made the PC\n"
-    .string "Pokémon storage system.$"
+    .string "电脑的宝可梦寄放系统\n是我哥哥正辉做的。$"
+    .string ""
 
 GoldenrodCity_Bill_GiveEeveeOrPikachu::
 	lock
@@ -122,35 +122,22 @@ GoldenrodCity_Bill_GiveEeveeOrPikachu_6:
 
 
 GoldenrodCity_Bill_GiveEeveeOrPikachu_Text_0:
-	.string "Bill: Hi, {PLAYER}! Do us a favor and\n"
-	.string "take one of these two Pokémon. \p"
-	.string "Both of them came over when I \n"
-	.string "was adjusting the Time Capsule.\p"
-	.string "I don't have time to take care \n"
-	.string "of both of them even with help of\l"
-	.string "my family. \p"
-	.string "I think both of them have some special\n"
-	.string "characteristics, so can I count on you\l"
-	.string "to take either one, {PLAYER}?$"
+	.string "正辉：嗨，{PLAYER}！帮个忙，\n收下这两只宝可梦中的一只吧。\p这两只都是我在调整\n时光胶囊的时候过来的。\p我实在没时间同时\n照顾这两只，有家里人帮忙也不行。\p我觉得这两只都有点\n特别之处，能拜托你收下\l其中一只吗，{PLAYER}？$"
 
 GoldenrodCity_Bill_GiveEeveeOrPikachu_Text_1:
-	.string "Eevee$"
+	.string "伊布$"
 
 GoldenrodCity_Bill_GiveEeveeOrPikachu_Text_2:
-	.string "Pikachu$"
+	.string "皮卡丘$"
 
 GoldenrodCity_Bill_GiveEeveeOrPikachu_Text_3:
-	.string "No thanks$"
+	.string "不用了$"
 
 GoldenrodCity_Bill_GiveEeveeOrPikachu_Text_4:
-	.string "Bill: I knew you'd come through!\n"
-	.string "Way to go! I'm counting on you\l"
-	.string "to take good care of it!$"
+	.string "正辉：我就知道你会答应！\n干得好！那就拜托你\l好好照顾它了！$"
 
 GoldenrodCity_Bill_GiveEeveeOrPikachu_Text_5:
-	.string "Oh… Now what to do?$"
+	.string "哎呀……这可怎么办？$"
 
 GoldenrodCity_Bill_GiveEeveeOrPikachu_Text_6:
-	.string "Come to think of it. I've heard rumours\n"
-	.string "of rare Pokémon being distributed in\l"
-	.string "the Game Corner.$"
+	.string "说起来，我听说游戏城里\n会派发稀有的宝可梦。$"

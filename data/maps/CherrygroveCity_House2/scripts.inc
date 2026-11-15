@@ -10,8 +10,8 @@ CherrygroveCity_House2_EventScript_GuideGent::
 	end
 
 CherrygroveCity_GuideHouse_Text_GuideGent:
-	.string "When I was a wee lad, I was a\n"
-	.string "hotshot trainer!\p"
-	.string "Here's a word of advice:\n"
-	.string "Catch lots of Pokémon!\p"
-	.string "Treat them all with kindness!$"
+	.string "我小时候可是个\n很厉害的训练家！\p给你一句忠告：\n多抓些宝可梦！\p要好好善待它们！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""

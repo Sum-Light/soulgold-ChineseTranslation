@@ -868,7 +868,7 @@ static bool32 PrintThrownAway(u8 *textState, bool32 isWonderNews)
         return PrintMysteryGiftMenuMessage(textState, gText_WonderNewsThrownAway);
 }
 
-static const u8 sText_SaveFailedPressA[] = _("Save failed.\nPlease press the A Button.");
+static const u8 sText_SaveFailedPressA[] = _("保存失败。\n请按A键。");
 
 static bool32 SaveOnMysteryGiftMenu(u8 *state)
 {

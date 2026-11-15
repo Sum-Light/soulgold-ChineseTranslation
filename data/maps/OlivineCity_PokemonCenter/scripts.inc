@@ -25,14 +25,14 @@ OlivineCity_EventScript_Teacher::
 	end
 
 OlivineCity_Text_PokecenterFisher:
-	.string "The Sailor in the Olivine Cafe\n"
-	.string "next door is really generous.\p"
-	.string "He taught my Pokémon Strength.\p"
-	.string "Now it can move big boulders\n"
-	.string "without breaking a sweat.$"
+	.string "隔壁浅葱咖啡馆里的那位水手\n非常大方。\p他教会了我的宝可梦怪力。\p现在它搬起大石头\n连大气都不喘。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OlivineCity_Text_PokecenterTeacher:
-	.string "There's a person in Cianwood\n"
-	.string "City across the sea.\p"
-	.string "I heard him bragging about his\n"
-	.string "rare Pokémon all the time.$"
+	.string "大海对岸的湛蓝市\n有个人。\p我听说他总在吹嘘\n自己珍稀的宝可梦。$"
+	.string ""
+	.string ""
+	.string ""

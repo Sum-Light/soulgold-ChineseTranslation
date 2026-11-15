@@ -71,103 +71,103 @@ Route27_EventScript_TohjoFallsSign::
     end
 
 Route27_Text_FisherHey:
-    .string "Hey!$"
+    .string "喂！$"
 
 Route27_Text_FisherMessage:
-    .string "Do you know what you just did?\p"
-    .string "You've taken your first step into\n"
-    .string "Kanto.\p"
-    .string "Check your Pokégear Map and see.$"
+    .string "你知道你刚才做了什么吗？\p你迈出了踏入\n关都的第一步。\p看看宝可梦装置的地图吧。$"
+    .string ""
+    .string ""
+    .string ""
 
 Route27_Text_CooltrainermBlakeSeen:
-    .string "You look pretty strong.\n"
-    .string "Let me battle you!$"
+    .string "你看起来挺强。\n来跟我打一场吧！$"
+    .string ""
 
 Route27_Text_CooltrainermBlakeBeaten:
-    .string "Yow!$"
+    .string "哟！$"
 
 Route27_Text_CooltrainermBlakeAfter:
-    .string "If you prevail on this harsh trek,\p"
-    .string "the truth will be revealed!\p"
-    .string "Heh, sorry, I just wanted to say\n"
-    .string "something cool.$"
+    .string "若能走完这段艰险路程，\p真相自会显现！\p嘿，抱歉，我只是想说句\n帅气的话。$"
+    .string ""
+    .string ""
+    .string ""
 
 Route27_Text_CooltrainermBrianSeen:
-    .string "Hm? You're good, aren't you?$"
+    .string "嗯？你很能打嘛？$"
 
 Route27_Text_CooltrainermBrianBeaten:
-    .string "Just as I thought!$"
+    .string "果然如此！$"
 
 Route27_Text_CooltrainermBrianAfter:
-    .string "A good trainer can recognize other\n"
-    .string "good trainers.$"
+    .string "好训练家\n认得出别的好训练家。$"
+    .string ""
 
 Route27_Text_CooltrainerfReenaSeen:
-    .string "You shouldn't underestimate the\n"
-    .string "wild Pokémon in these parts.$"
+    .string "这一带的野生宝可梦\n可小看不得。$"
+    .string ""
 
 Route27_Text_CooltrainerfReenaBeaten:
-    .string "Oh! You're much too strong!$"
+    .string "哎呀！你太强了！$"
 
 Route27_Text_CooltrainerfReenaAfter:
-    .string "You're just a kid, but you're not\n"
-    .string "to be underestimated either.$"
+    .string "你虽然还是个孩子，\n但也小看不得。$"
+    .string ""
 
 Route27_Text_CooltrainerfMeganSeen:
-    .string "It's rare to see anyone come here.\p"
-    .string "Are you training on your own?$"
+    .string "很少有人会来这里。\p你是在独自修行吗？$"
+    .string ""
 
 Route27_Text_CooltrainerfMeganBeaten:
-    .string "Oh! You're really strong!$"
+    .string "哦！你真的很强！$"
 
 Route27_Text_CooltrainerfMeganAfter:
-    .string "I'm checking out pre- and post-\n"
-    .string "evolution Pokémon.\p"
-    .string "Evolution really does make\n"
-    .string "Pokémon stronger.\p"
-    .string "But evolved forms also learn\n"
-    .string "moves later on.$"
+    .string "我在观察进化前和\n进化后的宝可梦。\p进化确实会让\n宝可梦变强。\p但进化后的形态\n学招式也更晚。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 Route27_Text_PsychicGilbertSeen:
-    .string "Don't say a thing!\p"
-    .string "Let me guess what you're thinking.\p"
-    .string "Mmmmmmm…\p"
-    .string "I got it! You're on the Pokémon\n"
-    .string "League challenge!$"
+    .string "什么都别说！\p让我猜猜你在想什么。\p嗯嗯嗯嗯……\p我知道了！你是在挑战\n宝可梦联盟！$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 Route27_Text_PsychicGilbertBeaten:
-    .string "You're too much!$"
+    .string "你太强了！$"
 
 Route27_Text_PsychicGilbertAfter:
-    .string "With your skills, you'll do well at\n"
-    .string "the League.\p"
-    .string "That's what my premonition says.$"
+    .string "凭你的实力，在联盟\n也会有好成绩。\p我的预感是这么说的。$"
+    .string ""
+    .string ""
 
 Route27_Text_BirdKeeperJoseSeen:
-    .string "Tweet! Tweet! Tetweet!$"
+    .string "啾！啾！啾啾！$"
 
 Route27_Text_BirdKeeperJoseBeaten:
-    .string "Tweet!$"
+    .string "啾！$"
 
 Route27_Text_BirdKeeperJoseAfter:
-    .string "Bird Keepers like me mimic bird\n"
-    .string "whistles to command Pokémon.$"
+    .string "像我这样的驱鸟使，会模仿\n鸟叫来命令宝可梦。$"
+    .string ""
 
 TohjoFalls_Text_Sign:
-    .string "Tohjo Falls\p"
-    .string "The road to the Indigo Plateau!$"
+    .string "都城瀑布\p通往石英高原的道路！$"
+    .string ""
 
 Route27_Text_FisherScottSeen:
-    .string "I'm feeling great today!\p"
-    .string "I feel like I could boot even the\n"
-    .string "League Champ!$"
+    .string "我今天状态绝佳！\p感觉连联盟冠军\n都能踢飞！$"
+    .string ""
+    .string ""
 
 Route27_Text_FisherScottBeaten:
-    .string "No! Not in this battle!$"
+    .string "不行！这场不算！$"
 
 Route27_Text_FisherScottAfter:
-    .string "Just like in fish-ing, it's all over\n"
-    .string "in Pokémon if you give up.$"
+    .string "就像钓鱼一样，\n宝可梦的事，一放弃就完了。$"
+    .string ""
 `
 
 script Route27_RouteExpert {
@@ -175,23 +175,12 @@ script Route27_RouteExpert {
 	faceplayer
 	if (flag(FLAG_ROUTE27_EXPERT)) {
         setflag(FLAG_ROUTE27_EXPERT_QUALIFIED)
-        msgbox("Choice items lock you into one move,
-                but they offset that cost with a
-                big boost to your battling power.")
+        msgbox("讲究道具会锁定一个招式，\n但会以大幅提升战斗力\l来弥补这一代价。")
 		release
 		end
 	}
 
-		msgbox("The final stretch before the mighty
-                Elite Four extends before you now.
-                
-                Here you will only find the most
-                skilled trainers in Johto who
-                aspire to take on the challenge.
-                
-                If you can overcome them all, find
-                me again and I shall test you one
-                last time.")
+		msgbox("强大的四天王\n就在前方这段最后的路上了。\p在这里，你只会遇到城都\n最有实力、渴望挑战的\l训练家们。\p如果你能战胜他们所有人，\n再来找我，我会给你\l最后一次考验。")
 	if (flag(FLAG_ROUTE27_EXPERT_QUALIFIED) || (defeated(TRAINER_BLAKE)
 		&& defeated(TRAINER_BRIAN)
 		&& defeated(TRAINER_REENA)
@@ -209,21 +198,14 @@ script Route27_RouteExpert {
 			playse(SE_PIN)
 			applymovement(LOCALID_ROUTE27_EXPERT, Common_Movement_ExclamationMark)
 			waitse
-			msgbox("You cut through every challenge
-					on this long road. Now show me
-					if you really are worthy for the
-                    Elite Four!")
-			trainerbattle_no_intro(TRAINER_CHOICE_BAND_EXPERT, "Nothing can stand against you now.")
-			msgbox("A perfect choice, backed by real
-					conviction. Take this and let it
-					amplify your strongest attacks.")
+			msgbox("你闯过了这条长路上的\n每一道关卡。现在就让我看看，\l你究竟有没有资格\l挑战四天王！")
+			trainerbattle_no_intro(TRAINER_CHOICE_BAND_EXPERT, "如今再没有什么能阻挡你了。")
+			msgbox("你的选择无可挑剔，\n看得出是发自本心。收下它，\l让它增强你最强的攻击。")
 			giveitem(ITEM_CHOICE_BAND)
 			setflag(FLAG_ROUTE27_EXPERT)
 			addvar(VAR_ROUTE_EXPERTS_DEFEATED, 1)
 			special(Achievement_CheckAll)
-		    msgbox("Choice items lock you into one move,
-                    but they offset that cost with a
-                    big boost to your battling power.")
+		    msgbox("讲究道具会锁定一个招式，\n但会以大幅提升战斗力\l来弥补这一代价。")
 		}
 	release
 	end

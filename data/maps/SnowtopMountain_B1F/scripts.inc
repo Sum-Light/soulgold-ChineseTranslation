@@ -14,9 +14,9 @@ SnowtopMountain_B1F_MapScripts_MAP_SCRIPT_ON_LOAD_1:
 
 
 Snowtopmountain_BrailleRegice:
-	.braille "TYRANT OF\n"
-	.braille "THE SNOW\n"
-	.braille "FULLY EVOLVED.$"
+	.string "戟刃凝冰指苍穹，\n"
+	.string "脊上长锋映雪峰。\l"
+	.string "龙已进化至终形。$"
 
 B1F_Snowtopmountain_Bearnese::
 	trainerbattle_single TRAINER_BEARNESE, B1F_Snowtopmountain_Bearnese_Text_0, B1F_Snowtopmountain_Bearnese_Text_1
@@ -28,7 +28,8 @@ B1F_Snowtopmountain_Susdoor::
 	lock
 	msgbox B1F_Snowtopmountain_Susdoor_Text_0
 	closemessage
-	braillemsgbox Snowtopmountain_BrailleRegice
+	msgbox Snowtopmountain_BrailleRegice, MSGBOX_DEFAULT
+	closemessage
 	checkspecies SPECIES_BAXCALIBUR
 	compare VAR_RESULT, TRUE
 	goto_if_eq B1F_Snowtopmountain_Susdoor_2
@@ -46,16 +47,13 @@ B1F_Snowtopmountain_Susdoor_2:
 
 
 B1F_Snowtopmountain_Bearnese_Text_0:
-	.string "Check it out, my breath is forming\n"
-	.string "icicles!$"
+	.string "快看，我呼出的气都\n结成冰柱了！$"
 
 B1F_Snowtopmountain_Bearnese_Text_1:
-	.string "Feeling kind of chilly here.$"
+	.string "感觉有点冷啊。$"
 
 B1F_Snowtopmountain_Bearnese_Text_2:
-	.string "They say an ancient ice Pokémon sleeps\n"
-	.string "somewhere inside the mountain. \l"
-	.string "I wonder where it could be?$"
+	.string "听说古代冰属性宝可梦\n就沉睡在这座山里的\l某处。到底在哪儿呢？$"
 
 B1F_Snowtopmountain_Susdoor_Text_0:
-	.string "Something is carved on the wall...$"
+	.string "墙上刻着什么……$"

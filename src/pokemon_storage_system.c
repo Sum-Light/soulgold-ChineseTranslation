@@ -959,20 +959,20 @@ void SetMonFormPSS(struct BoxPokemon *boxMon, enum FormChanges method);
 void SetMonFormPSS_ItemHold(struct BoxPokemon *boxMon);
 void UpdateSpeciesSpritePSS(struct BoxPokemon *boxmon);
 
-static const u8 gText_JustOnePkmn[] = _("There is just one Pokémon with you.");
-static const u8 gText_PartyFull[] = _("Your party is full!");
-static const u8 gText_Box[] = _("Box");
+static const u8 gText_JustOnePkmn[] = _("这样就没有可战斗的宝可梦了！");
+static const u8 gText_PartyFull[] = _("同行的宝可梦已经满了！");
+static const u8 gText_Box[] = _("盒子 ");
 
 struct {
     const u8 *text;
     const u8 *desc;
 } static const sMainMenuTexts[OPTIONS_COUNT] =
 {
-    [OPTION_WITHDRAW]   = {COMPOUND_STRING("Withdraw Pokémon"), COMPOUND_STRING("Move Pokémon stored in Boxes to\nyour party.")},
-    [OPTION_DEPOSIT]    = {COMPOUND_STRING("Deposit Pokémon"),  COMPOUND_STRING("Store Pokémon in your party in Boxes.")},
-    [OPTION_MOVE_MONS]  = {COMPOUND_STRING("Move Pokémon"),     COMPOUND_STRING("Organize the Pokémon in Boxes and\nin your party.")},
-    [OPTION_MOVE_ITEMS] = {COMPOUND_STRING("Move Items"),       COMPOUND_STRING("Move items held by any Pokémon\nin a Box or your party.")},
-    [OPTION_EXIT]       = {COMPOUND_STRING("See Ya!"),          COMPOUND_STRING("Return to the previous menu.")}
+    [OPTION_WITHDRAW]   = {COMPOUND_STRING("取出宝可梦"), COMPOUND_STRING("将寄放在盒子里的宝可梦\n取出并加入队伍。")},
+    [OPTION_DEPOSIT]    = {COMPOUND_STRING("寄放宝可梦"),  COMPOUND_STRING("将队伍中的宝可梦寄放到盒子里。")},
+    [OPTION_MOVE_MONS]  = {COMPOUND_STRING("整理宝可梦"),     COMPOUND_STRING("整理盒子里和队伍中的\n宝可梦。")},
+    [OPTION_MOVE_ITEMS] = {COMPOUND_STRING("整理持有物"),       COMPOUND_STRING("整理盒子里或队伍中\n宝可梦的持有物。")},
+    [OPTION_EXIT]       = {COMPOUND_STRING("再见！"),          COMPOUND_STRING("返回上一个菜单。")}
 };
 
 static const struct WindowTemplate sWindowTemplate_MainMenu =
@@ -1143,50 +1143,50 @@ static const struct SpriteTemplate sSpriteTemplate_DisplayMon =
     .oam = &sOamData_DisplayMon,
 };
 
-static const u8 gText_PkmnIsSelected[] = _("{DYNAMIC 0} is selected.");
+static const u8 gText_PkmnIsSelected[] = _("要拿{DYNAMIC 0}怎么办？");
 
 static const struct StorageMessage sMessages[] =
 {
-    [MSG_EXIT_BOX]             = {COMPOUND_STRING("Exit from the Box?"),         MSG_VAR_NONE},
-    [MSG_WHAT_YOU_DO]          = {COMPOUND_STRING("What do you want to do?"),    MSG_VAR_NONE},
-    [MSG_PICK_A_THEME]         = {COMPOUND_STRING("Please pick a theme."),       MSG_VAR_NONE},
-    [MSG_PICK_A_WALLPAPER]     = {COMPOUND_STRING("Pick the wallpaper."),        MSG_VAR_NONE},
+    [MSG_EXIT_BOX]             = {COMPOUND_STRING("要停止对盒子的操作吗？"),         MSG_VAR_NONE},
+    [MSG_WHAT_YOU_DO]          = {COMPOUND_STRING("要对这个盒子做什么？"),    MSG_VAR_NONE},
+    [MSG_PICK_A_THEME]         = {COMPOUND_STRING("要选择哪一种壁纸主题？"),       MSG_VAR_NONE},
+    [MSG_PICK_A_WALLPAPER]     = {COMPOUND_STRING("要选择哪一种壁纸？"),        MSG_VAR_NONE},
     [MSG_IS_SELECTED]          = {gText_PkmnIsSelected,                          MSG_VAR_MON_NAME_1},
-    [MSG_JUMP_TO_WHICH_BOX]    = {COMPOUND_STRING("Jump to which Box?"),         MSG_VAR_NONE},
-    [MSG_DEPOSIT_IN_WHICH_BOX] = {COMPOUND_STRING("Deposit in which Box?"),      MSG_VAR_NONE},
-    [MSG_WAS_DEPOSITED]        = {COMPOUND_STRING("{DYNAMIC 0} was deposited."), MSG_VAR_MON_NAME_1},
-    [MSG_BOX_IS_FULL]          = {COMPOUND_STRING("The Box is full."),           MSG_VAR_NONE},
-    [MSG_RELEASE_POKE]         = {COMPOUND_STRING("Release this Pokémon?"),      MSG_VAR_NONE},
-    [MSG_RELEASE_WHICH]        = {COMPOUND_STRING("Release which group?"),       MSG_VAR_NONE},
-    [MSG_RELEASE_BOX_ALL]      = {COMPOUND_STRING("Release whole Box?"),         MSG_VAR_NONE},
-    [MSG_RELEASE_BOX_EGGS]     = {COMPOUND_STRING("Release all Eggs?"),          MSG_VAR_NONE},
-    [MSG_RELEASE_BOX_FINAL]    = {COMPOUND_STRING("This can't be undone. Sure?"),MSG_VAR_NONE},
-    [MSG_NO_MONS_TO_RELEASE]   = {COMPOUND_STRING("No Pokémon to release."),     MSG_VAR_NONE},
-    [MSG_NO_EGGS_TO_RELEASE]   = {COMPOUND_STRING("No Eggs to release."),        MSG_VAR_NONE},
-    [MSG_BOX_MONS_RELEASED]    = {COMPOUND_STRING("All Pokémon released."),      MSG_VAR_NONE},
-    [MSG_BOX_EGGS_RELEASED]    = {COMPOUND_STRING("Eggs released."),             MSG_VAR_NONE},
-    [MSG_WAS_RELEASED]         = {COMPOUND_STRING("{DYNAMIC 0} was released."),  MSG_VAR_RELEASE_MON_1},
-    [MSG_BYE_BYE]              = {COMPOUND_STRING("Bye-bye, {DYNAMIC 0}!"),      MSG_VAR_RELEASE_MON_3},
-    [MSG_MARK_POKE]            = {COMPOUND_STRING("Mark your Pokémon."),         MSG_VAR_NONE},
-    [MSG_LAST_POKE]            = {COMPOUND_STRING("That's your last Pokémon!"),  MSG_VAR_NONE},
+    [MSG_JUMP_TO_WHICH_BOX]    = {COMPOUND_STRING("要跳转到哪个盒子？"),         MSG_VAR_NONE},
+    [MSG_DEPOSIT_IN_WHICH_BOX] = {COMPOUND_STRING("要寄放到哪个盒子中？"),      MSG_VAR_NONE},
+    [MSG_WAS_DEPOSITED]        = {COMPOUND_STRING("寄放了{DYNAMIC 0}！"), MSG_VAR_MON_NAME_1},
+    [MSG_BOX_IS_FULL]          = {COMPOUND_STRING("这个盒子已经满了！"),           MSG_VAR_NONE},
+    [MSG_RELEASE_POKE]         = {COMPOUND_STRING("要放生这只宝可梦吗？"),      MSG_VAR_NONE},
+    [MSG_RELEASE_WHICH]        = {COMPOUND_STRING("要放生哪一组？"),       MSG_VAR_NONE},
+    [MSG_RELEASE_BOX_ALL]      = {COMPOUND_STRING("要放生整个盒子的宝可梦吗？"),         MSG_VAR_NONE},
+    [MSG_RELEASE_BOX_EGGS]     = {COMPOUND_STRING("要放生所有的蛋吗？"),          MSG_VAR_NONE},
+    [MSG_RELEASE_BOX_FINAL]    = {COMPOUND_STRING("此操作无法撤销。确定吗？"),MSG_VAR_NONE},
+    [MSG_NO_MONS_TO_RELEASE]   = {COMPOUND_STRING("没有可以放生的宝可梦。"),     MSG_VAR_NONE},
+    [MSG_NO_EGGS_TO_RELEASE]   = {COMPOUND_STRING("没有可以放生的蛋。"),        MSG_VAR_NONE},
+    [MSG_BOX_MONS_RELEASED]    = {COMPOUND_STRING("已放生所有宝可梦。"),      MSG_VAR_NONE},
+    [MSG_BOX_EGGS_RELEASED]    = {COMPOUND_STRING("已放生蛋。"),             MSG_VAR_NONE},
+    [MSG_WAS_RELEASED]         = {COMPOUND_STRING("将{DYNAMIC 0}放生了。"),  MSG_VAR_RELEASE_MON_1},
+    [MSG_BYE_BYE]              = {COMPOUND_STRING("再见了！{DYNAMIC 0}！"),      MSG_VAR_RELEASE_MON_3},
+    [MSG_MARK_POKE]            = {COMPOUND_STRING("请选择标记。"),         MSG_VAR_NONE},
+    [MSG_LAST_POKE]            = {COMPOUND_STRING("这样就没有可战斗的宝可梦了！"),  MSG_VAR_NONE},
     [MSG_PARTY_FULL]           = {gText_YourPartysFull,                          MSG_VAR_NONE},
-    [MSG_HOLDING_POKE]         = {COMPOUND_STRING("You're holding a Pokémon!"),  MSG_VAR_NONE},
-    [MSG_WHICH_ONE_WILL_TAKE]  = {COMPOUND_STRING("Which one will you take?"),   MSG_VAR_NONE},
-    [MSG_CANT_RELEASE_EGG]     = {COMPOUND_STRING("You can't release an Egg."),  MSG_VAR_NONE},
-    [MSG_CONTINUE_BOX]         = {COMPOUND_STRING("Continue Box operations?"),   MSG_VAR_NONE},
-    [MSG_CAME_BACK]            = {COMPOUND_STRING("{DYNAMIC 0} came back!"),     MSG_VAR_MON_NAME_1},
-    [MSG_WORRIED]              = {COMPOUND_STRING("Was it worried about you?"),  MSG_VAR_NONE},
+    [MSG_HOLDING_POKE]         = {COMPOUND_STRING("正在抓着宝可梦！"),  MSG_VAR_NONE},
+    [MSG_WHICH_ONE_WILL_TAKE]  = {COMPOUND_STRING("请选择要取出的宝可梦！"),   MSG_VAR_NONE},
+    [MSG_CANT_RELEASE_EGG]     = {COMPOUND_STRING("不能放生蛋。"),  MSG_VAR_NONE},
+    [MSG_CONTINUE_BOX]         = {COMPOUND_STRING("要继续对盒子的操作吗？"),   MSG_VAR_NONE},
+    [MSG_CAME_BACK]            = {COMPOUND_STRING("{DYNAMIC 0}回来了！"),     MSG_VAR_MON_NAME_1},
+    [MSG_WORRIED]              = {COMPOUND_STRING("它是在担心你吗？"),  MSG_VAR_NONE},
     [MSG_SURPRISE]             = {COMPOUND_STRING("… … … … !"),                  MSG_VAR_NONE},
-    [MSG_PLEASE_REMOVE_MAIL]   = {COMPOUND_STRING("Please remove the Mail."),    MSG_VAR_NONE},
+    [MSG_PLEASE_REMOVE_MAIL]   = {COMPOUND_STRING("请取下携带的邮件！"),    MSG_VAR_NONE},
     [MSG_IS_SELECTED2]         = {gText_PkmnIsSelected,                          MSG_VAR_ITEM_NAME},
-    [MSG_GIVE_TO_MON]          = {COMPOUND_STRING("Give to a Pokémon?"),         MSG_VAR_NONE},
-    [MSG_PLACED_IN_BAG]        = {COMPOUND_STRING("Placed item in the Bag."),    MSG_VAR_ITEM_NAME},
-    [MSG_BAG_FULL]             = {COMPOUND_STRING("The Bag is full."),           MSG_VAR_NONE},
-    [MSG_PUT_IN_BAG]           = {COMPOUND_STRING("Put this item in the Bag?"),  MSG_VAR_NONE},
-    [MSG_ITEM_IS_HELD]         = {COMPOUND_STRING("{DYNAMIC 0} is now held."),   MSG_VAR_ITEM_NAME},
-    [MSG_CHANGED_TO_ITEM]      = {COMPOUND_STRING("Changed to {DYNAMIC 0}."),    MSG_VAR_ITEM_NAME},
-    [MSG_CANT_STORE_MAIL]      = {COMPOUND_STRING("Mail can't be stored!"),      MSG_VAR_NONE},
-    [MSG_CANT_HOLD]            = {COMPOUND_STRING("No room to hold that."),      MSG_VAR_NONE},  
+    [MSG_GIVE_TO_MON]          = {COMPOUND_STRING("要给宝可梦携带吗？"),         MSG_VAR_NONE},
+    [MSG_PLACED_IN_BAG]        = {COMPOUND_STRING("已将道具放回包包。"),    MSG_VAR_ITEM_NAME},
+    [MSG_BAG_FULL]             = {COMPOUND_STRING("包包已经满了！"),           MSG_VAR_NONE},
+    [MSG_PUT_IN_BAG]           = {COMPOUND_STRING("要将道具放回包包吗？"),  MSG_VAR_NONE},
+    [MSG_ITEM_IS_HELD]         = {COMPOUND_STRING("让宝可梦携带了{DYNAMIC 0}。"),   MSG_VAR_ITEM_NAME},
+    [MSG_CHANGED_TO_ITEM]      = {COMPOUND_STRING("将{DYNAMIC 0}交换出来了！"),    MSG_VAR_ITEM_NAME},
+    [MSG_CANT_STORE_MAIL]      = {COMPOUND_STRING("不能寄放邮件！"),      MSG_VAR_NONE},
+    [MSG_CANT_HOLD]            = {COMPOUND_STRING("已经拿不下了。"),      MSG_VAR_NONE},  
 };
 
 static const struct WindowTemplate sYesNoWindowTemplate =
@@ -9130,31 +9130,31 @@ static void InitMenu(void)
     sStorage->menuWindow.baseBlock = 92;
 }
 
-static const u8 gPCText_Give[] = _("GIVE");
+static const u8 gPCText_Give[] = _("携带");
 
 static const u8 *const sMenuTexts[] =
 {
-    [MENU_CANCEL]     = COMPOUND_STRING("Cancel"),
-    [MENU_STORE]      = COMPOUND_STRING("Store"),
-    [MENU_WITHDRAW]   = COMPOUND_STRING("Withdraw"),
-    [MENU_MOVE]       = COMPOUND_STRING("Move"),
-    [MENU_SHIFT]      = COMPOUND_STRING("Shift"),
-    [MENU_PLACE]      = COMPOUND_STRING("Place"),
-    [MENU_SUMMARY]    = COMPOUND_STRING("Summary"),
-    [MENU_RELEASE]    = COMPOUND_STRING("Release"),
-    [MENU_MARK]       = COMPOUND_STRING("Mark"),
-    [MENU_JUMP]       = COMPOUND_STRING("Jump"),
-    [MENU_WALLPAPER]  = COMPOUND_STRING("Wallpaper"),
-    [MENU_NAME]       = COMPOUND_STRING("Name"),
-    [MENU_RELEASE_BOX_MENU] = COMPOUND_STRING("Release..."),
-    [MENU_RELEASE_BOX_ALL] = COMPOUND_STRING("Current box"),
-    [MENU_RELEASE_BOX_EGGS] = COMPOUND_STRING("Current box eggs"),
-    [MENU_TAKE]       = COMPOUND_STRING("Take"),
+    [MENU_CANCEL]     = COMPOUND_STRING("取消"),
+    [MENU_STORE]      = COMPOUND_STRING("寄放"),
+    [MENU_WITHDRAW]   = COMPOUND_STRING("取出"),
+    [MENU_MOVE]       = COMPOUND_STRING("移动"),
+    [MENU_SHIFT]      = COMPOUND_STRING("交换"),
+    [MENU_PLACE]      = COMPOUND_STRING("放下"),
+    [MENU_SUMMARY]    = COMPOUND_STRING("查看能力"),
+    [MENU_RELEASE]    = COMPOUND_STRING("放生"),
+    [MENU_MARK]       = COMPOUND_STRING("标记"),
+    [MENU_JUMP]       = COMPOUND_STRING("跳转"),
+    [MENU_WALLPAPER]  = COMPOUND_STRING("壁纸"),
+    [MENU_NAME]       = COMPOUND_STRING("名字"),
+    [MENU_RELEASE_BOX_MENU] = COMPOUND_STRING("放生……"),
+    [MENU_RELEASE_BOX_ALL] = COMPOUND_STRING("当前盒子"),
+    [MENU_RELEASE_BOX_EGGS] = COMPOUND_STRING("当前盒子的蛋"),
+    [MENU_TAKE]       = COMPOUND_STRING("取下"),
     [MENU_GIVE]       = gPCText_Give,
     [MENU_GIVE_2]     = gPCText_Give,
-    [MENU_SWITCH]     = COMPOUND_STRING("Switch"),
-    [MENU_BAG]        = COMPOUND_STRING("Bag"),
-    [MENU_INFO]       = COMPOUND_STRING("Info"),
+    [MENU_SWITCH]     = COMPOUND_STRING("移动"),
+    [MENU_BAG]        = COMPOUND_STRING("放回包包"),
+    [MENU_INFO]       = COMPOUND_STRING("查看信息"),
     [MENU_SCENERY_1]  = gPCText_Scenery1,
     [MENU_SCENERY_2]  = gPCText_Scenery2,
     [MENU_ETCETERA_1] = gPCText_Etcetera1,
@@ -9202,7 +9202,7 @@ static const u8 *const sMenuTexts[] =
     [MENU_SPIKYPIKA]  = gPCText_SpikyPika,
     [MENU_KIMONOGIRL] = gPCText_KimonoGirl,
     [MENU_REVIVAL]    = gPCText_Revival,
-    [MENU_SELECT]     = COMPOUND_STRING("Select"),
+    [MENU_SELECT]     = COMPOUND_STRING("选择"),
 };
 
 static void SetMenuText(u8 textId)

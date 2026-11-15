@@ -106,18 +106,18 @@ static void MoveSelectionDisplayMoveEffectiveness(u32 foeEffectiveness, enum Bat
 EWRAM_DATA static struct Pokemon sEnemyBattleSummaryMons[MAX_BATTLERS_COUNT / 2] = {0};
 EWRAM_DATA static u8 sEnemyBattleSummaryCount = 0;
 
-static const u8 sText_WeatherPrompt[] = _("Weather: ");
-static const u8 sText_WeatherPromptDuration[] = _("\nDuration: ");
-static const u8 sText_WeatherPromptTurn[] = _(" turn");
-static const u8 sText_WeatherPromptTurns[] = _(" turns");
-static const u8 sText_WeatherRain[] = _("Rain");
-static const u8 sText_WeatherSun[] = _("Sun");
-static const u8 sText_WeatherSandstorm[] = _("Sandstorm");
-static const u8 sText_WeatherHail[] = _("Hail");
-static const u8 sText_WeatherSnow[] = _("Snow");
-static const u8 sText_WeatherFog[] = _("Fog");
-static const u8 sText_WeatherStrongWinds[] = _("Strong Winds");
-static const u8 sText_WeatherTwilight[] = _("Twilight");
+static const u8 sText_WeatherPrompt[] = _("天气：");
+static const u8 sText_WeatherPromptDuration[] = _("\n持续：");
+static const u8 sText_WeatherPromptTurn[] = _("回合");
+static const u8 sText_WeatherPromptTurns[] = _("回合");
+static const u8 sText_WeatherRain[] = _("下雨");
+static const u8 sText_WeatherSun[] = _("大晴天");
+static const u8 sText_WeatherSandstorm[] = _("沙暴");
+static const u8 sText_WeatherHail[] = _("冰雹");
+static const u8 sText_WeatherSnow[] = _("下雪");
+static const u8 sText_WeatherFog[] = _("起雾");
+static const u8 sText_WeatherStrongWinds[] = _("乱流");
+static const u8 sText_WeatherTwilight[] = _("暮色");
 
 static const u8 *const sBattleWeatherActionPromptNames[BATTLE_WEATHER_COUNT] =
 {
@@ -1894,9 +1894,9 @@ static void MoveSelectionDisplayMoveDescription(enum BattlerId battler)
     }
 
     u8 pwr_num[3], acc_num[3];
-    u8 cat_desc[7] = _("CAT: ");
-    u8 pwr_desc[7] = _("PWR: ");
-    u8 acc_desc[7] = _("ACC: ");
+    u8 cat_desc[7] = _("分类：");
+    u8 pwr_desc[7] = _("威力：");
+    u8 acc_desc[7] = _("命中：");
     u8 cat_start[] = _("{CLEAR_TO 0x03}");
     u8 pwr_start[] = _("{CLEAR_TO 0x38}");
     u8 acc_start[] = _("{CLEAR_TO 0x6C}");
@@ -2174,8 +2174,8 @@ static void HandleChooseActionAfterDma3(enum BattlerId battler)
         {
             if (DEBUG_AI_DELAY_TIMER)
             {
-                static const u8 sFramesText[] = _(" frames thinking\n");
-                static const u8 sCyclesText[] = _(" cycles");
+                static const u8 sFramesText[] = _("帧思考\n");
+                static const u8 sCyclesText[] = _("个周期");
                 ConvertIntToDecimalStringN(gDisplayedStringBattle, gBattleStruct->aiDelayFrames, STR_CONV_MODE_RIGHT_ALIGN, 3);
                 u8* end = StringAppend(gDisplayedStringBattle, sFramesText);
                 ConvertIntToDecimalStringN(end, gBattleStruct->aiDelayCycles, STR_CONV_MODE_RIGHT_ALIGN, 8);
@@ -2212,7 +2212,7 @@ static void PlayerHandleChooseAction(enum BattlerId battler)
     enum BattlerId partner = GetBattlerAtPosition(B_POSITION_PLAYER_RIGHT);
     if (!hasWeatherPrompt && B_SHOW_PARTNER_TARGET && gBattleTypeFlags & BATTLE_TYPE_INGAME_PARTNER && IsBattlerAlive(partner))
     {
-        StringCopy(gStringVar1, COMPOUND_STRING("Partner will use:\n"));
+        StringCopy(gStringVar1, COMPOUND_STRING("搭档将使用：\n"));
         enum Move move = GetBattlerChosenMove(partner);
         StringAppend(gStringVar1, GetMoveName(move));
         enum MoveTarget moveTarget = GetBattlerMoveTargetType(partner, move);

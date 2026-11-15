@@ -16,7 +16,7 @@ PewterCity_House1_EventScript_Nidorian::
 	end
 
 PewterCity_House1_Text_SuperNerd:
-	.string "Nidoran, shake!$"
+	.string "尼多朗，握手！$"
 
 PewterCity_House1_Text_Nidoran:
-	.string "Nidoran: Gau gau!$"
+	.string "尼多朗：嘎呜嘎呜！$"

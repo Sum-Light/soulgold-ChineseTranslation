@@ -8,11 +8,7 @@ script AchievementGuy {
     lock
     faceplayer
 
-    msgbox("I've achieved many things in my life.
-            Now, I want to see what the younger
-            generation can do.
-            
-            Let me have a closer look at you...")
+    msgbox("我这辈子已经取得了很多成就。\n现在，我想看看年轻一代\l能做些什么。\p让我好好看看你……")
 
     special(GetCompletedAchievementsCount)
     copyvar(VAR_ACHIEVEMENT_COUNT, VAR_RESULT)
@@ -44,9 +40,7 @@ script AchievementGuy {
     }
 
     if (var(VAR_ACHIEVEMENT_COUNT) >= 100) {
-        msgbox("You've achieved everything possible!
-                There is nothing further I could bestow
-                upon you, true master of Pokémon.")
+        msgbox("你已经取得了全部成就！\n我再没有什么可以授予你了，\l真正的宝可梦大师。")
         release
         end
     }
@@ -71,12 +65,7 @@ script AchievementGuy {
     copyvar(VAR_ACHIEVEMENTS_REMAINING, VAR_NEXT_ACHIEVEMENT_MILESTONE)
     subvar(VAR_ACHIEVEMENTS_REMAINING, VAR_ACHIEVEMENT_COUNT)
     buffernumberstring(STR_VAR_2, VAR_ACHIEVEMENTS_REMAINING)
-    msgbox("Hmm... 
-            You've achieved {STR_VAR_1} things 
-            so far!
-            
-            If you were to achieve {STR_VAR_2} more
-            things, I might have something for you!")
+    msgbox("嗯……\n你目前为止已经取得了\l{STR_VAR_1}项成就！\p再取得{STR_VAR_2}项成就，\n我或许就有东西给你了！")
     release
     end
 
@@ -84,21 +73,13 @@ script AchievementGuy {
 
 script keepUpTheGoodWork {
     createfieldmugshot(MUGSHOT_GENTLEMAN)
-    msgbox("Never stop reaching for greater
-            heights. I look forward to
-            seeing what you will do next.")
+    msgbox("永远不要停止向更高处攀登。\n我期待着看到你\l接下来会做些什么。")
     release
     end
 }
 
 script AchievementGuy_Reward15 {
-    msgbox("Hmm! 
-    
-            You have at least {STR_VAR_1} 
-            achievements under your belt! 
-            
-            A great start! I will bestow you this
-            as a reward!")
+    msgbox("嗯！\p你至少已经取得了\n{STR_VAR_1}项成就！\p开局不错！这个就作为奖励\n授予你吧！")
     giveitem(ITEM_SHIN_GENOME)
     setvar(VAR_ACHIEVEMENT_REWARD_MILESTONE, 15)
     goto(keepUpTheGoodWork)
@@ -107,13 +88,7 @@ script AchievementGuy_Reward15 {
 }
 
 script AchievementGuy_Reward30 {
-    msgbox("Excellent! 
-    
-            You've achieved {STR_VAR_1}
-            things and reached the next step
-            on your journey! 
-            
-            I have something nice for you!")
+    msgbox("太出色了！\p你已经取得了{STR_VAR_1}项成就，\n在旅程中又迈进了\l新的一步！\p我有件好东西给你！")
     setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_GRENINJA_BOND)
     bufferspeciesname(STR_VAR_1, SPECIES_GRENINJA_BOND)
     givemon(SPECIES_GRENINJA_BOND, 36)
@@ -127,13 +102,7 @@ script AchievementGuy_Reward30 {
 }
 
 script AchievementGuy_Reward45 {
-    msgbox("Superb! 
-    
-            You've achieved {STR_VAR_1}
-            things and reached the next
-            milestone!
-            
-            I have something nice for you!")
+    msgbox("太棒了！\p你已经取得了{STR_VAR_1}项成就，\n抵达了下一个\l里程碑！\p我有件好东西给你！")
     setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_POIPOLE)
     bufferspeciesname(STR_VAR_1, SPECIES_POIPOLE)
     givemon(SPECIES_POIPOLE, 5)
@@ -147,12 +116,7 @@ script AchievementGuy_Reward45 {
 }
 
 script AchievementGuy_Reward60 {
-    msgbox("Woah! You've achieved {STR_VAR_1}
-            things and are known around
-            the Johto!
-            
-            I have something for you
-            to commemorate this achievement!")
+    msgbox("哇！你已经取得了\n{STR_VAR_1}项成就，\l在城都地区也小有名气了！\p我有样东西给你，\n纪念这份成就！")
     setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_FLOETTE_ETERNAL)
     bufferspeciesname(STR_VAR_1, SPECIES_FLOETTE_ETERNAL)
     givemon(SPECIES_FLOETTE_ETERNAL, 30)
@@ -166,13 +130,7 @@ script AchievementGuy_Reward60 {
 }
 
 script AchievementGuy_Reward75 {
-    msgbox("Incredible! 
-    
-            You've achieved {STR_VAR_1}
-            things and reached the next
-            milestone!
-            
-            Another reward just for you!")
+    msgbox("难以置信！\p你已经取得了{STR_VAR_1}项成就，\n抵达了下一个\l里程碑！\p这是专门给你的另一份奖励！")
     setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_ZARUDE)
     bufferspeciesname(STR_VAR_1, SPECIES_ZARUDE)
     givemon(SPECIES_ZARUDE, 50)
@@ -186,15 +144,7 @@ script AchievementGuy_Reward75 {
 }
 
 script AchievementGuy_Reward100 {
-    msgbox("Amazing! 
-    
-            You've achieved {STR_VAR_1}
-            things and reached my final
-            milestone!
-            
-            These items are the only thing
-            left to give. I have nothing
-            further for you!")
+    msgbox("了不起！\p你已经取得了{STR_VAR_1}项成就，\n抵达了我最后的\l里程碑！\p这些是我最后能给你的东西，\n再没有别的了！")
     setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_MAGEARNA_ORIGINAL)
     bufferspeciesname(STR_VAR_1, SPECIES_MAGEARNA_ORIGINAL)
     givemon(SPECIES_MAGEARNA_ORIGINAL, 80)

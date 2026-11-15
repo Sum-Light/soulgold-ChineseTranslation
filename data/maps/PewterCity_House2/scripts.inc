@@ -6,6 +6,6 @@ PewterCity_House2_EventScript_Gramps::
 	end
 
 PewterCity_House2_Text_Gramps:
-	.string "I like snoozing with the radio on…\n"
-	.string "…Zzzz…$"
+	.string "我喜欢开着收音机打盹……\n……呼……呼……$"
+	.string ""
 

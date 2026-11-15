@@ -93,14 +93,14 @@ Route104_PrettyPetalFlowerShop_EventScript_MintOwner::
 	end
 
 Route104_PrettyPetalFlowerShop_Text_Mints1:
-	.string "Our Nature Mints are back!\n"
-	.string "Have a look!$"
+	.string "性格薄荷补货了！\n您来看看吧！$"
+	.string ""
 
 Route104_PrettyPetalFlowerShop_Text_Mints2:
-	.string "Hi, dear trainer. If you are looking\n"
-	.string "to buy Nature Mints, you should have\l"
-	.string "come earlier. I just sold the last one.\n"
-	.string "Come back later.$"
+	.string "您好，亲爱的训练家。\n想买性格薄荷的话，您来晚了。\l最后一份刚卖完，请改天再来吧。$"
+	.string ""
+	.string ""
+	.string ""
 
 	.align 2
 Route104_PrettyPetalFlowerShop_MintShop:
@@ -150,53 +150,53 @@ Route104_PrettyPetalFlowerShop_EventScript_DontExplainBerries::
 	return
 
 GoldenrodCity_FlowerShop_Text_Floria:
-	.string "When I told my sis about the jiggly\n"
-	.string "tree, she said it's dangerous.\p"
-	.string "If I beat Whitney, I wonder if\n"
-	.string "she'll lend me her water bottle…$"
+	.string "我跟姐姐说起那棵会晃的树，\n她说那很危险。\p要是我打赢了小茜，\n不知道她肯不肯把喷壶借我……$"
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_FlowerShop_Text_Owner1:
-.string "Apparently, there is an odd tree\n"
-.string "on Route 36.\p"
-.string "They say it dances when you water\n"
-.string "it...\p"
-.string "Oh, of course not!\p"
-.string "This is a flower shop, so we do\n"
-.string "have watering cans...\p"
-.string "But I cannot let you have one!\n"
-.string "It's too dangerous!\p"
-.string "Well, maybe if you manage to\n"
-.string "defeat gym leader Whitney, it\l"
-.string "might be okay.$"
+.string "听说36号道路上\n长着一棵奇怪的树。\p据说给它浇浇水，\n它就会跳起舞来……\p啊，不行不行！\p这里是花店，喷壶倒是\n有的……\p可我不能借给您！\n太危险了！\p不过，如果您能打赢\n道馆馆主小茜，\l也许就可以。$"
+.string ""
+.string ""
+.string ""
+.string ""
+.string ""
+.string ""
+.string ""
+.string ""
+.string ""
+.string ""
+.string ""
 
 GoldenrodCity_FlowerShop_Text_Owner2:
-.string "Apparently, there is an odd tree\n"
-.string "on Route 36.\p"
-.string "They say it dances when you water\n"
-.string "it...\p"
-.string "Oh, that's a Plainbadge from\n"
-.string "The Goldenrod Gym!\p"
-.string "Did you defeat Whitney?!\p"
-.string "Well, then there's nothing to worry\n"
-.string "about, is there?\p"
-.string "I'll let you use this Squirtbottle\n"
-.string "for a while then.\l"
-.string "...\p"
-.string "Oh, never mind. Keep it!$"
+.string "听说36号道路上\n长着一棵奇怪的树。\p据说给它浇浇水，\n它就会跳起舞来……\p哦，那是满金道馆的\n标准徽章！\p您打赢小茜了？！\p那就没什么好担心的了，\n对吧？\p我就把这杰尼龟喷壶\n借您用一阵子吧……\l那个……\p啊，算了算了。\n就送给您吧！$"
+.string ""
+.string ""
+.string ""
+.string ""
+.string ""
+.string ""
+.string ""
+.string ""
+.string ""
+.string ""
+.string ""
+.string ""
 
 GoldenrodCity_FlowerShop_Text_Owner3:
-.string "The odd tree is on Route 36.\n"
-.string "Please be careful!$"
+.string "那棵奇怪的树在36号道路。\n请多加小心！$"
+.string ""
 
 GoldenrodCity_FlowerShop_Text_Owner4:
-    .string "Lalala lalalala. Have plenty of\n"
-    .string "water, my lovely!$"
+    .string "啦啦啦，啦啦啦啦。\n多浇点水吧，我的宝贝！$"
+    .string ""
 
 GoldenrodCity_FlowerShop_Text_FloriaYouBeatWhitney:
-    .string "Wow, you beat Whitney? Cool!$"
+    .string "哇，你打赢小茜了？好厉害！$"
 
 GoldenrodCity_FlowerShop_Text_FloriaItWasAMon:
-    .string "So it really was a Pokémon!$"
+    .string "原来那真的是宝可梦啊！$"
 
 FlowerShopMulchVendor::
 	lock
@@ -289,28 +289,19 @@ GiveGracidea_2:
 
 
 FlowerShopMulchVendor_Text_0:
-	.string "Welcome! Have a look at our inventory!$"
+	.string "欢迎光临！请看看我们的商品！$"
 
 FlowerShopMulchVendor_Text_1:
-	.string "Thank you! Come again!$"
+	.string "谢谢惠顾！欢迎再来！$"
 
 FlowerShopMulchVendor_Text_2:
-	.string "Thank you, we hope to stock some \n"
-	.string "rare berries in the near future!$"
+	.string "谢谢惠顾，我们近期\n希望能进一些稀有的树果！$"
 
 UniversityFlorist_Text_0:
-	.string "I'm studying to become a botanist!\p"
-	.string "I strive to learn all about rare\n"
-	.string "plants and flowers!$"
+	.string "我正在学习，想成为一名植物学家！\p我努力研究各种珍稀的\n植物和花卉！$"
 
 GiveGracidea_Text_0:
-	.string "It is said that Shaymin can\n"
-	.string "change its form with that flower.$"
+	.string "据说谢米能借助那朵花\n改变形态。$"
 
 GiveGracidea_Text_1:
-	.string "Oh! That Pokémon you have!\p"
-	.string "It really is a Shaymin!\p"
-	.string "I have read about it, but I would never\n"
-	.string "have even dreamed of seeing it!\p"
-	.string "Please, you should try giving it this\n"
-	.string "flower.$"
+	.string "哦！您带着的那只宝可梦！\p真的是谢米！\p我在书上读到过，\n可从没想过能亲眼见到！\p请您试着\n把这朵花送给它吧。$"

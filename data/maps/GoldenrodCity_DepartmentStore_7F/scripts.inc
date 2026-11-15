@@ -73,38 +73,38 @@ GoldenrodDeptStore7_EventScript_Bugcatcher::
 	end
 
 GoldenrodDeptStore_Text_RoofPokefanF:
-    .string "Whew, I'm tired.\p"
-    .string "I sometimes come up to the rooftop\n"
-    .string "to take a break from shopping.$"
+    .string "呼，逛得真累。\p逛累了，我时不时\n会上楼顶来歇口气。$"
+    .string ""
+    .string ""
 
 GoldenrodDeptStore_Text_RoofFisher:
-    .string "Pardon? Who says an adult can't get\n"
-    .string "into this?\p"
-    .string "I'm going to be back every day to\n"
-    .string "collect all the dolls!$"
+    .string "你说什么？谁说大人就不能\n迷上这个？\p我以后天天都来，\n把玩偶全部收集齐！$"
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodDeptStore_Text_RoofTwin:
-    .string "They have bargain sales here every\n"
-    .string "so often.$"
+    .string "这里时不时就会\n搞一次大减价。$"
+    .string ""
 
 GoldenrodDeptStore_Text_RoofSuperNerdOhWow:
-    .string "Oh, wow!$"
+    .string "哇！$"
 
 GoldenrodDeptStore_Text_RoofSuperNerdQuitBotheringMe:
-    .string "Will you quit bothering me?$"
+    .string "你别再烦我了好不好？$"
 
 GoldenrodDeptStore_Text_RoofPokefanM:
-    .string "There's something I really want,\n"
-    .string "but I don't have the necessary cash…\p"
-    .string "Maybe I'll sell off the Berries I've\n"
-    .string "collected…$"
+    .string "有样东西我特别想要，\n可手头的钱不够……\p也许该把攒下的树果\n卖掉一些……$"
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodDeptStore_Text_RoofTeacher:
-    .string "Oh, everything is so cheap!\p"
-    .string "I bought so much, my Pack's crammed!$"
+    .string "哎呀，东西都好便宜！\p我买了一大堆，\n包包都塞满了！$"
+    .string ""
 
 GoldenrodDeptStore_Text_RoofBugCatcher:
-    .string "My Pokémon always get paralyzed or\n"
-    .string "poisoned when the chips are down…\p"
-    .string "So I came to buy some Full Heal.\p"
-    .string "I wonder if there's any left?$"
+    .string "一到关键时候，我的宝可梦\n就麻痹啊中毒啊……\p所以我来买万灵药。\p不知道还有没有剩的？$"
+    .string ""
+    .string ""
+    .string ""

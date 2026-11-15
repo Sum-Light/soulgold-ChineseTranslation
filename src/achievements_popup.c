@@ -211,7 +211,7 @@ static void DrawAchievementPopup(u8 windowId, enum AchievementId id)
 
     FillWindowPixelBuffer(windowId, PIXEL_FILL(1));
     DrawStdWindowFrame(windowId, FALSE);
-    AddTextPrinterParameterized(windowId, FONT_NORMAL, COMPOUND_STRING("New trophy!"), 8, 1, TEXT_SKIP_DRAW, NULL);
+    AddTextPrinterParameterized(windowId, FONT_NORMAL, COMPOUND_STRING("获得新奖杯！"), 8, 1, TEXT_SKIP_DRAW, NULL);
     AddTextPrinterParameterized(windowId, FONT_NORMAL, achievement->name, 22, 15, TEXT_SKIP_DRAW, NULL);
 
     ConvertIntToDecimalStringN(gStringVar1, Achievement_CountUnlocked(), STR_CONV_MODE_LEFT_ALIGN, 3);

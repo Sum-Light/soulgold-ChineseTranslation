@@ -219,12 +219,12 @@ static EWRAM_DATA struct TourneyTreeInfoCard *sInfoCard = {0};
 static EWRAM_DATA u8 *sTilemapBuffer = NULL;
 static EWRAM_DATA struct PwtDomeMoveCache sPwtDomeMoveCache = {0};
 
-static const u8 sPwtDomeText_DefaultIntro[] = _("Show me what brought you this far.");
-static const u8 sPwtDomeText_DefaultPlayerWon[] = _("That was a championship-caliber battle.");
-static const u8 sPwtDomeText_DefaultPlayerLost[] = _("Train harder and come challenge me again.");
-static const u8 sPwtDomeText_BlueIntro[] = _("Blue: You made it here?\nAll right, show me what you've got!");
-static const u8 sPwtDomeText_BluePlayerWon[] = _("Blue: Not bad. I can see why\nyou made the finals.");
-static const u8 sPwtDomeText_BluePlayerLost[] = _("Blue: That's the difference\nbetween us. Smell ya later!");
+static const u8 sPwtDomeText_DefaultIntro[] = _("让我看看你是凭什么走到这里的。");
+static const u8 sPwtDomeText_DefaultPlayerWon[] = _("真是一场冠军水准的对战。");
+static const u8 sPwtDomeText_DefaultPlayerLost[] = _("再多锻炼锻炼，然后来挑战我吧。");
+static const u8 sPwtDomeText_BlueIntro[] = _("青绿：你居然打到这里来了？\n好，让我见识一下你的本事！");
+static const u8 sPwtDomeText_BluePlayerWon[] = _("青绿：还不赖嘛。难怪你\n能打进决赛。");
+static const u8 sPwtDomeText_BluePlayerLost[] = _("青绿：这就是你我之间的差距。\n拜拜啦！");
 
 static const struct PwtDomeTrainerText sPwtDomeText_Default =
 {
@@ -1347,108 +1347,108 @@ static const u8 sTournamentIdToPairedTrainerIds[DOME_TOURNAMENT_TRAINERS_COUNT] 
 // Dome Ace Tucker has their own separate potential text.
 static const u8 *const sBattleDomePotentialTexts[DOME_TOURNAMENT_TRAINERS_COUNT + 1] =
 {
-    COMPOUND_STRING("The best candidate to be a champ!"), // Highest potential
-    COMPOUND_STRING("A sure-finalist team."),
-    COMPOUND_STRING("A likely top-three finisher."),
-    COMPOUND_STRING("A candidate to finish first."),
-    COMPOUND_STRING("A team with top-class potential."),
-    COMPOUND_STRING("The dark horse team this tournament."),
-    COMPOUND_STRING("A better-than-average team."),
-    COMPOUND_STRING("This tournament's average team."),
-    COMPOUND_STRING("A team with average potential."),
-    COMPOUND_STRING("A weaker-than-average team."),
-    COMPOUND_STRING("A team looking for its first win."),
-    COMPOUND_STRING("One win will make this team proud."),
-    COMPOUND_STRING("Overall, a weak team."),
-    COMPOUND_STRING("A team with very low potential."),
-    COMPOUND_STRING("A team unlikely to win the tournament."),
-    COMPOUND_STRING("The team most unlikely to win."), // Lowest potential
-    COMPOUND_STRING("The perfect, invincible superstar!"), // Dome Ace Tucker
+    COMPOUND_STRING("无可争议的头号夺冠热门！"), // Highest potential
+    COMPOUND_STRING("锁定决赛席位的强劲之师。"),
+    COMPOUND_STRING("挺进前三甲的有力争夺者。"),
+    COMPOUND_STRING("具备问鼎冠军实力的劲旅。"),
+    COMPOUND_STRING("坐拥顶尖水准的潜力战队。"),
+    COMPOUND_STRING("本届大赛不容小觑的黑马。"),
+    COMPOUND_STRING("实力位居平均线之上的队伍。"),
+    COMPOUND_STRING("本届大赛中规中矩的队伍。"),
+    COMPOUND_STRING("潜力平平、表现均衡的队伍。"),
+    COMPOUND_STRING("实力略逊于平均水准的队伍。"),
+    COMPOUND_STRING("苦求首胜突破的队伍。"),
+    COMPOUND_STRING("恐怕一胜难求的队伍。"),
+    COMPOUND_STRING("整体实力偏弱的队伍。"),
+    COMPOUND_STRING("上限极为有限的队伍。"),
+    COMPOUND_STRING("几无夺冠可能的队伍。"),
+    COMPOUND_STRING("本届大赛中胜率垫底的队伍。"), // Lowest potential
+    COMPOUND_STRING("完美无瑕、所向披靡的超级巨星！"), // Dome Ace Tucker
 };
 
 // The second line of text on a trainers info card. It gives information about their battle style (dependent on their party's moves).
 static const u8 *const sBattleDomeOpponentStyleTexts[NUM_BATTLE_STYLES] =
 {
-    [DOME_BATTLE_STYLE_RISKY]           = COMPOUND_STRING("Willing to risk total disaster at times."),
-    [DOME_BATTLE_STYLE_STALL]           = COMPOUND_STRING("Skilled at enduring long battles."),
-    [DOME_BATTLE_STYLE_VARIED]          = COMPOUND_STRING("Varies tactics to suit the opponent."),
-    [DOME_BATTLE_STYLE_COMBO_HIGH]      = COMPOUND_STRING("Has a tough winning pattern."),
-    [DOME_BATTLE_STYLE_RARE_MOVES]      = COMPOUND_STRING("Occasionally uses a very rare move."),  // Seems like the text for these two was swapped
-    [DOME_BATTLE_STYLE_RARE_MOVE]       = COMPOUND_STRING("Uses startling and disruptive moves."), //
-    [DOME_BATTLE_STYLE_HP]              = COMPOUND_STRING("Constantly watches HP in battle."),
-    [DOME_BATTLE_STYLE_STORE_POWER]     = COMPOUND_STRING("Good at storing then loosing power."),
-    [DOME_BATTLE_STYLE_ENFEEBLE_LOW]    = COMPOUND_STRING("Skilled at enfeebling foes."),
-    [DOME_BATTLE_STYLE_LUCK]            = COMPOUND_STRING("Prefers tactics that rely on luck."),
-    [DOME_BATTLE_STYLE_REGAL]           = COMPOUND_STRING("Attacks with a regal atmosphere."),
-    [DOME_BATTLE_STYLE_LOW_PP]          = COMPOUND_STRING("Attacks with powerful, low-PP moves."),
-    [DOME_BATTLE_STYLE_STATUS_ATK]      = COMPOUND_STRING("Skilled at enfeebling, then attacking."),
-    [DOME_BATTLE_STYLE_ENDURE]          = COMPOUND_STRING("Battles while enduring all attacks."),
-    [DOME_BATTLE_STYLE_STATUS]          = COMPOUND_STRING("Skilled at upsetting foes emotionally."),
-    [DOME_BATTLE_STYLE_STRAIGHTFORWARD] = COMPOUND_STRING("Uses strong and straightforward moves."),
-    [DOME_BATTLE_STYLE_AGGRESSIVE]      = COMPOUND_STRING("Aggressively uses strong moves."),
-    [DOME_BATTLE_STYLE_DEF]             = COMPOUND_STRING("Battles while cleverly dodging attacks."),
-    [DOME_BATTLE_STYLE_ENFEEBLE_HIGH]   = COMPOUND_STRING("Skilled at using upsetting attacks."),
-    [DOME_BATTLE_STYLE_POPULAR_POWER]   = COMPOUND_STRING("Uses many popular moves."),
-    [DOME_BATTLE_STYLE_COMBO_LOW]       = COMPOUND_STRING("Has moves for powerful combinations."),
-    [DOME_BATTLE_STYLE_ACCURATE]        = COMPOUND_STRING("Uses high-probability attacks."),
-    [DOME_BATTLE_STYLE_POWERFUL]        = COMPOUND_STRING("Aggressively uses spectacular moves."),
-    [DOME_BATTLE_STYLE_ATK_OVER_DEF]    = COMPOUND_STRING("Emphasizes offense over defense."),
-    [DOME_BATTLE_STYLE_DEF_OVER_ATK]    = COMPOUND_STRING("Emphasizes defense over offense."),
-    [DOME_BATTLE_STYLE_POPULAR_STRONG]  = COMPOUND_STRING("Attacks quickly with strong moves."),
-    [DOME_BATTLE_STYLE_EFFECTS]         = COMPOUND_STRING("Often uses moves with added effects."),
-    [DOME_BATTLE_STYLE_BALANCED]        = COMPOUND_STRING("Uses a well-balanced mix of moves."),
-    [DOME_BATTLE_STYLE_UNUSED1]         = COMPOUND_STRING("This is sample message 1."),
-    [DOME_BATTLE_STYLE_UNUSED2]         = COMPOUND_STRING("This is sample message 2."),
-    [DOME_BATTLE_STYLE_UNUSED3]         = COMPOUND_STRING("This is sample message 3."),
-    [DOME_BATTLE_STYLE_UNUSED4]         = COMPOUND_STRING("This is sample message 4."),
+    [DOME_BATTLE_STYLE_RISKY]           = COMPOUND_STRING("时而甘愿孤注一掷。"),
+    [DOME_BATTLE_STYLE_STALL]           = COMPOUND_STRING("擅长消磨对手的持久战。"),
+    [DOME_BATTLE_STYLE_VARIED]          = COMPOUND_STRING("看穿对手，灵活变幻战术。"),
+    [DOME_BATTLE_STYLE_COMBO_HIGH]      = COMPOUND_STRING("深谙克敌制胜之道。"),
+    [DOME_BATTLE_STYLE_RARE_MOVES]      = COMPOUND_STRING("偶尔会使出极为罕见的招式。"),  // Seems like the text for these two was swapped
+    [DOME_BATTLE_STYLE_RARE_MOVE]       = COMPOUND_STRING("招式出其不意，打乱对战节奏。"), //
+    [DOME_BATTLE_STYLE_HP]              = COMPOUND_STRING("在对战中时刻戒备HP。"),
+    [DOME_BATTLE_STYLE_STORE_POWER]     = COMPOUND_STRING("蓄势待发，伺机爆发强力一击。"),
+    [DOME_BATTLE_STYLE_ENFEEBLE_LOW]    = COMPOUND_STRING("精于削弱对手的实力。"),
+    [DOME_BATTLE_STYLE_LUCK]            = COMPOUND_STRING("倾向于寄希望于运气的战术。"),
+    [DOME_BATTLE_STYLE_REGAL]           = COMPOUND_STRING("攻势中隐隐透着王者风范。"),
+    [DOME_BATTLE_STYLE_LOW_PP]          = COMPOUND_STRING("倾向于凭强力且低PP的招式强攻。"),
+    [DOME_BATTLE_STYLE_STATUS_ATK]      = COMPOUND_STRING("擅长在削弱对手后展开猛攻。"),
+    [DOME_BATTLE_STYLE_ENDURE]          = COMPOUND_STRING("任凭对手狂轰滥炸也绝不倒下。"),
+    [DOME_BATTLE_STYLE_STATUS]          = COMPOUND_STRING("擅长扰乱敌方心智。"),
+    [DOME_BATTLE_STYLE_STRAIGHTFORWARD] = COMPOUND_STRING("招式强劲，正面突破。"),
+    [DOME_BATTLE_STYLE_AGGRESSIVE]      = COMPOUND_STRING("攻势凶猛，频频施展强力招式。"),
+    [DOME_BATTLE_STYLE_DEF]             = COMPOUND_STRING("身法轻盈，巧避攻击的同时进行对战。"),
+    [DOME_BATTLE_STYLE_ENFEEBLE_HIGH]   = COMPOUND_STRING("擅长施展让对手陷入被动的攻势。"),
+    [DOME_BATTLE_STYLE_POPULAR_POWER]   = COMPOUND_STRING("熟练运用诸多深受青睐的招式。"),
+    [DOME_BATTLE_STYLE_COMBO_LOW]       = COMPOUND_STRING("掌握着能打出强力连携的招式。"),
+    [DOME_BATTLE_STYLE_ACCURATE]        = COMPOUND_STRING("攻势沉稳，追求高命中率。"),
+    [DOME_BATTLE_STYLE_POWERFUL]        = COMPOUND_STRING("攻势凌厉，频频施展华丽招式。"),
+    [DOME_BATTLE_STYLE_ATK_OVER_DEF]    = COMPOUND_STRING("攻势凌厉，崇尚进攻胜过防守。"),
+    [DOME_BATTLE_STYLE_DEF_OVER_ATK]    = COMPOUND_STRING("壁垒森严，崇尚防守胜过进攻。"),
+    [DOME_BATTLE_STYLE_POPULAR_STRONG]  = COMPOUND_STRING("攻势迅猛，凭强力招式速战速决。"),
+    [DOME_BATTLE_STYLE_EFFECTS]         = COMPOUND_STRING("频频使出带有追加效果的招式。"),
+    [DOME_BATTLE_STYLE_BALANCED]        = COMPOUND_STRING("招式搭配均衡，毫无破绽。"),
+    [DOME_BATTLE_STYLE_UNUSED1]         = COMPOUND_STRING("此为测试文本1。"),
+    [DOME_BATTLE_STYLE_UNUSED2]         = COMPOUND_STRING("此为测试文本2。"),
+    [DOME_BATTLE_STYLE_UNUSED3]         = COMPOUND_STRING("此为测试文本3。"),
+    [DOME_BATTLE_STYLE_UNUSED4]         = COMPOUND_STRING("此为测试文本4。"),
 };
 
 // The third line of text on a trainers info card. It that gives information about their party's stat spread (based on their Pokémon's effort values and Nature).
 static const u8 *const sBattleDomeOpponentStatsTexts[] =
 {
-    COMPOUND_STRING("Emphasizes HP and ATTACK."),              // DOME_TEXT_TWO_GOOD_STATS and DOME_TEXT_HP start here
-    COMPOUND_STRING("Emphasizes HP and DEFENSE."),
-    COMPOUND_STRING("Emphasizes HP and SPEED."),
-    COMPOUND_STRING("Emphasizes HP and SP. ATTACK."),
-    COMPOUND_STRING("Emphasizes HP and SP. DEFENSE."),
-    COMPOUND_STRING("Emphasizes ATTACK and DEFENSE."),         // DOME_TEXT_ATK starts here
-    COMPOUND_STRING("Emphasizes ATTACK and SPEED."),
-    COMPOUND_STRING("Emphasizes ATTACK and SP. ATTACK."),
-    COMPOUND_STRING("Emphasizes ATTACK and SP. DEFENSE."),
-    COMPOUND_STRING("Emphasizes DEFENSE and SPEED."),          // DOME_TEXT_DEF starts here
-    COMPOUND_STRING("Emphasizes DEFENSE and SP. ATTACK."),
-    COMPOUND_STRING("Emphasizes DEFENSE and SP. DEFENSE."),
-    COMPOUND_STRING("Emphasizes SPEED and SP. ATTACK."),       // DOME_TEXT_SPEED starts here
-    COMPOUND_STRING("Emphasizes SPEED and SP. DEFENSE."),
-    COMPOUND_STRING("Emphasizes SP. ATTACK and SP. DEFENSE."), // DOME_TEXT_SPATK starts here
-    COMPOUND_STRING("Emphasizes HP."),                         // DOME_TEXT_ONE_GOOD_STAT starts here
-    COMPOUND_STRING("Emphasizes ATTACK."),
-    COMPOUND_STRING("Emphasizes DEFENSE."),
-    COMPOUND_STRING("Emphasizes SPEED."),
-    COMPOUND_STRING("Emphasizes SP. ATTACK."),
-    COMPOUND_STRING("Emphasizes SP. DEFENSE."),
-    COMPOUND_STRING("Neglects HP and ATTACK."),                // DOME_TEXT_TWO_BAD_STATS starts here
-    COMPOUND_STRING("Neglects HP and DEFENSE."),
-    COMPOUND_STRING("Neglects HP and SPEED."),
-    COMPOUND_STRING("Neglects HP and SP. ATTACK."),
-    COMPOUND_STRING("Neglects HP and SP. DEFENSE."),
-    COMPOUND_STRING("Neglects ATTACK and DEFENSE."),
-    COMPOUND_STRING("Neglects ATTACK and SPEED."),
-    COMPOUND_STRING("Neglects ATTACK and SP. ATTACK."),
-    COMPOUND_STRING("Neglects ATTACK and SP. DEFENSE."),
-    COMPOUND_STRING("Neglects DEFENSE and SPEED."),
-    COMPOUND_STRING("Neglects DEFENSE and SP. ATTACK."),
-    COMPOUND_STRING("Neglects DEFENSE and SP. DEFENSE."),
-    COMPOUND_STRING("Neglects SPEED and SP. ATTACK."),
-    COMPOUND_STRING("Neglects SPEED and SP. DEFENSE."),
-    COMPOUND_STRING("Neglects SP. ATTACK and SP. DEFENSE."),
-    COMPOUND_STRING("Neglects HP."),                           // DOME_TEXT_ONE_BAD_STAT starts here
-    COMPOUND_STRING("Neglects ATTACK."),
-    COMPOUND_STRING("Neglects DEFENSE."),
-    COMPOUND_STRING("Neglects SPEED."),
-    COMPOUND_STRING("Neglects SP. ATTACK."),
-    COMPOUND_STRING("Neglects SP. DEFENSE."),
-    [DOME_TEXT_WELL_BALANCED] = COMPOUND_STRING("Raises POKéMON in a well-balanced way."),
+    COMPOUND_STRING("注重HP和攻击。"),              // DOME_TEXT_TWO_GOOD_STATS and DOME_TEXT_HP start here
+    COMPOUND_STRING("注重HP和防御。"),
+    COMPOUND_STRING("注重HP和速度。"),
+    COMPOUND_STRING("注重HP和特攻。"),
+    COMPOUND_STRING("注重HP和特防。"),
+    COMPOUND_STRING("注重攻击和防御。"),         // DOME_TEXT_ATK starts here
+    COMPOUND_STRING("注重攻击和速度。"),
+    COMPOUND_STRING("注重攻击和特攻。"),
+    COMPOUND_STRING("注重攻击和特防。"),
+    COMPOUND_STRING("注重防御和速度。"),          // DOME_TEXT_DEF starts here
+    COMPOUND_STRING("注重防御和特攻。"),
+    COMPOUND_STRING("注重防御和特防。"),
+    COMPOUND_STRING("注重速度和特攻。"),       // DOME_TEXT_SPEED starts here
+    COMPOUND_STRING("注重速度和特防。"),
+    COMPOUND_STRING("注重特攻和特防。"), // DOME_TEXT_SPATK starts here
+    COMPOUND_STRING("注重HP。"),                         // DOME_TEXT_ONE_GOOD_STAT starts here
+    COMPOUND_STRING("注重攻击。"),
+    COMPOUND_STRING("注重防御。"),
+    COMPOUND_STRING("注重速度。"),
+    COMPOUND_STRING("注重特攻。"),
+    COMPOUND_STRING("注重特防。"),
+    COMPOUND_STRING("忽视HP和攻击。"),                // DOME_TEXT_TWO_BAD_STATS starts here
+    COMPOUND_STRING("忽视HP和防御。"),
+    COMPOUND_STRING("忽视HP和速度。"),
+    COMPOUND_STRING("忽视HP和特攻。"),
+    COMPOUND_STRING("忽视HP和特防。"),
+    COMPOUND_STRING("忽视攻击和防御。"),
+    COMPOUND_STRING("忽视攻击和速度。"),
+    COMPOUND_STRING("忽视攻击和特攻。"),
+    COMPOUND_STRING("忽视攻击和特防。"),
+    COMPOUND_STRING("忽视防御和速度。"),
+    COMPOUND_STRING("忽视防御和特攻。"),
+    COMPOUND_STRING("忽视防御和特防。"),
+    COMPOUND_STRING("忽视速度和特攻。"),
+    COMPOUND_STRING("忽视速度和特防。"),
+    COMPOUND_STRING("忽视特攻和特防。"),
+    COMPOUND_STRING("忽视HP。"),                           // DOME_TEXT_ONE_BAD_STAT starts here
+    COMPOUND_STRING("忽视攻击。"),
+    COMPOUND_STRING("忽视防御。"),
+    COMPOUND_STRING("忽视速度。"),
+    COMPOUND_STRING("忽视特攻。"),
+    COMPOUND_STRING("忽视特防。"),
+    [DOME_TEXT_WELL_BALANCED] = COMPOUND_STRING("以非常均衡的方式培育宝可梦。"),
 };
 
 static const u8 sInfoTrainerMonX[FRONTIER_PARTY_SIZE] = {104, 136, 104};
@@ -1468,32 +1468,32 @@ static const u8 sStatTextOffsets[NUM_STATS - 1] =
 
 static const u8 *const sBattleDomeMatchNumberTexts[DOME_TOURNAMENT_MATCHES_COUNT] =
 {
-    COMPOUND_STRING("Round 1, Match 1"),
-    COMPOUND_STRING("Round 1, Match 2"),
-    COMPOUND_STRING("Round 1, Match 3"),
-    COMPOUND_STRING("Round 1, Match 4"),
-    COMPOUND_STRING("Round 1, Match 5"),
-    COMPOUND_STRING("Round 1, Match 6"),
-    COMPOUND_STRING("Round 1, Match 7"),
-    COMPOUND_STRING("Round 1, Match 8"),
-    COMPOUND_STRING("Round 2, Match 1"),
-    COMPOUND_STRING("Round 2, Match 2"),
-    COMPOUND_STRING("Round 2, Match 3"),
-    COMPOUND_STRING("Round 2, Match 4"),
-    COMPOUND_STRING("Semifinal Match 1"),
-    COMPOUND_STRING("Semifinal Match 2"),
-    COMPOUND_STRING("Final Match"),
+    COMPOUND_STRING("第1轮，第1场"),
+    COMPOUND_STRING("第1轮，第2场"),
+    COMPOUND_STRING("第1轮，第3场"),
+    COMPOUND_STRING("第1轮，第4场"),
+    COMPOUND_STRING("第1轮，第5场"),
+    COMPOUND_STRING("第1轮，第6场"),
+    COMPOUND_STRING("第1轮，第7场"),
+    COMPOUND_STRING("第1轮，第8场"),
+    COMPOUND_STRING("第2轮，第1场"),
+    COMPOUND_STRING("第2轮，第2场"),
+    COMPOUND_STRING("第2轮，第3场"),
+    COMPOUND_STRING("第2轮，第4场"),
+    COMPOUND_STRING("半决赛 第1场"),
+    COMPOUND_STRING("半决赛 第2场"),
+    COMPOUND_STRING("决赛"),
 };
 
 static const u8 *const sBattleDomeWinTexts[] =
 {
-    [DOME_TEXT_NO_WINNER_YET]    = COMPOUND_STRING("Let the battle begin!"),
-    [DOME_TEXT_WON_USING_MOVE]   = COMPOUND_STRING("{STR_VAR_1} won using {STR_VAR_2}!"),
-    [DOME_TEXT_CHAMP_USING_MOVE] = COMPOUND_STRING("{STR_VAR_1} became the champ!"),
-    [DOME_TEXT_WON_ON_FORFEIT]   = COMPOUND_STRING("{STR_VAR_1} won by default!"),
-    [DOME_TEXT_CHAMP_ON_FORFEIT] = COMPOUND_STRING("{STR_VAR_1} won outright by default!"),
-    [DOME_TEXT_WON_NO_MOVES]     = COMPOUND_STRING("{STR_VAR_1} won without using a move!"),
-    [DOME_TEXT_CHAMP_NO_MOVES]   = COMPOUND_STRING("{STR_VAR_1} won outright with no moves!"),
+    [DOME_TEXT_NO_WINNER_YET]    = COMPOUND_STRING("开战吧！"),
+    [DOME_TEXT_WON_USING_MOVE]   = COMPOUND_STRING("{STR_VAR_1}使用{STR_VAR_2}获胜！"),
+    [DOME_TEXT_CHAMP_USING_MOVE] = COMPOUND_STRING("{STR_VAR_1}成为冠军！"),
+    [DOME_TEXT_WON_ON_FORFEIT]   = COMPOUND_STRING("{STR_VAR_1}因对手弃权而获胜！"),
+    [DOME_TEXT_CHAMP_ON_FORFEIT] = COMPOUND_STRING("{STR_VAR_1}因对手弃权成为冠军！"),
+    [DOME_TEXT_WON_NO_MOVES]     = COMPOUND_STRING("{STR_VAR_1}未使用任何招式就获胜了！"),
+    [DOME_TEXT_CHAMP_NO_MOVES]   = COMPOUND_STRING("{STR_VAR_1}未使用任何招式就成为了冠军！"),
 };
 
 static const u8 sLeftTrainerMonX[FRONTIER_PARTY_SIZE]  = { 96,  96,  96};

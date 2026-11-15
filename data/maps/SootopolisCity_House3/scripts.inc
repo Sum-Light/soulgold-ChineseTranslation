@@ -20,23 +20,23 @@ SootopolisCity_House3_EventScript_Girl::
 	end
 
 SootopolisCity_House3_Text_JuanHasManyFansDoYou:
-	.string "You're a Pokémon Trainer, aren't you?\p"
-	.string "Sootopolis's Juan has many fans.\n"
-	.string "Even more than his student Wallace!\p"
-	.string "Do you have any?$"
+	.string "你是宝可梦训练家吗？\p有很多人喜欢琉璃市的亚当，\n甚至比喜欢米可利的还多！\p也有人喜欢你吗？$"
+	.string ""
+	.string ""
+	.string ""
 
 SootopolisCity_House3_Text_YouMustBePrettyStrong:
-	.string "Oh, then you must be pretty strong.$"
+	.string "呀，那么你肯定很强。$"
 
 SootopolisCity_House3_Text_LonesomeTryWorkingHarder:
-	.string "Oh, dear…\n"
-	.string "That's a little lonesome.\p"
-	.string "Try working a little harder to get\n"
-	.string "a fan following.$"
+	.string "哎呀……\n这样可有点寂寞。\p你得更努力些，\n那样才会有粉丝跟着你的。$"
+	.string ""
+	.string ""
+	.string ""
 
 SootopolisCity_House3_Text_TrainerFanClubWasWild:
-	.string "Dedicated fans come over from even\n"
-	.string "outside of Hoenn.\p"
-	.string "It was really wild when I went to the\n"
-	.string "Trainer Fan Club in Lilycove.$"
+	.string "追星的人们甚至都会\n从丰缘地区以外的地方赶来，\p我上次去水静市的训练家俱乐部时\n真正见识到了他们的狂热。$"
+	.string ""
+	.string ""
+	.string ""
 

@@ -5,17 +5,11 @@ script GoldenrodShore_Expert {
     faceplayer
     if (flag(FLAG_GOLDENRODSHORE_EXPERT)) {
         setflag(FLAG_GOLDENRODSHORE_EXPERT_QUALIFIED)
-        msgbox("Guess I'm free to go home now
-                that I no longer have to maintain
-                this route expert title.")
+        msgbox("既然不用再守着\n这个道路名人头衔了，\l我想我总算能回家了。")
         release
         end
     }
-    msgbox("Hi! I'm the route expert of local area!
-
-            If you can beat every trainer on routes
-            34, 35 and 36. Come have a battle with
-            me.")
+    msgbox("嗨！我是这一带的道路名人！\p如果你能把34号、35号\n和36号道路上的训练家全部打败，\l就来和我一较高下吧。")
     if (flag(FLAG_GOLDENRODSHORE_EXPERT_QUALIFIED) || (defeated(TRAINER_SAMUEL) && defeated(TRAINER_BRANDON) && defeated(TRAINER_TODD) && defeated(TRAINER_IAN) && defeated(TRAINER_GINA)
         && defeated(TRAINER_KIM) && defeated(TRAINER_ELLIOT) && defeated(TRAINER_BROOKE) && defeated(TRAINER_IVAN) && defeated(TRAINER_IRWIN) && defeated(TRAINER_WALT) && defeated(TRAINER_ARNIE) && defeated(TRAINER_BRYAN)
         && defeated(TRAINER_MARK) && defeated(TRAINER_ALAN))) {
@@ -23,43 +17,29 @@ script GoldenrodShore_Expert {
         applymovement(LOCALID_GOLDENRODSHORE_EXPERT, Common_Movement_ExclamationMark)
         playse(SE_PIN)
         waitse
-        msgbox("I've heard the words of your victories!
-
-
-                Let's have a battle then, I'll show
-                you a new type of strategy!")
-        trainerbattle_no_intro(TRAINER_GOLDENROD_SHORE_EXPERT, "Outsmarted!")
-        msgbox("Even against my unrelenting tide
-                of attacks, you prevailed. 
-                
-                Please, have this item to boost 
-                your odds of keeping up the 
-                winning streak.")
+        msgbox("你获胜的消息，我已经听说了！\p那就来比一场吧，我让你见识\n一种全新的战术！")
+        trainerbattle_no_intro(TRAINER_GOLDENROD_SHORE_EXPERT, "被你看穿了！")
+        msgbox("面对我这如潮水般连绵不绝的攻势，\n你竟然还是赢了。\p请收下这个，它能让你\n更容易保持\l连胜的势头。")
         giveitem(ITEM_LOADED_DICE)
         setflag(FLAG_GOLDENRODSHORE_EXPERT)
         addvar(VAR_ROUTE_EXPERTS_DEFEATED, 1)
         special(Achievement_CheckAll)
-        msgbox("Loaded Dice boosts the minimum hit 
-                count of multi-hit moves, you should 
-                try it with moves like Bullet Seed!")        
+        msgbox("机变骰子能提高连续招式的\n最低攻击次数，\l你可以配合种子机关枪这类招式！")        
     }
     release
     end
 }
 
 script GoldenrodShore_Sign {
-    msgbox("Goldenrod Shore, no littering!", MSGBOX_SIGN)
+    msgbox("满金海岸，请勿乱扔垃圾！", MSGBOX_SIGN)
 }
 
 script GoldenrodShore_Engineer {
-    msgbox("Alright, time to start digging a path 
-            here. The Pokéathlon construction
-            starts here!", MSGBOX_NPC)
+    msgbox("好，就在这儿开始挖一条路吧。\n宝可梦全能竞技赛的工程\l就从这里动工！", MSGBOX_NPC)
 }
 
 script GoldenrodShore_HiddenGrotto {
-    msgbox("There seems to be a path behind the
-            trees. Enter?", MSGBOX_YESNO)
+    msgbox("树后好像有条小路。\n要进去吗？", MSGBOX_YESNO)
     if (var(VAR_RESULT) == YES) {
         warp(MAP_HIDDEN_GROTTO_GOLDENROD_SHORE, 0)
         waitstate
@@ -69,8 +49,5 @@ script GoldenrodShore_HiddenGrotto {
 }
 
 script MareaniesGoldenrodShore {
-    msgbox("Mareanies seem to be blocking the way.
-
-            Perhaps there is another way to
-            the Olivine City?", MSGBOX_NPC)
+    msgbox("好坏星群似乎挡住了去路。\p也许还有别的路能\n通往浅葱市？", MSGBOX_NPC)
 }

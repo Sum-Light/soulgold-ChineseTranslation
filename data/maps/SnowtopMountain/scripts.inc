@@ -22,13 +22,10 @@ SnowtopMountain_Slowking::
 
 
 SnowtopMountain_Sage_Text_0:
-	.string "Only those who have proven themself to\n"
-	.string "be more than just the region's \l"
-	.string "champion may proceed past \l"
-	.string "here.$"
+	.string "只有证明了自己\n不仅仅是本地区冠军的人，\l才能从这里通过。$"
 
 SnowtopMountain_Sage_Text_1:
-	.string "...You are not worthy yet.$"
+	.string "……你还没有资格。$"
 
 SnowtopMountain_Slowking_Text_0:
-	.string "Slooooow...!$"
+	.string "呆——呆……！$"

@@ -61,30 +61,30 @@ ApricornTree_EventScript_CancelPickingApricorn::
 	end
 
 ApricornTree_Text_Intro:
-	.string "It's an Apricorn Tree!$"
+	.string "是一棵球果树！$"
 
 ApricornTree_Text_Empty:
-	.string "There are no Apricorns…$"
+	.string "树上没有球果……$"
 
 ApricornTree_Text_WantToPick:
-	.string "…It's {STR_VAR_2} {STR_VAR_1}!\n"
-	.string "Do you want to pick the\l"
-	.string "{STR_VAR_1}?$"
+	.string "……是{STR_VAR_2}{STR_VAR_1}！\n要摘下这颗\l{STR_VAR_1}吗？$"
+	.string ""
+	.string ""
 
 ApricornTree_Text_PickedTheApricorn:
-	.string "{PLAYER} obtained\n"
-	.string "{STR_VAR_2} {STR_VAR_1}.$"
+	.string "{PLAYER}获得了\n{STR_VAR_2}{STR_VAR_1}。$"
+	.string ""
 
 ApricornTree_Text_PutAwayApricorn:
-	.string "{PLAYER} put away the\n"
-	.string "{STR_VAR_1} in\l"
-	.string "the Bag's {STR_VAR_3} Pocket.$"
+	.string "{PLAYER}将{STR_VAR_1}\n放入了背包的\l{STR_VAR_3}口袋。$"
+	.string ""
+	.string ""
 
 ApricornTree_Text_PocketFull:
-	.string "The Bag's {STR_VAR_3} Pocket is full.\p"
-	.string "{PLAYER} gave up on the\n"
-	.string "{STR_VAR_1}…$"
+	.string "背包的{STR_VAR_3}口袋已经满了。\p{PLAYER}只好放弃了\n{STR_VAR_1}……$"
+	.string ""
+	.string ""
 
 ApricornTree_Text_ApricornLeftUnpicked:
-	.string "{PLAYER} gave up on the\n"
-	.string "{STR_VAR_1}…$"
+	.string "{PLAYER}放弃了\n{STR_VAR_1}……$"
+	.string ""

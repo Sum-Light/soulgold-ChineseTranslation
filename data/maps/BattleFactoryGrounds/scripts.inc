@@ -65,28 +65,22 @@ FactoryGrounds_Boy_Movement_1:
 	step_end
 
 FactoryGrounds_CooltrainerF_Text_0:
-	.string "The battles in the Factory are tough!\p"
-	.string "You can't use your own Pokémon,\n"
-	.string "so you must think on your feet.$"
+	.string "对战工厂的对战可是很艰难的！\p不能用自己的宝可梦，\n所以必须随机应变。$"
 
 FactoryGrounds_Fisher_Text_0:
-	.string "Hmm, there's no Magikarps in this pond,\n"
-	.string "only Tynamos and Chinchous...$"
+	.string "唔，这个池塘里没有鲤鱼王，\n只有麻麻小鱼和灯笼鱼……$"
 
 FactoryGrounds_Boy_Text_0:
-	.string "Me and Espurr can converse without\n"
-	.string "speaking! Watch!$"
+	.string "我和妙喵不用开口\n就能交流！看好了！$"
 
 FactoryGrounds_Boy_Text_1:
 	.string "...$"
 
 FactoryGrounds_Boy_Text_2:
-	.string "Cool, right?$"
+	.string "很厉害吧？$"
 
 FactoryGrounds_Espurr_Text_0:
-	.string "Espurr: Essss!$"
+	.string "妙喵：嘶——！$"
 
 FactoryGrounds_OldLady_Text_0:
-	.string "I'm not fond of these modern\n"
-	.string "buildings being placed so near\l"
-	.string "our beloved Ecruteak City.$"
+	.string "我不太喜欢这些新式建筑\n盖得离我们心爱的\l缘朱市这么近。$"

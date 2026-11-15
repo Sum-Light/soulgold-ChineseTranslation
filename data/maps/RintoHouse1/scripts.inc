@@ -23,14 +23,10 @@ RintoHouse1_Mom::
 
 
 RintoHouse1_Vullaby_Text_0:
-	.string "Vullaby: Vuvaaaaaa!$"
+	.string "秃鹰丫头：呜哇啊啊啊！$"
 
 RintoHouse1_Girl_Text_0:
-	.string "I heard that several Pokémon evolve\n"
-	.string "much earlier in Johto than they do\l"
-	.string "in other regions.$"
+	.string "听说有好几种宝可梦\n在城都会比别的地区\l早早进化呢。$"
 
 RintoHouse1_Mom_Text_0:
-	.string "Our Vullaby has been eating a lot\n"
-	.string "lately.\p"
-	.string "It might be close to evolving.$"
+	.string "我们的秃鹰丫头最近\n吃得特别多。\p说不定快进化了。$"

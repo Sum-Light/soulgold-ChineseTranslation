@@ -88,93 +88,93 @@ Route31_EventScript_ItemAntidote::
 	end
 
 Route31_Text_CooltrainerM:
-	.string "Dark Cave…\p"
-	.string "If Pokémon could light it up,\n"
-	.string "I'd explore it.$"
+	.string "黑暗洞穴……\p要是宝可梦能照亮这里，\n我就去里面探险。$"
+	.string ""
+	.string ""
 
 Route31_Text_BugCatcherWade1_Seen:
-	.string "I caught a bunch of Pokémon.\n"
-	.string "Let me battle with you!$"
+	.string "我抓了好多宝可梦。\n来和我对战吧！$"
+	.string ""
 
 Route31_Text_BugCatcherWade1_Beaten:
-	.string "Awwwww…$"
+	.string "呜……$"
 
 Route31_Text_BugCatcherWade1_After:
-	.string "You can catch Pokémon even if\n"
-	.string "you have six with you.\p"
-	.string "If you catch one, it'll go to\n"
-	.string "your Box automatically.$"
+	.string "就算身上带了六只宝可梦，\n也还能继续捕捉。\p抓到的那只会自动\n送到你的电脑盒子里。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route31_Text_SleepyMan:
-	.string "… Hnuurg… Huh?\p"
-	.string "I walked too far today looking\n"
-	.string "for Pokémon.\p"
-	.string "My feet hurt and I'm sleepy…\p"
-	.string "If I were a wild Pokémon, I'd\n"
-	.string "be easy to catch…\p"
-	.string "…Zzzz…$"
+	.string "……唔嗯……嗯？\p今天为了找宝可梦，\n走了太多的路。\p脚也疼，人也困……\p要是我变成野生宝可梦，\n一定很容易被抓到……\p……呼噜……$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route31_Text_SleepyManGotMail:
-	.string "…Zzzz… Huh?\p"
-	.string "What's that? You have Mail\n"
-	.string "for me?$"
+	.string "……呼噜……嗯？\p什么？你有邮件\n要交给我？$"
+	.string ""
+	.string ""
 
 Route31_Text_SleepyManFail:
-	.string "…Zzzz…$"
+	.string "……呼噜……$"
 
 Route31_Text_HandOverMailMon:
-	.string "{PLAYER} handed over the\n"
-	.string "Pokémon holding the Mail.$"
+	.string "{PLAYER}把拿着邮件的\n宝可梦交了出去。$"
+	.string ""
 
 Route31_Text_ReadingMail:
-	.string "Let's see…\p"
-	.string "Thanks for bringing this to\n"
-	.string "me.\p"
-	.string "My friend's a good guy, and\n"
-	.string "you're swell too!\p"
-	.string "I'd like to do something good\n"
-	.string "in return too!\p"
-	.string "I know! I want you to have\n"
-	.string "this!$"
+	.string "让我看看……\p谢谢你特地把它\n送来给我。\p我的朋友是个好人，\n你也是个热心人！\p我也想为你做点\n什么作为回报！\p我知道了！这个\n就送给你吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route31_Text_DescribeNightmare:
-	.string "That TM contains Torment.\p"
-	.string "It's a wicked move that\n"
-	.string "makes the enemy super nervous and\l"
-	.string "stops them from using the same\p"
-	.string "move multiple times in a row.$"
+	.string "招式学习器里装的是无理取闹。\p这是个非常刁钻的招式，\n会让对手心神不宁，\l无法连续出招。\p它就无法连续使出同一招式。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route31_Text_WrongMail:
-	.string "This Mail isn't for me.$"
+	.string "这封邮件不是给我的。$"
 
 Route31_Text_MissingMail:
-	.string "Why is this Pokémon so special?\p"
-	.string "It doesn't have any Mail.$"
+	.string "这只宝可梦有什么特别的？\p它身上根本没带邮件。$"
+	.string ""
 
 Route31_Text_DeclinedToHandOverMail:
-	.string "What? You don't want\n"
-	.string "anything?$"
+	.string "什么？你什么都不要吗？$"
+	.string ""
 
 Route31_Text_CantTakeLastMon:
-	.string "If I take that Pokémon from\n"
-	.string "you,\p"
-	.string "what are you going to use in\n"
-	.string "battle?$"
+	.string "我要是把那只宝可梦\n拿走了，\p你对战的时候\n要用什么？$"
+	.string ""
+	.string ""
+	.string ""
 
 Route31_Text_Youngster:
-	.string "I found a good Pokémon in Dark\n"
-	.string "Cave.\p"
-	.string "I'm going to raise it to take\n"
-	.string "on Falkner.\p"
-	.string "He's the leader of Violet\n"
-	.string "City's Gym.$"
+	.string "我在黑暗洞穴\n找到了一只不错的宝可梦。\p我打算把它培育好，\n去挑战阿速。\p他是桔梗市\n道馆的馆主。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route31_Text_Sign:
-	.string "Route 31\p"
-	.string "Violet City - Cherrygrove City$"
+	.string "31号道路\p桔梗市——吉花市$"
+	.string ""
 
 Route31_Text_DarkCaveSign:
-	.string "Dark Cave$"
+	.string "黑暗洞穴$"
 
 Route31_Expert::
 	lock
@@ -225,32 +225,16 @@ Route31_Expert_12:
 
 
 Route31_Expert_Text_0:
-	.string "Air Balloon lets a Pokémon avoid \n"
-	.string "Ground-type moves until it \l"
-	.string "takes a hit.\p"
-	.string "It might prove useful in the \n"
-	.string "coming battles.\p"
-	.string "Held items similar to this can\n"
-	.string "be activated once per battle.\p"
-	.string "They will be restored after the\n"
-	.string "battle is over.$"
+	.string "气球能让宝可梦\n在受到攻击前\l避开地面属性的招式。\p也许会在\n接下来的对战中\l派上用场。\p和它类似的携带道具\n每场对战只能\l发动一次。\p对战结束后\n就会恢复。$"
 
 Route31_Expert_Text_1:
-	.string "I'm what they call a route expert. \p"
-	.string "If you manage to beat every trainer on \n"
-	.string "Route 30 and 31, come find me again \l"
-	.string "and we will have a battle.\p"
-	.string "I'll make it worth your while,\n"
-	.string "if you manage to win.$"
+	.string "人们都叫我道路专家。\p如果你能打败30号和31号\n道路上的所有训练家，\l就再来找我，我们比一场。\p要是你能赢，\n我不会让你白忙一场。$"
 
 Route31_Expert_Text_2:
-	.string "Oh, you have indeed defeated \n"
-	.string "all the trainers on this route.\p"
-	.string "I will battle you as promised.$"
+	.string "哦，你确实打败了这条路上\n所有的训练家。\p那就按约定，\n和我一战吧。$"
 
 Route31_Expert_Text_3:
-	.string "Popped off...$"
+	.string "撑不住了……$"
 
 Route31_Expert_Text_4:
-	.string "You are better than I had assumed. \p"
-	.string "Take this for your victory.$"
+	.string "你比我想象的更强。\p这个就当作你胜利的奖品，\n拿去吧。$"

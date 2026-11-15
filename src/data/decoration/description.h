@@ -1,573 +1,573 @@
 const u8 DecorDesc_SMALL_DESK[] = _(
-    "A small desk built\n"
-        "for one.");
+    "单人用的\n小型桌子。"
+        "");
 
 const u8 DecorDesc_POKEMON_DESK[] = _(
-    "A small desk built in\n"
-        "the shape of a POKé\n"
-        "BALL.");
+    "精灵球形状的\n小型桌子。"
+        ""
+        "");
 
 const u8 DecorDesc_HEAVY_DESK[] = _(
-    "A large desk made\n"
-        "of steel. Put some\n"
-        "decorations on it.");
+    "钢铁制的大桌子。\n可以在上面\n摆放装饰。"
+        ""
+        "");
 
 const u8 DecorDesc_RAGGED_DESK[] = _(
-    "A large desk made\n"
-        "of wood. Put some\n"
-        "decorations on it.");
+    "木头制的大桌子。\n可以在上面\n摆放装饰。"
+        ""
+        "");
 
 const u8 DecorDesc_COMFORT_DESK[] = _(
-    "A large desk made\n"
-        "of leaves. Put some\n"
-        "decorations on it.");
+    "树叶制的大桌子。\n可以在上面\n摆放装饰。"
+        ""
+        "");
 
 const u8 DecorDesc_PRETTY_DESK[] = _(
-    "A huge desk made\n"
-        "of glass. Holds lots\n"
-        "of decorations.");
+    "玻璃制的巨大\n桌子。可以摆放\n很多装饰。"
+        ""
+        "");
 
 const u8 DecorDesc_BRICK_DESK[] = _(
-    "A huge desk made\n"
-        "of brick. Holds lots\n"
-        "of decorations.");
+    "砖块制的巨大\n桌子。可以摆放\n很多装饰。"
+        ""
+        "");
 
 const u8 DecorDesc_CAMP_DESK[] = _(
-    "A huge desk made\n"
-        "of logs. Put lots of\n"
-        "decorations on it.");
+    "原木制的巨大\n桌子。可以摆放\n很多装饰。"
+        ""
+        "");
 
 const u8 DecorDesc_HARD_DESK[] = _(
-    "A huge desk made\n"
-        "of rocks. Holds\n"
-        "many decorations.");
+    "岩石制的巨大\n桌子。可以摆放\n很多装饰。"
+        ""
+        "");
 
 const u8 DecorDesc_SMALL_CHAIR[] = _(
-    "A small chair made\n"
-        "for one.");
+    "单人用的\n小型椅子。"
+        "");
 
 const u8 DecorDesc_POKEMON_CHAIR[] = _(
-    "A small chair built\n"
-        "in the shape of a\n"
-        "POKé BALL.");
+    "精灵球形状的\n小型椅子。"
+        ""
+        "");
 
 const u8 DecorDesc_HEAVY_CHAIR[] = _(
-    "A small chair made\n"
-        "of steel.");
+    "钢铁制的\n小椅子。"
+        "");
 
 const u8 DecorDesc_PRETTY_CHAIR[] = _(
-    "A small chair made\n"
-        "of glass.");
+    "玻璃制的\n小椅子。"
+        "");
 
 const u8 DecorDesc_COMFORT_CHAIR[] = _(
-    "A small chair made\n"
-        "of leaves.");
+    "树叶制的\n小椅子。"
+        "");
 
 const u8 DecorDesc_RAGGED_CHAIR[] = _(
-    "A small chair made\n"
-        "of wood.");
+    "木头制的\n小椅子。"
+        "");
 
 const u8 DecorDesc_BRICK_CHAIR[] = _(
-    "A small chair made\n"
-        "of brick.");
+    "砖块制的\n小椅子。"
+        "");
 
 const u8 DecorDesc_CAMP_CHAIR[] = _(
-    "A small chair made\n"
-        "of logs.");
+    "原木制的\n小椅子。"
+        "");
 
 const u8 DecorDesc_HARD_CHAIR[] = _(
-    "A small chair made\n"
-        "of rock.");
+    "岩石制的\n小椅子。"
+        "");
 
 const u8 DecorDesc_RED_PLANT[] = _(
-    "A vivid red potted\n"
-        "plant.");
+    "颜色鲜红的\n盆栽。"
+        "");
 
 const u8 DecorDesc_TROPICAL_PLANT[] = _(
-    "A flowering tropical\n"
-        "plant in a pot.");
+    "开着花的\n热带盆栽。"
+        "");
 
 const u8 DecorDesc_PRETTY_FLOWERS[] = _(
-    "A pot of cute\n"
-        "flowers.");
+    "一盆可爱的\n花。"
+        "");
 
 const u8 DecorDesc_COLORFUL_PLANT[] = _(
-    "A large pot with\n"
-        "many colorful\n"
-        "flowers.");
+    "种着许多\n鲜艳花朵的\n大花盆。"
+        ""
+        "");
 
 const u8 DecorDesc_BIG_PLANT[] = _(
-    "A large, umbrella-\n"
-        "shaped plant in a\n"
-        "big pot.");
+    "种在大花盆里、\n形状像伞的\n大型植物。"
+        ""
+        "");
 
 const u8 DecorDesc_GORGEOUS_PLANT[] = _(
-    "A large, impressive\n"
-        "plant in a big pot.");
+    "种在大花盆里的\n气派大型植物。"
+        "");
 
 const u8 DecorDesc_RED_BRICK[] = _(
-    "A red-colored brick.\n"
-        "Decorations can be\n"
-        "placed on top.");
+    "红色的砖块。\n上面可以\n摆放装饰。"
+        ""
+        "");
 
 const u8 DecorDesc_YELLOW_BRICK[] = _(
-    "A yellow-colored\n"
-        "brick. Put some\n"
-        "decorations on top.");
+    "黄色的砖块。\n上面可以\n摆放装饰。"
+        ""
+        "");
 
 const u8 DecorDesc_BLUE_BRICK[] = _(
-    "A blue-colored\n"
-        "brick. Put some\n"
-        "decorations on top.");
+    "蓝色的砖块。\n上面可以\n摆放装饰。"
+        ""
+        "");
 
 const u8 DecorDesc_RED_BALLOON[] = _(
-    "A red balloon filled\n"
-        "with water. Bursts\n"
-        "if stepped on.");
+    "装满水的\n红色气球。\n一踩就会破。"
+        ""
+        "");
 
 const u8 DecorDesc_BLUE_BALLOON[] = _(
-    "A blue balloon filled\n"
-        "with water. Bursts\n"
-        "if stepped on.");
+    "装满水的\n蓝色气球。\n一踩就会破。"
+        ""
+        "");
 
 const u8 DecorDesc_YELLOW_BALLOON[] = _(
-    "A yellow balloon\n"
-        "filled with water.\n"
-        "Pops if stepped on.");
+    "装满水的\n黄色气球。\n一踩就会破。"
+        ""
+        "");
 
 const u8 DecorDesc_RED_TENT[] = _(
-    "A large red tent.\n"
-        "You can hide inside\n"
-        "it.");
+    "红色的大帐篷。\n可以躲在里面。"
+        ""
+        "");
 
 const u8 DecorDesc_BLUE_TENT[] = _(
-    "A large blue tent.\n"
-        "You can hide inside\n"
-        "it.");
+    "蓝色的大帐篷。\n可以躲在里面。"
+        ""
+        "");
 
 const u8 DecorDesc_SOLID_BOARD[] = _(
-    "Place over a hole to\n"
-        "cross to the other\n"
-        "side.");
+    "架在洞上，\n就能走到\n对面去。"
+        ""
+        "");
 
 const u8 DecorDesc_SLIDE[] = _(
-    "Use to slide down\n"
-        "from the platform.");
+    "可以从平台上\n滑下来。"
+        "");
 
 const u8 DecorDesc_FENCE_LENGTH[] = _(
-    "A small fence that\n"
-        "blocks passage.");
+    "挡住去路的\n小栅栏。"
+        "");
 
 const u8 DecorDesc_FENCE_WIDTH[] = _(
-    "A small fence that\n"
-        "blocks passage.");
+    "挡住去路的\n小栅栏。"
+        "");
 
 const u8 DecorDesc_TIRE[] = _(
-    "An old large tire.\n"
-        "Decorations can be\n"
-        "placed on top.");
+    "旧的大轮胎。\n上面可以\n摆放装饰。"
+        ""
+        "");
 
 const u8 DecorDesc_STAND[] = _(
-    "A large pedestal\n"
-        "with steps.");
+    "带台阶的\n大平台。"
+        "");
 
 const u8 DecorDesc_MUD_BALL[] = _(
-    "A large ball of mud.\n"
-        "Crumbles if stepped\n"
-        "on.");
+    "大大的泥巴丸子。\n一踩就会碎。"
+        ""
+        "");
 
 const u8 DecorDesc_BREAKABLE_DOOR[] = _(
-    "A weird door that\n"
-        "people can walk\n"
-        "right through.");
+    "人可以直接\n穿过去的\n奇怪的门。"
+        ""
+        "");
 
 const u8 DecorDesc_SAND_ORNAMENT[] = _(
-    "An ornament made\n"
-        "of sand. Crumbles if\n"
-        "touched.");
+    "沙子做的\n装饰品。\n一碰就会碎。"
+        ""
+        "");
 
 const u8 DecorDesc_SILVER_SHIELD[] = _(
-    "Awarded for 50\n"
-        "straight wins at\n"
-        "the BATTLE TOWER.");
+    "对战塔50连胜\n时获得的奖品。"
+        ""
+        "");
 
 const u8 DecorDesc_GOLD_SHIELD[] = _(
-    "Awarded for 100\n"
-        "straight wins at\n"
-        "the BATTLE TOWER.");
+    "对战塔100连胜\n时获得的奖品。"
+        ""
+        "");
 
 const u8 DecorDesc_GLASS_ORNAMENT[] = _(
-    "A glass replica of\n"
-        "a famous sculpture\n"
-        "at the ART MUSEUM.");
+    "美术馆著名\n雕塑的玻璃\n复制品。"
+        ""
+        "");
 
 const u8 DecorDesc_TV[] = _(
-    "A small, gray-\n"
-        "colored toy TV.");
+    "灰色的小型\n玩具电视机。"
+        "");
 
 const u8 DecorDesc_ROUND_TV[] = _(
-    "A toy TV modeled\n"
-        "in the image of a\n"
-        "SEEDOT.");
+    "外形仿照\n橡实果的\n玩具电视机。"
+        ""
+        "");
 
 const u8 DecorDesc_CUTE_TV[] = _(
-    "A toy TV modeled\n"
-        "in the image of a\n"
-        "SKITTY.");
+    "外形仿照\n向尾喵的\n玩具电视机。"
+        ""
+        "");
 
 const u8 DecorDesc_GLITTER_MAT[] = _(
-    "An odd mat that\n"
-        "glitters if stepped\n"
-        "on.");
+    "一踩就会\n闪闪发光的\n奇特地毯。"
+        ""
+        "");
 
 const u8 DecorDesc_JUMP_MAT[] = _(
-    "A trick mat that\n"
-        "jumps when it is\n"
-        "stepped on.");
+    "一踩就会\n弹跳起来的\n机关地毯。"
+        ""
+        "");
 
 const u8 DecorDesc_SPIN_MAT[] = _(
-    "A trick mat that\n"
-        "spins around when\n"
-        "stepped on.");
+    "一踩就会\n旋转起来的\n机关地毯。"
+        ""
+        "");
 
 const u8 DecorDesc_C_LOW_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "a low C note when\n"
-        "stepped on.");
+    "踩上去就会\n发出低音C的\n地毯。"
+        ""
+        "");
 
 const u8 DecorDesc_D_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "a D note when\n"
-        "stepped on.");
+    "踩上去就会\n发出D音的\n地毯。"
+        ""
+        "");
 
 const u8 DecorDesc_E_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "an E note when\n"
-        "stepped on.");
+    "踩上去就会\n发出E音的\n地毯。"
+        ""
+        "");
 
 const u8 DecorDesc_F_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "an F note when\n"
-        "stepped on.");
+    "踩上去就会\n发出F音的\n地毯。"
+        ""
+        "");
 
 const u8 DecorDesc_G_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "a G note when\n"
-        "stepped on.");
+    "踩上去就会\n发出G音的\n地毯。"
+        ""
+        "");
 
 const u8 DecorDesc_A_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "an A note when\n"
-        "stepped on.");
+    "踩上去就会\n发出A音的\n地毯。"
+        ""
+        "");
 
 const u8 DecorDesc_B_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "a B note when\n"
-        "stepped on.");
+    "踩上去就会\n发出B音的\n地毯。"
+        ""
+        "");
 
 const u8 DecorDesc_C_HIGH_NOTE_MAT[] = _(
-    "A mat that plays\n"
-        "a high C note when\n"
-        "stepped on.");
+    "踩上去就会\n发出高音C的\n地毯。"
+        ""
+        "");
 
 const u8 DecorDesc_SURF_MAT[] = _(
-    "A mat designed with\n"
-        "a SURF image.\n"
-        "Put items on top.");
+    "印有冲浪图案\n的地毯。上面\n可以放东西。"
+        ""
+        "");
 
 const u8 DecorDesc_THUNDER_MAT[] = _(
-    "A mat designed with\n"
-        "a THUNDER image.\n"
-        "Put items on top.");
+    "印有打雷图案\n的地毯。上面\n可以放东西。"
+        ""
+        "");
 
 const u8 DecorDesc_FIRE_BLAST_MAT[] = _(
-    "A mat designed with\n"
-        "a FIRE BLAST image.\n"
-        "Put items on top.");
+    "印有大字爆炎\n图案的地毯。\n上面可以放东西。"
+        ""
+        "");
 
 const u8 DecorDesc_POWDER_SNOW_MAT[] = _(
-    "A mat with a POWDER\n"
-        "SNOW image design.\n"
-        "Put items on top.");
+    "印有细雪图案\n的地毯。上面\n可以放东西。"
+        ""
+        "");
 
 const u8 DecorDesc_ATTRACT_MAT[] = _(
-    "A mat designed with\n"
-        "an ATTRACT image.\n"
-        "Put items on top.");
+    "印有迷人图案\n的地毯。上面\n可以放东西。"
+        ""
+        "");
 
 const u8 DecorDesc_FISSURE_MAT[] = _(
-    "A mat designed with\n"
-        "a FISSURE image.\n"
-        "Put items on top.");
+    "印有地裂图案\n的地毯。上面\n可以放东西。"
+        ""
+        "");
 
 const u8 DecorDesc_SPIKES_MAT[] = _(
-    "A mat designed with\n"
-        "a SPIKES image.\n"
-        "Put items on top.");
+    "印有撒菱图案\n的地毯。上面\n可以放东西。"
+        ""
+        "");
 
 const u8 DecorDesc_BALL_POSTER[] = _(
-    "A small poster\n"
-        "printed with POKé\n"
-        "BALLS.");
+    "印着精灵球的\n小海报。"
+        ""
+        "");
 
 const u8 DecorDesc_GREEN_POSTER[] = _(
-    "A small poster with\n"
-        "a TREECKO print.");
+    "印着木守宫的\n小海报。"
+        "");
 
 const u8 DecorDesc_RED_POSTER[] = _(
-    "A small poster with\n"
-        "a TORCHIC print.");
+    "印着火稚鸡的\n小海报。"
+        "");
 
 const u8 DecorDesc_BLUE_POSTER[] = _(
-    "A small poster with\n"
-        "a MUDKIP print.");
+    "印着水跃鱼的\n小海报。"
+        "");
 
 const u8 DecorDesc_CUTE_POSTER[] = _(
-    "A small poster with\n"
-        "an AZURILL print.");
+    "印着露力丽的\n小海报。"
+        "");
 
 const u8 DecorDesc_PIKA_POSTER[] = _(
-    "A large poster with\n"
-        "a PIKACHU and\n"
-        "PICHU print.");
+    "印着皮卡丘\n和皮丘的\n大海报。"
+        ""
+        "");
 
 const u8 DecorDesc_LONG_POSTER[] = _(
-    "A large poster with\n"
-        "a SEVIPER print.");
+    "印着饭匙蛇的\n大海报。"
+        "");
 
 const u8 DecorDesc_SEA_POSTER[] = _(
-    "A large poster with\n"
-        "a RELICANTH print.");
+    "印着古空棘鱼的\n大海报。"
+        "");
 
 const u8 DecorDesc_SKY_POSTER[] = _(
-    "A large poster with\n"
-        "a WINGULL print.");
+    "印着长翅鸥的\n大海报。"
+        "");
 
 const u8 DecorDesc_KISS_POSTER[] = _(
-    "A large poster with\n"
-        "a SMOOCHUM print.");
+    "印着迷唇娃的\n大海报。"
+        "");
 
 const u8 DecorDesc_PICHU_DOLL[] = _(
-    "A PICHU doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "皮丘的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_PIKACHU_DOLL[] = _(
-    "A PIKACHU doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "皮卡丘的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_MARILL_DOLL[] = _(
-    "A MARILL doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "玛力露的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_TOGEPI_DOLL[] = _(
-    "A TOGEPI doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "波克比的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_CYNDAQUIL_DOLL[] = _(
-    "A CYNDAQUIL doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "火球鼠的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_CHIKORITA_DOLL[] = _(
-    "A CHIKORITA doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "菊草叶的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_TOTODILE_DOLL[] = _(
-    "A TOTODILE doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "小锯鳄的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_JIGGLYPUFF_DOLL[] = _(
-    "A JIGGLYPUFF doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "胖丁的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_MEOWTH_DOLL[] = _(
-    "A MEOWTH doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "喵喵的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_CLEFAIRY_DOLL[] = _(
-    "A CLEFAIRY doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "皮皮的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_DITTO_DOLL[] = _(
-    "A DITTO doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "百变怪的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_SMOOCHUM_DOLL[] = _(
-    "A SMOOCHUM doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "迷唇娃的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_TREECKO_DOLL[] = _(
-    "A TREECKO doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "木守宫的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_TORCHIC_DOLL[] = _(
-    "A TORCHIC doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "火稚鸡的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_MUDKIP_DOLL[] = _(
-    "A MUDKIP doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "水跃鱼的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_DUSKULL_DOLL[] = _(
-    "A DUSKULL doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "夜巡灵的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_WYNAUT_DOLL[] = _(
-    "A WYNAUT doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "小果然的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_BALTOY_DOLL[] = _(
-    "A BALTOY doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "天秤偶的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_KECLEON_DOLL[] = _(
-    "A KECLEON doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "变隐龙的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_AZURILL_DOLL[] = _(
-    "An AZURILL doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "露力丽的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_SKITTY_DOLL[] = _(
-    "A SKITTY doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "向尾喵的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_SWABLU_DOLL[] = _(
-    "A SWABLU doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "青绵鸟的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_GULPIN_DOLL[] = _(
-    "A GULPIN doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "溶食兽的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_LOTAD_DOLL[] = _(
-    "A LOTAD doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "莲叶童子的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_SEEDOT_DOLL[] = _(
-    "A SEEDOT doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "橡实果的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_PIKA_CUSHION[] = _(
-    "A PIKACHU cushion.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "皮卡丘的垫子。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_ROUND_CUSHION[] = _(
-    "A MARILL cushion.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "玛力露的垫子。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_KISS_CUSHION[] = _(
-    "A SMOOCHUM\n"
-        "cushion. Place it on\n"
-        "a mat or a desk.");
+    "迷唇娃的垫子。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_ZIGZAG_CUSHION[] = _(
-    "A ZIGZAGOON\n"
-        "cushion. Place it on\n"
-        "a mat or a desk.");
+    "蛇纹熊的垫子。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_SPIN_CUSHION[] = _(
-    "A SPINDA cushion.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "晃晃斑的垫子。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_DIAMOND_CUSHION[] = _(
-    "A SABLEYE cushion.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "勾魂眼的垫子。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_BALL_CUSHION[] = _(
-    "A BALL cushion.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "精灵球的垫子。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_GRASS_CUSHION[] = _(
-    "A grass-mark\n"
-        "cushion. Place it on\n"
-        "a mat or a desk.");
+    "草标志的垫子。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_FIRE_CUSHION[] = _(
-    "A fire-mark\n"
-        "cushion. Place it on\n"
-        "a mat or a desk.");
+    "火标志的垫子。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_WATER_CUSHION[] = _(
-    "A water-mark\n"
-        "cushion. Place it on\n"
-        "a mat or a desk.");
+    "水标志的垫子。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_SNORLAX_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "大型的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_RHYDON_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "大型的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_LAPRAS_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "大型的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_VENUSAUR_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "大型的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_CHARIZARD_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "大型的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_BLASTOISE_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "大型的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_WAILMER_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "大型的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_REGIROCK_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "大型的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_REGICE_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "大型的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");
 
 const u8 DecorDesc_REGISTEEL_DOLL[] = _(
-    "A large doll.\n"
-        "Place it on a mat\n"
-        "or a desk.");
+    "大型的玩偶。\n可以放在地毯\n或桌子上。"
+        ""
+        "");

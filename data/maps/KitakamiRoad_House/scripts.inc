@@ -108,84 +108,37 @@ KitakamiBorder_VictiniLady_31:
 
 
 KitakamiBorder_VictiniLady_Text_0:
-	.string "Victini chose well.\p"
-	.string "Keep our Leaders ambitious, won't\n"
-	.string "you? \p"
-	.string "Retirement gets dreadfully dull \n"
-	.string "otherwise.$"
+	.string "比克提尼选得不错。\p可要让我们的馆主们\n保持进取心啊？\p不然退休生活\n就太无聊了。$"
 
 KitakamiBorder_VictiniLady_Text_1:
-	.string "I once served on Johto's Gym\n"
-	.string "Leader Board.\p"
-	.string "Don't look so impressed. It was\n"
-	.string "mostly budgets, bickering, and\l"
-	.string "bruised egos.$"
+	.string "我曾在城都地区的\n道馆馆主委员会任职。\p别一副很佩服的样子。\n那工作多半就是算预算、\l吵架、伤面子。$"
 
 KitakamiBorder_VictiniLady_Text_2:
-	.string "These days, I watch promising\n"
-	.string "Trainers.\p"
-	.string "You look like you are still a bit\n"
-	.string "wet behind the ears.\p"
-	.string "Still, I'll keep an eye on you.$"
+	.string "这些日子，我在观察\n有前途的训练家。\p你看起来还乳臭未干。\p不过，我会盯着你的。$"
 
 KitakamiBorder_VictiniLady_Text_3:
-	.string "Still finding your footing? Good.\p"
-	.string "I'll keep an eye on you. Try to give\n"
-	.string "me something worth watching.$"
+	.string "还在摸索门道？很好。\p我会盯着你的。拿出点\n值得一看的东西来。$"
 
 KitakamiBorder_VictiniLady_Text_4:
-	.string "A Champion, are you? Good.\p"
-	.string "Titles make some Trainers soft.\n"
-	.string "Let's see what you're made of.$"
+	.string "成为冠军了？很好。\p头衔会让一些训练家\n变得软弱。让我看看你的本事。$"
 
 KitakamiBorder_VictiniLady_Text_5:
-	.string "So, our promising Trainer is\n"
-	.string "a Champion now.\p"
-	.string "Not bad. \p"
-	.string "Do stop looking so pleased though.\n"
-	.string "Titles breed complacency.$"
+	.string "我们寄予厚望的训练家，\n如今是冠军了。\p不错。\p不过别一脸得意。\n头衔会滋生自满。$"
 
 KitakamiBorder_VictiniLady_Text_6:
-	.string "I may be retired, but I still\n"
-	.string "cultivate talent.\p"
-	.string "Help me test whether the current Gym \n"
-	.string "Leaders are still fit for their jobs.\p"
-	.string "Beat all eight Leaders at their full\n"
-	.string "strength. \p"
-	.string "Make them grow and nurture your\n"
-	.string "own potential further.$"
+	.string "我虽然退休了，\n但仍在培养人才。\p帮我验证一下，现任道馆馆主\n是否还胜任他们的工作。\p去战胜全部八位馆主，\n让他们拿出全部实力。\p让他们成长，也让你自己的\n潜力得到进一步的培养。$"
 
 KitakamiBorder_VictiniLady_Text_7:
-	.string "Well, well. All eight, beaten at\n"
-	.string "their best.\p"
-	.string "You didn't merely collect victories.\p"
-	.string "You gave every one of them a reason\n"
-	.string "to keep striving for even greater\l"
-	.string "heights.$"
+	.string "哎呀呀。八位馆主\n全都拿出了真本事。\p你不只是在收集胜利。\p你让每一位馆主都有了理由，\n去追求更高的境界。$"
 
 KitakamiBorder_VictiniLady_Text_8:
-	.string "I hope they learned as much from\n"
-	.string "those battles as you did.\p"
-	.string "If not, I'll send them a very\n"
-	.string "pointed memo.$"
+	.string "希望他们从那些对战里学到的，\n不比你少。\p要是没有，我就给他们\n寄一份措辞严厉的通知。$"
 
 KitakamiBorder_VictiniLady_Text_9:
-	.string "Talent like yours deserves a proper\n"
-	.string "investment.\p"
-	.string "Take this Victini. \p"
-	.string "It seems rather fond of you now, \n"
-	.string "having watched you grow stronger \l"
-	.string "through every victory.$"
+	.string "像你这样的才能，\n值得好好投资。\p这只比克提尼，拿去吧。\p看着你在每一场胜利中变强，\n它现在似乎很喜欢你。$"
 
 KitakamiBorder_VictiniLady_Text_10:
-	.string "Don't look so stunned. I said I\n"
-	.string "nurture the region's elite.\p"
-	.string "Now off you go. I'm quite busy\n"
-	.string "despite being retired.$"
+	.string "别一脸目瞪口呆。我说过，\n我在培养本地区的精英。\p好了，去吧。我虽然退休了，\n可忙得很呢。$"
 
 KitakamiBorder_VictiniLady_Text_11:
-	.string "Back already? Unless all eight Leaders\n"
-	.string "have shown you their full strength,\l"
-	.string "you're wasting both our time.\p"
-	.string "Go on. Inspire some hope in\n"
-	.string "this old lady.$"
+	.string "又回来了？除非八位馆主\n都向你展示了全部实力，\l不然你就是在浪费\l我们两个人的时间。\p去吧。让我这个老太婆\n看到点希望。$"

@@ -55,56 +55,56 @@ Route20_EventScript_Headlocker::
 	end
 
 Route20_Text_Headlocker:
-	.string "There's a rare Pokémon on this\n"
-	.string "route.\p"
-	.string "And sometimes it carries a rare\n"
-	.string "evolution item.\p"
-	.string "That's double rare!\p"
-	.string "I need to finish my Pokédex, so\n"
-	.string "I've been fishing here for hours!$"
+	.string "这条水路有一种\n稀有的宝可梦。\p而且它有时还会带着\n稀有的进化道具。\p那可是稀上加稀！\p为了完成宝可梦图鉴，\n我在这儿钓了好几个小时！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route20_Text_Seel:
-	.string "Seel: Seel seel!$"
+	.string "小海狮：呜啾呜啾！$"
 
 Route20_Text_Dewgong:
-	.string "Dewgong: Goooong!$"
+	.string "白海狮：咕嗷——！$"
 
 Route20_Text_SeafoamSign:
-	.string "Seafoam Islands$"
+	.string "双子岛$"
 
 Route20_Text_SwimmerfNicoleSeen:
-	.string "I feel so much lighter in water.$"
+	.string "一到水里，\n我就觉得身体轻多了。$"
 
 Route20_Text_SwimmerfNicoleBeaten:
-	.string "Oh, no!$"
+	.string "哎呀，糟了！$"
 
 Route20_Text_SwimmerfNicoleAfterBattle:
-	.string "Swimming exercises your full body.\p"
-	.string "It's really good for you.$"
+	.string "游泳能活动全身。\p对身体真的很好。$"
+	.string ""
 
 Route20_Text_SwimmerfLoriSeen:
-	.string "What an impressive collection of\n"
-	.string "Gym Badges. We should battle!$"
+	.string "你的道馆徽章收集得\n真多啊。我们来对战吧！$"
+	.string ""
 
 Route20_Text_SwimmerfLoriBeaten:
 	.string "No!$"
 
 Route20_Text_SwimmerfLoriAfterBattle:
-	.string "Surf is no longer the only HM move\n"
-	.string "you use in water.$"
+	.string "在水里能用的秘传招式，\n可不只有冲浪了。$"
+	.string ""
 
 Route20_Text_SwimmermCameronSeen:
-	.string "I guess it's impossible to swim\n"
-	.string "all the way to Johto.$"
+	.string "我看光靠游泳\n是游不到城都地区的。$"
+	.string ""
 
 Route20_Text_SwimmermCameronBeaten:
-	.string "Aiyah!$"
+	.string "哎哟！$"
 
 Route20_Text_SwimmermCameronAfterBattle:
-	.string "Besides the sea, I can also swim\n"
-	.string "in ponds and rivers.$"
+	.string "除了大海，池子、河流里\n我也都能游。$"
+	.string ""
 
 Route20_Text_CinnabarIsland_GymUnusedSign:
-	.string "What does this sign say?\p"
-	.string "Cinnabar Gym Leader: Blaine$"
+	.string "这块牌子上写着\n什么？\p红莲道馆馆主：夏伯$"
+	.string ""
 

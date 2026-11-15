@@ -8,10 +8,4 @@ KitakamiBorderGuard::
 
 
 KitakamiBorderGuard_Text_0:
-	.string "Welcome to Kitakami, traveller!\p"
-	.string "You're quite far off from the\n"
-	.string "civilization here, but I hope\l"
-	.string "you still enjoy the sights.\p"
-	.string "If you're planning on visiting the\n"
-	.string "Kitakami mountain, be careful of rock\l"
-	.string "slides!$"
+	.string "欢迎来到北上乡，旅行者！\p这里离人烟相当远，\n不过还是希望您\l能好好欣赏这里的风景。\p要去北上山的话，\n请当心落石！$"

@@ -80,57 +80,57 @@ Route39_FarmHouse_EventScript_FarmerM_NotEnough::
 	end
 
 Route39_Text_FarmerMSickCow:
-	.string "My Miltank ain't givin' me\n"
-	.string "milk no more.\p"
-	.string "This here Farm's got famous milk.\p"
-	.string "Most everyone wants a drink.\p"
-	.string "It'll give me lots o' milk if'n\n"
-	.string "I feed it lots o' Berries,\l"
-	.string "I reckon.$"
+	.string "我的大奶罐\n再不下奶了。\p俺们哞哞牧场的奶可有名了。\p大伙儿都想喝上一口。\p俺寻思，只要多喂它\n橙橙果，\l它就能挤出好多奶。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route39_Text_FarmerMBuyMilk:
-	.string "How'd you like my Moomoo Milk?\p"
-	.string "It's my pride and joy, there.\p"
-	.string "Give it to Pokémon to restore Hp!\p"
-	.string "I'll give it to ya fer just\n"
-	.string "¥500.$"
+	.string "要不要来瓶俺的哞哞鲜奶？\p这可是俺的骄傲。\p给宝可梦喝能回复体力！\p俺就卖你\n¥500。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route39_Text_FarmerMGotMilk:
-	.string "Here ya go!\n"
-	.string "Drink up'n enjoy!$"
+	.string "拿好嘞！\n使劲喝，喝个痛快！$"
+	.string ""
 
 Route39_Text_FarmerMNoMoney:
-	.string "Sorry, there.\n"
-	.string "No cash, no sale!$"
+	.string "对不住啦。\n没钱就不卖喽！$"
+	.string ""
 
 Route39_Text_FarmerMNoRoom:
-	.string "I reckon yer Pack's full.$"
+	.string "俺瞧你的背包已经满了。$"
 
 Route39_Text_FarmerMNoSale:
-	.string "You don't want it?\n"
-	.string "Come again, hear?$"
+	.string "不要啦？\n那下次再来啊！$"
+	.string ""
 
 Route39FarmHouse_Text_WouldYouLikeAnother:
-	.string "How bout another?$"
+	.string "再来一瓶怎么样？$"
 
 Route39_Text_GotMilk:
-	.string "{PLAYER} got Moomoo Milk.$"
+	.string "{PLAYER}得到了哞哞鲜奶。$"
 
 Route39_Text_FarmerMMilking:
-	.string "I best go do my milkin'.$"
+	.string "俺得去挤奶了。$"
 
 Route39_Text_FarmerFInTrouble:
-	.string "Our milk even goes out to\n"
-	.string "Kanto.\p"
-	.string "So if our own Miltank won't\n"
-	.string "give us any milk, we're in trouble.$"
+	.string "俺们的奶还卖到\n关都去呢。\p要是自家的大奶罐\n不下奶，俺们可就难办了。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route39_Text_FarmerFHealedMiltank:
-	.string "You fixed our Miltank, hon.\n"
-	.string "Now it gives Moomoo Milk again.\p"
-	.string "Here's somethin' fer your trouble.$"
+	.string "你治好了俺们的大奶罐，\n好孩子，它又能出哞哞鲜奶了。\p这是给你的谢礼。$"
+	.string ""
+	.string ""
 
 Route39_Text_FarmerFSnatchSpeech:
-	.string "That there's Echoed Voice.\n"
-	.string "Use it many times, hon.\p"
-	.string "It will grow in power.$"
+	.string "这是回声。\n孩子，多用几次吧。\p威力会越来越大。$"
+	.string ""
+	.string ""

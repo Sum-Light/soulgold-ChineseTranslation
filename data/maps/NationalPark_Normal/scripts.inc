@@ -68,44 +68,44 @@ NationalPark_Normal_EventScript_Persian::
 
 
 NationalPark_Normal_Text_Lass:
-	.string "Look! Check out my bag!\p"
-	.string "I printed out my favorites from my\n"
-	.string "Pokédex and stuck them on my bag.$"
+	.string "看！看看我的包！\p我把宝可梦图鉴里最喜欢的\n宝可梦打印出来，贴在包上了。$"
+	.string ""
+	.string ""
 
 NationalPark_Normal_Text_PokefanF:
-	.string "This is Mail I got from my daughter.\n"
-	.string "It cheers me up.$"
+	.string "这是我女儿寄给我的邮件。\n看到它我就有精神了。$"
+	.string ""
 
 NationalPark_Normal_Text_Teacher1:
-	.string "Pay attention, please!\p"
-	.string "…Oops, I have to quit thinking like\n"
-	.string "a teacher all the time.\p"
-	.string "You must be a Pokémon trainer.\p"
-	.string "Since you're working so hard, I\n"
-	.string "want you to have this.$"
+	.string "请专心听讲！\p……啊，糟了，我老是改不掉\n老师的口气。\p你一定是宝可梦训练家吧。\p看你这么努力，\n这个就送给你吧。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 NationalPark_Normal_Text_Teacher1_QuickClaw:
-	.string "Let a Pokémon hold that Quick Claw.\p"
-	.string "Sometimes it will strike first\n"
-	.string "during battle.$"
+	.string "让宝可梦带上先制之爪吧。\p有时在对战中，它能让宝可梦\n抢先出手。$"
+	.string ""
+	.string ""
 
 NationalPark_Normal_Text_Youngster1:
-	.string "I'm playing with stickers I printed\n"
-	.string "from my Pokédex.$"
+	.string "我正在用宝可梦图鉴里\n打印出来的贴纸玩。$"
+	.string ""
 
 NationalPark_Normal_Text_Youngster2:
-	.string "I get the other guy's Pokédex sticker\n"
-	.string "if I win.$"
+	.string "赢了的话，我就能拿到\n对方的宝可梦图鉴贴纸。$"
+	.string ""
 
 NationalPark_Normal_Text_Teacher2:
-	.string "I take walks in the Park, but I\n"
-	.string "never go into the grass.\p"
-	.string "Trainers always want to battle…\p"
-	.string "You must have been in many battles.\n"
-	.string "Let me heal your Pokémon for you.$"
+	.string "我常在自然公园散步，但\n从不走进草丛。\p因为训练家们总是\n一见人就要求对战……\p你一定经历过很多对战吧。\n我来帮你治疗宝可梦吧。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 NationalPark_Normal_Text_Persian:
-	.string "Persian: Fufushaa!$"
+	.string "猫老大：呼呜吓——！$"
 
 NationalPark_Normal_EventScript_Jack::
 	trainerbattle_single TRAINER_JACK NationalPark_Normal_Text_SchoolboyJack1_Seen, NationalPark_Normal_Text_SchoolboyJack1_Beaten
@@ -128,68 +128,68 @@ NationalPark_Normal_EventScript_Krise::
 	end
 
 NationalPark_Normal_Text_SchoolboyJack1_Seen:
-	.string "The world of Pokémon is deep.\p"
-	.string "There are still lots of things we\n"
-	.string "don't know.\p"
-	.string "But I know more than you do!$"
+	.string "宝可梦的世界深不可测。\p还有很多我们\n不知道的事情。\p可我知道的比你多！$"
+	.string ""
+	.string ""
+	.string ""
 
 NationalPark_Normal_Text_SchoolboyJack1_Beaten:
-	.string "Wha-wha-what?$"
+	.string "什、什、什么？$"
 
 NationalPark_Normal_Text_SchoolboyJack_After:
-	.string "There is a lot to learn.\p"
-	.string "For example…\p"
-	.string "There are 100 kinds of TMs.\p"
-	.string "Traded Pokémon level up faster.$"
+	.string "要学的还有很多。\p比如说……\p招式学习器一共有100种。\p交换来的宝可梦\n升级更快。$"
+	.string ""
+	.string ""
+	.string ""
 
 NationalPark_Normal_Text_PokefanFBeverly1_Seen:
-	.string "My Pokémon are simply darling.\p"
-	.string "Let me tell you how proud my\n"
-	.string "darlings make me.$"
+	.string "我的宝可梦们实在太可爱了。\p让我跟你说说，我的宝贝们\n有多让我骄傲吧。$"
+	.string ""
+	.string ""
 
 NationalPark_Normal_Text_PokefanFBeverly1_Beaten:
-	.string "I can beat you in pride, but…$"
+	.string "论骄傲我可不会输，\n可是……$"
 
 NationalPark_Normal_Text_PokefanFBeverly_After:
-	.string "I must say, your Pokémon are quite\n"
-	.string "cute, too.$"
+	.string "不得不说，你的宝可梦\n也相当可爱呢。$"
+	.string ""
 
 NationalPark_Normal_Text_PokefanmWilliam_Seen:
-	.string "We adore our Pokémon, even if they\n"
-	.string "dislike us.\p"
-	.string "That's what being a Fan is about.$"
+	.string "我们一心宠爱着自己的宝可梦，\n哪怕它们讨厌我们。\p所谓发烧友，就是这么回事。$"
+	.string ""
+	.string ""
 
 NationalPark_Normal_Text_PokefanmWilliam_Beaten:
-	.string "M-my Pokémon!$"
+	.string "我、我的宝可梦！$"
 
 NationalPark_Normal_Text_PokefanmWilliam_After:
-	.string "I lost the battle, but my Pokémon win\n"
-	.string "the prize for being most lovely.$"
+	.string "对战是输了，但论可爱，\n我的宝可梦可是能拿冠军的。$"
+	.string ""
 
 NationalPark_Normal_Text_LassKrise_Seen:
-	.string "Hello? Why are you staring at me?\p"
-	.string "Oh, a battle?$"
+	.string "嗯？你为什么一直盯着我看？\p哦，要打一场？$"
+	.string ""
 
 NationalPark_Normal_Text_LassKrise_Beaten:
-	.string "…Hmmm…$"
+	.string "……嗯……$"
 
 NationalPark_Normal_Text_LassKrise_After:
-	.string "I thought you were staring at me\n"
-	.string "because I'm cute!$"
+	.string "我还以为你盯着我看，\n是因为我可爱呢！$"
+	.string ""
 
 NationalPark_Normal_Text_Sign_RelaxationSquare:
-	.string "Relaxation Square\n"
-	.string "National Park$"
+	.string "休息广场\n自然公园$"
+	.string ""
 
 NationalPark_Normal_Text_Sign_BattleNotice:
-	.string "What is this notice?\p"
-	.string "Please battle only in the grass.\p"
-	.string "National Park Warden's Office$"
+	.string "这是什么告示？\p请只在草丛中\n进行对战。\p自然公园管理处$"
+	.string ""
+	.string ""
 
 NationalPark_Normal_Text_TrainerTips:
-	.string "Trainer Tips\p"
-	.string "Print out Mail by opening it then\n"
-	.string "pressing Start.$"
+	.string "训练家提示\p打开邮件后按START键，\n就能把邮件打印出来。$"
+	.string ""
+	.string ""
 
 NationalPark_BugsyRematch::
 	lock
@@ -214,21 +214,10 @@ NationalPark_BugsyRematch_2:
 
 
 NationalPark_BugsyRematch_Text_0:
-	.string "Heyo, {PLAYER}!\p"
-	.string "I'm checking on the Bug Pokémon here in\n"
-	.string "Ilex, making sure any ruffians are not\l"
-	.string "causing trouble to them.\p"
-	.string "I've gotten quite a bit stronger since\n"
-	.string "we last fought, how about I show it to\l"
-	.string "you?$"
+	.string "哟，{PLAYER}！\p我在查看栎树林这里的\n虫宝可梦，确认没有坏家伙\l来欺负它们。\p自从上次交手后我变强了\n不少，要不要\l给你展示一下？$"
 
 NationalPark_BugsyRematch_Text_1:
-	.string "Way to go! You're crazy strong!$"
+	.string "干得好！你强得离谱！$"
 
 NationalPark_BugsyRematch_Text_2:
-	.string "Looks like my team still got ways to go\n"
-	.string "if I want to beat you.\p"
-	.string "Maybe we should have another tussle\n"
-	.string "like this once everyone has gotten\l"
-	.string "together. \p"
-	.string "Until then, laters!$"
+	.string "看来要想赢过你，我的队伍\n还差得远呢。\p等大家再聚齐了，\n我们再像这样打一场吧。\p在那之前，回见！$"

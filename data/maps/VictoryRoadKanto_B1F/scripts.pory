@@ -29,7 +29,7 @@ script VictoryRoad_Rival {
         lock
         faceplayer
         createfieldmugshotrival
-        msgbox("Don't.")
+        msgbox("别跟来。")
         setflag(FLAG_SPOKEN_VICTORYROAD_RIVAL)
         release
         end
@@ -40,9 +40,7 @@ script VictoryRoad_Rival2 {
     lock
     faceplayer
     createfieldmugshotrival
-    msgbox("I just need to train more.
-            
-            That's all there ever is to it.")
+    msgbox("我还得再多训练。\p仅此而已。")
     release
     end
 }

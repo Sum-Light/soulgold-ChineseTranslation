@@ -33,17 +33,17 @@ IcePath_B1F_EventScript_PuzzleSkipButtonNo::
 	end
 
 IcePath_B1F_Text_PuzzleSkipButton::
-	.string "Would you like to skip this\n"
-	.string "puzzle?$"
+	.string "要跳过这个谜题吗？$"
+	.string ""
 
 IcePath_B1F_EventScript_Sign::
 	msgbox IcePath_B1F_Text_Sign, MSGBOX_SIGN
 	end
 
 IcePath_B1F_Text_Sign:
-	.string "Danger Cracked Ice\n"
-	.string "Go Fast On Bicycle\l"
-	.string "Switch Gears By\l"
-	.string "Pressing ...\l"
-	.string "The sign is faded...$"
+	.string "危险！冰面有裂缝\n请骑自行车快速通过\l切换档位时\l请按……\l告示牌上的字迹模糊了……$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 

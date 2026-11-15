@@ -12,8 +12,8 @@ script BattleArcade_Challenge_EventScript_BeginChallenge
 {
 	setvar(VAR_ENTRANCE_STATUS, ENTRANCE_STATUS_BEGUN)
 	call(BattleArcade_BattleRoom_EventScript_MCFaceCrowd)
-	msgbox(format("Welcome to the Rocket Arcade!"),MSGBOX_DEFAULT)
-	msgbox(format("First, I’ll need to hold on to any items held by your Pokémon."),MSGBOX_DEFAULT)
+	msgbox(format("欢迎来到火箭游戏城！"),MSGBOX_DEFAULT)
+	msgbox(format("首先，我要替你保管宝可梦身上的道具。"),MSGBOX_DEFAULT)
 	arcade_takeplayerhelditems
 	goto(BattleArcade_Challenge_EventScript_BattleOpponent)
 }
@@ -39,7 +39,7 @@ script BattleArcade_Challenge_EventScript_SpawnOpponentStartGameBoard
 script BattleArcade_Challenge_EventScript_AnnounceGameNumber
 {
 	call(BattleArcade_Challenge_EventScript_BufferNextBattleNumber)
-	msgbox(format("Game no. {STR_VAR_1}! Come on!"),MSGBOX_DEFAULT)
+	msgbox(format("第{STR_VAR_1}局！来吧！"),MSGBOX_DEFAULT)
 	closemessage
 }
 
@@ -60,7 +60,7 @@ script BattleArcade_Challenge_EventScript_StartGameBoard
 
 script BattleArcade_Challenge_EventScript_PlayGameBoard
 {
-	msgbox(format("Without further ado... Let’s activate the game board!"),MSGBOX_DEFAULT)
+	msgbox(format("那么事不宜迟……启动游戏盘吧！"),MSGBOX_DEFAULT)
 	closemessage
 	arcade_generateopponentparty
 	arcade_takeenemyhelditems
@@ -69,12 +69,12 @@ script BattleArcade_Challenge_EventScript_PlayGameBoard
 
 script BattleArcade_Challenge_EventScript_HandleGameResults
 {
-	msgbox(format("This is our current event!"),MSGBOX_DEFAULT)
+	msgbox(format("本次的事件就是这个！"),MSGBOX_DEFAULT)
 	call(BattleArcade_BattleRoom_EventScript_ApplyOverworldImpact)
 	call(BattleArcade_Challenge_AnnounceImpactGiveItem)
 	call(BattleArcade_BattleRoom_EventScript_MoveMCBack)
 	call(BattleArcade_Challenge_SkipBattle_Script)
-	msgbox(format("OK! Let the battle commence!"),MSGBOX_DEFAULT)
+	msgbox(format("好！对战开始！"),MSGBOX_DEFAULT)
 	closemessage
 }
 
@@ -97,50 +97,50 @@ script BattleArcade_Challenge_AnnounceImpactGiveItem_Success
 	switch(var(LOCAL_VAR_GAME_BOARD_EVENT))
 	{
 		case ARCADE_EVENT_LOWER_HP:
-			msgbox(format("The match will commence with {STR_VAR_1}’s Pokémon without full HP!"),MSGBOX_DEFAULT)
+			msgbox(format("比赛开始时，\n{STR_VAR_1}的宝可梦\l将不会以满HP状态上场！"),MSGBOX_DEFAULT)
 		case ARCADE_EVENT_POISON:
-			msgbox(format("The match will commence with {STR_VAR_1}’s Pokémon poisoned!"),MSGBOX_DEFAULT)
+			msgbox(format("比赛开始时，\n{STR_VAR_1}的宝可梦\l将处于中毒状态！"),MSGBOX_DEFAULT)
 		case ARCADE_EVENT_PARALYZE:
-			msgbox(format("The match will commence with {STR_VAR_1}’s Pokémon paralyzed!"),MSGBOX_DEFAULT)
+			msgbox(format("比赛开始时，\n{STR_VAR_1}的宝可梦\l将处于麻痹状态！"),MSGBOX_DEFAULT)
 		case ARCADE_EVENT_BURN:
-			msgbox(format("The match will commence with {STR_VAR_1}’s Pokémon burned!"),MSGBOX_DEFAULT)
+			msgbox(format("比赛开始时，\n{STR_VAR_1}的宝可梦\l将处于灼伤状态！"),MSGBOX_DEFAULT)
 		case ARCADE_EVENT_SLEEP:
-			msgbox(format("The match will commence with {STR_VAR_1}’s Pokémon asleep!"),MSGBOX_DEFAULT)
+			msgbox(format("比赛开始时，\n{STR_VAR_1}的宝可梦\l将处于睡眠状态！"),MSGBOX_DEFAULT)
 		case ARCADE_EVENT_FREEZE:
-			msgbox(format("The match will commence with {STR_VAR_1}’s Pokémon frozen!"),MSGBOX_DEFAULT)
+			msgbox(format("比赛开始时，\n{STR_VAR_1}的宝可梦\l将处于冰冻状态！"),MSGBOX_DEFAULT)
 		case ARCADE_EVENT_GIVE_BERRY:
 		case ARCADE_EVENT_GIVE_ITEM:
-			msgbox(format("{STR_VAR_1}’s Pokémon will be loaned the {STR_VAR_3}."),MSGBOX_DEFAULT)
+			msgbox(format("将把{STR_VAR_3}借给\n{STR_VAR_1}的宝可梦。"),MSGBOX_DEFAULT)
 		case ARCADE_EVENT_LEVEL_UP:
-			msgbox(format("The match will commence with {STR_VAR_1}’s Pokémon leveled up!"),MSGBOX_DEFAULT)
+			msgbox(format("比赛开始时，\n{STR_VAR_1}的宝可梦\l等级将会提升！"),MSGBOX_DEFAULT)
 		case ARCADE_EVENT_SUN:
-			msgbox(format("This match will be conducted under harsh sunlight."),MSGBOX_DEFAULT)
+			msgbox(format("本场比赛将在强烈的日照下进行。"),MSGBOX_DEFAULT)
 		case ARCADE_EVENT_RAIN:
-			msgbox(format("This match will be conducted under a steady rainfall."),MSGBOX_DEFAULT)
+			msgbox(format("本场比赛将在持续的降雨中进行。"),MSGBOX_DEFAULT)
 		case ARCADE_EVENT_SAND:
-			msgbox(format("This match will be conducted under a raging sandstorm."),MSGBOX_DEFAULT)
+			msgbox(format("本场比赛将在猛烈的沙暴中进行。"),MSGBOX_DEFAULT)
 		case ARCADE_EVENT_HAIL:
-			msgbox(format("This match will be conducted under pelting hail."),MSGBOX_DEFAULT)
+			msgbox(format("本场比赛将在倾泻的冰雹中进行。"),MSGBOX_DEFAULT)
 		case ARCADE_EVENT_FOG:
-			msgbox(format("This match will be conducted in a dense fog."),MSGBOX_DEFAULT)
+			msgbox(format("本场比赛将在浓雾中进行。"),MSGBOX_DEFAULT)
 		case ARCADE_EVENT_TRICK_ROOM:
-			msgbox(format("This match will be conducted on a floor where time and space are distorted."),MSGBOX_DEFAULT)
+			msgbox(format("本场比赛将在时空扭曲的场地上进行。"),MSGBOX_DEFAULT)
 		case ARCADE_EVENT_SWAP:
-			msgbox(format("Your Pokémon will be switched with the other Trainer’s for this match."),MSGBOX_DEFAULT)
+			msgbox(format("本场比赛中，你的宝可梦\n将与对手训练家的宝可梦交换。"),MSGBOX_DEFAULT)
 		case ARCADE_EVENT_SPEED_UP:
-			msgbox(format("From the next game on, the game board’s speed will be increased."),MSGBOX_DEFAULT)
+			msgbox(format("从下一局开始，\n游戏盘的速度将会加快。"),MSGBOX_DEFAULT)
 		case ARCADE_EVENT_SPEED_DOWN:
-			msgbox(format("From the next game on, the game board’s speed will be decreased."),MSGBOX_DEFAULT)
+			msgbox(format("从下一局开始，\n游戏盘的速度将会减慢。"),MSGBOX_DEFAULT)
 		case ARCADE_EVENT_RANDOM:
-			msgbox(format("For the next game, the game board’s motion will become random."),MSGBOX_DEFAULT)
+			msgbox(format("下一局中，游戏盘的移动将变得随机。"),MSGBOX_DEFAULT)
 		case ARCADE_EVENT_GIVE_BP_SMALL:
 		case ARCADE_EVENT_GIVE_BP_BIG:
-			msgbox(format("The prize panel flashes, but the Rocket Arcade only pays out after a win!"),MSGBOX_DEFAULT)
+			msgbox(format("奖品面板亮起来了，但火箭游戏城\n只会在获胜后支付奖金！"),MSGBOX_DEFAULT)
 		case ARCADE_EVENT_NO_BATTLE:
-			msgbox(format("Oh! Lucky! You can skip the battle!"),MSGBOX_DEFAULT)
+			msgbox(format("哦！太幸运了！你可以跳过这场对战！"),MSGBOX_DEFAULT)
 		default:
 		case ARCADE_EVENT_NO_EVENT:
-			msgbox(format("Too bad! There is no event this time!"),MSGBOX_DEFAULT)
+			msgbox(format("真遗憾！这次没有触发事件！"),MSGBOX_DEFAULT)
 }
 }
 
@@ -149,16 +149,16 @@ script BattleArcade_Challenge_AnnounceImpactGiveItem_Failure
 	switch(var(LOCAL_VAR_GAME_BOARD_EVENT))
 	{
 		case ARCADE_EVENT_POISON:
-			msgbox(format("{STR_VAR_1}’s Pokémon will enter the match poisoned... Oh! A lucky break! {STR_VAR_1} has no Pokémon that can be poisoned!"),MSGBOX_DEFAULT)
+			msgbox(format("{STR_VAR_1}的宝可梦\n本会以中毒状态上场……\l哦！走运了！{STR_VAR_1}\l没有会中毒的宝可梦！"),MSGBOX_DEFAULT)
 		case ARCADE_EVENT_PARALYZE:
-			msgbox(format("{STR_VAR_1}’s Pokémon will enter the match paralyzed... Oh! A lucky break! {STR_VAR_1} has no Pokémon that can be paralyzed!"),MSGBOX_DEFAULT)
+			msgbox(format("{STR_VAR_1}的宝可梦\n本会以麻痹状态上场……\l哦！走运了！{STR_VAR_1}\l没有会麻痹的宝可梦！"),MSGBOX_DEFAULT)
 		case ARCADE_EVENT_BURN:
-			msgbox(format("{STR_VAR_1}’s Pokémon will enter the match burned... Oh! A lucky break! {STR_VAR_1} has no Pokémon that can be burned!"),MSGBOX_DEFAULT)
+			msgbox(format("{STR_VAR_1}的宝可梦\n本会以灼伤状态上场……\l哦！走运了！{STR_VAR_1}\l没有会灼伤的宝可梦！"),MSGBOX_DEFAULT)
 		case ARCADE_EVENT_SLEEP:
-			msgbox(format("{STR_VAR_1}’s Pokémon will enter the match asleep... Oh! A lucky break! {STR_VAR_1} has no Pokémon that can be made to sleep!"),MSGBOX_DEFAULT)
+			msgbox(format("{STR_VAR_1}的宝可梦\n本会以睡眠状态上场……\l哦！走运了！{STR_VAR_1}\l没有能陷入睡眠的宝可梦！"),MSGBOX_DEFAULT)
 		default:
 		case ARCADE_EVENT_FREEZE:
-			msgbox(format("{STR_VAR_1}’s Pokémon will enter the match frozen... Oh! A lucky break! {STR_VAR_1} has no Pokémon that can be frozen!"),MSGBOX_DEFAULT)
+			msgbox(format("{STR_VAR_1}的宝可梦\n本会以冰冻状态上场……\l哦！走运了！{STR_VAR_1}\l没有会被冰冻的宝可梦！"),MSGBOX_DEFAULT)
 	}
 }
 script BattleArcade_Challenge_GiveItem_Script
@@ -168,7 +168,7 @@ script BattleArcade_Challenge_GiveItem_Script
 		return
 	}
 	call(BattleArcade_BattleRoom_EventScript_MoveMCToTrainer)
-	msgbox(format("Here you go!"))
+	msgbox(format("给你！"))
 	closemessage
 	call(BattleArcade_BattleRoom_EventScript_MoveMCFromTrainer)
 }
@@ -239,7 +239,7 @@ script BattleArcade_Challenge_EventScript_HandleBattleResult
 	arcade_checkdoubledown
 	if (var(VAR_RESULT) == TRUE)
 	{
-		msgbox(format("You lost it all! Better luck next time."), MSGBOX_DEFAULT)
+		msgbox(format("你全输光了！下次再来吧。"), MSGBOX_DEFAULT)
 		arcade_clearprize
 	}
 	setvar(VAR_RESULT, B_OUTCOME_LOST)
@@ -309,7 +309,7 @@ script BattleArcade_Challenge_EventScript_DefeatedOpponent
 script BattleArcade_Challenge_EventScript_CashOutOrDoubleDown
 {
 	arcade_bufferprize
-	message(format("You won ¥{STR_VAR_1}!\nCash out or risk it all?"))
+	message(format("你赢得了¥{STR_VAR_1}！\n要兑现离场，还是全部押上？"))
 	waitmessage
 	multichoice(20, 8, MULTI_ROCKET_ARCADE_CASH_OUT, TRUE)
 	switch(var(VAR_RESULT))
@@ -328,7 +328,7 @@ script BattleArcade_Challenge_EventScript_CashOut
 	updatemoneybox(0)
 	playse(SE_SHOP)
 	waitse
-	msgbox(format("You cashed out ¥{STR_VAR_2}!"), MSGBOX_DEFAULT)
+	msgbox(format("你兑现了¥{STR_VAR_2}！"), MSGBOX_DEFAULT)
 	hidemoneybox
 	setvar(VAR_RESULT, B_OUTCOME_WON)
 	goto(BattleArcade_Challenge_EventScript_SaveWarpToLobby)
@@ -337,7 +337,7 @@ script BattleArcade_Challenge_EventScript_CashOut
 script BattleArcade_Challenge_EventScript_DoubleDown
 {
 	arcade_doubledown
-	msgbox(format("Double down accepted! The next round puts it all on the line."), MSGBOX_DEFAULT)
+	msgbox(format("接受双倍下注！下一局将押上全部。"), MSGBOX_DEFAULT)
 	return
 }
 
@@ -350,7 +350,7 @@ script BattleArcade_RoulettRoom_EventScript_ResolveEndChallenge
 		call(BattleArcade_Challenge_EventScript_AskRecordBattle)
 	}
 	call(BattleArcade_Challenge_EventScript_GivePrize)
-	msgbox(format("We will return any items we were holding for you."))
+	msgbox(format("我们会把代为保管的道具还给你。"))
 	goto(BattleArcade_Challenge_EventScript_SaveWarpToLobby)
 }
 
@@ -362,13 +362,13 @@ script BattleArcade_Challenge_EventScript_GivePrize
 	updatemoneybox(0)
 	playse(SE_SHOP)
 	waitse
-	msgbox(format("Congratulations! You earned ¥{STR_VAR_2} as your prize!"), MSGBOX_DEFAULT)
+	msgbox(format("恭喜！你获得了¥{STR_VAR_2}的奖金！"), MSGBOX_DEFAULT)
 	hidemoneybox
 }
 
 script BattleArcade_Challenge_EventScript_HealPlayer
 {
-	msgbox(format("Good going! We’ll heal your Pokémon now."))
+	msgbox(format("干得好！现在为你治疗宝可梦。"))
 	playfanfare(MUS_HEAL)
 	waitfanfare
 	special(HealPlayerParty)
@@ -399,7 +399,7 @@ script BattleArcade_Challenge_EventScript_AskReadyForOpponent
 script BattleArcade_Challenge_EventScript_ReadyForOpponent
 {
 	call(BattleArcade_Challenge_EventScript_BufferNextBattleNumber)
-	message(format("Next up, game no. {STR_VAR_1}! Are you ready?"))
+	message(format("接下来是第{STR_VAR_1}局！准备好了吗？"))
 	waitmessage
 }
 
@@ -447,7 +447,7 @@ script BattleArcade_Challenge_EventScript_AskRecordBattle
 
 script BattleArcade_Challenge_EventScript_AskPauseChallenge
 {
-	msgbox(format("Would you like to save and take a break from playing?"), MSGBOX_YESNO)
+	msgbox(format("要保存游戏并暂时休息吗？"), MSGBOX_YESNO)
 	if(var(VAR_RESULT) == YES)
 	{
 		goto(BattleArcade_Challenge_EventScript_PauseChallenge)
@@ -471,7 +471,7 @@ script BattleArcade_Challenge_EventScript_PauseChallenge
 
 script BattleArcade_Challenge_EventScript_AskRetireChallenge
 {
-	message(format("Would you like to retire from this challenge?"))
+	message(format("要退出本次挑战吗？"))
 	waitmessage
 	multichoicedefault(20, 8, MULTI_YESNO, 1, FALSE)
 	if(var(VAR_RESULT) == 0)
@@ -500,7 +500,7 @@ script BattleArcade_Challenge_EventScript_BrainUpNext
 		goto(BattleArcade_Challenge_EventScript_AskReadyForBrain)
 	}
 
-	msgbox(format("Congratulations, Trainer! In recognition of your outstanding nerve, our Frontier Brain is demanding a match with you. So, your next match is against Archer, the Rocket Arcade Boss; no ifs or buts! Are you ready?"), MSGBOX_DEFAULT)
+	msgbox(format("恭喜你，训练家！\n为表彰你过人的胆识，\l本设施的开拓首脑点名要与你一战。\l也就是说，你的下一场对手是\l火箭游戏城的老板阿波罗——\l不接受任何推辞！准备好了吗？"), MSGBOX_DEFAULT)
 	setvar(VAR_HEARD_BRAIN_INTRO,TRUE)
 
 	goto(BattleArcade_Challenge_EventScript_AskReadyForBrain)
@@ -552,15 +552,15 @@ script BattleArcade_Challenge_EventScript_BrainIntro
 		return
 	}
 
-	msgbox(format("Archer: The Rocket Arcade rewards skill, not luck.\pYou have pressed your advantage well enough to stand before me once more. But this time I will show you the true might of Team Rocket."),MSGBOX_DEFAULT)
+	msgbox(format("阿波罗：火箭游戏城奖赏的是实力，\n而非运气。\p你确实把优势保持到\n再次站到我面前。\l但这一次，我会让你见识\l火箭队真正的力量。"),MSGBOX_DEFAULT)
 	arcade_getprintfromstreak
 	if (var(VAR_RESULT) == ARCADE_SYMBOL_SILVER)
 	{
-		msgbox(format("Show me whether your skill is true, or mere luck."), MSGBOX_DEFAULT)
+		msgbox(format("让我看看你的实力是真的，\n还是仅仅靠运气。"), MSGBOX_DEFAULT)
 	}
 	else
 	{
-		msgbox(format("You have returned with the same arrogance as before. I will correct that."),MSGBOX_DEFAULT)
+		msgbox(format("你又带着和之前一样的傲慢回来了。\n我会纠正这一点。"),MSGBOX_DEFAULT)
 	}
 }
 
@@ -569,11 +569,11 @@ script BattleArcade_Challenge_EventScript_BufferBrainPreBattleText
 	arcade_getprintfromstreak
 	if (var(VAR_RESULT) == ARCADE_SYMBOL_SILVER)
 	{
-		bufferstring(STR_VAR_3,format("Archer: A proper Rocket Operative never leaves victory to chance. Let us see if you can stand against it."))
+		bufferstring(STR_VAR_3,format("阿波罗：真正的火箭队干部，\n绝不会把胜利交给运气。\l让我们看看你能否与之抗衡。"))
 	}
 	else
 	{
-		bufferstring(STR_VAR_3,format("Archer: You have pushed deeper into my house than most. Now pay attention to how a Rocket closes a game."))
+		bufferstring(STR_VAR_3,format("阿波罗：你闯进我的地盘，\n比大多数人都要深。\l现在，看清楚了，\l火箭队是如何收局的。"))
 	}
 }
 
@@ -582,11 +582,11 @@ script BattleArcade_Challenge_EventScript_BrainCongratsText
 	arcade_getprintfromstreak
 	if (var(VAR_RESULT) == ARCADE_SYMBOL_SILVER)
 	{
-		msgbox(format("Archer: Hmph. You read the table correctly and struck when it mattered. Take your winnings."),MSGBOX_DEFAULT)
+		msgbox(format("阿波罗：哼。你看准了牌面，\n在关键时刻出手。拿走你的奖金吧。"),MSGBOX_DEFAULT)
 	}
 	else
 	{
-		msgbox(format("Archer: You have taken even the house's best hand. Remember this feeling. It is expensive to chase."),MSGBOX_DEFAULT)
+		msgbox(format("阿波罗：你连庄家最好的牌都赢走了。\n记住这种感觉。\l想追回它，代价可不小。"),MSGBOX_DEFAULT)
 	}
 	closemessage
 }

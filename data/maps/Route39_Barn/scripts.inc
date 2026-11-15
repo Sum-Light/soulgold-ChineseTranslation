@@ -142,43 +142,43 @@ Route39_Barn_EventScript_TwinsAfter::
 	end
 
 Route39_Text_BarnTwinMoomooIsSick:
-	.string "Moomoo is sick…\p"
-	.string "She needs lots of Oran Berries.$"
+	.string "哞哞生病了……\p它需要很多橙橙果。$"
+	.string ""
 
 Route39_Text_BarnTwinFeedingMoomoo:
-	.string "Moomoo is all better!\n"
-	.string "Thank you!$"
+	.string "哞哞全好了！\n谢谢你！$"
+	.string ""
 
 Route39_Text_MoomooWeakMoo:
-	.string "Miltank: …Moo…$"
+	.string "大奶罐：……哞……$"
 
 Route39_Text_BarnCryIsWeak:
-	.string "Its cry is weak…\n"
-	.string "Give an Oran Berry to Miltank?$"
+	.string "叫声有气无力……\n要给大奶罐橙橙果吗？$"
+	.string ""
 
 Route39_Text_MoomooHappyMoo:
-	.string "Miltank: Mooo!$"
+	.string "大奶罐：哞哞！$"
 
 Route39_Text_BarnGaveBerry:
-	.string "{PLAYER} gave an Oran Berry to\n"
-	.string "Miltank.$"
+	.string "{PLAYER}把橙橙果给了\n大奶罐。$"
+	.string ""
 
 Route39_Text_BarnLittleHealthier:
-	.string "Miltank became a little\n"
-	.string "healthier!$"
+	.string "大奶罐稍微\n恢复精神了！$"
+	.string ""
 
 Route39_Text_BarnQuiteHealthy:
-	.string "Miltank became quite\n"
-	.string "healthy!$"
+	.string "大奶罐\n精神多了！$"
+	.string ""
 
 Route39_Text_BarnTotallyHealthy:
-	.string "Miltank became totally\n"
-	.string "healthy!$"
+	.string "大奶罐完全\n恢复健康了！$"
+	.string ""
 
 Route39_Text_BarnNoBerries:
-	.string "{PLAYER} has no Oran Berries…$"
+	.string "{PLAYER}没有橙橙果……$"
 
 Route39_Text_BarnRefusedBerry:
-	.string "{PLAYER} wouldn't give an\n"
-	.string "Oran Berry.\p"
-	.string "Miltank looks sad.$"
+	.string "{PLAYER}不愿给出\n橙橙果。\p大奶罐一脸难过。$"
+	.string ""
+	.string ""

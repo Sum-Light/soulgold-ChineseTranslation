@@ -44,30 +44,30 @@ Route27_Movement_FollowerJump:
 	step_end
 
 SandstormHouse_Text_Woman1:
-    .string "Where are you off to with\n"
-    .string "Pokémon?\p"
-    .string "Pokémon League?\p"
-    .string "Are your Pokémon loyal enough for\n"
-    .string "you to win?\p"
-    .string "Let me see…$"
+    .string "你要带着宝可梦\n去哪儿啊？\p宝可梦联盟？\p你的宝可梦够不够忠心，\n能让你赢下来呢？\p让我看看……$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 SandstormHouse_Text_LoyalMon:
-    .string "Ah! Your Pokémon trusts you very\n"
-    .string "much.\p"
-    .string "It's nice to see a good trainer.\p"
-    .string "Here. A gift for your journey.$"
+    .string "哦！你的宝可梦\n很信任你。\p看到优秀的训练家\n真是件好事。\p来，这个送给你\n当饯别礼。$"
+    .string ""
+    .string ""
+    .string ""
 
 SandstormHouse_Text_TM37Description:
-    .string "TM37 happens to be Sandstorm.\p"
-    .string "It's a move that inflicts damage\n"
-    .string "on both battlers.\p"
-    .string "It's for advanced trainers only.\p"
-    .string "Use it if you dare. Good luck!$"
+    .string "招式学习器37里装的是沙暴。\p这招会对对战的\n双方都造成伤害。\p这是给高水平训练家\n准备的招式。\p有胆量就用用看。祝你好运！$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 SandstormHouse_Text_DisloyalMon:
-    .string "If it doesn't come to trust you\n"
-    .string "some more, it could be tough going.\p"
-    .string "Trust is the tie that binds Pokémon\n"
-    .string "and trainers.$"
+    .string "要是它还不能更信任你，\n往后的路怕是会很艰难。\p把宝可梦和训练家\n连在一起的，就是信赖啊。$"
+    .string ""
+    .string ""
+    .string ""
 
 

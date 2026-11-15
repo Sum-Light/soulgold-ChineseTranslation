@@ -1,27 +1,27 @@
 Text_PictureBookShelf:
-	.string "There's a set of Pokémon picture books.$"
+	.string "一套宝可梦画册。$"
 
 Text_BookShelf:
-	.string "It's filled with all sorts of books.$"
+	.string "装满了各种各样的书。$"
 
 Text_PokemonCenterBookShelf:
-	.string "Pokémon magazines!\n"
-	.string "Pokémon PAL…\p"
-	.string "Pokémon HANDBOOK…\n"
-	.string "ADORABLE Pokémon…$"
+	.string "是宝可梦杂志！\n宝可梦伙伴……\p宝可梦手册……\n可爱的宝可梦……$"
+	.string ""
+	.string ""
+	.string ""
 
 Text_Vase:
-	.string "This vase looks expensive…\n"
-	.string "Peered inside…\p"
-	.string "But, it was empty.$"
+	.string "花瓶看上去很昂贵……\n偷偷看了看里面……\p可惜，是空的。$"
+	.string ""
+	.string ""
 
 Text_EmptyTrashCan:
-	.string "It's empty.$"
+	.string "空的。$"
 
 Text_ShopShelf:
-	.string "The shelves brim with all sorts of\n"
-	.string "Pokémon merchandise.$"
+	.string "架子上满满的\n全是宝可梦商品。$"
+	.string ""
 
 Text_Blueprint:
-	.string "A blueprint of some sort?\n"
-	.string "It's too complicated!$"
+	.string "是什么的设计图吗？\n好复杂！$"
+	.string ""

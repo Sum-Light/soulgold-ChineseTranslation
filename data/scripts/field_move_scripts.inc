@@ -50,16 +50,16 @@ EventScript_CancelCut::
 	end
 
 Text_WantToCut:
-	.string "This tree looks like it can be\n"
-	.string "cut down!\p"
-	.string "Would you like to cut it?$"
+	.string "这棵树好像可以砍断！\n要用居合劈来砍吗？$"
+	.string ""
+	.string ""
 
 Text_MonUsedFieldMove:
-	.string "{STR_VAR_1} used {STR_VAR_2}!$"
+	.string "{STR_VAR_1}使出了{STR_VAR_2}！$"
 
 Text_CantCut:
-	.string "This tree looks like it can be\n"
-	.string "cut down!$"
+	.string "这棵树好像可以用\n秘传招式砍断！$"
+	.string ""
 
 @ Use rock smash from party menu
 EventScript_UseRockSmash::
@@ -233,12 +233,12 @@ EventScript_CancelSmash::
 	end
 
 Text_WantToSmash:
-	.string "This rock appears to be breakable.\n"
-	.string "Would you like to use Rock Smash?$"
+	.string "好像可以用秘传招式击碎！\n要使用碎岩吗？$"
+	.string ""
 
 Text_CantSmash:
-	.string "It's a rugged rock, but a Pokémon\n"
-	.string "may be able to smash it.$"
+	.string "看起来很硬的岩石……\n或许可以用秘传招式击碎？$"
+	.string ""
 
 EventScript_StrengthBoulder::
 	lockall
@@ -290,22 +290,22 @@ EventScript_CancelStrength::
 	end
 
 Text_WantToStrength:
-	.string "It's a big boulder, but a Pokémon\n"
-	.string "may be able to push it aside.\p"
-	.string "Would you like to use Strength?$"
+	.string "好大的岩石……\n或许可以用秘传招式推动？\l要使用怪力吗？$"
+	.string ""
+	.string ""
 
 Text_MonUsedStrength:
-	.string "{STR_VAR_1} used Strength!\p"
-	.string "{STR_VAR_1}'s Strength made it\n"
-	.string "possible to move boulders around!$"
+	.string "{STR_VAR_1}使出了怪力！\p多亏{STR_VAR_1}的怪力，\n现在可以推动岩石了！$"
+	.string ""
+	.string ""
 
 Text_CantStrength:
-	.string "It's a big boulder, but a Pokémon\n"
-	.string "may be able to push it aside.$"
+	.string "好大的岩石……\n或许可以用秘传招式推动？$"
+	.string ""
 
 Text_StrengthActivated:
-	.string "Strength made it possible to move\n"
-	.string "boulders around.$"
+	.string "使出了怪力后，\n可以推动岩石了！$"
+	.string ""
 
 EventScript_UseWaterfall::
 	lockall
@@ -340,15 +340,15 @@ EventScript_EndWaterfall::
 	end
 
 Text_CantWaterfall:
-	.string "A wall of water is crashing down with\n"
-	.string "a mighty roar.$"
+	.string "伴随着巨大的轰响，\n大量的水从上方倾泻而下！\l或许可以用秘传招式攀上去？$"
+	.string ""
 
 Text_WantToWaterfall:
-	.string "It's a large waterfall.\n"
-	.string "Would you like to use Waterfall?$"
+	.string "好大的瀑布啊！\n要使用攀瀑吗？$"
+	.string ""
 
 Text_MonUsedWaterfall:
-	.string "{STR_VAR_1} used Waterfall.$"
+	.string "{STR_VAR_1}使出了攀瀑。$"
 
 EventScript_UseDive::
 	lockall
@@ -443,30 +443,30 @@ EventScript_UseCutGrass::
 	goto EventScript_CutGrassCommon
 
 Text_CantDive:
-	.string "The sea is deep here. A Pokémon\n"
-	.string "may be able to go underwater.$"
+	.string "这里的水很深。\n好像可以用秘传招式潜下去。$"
+	.string ""
 
 Text_WantToDive:
-	.string "The sea is deep here.\n"
-	.string "Would you like to use Dive?$"
+	.string "这里的水很深。\n要使用潜水吗？$"
+	.string ""
 
 Text_MonUsedDive:
-	.string "{STR_VAR_1} used Dive.$"
+	.string "{STR_VAR_1}使出了潜水。$"
 
 Text_CantSurface:
-	.string "Light is filtering down from above.\n"
-	.string "A Pokémon may be able to surface.$"
+	.string "上方有亮光洒下。\n好像可以从这里浮出水面。$"
+	.string ""
 
 Text_WantToSurface:
-	.string "Light is filtering down from above.\n"
-	.string "Would you like to use Dive?$"
+	.string "上方有亮光洒下。\n要使用潜水吗？$"
+	.string ""
 
 EventScript_FailSweetScent::
 	msgbox Text_FailSweetScent, MSGBOX_SIGN
 	end
 
 Text_FailSweetScent:
-	.string "Looks like there's nothing here…$"
+	.string "看起来这里什么也没有……$"
 
 EventScript_UseDefog::
 	lockall
@@ -510,15 +510,15 @@ EventScript_EndRockClimb::
 	end
 
 Text_WantToRockClimb:
-	.string "The cliff is steep.\n"
-	.string "Would you like to use Rock Climb?$"
+	.string "岩石表面看起来非常粗糙……\n要使用攀岩吗？$"
+	.string ""
 
 Text_MonUsedRockClimb:
-	.string "{STR_VAR_1} used Rock Climb!$"
+	.string "{STR_VAR_1}使出了攀岩！$"
 
 Text_CantRockClimb:
-    .string "The cliff is steep.\n"
-    .string "A Pokémon may be able to climb it.$"
+    .string "岩石表面看起来非常粗糙……\n或许可以用秘传招式攀爬？$"
+    .string ""
 
 @HnS
 EventScript_Whirlpool::
@@ -590,15 +590,15 @@ Movement_WhirlpoolWest:
 	step_end
 
 Text_CantWhirlpool:
-	.string "The water is swirling and spinning\n"
-	.string "around with a mighty roar.$"
+	.string "水流发出巨大的轰鸣，\n正猛烈地打着漩涡。$"
+	.string ""
 
 Common_Text_PartyIsFull: @bender sez please move location of this command
-	.string "Whoa, wait. You can't carry any\n"
-	.string "more Pokémon.$"
+	.string "哎呀，等一下。\n身上已经带不了更多宝可梦了。$"
+	.string ""
 
 Text_MonUsedWhirlpool:
-	.string "{STR_VAR_1} used Whirlpool.$"
+	.string "{STR_VAR_1}使出了潮旋。$"
 
 SetTimeEncounters::
 	callnative SetTimeBasedEncounters

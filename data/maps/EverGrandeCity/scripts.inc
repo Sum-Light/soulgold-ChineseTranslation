@@ -24,14 +24,14 @@ EverGrandeCity_EventScript_SetVisitedEverGrande::
 	end
 
 EverGrandeCity_Text_EnteringVictoryRoad:
-	.string "Entering Victory Road$"
+	.string "由此进入冠军之路$"
 
 EverGrandeCity_Text_EnteringPokemonLeague:
-	.string "Entering Pokémon League\n"
-	.string "Center Gate$"
+	.string "由此进入宝可梦联盟\n中心大门$"
+	.string ""
 
 EverGrandeCity_Text_CitySign:
-	.string "Ever Grande City\p"
-	.string "“The paradise of flowers, the sea,\n"
-	.string "and Pokémon.”$"
+	.string "这里是彩幽市。\n“鲜花、海洋与宝可梦的乐园。”$"
+	.string ""
+	.string ""
 

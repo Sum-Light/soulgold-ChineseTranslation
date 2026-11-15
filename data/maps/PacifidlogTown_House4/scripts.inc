@@ -28,26 +28,26 @@ PacifidlogTown_House4_EventScript_No::
 	end
 
 PacifidlogTown_House4_Text_PeopleSawHighFlyingPokemon:
-	.string "People were saying they saw a Pokémon\n"
-	.string "flying high above Hoenn.\p"
-	.string "Is it flying around all the time?\n"
-	.string "Doesn't it need to rest somewhere?$"
+	.string "有人说看到一只宝可梦\n从丰缘地区上空飞过。\p它总是在天空中飞吗？\n它不用休息吗？$"
+	.string ""
+	.string ""
+	.string ""
 
 PacifidlogTown_House4_Text_SkyPokemon:
-	.string "A sky Pokémon!\n"
-	.string "A sky Pokémon!$"
+	.string "空中的宝可梦！\n空中的宝可梦！$"
+	.string ""
 
 PacifidlogTown_House4_Text_WhereDidYouComeFrom:
-	.string "Where did you come from?$"
+	.string "你从哪个城镇来？$"
 
 PacifidlogTown_House4_Text_YesTown:
-	.string "Yes?\n"
-	.string "Yes Town?\p"
-	.string "I've never heard of a place like that.$"
+	.string "什么？\n“是”镇？\p我从没听说过那种地方。$"
+	.string ""
+	.string ""
 
 PacifidlogTown_House4_Text_YouHaveToComeFromSomewhere:
-	.string "No? That doesn't make any sense.\n"
-	.string "You have to come from somewhere.\p"
-	.string "Oh! Wait! You're not going to say you\n"
-	.string "were born at the bottom of the sea?$"
+	.string "什么？我可不信，\n你肯定是从什么地方来的。\p哎！等等！你不会说\n你是生在海底的吧？$"
+	.string ""
+	.string ""
+	.string ""
 

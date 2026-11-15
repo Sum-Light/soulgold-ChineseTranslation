@@ -1,28 +1,21 @@
 mapscripts Route50_MapScripts {}
 
 script Route50_TrainerRowan {
-	trainerbattle_single(TRAINER_ROUTE50_ROWAN, "Let's see if you still got energy left
-												 to face me!", 
-												 "You never lost your footing!")
-	msgbox("Lake of Rage ain't far away. The climate
-			can change rapidly around here.", MSGBOX_AUTOCLOSE)
+	trainerbattle_single(TRAINER_ROUTE50_ROWAN, "让我看看你还有没有\n力气来对付我！", 
+												 "你一步都没踏错！")
+	msgbox("愤怒之湖离这儿不远。\n这一带气候说变就变。", MSGBOX_AUTOCLOSE)
 	end
 }
 
 script Route50_TrainerCaspian {
-	trainerbattle_double(TRAINER_ROUTE50_CASPIAN, "I'm doing a tour of all the routes!", "You might be the strongest trainer so
-																						  far.", "Bring two Pokémon ready to battle!")
-	msgbox("Have you been making use of the 
-			weather? It can turn the tide of
-			battle in a flash.", MSGBOX_AUTOCLOSE)
+	trainerbattle_double(TRAINER_ROUTE50_CASPIAN, "我正在把所有的道路\n都巡游一遍！", "你也许是我遇到过的\n最强的训练家。", "带上两只宝可梦来对战！")
+	msgbox("你有在利用天气吗？\n天气能在一瞬间\l扭转战局。", MSGBOX_AUTOCLOSE)
 	end
 }
 
 script Route50_TrainerIgnis {
-	trainerbattle_single(TRAINER_ROUTE50_IGNIS, "This place is perfect for practicing
-												 firebreathing!", "No! My flames!")
-	msgbox("Can't accidentally set anything on fire 
-			here.", MSGBOX_AUTOCLOSE)
+	trainerbattle_single(TRAINER_ROUTE50_IGNIS, "这地方练喷火\n再合适不过了！", "不！我的火焰！")
+	msgbox("在这儿不会不小心\n把什么东西点着。", MSGBOX_AUTOCLOSE)
 	end
 }
 
@@ -37,17 +30,15 @@ script Route50_Virizion {
 script Route50_ObservingWoman {
 	lock
 	if (!flag(FLAG_HIDE_VIRIZION)) {
-		msgbox("What kind of Pokémon is that thing
-				over there?")
+		msgbox("那边那个东西\n是什么宝可梦？")
 		release
 		end
 	}
-	msgbox("Oh you caught that thing! Nice going!")
+	msgbox("哦，你抓住那家伙了！干得好！")
 	release
 	end
 }
 
 script Route50CafeSign {
-	msgbox("Battle Cafe
-			All challengers welcome!", MSGBOX_SIGN)
+	msgbox("对战咖啡馆\n欢迎所有挑战者！", MSGBOX_SIGN)
 }

@@ -84,38 +84,31 @@ DarkraiInnBedroom_Bed_Movement_0:
 	step_end
 
 DarkraiInnBedroom_Phone_Text_0:
-	.string "An antique telephone.\p"
-	.string "The cord doesn't seem to connect\n"
-	.string "anywhere.$"
+	.string "一部古董电话。\p电话线似乎没有\n接到任何地方。$"
 
 DarkraiInnBedroom_Bed_Text_0:
-	.string "Just staring at this bed makes you feel\n"
-	.string "drowsy.\p"
-	.string "Perhaps it's time to take a rest and\n"
-	.string "close your eyes for a little while...$"
+	.string "光是看着这张床，\n就让人昏昏欲睡。\p也许是时候休息一下，\n闭上眼睛小睡片刻了……$"
 
 DarkraiInnBedroom_Bed_Text_1:
-	.string "Take a short nap..?$"
+	.string "要小睡一会儿吗？$"
 
 DarkraiInnBedroom_Bed_Text_2:
-	.string "Was there something you forgot...?$"
+	.string "你是不是忘了什么……？$"
 
 DarkraiInnBedroom_Bed_Text_3:
-	.string "Sleep$"
+	.string "睡吧$"
 
 DarkraiInnBedroom_Bed_Text_4:
-	.string "Resist$"
+	.string "忍住$"
 
 DarkraiInnBedroom_Bed_Text_5:
-	.string "It was probably nothing that can't wait\n"
-	.string "a bit...$"
+	.string "大概不是什么\n不能等一会儿的事……$"
 
 DarkraiInnBedroom_Bed_Text_6:
-	.string "You feel a chill and decide to step away\n"
-	.string "from the bed.$"
+	.string "你感到一阵寒意，\n决定离床远一点。$"
 
 DarkraiInnBedroom_Bed_Text_7:
-	.string "You decide to step away from the bed.$"
+	.string "你决定离床远一点。$"
 
 DarkraiInnBedroom_Bed_Text_8:
-	.string "Now's not the time to be napping.$"
+	.string "现在可不是睡大觉的时候。$"

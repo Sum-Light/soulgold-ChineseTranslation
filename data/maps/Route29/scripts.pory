@@ -35,7 +35,7 @@ Route29_Trigger_Monview::
 	end
 
 Route29_Text_PressAorB:
-	.string "Press A or B to stop viewing.$"
+	.string "按A键或B键结束查看。$"
 
 Route29_EventScript_OldMan::
 	lock
@@ -155,95 +155,94 @@ Route29_EventScript_Sign::
 	end
 
 Route29_Text_OldMan1:
-	.string "Pokémon hide in the grass.\n"
-	.string "Who knows when they'll pop out…$"
+	.string "宝可梦会藏在草丛里。\n不知道什么时候就会冒出来……$"
+	.string ""
 
 Route29_Text_OldMan2:
-	.string "I've seen you a couple times.\n"
-	.string "How many Pokémon have you caught?\p"
-	.string "Would you like me to tell you\n"
-	.string "how to catch Pokémon?$"
+	.string "我已经见过你几次了。\n你抓到多少宝可梦了？\p要我告诉你\n怎么抓宝可梦吗？$"
+	.string ""
+	.string ""
+	.string ""
 
 Route29_Text_OldManExplanation:
-	.string "If you weaken them first,\n"
-	.string "Pokémon are easier to catch.\p"
-	.string "Then, throw a ball at them from\n"
-	.string "your bag! Any ball will do.\p"
-	.string "If you want to learn more,\n"
-	.string "go to the Academy in Violet City!\p"
-	.string "The students there know a lot\n"
-	.string "about Pokémon.$"
+	.string "先把宝可梦削弱，\n就更容易抓到。\p然后从包里\n朝它扔球！什么球都行。\p想了解更多的话，\n就去桔梗市的学校吧！\p那里的学生懂得很多\n关于宝可梦的知识。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route29_Text_OldManDeclined:
-	.string "Oh. Fine, then.\p"
-	.string "Check every route to find\n"
-	.string "different types of Pokémon.\p"
-	.string "Your Pokédex shows where you can\n"
-	.string "find them too!\p"
-	.string "If you want to learn more,\n"
-	.string "go to the Academy in Violet City!\p"
-	.string "The students know a lot about\n"
-	.string "Pokémon.$"
+	.string "哦。那就算了。\p多走走不同的道路，\n就能发现不同种类的宝可梦。\p宝可梦图鉴上也会显示\n能在哪里找到它们！\p想了解更多的话，\n就去桔梗市的学校吧！\p那里的学生懂得很多\n关于宝可梦的知识。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route29_Text_Youngster:
-	.string "Yo. How are your Pokémon?\p"
-	.string "If they're weak and not ready\n"
-	.string "for battle, keep out of the grass.$"
+	.string "哟。你的宝可梦怎么样？\p要是它们还弱，\n没准备好战斗，就别进草丛。$"
+	.string ""
+	.string ""
 
 Route29_Text_Lass:
-	.string "See those ledges?\n"
-	.string "It's scary to jump off them.\p"
-	.string "But you can go to New Bark\n"
-	.string "without walking through the grass.$"
+	.string "看见那些台阶了吗？\n从上面跳下去有点吓人。\p不过这样就能不穿过草丛，\n一路走到若叶镇。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route29_Text_Girl:
-	.string "I wanted to take a break,\n"
-	.string "so I saved to record my progress.$"
+	.string "我想休息一下，\n就保存并记录了一下进度。$"
+	.string ""
 
 Route29_Text_Boy_WaitingForDay:
-	.string "I'm waiting for Pokémon that\n"
-	.string "appear only later in the day.$"
+	.string "我在等只会在\n今天晚些时候出现的宝可梦。$"
+	.string ""
 
 Route29_Text_Boy_WaitingForNight:
-	.string "I'm waiting for Pokémon that\n"
-	.string "appear only at night.$"
+	.string "我在等只会在\n夜里出现的宝可梦。$"
+	.string ""
 
 Route29_Text_MeetTuscany:
-	.string "Tuscany: I do believe that this\n"
-	.string "is the first time we've met?\p"
-	.string "I'm Tuscany of the Weekday Family.\p"
-	.string "If you can guess my favorite day,\n"
-	.string "I'll give you a reward.$"
+	.string "星琪儿：我想，\n我们这是头一次见面吧？\p我是星期兄弟里的星琪儿。\p您要是能猜中我最喜欢的日子，\n我就送您一份谢礼。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route29_Text_TuscanyNope:
-	.string "Not quite!$"
+	.string "不对哦！$"
 
 Route29_Text_TuscanyGivesGift:
-	.string "Yes! By way of introduction,\n"
-	.string "please accept this gift, a Silk\l"
-	.string "Scarf.$"
+	.string "没错！就当是见面礼，\n请您收下这条\l丝绸围巾。$"
+	.string ""
+	.string ""
 
 Route29_Text_TuscanyGaveGift:
-	.string "Tuscany: Wouldn't you agree\n"
-	.string "that it is most adorable?\p"
-	.string "It strengthens Normal-type\n"
-	.string "moves.\p"
-	.string "I am certain it will be of use.$"
+	.string "星琪儿：您不觉得它\n非常可爱吗？\p它能增强一般属性\n招式的威力。\p我确信您一定用得上。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route29_Text_TuscanyTuesday:
-	.string "Tuscany: Have you met Monica,\n"
-	.string "my older sister?\p"
-	.string "Or my younger brother, Wesley?\p"
-	.string "I am the third of seven\n"
-	.string "children.$"
+	.string "星琪儿：您见过我姐姐\n星琪怡了吗？\p或者我弟弟星琪山？\p我是七个孩子里\n排行第三的。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route29_Text_Sign1:
-	.string "Route 29\p"
-	.string "Cherrygrove City - New Bark Town$"
+	.string "29号道路\p吉花市——若叶镇$"
+	.string ""
 
 `
 
 script Route29ExNightNpc {
-    msgbox("I'm checking my Pokégear for a map
-            to see where I am going!", MSGBOX_NPC)
+    msgbox("我正在用宝可梦装置查地图，\n看看自己该往哪儿走！", MSGBOX_NPC)
 }

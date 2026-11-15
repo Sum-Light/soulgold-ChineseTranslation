@@ -238,4 +238,4 @@ LatiTemple_SetSwitch5State_2:
 
 
 ResetLatiasPuzzle_Text_0:
-	.string "Would you like to reset the puzzle?$"
+	.string "要重置谜题吗？$"

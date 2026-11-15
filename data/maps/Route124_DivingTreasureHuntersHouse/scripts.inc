@@ -284,55 +284,55 @@ Route124_DivingTreasureHuntersHouse_EventScript_ShardTradeBoard::
 	end
 
 Route124_DivingTreasureHuntersHouse_Text_Greeting:
-	.string "I'm the Diving Treasure Hunter!\p"
-	.string "I'm the awesome dude who makes\n"
-	.string "deep-sea dives to gather treasures\l"
-	.string "resting at the bottom.$"
+	.string "我是水下宝藏寻宝者！\p专门潜到深海打捞\n沉睡在海底的宝物！$"
+	.string ""
+	.string ""
+	.string ""
 
 Route124_DivingTreasureHuntersHouse_Text_HaveYouSeenAnyShards:
-	.string "Tell me, have you seen any Shards of\n"
-	.string "tools made in ancient times?$"
+	.string "告诉我，\n你见过古代工具的碎片吗？$"
+	.string ""
 
 Route124_DivingTreasureHuntersHouse_Text_YouHaventGotAnyShards:
-	.string "You haven't got any treasures\n"
-	.string "for me…\p"
-	.string "If you see any Shards, like the Red\n"
-	.string "Shard, you've got to trade it with me!$"
+	.string "你手头没有宝物啊……\p如果你找到了碎片，比如红色碎片\n之类的，就来和我交换吧！$"
+	.string ""
+	.string ""
+	.string ""
 
 Route124_DivingTreasureHuntersHouse_Text_ThatsAShardIllTradeYou:
-	.string "Oh, hey! That…\n"
-	.string "That's a Shard! I'm looking for those!\p"
-	.string "Oh, man, you've got to trade that\n"
-	.string "with me! I'll give you something good!$"
+	.string "哦，哈！那个……\n那是碎片！我找的就是它们！\p啊，拜托，跟我交换吧！\n绝对给你好东西！$"
+	.string ""
+	.string ""
+	.string ""
 
 Route124_DivingTreasureHuntersHouse_Text_WhatDoYouWantToTrade:
-	.string "What do you want to trade?$"
+	.string "你想换什么？$"
 
 Route124_DivingTreasureHuntersHouse_Text_YoullTradeShardForStone:
-	.string "You'll trade your {STR_VAR_1} for\n"
-	.string "my {STR_VAR_2}, then?$"
+	.string "要用你的{STR_VAR_1}换\n我的{STR_VAR_2}吗？$"
+	.string ""
 
 Route124_DivingTreasureHuntersHouse_Text_ItsADeal:
-	.string "It's a done deal!\n"
-	.string "Use that wisely!$"
+	.string "成交！\n好好使用吧！$"
+	.string ""
 
 Route124_DivingTreasureHuntersHouse_Text_TradeSomethingElse:
-	.string "Do you want to trade something else?$"
+	.string "你还想换别的吗？$"
 
 Route124_DivingTreasureHuntersHouse_Text_BagFull:
-	.string "Whoops, your Bag's full.\n"
-	.string "Get rid of some items, friend!$"
+	.string "啊呀，你的包包满了，\n清理掉一些东西吧，朋友！$"
+	.string ""
 
 Route124_DivingTreasureHuntersHouse_Text_ComeBackIfYouChangeMind:
-	.string "No? That's a downer.\n"
-	.string "Well, if you change your mind, come back.$"
+	.string "不换吗？真遗憾。\n好吧，你改变主意的话再来。$"
+	.string ""
 
 Route124_DivingTreasureHuntersHouse_Text_ShardTradeBoard:
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
-	.string "{CLEAR_TO 0x0f}Red Shard{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}Fire Stone{CLEAR_TO 0xc8}\p"
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
-	.string "{CLEAR_TO 0x06}Yellow Shard{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x73}Thunderstone{CLEAR_TO 0xc8}\p"
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
-	.string "{CLEAR_TO 0x0c}Blue Shard{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x79}Water Stone{CLEAR_TO 0xc8}\p"
-	.string "{CLEAR_TO 0x0a}Wanted item{CLEAR_TO 0x7c}Trade item\n"
-	.string "{CLEAR_TO 0x08}Green Shard{CLEAR_TO 0x59}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 0x7b}Leaf Stone$"
+	.string "{CLEAR_TO 10}想要的道具{CLEAR_TO 124}交换道具\n{CLEAR_TO 15}红色碎片{CLEAR_TO 89}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 123}火之石{CLEAR_TO 200}\p{CLEAR_TO 10}想要的道具{CLEAR_TO 124}交换道具\n{CLEAR_TO 6}黄色碎片{CLEAR_TO 89}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 115}雷之石{CLEAR_TO 200}\p{CLEAR_TO 10}想要的道具{CLEAR_TO 124}交换道具\n{CLEAR_TO 12}蓝色碎片{CLEAR_TO 89}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 121}水之石{CLEAR_TO 200}\p{CLEAR_TO 10}想要的道具{CLEAR_TO 124}交换道具\n{CLEAR_TO 8}绿色碎片{CLEAR_TO 89}{LEFT_ARROW}{RIGHT_ARROW}{CLEAR_TO 123}叶之石$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""

@@ -68,115 +68,115 @@ Route35_EventScript_Sign2::
 	end
 
 Route35_Text_CamperIvanSeen:
-	.string "I've been getting Pokémon data off\n"
-	.string "my radio. I think I'm good.$"
+	.string "我一直从广播里收集\n宝可梦的数据。我挺强的。$"
+	.string ""
 
 Route35_Text_CamperIvanBeaten:
-	.string "I give!$"
+	.string "我认输！$"
 
 Route35_Text_CamperIvanAfter:
-	.string "Music on the radio changes the\n"
-	.string "moods of wild Pokémon.$"
+	.string "广播里的音乐能改变\n野生宝可梦的心情。$"
+	.string ""
 
 Route35_Text_CamperElliotSeen:
-	.string "I'm gonna show my girlfriend I'm\n"
-	.string "hot stuff!$"
+	.string "我要在女朋友面前\n好好表现一番！$"
+	.string ""
 
 Route35_Text_CamperElliotBeaten:
-	.string "I wish you would have lost for me…$"
+	.string "你要是输给我就好了……$"
 
 Route35_Text_CamperElliotAfter:
-	.string "I was humiliated in front of my\n"
-	.string "girlfriend…$"
+	.string "在女朋友面前\n丢尽了脸……$"
+	.string ""
 
 Route35_Text_PicnickerBrookeSeen:
-	.string "My boyfriend's weak, so I can't rely\n"
-	.string "on him.$"
+	.string "我男朋友太弱了，\n根本靠不住。$"
+	.string ""
 
 Route35_Text_PicnickerBrookeBeaten:
-	.string "Oh, my! You're so strong!$"
+	.string "哎呀！你好强啊！$"
 
 Route35_Text_PicnickerBrookeAfter:
-	.string "I can count on my Pokémon more than\n"
-	.string "my boyfriend.$"
+	.string "比起男朋友，\n宝可梦更靠得住。$"
+	.string ""
 
 Route35_Text_PicnickerKimSeen:
-	.string "Are you going to the Gym? Me too!$"
+	.string "你也是去道馆吗？我也是！$"
 
 Route35_Text_PicnickerKimBeaten:
-	.string "Oh. I couldn't win…$"
+	.string "唉，赢不了啊……$"
 
 Route35_Text_PicnickerKimAfter:
-	.string "The Gym Badges are pretty. I collect\n"
-	.string "them.$"
+	.string "道馆徽章很漂亮。\n我在收集它们。$"
+	.string ""
 
 Route35_Text_BirdKeeperBryanSeen:
-	.string "What kinds of Balls do you use?$"
+	.string "你平常都用哪些精灵球？$"
 
 Route35_Text_BirdKeeperBryanBeaten:
-	.string "Yikes! Not fast enough!$"
+	.string "呀！速度还不够快！$"
 
 Route35_Text_BirdKeeperBryanAfter:
-	.string "Whenever I find a Nugget, I\n"
-	.string "take it to Mart.\p"
-	.string "It's an easy way to get money.$"
+	.string "每次捡到金珠，我都\n拿去商店卖掉。\p这可是赚钱的捷径。$"
+	.string ""
+	.string ""
 
 Route35_Text_JugglerIrwinSeen:
-	.string "Behold my graceful Ball dexterity!$"
+	.string "看我这华丽的精灵球杂耍！$"
 
 Route35_Text_JugglerIrwinBeaten:
-	.string "Whew! That was a jolt!$"
+	.string "呼！被电得麻麻的！$"
 
 Route35_Text_JugglerIrwinAfter:
-	.string "I was going to dazzle you with my\n"
-	.string "prize Pokémon.\p"
-	.string "But your prowess electrified me!$"
+	.string "本来想用我引以为傲的\n宝可梦让你开开眼。\p可你的实力反倒\n把我电麻了！$"
+	.string ""
+	.string ""
 
 Route35_Text_BugCatcherArnieSeen:
-	.string "I'll go anywhere if bug Pokémon\n"
-	.string "appear there.$"
+	.string "只要有虫宝可梦，\n哪里我都去！$"
+	.string ""
 
 Route35_Text_BugCatcherArnieBeaten:
-	.string "Huh? I shouldn't have lost that…$"
+	.string "咦？那场我怎么会输……$"
 
 Route35_Text_BugCatcherArnieAfter:
-	.string "My Venonat won me the Bug-Catching\n"
-	.string "Contest at the National Park.$"
+	.string "我的毛球在自然公园的\n捕虫大赛上帮我拿过冠军。$"
+	.string ""
 
 Route35_Text_BugCatcherArnieYanma:
-	.string "Wow… Look at all those Yanma!\p"
-	.string "I'm so blown away, I can't move.$"
+	.string "哇……好多蜻蜻蜓！\p我惊呆了，动都动不了。$"
+	.string ""
 
 Route35_Text_FirebreatherWaltSeen:
-	.string "I'm practicing my fire breathing.$"
+	.string "我在练习喷火。$"
 
 Route35_Text_FirebreatherWaltBeaten:
-	.string "Ow! I scorched the tip of my nose!$"
+	.string "哇！鼻尖被烧焦了！$"
 
 Route35_Text_FirebreatherWaltAfter:
-	.string "The Pokémon March on the radio\n"
-	.string "lures wild Pokémon.$"
+	.string "广播里的宝可梦进行曲\n会引来野生宝可梦。$"
+	.string ""
 
 Route35_Text_OfficerDirkSeen:
-	.string "Danger lurks in the night!$"
+	.string "夜晚潜藏着危险！$"
 
 Route35_Text_OfficerDirkBeaten:
-	.string "Whoops!$"
+	.string "哎呀！$"
 
 Route35_Text_OfficerDirkAfter:
-	.string "You know, nighttime is fun in its\n"
-	.string "own ways.\p"
-	.string "But don't overdo it, Ok?$"
+	.string "夜晚也有夜晚的乐趣。\p不过可别玩过头了，好吗？$"
+	.string ""
+	.string ""
 
 Route35_Text_OfficerDirkTough:
-	.string "Your Pokémon look pretty tough.\p"
-	.string "You could go anywhere safely.$"
+	.string "你的宝可梦看起来很强。\p去哪里都能平安无事。$"
+	.string ""
 
 Route35_Text_Sign:
-	.string "Route 35$"
+	.string "35号道路$"
 
 Route35_Text_Sign2:
-	.string "National Park Gate$"
+	.string "自然公园大门$"
 
 Route35_HiddenGrotto::
 	msgbox Route35_HiddenGrotto_Text_0, MSGBOX_YESNO
@@ -193,5 +193,4 @@ Route35_HiddenGrotto_2:
 
 
 Route35_HiddenGrotto_Text_0:
-	.string "There seems to be a path behind the\n"
-	.string "trees. Enter?$"
+	.string "树丛后面好像有一条路。\n要进去吗？$"

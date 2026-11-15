@@ -10,13 +10,13 @@ PewterCity_Mart_EventScript_Nerd::
 	end
 
 PewterCity_Mart_Text_Youngster:
-	.string "Hi! Check out my Gyarados!\p"
-	.string "I raised it from a Magikarp. I can't\n"
-	.string "believe how strong it has become.$"
+	.string "嗨！看看我的暴鲤龙！\p它是从鲤鱼王养起来的。真不敢\n相信它变得这么强了。$"
+	.string ""
+	.string ""
 
 PewterCity_Mart_Text_SuperNerd:
-	.string "There once was a weird old man who sold\n"
-	.string "Magikarp.\p"
-	.string "He was saying the Magikarp from the\n"
-	.string "Lake Of Rage were excellent.$"
+	.string "从前有个怪老头在卖鲤鱼王。\p他说愤怒之湖的鲤鱼王\n品质特别好。$"
+	.string ""
+	.string ""
+	.string ""
 

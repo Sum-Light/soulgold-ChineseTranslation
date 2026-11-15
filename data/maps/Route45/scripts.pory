@@ -47,127 +47,126 @@ Route45_EventScript_Sign::
 	end
 
 Route45_Text_HikerErikSeen:
-    .string "Be prepared for anything!\p"
-    .string "Let me see if your Pokémon have\n"
-    .string "been raised properly!$"
+    .string "有备无患！\p让我看看你的宝可梦\n有没有好好锻炼吧！$"
+    .string ""
+    .string ""
 
 Route45_Text_HikerErikBeaten:
-    .string "Oh, I lost that!$"
+    .string "哎呀，我输了！$"
 
 Route45_Text_HikerErikAfter:
-    .string "I'll head back to Blackthorn's\n"
-    .string "Ice Path and train some more.$"
+    .string "我回烟墨市的\n冰雪小径再多练练。$"
+    .string ""
 
 Route45_Text_HikerMichaelSeen:
-    .string "Yo! You're spunky! But you know\n"
-    .string "what?\p"
-    .string "When it comes to sheer\n"
-    .string "spunkiness, I'm the man!$"
+    .string "哟！你挺有冲劲！不过啊，\p要说冲劲，\n我可是不输任何人的！$"
+    .string ""
+    .string ""
+    .string ""
 
 Route45_Text_HikerMichaelBeaten:
-    .string "My Pokémon weren't spunky enough!$"
+    .string "我的宝可梦冲劲不够啊！$"
 
 Route45_Text_HikerMichaelAfter:
-    .string "Boy, do I love Hp Up! Mmmm, yum!\p"
-    .string "I keep drinking my Pokémon's!\p"
-    .string "I can't help it!$"
+    .string "我太爱HP增强剂了！\p嗯，真好喝！\p忍不住连我的宝可梦\n那份也喝掉了！$"
+    .string ""
+    .string ""
 
 Route45_Text_HikerParrySeen:
-    .string "My Pokémon are power packed!$"
+    .string "我的宝可梦\n可是力量满满的！$"
 
 Route45_Text_HikerParryBeaten:
-    .string "Wahahah! I'm the big loser!$"
+    .string "哇哈哈！我是输了！$"
 
 Route45_Text_HikerParryAfter:
-    .string "I'm not much good at thinking,\n"
-    .string "see?\p"
-    .string "So, I just plow ahead with power!$"
+    .string "我这人不擅长动脑子，\p所以就只管用力量\n一个劲往前冲！$"
+    .string ""
+    .string ""
 
 
 Route45_Text_HikerTimothySeen:
-    .string "Why do I climb mountains?\p"
-    .string "Because they're there.\p"
-    .string "Why do I train Pokémon?\p"
-    .string "Because they're there!$"
+    .string "为什么我要爬山？\p因为山就在那里。\p为什么我要训练宝可梦？\p因为宝可梦就在那里！$"
+    .string ""
+    .string ""
+    .string ""
 
 Route45_Text_HikerTimothyBeaten:
-    .string "Losses… They're there too!$"
+    .string "失败……也就在那里！$"
 
 Route45_Text_HikerTimothyAfter:
-    .string "The best thing to ever happen to\n"
-    .string "me was discovering Pokémon.$"
+    .string "我人生中最好的事，\n就是遇见了宝可梦。$"
+    .string ""
 
 Route45_Text_HikerParryGivesIron:
-    .string "I just can't find a way to win!\p"
-    .string "Keep it up!\p"
-    .string "Oh, and take this -- it's the\n"
-    .string "gift you couldn't take when we\n"
-    .string "last met.$"
+    .string "赢不了的感觉真难受！\p继续加油吧！\p对了，这个给你——\n上次见面时\n没能交给你的礼物。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 Route45_Text_BlackbeltKenjiSeen:
-    .string "I was training here alone.\p"
-    .string "Behold the fruits of my labor!$"
+    .string "我一直一个人\n在这里修行。\p让你见识我的修行成果吧！$"
+    .string ""
 
 Route45_Text_BlackbeltKenjiBeaten:
-    .string "Waaaargh!$"
+    .string "哇啊啊啊！$"
 
 Route45_Text_BlackbeltKenjiAfter:
-    .string "This calls for extreme measures.\p"
-    .string "I must take to the hills and train\n"
-    .string "in solitude.$"
+    .string "看来得下猛药了。\p我得进山\n独自修行去。$"
+    .string ""
+    .string ""
 
 Route45_Text_BlackbeltKenjiMorning:
-    .string "I'm going to train a bit more\n"
-    .string "before I break for lunch.$"
+    .string "午饭前再\n多练一会儿。$"
+    .string ""
 
 Route45_Text_BlackbeltKenjiNight:
-    .string "We had plenty of rest at lunch, so\p"
-    .string "now we're all ready to go again!\p"
-    .string "We're going to train again!$"
+    .string "午饭时休息够了，\p现在我们全都\n准备好再战了！\p我们要继续修行！$"
+    .string ""
+    .string ""
 
 Route45_Text_CooltrainermRyanSeen:
-    .string "What are your thoughts on\n"
-    .string "raising Pokémon?$"
+    .string "你是怀着什么样的想法\n培育宝可梦的？$"
+    .string ""
 
 Route45_Text_CooltrainermRyanBeaten:
-    .string "You've won my respect.$"
+    .string "你赢得了我的敬意。$"
 
 Route45_Text_CooltrainermRyanAfter:
-    .string "I see you're raising your Pokémon\n"
-    .string "with care.\p"
-    .string "The bond you build will save you\n"
-    .string "in tough situations.$"
+    .string "我看得出你培育宝可梦\n很用心。\p你们建立的羁绊，\n在困境中会救你一命。$"
+    .string ""
+    .string ""
+    .string ""
 
 Route45_Text_CooltrainerfKellySeen:
-    .string "What is your battle strategy?\p"
-    .string "It is foolish to use strong moves\n"
-    .string "indiscriminately.$"
+    .string "你的对战策略是什么？\p不分场合乱用强招，\n可是很愚蠢的。$"
+    .string ""
+    .string ""
 
 Route45_Text_CooltrainerfKellyBeaten:
-    .string "Fine. I lost.$"
+    .string "好吧。我输了。$"
 
 Route45_Text_CooltrainerfKellyAfter:
-    .string "I'm not in favor of overly\n"
-    .string "powerful moves.\p"
-    .string "I want to win, but I also don't\n"
-    .string "want to harm Pokémon.$"
+    .string "我不喜欢威力过大的招式。\p我想赢，但也不想\n伤害宝可梦。$"
+    .string ""
+    .string ""
+    .string ""
 
 Route45_Text_CamperQuentinSeen:
-    .string "I'm really, really tough!$"
+    .string "我可是真的很强哦！$"
 
 Route45_Text_CamperQuentinBeaten:
-    .string "I was tough at the Battle Tower…$"
+    .string "我在对战塔里\n可是很强的……$"
 
 Route45_Text_CamperQuentinAfter:
-    .string "Have you been to the Battle Tower?\p"
-    .string "I never, ever lose there, but…$"
+    .string "你去过对战塔吗？\p我在那里从来没输过，可是……$"
+    .string ""
 
 Route45_Text_Sign:
-    .string "Route 45\n"
-    .string "Mountain Rd. Ahead$"
+    .string "45号道路\n前方为山路$"
+    .string ""
 `
 
 script R45KitakamiBorderSign {
-    msgbox("{RIGHT_ARROW} Road to Kitakami
-            {DOWN_ARROW} Route 46", MSGBOX_SIGN)
+    msgbox("{RIGHT_ARROW}通往北上乡的道路\n{DOWN_ARROW}46号道路", MSGBOX_SIGN)
 }

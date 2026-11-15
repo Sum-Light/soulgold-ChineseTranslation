@@ -200,11 +200,11 @@ static const struct WindowTemplate sWindowTemplate_PyramidPeak = {
     .baseBlock = 0x8
 };
 
-static const u8 sText_MenuDebug[] = _("Debug");
-static const u8 sText_MenuPokegear[] = _("Pokégear");
-static const u8 sText_MenuDocs[] = _("Docs");
+static const u8 sText_MenuDebug[] = _("调试");
+static const u8 sText_MenuPokegear[] = _("宝可装置");
+static const u8 sText_MenuDocs[] = _("资料");
 
-static const u8 sText_NewMenu[] = _("My Menu");
+static const u8 sText_NewMenu[] = _("我的菜单");
 static const struct MenuAction sStartMenuItems[] =
 {
     [MENU_ACTION_POKEDEX]         = {gText_MenuPokedex, {.u8_void = StartMenuPokedexCallback}},

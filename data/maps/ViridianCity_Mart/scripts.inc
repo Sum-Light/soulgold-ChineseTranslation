@@ -10,9 +10,9 @@ ViridianCity_Mart_EventScript_Cooltrainer::
 	end
 
 ViridianMart_Text_Lass:
-	.string "The Gym Leader here is totally cool.$"
+	.string "这里的道馆馆主\n超级酷。$"
 
 ViridianMart_Text_CooltrainerM:
-	.string "Have you been to Cinnabar?\p"
-	.string "It's an island way south of here.$"
+	.string "您去过红莲吗？\p那是这南边很远的一座岛。$"
+	.string ""
 

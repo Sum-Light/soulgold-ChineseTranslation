@@ -30,24 +30,16 @@ SlowpokeTrade_NotRequested::
 
 
 Azalea_SlowpokeTrade_Text_0:
-# 7 "data/maps/AzaleaTown_House2/scripts.pory"
-	.string "Have you been amassing more slowpoke?$"
+	.string "你又攒了更多呆呆兽吗？$"
 
 Azalea_SlowpokeTrade_Text_1:
-# 9 "data/maps/AzaleaTown_House2/scripts.pory"
-	.string "I love Slowpoke! They are adorable,\n"
-	.string "cuddly, cute, sweet, amazing and\l"
-	.string "awesome! How about I prove it to you?\l"
-	.string "I'll give you one of my finest slowpoke\l"
-	.string "if you give me one of yours.$"
+	.string "我最喜欢呆呆兽了！\n它们又可爱又软乎乎，\l又萌又甜，了不起又超级棒！\l要不要我证明给你看？\l只要你给我一只你的呆呆兽，\l我就把我最棒的呆呆兽送给你。$"
 
 Azalea_SlowpokeTrade_Text_2:
-	.string "Another one joins the cult of slowpoke.$"
+	.string "呆呆兽教又多了一位信徒。$"
 
 SlowpokeTrade_Declined_Text_0:
-	.string "Huh? Don't you understand how amazing\n"
-	.string "slowpoke are?!?$"
+	.string "咦？你难道不明白\n呆呆兽有多棒吗？！$"
 
 SlowpokeTrade_NotRequested_Text_0:
-	.string "Hey! That's not a real slowpoke! Are you\n"
-	.string "trying to offer me an inferior Pokémon?$"
+	.string "喂！这可不是真正的呆呆兽！\n你是想拿差劲的宝可梦\l来糊弄我吗？$"

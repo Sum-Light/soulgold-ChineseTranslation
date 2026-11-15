@@ -59,41 +59,41 @@ FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale::
 	end
 
 FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor:
-	.string "I'm the Move Tutor.\p"
-	.string "I know all the moves that Pokémon\n"
-	.string "learn--every one of them--and I can\l"
-	.string "teach Pokémon those moves.\p"
-	.string "I can teach a move to a Pokémon\n"
-	.string "of yours if you'd like.\p"
-	.string "I'll do it for a Heart Scale.\n"
-	.string "I'm collecting those now.$"
+	.string "大家都叫我\n宝可梦招式爱好者！\p宝可梦成长过程中能学会的\n所有招式我都一清二楚。\p我知道的那些招式\n甚至可以教给宝可梦！\p如果你给我心之鳞片，\n我就把知道的招式教给你的宝可梦！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
-	.string "Oh! That's it! That's an honest to\n"
-	.string "goodness Heart Scale!\p"
-	.string "Let me guess, you want me to teach\n"
-	.string "a move?$"
+	.string "哇哦！\n这是心之鳞片！\p要把招式教给你的宝可梦吗？$"
+	.string ""
+	.string ""
+	.string ""
 
 FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon:
-	.string "Which Pokémon needs tutoring?$"
+	.string "要选择哪只宝可梦？$"
 
 FallarborTown_MoveRelearnersHouse_Text_TeachWhichMove:
-	.string "Which move should I teach?$"
+	.string "要学习哪个招式？$"
 
 FallarborTown_MoveRelearnersHouse_Text_DontHaveMoveToTeachPokemon:
-	.string "Sorry…\p"
-	.string "It doesn't appear as if I have any move\n"
-	.string "I can teach that Pokémon.$"
+	.string "抱歉……\p看来我没有招式能\n教给这只宝可梦。$"
+	.string ""
+	.string ""
 
 FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale:
-	.string "{PLAYER} handed over one Heart Scale\n"
-	.string "in exchange.$"
+	.string "{PLAYER}将1个心之鳞片\n作为谢礼送给了对方！$"
+	.string ""
 
 FallarborTown_MoveRelearnersHouse_Text_ComeBackWithHeartScale:
-	.string "If your Pokémon need to learn a move,\n"
-	.string "come back with a Heart Scale.$"
+	.string "如果有想让宝可梦学习的招式，\n就把心之鳞片带过来吧！$"
+	.string ""
 
 FallarborTown_MoveRelearnersHouse_Text_CantTeachEgg:
-	.string "Hunh? There isn't a single move that\n"
-	.string "I can teach an Egg.$"
+	.string "嗯……\p蛋应该没法学习招式吧？$"
+	.string ""
 

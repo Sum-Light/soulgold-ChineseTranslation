@@ -30,14 +30,10 @@ EcruteakCity_House3_Lampent::
 
 
 EcruteakCity_House3_HexLady_Text_0:
-	.string "Hex... Doubles in power...\n"
-	.string "Against those affected by status\l"
-	.string "conditions...$"
+	.string "祸不单行……威力会翻倍……\n命中陷入异常状态的\l对手时……$"
 
 EcruteakCity_House3_HexLady_Text_1:
-	.string "Attacking when the enemy is afflicted...\n"
-	.string "The key strategy to winning a battle...\p"
-	.string "Here... Take it...$"
+	.string "趁对手陷入异常状态时攻击……\n这是赢得对战的关键……\p来……拿去吧……$"
 
 EcruteakCity_House3_Lampent_Text_0:
-	.string "Lampent: Lamppp!$"
+	.string "灯火幽灵：啦唔！$"

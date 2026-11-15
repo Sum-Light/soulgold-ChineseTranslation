@@ -4,23 +4,18 @@ Gate_Route40_TrainerHill_Courtyard_MapScripts::
 `
 
 script BattleTowerGuard {
-    msgbox("Ahead is the Battle Tower, where strong
-            trainers gather.", MSGBOX_NPC)
+    msgbox("前面是对战塔，\n强大的训练家都聚集在那里。", MSGBOX_NPC)
 }
 
 script BattleTowerTunnelFrustrationNPC {
     lock
     faceplayer
     if (flag(FLAG_GOT_FRUSTRATION) == FALSE) {
-        msgbox("I lost on first round of the Battle
-            Tower, I need to release my frustration
-            by giving you this.")
+        msgbox("我在对战塔第一轮就输了，\n得把郁闷发泄出来，这个给你。")
         giveitem(ITEM_TM_FRUSTRATION)
         setflag(FLAG_GOT_FRUSTRATION)
     }
-    msgbox("Frustration deals more damage the less
-            your Pokémon likes you. It can happen
-            if you keep losing battles like me!")
+    msgbox("迁怒的威力，会随宝可梦\n对你的好感降低而提高。\l老像我这样输，\l就会变成这样！")
     release
     end
 }

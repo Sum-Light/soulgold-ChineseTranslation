@@ -38,24 +38,24 @@ IndigoPlateau_EventScript_ShigyNinja::
 	end
 
 IndigoPlateau_Text_ShigyNinja:
-	.string "Congrats on making it here!\p"
-	.string "I've seen tons of trainers come\n"
-	.string "through here over the years, and\l"
-	.string "all of them are wonderfully unique.\p"
-	.string "You should be proud of yourself\n"
-	.string "for getting this far!\p"
-	.string "Now, go get em'!$"
+	.string "恭喜你来到了这里！\p这些年来，我见过无数训练家\n从这里经过，\l他们个个都独具个性。\p能走到这一步，\n你应该为自己骄傲！\p那么，去大干一场吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 IndigoPlateau_Text_Blackbelt:
-	.string "The Pokémon League is not taking\n"
-	.string "new challengers at the moment.\p"
-	.string "Please check back later.$"
+	.string "宝可梦联盟目前\n不接受新的挑战者。\p请您稍后再来。$"
+	.string ""
+	.string ""
 
 IndigoPlateau_Text_CooltrainerM:
-    .string "At the Pokémon League, you'll get\n"
-    .string "tested by the Elite Four.\p"
-    .string "You have to beat them all. If you\n"
-    .string "lose, you have to start all over!$"
+    .string "在宝可梦联盟，你将\n接受四天王的考验。\p必须把他们全部打败。\n一旦输了，就得从头再来！$"
+    .string ""
+    .string ""
+    .string ""
 
 IndigoPlateau_EventScript_Silver::
 	lock
@@ -89,48 +89,48 @@ IndigoPlateau_Silver_Battle_Chikorita::
 	return
 
 IndigoPlateau_Text_RivalEntrance1:
-    .string "Hold it.\p"
-    .string "You're going to take the Pokémon\n"
-    .string "League challenge now?\p"
-    .string "That's not going to happen.\p"
-    .string "My super-well-trained Pokémon\n"
-    .string "are going to pound you.\p"
-    .string "{PLAYER}!\n"
-    .string "I challenge you!$"
+    .string "站住。\p你现在就要去挑战\n宝可梦联盟了吗？\p休想。\p我那训练有素的宝可梦\n会把你打得落花流水。\p{PLAYER}！\n我要向你挑战！$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 IndigoPlateau_Text_RivalWin:
-    .string "…\p"
-    .string "Ok--I lost…$"
+    .string "……\p好吧……我输了……$"
+    .string ""
 
 IndigoPlateau_Text_RivalAfter:
-    .string "…Darn… I still can't win…\p"
-    .string "I… I have to think more about my\n"
-    .string "Pokémon…\p"
-    .string "Humph! Try not to lose!$"
+    .string "……可恶……我还是赢不了……\p我……我得重新想想\n我的宝可梦……\p哼！你可别输了！$"
+    .string ""
+    .string ""
+    .string ""
 
 IndigoPlateau_Text_TeleportGuy1:
-    .string "Ah! You're challenging the Elite\n"
-    .string "Four? Are you sure you're ready?\p"
-    .string "If you need to train some more,\n"
-    .string "my Abra can help you.\p"
-    .string "It can Teleport you home.\p"
-    .string "Would you like to go home now?$"
+    .string "啊！你要挑战四天王吗？\n你确定准备好了吗？\p要是还想再修行一阵，\n我的凯西可以帮你。\p它能用瞬间移动送你回家。\p现在就想回家吗？$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 IndigoPlateau_Text_TeleportGuyYes:
-    .string "Ok, Ok. Picture your house in your\n"
-    .string "mind…$"
+    .string "好，好。在脑海中\n想象一下你家的样子……$"
+    .string ""
 
 IndigoPlateau_Text_TeleportGuyNo:
-    .string "Ok, Ok. The best of luck to you!$"
+    .string "好，好。祝你好运！$"
 
 IndigoPlateau_Text_Abra:
-    .string "Abra: Aabra…$"
+    .string "凯西：凯……西……$"
 `
 
 script IndigoPlateau_StoneMerchant {
     lock
     faceplayer
-    message("Welcome! How may I help you?")
+    message("欢迎光临！有什么可以帮您的吗？")
     waitmessage
     if (flag(FLAG_GOT_ADAMANT_ORB) && flag(FLAG_GOT_LUSTROUS_ORB) && flag(FLAG_GOT_GRISEOUS_ORB)) {
         if (flag(FLAG_ONETIME_GROUDON) && flag(FLAG_ONETIME_KYOGRE)) {
@@ -145,7 +145,7 @@ script IndigoPlateau_StoneMerchant {
             pokemart(IndigoPlateau_StoneMerchantMart)
         }
     }
-    msgbox("Come back soon!")
+    msgbox("欢迎再来！")
     release
     end
 }
@@ -153,10 +153,10 @@ script IndigoPlateau_StoneMerchant {
 script IndigoPlateau_GemMerchant {
     lock
     faceplayer
-    message("Welcome! How may I help you?")
+    message("欢迎光临！有什么可以帮您的吗？")
     waitmessage
     pokemart(IndigoPlateau_GemMerchantMart)
-    msgbox("Come back soon!")
+    msgbox("欢迎再来！")
     release
     end
 }

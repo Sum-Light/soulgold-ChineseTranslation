@@ -32,34 +32,34 @@ CeruleanCity_EventScript_Guard::
 	end
 
 CeruleanCity_Text_ThisIsCeruleanCave::
-    .string "This is Cerulean Cave.\p"
-    .string "Horribly strong Pokémon live inside\n"
-    .string "there.\p"
-    .string "It takes a very special Trainer to\n"
-    .string "be allowed inside there.\p"
-    .string "You'd have to be strong enough to\n"
-    .string "become the Kanto Pokémon League\l"
-    .string "Champion for starters.\p"
-    .string "And, you would have to have\n"
-    .string "made a great achievement.$"
+    .string "这里是无名洞窟。\p里面住着强得可怕的\n宝可梦。\p只有特别受认可的\n训练家才能进去。\p首先，你得有实力成为\n关都宝可梦联盟的\l冠军。\p而且，你还必须\n立下过伟大的功绩。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 CeruleanCity_Text_CooltrainerM1:
-	.string "Kanto's Power Plant?\p"
-	.string "It's near the end of Route 9, the\n"
-	.string "road that heads east from here.\p"
-	.string "I think there was an accident of\n"
-	.string "some sort there.$"
+	.string "关都的无人发电厂？\p它就在从这里往东的\n9号道路尽头附近。\p我记得那里好像\n出过什么事故。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CeruleanCity_Text_CooltrainerM2:
-	.string "You're collecting every single\n"
-	.string "kind of Pokémon?\p"
-	.string "That must be quite a challenge,\n"
-	.string "but it sounds fun too.$"
+	.string "你在收集所有种类的\n宝可梦吗？\p这肯定相当不容易，\n不过听着也很有趣。$"
+	.string ""
+	.string ""
+	.string ""
 
 CeruleanCity_Text_SuperNerd:
-	.string "The Cape in the north is a good\n"
-	.string "place for dates.\p"
-	.string "Girls like it!$"
+	.string "北边的海角是个\n约会的好地方。\p女孩子都很喜欢那里！$"
+	.string ""
+	.string ""
 
 CeruleanCity_EventScript_Slowbro::
 	lock
@@ -72,7 +72,7 @@ CeruleanCity_EventScript_Slowbro::
 	end
 
 CeruleanCity_Text_Slowbro:
-	.string "Slowbro: Yarah?$"
+	.string "呆壳兽：呀哈？$"
 
 CeruleanCity_EventScript_SlowbroWoman::
 	msgbox CeruleanCity_Text_CooltrainerF1, MSGBOX_NPC
@@ -91,11 +91,11 @@ CeruleanCity_EventScript_SlowbroWoman::
 	end
 
 CeruleanCity_Text_CooltrainerF1:
-	.string "My Slowbro and I make an awesome\n"
-	.string "combination!$"
+	.string "我和呆壳兽的组合\n超厉害的！$"
+	.string ""
 
 CeruleanCity_Text_CooltrainerF2:
-	.string "Slowbro, show me your Confusion!$"
+	.string "呆壳兽，使出念力！$"
 
 CeruleanCity_Text_CooltrainerF3:
 	.string "…$"
@@ -110,24 +110,24 @@ CeruleanCity_EventScript_FisherDuringRocket::
 	end
 
 CeruleanCity_Text_Fisher:
-	.string "I'm a huge fan of Cerulean Gym's\n"
-	.string "Misty.$"
+	.string "我是华蓝道馆小霞的\n超级粉丝！$"
+	.string ""
 
 CeruleanCity_Text_Fisher_RocketTip:
-	.string "I saw this shady guy go off toward\n"
-	.string "Cerulean's Cape.$"
+	.string "我看见一个可疑的家伙\n往华蓝海角去了。$"
+	.string ""
 
 CeruleanCity_EventScript_Youngster::
 	msgbox CeruleanCity_Text_Youngster1, MSGBOX_NPC
 	end
 
 CeruleanCity_Text_Youngster1:
-	.string "The cave north of town has\n"
-	.string "horribly powerful Pokémon in it.$"
+	.string "城镇北边的洞窟里，\n住着强得可怕的宝可梦。$"
+	.string ""
 
 CeruleanCity_Text_Youngster2:
-	.string "Ayuh?\p"
-	.string "My Itemfinder is responding…$"
+	.string "嗯？\p我的探宝器有反应了……$"
+	.string ""
 
 CeruleanCity_EventScript_Sign::
 	msgbox CeruleanCity_Text_Sign, MSGBOX_SIGN
@@ -150,31 +150,31 @@ CeruleanCity_EventScript_CapeSign::
 	end
 
 CeruleanCity_Text_Sign:
-	.string "Cerulean City\p"
-	.string "A Mysterious Blue Aura Surrounds It$"
+	.string "华蓝市\p笼罩着神秘的蓝色气息$"
+	.string ""
 
 CeruleanCity_Text_GymSign:
-	.string "Cerulean City\n"
-	.string "Pokémon Gym\n"
-	.string "Leader: Misty\p"
-	.string "The Tomboyish Mermaid$"
+	.string "华蓝市宝可梦道馆\n馆主：小霞\p俏皮的美人鱼$"
+	.string ""
+	.string ""
+	.string ""
 
 CeruleanCity_Text_BikeShopSign:
-	.string "There's a notice here…\p"
-	.string "The Bike Shop has moved to\n"
-	.string "Goldenrod City in Johto…$"
+	.string "这里贴着一张告示……\p自行车店已经搬到\n城都地区的满金市了……$"
+	.string ""
+	.string ""
 
 CeruleanCity_Text_PoliceSign:
-	.string "There's a notice here…\p"
-	.string "Stamp out thievery and make the\n"
-	.string "city a friendlier, more cheerful\l"
-	.string "place!\p"
-	.string "Cerulean Police$"
+	.string "这里贴着一张告示……\p杜绝盗窃，打造\n更友善、更欢乐的\l城市！\p华蓝警察$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CeruleanCity_Text_CapeSign:
-	.string "Cerulean Cape\n"
-	.string "Ahead$"
+	.string "华蓝海角\n前方$"
+	.string ""
 
 CeruleanCity_Text_LockedDoor:
-	.string "It's locked…$"
+	.string "锁着呢……$"
 

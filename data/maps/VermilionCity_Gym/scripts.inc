@@ -286,140 +286,140 @@ VermilionCity_Gym_EventScript_Surge_Defeated::
 	end
 
 VermilionGym_Text_LtSurgeIntro:
-	.string "Surge: Hey, you little tyke!\p"
-	.string "I have to hand it to you.\n"
-	.string "It may not be very smart to\l"
-	.string "challenge me, but it takes guts!\p"
-	.string "When it comes to electric\n"
-	.string "Pokémon, I'm number one!\p"
-	.string "I've never lost on the\n"
-	.string "battlefield.\p"
-	.string "I'll zap you just like I did my\n"
-	.string "enemies in war!$"
+	.string "马志士：嘿，你这小不点！\p我得承认你很有种。\n向我挑战也许不明智，\l但勇气可嘉！\p说到电属性的宝可梦，\n我可是天下第一！\p我在战场上\n从没输过。\p我会像在战争中对付敌人\n那样把你电焦！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 VermilionGym_Text_LtSurgeWinLoss:
-	.string "Surge: Arrrgh! You are strong!\p"
-	.string "Ok, kid. You get Thunderbadge!$"
+	.string "马志士：可恶！你很强！\p好吧，小家伙。橙色徽章给你！$"
+	.string ""
 
 VermilionGym_Text_ReceivedThunderBadge:
-	.string "{PLAYER} received Thunderbadge.$"
+	.string "{PLAYER}得到了橙色徽章。$"
 
 VermilionGym_Text_ThunderBadgeInfo:
-	.string "Surge: Thunderbadge increases\n"
-	.string "Pokémon's speed.\p"
-	.string "Consider it proof that you\n"
-	.string "defeated me.\p"
-	.string "You wear it proudly, hear?$"
+	.string "马志士：橙色徽章能提升\n宝可梦的速度。\p就把它当作你打败了\n我的证明吧。\p要骄傲地戴着它，听到了吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 VermilionGym_Text_LtSurgeTm:
-	.string "And take this TM. It served me\n"
-	.string "well in the war!$"
+	.string "这个招式学习器也拿去。它在\n战争中帮了我大忙！$"
+	.string ""
 
 VermilionGym_Text_LtSurgeThunderstone:
-	.string "And take this stone. It has real\n"
-	.string "thunder power!$"
+	.string "这块石头也拿去。它蕴含着\n真正的雷电之力！$"
+	.string ""
 
 
 VermilionGym_Text_LtSurgePostBattle:
-	.string "Surge: Hey, kid! Still slugging\n"
-	.string "and chugging away?\p"
-	.string "My Pokémon and I are still at it!$"
+	.string "马志士：嘿，小家伙！还在\n拼命努力吗？\p我和我的宝可梦也还在\n继续拼搏！$"
+	.string ""
+	.string ""
 
 VermilionGym_Text_SurgeRematch:
-	.string "Surge: So, you're now Kanto\n"
-	.string "Champion!\p"
-	.string "Impressive work, kid!\n"
-	.string "But don't think I'm done!\p"
-	.string "How about we have a go again?$"
+	.string "马志士：这么说，你现在是\n关都冠军了！\p干得漂亮，小家伙！\n但别以为我就到此为止了！\p再来一决胜负怎么样？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 VermilionGym_Text_SurgeRematchDefeat:
-	.string "Surge: Arrrgh! You're still just\n"
-	.string "as strong!$"
+	.string "马志士：可恶！你还是\n这么强！$"
+	.string ""
 
 VermilionGym_Text_GentlemanGregorySeen:
-	.string "You're here to defeat Lt.Surge?\p"
-	.string "Not if I can help it!$"
+	.string "你是来打倒马志士的？\p只要我还拦得住，\n你就别想得逞！$"
+	.string ""
 
 VermilionGym_Text_GentlemanGregoryBeaten:
-	.string "Sorry I failed you,\n"
-	.string "Lt.Surge, sir!$"
+	.string "对不起，我辜负了您，\n马志士先生！$"
+	.string ""
 
 VermilionGym_Text_GentlemanGregoryAfter:
-	.string "When I was still in the army,\n"
-	.string "Lt.Surge saved my life.$"
+	.string "我还在军队的时候，\n马志士救过我的命。$"
+	.string ""
 
 VermilionGym_Text_GuitaristVincentSeen:
-	.string "Lt.Surge recognized my potential\n"
-	.string "with electric Pokémon.\p"
-	.string "Think you can beat me?$"
+	.string "马志士认可了我\n使用电属性宝可梦的潜力。\p你觉得你能打赢我吗？$"
+	.string ""
+	.string ""
 
 VermilionGym_Text_GuitaristVincentBeaten:
-	.string "Ooh, how shocking!$"
+	.string "哎哟，真是电得人发麻！$"
 
 VermilionGym_Text_GuitaristVincentAfter:
-	.string "If the Gym's traps were working,\n"
-	.string "you would have been toast…$"
+	.string "要是道馆的机关还在运作，\n你早就完蛋了……$"
+	.string ""
 
 VermilionGym_Text_JugglerHortonSeen:
-	.string "I'm going to take you down!\n"
-	.string "Prepare to be shocked!$"
+	.string "我要把你打倒！\n做好被电的准备吧！$"
+	.string ""
 
 VermilionGym_Text_JugglerHortonBeaten:
-	.string "Gwaaah! I was overpowered…$"
+	.string "呜哇啊！我被打得毫无还手之力……$"
 
 VermilionGym_Text_JugglerHortonAfter:
-	.string "Don't get too comfortable about\n"
-	.string "beating me…\p"
-	.string "Lt.Surge is tough.$"
+	.string "别因为赢了我\n就得意忘形……\p马志士可是很厉害的。$"
+	.string ""
+	.string ""
 
 VermilionCity_Gym_Text_GymGuyAdvice::
-    .string "Yo!\n"
-    .string "Champ in the making!\p"
-    .string "Lt. Surge has a nickname.\p"
-    .string "People refer to him as the\n"
-    .string "Lightning American!\p"
-    .string "He's an expert on electric\n"
-    .string "Pokémon.\p"
-    .string "Flying/Water-type Pokémon match\n"
-    .string "poorly against the Electric type.\p"
-    .string "Beware of paralysis, too.\p"
-    .string "Lt. Surge is very cautious.\p"
-    .string "He's locked himself in, so it won't\n"
-    .string "be easy getting to him.$"
+    .string "哟！\n未来的冠军！\p马志士有个绰号。\p大家都叫他\n“闪电美国人”！\p他是电属性宝可梦的\n专家。\p飞行属性和水属性的宝可梦\n打电属性很吃亏。\p还要小心麻痹。\p马志士非常谨慎。\p他把自己锁在里面，想接近他\n可不容易。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 VermilionCity_Gym_Text_GymGuyPostVictory::
-	.string "Whew! That was an electrifying\n"
-	.string "bout!\p"
-	.string "It sure made me nervous.$"
+	.string "呼！真是场\n电光四射的对战！\p看得我紧张死了。$"
+	.string ""
+	.string ""
 
 VermilionCity_Gym_Text_GymStatue::
-    .string "Vermilion Pokémon Gym\n"
-    .string "Leader: Lt. Surge\p"
-	.string "Winning Trainers:\n"
-	.string "Blue, Red$"
+    .string "枯叶宝可梦道馆\n馆主：马志士\p优胜训练家：\n青绿、赤红$"
+    .string ""
+	.string ""
+	.string ""
 
 
 VermilionCity_Gym_Text_GymStatuePlayerWon::
-    .string "Vermilion Pokémon Gym\n"
-    .string "Leader: Lt. Surge\p"
-    .string "Winning Trainers:\n"
-    .string "Blue, Red, {PLAYER}$"
+    .string "枯叶宝可梦道馆\n馆主：马志士\p优胜训练家：\n青绿、赤红、{PLAYER}$"
+    .string ""
+    .string ""
+    .string ""
 
 VermilionCity_Gym_Text_NopeOnlyTrashHere::
-    .string "Nope!\n"
-    .string "There's only trash here.$"
+    .string "不对！\n这里只有垃圾。$"
+    .string ""
 
 VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened::
-    .string "Hey! There's a switch under the\n"
-    .string "trash! Turn it on!\p"
-    .string "The first electric lock opened!$"
+    .string "嘿！垃圾下面有个\n开关！打开它！\p第一道电子锁打开了！$"
+    .string ""
+    .string ""
 
 VermilionCity_Gym_Text_SecondLockOpened::
-    .string "The second electric lock opened!\n"
-    .string "The motorized door opened!$"
+    .string "第二道电子锁打开了！\n电动门打开了！$"
+    .string ""
 
 VermilionCity_Gym_Text_OnlyTrashLocksWereReset::
-    .string "Nope!\n"
-    .string "There's only trash here.\p"
-    .string "Hey!\n"
-    .string "The electric locks were reset!$"
+    .string "不对！\n这里只有垃圾。\p嘿！\n电子锁被重置了！$"
+    .string ""
+    .string ""
+    .string ""

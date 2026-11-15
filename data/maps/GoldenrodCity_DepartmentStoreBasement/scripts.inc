@@ -174,27 +174,27 @@ GoldenrodCity_DepartmentStoreBasement_Movement_Boulder3:
 
 
 GoldenrodDeptStore_Text_BlackBeltMove:
-	.string "Machoke, help us move that boulder!$"
+	.string "豪力，帮我们搬开那块岩石！$"
 
 GoldenrodDeptStore_Text_B1FBlackBelt1:
-    .string "Hey, kid! You're holding us up!\p"
-    .string "Our policy is to work behind the\n"
-    .string "scenes where no one can see us!$"
+    .string "嘿，小家伙！你挡着我们了！\p我们的规矩是在没人看得见的\n地方干活！$"
+    .string ""
+    .string ""
 
 GoldenrodDeptStore_Text_B1FBlackBelt2:
-    .string "I lose my passion for work if\n"
-    .string "someone's watching.\p"
-    .string "Come on, kid, scoot!$"
+    .string "有人盯着看，我干活就\n提不起劲。\p行了，小家伙，快走开！$"
+    .string ""
+    .string ""
 
 GoldenrodDeptStore_Text_B1FBlackBelt3:
-    .string "Oohah! Oohah!\p"
-    .string "What do you need kid?\l"
-    .string "I'm working here!$"
+    .string "噢哈！噢哈！\p你要干什么，\n小家伙？\l我正忙着干活呢！$"
+    .string ""
+    .string ""
 
 GoldenrodDeptStore_Text_B1FBlackBelt3After:
-    .string "Oohah! Oohah!\p"
-    .string "The stuff on the ground's junk.\p"
-    .string "Take it if you want it!$"
+    .string "噢哈！噢哈！\p地上那些都是些破烂。\p想要的话就拿去吧！$"
+    .string ""
+    .string ""
 
 GoldenrodDeptStore_Text_B1FMachoke:
-    .string "Machoke: Maaacho!$"
+    .string "豪力：豪——力！$"

@@ -112,34 +112,34 @@ static const u32 sRadioUITilemap[] = INCBIN_U32("graphics/pokegear/radio/ui_map.
 static const u32 sRadioDialGfx[] = INCBIN_U32("graphics/pokegear/radio/dial.4bpp.smol");
 
 static const u8 sText_NoStation[] = _("- - - -");
-static const u8 sText_OaksPokemonTalk[] = _("Oak's Pokémon Talk");
-static const u8 sText_PokemonMusic[] = _("Pokémon Music");
-static const u8 sText_BuenasPassword[] = _("Buena's Password");
+static const u8 sText_OaksPokemonTalk[] = _("大木博士的宝可梦讲座");
+static const u8 sText_PokemonMusic[] = _("宝可梦音乐");
+static const u8 sText_BuenasPassword[] = _("葵妍的暗语");
 static const u8 sText_UnownStation[] = _("?????");
-static const u8 sText_TeamRocket[] = _("Team Rocket");
+static const u8 sText_TeamRocket[] = _("火箭队");
 
-static const u8 sText_Music1[] = _("Ben: Pokémon Music Channel!");
-static const u8 sText_Music2[] = _("It's me, DJ Ben!");
-static const u8 sText_Music3March[] = _("Today's tune is Pokémon March!");
-static const u8 sText_Music3Lullaby[] = _("Today's tune is Pokémon Lullaby!");
+static const u8 sText_Music1[] = _("靖史：宝可梦音乐频道！");
+static const u8 sText_Music2[] = _("我是DJ靖史！");
+static const u8 sText_Music3March[] = _("今天的曲目是宝可梦进行曲！");
+static const u8 sText_Music3Lullaby[] = _("今天的曲目是宝可梦摇篮曲！");
 
-static const u8 sText_Buena1[] = _("Buena: Buena here!");
-static const u8 sText_Buena2[] = _("Time for today's password!");
-static const u8 sText_Buena3[] = _("Today's password is…");
+static const u8 sText_Buena1[] = _("葵妍：我是葵妍！");
+static const u8 sText_Buena2[] = _("今天的暗语时间到了！");
+static const u8 sText_Buena3[] = _("今天的暗语是……");
 static const u8 sText_BuenaPassword[] = _("{STR_VAR_1}!");
-static const u8 sText_Buena4[] = _("Don't forget it! I'm in");
-static const u8 sText_Buena5[] = _("Goldenrod's Radio Tower!");
-static const u8 sText_BuenaOffAir1[] = _("Buena's Password is off air.");
-static const u8 sText_BuenaOffAir2[] = _("Tune in from 6 PM to midnight!");
+static const u8 sText_Buena4[] = _("别忘了哦！我在");
+static const u8 sText_Buena5[] = _("满金市的广播塔！");
+static const u8 sText_BuenaOffAir1[] = _("葵妍的暗语现在停播中。");
+static const u8 sText_BuenaOffAir2[] = _("请在晚上6点到午夜之间收听！");
 
 static const u8 sText_Unown1[] = _("????????????????????????????");
 static const u8 sText_Unown2[] = _("????????????????????????????");
 
-static const u8 sText_Rocket1[] = _("… …Ahem, we are");
-static const u8 sText_Rocket2[] = _("Team Rocket!");
-static const u8 sText_Rocket3[] = _("After three years of preparation,");
-static const u8 sText_Rocket4[] = _("we have risen from the ashes!");
-static const u8 sText_Rocket5[] = _("Giovanni! Can you hear us?");
+static const u8 sText_Rocket1[] = _("……咳咳，我们是");
+static const u8 sText_Rocket2[] = _("火箭队！");
+static const u8 sText_Rocket3[] = _("经过三年的准备，");
+static const u8 sText_Rocket4[] = _("我们从灰烬中重生了！");
+static const u8 sText_Rocket5[] = _("坂木！你能听到吗？");
 
 static const u8 *const sOakTalkTopics[] =
 {

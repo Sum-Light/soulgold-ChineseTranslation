@@ -3,10 +3,10 @@ mapscripts RintoVillage_Mart_MapScripts {}
 script Rinto_Mart2 {
     lock
     faceplayer
-    message("Welcome! How may I help you?")
+    message("欢迎光临！您需要什么？")
     waitmessage
     pokemart(Rinto2)
-    msgbox("Come back soon!")
+    msgbox("欢迎下次再来！")
     release
     end
 }
@@ -20,14 +20,10 @@ mart Rinto2 {
 }
 
 script RintoMart_Youngster {
-    msgbox("Every Poké Mart in Johto stocks its
-            own selection of TMs.
-
-            Collecting them all gets expensive!",
+    msgbox("城都的每家友好商店\n都备有自家的招式学习器。\p全都收集齐可是很花钱的！",
            MSGBOX_NPC)
 }
 
 script RintoMart_Beauty {
-    msgbox("I'm just hanging out here for the air
-            conditioning.", MSGBOX_NPC)
+    msgbox("我只是来这儿蹭\n空调的。", MSGBOX_NPC)
 }

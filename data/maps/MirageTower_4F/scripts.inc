@@ -60,20 +60,20 @@ MirageTower_4F_EventScript_CollapseMirageTower::
 	end
 
 MirageTower_4F_Text_TakeRootFossil:
-	.string "You found the Root Fossil.\p"
-	.string "If this Fossil is taken, the ground\n"
-	.string "around it will likely crumble away…\p"
-	.string "Take the Root Fossil anyway?$"
+	.string "你找到了根状化石。\p如果拿走化石，周围的地面很可能\n会塌陷……\p真的要拿走根状化石吗？$"
+	.string ""
+	.string ""
+	.string ""
 
 MirageTower_4F_Text_LeftRootFossilAlone:
-	.string "{PLAYER} left the Root Fossil alone.$"
+	.string "{PLAYER}留下了根状化石。$"
 
 MirageTower_4F_Text_TakeClawFossil:
-	.string "You found the Claw Fossil.\p"
-	.string "If this Fossil is taken, the ground\n"
-	.string "around it will likely crumble away…\p"
-	.string "Take the Claw Fossil anyway?$"
+	.string "你找到了爪子化石。\p如果拿走化石，周围的地面很可能\n会塌陷……\p真的要拿走爪子化石吗？$"
+	.string ""
+	.string ""
+	.string ""
 
 MirageTower_4F_Text_LeaveClawFossilAlone:
-	.string "{PLAYER} left the Claw Fossil alone.$"
+	.string "{PLAYER}留下了爪子化石。$"
 

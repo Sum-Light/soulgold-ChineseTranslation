@@ -27,31 +27,13 @@ SouthPassageAriana::
 
 
 SouthPassageSign_Text_0:
-	.string "Research Facility, keep out!\p"
-	.string "The text is faded and difficult\n"
-	.string "to read.$"
+	.string "研究所重地，闲人免进！\p文字已褪色，难以辨认。$"
 
 SouthPassageAriana_Text_0:
-	.string "Oh. It's you.\p"
-	.string "Didn't expect you to wander all the\n"
-	.string "way over here.$"
+	.string "哦，是你啊。\p没想到你会跑到\n这种地方来。$"
 
 SouthPassageAriana_Text_1:
-	.string "Archer sent me to check on something\n"
-	.string "here.\p"
-	.string "This place had been conducting illegal\n"
-	.string "operations in the name of Team Rocket.\p"
-	.string "Even Giovanni had not given an approval\n"
-	.string "for them. \p"
-	.string "Once he caught wind of it, he sent an\n"
-	.string "order to cease the operations and fired\l"
-	.string "all the scientists and grunts involved.$"
+	.string "阿波罗派我来这里查点东西。\p这地方一直在以火箭队的\n名义从事非法活动。\p连坂木都没有批准过。\p他一得知消息，就下令\n停止这些活动，参与其中的\l科学家和手下全被开除了。$"
 
 SouthPassageAriana_Text_2:
-	.string "They tried to burn all evidence, but\n"
-	.string "they were caught quickly.\p"
-	.string "If you wish to explore around, then I'm \n"
-	.string "not going to stop you, but don't expect\l"
-	.string "to find much.\p"
-	.string "I got what I need already, so I'll be\n"
-	.string "heading back.$"
+	.string "他们想烧掉所有证据，但很快\n就被抓住了。\p你想四处看看的话，我不拦你，\n但别指望能找到什么。\p我要的东西已经到手，\n这就回去了。$"

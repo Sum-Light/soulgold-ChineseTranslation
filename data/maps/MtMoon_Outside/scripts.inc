@@ -16,9 +16,9 @@ MtMoon_Outside_EventScript_Clefairy::
 	end
 
 MtMoon_Outside_Text_DontLitterSign:
-	.string "Mt.Moon Square\n"
-	.string "Don'T Litter$"
+	.string "月见山广场\n请勿乱扔垃圾$"
+	.string ""
 
 MtMoon_Outside_Text_Clefairy:
-    .string "Clefairy: Pi pippippi!$"
+    .string "皮皮：皮——皮皮皮！$"
 

@@ -53,16 +53,16 @@ OldaleTown_Mart_EventScript_Boy::
 	end
 
 OldaleTown_Mart_Text_PokeBallsAreSoldOut:
-	.string "The clerk says they're all sold out.\n"
-	.string "I can't buy any Poké Balls.$"
+	.string "店员说精灵球\n已经卖光了。$"
+	.string ""
 
 OldaleTown_Mart_Text_ImGoingToBuyPokeBalls:
-	.string "I'm going to buy a bunch of Poké Balls\n"
-	.string "and catch a bunch of Pokémon!$"
+	.string "我要买一大堆精灵球，\n然后捕捉一大堆宝可梦！$"
+	.string ""
 
 OldaleTown_Mart_Text_RestoreHPWithPotion:
-	.string "If a Pokémon gets hurt and loses its Hp\n"
-	.string "and faints, it won't be able to battle.\p"
-	.string "To prevent your Pokémon from fainting,\n"
-	.string "restore its Hp with a Potion.$"
+	.string "如果宝可梦受伤过重昏厥，\n就不能再战斗了。\p要想避免宝可梦昏厥，\n就要用伤药恢复它的体力。$"
+	.string ""
+	.string ""
+	.string ""
 

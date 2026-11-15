@@ -1,992 +1,992 @@
 Route3_Text_ColtonRematchIntro::
-	.string "Hey!\n"
-	.string "I saw you in VIRIDIAN FOREST!$"
+	.string "嘿！\n我在常青森林见过你！$"
+	.string ""
 
 Route3_Text_BenRematchIntro::
-	.string "Hi! I like shorts!\n"
-	.string "They're comfy and easy to wear!\p"
-	.string "You should be wearing shorts, too!$"
+	.string "嗨！我喜欢短裤！\n又舒服又好穿！\p你也应该穿短裤！$"
+	.string ""
+	.string ""
 
 Route3_Text_JaniceRematchIntro::
-	.string "Excuse me!\n"
-	.string "You keep looking at me, don't you?$"
+	.string "喂！\n你一直在看我，对吧？$"
+	.string ""
 
 Route3_Text_GregRematchIntro::
-	.string "You're a TRAINER, aren't you?\n"
-	.string "Let's get with it right away!$"
+	.string "你是训练家吧？\n那就马上开始吧！$"
+	.string ""
 
 Route3_Text_SallyRematchIntro::
-	.string "That look you give me…\n"
-	.string "It intrigues me so!$"
+	.string "你看我的那个眼神……\n真让我在意呢！$"
+	.string ""
 
 Route3_Text_CalvinRematchIntro::
-	.string "Hey! What's wrong with you?\n"
-	.string "You're still not wearing shorts!$"
+	.string "喂！你怎么回事？\n你还是没穿短裤！$"
+	.string ""
 
 Route3_Text_JamesRematchIntro::
-	.string "I'll battle you with the Pokémon\n"
-	.string "I started raising.$"
+	.string "我要用刚开始培育的宝可梦\n和你对战。$"
+	.string ""
 
 Route3_Text_RobinRematchIntro::
-	.string "Eek!\n"
-	.string "Did you push me?$"
+	.string "呀！\n是你推我的吗？$"
+	.string ""
 
 Route4_Text_CrissyRematchIntro::
-	.string "I always catch mushroom Pokémon\n"
-	.string "on MT. MOON.$"
+	.string "我总是在月见山\n捉蘑菇宝可梦。$"
+	.string ""
 
 Route6_Text_RickyRematchIntro::
-	.string "Oh! You're that nosy kid who\n"
-	.string "eavesdropped on us!$"
+	.string "啊！你就是那个偷听我们说话的\n爱管闲事的小鬼！$"
+	.string ""
 
 Route6_Text_NancyRematchIntro::
-	.string "Excuse me! Didn't I tell you that\n"
-	.string "this is a private conversation?\p"
-	.string "You shouldn't be listening in,\n"
-	.string "you uncouth person!$"
+	.string "喂！我不是说过了吗，\n我们在说悄悄话！\p不许偷听，\n你这个没礼貌的人！$"
+	.string ""
+	.string ""
+	.string ""
 
 Route6_Text_KeigoRematchIntro::
-	.string "I'm trying to find something good\n"
-	.string "that's not a BUG Pokémon, but…$"
+	.string "我想找点虫属性以外的\n好宝可梦，可是……$"
+	.string ""
 
 Route6_Text_JeffRematchIntro::
-	.string "Huh?\n"
-	.string "You want to go with me again?$"
+	.string "嗯？\n你又想和我较量一场？$"
+	.string ""
 
 Route6_Text_IsabelleRematchIntro::
-	.string "Me?\n"
-	.string "Well, okay. I'll play this once.$"
+	.string "我吗？\n嗯，好吧。就陪你玩这一次。$"
+	.string ""
 
 Route6_Text_ElijahRematchIntro::
-	.string "Hey, long time!\n"
-	.string "Have you gotten better?$"
+	.string "嘿，好久不见！\n你变强了吗？$"
+	.string ""
 
 Route8_Text_AidanRematchIntro::
-	.string "You are good at Pokémon, but how\n"
-	.string "is your chemistry grade?$"
+	.string "你的宝可梦是很厉害，\n不过你的化学成绩怎么样？$"
+	.string ""
 
 Route8_Text_StanRematchIntro::
-	.string "All right!\n"
-	.string "Let's play another game!$"
+	.string "好！\n再来玩一局吧！$"
+	.string ""
 
 Route8_Text_GlennRematchIntro::
-	.string "You need strategy to win at\n"
-	.string "battling.\p"
-	.string "Are you following my advice?$"
+	.string "想在对战中获胜，\n就需要策略。\p你有照我的建议去做吗？$"
+	.string ""
+	.string ""
 
 Route8_Text_PaigeRematchIntro::
-	.string "I've collected many NIDORAN.\n"
-	.string "I don't want them to evolve, but…$"
+	.string "我收集了好多尼多兰。\n虽然不想让它们进化，可是……$"
+	.string ""
 
 Route8_Text_LeslieRematchIntro::
-	.string "School is fun, but I still think\n"
-	.string "Pokémon are fun, too.$"
+	.string "学校很有趣，不过我还是觉得\n宝可梦也很有趣。$"
+	.string ""
 
 Route8_Text_AndreaRematchIntro::
-	.string "MEOWTH and PERSIAN are so cute,\n"
-	.string "meow, meow, meow!$"
+	.string "喵喵和猫老大好可爱啊，\n喵、喵、喵！$"
+	.string ""
 
 Route8_Text_MeganRematchIntro::
-	.string "We may look silly standing here\n"
-	.string "like this, but I can still battle.$"
+	.string "这样站在这里可能有点傻，\n不过我照样能对战。$"
+	.string ""
 
 Route8_Text_RichRematchIntro::
-	.string "I'm a rambling, gaming dude!\n"
-	.string "I'm on a winning streak!$"
+	.string "我是四处闯荡的赌徒！\n现在正手气旺着呢！$"
+	.string ""
 
 Route8_Text_JuliaRematchIntro::
-	.string "What's a cute, round, and fluffy\n"
-	.string "Pokémon?\p"
-	.string "You already know, don't you?$"
+	.string "又可爱、又圆、又毛茸茸的\n宝可梦是什么？\p你已经知道了吧？$"
+	.string ""
+	.string ""
 
 Route8_Text_RicardoRematchIntro::
-	.string "My bike's still acting up, man.$"
+	.string "我的车还是老出毛病啊。$"
 
 Route8_Text_JarenRematchIntro::
-	.string "Okay, kid!\n"
-	.string "Don't expect mercy this time!$"
+	.string "好啊，小鬼！\n这次别指望我手下留情！$"
+	.string ""
 
 Route8_Text_EliRematchIntro::
-	.string "ELI: Our twin power became even\n"
-	.string "better!$"
+	.string "伊莱：我们的双胞胎力量\n变得更强了！$"
+	.string ""
 
 Route8_Text_AnneRematchIntro::
-	.string "ANNE: Our twin power powered up!$"
+	.string "安妮：我们的双胞胎力量升级了！$"
 
 Route9_Text_AliciaRematchIntro::
-	.string "We're to battle again?\n"
-	.string "This time, you're mine!$"
+	.string "又要对战吗？\n这次你输定了！$"
+	.string ""
 
 Route9_Text_ChrisRematchIntro::
-	.string "I haven't forgotten you were with\n"
-	.string "those good-looking Pokémon.$"
+	.string "我可没忘记，\n你带着那些漂亮的宝可梦。$"
+	.string ""
 
 Route9_Text_DrewRematchIntro::
-	.string "I'm taking ROCK TUNNEL to go to\n"
-	.string "LAVENDER…\p"
-	.string "But I keep getting stopped by\n"
-	.string "everyone along the way…$"
+	.string "我打算穿过岩山隧道\n去紫苑镇……\p可是一路上\n老是被人拦下来……$"
+	.string ""
+	.string ""
+	.string ""
 
 Route9_Text_CaitlinRematchIntro::
-	.string "Don't you dare patronize me today!\n"
-	.string "We're playing for keeps!$"
+	.string "今天可别想小看我！\n我们要来真的！$"
+	.string ""
 
 Route9_Text_JeremyRematchIntro::
-	.string "Bwahaha!\n"
-	.string "Great! I was bored again, eh!$"
+	.string "哇哈哈！\n太好了！我正好又闲得发慌呢！$"
+	.string ""
 
 Route9_Text_BriceRematchIntro::
-	.string "Hahaha!\n"
-	.string "A little toughie, as always!$"
+	.string "哈哈哈！\n还是那个小硬骨头啊！$"
+	.string ""
 
 Route9_Text_BrentRematchIntro::
-	.string "I got up early every day to train\n"
-	.string "my Pokémon from cocoons!$"
+	.string "我每天都早起，\n把宝可梦从茧开始培育起来！$"
+	.string ""
 
 Route9_Text_AlanRematchIntro::
-	.string "Hahahaha!\n"
-	.string "I'll win this time!$"
+	.string "哈哈哈哈！\n这次赢的会是我！$"
+	.string ""
 
 Route9_Text_ConnerRematchIntro::
-	.string "Go win, my super BUG Pokémon!$"
+	.string "去赢吧，我的超级虫属性宝可梦！$"
 
 Route10_Text_MarkRematchIntro::
-	.string "Wow, you came here again?\n"
-	.string "Maybe you're a POKéMANIAC, too?\l"
-	.string "Want to see my collection?$"
+	.string "哇，你又来了？\n难道你也是宝可梦迷？\l想看看我的收藏吗？$"
+	.string ""
+	.string ""
 
 Route10_Text_ClarkRematchIntro::
-	.string "Ha-hahah-ah-ha!\n"
-	.string "I can't stop sneezing!$"
+	.string "哈、哈哈哈、哈——！\n喷嚏停不下来啊！$"
+	.string ""
 
 Route10_Text_HermanRematchIntro::
-	.string "Hi, kid!\n"
-	.string "Did I show you my Pokémon?$"
+	.string "嗨，小朋友！\n我给你看过我的宝可梦吗？$"
+	.string ""
 
 Route10_Text_HeidiRematchIntro::
-	.string "I went out to a Pokémon GYM again.\p"
-	.string "…But I lost as usual.$"
+	.string "我又去挑战宝可梦道馆了。\p……不过还是老样子，输了。$"
+	.string ""
 
 Route10_Text_TrentRematchIntro::
-	.string "Ah!\n"
-	.string "This mountain air is delicious!\l"
-	.string "It's so good, I can't leave!$"
+	.string "啊！\n山里的空气真好啊！\l舒服得我都不想走了！$"
+	.string ""
+	.string ""
 
 Route10_Text_CarolRematchIntro::
-	.string "My head is starting to spin.\n"
-	.string "I've been hiking for too long…$"
+	.string "我的头开始发晕了。\n登山的时间太长了……$"
+	.string ""
 
 Route11_Text_HugoRematchIntro::
-	.string "Win, lose, or draw!\n"
-	.string "Now for our rematch!$"
+	.string "是赢、是输，还是平手！\n来再战一场吧！$"
+	.string ""
 
 Route11_Text_JasperRematchIntro::
-	.string "Competing is the ultimate thrill.\n"
-	.string "I still can't get enough!$"
+	.string "一决胜负才是最刺激的事。\n我还是觉得不过瘾！$"
+	.string ""
 
 Route11_Text_EddieRematchIntro::
-	.string "You know, right?\n"
-	.string "Let's go, but don't cheat!$"
+	.string "你懂的吧？\n来吧，不过不许耍诈！$"
+	.string ""
 
 Route11_Text_BraxtonRematchIntro::
-	.string "Hi, there!\p"
-	.string "But be careful!\n"
-	.string "I'm still laying down some cables!$"
+	.string "嗨，你好！\p不过要小心！\n我还在铺设电缆呢！$"
+	.string ""
+	.string ""
 
 Route11_Text_DillonRematchIntro::
-	.string "I became a TRAINER a while ago.\n"
-	.string "But, I think I can win.$"
+	.string "我当上训练家有一阵子了。\n不过，我觉得我能赢。$"
+	.string ""
 
 Route11_Text_DirkRematchIntro::
-	.string "Fwahaha!\n"
-	.string "I have never lost!\p"
-	.string "…And if I did, I've forgotten all\n"
-	.string "about it!$"
+	.string "呼哇哈哈！\n我从来没输过！\p……就算输过，\n我也忘得一干二净了！$"
+	.string ""
+	.string ""
+	.string ""
 
 Route11_Text_DarianRematchIntro::
-	.string "I have never won before…\p"
-	.string "Perhaps I am destined to remain\n"
-	.string "that way…$"
+	.string "我从来没有赢过……\p也许我命中注定\n就是这样了……$"
+	.string ""
+	.string ""
 
 Route11_Text_YasuRematchIntro::
-	.string "I'm the best in my class.\n"
-	.string "I train every morning and night!$"
+	.string "我是班上最厉害的。\n每天早晚都在训练！$"
+	.string ""
 
 Route11_Text_BernieRematchIntro::
-	.string "Keep your eyes out for live wires!$"
+	.string "当心带电的电线！$"
 
 Route11_Text_DaveRematchIntro::
-	.string "I raised my Pokémon carefully.\n"
-	.string "They should be ready by now.\l"
-	.string "This time, they should win, too.$"
+	.string "我的宝可梦是精心培育的。\n现在应该已经准备好了。\l这次应该也能赢。$"
+	.string ""
+	.string ""
 
 Route12_Text_NedRematchIntro::
-	.string "Yeah!\n"
-	.string "I got a bite, here!\l"
-	.string "Th-this might be the real thing!$"
+	.string "好耶！\n上钩了！\l这、这次说不定是真的大家伙！$"
+	.string ""
+	.string ""
 
 Route12_Text_ChipRematchIntro::
-	.string "You're finally here.\n"
-	.string "Fishing is a waiting game.$"
+	.string "你终于来了。\n钓鱼就是要耐心等待。$"
+	.string ""
 
 Route12_Text_JustinRematchIntro::
-	.string "Still can't find a MOON STONE…\n"
-	.string "Have you found one?$"
+	.string "还是找不到月之石……\n你找到了吗？$"
+	.string ""
 
 Route12_Text_LucaRematchIntro::
-	.string "Electricity has always been my\n"
-	.string "specialty.\p"
-	.string "I don't know a thing about Pokémon\n"
-	.string "of the sea, though.$"
+	.string "电一直是我的专长。\p不过海里的宝可梦，\n我可是一窍不通。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route12_Text_HankRematchIntro::
-	.string "The FISHING FOOL vs. Pokémon KID!\n"
-	.string "Another round, fight!$"
+	.string "钓鱼痴对宝可梦小子！\n再来一回合，开战！$"
+	.string ""
 
 Route12_Text_ElliotRematchIntro::
-	.string "I love fishing, don't get me wrong.\n"
-	.string "But, I wish I had more work…\l"
-	.string "…It's hard to give up fishing!$"
+	.string "别误会，我是很喜欢钓鱼。\n不过，要是工作能多点就好了……\l……可钓鱼实在戒不掉啊！$"
+	.string ""
+	.string ""
 
 Route12_Text_AndrewRematchIntro::
-	.string "What's catching?\p"
-	.string "You'll never know unless you beat\n"
-	.string "me!$"
+	.string "钓到了什么？\p不打赢我，\n你是不会知道的！$"
+	.string ""
+	.string ""
 
 Route12_Text_JesRematchIntro::
-	.string "JES: I'll win here today and\n"
-	.string "propose to my GIA.$"
+	.string "杰斯：今天我要在这里获胜，\n然后向我的吉娅求婚。$"
+	.string ""
 
 Route12_Text_GiaRematchIntro::
-	.string "GIA: Hey, JES…\n"
-	.string "I've been waiting a long time now.\p"
-	.string "If we win today, I'll marry you!$"
+	.string "吉娅：喂，杰斯……\n我已经等了很久了。\p今天要是赢了，我就嫁给你！$"
+	.string ""
+	.string ""
 
 Route13_Text_SebastianRematchIntro::
-	.string "My bird Pokémon remember you!$"
+	.string "我的鸟宝可梦还记得你！$"
 
 Route13_Text_SusieRematchIntro::
-	.string "I want to be the best TRAINER \n"
-	.string "while I'm a kid!$"
+	.string "我想趁着还是小孩的时候\n成为最强的训练家！$"
+	.string ""
 
 Route13_Text_ValerieRematchIntro::
-	.string "Wow!\n"
-	.string "You got more cool BADGES!$"
+	.string "哇！\n你又多了几个很酷的徽章！$"
+	.string ""
 
 Route13_Text_GwenRematchIntro::
-	.string "My cutely grown Pokémon wish to\n"
-	.string "become reacquainted with you.$"
+	.string "我那些出落得很可爱的宝可梦\n想和你重新认识一下。$"
+	.string ""
 
 Route13_Text_AlmaRematchIntro::
-	.string "I cleaned out my savings and\n"
-	.string "bought more CARBOS.$"
+	.string "我把存款全花光，\n又买了些速度增强剂。$"
+	.string ""
 
 Route13_Text_PerryRematchIntro::
-	.string "I'm not going to lose this time.\n"
-	.string "The wind's blowing my way!$"
+	.string "这次我不会输的。\n风正往我这边吹呢！$"
+	.string ""
 
 Route13_Text_LolaRematchIntro::
-	.string "Oh, you're back?\p"
-	.string "Sure, I'll play again with you,\n"
-	.string "sweetie.$"
+	.string "哦，你又来了？\p好啊，我再陪你玩玩，\n小可爱。$"
+	.string ""
+	.string ""
 
 Route13_Text_SheilaRematchIntro::
-	.string "Can't you forget that you battled\n"
-	.string "with me?$"
+	.string "你就不能忘了\n和我对战过的事吗？$"
+	.string ""
 
 Route13_Text_JaredRematchIntro::
-	.string "What're you starin' at?$"
+	.string "你盯着看什么呢？$"
 
 Route13_Text_RobertRematchIntro::
-	.string "I always go with bird Pokémon.\n"
-	.string "I've dedicated myself to them.$"
+	.string "我一直只用鸟宝可梦。\n我可是一心扑在它们身上的。$"
+	.string ""
 
 Route14_Text_CarterRematchIntro::
-	.string "I used TMs to teach good moves\n"
-	.string "to my Pokémon.$"
+	.string "我用招式学习器\n教了宝可梦厉害的招式。$"
+	.string ""
 
 Route14_Text_MitchRematchIntro::
-	.string "My bird Pokémon should be ready\n"
-	.string "for battle this time.$"
+	.string "这次我的鸟宝可梦\n应该已经做好对战的准备了。$"
+	.string ""
 
 Route14_Text_BeckRematchIntro::
-	.string "Are you using TMs on Pokémon?\n"
-	.string "Just holding them is useless.$"
+	.string "你有给宝可梦用招式学习器吗？\n光是拿着可没用。$"
+	.string ""
 
 Route14_Text_MarlonRematchIntro::
-	.string "Have you taught your bird Pokémon\n"
-	.string "how to FLY?\p"
-	.string "You'll be able to soar with it into\n"
-	.string "the sky! Give it a try.$"
+	.string "你教过鸟宝可梦\n飞翔了吗？\p这样就能和它一起\n翱翔天空了！试试看吧。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route14_Text_DonaldRematchIntro::
-	.string "The legend of the winged mirages…\n"
-	.string "You've heard it, right?$"
+	.string "关于有翼幻影的传说……\n你听说过吧？$"
+	.string ""
 
 Route14_Text_BennyRematchIntro::
-	.string "I'm really not into it, but okay.\n"
-	.string "Let's go!$"
+	.string "我其实没什么兴趣，不过好吧。\n来吧！$"
+	.string ""
 
 Route14_Text_LukasRematchIntro::
-	.string "Hey!\n"
-	.string "I remember you!\p"
-	.string "C'mon, c'mon.\n"
-	.string "Let's go, let's go, let's go!$"
+	.string "嘿！\n我记得你！\p来来来。\n快来，快来，快来！$"
+	.string ""
+	.string ""
+	.string ""
 
 Route14_Text_IsaacRematchIntro::
-	.string "You're here again, huh?\n"
-	.string "Shut up and battle.$"
+	.string "你又来了啊？\n少废话，来对战。$"
+	.string ""
 
 Route14_Text_GeraldRematchIntro::
-	.string "We've been riding here because of\n"
-	.string "the wide-open spaces.$"
+	.string "这里地方宽敞，\n所以我们一直在这儿骑车。$"
+	.string ""
 
 Route14_Text_MalikRematchIntro::
-	.string "Pokémon battle, right?\n"
-	.string "Cool! Rumble!$"
+	.string "宝可梦对战是吧？\n酷！开打！$"
+	.string ""
 
 Route14_Text_KiriRematchIntro::
-	.string "KIRI: JAN, I hope we win today.$"
+	.string "绮莉：简，希望今天我们能赢。$"
 
 Route14_Text_JanRematchIntro::
-	.string "JAN: KIRI, here we go!\n"
-	.string "Let's win for sure this time!$"
+	.string "简：绮莉，我们上！\n这次一定要赢！$"
+	.string ""
 
 Route15_Text_KindraRematchIntro::
-	.string "I'm going to keep battling with the\n"
-	.string "Pokémon I got in trades.$"
+	.string "我会继续用交换来的宝可梦\n对战下去。$"
+	.string ""
 
 Route15_Text_BeckyRematchIntro::
-	.string "You look gentle, so I think I can\n"
-	.string "beat you.\p"
-	.string "I'll give it one more go!$"
+	.string "你看起来很温和，\n我觉得我能赢你。\p我要再试一次！$"
+	.string ""
+	.string ""
 
 Route15_Text_EdwinRematchIntro::
-	.string "When I whistle, bird Pokémon\n"
-	.string "gather around.\p"
-	.string "They're amazingly cute!$"
+	.string "我一吹口哨，\n鸟宝可梦就会聚过来。\p它们可爱得不得了！$"
+	.string ""
+	.string ""
 
 Route15_Text_ChesterRematchIntro::
-	.string "Hmm? My birds are shivering!\n"
-	.string "Wait, aren't you that TRAINER…$"
+	.string "嗯？我的鸟在发抖！\n等等，你不就是那个训练家……$"
+	.string ""
 
 Route15_Text_GraceRematchIntro::
-	.string "Oh, you're a little cutie!\n"
-	.string "So like a darling Pokémon!\l"
-	.string "I remember you now!$"
+	.string "哎呀，真是个小可爱！\n就像招人喜欢的宝可梦一样！\l我想起你来了！$"
+	.string ""
+	.string ""
 
 Route15_Text_OliviaRematchIntro::
-	.string "I raise Pokémon for protection\n"
-	.string "because I live alone.\p"
-	.string "That hasn't changed.$"
+	.string "因为我一个人住，\n所以养宝可梦来防身。\p这一点现在也没变。$"
+	.string ""
+	.string ""
 
 Route15_Text_ErnestRematchIntro::
-	.string "Hey, kid! C'mon!\n"
-	.string "I got these off some loser!$"
+	.string "喂，小鬼！来啊！\n这些是我从某个输家那儿弄来的！$"
+	.string ""
 
 Route15_Text_AlexRematchIntro::
-	.string "Fork over all your cash when you\n"
-	.string "lose to me, kid!$"
+	.string "输给我以后，\n把你的钱全都交出来，小鬼！$"
+	.string ""
 
 Route15_Text_CeliaRematchIntro::
-	.string "What's cool and happening?\n"
-	.string "Trading Pokémon, of course.$"
+	.string "现在什么最酷最流行？\n当然是交换宝可梦啦。$"
+	.string ""
 
 Route15_Text_YazminRematchIntro::
-	.string "Want to play with my Pokémon\n"
-	.string "again?$"
+	.string "想再和我的宝可梦\n玩一玩吗？$"
+	.string ""
 
 Route15_Text_MyaRematchIntro::
-	.string "MYA: Hi, we keep meeting,\n"
-	.string "don't we?\p"
-	.string "Help me train my little brother\n"
-	.string "again?$"
+	.string "玛娅：嗨，我们老是遇见呢。\p能再帮我训练一下\n我弟弟吗？$"
+	.string ""
+	.string ""
+	.string ""
 
 Route15_Text_RonRematchIntro::
-	.string "RON: My sister's gotten more\n"
-	.string "powerful…$"
+	.string "罗恩：我姐姐变得\n更厉害了……$"
+	.string ""
 
 Route16_Text_LaoRematchIntro::
-	.string "What do you want?$"
+	.string "你想干什么？$"
 
 Route16_Text_KojiRematchIntro::
-	.string "Nice BIKE!\n"
-	.string "Hand it over quick!$"
+	.string "自行车不错嘛！\n快交出来！$"
+	.string ""
 
 Route16_Text_LukeRematchIntro::
-	.string "Come out and play, little mouse.\n"
-	.string "I'll treat you right!$"
+	.string "出来玩玩吧，小老鼠。\n我会好好招待你的！$"
+	.string ""
 
 Route16_Text_HideoRematchIntro::
-	.string "Hey, wait a second!\n"
-	.string "Don't call me and then run away!$"
+	.string "喂，等一下！\n别把我叫出来又跑掉！$"
+	.string ""
 
 Route16_Text_CamronRematchIntro::
-	.string "I'm feeling hungry and mean!\n"
-	.string "I really need a punching bag!$"
+	.string "我现在又饿又火大！\n正需要个出气筒！$"
+	.string ""
 
 Route16_Text_RubenRematchIntro::
-	.string "Hey, there!\n"
-	.string "We'll have ourselves a good time!$"
+	.string "嘿！\n我们来好好乐一乐吧！$"
+	.string ""
 
 Route16_Text_JedRematchIntro::
-	.string "JED: Are you here to see our\n"
-	.string "love, which knows no bounds?$"
+	.string "杰德：你是来见证我们\n那无边无际的爱的吗？$"
+	.string ""
 
 Route16_Text_LeaRematchIntro::
-	.string "LEA: Sometimes, the intensity of\n"
-	.string "our love scares me.$"
+	.string "莉娅：有时候，我们的爱\n强烈得让我害怕。$"
+	.string ""
 
 Route17_Text_RaulRematchIntro::
-	.string "I told you, there's no getting rich\n"
-	.string "quick in battling kids.$"
+	.string "我说过了，\n和小鬼对战是发不了财的。$"
+	.string ""
 
 Route17_Text_IsaiahRematchIntro::
-	.string "I'm mighty proud of my bod, kiddo.\n"
-	.string "Come on!$"
+	.string "我对自己这身板可是很自豪的，\n小鬼。来吧！$"
+	.string ""
 
 Route17_Text_VirgilRematchIntro::
-	.string "You out for a stroll?$"
+	.string "你是出来散步的吗？$"
 
 Route17_Text_BillyRematchIntro::
-	.string "We're BIKERS!\n"
-	.string "We rule the roads, man!$"
+	.string "我们是飙车族！\n这条路归我们管！$"
+	.string ""
 
 Route17_Text_NikolasRematchIntro::
-	.string "VOLTORB's going to seriously\n"
-	.string "electrify you today!$"
+	.string "今天霹雳电球\n要把你电个痛快！$"
+	.string ""
 
 Route17_Text_ZeekRematchIntro::
-	.string "I leveled up my Pokémon, but it\n"
-	.string "absolutely won't evolve. Why?$"
+	.string "我把宝可梦的等级升上去了，\n可它就是不进化。为什么？$"
+	.string ""
 
 Route17_Text_JamalRematchIntro::
-	.string "Gaah! I really need to exercise\n"
-	.string "and seriously trim some flab!$"
+	.string "啊——！我真得运动运动，\n好好减掉点赘肉了！$"
+	.string ""
 
 Route17_Text_CoreyRematchIntro::
-	.string "Be a rebel!$"
+	.string "做个叛逆者吧！$"
 
 Route17_Text_JaxonRematchIntro::
-	.string "Yep, that's a nice BIKE!\n"
-	.string "How's it handle?$"
+	.string "嗯，那自行车不错！\n骑起来怎么样？$"
+	.string ""
 
 Route17_Text_WilliamRematchIntro::
-	.string "Get lost, kid!\n"
-	.string "I'm bushed!$"
+	.string "滚开，小鬼！\n我累坏了！$"
+	.string ""
 
 Route18_Text_WiltonRematchIntro::
-	.string "I've been checking every grassy\n"
-	.string "area for new Pokémon.\p"
-	.string "But it's not always easy…$"
+	.string "我一直在各处草丛里\n寻找新的宝可梦。\p不过并不总是那么容易……$"
+	.string ""
+	.string ""
 
 Route18_Text_RamiroRematchIntro::
-	.string "Koorukukukoo!\n"
-	.string "Is my birdcall getting better?$"
+	.string "咕噜咕咕咕——！\n我学的鸟叫有进步吗？$"
+	.string ""
 
 Route18_Text_JacobRematchIntro::
-	.string "I warned you before, this is my\n"
-	.string "turf!\p"
-	.string "I don't want you coming around.$"
+	.string "我之前就警告过你，\n这里是我的地盘！\p别再到这儿来了。$"
+	.string ""
+	.string ""
 
 Route19_Text_RichardRematchIntro::
-	.string "I'm almost warmed up to go\n"
-	.string "out for a swim.$"
+	.string "我热身得差不多了，\n马上就能下水游泳了。$"
+	.string ""
 
 Route19_Text_ReeceRematchIntro::
-	.string "Wait! Slow down!\n"
-	.string "What if you have a heart attack?$"
+	.string "等等！慢一点！\n心脏病发作了怎么办？$"
+	.string ""
 
 Route19_Text_MatthewRematchIntro::
-	.string "I love swimming!\n"
-	.string "I guess you're the surfing type.$"
+	.string "我最喜欢游泳了！\n你大概是喜欢冲浪的那种人吧。$"
+	.string ""
 
 Route19_Text_DouglasRematchIntro::
-	.string "What's beyond the horizon?\n"
-	.string "Have you seen?$"
+	.string "水平线的那一边有什么？\n你见过吗？$"
+	.string ""
 
 Route19_Text_DavidRematchIntro::
-	.string "I tried diving for Pokémon again,\n"
-	.string "but it was a no-go like before.$"
+	.string "我又试着潜水去捉宝可梦，\n结果和上次一样不行。$"
+	.string ""
 
 Route19_Text_TonyRematchIntro::
-	.string "I look at the sea to forget all\n"
-	.string "the bad things that happened.\p"
-	.string "…Like losing to you the last time!$"
+	.string "我望着大海，\n想忘掉所有不愉快的事。\p……比如上次输给你的事！$"
+	.string ""
+	.string ""
 
 Route19_Text_AnyaRematchIntro::
-	.string "You always get to ride your\n"
-	.string "Pokémon…\p"
-	.string "It looks so relaxing.\n"
-	.string "Can I have it if I win?$"
+	.string "你总是能骑在\n宝可梦身上……\p看起来好惬意啊。\n我赢了的话能把它给我吗？$"
+	.string ""
+	.string ""
+	.string ""
 
 Route19_Text_AliceRematchIntro::
-	.string "Swimming's great!\n"
-	.string "Sunburns aren't!$"
+	.string "游泳真棒！\n晒伤就不好了！$"
+	.string ""
 
 Route19_Text_AxleRematchIntro::
-	.string "These waters are treacherous!\n"
-	.string "You shouldn't come back here!$"
+	.string "这片海域很危险！\n你不该再到这里来的！$"
+	.string ""
 
 Route19_Text_ConnieRematchIntro::
-	.string "I swam here with my friends…\n"
-	.string "I'm tired…\l"
-	.string "Must we really battle again?$"
+	.string "我和朋友一起游到了这里……\n好累啊……\l真的非得再对战一次吗？$"
+	.string ""
+	.string ""
 
 Route19_Text_LiaRematchIntro::
-	.string "LIA: You know my brother just\n"
-	.string "became a TRAINER, right?\p"
-	.string "I want to make him better, so I\n"
-	.string "need your help again.$"
+	.string "莉雅：你知道我弟弟\n才刚当上训练家吧？\p我想让他变得更强，\n所以又要请你帮忙了。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route19_Text_LucRematchIntro::
-	.string "LUC: My big sis taught me all\n"
-	.string "about Pokémon.\p"
-	.string "I wonder if I'm better?$"
+	.string "卢克：姐姐教了我\n很多关于宝可梦的事。\p不知道我有没有进步？$"
+	.string ""
+	.string ""
 
 Route20_Text_BarryRematchIntro::
-	.string "The water is shallow here.\n"
-	.string "There are many people swimming.$"
+	.string "这里的水很浅。\n有很多人在游泳。$"
+	.string ""
 
 Route20_Text_ShirleyRematchIntro::
-	.string "Are you jealous that I'm\n"
-	.string "vacationing on SEAFOAM?$"
+	.string "我在双子岛度假，\n你是不是很羡慕？$"
+	.string ""
 
 Route20_Text_TiffanyRematchIntro::
-	.string "I love floating with the fishes\n"
-	.string "here among the waves.$"
+	.string "我喜欢和鱼儿们一起\n在这里随波漂浮。$"
+	.string ""
 
 Route20_Text_IreneRematchIntro::
-	.string "Were you on vacation, too?$"
+	.string "你也是来度假的吗？$"
 
 Route20_Text_DeanRematchIntro::
-	.string "Check out my physique!\p"
-	.string "It's even more buff than ever\n"
-	.string "before!$"
+	.string "看看我这身材！\p比以前\n更结实了！$"
+	.string ""
+	.string ""
 
 Route20_Text_DarrinRematchIntro::
-	.string "Why are you riding a Pokémon?\n"
-	.string "Haven't you learned to swim yet?$"
+	.string "你干嘛骑在宝可梦身上？\n你还没学会游泳吗？$"
+	.string ""
 
 Route20_Text_RogerRematchIntro::
-	.string "I rode my bird Pokémon here.$"
+	.string "我是骑着鸟宝可梦来这里的。$"
 
 Route20_Text_NoraRematchIntro::
-	.string "My boyfriend gave me big pearls.\n"
-	.string "And, they've grown bigger!$"
+	.string "我男朋友送了我大颗的珍珠。\n而且，它们变得更大了！$"
+	.string ""
 
 Route20_Text_MissyRematchIntro::
-	.string "I swam here from CINNABAR ISLAND.\n"
-	.string "It wasn't easy, like I said.$"
+	.string "我是从红莲镇游到这里的。\n我说过了，可不轻松。$"
+	.string ""
 
 Route20_Text_MelissaRematchIntro::
-	.string "CINNABAR, in the west, has a LAB\n"
-	.string "for Pokémon.\p"
-	.string "My daddy works there.$"
+	.string "西边的红莲镇有一座\n宝可梦研究所。\p我爸爸就在那里工作。$"
+	.string ""
+	.string ""
 
 Route21_North_Text_RonaldRematchIntro::
-	.string "You want to know if the fish are\n"
-	.string "biting?$"
+	.string "你想知道\n鱼上不上钩吗？$"
+	.string ""
 
 Route21_North_Text_WadeRematchIntro::
-	.string "I got a big haul again!\n"
-	.string "Wanna go for it once more?$"
+	.string "我又大丰收了！\n要不要再来比一场？$"
+	.string ""
 
 Route21_North_Text_SpencerRematchIntro::
-	.string "The sea cleanses my body and soul!$"
+	.string "大海洗净了我的身体和心灵！$"
 
 @ Unused trainer from RB that had a rematch intro added
 Route21_North_Text_CueBallRematchIntro::
-	.string "きょうも　およぎに\n"
-	.string "きちまったぜ$"
+	.string "今天我也\n跑来游泳啦！$"
+	.string ""
 
 Route21_South_Text_JackRematchIntro::
-	.string "I caught my Pokémon at sea.\n"
-	.string "And that's where I train them.$"
+	.string "我的宝可梦是在海上捉的。\n我也是在海上训练它们的。$"
+	.string ""
 
 Route21_South_Text_JeromeRematchIntro::
-	.string "Right now, I'm in another triathlon\n"
-	.string "meet!$"
+	.string "我现在正在参加\n另一场铁人三项比赛！$"
+	.string ""
 
 Route21_South_Text_RolandRematchIntro::
-	.string "Ahh!\n"
-	.string "Feel the sun and the wind!$"
+	.string "啊——！\n感受这阳光和风吧！$"
+	.string ""
 
 Route21_South_Text_ClaudeRematchIntro::
-	.string "Hey, cut it out already.\n"
-	.string "You always scare away the fish!$"
+	.string "喂，够了啊。\n你总是把鱼吓跑！$"
+	.string ""
 
 Route21_South_Text_NolanRematchIntro::
-	.string "Keep me company till I get a hit.$"
+	.string "在鱼上钩之前，陪陪我吧。$"
 
 Route21_North_Text_LilRematchIntro::
-	.string "LIL: Huh? A battle again?\n"
-	.string "IAN, can't you do it alone?$"
+	.string "莉尔：咦？又要对战？\n伊恩，你不能自己上吗？$"
+	.string ""
 
 Route21_North_Text_IanRematchIntro::
-	.string "IAN: My sis is still a slob.\n"
-	.string "Help me get her into shape!$"
+	.string "伊恩：我那位姐妹还是那么懒散。\n帮我好好训练她吧！$"
+	.string ""
 
 Route25_Text_JoeyRematchIntro::
-	.string "I won't lose while I'm here!$"
+	.string "只要我在这里，就不会输！$"
 
 Route25_Text_DanRematchIntro::
-	.string "Dad took me to a great party on\n"
-	.string "the S.S. ANNE at VERMILION CITY.$"
+	.string "爸爸带我去参加了枯叶市\n圣特安努号上的盛大派对。$"
+	.string ""
 
 Route25_Text_FlintRematchIntro::
-	.string "I'm a cool guy.\n"
-	.string "I've got a girlfriend!\p"
-	.string "I'll show her how cool I am for\n"
-	.string "sure this time!$"
+	.string "我可是个帅哥。\n我有女朋友了！\p这次一定要让她看看\n我有多帅！$"
+	.string ""
+	.string ""
+	.string ""
 
 Route25_Text_KelseyRematchIntro::
-	.string "Hi!\n"
-	.string "My boyfriend is cool!\l"
-	.string "My conditioning's good today!$"
+	.string "嗨！\n我的男朋友很帅！\l我今天状态很好！$"
+	.string ""
+	.string ""
 
 Route25_Text_ChadRematchIntro::
-	.string "I had this feeling…\n"
-	.string "I knew I had to battle you again!$"
+	.string "我有种预感……\n就知道一定要再和你对战一次！$"
+	.string ""
 
 Route25_Text_HaleyRematchIntro::
-	.string "My friend has many cute Pokémon.\n"
-	.string "I'm so jealous!$"
+	.string "我朋友有好多可爱的宝可梦。\n好羡慕啊！$"
+	.string ""
 
 Route25_Text_FranklinRematchIntro::
-	.string "I just trained up on MT. MOON,\n"
-	.string "but I've still got gas in the tank!$"
+	.string "我刚在月见山修行完，\n不过还有的是力气！$"
+	.string ""
 
 Route25_Text_NobRematchIntro::
-	.string "A POKéMANIAC lives on the cape.\n"
-	.string "Have you seen his collection?$"
+	.string "海岬上住着一个宝可梦迷。\n你看过他的收藏了吗？$"
+	.string ""
 
 Route25_Text_WayneRematchIntro::
-	.string "You're going to see BILL again?\n"
-	.string "First, we battle!$"
+	.string "你又要去见正辉？\n先和我对战！$"
+	.string ""
 
 Route24_Text_ShaneRematchIntro::
-	.string "I saw your feat from the grass!$"
+	.string "你的壮举我在草丛里都看到了！$"
 
 Route24_Text_EthanRematchIntro::
-	.string "Okay!\n"
-	.string "I'll stomp you!$"
+	.string "好！\n我要把你打个落花流水！$"
+	.string ""
 
 Route24_Text_ReliRematchIntro::
-	.string "You always look so busy…\n"
-	.string "Aren't you getting tired?$"
+	.string "你总是看起来很忙……\n不觉得累吗？$"
+	.string ""
 
 Route24_Text_TimmyRematchIntro::
-	.string "You really must love coming to\n"
-	.string "NUGGET BRIDGE.$"
+	.string "你一定是很喜欢\n来金球大桥吧。$"
+	.string ""
 
 Route24_Text_AliRematchIntro::
-	.string "The time we battled…\p"
-	.string "Even though I was the second in\n"
-	.string "line, I was the best, wasn't I?$"
+	.string "上次对战的时候……\p虽然我是第2个上场的，\n但我是最厉害的，对吧？$"
+	.string ""
+	.string ""
 
 Route24_Text_CaleRematchIntro::
-	.string "People call this the NUGGET\n"
-	.string "BRIDGE!\p"
-	.string "You've already beaten us, so you're\n"
-	.string "not allowed to take the challenge…\p"
-	.string "…But, you're welcome to battle with\n"
-	.string "us again.$"
+	.string "大家都把这里叫作\n金球大桥！\p你已经打败过我们了，\n所以不能再参加挑战……\p……不过，\n欢迎你再来和我们对战。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OneIsland_TreasureBeach_Text_AmaraRematchIntro::
-	.string "Lying back, rocked by the waves…\n"
-	.string "I don't notice time slipping by…$"
+	.string "仰面躺着，随着波浪摇晃……\n不知不觉时间就过去了……$"
+	.string ""
 
 OneIsland_KindleRoad_Text_MariaRematchIntro::
-	.string "The weather's gorgeous!\n"
-	.string "I'll try not to spoil it.$"
+	.string "天气真好啊！\n我尽量不扫兴。$"
+	.string ""
 
 OneIsland_KindleRoad_Text_AbigailRematchIntro::
-	.string "My sunburn is starting to hurt…$"
+	.string "晒伤的地方开始疼了……$"
 
 OneIsland_KindleRoad_Text_FinnRematchIntro::
-	.string "The fire bird's mountain casts\n"
-	.string "a huge shadow…$"
+	.string "火鸟栖息的那座山\n投下了巨大的影子……$"
+	.string ""
 
 OneIsland_KindleRoad_Text_GarrettRematchIntro::
-	.string "I have this strong feeling that\n"
-	.string "I can win this time!$"
+	.string "我有种强烈的预感，\n这次我能赢！$"
+	.string ""
 
 OneIsland_KindleRoad_Text_TommyRematchIntro::
-	.string "Wait! Wait a second!\n"
-	.string "I'm sure I've hooked a big one!$"
+	.string "等等！等一下！\n我肯定是钓到大家伙了！$"
+	.string ""
 
 OneIsland_KindleRoad_Text_SharonRematchIntro::
-	.string "You'll help me out with my\n"
-	.string "training again?$"
+	.string "你又来\n帮我修行了吗？$"
+	.string ""
 
 OneIsland_KindleRoad_Text_TanyaRematchIntro::
-	.string "We haven't missed a single day of\n"
-	.string "training yet!$"
+	.string "我们的修行\n一天都没有落下过！$"
+	.string ""
 
 OneIsland_KindleRoad_Text_SheaRematchIntro::
-	.string "Every morning, before breakfast,\n"
-	.string "I swim around this island…\l"
-	.string "Three times!$"
+	.string "每天早上吃早饭之前，\n我都要绕着这座岛游……\l3圈！$"
+	.string ""
+	.string ""
 
 OneIsland_KindleRoad_Text_HughRematchIntro::
-	.string "Dress appropriately for battle!\n"
-	.string "Lose that frivolous outfit, I said!$"
+	.string "对战就要穿得像样点！\n我说了，把那身轻浮的衣服换掉！$"
+	.string ""
 
 OneIsland_KindleRoad_Text_BryceRematchIntro::
-	.string "You know, everything tastes great\n"
-	.string "when you're out in the wild.$"
+	.string "你知道吗，在野外\n不管吃什么都特别香。$"
+	.string ""
 
 OneIsland_KindleRoad_Text_ClaireRematchIntro::
-	.string "I ate too much again, so will you\n"
-	.string "battle us for some exercise?$"
+	.string "我又吃多了，\n能和我们对战一场当作运动吗？$"
+	.string ""
 
 OneIsland_KindleRoad_Text_KiaRematchIntro::
-	.string "KIA: My big brother and I make\n"
-	.string "an awesome combination!\p"
-	.string "We won't lose this time!$"
+	.string "琪娅：我和哥哥\n是最棒的组合！\p这次我们不会输的！$"
+	.string ""
+	.string ""
 
 OneIsland_KindleRoad_Text_MikRematchIntro::
-	.string "MIK: Together with KIA, we're\n"
-	.string "afraid of nothing!\p"
-	.string "We'll prove it to you this time!$"
+	.string "米克：只要和琪娅在一起，\n我们就什么都不怕！\p这次就证明给你看！$"
+	.string ""
+	.string ""
 
 ThreeIsland_BondBridge_Text_NikkiRematchIntro::
-	.string "Are we to battle again?$"
+	.string "我们又要对战了吗？$"
 
 ThreeIsland_BondBridge_Text_VioletRematchIntro::
-	.string "From where have you come, and\n"
-	.string "where are you bound?$"
+	.string "你从何处来，\n又要往何处去？$"
+	.string ""
 
 ThreeIsland_BondBridge_Text_AmiraRematchIntro::
-	.string "I want to swim without my float\n"
-	.string "ring soon.$"
+	.string "我想早点\n不用游泳圈也能游泳。$"
+	.string ""
 
 ThreeIsland_BondBridge_Text_AlexisRematchIntro::
-	.string "Yay, yay!\n"
-	.string "Pokémon!$"
+	.string "耶，耶！\n宝可梦！$"
+	.string ""
 
 ThreeIsland_BondBridge_Text_TishaRematchIntro::
-	.string "Oh, no, didn't I tell you already?\n"
-	.string "Please, stay away from me!$"
+	.string "哎呀，我不是已经说过了吗？\n拜托，离我远一点！$"
+	.string ""
 
 ThreeIsland_BondBridge_Text_JoyRematchIntro::
-	.string "JOY: We've gotten stronger!\n"
-	.string "Lots and lots!$"
+	.string "乔伊：我们变强了！\n强了好多好多！$"
+	.string ""
 
 ThreeIsland_BondBridge_Text_MegRematchIntro::
-	.string "MEG: You can't beat us today!$"
+	.string "梅格：今天你赢不了我们的！$"
 
 FiveIsland_WaterLabyrinth_Text_AlizeRematchIntro::
-	.string "Oh, hello!\p"
-	.string "Are you raising your Pokémon in a\n"
-	.string "good environment?$"
+	.string "哦，你好！\p你有在良好的环境里\n培育宝可梦吗？$"
+	.string ""
+	.string ""
 
 FiveIsland_ResortGorgeous_Text_DaisyRematchIntro::
-	.string "With these hands, I will create\n"
-	.string "my victory today.$"
+	.string "今天，我要用这双手\n创造出属于我的胜利。$"
+	.string ""
 
 FiveIsland_ResortGorgeous_Text_CelinaRematchIntro::
-	.string "Must I repeat myself?\n"
-	.string "I'm trying to paint.\l"
-	.string "Please keep out of my sight!$"
+	.string "还要我再说一遍吗？\n我在画画。\l请不要出现在我的视线里！$"
+	.string ""
+	.string ""
 
 FiveIsland_ResortGorgeous_Text_RaynaRematchIntro::
-	.string "I haven't made any progress…\n"
-	.string "I still can't get the right angle…$"
+	.string "一点进展都没有……\n还是找不到合适的角度……$"
+	.string ""
 
 FiveIsland_ResortGorgeous_Text_JackiRematchIntro::
-	.string "Oh, you will give me another\n"
-	.string "opportunity to match wits with you?$"
+	.string "哦，您愿意再给我一次\n与您斗智的机会吗？$"
+	.string ""
 
 FiveIsland_ResortGorgeous_Text_GillianRematchIntro::
-	.string "They're almost finished making the\n"
-	.string "pool for my Pokémon.\p"
-	.string "You must drop in for a visit.$"
+	.string "给我的宝可梦建的泳池\n就快完工了。\p您一定要来坐坐。$"
+	.string ""
+	.string ""
 
 FiveIsland_ResortGorgeous_Text_DestinRematchIntro::
-	.string "I'm a good runner.\n"
-	.string "I've gotten even faster!$"
+	.string "我很擅长跑步。\n而且现在跑得更快了！$"
+	.string ""
 
 FiveIsland_ResortGorgeous_Text_TobyRematchIntro::
-	.string "I say, friend!\n"
-	.string "Let us enjoy our time together!$"
+	.string "我说，朋友！\n让我们共度一段愉快的时光吧！$"
+	.string ""
 
 FiveIsland_MemorialPillar_Text_MiloRematchIntro::
-	.string "I'm the eldest of the BIRD\n"
-	.string "BROTHERS. Remember me?\p"
-	.string "That's right, I'm the one who loves\n"
-	.string "birds for their beaks!$"
+	.string "我是鸟兄弟里的老大。\n还记得我吗？\p没错，\n我就是喜欢鸟喙的那个！$"
+	.string ""
+	.string ""
+	.string ""
 
 FiveIsland_MemorialPillar_Text_ChazRematchIntro::
-	.string "I'm the middle kid of the BIRD\n"
-	.string "BROTHERS.\p"
-	.string "I'm the one that loves wings.\n"
-	.string "Let's battle again!$"
+	.string "我是鸟兄弟里的\n老二。\p我是喜欢翅膀的那个。\n再来对战吧！$"
+	.string ""
+	.string ""
+	.string ""
 
 FiveIsland_MemorialPillar_Text_HaroldRematchIntro::
-	.string "I'm the youngest of the BIRD\n"
-	.string "BROTHERS.\p"
-	.string "I love birds for their down.\n"
-	.string "I didn't think I'd see you again!$"
+	.string "我是鸟兄弟里的\n老幺。\p我喜欢的是鸟的绒毛。\n没想到还能再见到你！$"
+	.string ""
+	.string ""
+	.string ""
 
 SixIsland_OutcastIsland_Text_TylorRematchIntro::
-	.string "I'm still having no luck at all.\n"
-	.string "A battle'd be a change of pace!$"
+	.string "我还是一点运气都没有。\n来场对战换换心情吧！$"
+	.string ""
 
 SixIsland_OutcastIsland_Text_MymoRematchIntro::
-	.string "Gasp… Gasp…\p"
-	.string "I swam here from SIX ISLAND's port\n"
-	.string "in one go again.$"
+	.string "呼……呼……\p我又从第六岛的港口\n一口气游到了这里。$"
+	.string ""
+	.string ""
 
 SixIsland_OutcastIsland_Text_NicoleRematchIntro::
-	.string "You always come along while I'm\n"
-	.string "swimming.$"
+	.string "你总是在我游泳的时候\n过来呢。$"
+	.string ""
 
 SixIsland_OutcastIsland_Text_AvaRematchIntro::
-	.string "AVA: Let's have another\n"
-	.string "two-on-two marine battle today!$"
+	.string "艾娃：今天也来一场\n2对2的海上对战吧！$"
+	.string ""
 
 SixIsland_OutcastIsland_Text_GebRematchIntro::
-	.string "GEB: My big sister and I are way\n"
-	.string "tougher than before!$"
+	.string "盖布：我和姐姐\n比以前强多了！$"
+	.string ""
 
 SixIsland_GreenPath_Text_JaclynRematchIntro::
-	.string "…Huh?\p"
-	.string "I envision my house, but TELEPORT\n"
-	.string "always brings me here!$"
+	.string "……咦？\p我明明想着自己的家，\n瞬间移动却总是把我带到这里！$"
+	.string ""
+	.string ""
 
 SixIsland_WaterPath_Text_RoseRematchIntro::
-	.string "Oh, hello.\n"
-	.string "A pleasant breeze is blowing again.$"
+	.string "哦，你好。\n又吹起了舒服的微风呢。$"
+	.string ""
 
 SixIsland_WaterPath_Text_EdwardRematchIntro::
-	.string "Hehehe, I'm practicing in secret\n"
-	.string "again.$"
+	.string "嘿嘿嘿，\n我又在偷偷练习了。$"
+	.string ""
 
 SixIsland_WaterPath_Text_SamirRematchIntro::
-	.string "What, you're sick of seeing\n"
-	.string "SWIMMERS like me?\p"
-	.string "Aww, don't be hatin'!\n"
-	.string "Battle with me again.$"
+	.string "什么，像我这样的游泳选手\n你已经看腻了？\p哎呀，别这么嫌弃嘛！\n再和我对战一场吧。$"
+	.string ""
+	.string ""
+	.string ""
 
 SixIsland_WaterPath_Text_DeniseRematchIntro::
-	.string "Sigh…\n"
-	.string "My boyfriend's busy again…$"
+	.string "唉……\n我男朋友又在忙了……$"
+	.string ""
 
 SixIsland_WaterPath_Text_EarlRematchIntro::
-	.string "Come on, tell me, where are the\n"
-	.string "mountains around these parts?$"
+	.string "快告诉我吧，\n这一带哪里有山啊？$"
+	.string ""
 
 SixIsland_WaterPath_Text_MiuRematchIntro::
-	.string "MIU: Hello, Pokémon!\n"
-	.string "It's time to play again!$"
+	.string "米优：你好呀，宝可梦！\n又到玩耍的时间啦！$"
+	.string ""
 
 SixIsland_WaterPath_Text_MiaRematchIntro::
-	.string "MIA: Hello, Pokémon!\n"
-	.string "It's time to battle again!$"
+	.string "米娅：你好呀，宝可梦！\n又到对战的时间啦！$"
+	.string ""
 
 SixIsland_RuinValley_Text_StanlyRematchIntro::
-	.string "There appear to be many secrets\n"
-	.string "still unsolved in this world.$"
+	.string "这个世界上似乎还有\n许多未解开的秘密。$"
+	.string ""
 
 SixIsland_RuinValley_Text_FosterRematchIntro::
-	.string "Hi, didn't we meet before?\n"
-	.string "What compelled you to come back?$"
+	.string "嗨，我们以前见过吧？\n是什么让你又回来了？$"
+	.string ""
 
 SixIsland_RuinValley_Text_LarryRematchIntro::
-	.string "It's been said that there are\n"
-	.string "mysterious stones on this island.\p"
-	.string "Have you discovered anything since\n"
-	.string "we last met?$"
+	.string "据说这座岛上\n有神秘的石头。\p上次见面以后，\n你有什么发现吗？$"
+	.string ""
+	.string ""
+	.string ""
 
 SixIsland_RuinValley_Text_DarylRematchIntro::
-	.string "A rematch with you, so high up!$"
+	.string "在这么高的地方和你再战一场！$"
 
 SixIsland_RuinValley_Text_HectorRematchIntro::
-	.string "I'm pretty familiar with the land\n"
-	.string "around these parts.$"
+	.string "我对这一带的地形\n相当熟悉。$"
+	.string ""
 
 SevenIsland_TrainerTower_Text_DarioRematchIntro::
-	.string "I sensed your approach.$"
+	.string "我感应到你来了。$"
 
 SevenIsland_TrainerTower_Text_RodetteRematchIntro::
-	.string "Somewhere on this island, peculiar\n"
-	.string "Pokémon are sleeping.$"
+	.string "在这座岛的某个地方，\n沉睡着奇特的宝可梦。$"
+	.string ""
 
 SevenIsland_SevaultCanyon_Entrance_Text_MiahRematchIntro::
-	.string "Kyahaha!\p"
-	.string "Coming back won't change a thing.\n"
-	.string "I'll flick you away effortlessly!$"
+	.string "呀哈哈！\p再来多少次也是一样的。\n我会轻轻松松把你弹飞！$"
+	.string ""
+	.string ""
 
 SevenIsland_SevaultCanyon_Entrance_Text_MasonRematchIntro::
-	.string "Howdy! You're a member of my\n"
-	.string "fan club, isn't that right?$"
+	.string "你好啊！\n你是我粉丝俱乐部的成员，对吧？$"
+	.string ""
 
 SevenIsland_SevaultCanyon_Entrance_Text_NicolasRematchIntro::
-	.string "This island is too spread out…\n"
-	.string "Patrolling the place is a drag…$"
+	.string "这座岛也太大了……\n巡逻起来真麻烦……$"
+	.string ""
 
 SevenIsland_SevaultCanyon_Entrance_Text_MadelineRematchIntro::
-	.string "I don't forgive people who abuse\n"
-	.string "Pokémon!$"
+	.string "虐待宝可梦的人，\n我绝不原谅！$"
+	.string ""
 
 SevenIsland_SevaultCanyon_Entrance_Text_EveRematchIntro::
-	.string "EVE: I'll team up with JON and\n"
-	.string "battle together again.$"
+	.string "伊芙：我会再和乔恩搭档，\n一起对战。$"
+	.string ""
 
 SevenIsland_SevaultCanyon_Entrance_Text_JonRematchIntro::
-	.string "JON: When I'm with EVE, it feels\n"
-	.string "like we could never lose, not ever.$"
+	.string "乔恩：和伊芙在一起的时候，\n就觉得我们永远、永远都不会输。$"
+	.string ""
 
 SevenIsland_SevaultCanyon_Text_CyndyRematchIntro::
-	.string "Let's have another battle.\n"
-	.string "My conditioning's in top form!$"
+	.string "再来对战一场吧。\n我现在的状态好极了！$"
+	.string ""
 
 SevenIsland_SevaultCanyon_Text_EvanRematchIntro::
-	.string "It doesn't matter if you happen to\n"
-	.string "have the strongest Pokémon…\p"
-	.string "It doesn't mean a thing if you don't\n"
-	.string "know how to use them properly!$"
+	.string "就算你碰巧拥有\n最强的宝可梦……\p不懂得如何用好它们，\n也是毫无意义的！$"
+	.string ""
+	.string ""
+	.string ""
 
 SevenIsland_SevaultCanyon_Text_JacksonRematchIntro::
-	.string "I work to protect the environment.\n"
-	.string "In turn, nature protects me!$"
+	.string "我致力于保护环境。\n而大自然也会保护我！$"
+	.string ""
 
 SevenIsland_SevaultCanyon_Text_KatelynRematchIntro::
-	.string "Every time we meet, you have those\n"
-	.string "snazzy shoes on.$"
+	.string "每次见面，\n你都穿着那双漂亮的鞋子呢。$"
+	.string ""
 
 SevenIsland_SevaultCanyon_Text_LeroyRematchIntro::
-	.string "You must have gotten tougher.\n"
-	.string "Let me battle you, please!$"
+	.string "你一定变得更强了吧。\n请和我对战吧！$"
+	.string ""
 
 SevenIsland_SevaultCanyon_Text_MichelleRematchIntro::
-	.string "I was given the best possible\n"
-	.string "education to become this strong.\p"
-	.string "I won't lose this time.\n"
-	.string "Absolutely not!$"
+	.string "为了变得这么强，\n我接受了最好的教育。\p这次我不会输的。\n绝对不会！$"
+	.string ""
+	.string ""
+	.string ""
 
 SevenIsland_SevaultCanyon_Text_LexRematchIntro::
-	.string "LEX: My darling NYA, together\n"
-	.string "we will win for certain!$"
+	.string "莱克斯：我亲爱的妮娅，\n我们联手一定能赢！$"
+	.string ""
 
 SevenIsland_SevaultCanyon_Text_NyaRematchIntro::
-	.string "NYA: I won't drag down my mentor\n"
-	.string "LEX! We're going to win!$"
+	.string "妮娅：我不会拖莱克斯师父的\n后腿的！我们会赢的！$"
+	.string ""
 
 SevenIsland_TanobyRuins_Text_BrandonRematchIntro::
-	.string "Have you discovered anything about\n"
-	.string "this stone chamber?$"
+	.string "关于这间石室，\n你有什么发现吗？$"
+	.string ""
 
 SevenIsland_TanobyRuins_Text_BenjaminRematchIntro::
-	.string "A mystic Pokémon is said to sleep\n"
-	.string "inside here.$"
+	.string "据说有神秘的宝可梦\n沉睡在这里面。$"
+	.string ""
 
 SevenIsland_TanobyRuins_Text_EdnaRematchIntro::
-	.string "My teacher is showing me how to\n"
-	.string "paint some more.$"
+	.string "老师正在教我\n更多画画的方法。$"
+	.string ""
 
 SevenIsland_TanobyRuins_Text_CliffordRematchIntro::
-	.string "Today, in addition to our lesson,\n"
-	.string "we came to see the chamber again.$"
+	.string "今天除了上课之外，\n我们又来看这间石室了。$"
+	.string ""

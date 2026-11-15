@@ -19,15 +19,15 @@ EcruteakCity_Mart_EventScript_Granny::
 	end
 
 EcruteakMart_Text_SuperNerd:
-	.string "My Eevee evolved into an Espeon.\p"
-	.string "But my friend's Eevee turned into\n"
-	.string "an Umbreon.\p"
-	.string "I wonder why? We both were raising\n"
-	.string "our Eevee in the same way…$"
+	.string "我的伊布进化成了\n太阳伊布。\p可是朋友的伊布\n却进化成了月亮伊布。\p明明都是用同样的方法\n养大的……为什么？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 EcruteakMart_Text_Granny:
-	.string "If you use Revive, a Pokémon that's\n"
-	.string "fainted will wake right up.$"
+	.string "给濒死的宝可梦用活力碎片，\n它马上就会醒过来哦。$"
+	.string ""
 
 Ecruteak_Mart2::
 	lock
@@ -52,7 +52,7 @@ Ecruteak2:
 	.2byte ITEM_NONE
 
 Ecruteak_Mart2_Text_0:
-	.string "Welcome! How may I help you?$"
+	.string "欢迎光临！有什么可以帮您？$"
 
 Ecruteak_Mart2_Text_1:
-	.string "Come back soon!$"
+	.string "欢迎再来！$"

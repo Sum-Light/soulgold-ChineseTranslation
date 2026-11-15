@@ -30,19 +30,16 @@ GabiteTrade_NotRequested::
 
 
 Blackthorn_GabiteTrade_Text_0:
-	.string "How has my Gabite been?$"
+	.string "我的尖牙陆鲨过得还好吗？$"
 
 Blackthorn_GabiteTrade_Text_1:
-	.string "Hello. I gather Dragon-type Pokémon.\n"
-	.string "Do you have Dragonair? I'm willing to \l"
-	.string "trade it for Gabite.$"
+	.string "你好。我在收集龙属性宝可梦。\n你有哈克龙吗？我愿意用它\l交换尖牙陆鲨。$"
 
 Blackthorn_GabiteTrade_Text_2:
-	.string "Thank you very much.$"
+	.string "非常感谢。$"
 
 GabiteTrade_Declined_Text_0:
-	.string "If you find one, come trade with me!$"
+	.string "找到的话，就来和我交换吧！$"
 
 GabiteTrade_NotRequested_Text_0:
-	.string "That doesn't look like a Dragonair to\n"
-	.string "me.$"
+	.string "那看起来不像是哈克龙啊。$"

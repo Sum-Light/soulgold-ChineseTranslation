@@ -29,18 +29,18 @@ VioletCity_Mart_EventScript_Rocker::
 	end
 	
 VioletCity_Mart_Text_Granny:
-	.string "When you first catch a Pokémon,\n"
-	.string "it may be weak.\p"
-	.string "But it will eventually grow to\n"
-	.string "be strong.\p"
-	.string "It's important to treat Pokémon\n"
-	.string "with love.$"
+	.string "刚收服的宝可梦，\n一开始也许很弱。\p但它总有一天会\n变得强大。\p用爱心对待宝可梦\n是很重要的。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 VioletCity_Mart_Text_CooltrainerM:
-	.string "Pokémon can hold items like\n"
-	.string "Potion and Antidote.\p"
-	.string "But they don't appear to know\n"
-	.string "how to use man-made items.$"
+	.string "宝可梦能携带伤药\n和解毒药之类的道具。\p但它们好像不懂得\n怎么使用人造的道具。$"
+	.string ""
+	.string ""
+	.string ""
 
 Violetcity_Mart2::
 	lock
@@ -63,7 +63,7 @@ Violetcity2:
 	.2byte ITEM_NONE
 
 Violetcity_Mart2_Text_0:
-	.string "Welcome! How may I help you?$"
+	.string "欢迎光临！您需要些什么？$"
 
 Violetcity_Mart2_Text_1:
-	.string "Come back soon!$"
+	.string "欢迎您再来！$"

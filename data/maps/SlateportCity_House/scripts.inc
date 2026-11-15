@@ -10,14 +10,14 @@ SlateportCity_House_EventScript_Girl::
 	end
 
 SlateportCity_House_Text_NatureToDoWithStatGains:
-	.string "My Pokémon has a Hasty nature.\p"
-	.string "It has higher Speed compared to\n"
-	.string "my other Pokémon.\p"
-	.string "Maybe their nature has something to\n"
-	.string "do with the stat gains of Pokémon.$"
+	.string "我的宝可梦是急躁性格。\p比起我的其它宝可梦，\n它的速度比较快。\p也许宝可梦的性格\n也会影响到它们的成长。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SlateportCity_House_Text_MustBeGoingToBattleTent:
-	.string "You're a Trainer, aren't you?\p"
-	.string "Since you came to Slateport City,\n"
-	.string "you must be going to the Battle Tent.$"
+	.string "你是个训练家对吧？\p你来凯那市\n一定是想去对战帐篷。$"
+	.string ""
+	.string ""
 

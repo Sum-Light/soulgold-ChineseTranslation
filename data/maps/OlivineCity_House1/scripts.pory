@@ -9,16 +9,12 @@ script Olivine_VoltorbTrade {
     lock
     faceplayer
     if (flag(FLAG_OLIVINE_NPC_TRADE_COMPLETED)) {
-        msgbox("Hi, how is my old Voltorb doing?")
+        msgbox("我那只霹雳电球还好吗？")
     } else {
-        ingame_trade(INGAME_TRADE_VOLTORB, "I collect Pokémon
-                                         Do you have a Mareanie?
-                                         Want to trade it for my
-                                         Hisuian Voltorb?", 
+        ingame_trade(INGAME_TRADE_VOLTORB, "我在收集宝可梦。\n你有好坏星吗？\l愿意用它换我的\l洗翠的霹雳电球吗？", 
                                          VoltorbTrade_Declined,
                                          VoltorbTrade_NotRequested,
-                                         "Yay! I got myself a Mareanie!
-                                        Voltorb, you take care!")
+                                         "太好了！我换到好坏星了！\n霹雳电球，你要保重哦！")
         setflag(FLAG_OLIVINE_NPC_TRADE_COMPLETED)
     }
     release
@@ -26,14 +22,13 @@ script Olivine_VoltorbTrade {
 }
 
 script VoltorbTrade_Declined {
-    msgbox("You don't want to trade? Aww...")
+    msgbox("你不愿意交换？哎呀……")
     release
     end                                 
 }
 
 script VoltorbTrade_NotRequested {
-    msgbox("Uh, no, I don't think so.
-            That doesn't look like a Mareanie.")
+    msgbox("呃，不行，我不换。\n那看起来不像好坏星。")
     release
     end
 }

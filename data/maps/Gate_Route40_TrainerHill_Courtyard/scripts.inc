@@ -24,15 +24,10 @@ BattleTowerTunnelFrustrationNPC_2:
 
 
 BattleTowerGuard_Text_0:
-	.string "Ahead is the Battle Tower, where strong\n"
-	.string "trainers gather.$"
+	.string "前面是对战塔，\n强大的训练家都聚集在那里。$"
 
 BattleTowerTunnelFrustrationNPC_Text_0:
-	.string "I lost on first round of the Battle\n"
-	.string "Tower, I need to release my frustration\l"
-	.string "by giving you this.$"
+	.string "我在对战塔第一轮就输了，\n得把郁闷发泄出来，这个给你。$"
 
 BattleTowerTunnelFrustrationNPC_Text_1:
-	.string "Frustration deals more damage the less\n"
-	.string "your Pokémon likes you. It can happen\l"
-	.string "if you keep losing battles like me!$"
+	.string "迁怒的威力，会随宝可梦\n对你的好感降低而提高。\l老像我这样输，\l就会变成这样！$"

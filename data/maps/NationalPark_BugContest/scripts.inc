@@ -158,61 +158,61 @@ NationalPark_BugContest_Movement_AttendantSide:
 	step_end
 
 NationalPark_BugContest_Text_Trash:
-	.string "Nothing here.$"
+	.string "这里什么都没有。$"
 
 NationlParkBugContest_Text_EnjoyTheContest:
-	.string "Attendant: Enjoy the contest!$"
+	.string "接待员：请享受捕虫大赛吧！$"
 
 NationalParkBugContest_Text_Attendant:
-	.string "Attendant: Would you like to end\n"
-	.string "the contest?$"
+	.string "接待员：您要结束\n捕虫大赛吗？$"
+	.string ""
 
 NationalParkBugContest_Text_ContestantBelinda:
-	.string "Belinda: I'm going to win!\n"
-	.string "Don't bother me.$"
+	.string "贝琳达：我要拿下冠军！\n别来妨碍我。$"
+	.string ""
 
 NationalParkBugContest_Text_Contestant2A:
-	.string "Ed: My Parasect puts Pokémon to\n"
-	.string "sleep with Spore.$"
+	.string "志扬：我的派拉斯特\n会用蘑菇孢子让宝可梦沉睡。$"
+	.string ""
 
 NationalParkBugContest_Text_ContestantShaun:
-	.string "Shaun: I'm not concerned about\n"
-	.string "winning.\p"
-	.string "I'm just looking for rare Pokémon.$"
+	.string "肖恩：我对输赢\n不太在意。\p我只是在找稀有的宝可梦。$"
+	.string ""
+	.string ""
 
 NationalParkBugContest_Text_Contestant6A:
-	.string "Barry: You should weaken bug\n"
-	.string "Pokémon first,\p"
-	.string "then throw a Ball.$"
+	.string "勇毅：要先把虫宝可梦\n削弱，\p然后再扔球。$"
+	.string ""
+	.string ""
 
 NationalParkBugContest_Text_Contestant7A:
-	.string "Cindy: I love bug Pokémon.\p"
-	.string "I guess you must like them too.$"
+	.string "晓慧：我最喜欢虫宝可梦了。\p我想你一定也喜欢吧。$"
+	.string ""
 
 NationalParkBugContest_Text_Contestant8A:
-	.string "Josh: I've been collecting bug\n"
-	.string "Pokémon since I was just a baby.\p"
-	.string "There's no way I'm going to lose!$"
+	.string "智道：我从婴儿时期起\n就一直在收集虫宝可梦。\p我绝不可能输！$"
+	.string ""
+	.string ""
 
 NationalParkBugContest_Text_Contestant9A:
-	.string "Samuel: If you've got the time to\n"
-	.string "chat, go find some bug Pokémon.$"
+	.string "幸太：有闲工夫聊天，\n还不如去找虫宝可梦。$"
+	.string ""
 
 NationalParkBugContest_Text_Contestant10A:
-	.string "Kipp: I've studied about bug\n"
-	.string "Pokémon a lot.\p"
-	.string "I'm going to win for sure.$"
+	.string "智之：我研究了很多\n关于虫宝可梦的知识。\p我一定能赢。$"
+	.string ""
+	.string ""
 
 NationalParkBugContest_Text_Sign_RelaxationSquare:
-	.string "Relaxation Square\n"
-	.string "National Park$"
+	.string "休息广场\n自然公园$"
+	.string ""
 
 NationalParkBugContest_Text_Sign_BattleNotice:
-	.string "What is this notice?\p"
-	.string "Please battle only in the grass.\p"
-	.string "National Park Warden's Office$"
+	.string "这是什么告示？\p请只在草丛中\n进行对战。\p自然公园管理处$"
+	.string ""
+	.string ""
 
 NationalParkBugContest_Text_TrainerTips:
-	.string "The National Park has different\n"
-	.string "Pokémon during the Bug-Catching\l"
-	.string "Contest.$"
+	.string "捕虫大赛期间，自然公园里\n出现的宝可梦会\l有所不同。$"
+	.string ""
+	.string ""

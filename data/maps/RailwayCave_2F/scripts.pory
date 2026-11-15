@@ -9,16 +9,19 @@ mapscripts RailwayCave_2F_MapScripts {
 
 raw `
 RailwayCave_BrailleRegisteel:
-	.braille "THE ONE WHO\n"
-	.braille "CLANGS THE\n"
-	.braille "SCALES.$"
+	.string "杖影随尾舞，\n"
+	.string "尾振百鳞鸣。\l"
+	.string "鳞声如金铁，\l"
+	.string "甲坚护其身。\l"
+	.string "龙吟震四方。$"
 `
 
 script RailwayCave_SusDoor {
     lock
-    msgbox("Something is carved on the door...")
+    msgbox("门上刻着什么……")
     closemessage
-    braillemsgbox(RailwayCave_BrailleRegisteel)
+    msgbox(RailwayCave_BrailleRegisteel, MSGBOX_DEFAULT)
+    closemessage
     checkspecies(SPECIES_KOMMO_O)
     if (var(VAR_RESULT) == TRUE) {
         setflag(FLAG_SUS_RAILWAY_DOOR)
@@ -32,38 +35,25 @@ script RailwayCave_SusDoor {
 }
 
 script RailwayCave_TrainerBob {
-        trainerbattle_single(TRAINER_RAILWAYBOB, "Did you know? Digletts and Dugtrios
-                                                  helped us dig these tunnels.",
-                                            "Did you know? It still took many years
-                                            to complete!")
-        msgbox("Did you know? This crag is much harder
-                than the average mountain rock. 
-                It has a lot of metal mixed into it, 
-                making digging take more time.", MSGBOX_AUTOCLOSE)
+        trainerbattle_single(TRAINER_RAILWAYBOB, "你知道吗？地鼠和三地鼠\n帮我们挖了这些隧道。",
+                                            "你知道吗？可即便如此，\n也花了好多年才完成！")
+        msgbox("你知道吗？这里的岩壁\n比普通的山岩硬多了。\l里面混了很多金属，\l挖起来特别费时间。", MSGBOX_AUTOCLOSE)
 }
 
 script RailwayCave_TrainerMason {
-        trainerbattle_single(TRAINER_RAILWAYMASON, "Ow! Something latched onto my foot!",
-                                            "Oh, it was only my Stunfisk!")
-        msgbox("Stunfisk like to burrow into the ground
-                here. They seem to enjoy the
-                atmosphere.", MSGBOX_AUTOCLOSE)
+        trainerbattle_single(TRAINER_RAILWAYMASON, "哇！有东西咬住我的脚了！",
+                                            "哦，原来是我的泥巴鱼！")
+        msgbox("泥巴鱼喜欢钻到这里的\n地下。它们似乎很中意\l这儿的气氛。", MSGBOX_AUTOCLOSE)
 }
 
 script RailwayCave_TrainerYoda {
-    trainerbattle_single(TRAINER_RAILWAYYODA, "Hya! The electricity running though the
-                                               air is great for my muscles!",
-                                            "We must keep training!")
-        msgbox("The jolts of electricity that run here
-                are great for relaxing the muscles
-                after a long workout!", MSGBOX_AUTOCLOSE)
+    trainerbattle_single(TRAINER_RAILWAYYODA, "哈！空气里流动的电流，\n对我的肌肉很有好处！",
+                                            "我们还得继续锻炼！")
+        msgbox("这里流动的电流，对长时间\n锻炼后的肌肉放松\l很有好处！", MSGBOX_AUTOCLOSE)
 }
 
 script RailwayCave_TrainerSanada {
-    trainerbattle_single(TRAINER_RAILWAYSANADA, "This is the maintenance tunnel for
-                                                the train tracks, how did you get in?",
-                                            "I'm reporting this to my superiors!")
-        msgbox("Just because you can run into
-                any place you want with your Pokémon
-                doesn't mean you should!", MSGBOX_AUTOCLOSE)
+    trainerbattle_single(TRAINER_RAILWAYSANADA, "这里是铁轨的维护隧道，\n你到底是怎么进来的？",
+                                            "我要把这事报告给上级！")
+        msgbox("就算你能带着宝可梦\n闯进任何地方，\l也不代表你就可以这么做！", MSGBOX_AUTOCLOSE)
 }

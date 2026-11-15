@@ -239,43 +239,43 @@ SSAqua_1F_Movement_GrandpaLeave:
 	step_end
 
 SSAqua_1F_Text_Sailor1_ToVermilion:
-    .string "Fast Ship S.S.Aqua is en route to\n"
-    .string "Vermilion City.\p"
-    .string "We will make an announcement when\n"
-    .string "we arrive.$"
+    .string "高速船水流号\n正在前往枯叶市。\p抵达时我们会\n广播通知各位。$"
+    .string ""
+    .string ""
+    .string ""
 
 SSAqua_1F_Text_Sailor1_ToOlivine:
-    .string "Fast Ship S.S.Aqua is en route to\n"
-    .string "Olivine City.\p"
-    .string "We will make an announcement when\n"
-    .string "we arrive.$"
+    .string "高速船水流号\n正在前往浅葱市。\p抵达时我们会\n广播通知各位。$"
+    .string ""
+    .string ""
+    .string ""
 
 SSAqua_1F_Text_Sailor2_FirstTime:
-    .string "Here's your cabin.\p"
-    .string "If your Pokémon are hurt, take a\n"
-    .string "nap in the bed.\p"
-    .string "That will heal them.$"
+    .string "您的房间在这里。\p宝可梦要是受了伤，\n就在床上睡一觉吧。\p这样就能治好它们。$"
+    .string ""
+    .string ""
+    .string ""
 
 SSAqua_1F_Text_Sailor3:
-    .string "The passengers are all trainers.\p"
-    .string "They're all itching to battle in\n"
-    .string "their cabins.$"
+    .string "乘客全都是训练家。\p大家都在客房里\n迫不及待地想对战。$"
+    .string ""
+    .string ""
 
 SSAqua_1F_Text_Grandpa:
-    .string "Whoa! Excuse me. I was in a hurry!\p"
-    .string "My granddaughter is missing!\p"
-    .string "She's just a wee girl. If you see\n"
-    .string "her, please let me know!$"
+    .string "哎呀！抱歉抱歉，\n我太着急了！\p我的孙女不见了！\p她还是个小丫头。\n要是见到她，请告诉我！$"
+    .string ""
+    .string ""
+    .string ""
 
 SSAqua_1F_Text_Sailor1_InOlivine:
-    .string "Fast Ship S.S.Aqua has arrived in\n"
-    .string "Olivine City.$"
+    .string "高速船水流号\n已经抵达浅葱市。$"
+    .string ""
 
 SSAqua_1F_Text_Sailor1_InVermilion:
-    .string "Fast Ship S.S.Aqua has arrived in\n"
-    .string "Vermilion City.$"
+    .string "高速船水流号\n已经抵达枯叶市。$"
+    .string ""
 
 
 SSAqua_1F_Text_SailorDoorArrived:
-    .string "We have arrived in Vermilion City.\n"
-    .string "Would you like to disembark?$"
+    .string "我们已经抵达枯叶市。\n您要下船吗？$"
+    .string ""

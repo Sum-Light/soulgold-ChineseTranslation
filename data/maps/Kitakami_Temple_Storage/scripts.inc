@@ -47,24 +47,13 @@ StorageKeeper_5:
 
 
 StorageMienfoo_Text_0:
-	.string "Mienfoo: Foo!$"
+	.string "功夫鼬：呼！$"
 
 StorageKeeper_Text_0:
-	.string "These masks allow Ogerpon to wield\n"
-	.string "powers from other types in battle.$"
+	.string "这些面具能让厄诡椪在战斗中\n运用其他属性的力量。$"
 
 StorageKeeper_Text_1:
-	.string "My task is to manage the sacred relics\n"
-	.string "of Kitakami. \p"
-	.string "Our villages guardian, Ogerpon once\n"
-	.string "entrusted powerful relics to us.\p"
-	.string "We've been guarding them ever since\n"
-	.string "until Ogerpon once again requires\l"
-	.string "them.$"
+	.string "我的职责是看管北上的\n神圣宝物。\p我们村子的守护者厄诡椪，\n曾把强大的宝物托付给我们。\p我们一直守护着它们，\n直到厄诡椪再次需要。$"
 
 StorageKeeper_Text_2:
-	.string "Could it be...? Ogerpon has chosen you\n"
-	.string "as it's partner?\p"
-	.string "Incredible!\p"
-	.string "In that case, you should be the one\n"
-	.string "holding its sacred relics.$"
+	.string "难道说……？厄诡椪\n选你当它的搭档了？\p太不可思议了！\p既然如此，这些神圣宝物\n就该由你来保管。$"

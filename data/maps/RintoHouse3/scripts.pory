@@ -1,34 +1,27 @@
 mapscripts RintoHouse3_MapScripts {}
 
 script RintoHouse3_Guard {
-    msgbox("Downstairs is reserved for researchers
-            only.", MSGBOX_NPC)
+    msgbox("楼下只限研究人员\n进入。", MSGBOX_NPC)
 }
 
 script RintoHouse3_ResearchGuide {
-    msgbox("You can see our excavation results
-            here!", MSGBOX_NPC)
+    msgbox("您可以在这里看到\n我们的发掘成果！", MSGBOX_NPC)
 }
 
 script RintoHouse3_Hiker {
-    msgbox("We've made a lot of discoveries near the
-            pyramid, but no one has been able to get
-            in.", MSGBOX_NPC)
+    msgbox("我们在金字塔附近有不少\n发现，可谁也进不去。", MSGBOX_NPC)
 }
 
 
 script RintoHouse3_Researcher {
-    msgbox("The door to the pyramid...
-
-            It's made of a strange metal that can
-            repel even our Excadrill's attacks.", MSGBOX_NPC)
+    msgbox("通往金字塔的那扇门……\p它用一种奇怪的金属制成，\n连龙头地鼠的攻击都能弹开。", MSGBOX_NPC)
 }
 
 script RintoHouse3_Excadrill {
     lock
     faceplayer
     playmoncry(SPECIES_EXCADRILL, CRY_MODE_NORMAL)
-    msgbox("Excadrill: Caaaaaaaa!")
+    msgbox("龙头地鼠：咔啊啊啊啊！")
     waitmoncry
     release
     end
@@ -38,25 +31,12 @@ script RintoHouse3_TraderResearcher {
     lock
     faceplayer
     if (flag(FLAG_RINTO_TRADE_COMPLETE)) {
-        msgbox("Thanks to your Tinkaton, we may
-                finally be able to break through one
-                of the pyramid's walls!")
+        msgbox("多亏了你的巨锻匠，我们\n也许终于能打穿金字塔的墙！")
     } else {
-        ingame_trade(INGAME_TRADE_MELTAN, "I'm researching alternative ways to
-                                           get into the pyramid to the west.
-
-                                           Would you happen to have a Tinkaton?
-
-                                           With its powerful hammer strikes, we
-                                           might be able to break through one of
-                                           the pyramid's walls.
-
-                                           I can offer you this rare Meltan in
-                                           return. What do you say?",
+        ingame_trade(INGAME_TRADE_MELTAN, "我正在研究别的进入\n西边金字塔的办法。\p你手头会不会正好有只巨锻匠？\p它那威力十足的锤击，也许\n能打穿金字塔的一面墙。\p作为回报，我可以送你这只\n稀有的美录坦。怎么样？",
                                          MeltanTrade_Declined,
                                          MeltanTrade_NotRequested,
-                                         "Amazing! Thank you on behalf of the
-                                          whole research team!")
+                                         "太棒了！我代表整个研究\n团队谢谢你！")
         setflag(FLAG_RINTO_TRADE_COMPLETE)
     }
     release
@@ -64,43 +44,29 @@ script RintoHouse3_TraderResearcher {
 }
 
 script MeltanTrade_Declined {
-    msgbox("Oh... Okay, then...
-
-            I guess I'll have to ask someone to
-            find and raise one from the Union Cave...")
+    msgbox("哦……这样啊……\p那我只好请人去互连洞里\n找一只来养了……")
     release
     end
 }
 
 script MeltanTrade_NotRequested {
-    msgbox("That doesn't look like a Tinkaton to
-            me.")
+    msgbox("那看起来可不像\n巨锻匠啊。")
     release
     end
 }
 
 script RintoHouse3_Plaque {
-    msgbox("It appears to be some sort of a
-            Fossil excavated nearby.", MSGBOX_SIGN)
+    msgbox("这似乎是附近发掘出的\n某种化石。", MSGBOX_SIGN)
 }
 
 script RintoHouse3_PlaqueBall {
-    msgbox("An ancient Poké Ball. 
-    
-            It looks much like the ones
-            used in ancient Hisui.", MSGBOX_SIGN)
+    msgbox("一只古老的精灵球。\p它和古代洗翠地区\n使用的很像。", MSGBOX_SIGN)
 }
 
 script RintoHouse3_Bookshelf {
-    msgbox("A Bookshelf filled with history books.
-            Some of them look ancient!", MSGBOX_SIGN)
+    msgbox("装满历史书的书架。\n有些看起来非常古老！", MSGBOX_SIGN)
 }
 
 script RintoHouse3_Painting {
-    msgbox("A painting depicting an artist's 
-            interpretation of this land a thousand 
-            years ago.
-            
-            You have a hard time making out the
-            signature.", MSGBOX_SIGN)
+    msgbox("一幅描绘千年前这片土地\n的画家想象的画。\p你很难辨认出\n画上的落款。", MSGBOX_SIGN)
 }

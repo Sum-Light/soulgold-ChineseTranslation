@@ -191,46 +191,37 @@ Inn_LuxrayHead_1:
 
 
 Inn_RuinedPiano_Text_0:
-	.string "The piano has a sound, but\n"
-	.string "something feels off.$"
+	.string "钢琴能弹出声音，\n但总觉得哪里不对。$"
 
 Inn_RuinedPiano_Text_1:
-	.string "One of the notes is loose now.\p"
-	.string "...\p"
-	.string "Under it you find a small key!$"
+	.string "有个琴键松动了。\p……\p下面藏着一把小钥匙！$"
 
 Inn_RuinedPiano_Text_2:
-	.string "{PLAYER} obtained a small key!$"
+	.string "{PLAYER}得到了小钥匙！$"
 
 Inn_RuinedPiano_Text_3:
-	.string "Nothing of note is left in the piano.$"
+	.string "钢琴里已经没剩下什么了。$"
 
 Inn_RuinedDrums_Text_0:
-	.string "The drums are covered in dust.$"
+	.string "架子鼓上落满了灰尘。$"
 
 Inn_RuinedSafe_Text_0:
-	.string "The safe is locked tight.$"
+	.string "保险箱锁得严严实实。$"
 
 Inn_RuinedSafe_Text_1:
-	.string "The key you found fits perfectly into\n"
-	.string "the lock of the safe.\p"
-	.string "Inside the safe seems to be a hidden\n"
-	.string "tunnel dug through the wall.$"
+	.string "你找到的钥匙正好\n插进保险箱的锁里。\p保险箱里面似乎有\n一条挖穿墙壁的密道。$"
 
 Inn_RuinedSafe_Text_2:
-	.string "Enter?$"
+	.string "要进去吗？$"
 
 Inn_RuinedTelephone_Text_0:
-	.string "An old telephone. The dial\n"
-	.string "appears to be missing.$"
+	.string "一部老式电话。\n拨号盘好像不见了。$"
 
 Inn_RuinedTelephone_Text_1:
-	.string "You fit the dial to the telephone.\p"
-	.string "...\p"
-	.string "It fits perfectly!$"
+	.string "你把拨号盘装到电话上。\p……\p装得严丝合缝！$"
 
 Inn_RuinedTelephone_Text_2:
-	.string "Which number should you try to dial?$"
+	.string "要拨哪个号码？$"
 
 Inn_RuinedTelephone_Text_3:
 	.string "4114$"
@@ -242,44 +233,25 @@ Inn_RuinedTelephone_Text_5:
 	.string "4141$"
 
 Inn_RuinedTelephone_Text_6:
-	.string "There's no response...$"
+	.string "没有回应……$"
 
 Inn_RuinedTelephone_Text_7:
-	.string "The telephone is unresponsive.$"
+	.string "电话没有反应。$"
 
 Inn_RuinedDoor_Text_0:
-	.string "The door is locked tight, maybe there's\n"
-	.string "a key somewhere?$"
+	.string "门锁得紧紧的，\n说不定钥匙就在哪里？$"
 
 Inn_NotesOnWall_Text_0:
-	.string "The notes on the wall seem to detail\n"
-	.string "the floor plan of the inn. \p"
-	.string "There's a detailed marking for all the\n"
-	.string "furniture.\p"
-	.string "11 Wall Lamps\n"
-	.string "4 Large Windows\l"
-	.string "4 Sawsbuck Trophies\p"
-	.string "...$"
+	.string "墙上的图纸似乎是\n旅馆的平面图。\p所有家具都标得\n清清楚楚。\p壁灯11盏\n大窗户4扇\l萌芽鹿标本4个\p……$"
 
 Inn_NotesOnWall_Text_1:
-	.string "11 Wall Lamps\n"
-	.string "4 Large Windows\l"
-	.string "4 Sawsbuck Trophies\p"
-	.string "...$"
+	.string "壁灯11盏\n大窗户4扇\l萌芽鹿标本4个\p……$"
 
 Inn_LuxrayHead_Text_0:
-	.string "This trophy was not accounted for\n"
-	.string "in the floor plan. \p"
-	.string "You take a closer look...\p"
-	.string "In the mouth of the trophy,\n"
-	.string "there's a dial.$"
+	.string "平面图上没有\n这个标本。\p你凑近看了看……\p标本的嘴里，\n有一个拨号盘。$"
 
 Inn_LuxrayHead_Text_1:
-	.string "{PLAYER} obtained a Dial!$"
+	.string "{PLAYER}得到了拨号盘！$"
 
 Inn_LuxrayHead_Text_2:
-	.string "A stuffed trophy depicting a head\n"
-	.string "of a Pokémon.\p"
-	.string "...\p"
-	.string "It feels like the eyes are following \n"
-	.string "you.$"
+	.string "一只宝可梦头部的\n填充标本。\p……\p总觉得那双眼睛\n在盯着你。$"

@@ -12,27 +12,21 @@ script NewBarkTown_RivalsMom {
     lock
     faceplayer
     checkplayergender
-    msgbox("Oh, hello {PLAYER}!")
+    msgbox("哦，你好，{PLAYER}！")
     if (var(VAR_RESULT) == MALE) {
         if (var(VAR_RIVAL_STATE) >= 4 && var(VAR_RIVAL_STATE) < 12) {
-            msgbox("Crystal is currently out, if you were
-                    looking for her.")
+            msgbox("如果是来找克丽丝的话，\n她现在出门了。")
                     release
                     end
         }
-        msgbox("Crystal is currently upstairs if
-                you are looking for her. She is playing
-                with her Pokémon.")
+        msgbox("如果是来找克丽丝的话，她现在\n在楼上。她正在和她的宝可梦\l一起玩。")
     } else {
         if (var(VAR_RIVAL_STATE) >= 4 && var(VAR_RIVAL_STATE) < 12) {
-            msgbox("Gold is currently out, if you were
-                    looking for him.")
+            msgbox("如果是来找阿响的话，\n他现在出门了。")
                     release
                     end
         }
-        msgbox("Gold is currently upstairs if
-                you are looking for him. He is playing
-                with his Pokémon.")
+        msgbox("如果是来找阿响的话，他现在\n在楼上。他正在和他的宝可梦\l一起玩。")
     }
     release
     end
@@ -43,13 +37,9 @@ script NewBarkTown_RivalsSister {
     faceplayer
     checkplayergender
     if (var(VAR_RESULT) == MALE) {
-        msgbox("Elm gave my sister a Marill, I hope I
-                can get a Pokémon to play with 
-                soon, too!")
+        msgbox("空木博士送了我姐姐一只玛力露，\n希望我也能快点拥有一只\l可以一起玩的宝可梦！")
     } else {
-        msgbox("Elm gave my brother a Marill, I hope I
-                can get a Pokémon to play with 
-                soon, too!")
+        msgbox("空木博士送了我哥哥一只玛力露，\n希望我也能快点拥有一只\l可以一起玩的宝可梦！")
     }  
     release
     end 
@@ -61,8 +51,7 @@ script NewBarkTownRivalHouseRival {
     faceplayer
     createfieldmugshotrival
     if (var(VAR_RIVAL_STATE) < 12) {
-        msgbox("Hey {PLAYER}! Have you visited
-            any new places?", MSGBOX_NPC)
+        msgbox("嘿，{PLAYER}！你去过\n什么新地方吗？", MSGBOX_NPC)
         release
         end
     }
@@ -70,8 +59,7 @@ script NewBarkTownRivalHouseRival {
         if (var(VAR_POSTGAME_RIVAL_LEGENDARYQ) >= 7 && var(VAR_POSTGAME_RIVAL_LEGENDARYQ) <= 10) {
             checkitem(ITEM_HM_DIVE)
             if (var(VAR_RESULT) == FALSE) {
-                msgbox("You'll need this to explore the
-                        underwater areas of Johto!")
+                msgbox("你要探索城都地区的\n水下区域，就得靠这个！")
                 giveitem(ITEM_HM_DIVE)
                 createfieldmugshotrival
                 checkitem(ITEM_HM_DIVE)
@@ -84,109 +72,38 @@ script NewBarkTownRivalHouseRival {
         if (var(VAR_POSTGAME_RIVAL_LEGENDARYQ) >= 5 && var(VAR_POSTGAME_RIVAL_LEGENDARYQ) <= 10) {
             getcaughtmon(SPECIES_DARKRAI)
             if (var(VAR_RESULT) == FALSE) {
-                msgbox("We still need to investigate Darkrai.
-                        
-                        Take Cresselia to the old inn in
-                        Cherrygrove City!")
+                msgbox("我们还得调查达克莱伊。\p带着克雷色利亚去吉花市的\n那家老旅馆！")
                 release
                 end
             }
         }
         if (var(VAR_POSTGAME_RIVAL_LEGENDARYQ) == 0) {
-            msgbox("Hey {PLAYER}! What's up?
-            
-                    So I've been doing some thinking, and
-                    decided that I want to help Prof. Elm.
-                    with his research into legendary
-                    Pokémon!
-                    
-                    I've started looking into old rumours
-                    and stories that are circulating in
-                    Johto, and I've found my first lead.
-                    
-                    If you got time and happen to be in the
-                    area, would you mind helping me by
-                    checking them out?
-                    
-                    The first legendary I'm researching
-                    right now concerns not one but two
-                    Pokémon actually!
-                    
-                    Have you heard about Darkrai and
-                    Cresselia?
-                    
-                    One causes nightmares while the other
-                    cures them, fascinating!
-                    
-                    I think we should track down Cresselia
-                    first, in order to locate Darkrai.
-                    
-                    I hear that someone living near or in
-                    the Lake of Rage might know more.")
+            msgbox("嘿，{PLAYER}！怎么了？\p我最近想了很多，决定\n要帮空木博士研究传说的宝可梦！\p我开始调查城都地区流传的\n古老传闻和故事，已经找到了\l第一个线索。\p如果你有空、又正好在附近，\n能不能帮我一起去查一查？\p我眼下正在调查的第一只传说\n宝可梦，其实牵涉到两只！\p你听说过达克莱伊和克雷色利亚吗？\p一只带来噩梦，另一只则能治愈\n噩梦，真是奇妙！\p我觉得应该先找到克雷色利亚，\n这样才能找到达克莱伊。\p我听说愤怒之湖附近或湖里\n有人可能知道得更多。")
                     setvar(VAR_POSTGAME_RIVAL_LEGENDARYQ, 1)
                     release
                     end
         }
         if (var(VAR_POSTGAME_RIVAL_LEGENDARYQ) == 1) {
-            msgbox("I hear that someone living near or in
-                    the Lake of Rage might know more.")
+            msgbox("我听说愤怒之湖附近或湖里\n有人可能知道得更多。")
         }
         if (var(VAR_POSTGAME_RIVAL_LEGENDARYQ) == 2) {
-            msgbox("Oh you found Cresselia's location?
-            
-                    That's great! You should catch it
-                    if you're able to!")
+            msgbox("哦，你找到克雷色利亚的\n位置了？\p太好了！要是能捉的话，\n你就捉住它吧！")
         }
         if (var(VAR_POSTGAME_RIVAL_LEGENDARYQ) == 3) {
-            msgbox("You caught Cresselia? 
-                    Nice!
-                    
-                    I've been researching Darkrai's
-                    meanwhile.
-                    
-                    I'm quite sure that it has something
-                    to do with the old, run down inn in
-                    Cherrygrove City.
-                    
-                    It was closed due to some child
-                    falling to sleep and not waking up, real
-                    bad press for the inn.
-                    
-                    So in short, take Cresselia with you
-                    and go check out the inn in Cherrygrove
-                    City. See if you can find out anything!")
+            msgbox("你捉住克雷色利亚了？\n干得好！\p这期间我一直在调查\n达克莱伊。\p我很确定它和吉花市那家\n破旧的老旅馆有关。\p那家旅馆因为有个孩子睡着后\n一直没醒而关了门，对旅馆来说\l名声糟透了。\p所以简单说，带上克雷色利亚，\n去吉花市的老旅馆查一查吧。\l看看你能不能查出点什么！")
             setvar(VAR_POSTGAME_RIVAL_LEGENDARYQ, 4)
             release
             end
         }
         if (var(VAR_POSTGAME_RIVAL_LEGENDARYQ) == 4) {
-            msgbox("Go check out the old inn in
-                    Cherrygrove City. Remember to
-                    take Cresselia with you!")
+            msgbox("去吉花市的老旅馆查一查吧。\n记得带上克雷色利亚！")
         }
         if (var(VAR_POSTGAME_RIVAL_LEGENDARYQ) == 5) {
-            msgbox("You caught Darkrai! Excellent!
-
-                    You look like you just had a
-                    nightmare though, did something
-                    happen?
-                    
-                    Anyway!")
+            msgbox("你捉住达克莱伊了！太好了！\p不过你看起来好像刚做过噩梦，\n发生什么事了吗？\p总之！")
             setvar(VAR_POSTGAME_RIVAL_LEGENDARYQ, 6)
         }
         if (var(VAR_POSTGAME_RIVAL_LEGENDARYQ) == 6) {
-            msgbox("{PLAYER}! I've found another lead
-                    on legendaries!
-                    
-                    Apparently, Hoenn's very own duo
-                    is resting somewhere underwater
-                    here in Johto.
-                    
-                    There aren't many deep waters in
-                    here, so you'll have to look quite
-                    hard for them.
-                    
-                    You're going to need this!")
+            msgbox("{PLAYER}！我又找到了一条\n关于传说宝可梦的线索！\p据说丰缘地区的那一对，\n正沉睡在城都地区某处的水下。\p这里深水不多，你得仔细\n找一找才行。\p你会需要这个的！")
             checkitem(ITEM_HM_DIVE)
             if (var(VAR_RESULT) == FALSE) {
                 giveitem(ITEM_HM_DIVE)
@@ -198,9 +115,7 @@ script NewBarkTownRivalHouseRival {
             }
             setvar(VAR_POSTGAME_RIVAL_LEGENDARYQ, 7)
             createfieldmugshotrival
-            msgbox("They are probably quite far away
-                    from each other, so you should
-                    scour the region far and wide.")
+            msgbox("它们大概相隔很远，所以\n你最好把整个地区都仔细\l搜一遍。")
             release
             end
         }
@@ -210,41 +125,21 @@ script NewBarkTownRivalHouseRival {
             }
         }
         if (var(VAR_POSTGAME_RIVAL_LEGENDARYQ) == 7 || var(VAR_POSTGAME_RIVAL_LEGENDARYQ) == 8) {
-            msgbox("Groudon is likely hidden in a cave which
-                    can only be accessed underwater. Maybe
-                    close to a hotter climate?
-                    
-                    Kyogre might prefer easier access to
-                    the open sea. So check on the
-                    coastlines!")
+            msgbox("固拉多很可能藏在只能从水下\n进入的洞穴里。也许就在\l气候更炎热的地方附近？\p盖欧卡也许更愿意靠近\n开阔的大海。所以去海岸线\l找找看吧！")
             release
             end
         }
         if (var(VAR_POSTGAME_RIVAL_LEGENDARYQ) == 9) {
-            msgbox("You caught them both?!
-            
-                    Send me your Pokédex data about them
-                    later. Elm is going to be thrilled
-                    about this!
-                    
-                    There isn't anything currently I'm
-                    looking for, and it might take a long
-                    while before I find another target
-                    we could search for.
-
-                    I don't have much to give, but you
-                    can have this!")
+            msgbox("两只都捉到了？！\p回头把它们的宝可梦图鉴数据\n发给我。空木博士一定会\l激动坏的！\p眼下我没有什么要找的了，\n而且可能要过很久，我才能找到\l下一个可以一起去搜的目标。\p我没什么能送你的，不过\n这个你拿去吧！")
             giveitem(ITEM_OVAL_CHARM)
             createfieldmugshotrival
-            msgbox("So, thanks {PLAYER}! For being
-                    a genuine friend!")
+            msgbox("那么，谢谢你，{PLAYER}！\n谢谢你做我真正的朋友！")
             setvar(VAR_POSTGAME_RIVAL_LEGENDARYQ, 10)
             release
             end 
         }
         if (var(VAR_POSTGAME_RIVAL_LEGENDARYQ) == 10) {
-            msgbox("Hey {PLAYER}! How's it going?
-                    Caught any new special Pokémon?")
+            msgbox("嘿，{PLAYER}！最近怎么样？\n捉到什么新的特别宝可梦了吗？")
         }
     }
     release
@@ -256,7 +151,7 @@ script NewBarkTownRivalHouseMarill {
 	lock
     faceplayer
     playmoncry(SPECIES_MARILL, CRY_MODE_NORMAL)
-    msgbox("Marii!")
+    msgbox("玛力！")
     waitmoncry
     release
     end
@@ -266,7 +161,7 @@ script NewBarkTownRivalHouseAzumarill {
 	lock
     faceplayer
     playmoncry(SPECIES_AZUMARILL, CRY_MODE_NORMAL)
-    msgbox("Azumarill: Azuu!")
+    msgbox("玛力露丽：玛露！")
     waitmoncry
     release
     end

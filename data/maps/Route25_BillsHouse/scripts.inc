@@ -149,79 +149,79 @@ Route25_BillsHouse_Test::
 	end
 
 Route25_BillsHouse_Text_GrandpaIntro:
-	.string "Hm? You know Bill? He's my\n"
-	.string "grandson.\p"
-	.string "He's in Johto. He does\n"
-	.string "something with PCs, so I'm\l"
-	.string "housesitting.$"
+	.string "嗯？你认识正辉？\n他是我孙子。\p他在城都地区。他搞电脑\n方面的事，所以\l我在这里看家。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route25_BillsHouse_Text_Spinda:
-	.string "My grandson Bill told me about\n"
-	.string "a Pokémon that is covered in\l"
-	.string "a random pattern.$"
+	.string "我孙子正辉跟我说过，\n有一种宝可梦浑身\l长着随机的花纹。$"
+	.string ""
+	.string ""
 
 Route25_BillsHouse_Text_Roselia:
-	.string "Ah, my grandson mentioned a\n"
-	.string "green Pokémon that has flowers\l"
-	.string "growing from its wrists.$"
+	.string "啊，我孙子提到过一种\n绿色的宝可梦，\l手腕上会长出花来。$"
+	.string ""
+	.string ""
 
 Route25_BillsHouse_Text_Lotad:
-	.string "Do you know of a water Pokémon\n"
-	.string "that has a big lily pad on\l"
-	.string "its head?"
-	.string "I heard there are some at the\n"
-	.string "Fuchsia Safari Zone.\p"
-	.string "I would surely like to see it.$"
+	.string "你知道一种头上顶着\n大荷叶的水属性宝可梦吗？\l我听说浅红市的狩猎地带就有。\p真想亲眼看看啊。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route25_BillsHouse_Text_Growlithe:
-	.string "Bill told me about a Pokémon\n"
-	.string "that is\l"
-	.string "very loyal to its trainer.\p"
-	.string "It's supposed to Roar well.$"
+	.string "正辉跟我说过一种宝可梦，\n听说它\l对训练家非常忠诚。\p据说它很会吼叫。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route25_BillsHouse_Text_Pichu:
-	.string "Do you know that hugely popular\n"
-	.string "Pokémon?\p"
-	.string "The Pokémon that has a yellow\n"
-	.string "body and red cheeks.\p"
-	.string "I would love to see what it\n"
-	.string "looks like before it evolves$"
+	.string "你知道那种超有人气的\n宝可梦吗？\p就是那个黄色身体、\n红脸颊的宝可梦。\p我真想在它进化之前\n看看它长什么样。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route25_BillsHouse_Text_AskToSeeMon:
-	.string "If you have that Pokémon, may I\n"
-	.string "see it, please?$"
+	.string "你要是有那只宝可梦，\n能让我看看吗？$"
+	.string ""
 
 Route25_BillsHouse_Text_ExcitedToSee:
-	.string "You will show me? How good of\n"
-	.string "you!$"
+	.string "你愿意给我看？\n你人真好！$"
+	.string ""
 
 Route25_BillsHouse_Text_YouDontHaveIt:
-	.string "You don't have it?\n"
-	.string "That's too bad…$"
+	.string "你没有？\n那太遗憾了……$"
+	.string ""
 
 Route25_BillsHouse_Text_ShownPokemon:
-	.string "Ah, so that is {STR_VAR_1}?\p"
-	.string "Isn't it cute! That's so kind\n"
-	.string "of you.$"
+	.string "啊，这就是{STR_VAR_1}吗？\p真可爱！你真是好心。$"
+	.string ""
+	.string ""
 
 Route25_BillsHouse_Text_Appreciation:
-	.string "Thanks!\p"
-	.string "This is a token of my\n"
-	.string "appreciation.$"
+	.string "谢谢！\p这是我的一点\n谢意。$"
+	.string ""
+	.string ""
 
 Route25_BillsHouse_Text_ComeAgain:
-	.string "Come visit again sometime.$"
+	.string "有空再来玩啊。$"
 
 Route25_BillsHouse_Text_ShownAll:
-	.string "Thanks for showing me so many\n"
-	.string "cute Pokémon.\p"
-	.string "I really enjoyed myself. I'm\n"
-	.string "glad\l"
-	.string "I've lived such a long life.$"
+	.string "谢谢你给我看了\n这么多可爱的宝可梦。\p我真的很开心。\n能活到这把年纪，\l真是太好了。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route25_BillsHouse_Text_WrongPokemon:
-	.string "Hm?\p"
-	.string "That's not the Pokémon that I\n"
-	.string "was told about.$"
+	.string "嗯？\p我听说的宝可梦，\n好像不是这只啊。$"
+	.string ""
+	.string ""
 
 

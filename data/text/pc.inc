@@ -1,17 +1,17 @@
 Text_BootUpPC:
-	.string "{PLAYER} booted up the PC.$"
+	.string "{PLAYER}登录了电脑。$"
 
 gText_WhichPCShouldBeAccessed::
-	.string "Which PC should be accessed?$"
+	.string "要连接哪台电脑？$"
 
 gText_AccessedSomeonesPC::
-	.string "Accessed Someone'S PC.$"
+	.string "连接上了某人的电脑！$"
 
 gText_StorageSystemOpened::
-	.string "Pokémon Storage System opened.$"
+	.string "调出了宝可梦寄放系统！$"
 
 gText_AccessedPlayersPC::
-	.string "Accessed {PLAYER}'s PC.$"
+	.string "连接上了{PLAYER}的电脑！$"
 
 gText_AccessedLanettesPC::
-	.string "Accessed Bill's PC.$"
+	.string "连接上了正辉的电脑！$"

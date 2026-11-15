@@ -119,130 +119,130 @@ GoldenrodCity_Gym_EventScript_Statue2::
 	end
 
 GoldenrodCity_Gym_Text_GymStatue:
-	.string "Goldenrod Pokémon Gym$"
+	.string "满金宝可梦道馆$"
 
 GoldenrodCity_Gym_Text_GymStatueCertified:
-	.string "Goldenrod City Pokémon Gym\p"
-	.string "Whitney's Certified Trainers:\n"
-	.string "{PLAYER}$"
+	.string "满金市宝可梦道馆\p小茜认证训练家：\n{PLAYER}$"
+	.string ""
+	.string ""
 
 GoldenrodCity_Gym_Text_WhitneyBefore:
-    .string "Hi! I'm Whitney!\p"
-    .string "Everyone was into Pokémon, so I got\n"
-    .string "into it too!\p"
-    .string "Pokémon are super-cute!\p"
-    .string "You want to battle? I'm warning\n"
-    .string "you- I'm good!$"
+    .string "嗨！我是小茜！\p大家都在养宝可梦，\n所以我也跟着养了！\p宝可梦超可爱的！\p想跟我对战？先跟你说好，\n我可是很厉害的！$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodCity_Gym_Text_WhitneyShouldntBeSoSerious:
-    .string "Sob…\p"
-    .string "…Waaaaaaah! You're mean!\p"
-    .string "You shouldn't be so serious! You…\n"
-    .string "you child, you!$"
+    .string "呜……\p……哇啊啊啊！你太过分了！\p干嘛这么认真啊！你……\n你这个小鬼！$"
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodCity_Gym_Text_WhitneyYouMeanie:
-    .string "Waaaaah!\p"
-    .string "Waaaaah!\p"
-    .string "…Snivel, hic… …You meanie!$"
+    .string "哇啊啊！\p哇啊啊！\p……呜呜，抽噎……\n……你欺负人！$"
+    .string ""
+    .string ""
 
 GoldenrodCity_Gym_Text_WhitneyWhatDoYouWant:
-    .string "…Sniff…\p"
-    .string "What? What do you want? A Badge?\p"
-    .string "Oh, right. I forgot. Here's\n"
-    .string "Plainbadge.$"
+    .string "……吸溜……\p什么？还有什么事吗？徽章？\p哦，对哦。我忘了。给你\n标准徽章。$"
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodCity_Gym_Text_PlayerReceivedPlainBadge:
-    .string "{PLAYER} received Plainbadge.$"
+    .string "{PLAYER}得到了标准徽章。$"
 
 GoldenrodCity_Gym_Text_WhitneyPlainBadge:
-    .string "Plainbadge lets your Pokémon use\n"
-    .string "Strength outside of battle.\p"
-    .string "Oh, you can have this too!$"
+    .string "有了标准徽章，宝可梦\n在对战外也能使用怪力。\p还有，这个也送给你！$"
+    .string ""
+    .string ""
 
 GoldenrodCity_Gym_Text_WhitneyAttract:
-    .string "It's Attract! It makes full use of a\n"
-    .string "Pokémon's charm.\p"
-    .string "Isn't it just perfect for a cutie\n"
-    .string "like me?$"
+    .string "是迷人！它能充分发挥\n宝可梦的魅力。\p是不是最适合我这样的\n小可爱呀？$"
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodCity_Gym_Text_WhitneyGoodCry:
-    .string "Ah, that was a good cry!$"
+    .string "啊，哭过一场真痛快！$"
 
 GoldenrodCity_Gym_Text_WhitneyRematch:
-    .string "Hi! It's you!\p"
-    .string "Wow, Johto Champion now?\p"
-    .string "You really are amazing!\p"
-    .string "I want to see how strong you are.\p"
-    .string "Want to have a rematch with me?$"
+    .string "嗨！是你呀！\p哇，你现在是城都冠军了？\p你真是太厉害了！\p我想看看你到底有多强。\p要不要再跟我比一场？$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodCity_Gym_Text_WhitneyRematchDefeat:
-    .string "Waaaaah!\p"
-    .string "Waaaaah!\p"
-    .string "…Snivel, hic… …You meanie!$"
+    .string "哇啊啊！\p哇啊啊！\p……呜呜，抽噎……\n……你欺负人！$"
+    .string ""
+    .string ""
 
 GoldenrodCity_Gym_Text_LassCarrieSeen:
-    .string "Don't let my Pokémon's cute looks\n"
-    .string "fool you.\p"
-    .string "They can whip you!$"
+    .string "别被我的宝可梦可爱的\n外表给骗了。\p它们会把你打得落花流水！$"
+    .string ""
+    .string ""
 
 GoldenrodCity_Gym_Text_LassCarrieBeaten:
-    .string "Darn… I thought you were weak…$"
+    .string "可恶……我还以为你很弱……$"
 
 GoldenrodCity_Gym_Text_LassCarrieAfter:
-    .string "Do my Pokémon think I'm cute?$"
+    .string "我的宝可梦觉得我可爱吗？$"
 
 GoldenrodCity_Gym_Text_LassBridgetSeen:
-    .string "I like cute Pokémon better than\n"
-    .string "strong Pokémon.\p"
-    .string "But I have strong and cute Pokémon!$"
+    .string "比起强大的宝可梦，\n我更喜欢可爱的。\p不过我的宝可梦可是\n又强又可爱！$"
+    .string ""
+    .string ""
 
 GoldenrodCity_Gym_Text_LassBridgetBeaten:
-    .string "Oh, no, no, no!$"
+    .string "啊，不行不行不行！$"
 
 GoldenrodCity_Gym_Text_LassBridgetAfter:
-    .string "I'm trying to beat Whitney, but…\n"
-    .string "It's depressing.\p"
-    .string "I'm okay! If I lose, I'll just try\n"
-    .string "harder next time!$"
+    .string "我想打赢小茜，可是……\n真让人沮丧。\p我没事！输了的话，\n下次再努力就好！$"
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodCity_Gym_Text_BridgetWhitneyCries:
-    .string "Oh, no. You made Whitney cry.\p"
-    .string "It's Ok. She'll stop soon. She\n"
-    .string "always cries when she loses.$"
+    .string "哎呀，你把小茜弄哭了。\p没事的，她哭一会儿就好了。\n她输了总是要哭的。$"
+    .string ""
+    .string ""
 
 GoldenrodCity_Gym_Text_BeautyVictoriaSeen:
-    .string "Oh, you are a cute little trainer!\p"
-    .string "I like you, but I won't hold back!$"
+    .string "哎呀，你是个可爱的小训练家！\p不过我可不会手下留情哦！$"
+    .string ""
 
 GoldenrodCity_Gym_Text_BeautyVictoriaBeaten:
-    .string "Let's see… Oops, it's over?$"
+    .string "让我看看……哎呀，结束了？$"
 
 GoldenrodCity_Gym_Text_BeautyVictoriaAfter:
-    .string "Wow, you must be good to beat me!\n"
-    .string "Keep it up!$"
+    .string "能打赢我，你肯定很厉害！\n继续加油！$"
+    .string ""
 
 GoldenrodCity_Gym_Text_BeautySamanthaSeen:
-    .string "Give it your best shot, or I'll take\n"
-    .string "you down!$"
+    .string "拿出全力来吧，\n不然我就把你打趴下！$"
+    .string ""
 
 GoldenrodCity_Gym_Text_BeautySamanthaBeaten:
-    .string "No! Oh, Meowth, I'm so sorry!$"
+    .string "不！哎呀，喵喵，对不起！$"
 
 GoldenrodCity_Gym_Text_BeautySamanthaAfter:
-    .string "I taught Meowth moves for taking on\n"
-    .string "any type…$"
+    .string "为了让喵喵能应付\n任何属性，我教了它招式……$"
+    .string ""
 
 GoldenrodCity_Gym_Text_GymGuide:
-    .string "Yo! Champ in making!\p"
-    .string "This Gym is home to Whitney, the\n"
-    .string "master of Normal-type Pokémon.\p"
-    .string "Be cautious of her cute team.\p"
-    .string "Check Route 34 if you need a\n"
-    .string "Fighting-type Pokémon.$"
+    .string "哟！未来的冠军！\p这座道馆的馆主是小茜，\n一般属性宝可梦的高手。\p她那些可爱的宝可梦\n可不好对付。\p需要格斗属性宝可梦的话，\n去34号道路找找吧。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodCity_Gym_Text_GymGuideWin:
-    .string "You won? Great! I was busy admiring\n"
-    .string "the ladies here.$"
+    .string "赢了？太好了！我刚才一直\n在欣赏这里的女孩子。$"
+    .string ""
 
 WhitneyMiltank::
 	lock
@@ -255,4 +255,4 @@ WhitneyMiltank::
 
 
 WhitneyMiltank_Text_0:
-	.string "Mooo!$"
+	.string "哞——！$"

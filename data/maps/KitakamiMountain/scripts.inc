@@ -8,5 +8,4 @@ KitakamiMountainSign::
 
 
 KitakamiMountainSign_Text_0:
-	.string "Kitakami Mountain ahead\n"
-	.string "Ogerpon the Guardian's domain$"
+	.string "前方是北上山\n守护神厄诡椪的领地$"

@@ -43,17 +43,17 @@ CherryGrove_Pokecenter_Chansey::
 	end
 
 CherryGrove_Pokecenter_Text_Fisher:
-	.string "It's great. I can store any number\n"
-	.string "of Pokémon, and it's all free.$"
+	.string "真是太好了。不管多少只\n宝可梦都能寄存，还全免费。$"
+	.string ""
 
 CherryGrove_Pokecenter_Text_Gentleman:
-	.string "That PC is free for any\n"
-	.string "trainer to use.$"
+	.string "那台电脑任何训练家\n都能免费使用。$"
+	.string ""
 
 CherryGrove_Pokecenter_Text_Lass:
-	.string "They say a watched pot never\n"
-	.string "boils. But watching the clock\l"
-	.string "in the PokéCenter makes time fly!$"
+	.string "人们说心急水不开。\n可在宝可梦中心盯着钟看，\l时间反而过得飞快！$"
+	.string ""
+	.string ""
 
 CherryGrove_Pokecenter_Text_Chansey:
-	.string "Chansey: Chansii!$"
+	.string "吉利蛋：叽——！$"

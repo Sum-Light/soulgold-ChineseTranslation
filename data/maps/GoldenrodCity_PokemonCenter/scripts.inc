@@ -41,60 +41,60 @@ GoldenrodCity_PokemonCenter_EventScript_Lass::
 	end
 
 GoldenrodCity_PokemonCenter_GrannyText:
-    .string "I just love living in the big city!\n"
-    .string "I moved here when I was a young\l"
-    .string "trainer, like you!$"
+    .string "我真是太喜欢住在大城市了！\n我搬来这里的时候，还是个\l像你一样的年轻训练家！$"
+    .string ""
+    .string ""
 
 GoldenrodCity_PokemonCenter_GameboyKidText1:
-    .string "This is a special Pokémon Center.\n"
-    .string "The roof is made of gold!$"
+    .string "这是一家特别的宝可梦中心。\n它的屋顶是金子做的！$"
+    .string ""
 
 GoldenrodCity_PokemonCenter_GameboyKidText2:
-    .string "I told my brother that the roof is\n"
-    .string "made of real gold. He'll believe\l"
-	.string "anything!$"
+    .string "我告诉我弟弟，\n这屋顶是纯金做的。\l他什么都信！$"
+    .string ""
+	.string ""
 
 GoldenrodCity_PokemonCenter_LassText:
-    .string "A higher level Pokémon doesn't\n"
-    .string "always win.\p"
-    .string "After all, it may have a type\n"
-    .string "disadvantage.\p"
-    .string "I don't think there is a single\n"
-    .string "Pokémon that is the toughest.$"
+    .string "等级高的宝可梦\n也不一定会赢。\p毕竟，它也可能\n属性上吃亏。\p我觉得世上根本没有\n哪只宝可梦是最强的。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodPokeCenter_LinkReceptionistPleaseAcceptGSBallText:
-    .string "{PLAYER}, isn't it?\p"
-    .string "Congratulations!\p"
-    .string "As a special deal, a GS Ball has\n"
-    .string "been sent just for you!\p"
-    .string "Please accept it!$"
+    .string "您就是{PLAYER}吧？\p恭喜您！\p作为特别活动，我们为您\n送上了一个GS球！\p请您收下！$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodPokeCenter_LinkReceptionistPleaseDoComeAgainText:
-    .string "Please do come again!$"
+    .string "欢迎您再来！$"
 
 GoldenrodCity_PokemonCenter_PokefanFDoYouHaveEonMailText:
-    .string "Oh my, your pack looks so heavy!\p"
-    .string "Oh! Do you happen to have\n"
-    .string "something named Eon Mail?\p"
-    .string "My daughter is after one.\p"
-    .string "You can part with one, can't you?$"
+    .string "哎呀，您的包包看着好沉！\p哦！您身上有没有那种\n叫伊布邮件的东西？\p我女儿正想要一个呢。\p您能分我一个吧？$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodCity_PokemonCenter_AskGiveAwayAnEonMailText:
-    .string "Give away an Eon Mail?$"
+    .string "送出伊布邮件吗？$"
 
 GoldenrodCity_PokemonCenter_PokefanFThisIsForYouText:
-    .string "Oh, that's great! Thank you,\n"
-    .string "honey!\p"
-    .string "Here, this is for you in return!$"
+    .string "哦，太好了！谢谢您，\n亲爱的！\p来，这个送给您作为回礼！$"
+    .string ""
+    .string ""
 
 GoldenrodCity_PokemonCenter_PokefanFDaughterWillBeDelightedText:
-    .string "My daughter will be delighted!$"
+    .string "我女儿一定会很高兴的！$"
 
 GoldenrodCity_PokemonCenter_PokefanFTooBadText:
-    .string "Oh? You don't have one? Too bad.$"
+    .string "哦？您没有吗？真可惜。$"
 
 GoldenrodCity_PokemonCenter_PokefanFAnotherTimeThenText:
-    .string "Oh… Well, another time, then.$"
+    .string "哦……那，下次再说吧。$"
 
 GoldenrodCity_PokemonCenter_PlayerGaveAwayTheEonMailText:
-    .string "{PLAYER} gave away the Eon Mail.$"
+    .string "{PLAYER}送出了伊布邮件。$"

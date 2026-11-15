@@ -97,28 +97,19 @@ Kitakami_OgerponTrigger_Movement_2:
 	step_end
 
 Kitakami_OldLady_Text_0:
-	.string "Oh a visitor? Where are you from?\n"
-	.string "...\l"
-	.string "Newbark Town? That's quite a journey\l"
-	.string "to get here!$"
+	.string "哦？是客人吗？你是从哪儿来的？\n……\l若叶镇？跑到这儿来，\l可真是一段远路啊！$"
 
 Kitakami_Fatman_Text_0:
-	.string "There's no technology here!\n"
-	.string "WHAT AM I SUPPOSED TO DO??$"
+	.string "这地方连点现代科技都没有！\n我到底该干点什么啊？？$"
 
 Kitakami_Battlegirl_Text_0:
-	.string "I come here to train once a year. It's a\n"
-	.string "nice middle ground between the busy\l"
-	.string "city life and harshness of Mt. Silver.$"
+	.string "我每年都来这儿修行一次。\n这里正好介于繁忙的城市生活\l和严酷的白银山之间。$"
 
 Kitakami_Littlegirl_Text_0:
-	.string "Mom used to say bad children are taken\n"
-	.string "to the cave down there. \p"
-	.string "It's a place where Fezandipiti \n"
-	.string "roosts during the summer.$"
+	.string "妈妈以前说，坏孩子会被抓到\n下面那个洞里去。\p那里是吉雉鸡\n夏天栖息的地方。$"
 
 Kitakami_WestSign_Text_0:
-	.string "Kitakami Town - Timeless traditions$"
+	.string "北上村 - 亘古不变的传统$"
 
 Kitakami_WellSign_Text_0:
-	.string "Old Well - Careful with the ladder!$"
+	.string "老井 - 上下梯子请当心！$"

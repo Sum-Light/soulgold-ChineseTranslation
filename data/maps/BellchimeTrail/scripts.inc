@@ -18,14 +18,14 @@ BellchimeTrail_EventScript_Morty::
 	end
 
 BellchimeTrail_Text_Morty:
-	.string "Morty: The legendary Pokémon\n"
-	.string "did not choose me...\p"
-	.string "But that does not mean that I\n"
-	.string "have lost out on my future.\p"
-	.string "I will continue my training until I\n"
-	.string "I discover a new future for me.\p"
-	.string "If you seek another battle, find\n"
-	.string "me at the Fighting Dojo.$"
+	.string "松叶：传说的宝可梦\n没有选择我……\p但这并不代表\n我的未来就此失去。\p我要继续修炼，直到\n发现属于我的新未来。\p想再对战的话，\n就到格斗道场来找我。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 EcruteakBellchimeTrail_EventScript_DoorTrigger::
 	lock
@@ -74,24 +74,13 @@ BellchimeTrail_MortyRematch_2:
 
 
 BellchimeTrail_MortyRematch_Text_0:
-	.string "Morty: In the end, the Legendary\n"
-	.string "Pokémon did not choose me.\p"
-	.string "I wonder the reason often when I walk\n"
-	.string "this trail.\p"
-	.string "I would like to confirm their reason by\n"
-	.string "battling you again if that is\l"
-	.string "acceptable to you, {PLAYER}.$"
+	.string "松叶：最终，传说的\n宝可梦还是没有选择我。\p走在这条小径上时，\n我常常思索原因。\p如果你愿意，{PLAYER}，\n我想再和你对战一次，\l弄清它们这么选的理由。$"
 
 BellchimeTrail_MortyRematch_Text_1:
-	.string "Thank you, I will show those watching\n"
-	.string "that I can be as worthy as you!$"
+	.string "谢谢。我要让看着的人知道，\n我也有资格与你比肩！$"
 
 BellchimeTrail_MortyRematch_Text_2:
-	.string "I see now why they chose you.$"
+	.string "我终于明白它们为何选你了。$"
 
 BellchimeTrail_MortyRematch_Text_3:
-	.string "Merely being strong or wise is not\n"
-	.string "always enough. It also takes something\l"
-	.string "more intangible that you possess. I hope\l"
-	.string "the spirits continue to bless you.\p"
-	.string "Until our next meeting.$"
+	.string "光是强大或者聪明，\n有时还远远不够。\l还需要一种你身上有、\l却难以言说的东西。\l愿神灵继续保佑你。\p后会有期。$"

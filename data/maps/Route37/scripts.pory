@@ -82,82 +82,81 @@ Route37_EventScript_Sign::
 	end
 
 Route37_Text_TwinsAnnAndAnne1_Seen:
-	.string "Ann: Anne and I are in this\n"
-	.string "together!$"
+	.string "安：安妮和我是\n一起上场的！$"
+	.string ""
 
 Route37_Text_TwinsAnnAndAnne1_Beaten:
-	.string "Ann & Anne: Nnn… A little too\n"
-	.string "strong.$"
+	.string "安与安妮：唔……你们\n有点太强了。$"
+	.string ""
 
 Route37_Text_TwinsAnnAndAnne1_After:
-	.string "Ann: I can tell what my sister and\n"
-	.string "my Pokémon are thinking.$"
+	.string "安：我明白妹妹和\n宝可梦在想什么。$"
+	.string ""
 
 Route37_Text_TwinsAnnAndAnne2_Seen:
-	.string "Anne: Ann and I are in this\n"
-	.string "together!$"
+	.string "安妮：安和我是\n一起上场的！$"
+	.string ""
 
 Route37_Text_TwinsAnnAndAnne2_Beaten:
-	.string "Ann & Anne: Nnn… A little too\n"
-	.string "strong.$"
+	.string "安与安妮：唔……你们\n有点太强了。$"
+	.string ""
 
 Route37_Text_TwinsAnnAndAnne2_After:
-	.string "Anne: We share the same feelings as\n"
-	.string "our Pokémon.$"
+	.string "安妮：我们和宝可梦的\n心意是相通的。$"
+	.string ""
 
 Route37_Text_PsychicGreg_Seen:
-	.string "Pokémon can't do a thing if they are\n"
-	.string "asleep.\p"
-	.string "I'll show you how scary that is!$"
+	.string "宝可梦睡着了就\n什么也做不了。\p我就让你体会一下\n这种可怕！$"
+	.string ""
+	.string ""
 
 Route37_Text_PsychicGreg_Beaten:
-	.string "I lost. That's pretty sad…$"
+	.string "我输了。真伤心啊……$"
 
 Route37_Text_PsychicGreg_After:
-	.string "Putting Pokémon to sleep or paralyz-\n"
-	.string "ing them are good battle techniques.$"
+	.string "让宝可梦睡着或麻痹对手，\n都是很好的战术。$"
+	.string ""
 
 Route37_Text_Sunny_Meet:
-	.string "Sunny: Hi!\p"
-	.string "I'm Sunny of the Weekday family!\p"
-	.string "If you can guess my favorite day,\n"
-	.string "I'll give you a reward.$"
+	.string "星琪天：嗨！\p我是星期兄弟里的星琪天！\p你要是猜中我最喜欢\n哪天，我就给你奖励。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route37_Text_Sunny_GiveGift1:
-	.string "I was told to give you this if I saw\n"
-	.string "you!$"
+	.string "要是见到你，就把这个\n交给你——有人这么托我！$"
+	.string ""
 
 Route37_Text_Sunny_GiveGift2:
-	.string "I was told to give you this if I saw\n"
-	.string "you!$"
+	.string "要是见到你，就把这个\n交给你——有人这么托我！$"
+	.string ""
 
 Route37_Text_Sunny_GaveGift:
-	.string "Sunny: That thing…\p"
-	.string "Um…\p"
-	.string "… What was it now…\p"
-	.string "…\p"
-	.string "Oh! I remember now!\p"
-	.string "A Pokémon that knows electric\n"
-	.string "moves should hold it.\p"
-	.string "My sis Monica said it powers up\n"
-	.string "electric moves!$"
+	.string "星琪天：那个东西……\p嗯……\p……那叫什么来着……\p……\p啊！我想起来了！\p学会电属性招式的宝可梦\n最好带上它。\p我姐姐星琪怡说，它能\n增强电属性招式的威力！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route37_Text_Sunny_Sunday:
-	.string "Sunny: My sisters and brothers are\n"
-	.string "Monica, Tuscany, Wesley, Arthur,\l"
-	.string "Frieda and Santos.\p"
-	.string "They're all older than me!$"
+	.string "星琪天：我的兄弟姐妹是\n星琪怡、星琪儿、星琪山、\l星琪思、星琪舞和星琪柳。\p他们全都比我年长！$"
+	.string ""
+	.string ""
+	.string ""
 
 Route37_Text_Sunny_NotSunday:
-	.string "Sunny: Isn't today Sunday?\n"
-	.string "Um… I forgot!$"
+	.string "星琪天：今天不是星期天吗？\n嗯……我忘了！$"
+	.string ""
 
 Route37_Text_Sign:
-	.string "Route 37\n"
-	.string "Ecruteak City Ahead$"
+	.string "37号道路\n前方是缘朱市$"
+	.string ""
 `
 
 script Route37Sign {
-    msgbox("{UP_ARROW} Ecruteak City
-            {LEFT_ARROW} Battle Factory", MSGBOX_SIGN)
+    msgbox("{UP_ARROW} 缘朱市\n{LEFT_ARROW} 对战工厂", MSGBOX_SIGN)
 }

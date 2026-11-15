@@ -35,36 +35,36 @@ MountMortar4_EventScript_KiyoAfter::
 
 
 MountMortar4_Text_KiyoIntro:
-	.string "Hey!\p"
-	.string "I am the Karate King!\n"
-	.string "I train alone here in the dark!\p"
-	.string "You! Battle with me!\n"
-	.string "Hwaaarggh!$"
+	.string "嘿！\p我就是空手道大王！\n在这片黑暗里独自修行！\p你！跟我打一场！\n呜哇啊啊啊！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MountMortar4_Text_KiyoWin:
-	.string "Waaaarggh!\n"
-	.string "I'm beaten!$"
+	.string "呜哇啊啊！\n我输了！$"
+	.string ""
 
 MountMortar4_Text_KiyoTyrogueReward:
-	.string "I... I'm crushed...\p"
-	.string "My training is still not\n"
-	.string "enough...\p"
-	.string "But a loss is a loss.\n"
-	.string "I admit it.\p"
-	.string "As proof that you defeated me,\n"
-	.string "I'll give you a rare fighting\l"
-	.string "Pokémon.$"
+	.string "我……我被打得\n心服口服……\p看来我的修行\n还不够……\p但输了就是输了，\n我承认。\p作为你打败我的证明，\n我就把一只稀有的\l格斗宝可梦送给你。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MountMortar4_Text_ReceiveTyrogue:
-	.string "{PLAYER} received Tyrogue.$"
+	.string "{PLAYER}得到了无畏小子。$"
 
 MountMortar4_Text_KiyoGotTyrogue:
-	.string "Tyrogue is a Fighting-type.\p"
-	.string "It evolves into a tougher\n"
-	.string "Pokémon.\p"
-	.string "Keep up the hard work.\n"
-	.string "I'll keep training too.\p"
-	.string "Farewell!$"
+	.string "无畏小子是格斗属性。\p它会进化成\n更强大的宝可梦。\p你也要继续加油。\n我也会继续修行的。\p再会了！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MountMortar4_Text_KiyoFullParty:
-	.string "You have no room in your party!$"
+	.string "你的队伍已经没有\n空位了！$"

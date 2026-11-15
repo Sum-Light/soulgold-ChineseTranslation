@@ -26,20 +26,20 @@ ViridianCity_PokemonCenter_EventScript_BugCatcher::
 	end
 
 ViridianCity_PokemonCenter_Text_1FCooltrainerM:
-	.string "Where in the world is Viridian's Gym\n"
-	.string "Leader? I wanted to challenge him.$"
+	.string "常青市的道馆馆主在哪？\n人家还想来挑战他呢。$"
+	.string ""
 
 ViridianCity_PokemonCenter_Text_1FCooltrainerM_BlueReturned:
-	.string "There are no Gym Trainers at the\n"
-	.string "Viridian Gym.\p"
-	.string "The Leader claims his policy is to\n"
-	.string "win without having any underlings.$"
+	.string "常青道馆里没有\n任何道馆训练家。\p馆主说他的方针是\n不用任何手下取胜。$"
+	.string ""
+	.string ""
+	.string ""
 
 ViridianCity_PokemonCenter_Text_1FCooltrainerF:
-	.string "I heard that the Gym in Cinnabar is\n"
-	.string "gone.\p"
-	.string "I wonder what became of Blaine, the\n"
-	.string "Gym Leader.$"
+	.string "听说红莲的道馆\n已经没有了。\p不知道馆主夏伯\n后来怎么样了。$"
+	.string ""
+	.string ""
+	.string ""
 
 ViridianCity_PokemonCenter_Text_1FBugCatcher:
-	.string "My dream is to become a Gym Leader.$"
+	.string "我的梦想是成为道馆馆主。$"

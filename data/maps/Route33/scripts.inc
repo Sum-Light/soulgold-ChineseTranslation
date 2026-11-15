@@ -22,30 +22,30 @@ Route33_EventScript_Lass::
 	end
 
 Route33_Text_HikerAnthony2Seen:
-	.string "I came through the tunnel,\n"
-	.string "but I still have plenty\l"
-	.string "of energy left.$"
+	.string "我是穿过隧道过来的，\n可我还剩着\l一身力气呢。$"
+	.string ""
+	.string ""
 
 Route33_Text_HikerAnthony2Beaten:
-	.string "Whoa! You've got more zip\n"
-	.string "than me!$"
+	.string "哦！你比我\n还有干劲！$"
+	.string ""
 
 Route33_Text_HikerAnthony2After:
-	.string "We Hikers are at our best\n"
-	.string "in the mountains.$"
+	.string "我们登山男在山里\n才是最精神的。$"
+	.string ""
 
 Route33_Text_HikerAnthonyDunsparce:
-	.string "Hey, did you get a Dunsparce?\p"
-	.string "I caught one too.\p"
-	.string "Take a look at it in the light.\n"
-	.string "It's got a funny face!$"
+	.string "嘿，你抓到土龙弟弟了吗？\p我也抓到了一只。\p在亮处好好看看它。\n它长着一张好笑的脸！$"
+	.string ""
+	.string ""
+	.string ""
 
 Route33_Text_Lass:
-	.string "Pant, pant…\p"
-	.string "That cave was bigger than\n"
-	.string "I'd expected.\p"
-	.string "I got too tired exploring\n"
-	.string "for Marill, so I came outside.$"
+	.string "呼、呼……\p那个洞比我想象中\n还要大。\p找玛力露找得太累了，\n我就先出来了。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route33_HiddenGrotto::
 	msgbox Route33_HiddenGrotto_Text_0, MSGBOX_YESNO
@@ -70,10 +70,7 @@ fisherMan_Route33::
 
 
 Route33_HiddenGrotto_Text_0:
-	.string "There seems to be a path behind the\n"
-	.string "trees. Enter?$"
+	.string "树丛后面似乎有条小路。\n要进去吗？$"
 
 fisherMan_Route33_Text_0:
-	.string "I've heard rumours of a very rare\n"
-	.string "Pokémon swimming amongst the \l"
-	.string "Gastrodon to the south of here.$"
+	.string "听说这南边的海兔兽群里，\n游着一只非常稀有的宝可梦。$"

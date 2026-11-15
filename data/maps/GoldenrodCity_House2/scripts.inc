@@ -18,13 +18,13 @@ GoldenrodCity_House2_EventScript_Woman::
 	end
 
 GoldenrodPPSpeechHouse_Text_Man:
-    .string "Once while I was battling, my\n"
-    .string "Pokémon couldn't make any moves.\p"
-    .string "The Power Points, or PP, of its\n"
-    .string "moves were all gone.$"
+    .string "有一次对战时，我的宝可梦\n一招也使不出来。\p因为它所有招式的\n招式点数，也就是PP，都用光了。$"
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodPPSpeechHouse_Text_Lass:
-    .string "Sometimes, a healthy Pokémon may be\n"
-    .string "unable to use its moves.\p"
-    .string "If that happens, heal it at a\n"
-    .string "Pokémon Center or use an item.$"
+    .string "有时候，明明很健康的宝可梦\n也会使不出招式。\p遇到这种情况，就去宝可梦中心\n治疗，或者用道具吧。$"
+    .string ""
+    .string ""
+    .string ""

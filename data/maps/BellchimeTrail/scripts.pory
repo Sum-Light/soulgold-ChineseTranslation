@@ -18,14 +18,14 @@ BellchimeTrail_EventScript_Morty::
 	end
 
 BellchimeTrail_Text_Morty:
-	.string "Morty: The legendary Pokémon\n"
-	.string "did not choose me...\p"
-	.string "But that does not mean that I\n"
-	.string "have lost out on my future.\p"
-	.string "I will continue my training until I\n"
-	.string "I discover a new future for me.\p"
-	.string "If you seek another battle, find\n"
-	.string "me at the Fighting Dojo.$"
+	.string "松叶：传说的宝可梦\n没有选择我……\p但这并不代表\n我的未来就此失去。\p我要继续修炼，直到\n发现属于我的新未来。\p想再对战的话，\n就到格斗道场来找我。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 EcruteakBellchimeTrail_EventScript_DoorTrigger::
 	lock
@@ -54,25 +54,11 @@ EcruteakBellchimeTrail_Movement_CameraPanUp::
 script BellchimeTrail_MortyRematch {
     lock
     faceplayer
-	msgbox("Morty: In the end, the Legendary
-			Pokémon did not choose me.
-			
-			I wonder the reason often when I walk
-			this trail.
-			
-			I would like to confirm their reason by
-			battling you again if that is
-			acceptable to you, {PLAYER}.", MSGBOX_YESNO)
+	msgbox("松叶：最终，传说的\n宝可梦还是没有选择我。\p走在这条小径上时，\n我常常思索原因。\p如果你愿意，{PLAYER}，\n我想再和你对战一次，\l弄清它们这么选的理由。", MSGBOX_YESNO)
 	if (var(VAR_RESULT) == TRUE) {
-		msgbox("Thank you, I will show those watching
-				that I can be as worthy as you!")
-		trainerbattle_no_intro(TRAINER_MORTY_2, "I see now why they chose you.")
-		msgbox("Merely being strong or wise is not
-				always enough. It also takes something
-				more intangible that you possess. I hope
-				the spirits continue to bless you.
-				
-				Until our next meeting.")
+		msgbox("谢谢。我要让看着的人知道，\n我也有资格与你比肩！")
+		trainerbattle_no_intro(TRAINER_MORTY_2, "我终于明白它们为何选你了。")
+		msgbox("光是强大或者聪明，\n有时还远远不够。\l还需要一种你身上有、\l却难以言说的东西。\l愿神灵继续保佑你。\p后会有期。")
 		closemessage
 		fadescreenswapbuffers(FADE_TO_BLACK)
 		setflag(FLAG_HIDE_BELLCHIME_MORTY)

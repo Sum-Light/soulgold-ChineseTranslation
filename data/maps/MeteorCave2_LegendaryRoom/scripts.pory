@@ -27,17 +27,15 @@ mapscripts MeteorCave2_LegendaryRoom_MapScripts {
 script MeteorCave1_LegendaryRoom_IronLeavesDoor {
     lock
     if (flag(FLAG_LEAVESDOOR)) {
-        msgbox("The path is open.")
+        msgbox("路已经打开了。")
         release
         end
     }
-    msgbox("There's an inscription on the wall.
-    
-            BRING LEAVES")
+    msgbox("墙上刻着铭文。\p带来叶子")
     checkspecies(SPECIES_VIRIZION)
     if (var(VAR_RESULT) == FALSE) {
         delay(30)
-        msgbox("Nothing seems to happen.")
+        msgbox("似乎什么也没发生。")
         release
         end
     }
@@ -57,17 +55,15 @@ script MeteorCave1_LegendaryRoom_IronLeavesDoor {
 script MeteorCave1_LegendaryRoom_IronBoulderDoor {
     lock
     if (flag(FLAG_BOULDERDOOR)) {
-        msgbox("The path is open.")
+        msgbox("路已经打开了。")
         release
         end
     }
-    msgbox("There's an inscription on the wall.
-    
-            BRING TERRA")
+    msgbox("墙上刻着铭文。\p带来大地")
     checkspecies(SPECIES_TERRAKION)
     if (var(VAR_RESULT) == FALSE) {
         delay(30)
-        msgbox("Nothing seems to happen.")
+        msgbox("似乎什么也没发生。")
         release
         end
     }
@@ -88,17 +84,15 @@ script MeteorCave1_LegendaryRoom_IronBoulderDoor {
 script MeteorCave1_LegendaryRoom_IronCrownDoor {
     lock
     if (flag(FLAG_CROWNDOOR)) {
-        msgbox("The path is open.")
+        msgbox("路已经打开了。")
         release
         end
     }
-    msgbox("There's an inscription on the wall.
-    
-            BRING WILL")
+    msgbox("墙上刻着铭文。\p带来意志")
     checkspecies(SPECIES_COBALION)
     if (var(VAR_RESULT) == FALSE) {
         delay(30)
-        msgbox("Nothing seems to happen.")
+        msgbox("似乎什么也没发生。")
         release
         end
     }

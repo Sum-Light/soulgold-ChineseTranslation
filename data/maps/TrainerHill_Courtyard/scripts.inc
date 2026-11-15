@@ -38,12 +38,12 @@ TrainerHill_Courtyard_EventScript_ZeraoraEnd::
 	end
 
 TrainerHill_Courtyard_Text_ZeraoraChallenge:
-	.string "Zeraora seems to be challenging\n"
-	.string "you.\p"
-	.string "Will you accept its challenge?$"
+	.string "捷拉奥拉似乎是在\n向你发起挑战。\p你接受它的挑战吗？$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_ZeraoraDisappointed:
-	.string "Zeraora howls in disappointment.$"
+	.string "捷拉奥拉失望地嚎叫了一声。$"
 
 TrainerHill_Courtyard_EventScript_BattleTowerSign::
 	lock
@@ -106,42 +106,42 @@ TrainerHill_Courtyard_EventScript_Sailor::
 	end
 
 BattleTowerOutsideYoungsterText:
-	.string "Wow, the Trainer Hill is huge!\p"
-	.string "There must be many kinds of\n"
-	.string "Pokémon in there!$"
+	.string "哇，训练家之丘真大！\p里面一定有很多种\n宝可梦！$"
+	.string ""
+	.string ""
 
 BattleTowerOutsideBeautyText:
-	.string "In the Battle Tents, you can\n"
-	.string "use only three Pokémon.\p"
-	.string "It's so hard to decide which\n"
-	.string "three should go into battle…$"
+	.string "在对战帐篷里，只能\n带三只宝可梦上场。\p该派哪三只上场，\n真是好难决定……$"
+	.string ""
+	.string ""
+	.string ""
 
 BattleTowerOutsideSailorText:
-	.string "Hehehe, I snuck out from work.\p"
-	.string "I can't bail out until I've won!\p"
-	.string "I have to win it all. That I must!$"
+	.string "嘿嘿，我是从工作中\n偷溜出来的。\p不赢一场我可回不去！\p我要全部赢下来，一定！$"
+	.string ""
+	.string ""
 
 BattleTowerOutsideSignText:
-	.string "{UP_ARROW} Trainer Hill Entrance\p"
-	.string "“Scale the heights, you hot-blooded\n"
-	.string "Trainers!”\p"
-	.string "{RIGHT_ARROW} Battle Tents.$"
+	.string "{UP_ARROW} 训练家之丘入口\p“登上高峰吧，\n热血训练家们！”\p{RIGHT_ARROW} 对战帐篷。$"
+	.string ""
+	.string ""
+	.string ""
 
 BattleTower_Battle_Tent_Text_Factory:
-	.string "Battle Tent: Factory\n"
-	.string "“Find it! The ultimate Pokémon!”$"
+	.string "对战帐篷：工厂\n“去发现吧！最强的宝可梦！”$"
+	.string ""
 
 BattleTower_Battle_Tent_Text_Palace:
-	.string "Battle Tent: Palace\n"
-	.string "“Feast Your Eyes on Battles!”$"
+	.string "对战帐篷：宫殿\n“尽情欣赏对战吧！”$"
+	.string ""
 
 BattleTower_Battle_Tent_Text_Arena:
-	.string "Battle Tent: Arena\n"
-	.string "“May the Greatest Teams Gather!”$"
+	.string "对战帐篷：竞技场\n“愿最强队伍齐聚于此！”$"
+	.string ""
 
 BattleTowerOutsideText_Closed:
-	.string "The Trainer Hill is currently\n"
-	.string "closed for repairs.$"
+	.string "训练家之丘目前正在\n维修，暂停开放。$"
+	.string ""
 
 
 TrainerHill_Courtyard_EventScript_LeftMoveTutor::
@@ -489,221 +489,221 @@ TrainerHill_Courtyard_EventScript_ChooseNewMove::
 	end
 
 TrainerHill_Courtyard_Text_LeftTutorIntro:
-	.string "Buhahaha!\p"
-	.string "You couldn't tell it from looking now,\n"
-	.string "but I used to be one tough Trainer.\p"
-	.string "I had a reputation as the toughest\n"
-	.string "Beauty around, I tell you!\p"
-	.string "… … … … … …\p"
-	.string "What is it now?\n"
-	.string "You don't believe me.\p"
-	.string "I'm not like that blowhard woman over\n"
-	.string "there. I'm actually talented!\p"
-	.string "Let me prove it to you.\n"
-	.string "I can teach your Pokémon special and\l"
-	.string "yet cute moves.\p"
-	.string "But my lessons don't come free.\n"
-	.string "How about paying for the moves I teach\l"
-	.string "with a wee bit of Battle Points?$"
+	.string "噗哈哈哈！\p现在看不出来，可俺过去\n可是个厉害的训练家。\p当年俺号称这一带\n最强的大姐姐，真的！\p………………\p怎么了？\n你不信俺。\p俺可不像那边那个\n吹牛皮的女人。俺是真有本事！\p俺证明给你看。\n俺能教你的宝可梦又特别\l又可爱的招式。\p不过教课可不能白教。\n拿一点对战点数\l来交学费，怎么样？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_LeftTutorWelcomeBack:
-	.string "Buhahaha!\p"
-	.string "Are you back to learn special and\n"
-	.string "yet cute Pokémon moves?$"
+	.string "噗哈哈哈！\p你又来学又特别\n又可爱的招式了吗？$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_TeachWhichMove:
-	.string "Fine, fine, look here!\n"
-	.string "Which move should I teach?$"
+	.string "好啦好啦，看好了！\n要俺教哪个招式？$"
+	.string ""
 
 TrainerHill_Courtyard_Text_MoveWillBeXBattlePoints:
-	.string "The move {STR_VAR_1}, is it?\n"
-	.string "That will be {STR_VAR_2} Battle Points, okay?$"
+	.string "是{STR_VAR_1}这个招式吧？\n要收{STR_VAR_2}对战点数，行吗？$"
+	.string ""
 
 TrainerHill_Courtyard_Text_TeachMoveToWhichMon:
-	.string "Fine, fine, now pick the Pokémon\n"
-	.string "I should teach the move to.$"
+	.string "好啦好啦，那就挑一只\n该学招式的宝可梦吧。$"
+	.string ""
 
 TrainerHill_Courtyard_Text_HaventGotEnoughPoints:
-	.string "What the…\n"
-	.string "You haven't got enough Battle Points!$"
+	.string "怎么回事……\n你的对战点数不够！$"
+	.string ""
 
 TrainerHill_Courtyard_Text_IllTakeBattlePoints:
-	.string "Do you see how skilled I am now?\n"
-	.string "I'll take your Battle Points, thanks!$"
+	.string "现在你见识到俺多厉害了吧？\n那对战点数俺就收下啦！$"
+	.string ""
 
 TrainerHill_Courtyard_Text_YouDontWantTo:
-	.string "What's that?\n"
-	.string "You don't want to…\p"
-	.string "If you want to see how skilled I am,\n"
-	.string "you come see me anytime!$"
+	.string "什么？\n你不想学……\p想见识俺的本事，\n随时来找俺！$"
+	.string ""
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_RightTutorIntro:
-	.string "Ihihihi!\p"
-	.string "I know it's hard to see now, but I used\n"
-	.string "to be one fantastic Trainer.\p"
-	.string "I had a reputation as the most\n"
-	.string "invincible Swimmer around, I tell you!\p"
-	.string "… … … … … …\p"
-	.string "What's wrong?\n"
-	.string "You don't believe me.\p"
-	.string "I'm not like that buffoonish woman over\n"
-	.string "there. I'm actually experienced!\p"
-	.string "I can prove it to you.\n"
-	.string "I can teach your Pokémon hard and\l"
-	.string "yet pretty moves.\p"
-	.string "But my lessons don't come free.\n"
-	.string "How about paying for the moves I teach\l"
-	.string "with a wee bit of Battle Points?$"
+	.string "咦嘻嘻嘻！\p现在看不出来，可我过去\n可是个了不起的训练家。\p当年我号称这一带\n最强的比基尼姐姐，真的！\p………………\p怎么了？\n你不信我。\p我可不像那边那个\n冒傻气的女人。我是真有经验！\p我证明给你看。\n我能教你的宝可梦又硬派\l又漂亮的招式。\p不过教课可不能白教。\n拿一点对战点数\l来交学费，怎么样？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_RightTutorWelcomeBack:
-	.string "Ihihihi!\p"
-	.string "Have you come to learn hard and\n"
-	.string "yet pretty Pokémon moves?$"
+	.string "咦嘻嘻嘻！\p你是来学又硬派\n又漂亮的招式吗？$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_ThinkLadiesDontGetAlong:
-	.string "Those ladies, the way they bad-mouth\n"
-	.string "each other, you probably think that\l"
-	.string "they don't get along.\p"
-	.string "But if that were true, they wouldn't\n"
-	.string "stay out here together, would they?$"
+	.string "那两位女士互相说坏话的样子，\n你大概会以为她们\l关系不好吧。\p可要是真关系不好，她们\n也不会一起待在这儿了，对吧？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_LadiesWereStrongAndBeautiful:
-	.string "When I was just a wee Youngster,\n"
-	.string "those ladies were strong and beautiful.\p"
-	.string "They were idols among us Trainers.\p"
-	.string "Even now, age hasn't dulled their\n"
-	.string "abilities.\p"
-	.string "In fact, their Pokémon moves have\n"
-	.string "grown even more polished.\p"
-	.string "But… For some reason, I can't help\n"
-	.string "but feel this…\p"
-	.string "Time is so cruel…$"
+	.string "我还在当短裤小子的时候，\n那两位女士又强又美。\p她们是我们训练家中的偶像。\p就算现在，\n岁月也没让她们的本领变迟钝。\p不如说，她们的宝可梦\n招式磨炼得更加精湛了。\p可是……不知为何，我总\n忍不住觉得……\p时间真是残酷……$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_SoftboiledDesc::
-	.string "Recovers up to\n"
-	.string "half the user's\n"
-	.string "maximum Hp.$"
+	.string "回复自身\n最大体力的一半。$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_SeismicTossDesc::
-	.string "Inflicts damage\n"
-	.string "identical to the\n"
-	.string "user's level.$"
+	.string "给予与自身等级\n相同的伤害。$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_DreamEaterDesc::
-	.string "Recovers half the\n"
-	.string "damage inflicted\n"
-	.string "on a sleeping foe.$"
+	.string "睡眠中的对手\n受到的伤害，\n回复其一半。$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_MegaPunchDesc::
-	.string "A strong punch\n"
-	.string "thrown with\n"
-	.string "incredible power.$"
+	.string "以惊人的力量\n挥出的一记\n强力拳击。$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_MegaKickDesc::
-	.string "An extremely\n"
-	.string "powerful kick with\n"
-	.string "intense force.$"
+	.string "威力极强的\n一记踢击，\n带有猛烈劲道。$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_BodySlamDesc::
-	.string "A full-body slam\n"
-	.string "that may cause\n"
-	.string "paralysis.$"
+	.string "用整个身体撞击，\n有时会让对手\n陷入麻痹。$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_RockSlideDesc::
-	.string "Large boulders\n"
-	.string "are hurled. May\n"
-	.string "cause flinching.$"
+	.string "抛出巨大的岩石。\n有时会让对手\n畏缩。$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_CounterDesc::
-	.string "Retaliates any\n"
-	.string "physical hit with\n"
-	.string "double the power.$"
+	.string "以两倍威力\n反击受到的任何\n物理攻击。$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_ThunderWaveDesc::
-	.string "A weak jolt of\n"
-	.string "electricity that\n"
-	.string "paralyzes the foe.$"
+	.string "微弱的电流，\n会让对手\n陷入麻痹。$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_SwordsDanceDesc::
-	.string "A fighting dance\n"
-	.string "that sharply\n"
-	.string "raises Attack.$"
+	.string "提高士气的舞蹈，\n大幅提高\n自身的攻击。$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_DefenseCurlDesc::
-	.string "Curls up to con-\n"
-	.string "ceal weak spots\n"
-	.string "and raise Defense.$"
+	.string "蜷缩身体，\n藏起弱点，\n提高防御。$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_SnoreDesc::
-	.string "A loud attack\n"
-	.string "that can be used\n"
-	.string "only while asleep.$"
+	.string "只有在睡眠时\n才能使用的\n大声攻击。$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_MudSlapDesc::
-	.string "Hurls mud in the\n"
-	.string "foe's face to re-\n"
-	.string "duce its accuracy.$"
+	.string "把泥巴甩到\n对手脸上，\n降低命中率。$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_SwiftDesc::
-	.string "Sprays star-\n"
-	.string "shaped rays\n"
-	.string "that never miss.$"
+	.string "发射星形的\n光线，必定\n命中。$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_IcyWindDesc::
-	.string "A chilling attack\n"
-	.string "that lowers the\n"
-	.string "foe's Speed.$"
+	.string "冰冷的攻击，\n会降低对手的\n速度。$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_EndureDesc::
-	.string "Endures any at-\n"
-	.string "tack for 1 turn,\n"
-	.string "leaving 1HP.$"
+	.string "即使受到攻击，\n也能留下1HP\n撑过1回合。$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_PsychUpDesc::
-	.string "Copies the foe's\n"
-	.string "effect(s) and\n"
-	.string "gives to the user.$"
+	.string "复制对手的\n效果，\n施加于自身。$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_IcePunchDesc::
-	.string "An icy punch\n"
-	.string "that may\n"
-	.string "freeze the foe.$"
+	.string "冰冷的拳头，\n有时会让对手\n冰冻。$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_ThunderPunchDesc::
-	.string "An electrified\n"
-	.string "punch that may\n"
-	.string "paralyze the foe.$"
+	.string "带电的拳头，\n有时会让对手\n麻痹。$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_FirePunchDesc::
-	.string "A fiery punch\n"
-	.string "that may burn\n"
-	.string "the foe.$"
+	.string "带火的拳头，\n有时会让对手\n灼伤。$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_ElementalTutorIntro::
-	.string "Zzzzzz…\p"
-	.string "What, how, what?\p"
-	.string "Oh, sorry, I was snoozing a bit.\p"
-	.string "I'm the Elemental Tutor.\p"
-	.string "I have the power to teach the most\n"
-	.string "powerful moves to Grass, Fire and\l"
-	.string "Water Type Pokémon.\p"
-	.string "Did you come to learn such a strong\n"
-	.string "power?$"
+	.string "呼……呼……\p什、什么，怎么了？\p哦，抱歉，我打了个盹。\p我是属性导师。\p我有能力教草、火、水属性\n宝可梦最强的\l招式。\p你是来学这份强大\n力量的吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_ElementalTutorWelcomeBack:
-	.string "Zzzzzz…\p"
-	.string "What, how, what, who?\p"
-	.string "Oh, did you come to learn the\n"
-	.string "power of my strongest moves?$"
+	.string "呼……呼……\p什、什么，谁啊？\p哦，你是来学我最强\n招式的力量吗？$"
+	.string ""
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_Text_TeachWhichMoveElemental::
-	.string "Which move do you think is suitable\n"
-	.string "for your Pokémon?$"
+	.string "你觉得哪个招式适合\n你的宝可梦？$"
+	.string ""
 
 TrainerHill_Courtyard_Text_StrongElementalMoveDesc::
-	.string "Powerful, but\n"
-	.string "leaves the user\n"
-	.string "immobile one turn.$"
+	.string "威力强大，但使用后\n自身下一回合\n无法行动。$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_EventScript_ClerkWelcome::
 	msgbox TrainerHill_Courtyard_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize, MSGBOX_DEFAULT
@@ -1149,299 +1149,299 @@ TrainerHill_Courtyard_ExchangeServiceCorner_EventScript_OldWTMan::
 	end
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_YouAlreadyHaveThis:
-	.string "You already have this item.$"
+	.string "您已经有这个道具了。$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_EventScript_OldWTMan_Text:
-	.string "Hi! If you are looking for the\n"
-	.string "Wondertrade, they're now located in\l"
-	.string "every Pokémon Center. Have fun!$"
+	.string "您好！如果您在找奇迹交换，\n它现在位于每个宝可梦中心。\l玩得开心！$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize:
-	.string "Hello, this is the Exchange Service\n"
-	.string "Corner.\p"
-	.string "We exchange the Battle Points you\n"
-	.string "have collected for lovely prizes.\p"
-	.string "Please choose a prize from this list.$"
+	.string "您好，这里是对战点数兑换\n服务区。\p我们将您收集的对战点数\n兑换成精美的奖品。\p请从这份列表中选择奖品。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 @ Unused
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_PleaseChoosePrize:
-	.string "Please choose a prize from this list.$"
+	.string "请从这份列表中选择奖品。$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmKissPoster:
-	.string "You've chosen the Kiss Poster.\n"
-	.string "Is that correct?$"
+	.string "您选择了飞吻海报。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmKissCushion:
-	.string "You've chosen the Kiss Cushion.\n"
-	.string "Is that correct?$"
+	.string "您选择了亲吻靠垫。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmSmoochumDoll:
-	.string "You've chosen the Smoochum Doll.\n"
-	.string "Is that correct?$"
+	.string "您选择了迷唇娃玩偶。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmTogepiDoll:
-	.string "You've chosen the Togepi Doll.\n"
-	.string "Is that correct?$"
+	.string "您选择了波克比玩偶。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmMeowthDoll:
-	.string "You've chosen the Meowth Doll.\n"
-	.string "Is that correct?$"
+	.string "您选择了喵喵玩偶。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmClefairyDoll:
-	.string "You've chosen the Clefairy Doll.\n"
-	.string "Is that correct?$"
+	.string "您选择了皮皮玩偶。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmDittoDoll:
-	.string "You've chosen the Ditto Doll.\n"
-	.string "Is that correct?$"
+	.string "您选择了百变怪玩偶。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmCyndaquilDoll:
-	.string "You've chosen the Cyndaquil Doll.\n"
-	.string "Is that correct?$"
+	.string "您选择了火球鼠玩偶。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmChikoritaDoll:
-	.string "You've chosen the Chikorita Doll.\n"
-	.string "Is that correct?$"
+	.string "您选择了菊草叶玩偶。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmTotodileDoll:
-	.string "You've chosen the Totodile Doll.\n"
-	.string "Is that correct?$"
+	.string "您选择了小锯鳄玩偶。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmLaprasDoll:
-	.string "You've chosen the Lapras Doll.\n"
-	.string "Is that correct?$"
+	.string "您选择了拉普拉斯玩偶。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmSnorlaxDoll:
-	.string "You've chosen the Snorlax Doll.\n"
-	.string "Is that correct?$"
+	.string "您选择了卡比兽玩偶。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmVenusaurDoll:
-	.string "You've chosen the Venusaur Doll.\n"
-	.string "Is that correct?$"
+	.string "您选择了妙蛙花玩偶。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmCharizardDoll:
-	.string "You've chosen the Charizard Doll.\n"
-	.string "Is that correct?$"
+	.string "您选择了喷火龙玩偶。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmBlastoiseDoll:
-	.string "You've chosen the Blastoise Doll.\n"
-	.string "Is that correct?$"
+	.string "您选择了水箭龟玩偶。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmProtein:
-	.string "You've chosen the Protein.\n"
-	.string "Is that correct?$"
+	.string "您选择了攻击增强剂。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmCalcium:
-	.string "You've chosen the Calcium.\n"
-	.string "Is that correct?$"
+	.string "您选择了特攻增强剂。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmIron:
-	.string "You've chosen the Iron.\n"
-	.string "Is that correct?$"
+	.string "您选择了防御增强剂。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmZinc:
-	.string "You've chosen the Zinc.\n"
-	.string "Is that correct?$"
+	.string "您选择了特防增强剂。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmCarbos:
-	.string "You've chosen the Carbos.\n"
-	.string "Is that correct?$"
+	.string "您选择了速度增强剂。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmHpUp:
-	.string "You've chosen the Hp Up.\n"
-	.string "Is that correct?$"
+	.string "您选择了HP增强剂。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmBrightpowder:
-	.string "You've chosen the Brightpowder.\n"
-	.string "Is that correct?$"
+	.string "您选择了光粉。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmWhiteHerb:
-	.string "You've chosen the White Herb.\n"
-	.string "Is that correct?$"
+	.string "您选择了白色香草。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmQuickClaw:
-	.string "You've chosen the Quick Claw.\n"
-	.string "Is that correct?$"
+	.string "您选择了先制之爪。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmMentalHerb:
-	.string "You've chosen the Mental Herb.\n"
-	.string "Is that correct?$"
+	.string "您选择了心灵香草。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmChoiceBand:
-	.string "You've chosen the Choice Band.\n"
-	.string "Is that correct?$"
+	.string "您选择了讲究头带。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmKingsRock:
-	.string "You've chosen the King's Rock.\n"
-	.string "Is that correct?$"
+	.string "您选择了王者之证。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmFocusBand:
-	.string "You've chosen the Focus Band.\n"
-	.string "Is that correct?$"
+	.string "您选择了气势头带。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmScopeLens:
-	.string "You've chosen the Scope Lens.\n"
-	.string "Is that correct?$"
+	.string "您选择了焦点镜。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ConfirmLeftovers:
-	.string "You've chosen the Leftovers.\n"
-	.string "Is that correct?$"
+	.string "您选择了吃剩的东西。\n确定吗？$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_WellSendItToPC:
-	.string "Thank you!\n"
-	.string "We'll send it to your PC at home.$"
+	.string "谢谢！\n我们这就送到您家里的电脑上。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_HereIsYourPrize:
-	.string "Here is your prize!$"
+	.string "这是您的奖品！$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_DontHaveEnoughPoints:
-	.string "I'm so sorry…\n"
-	.string "You don't have enough Battle Points…$"
+	.string "非常抱歉……\n您的对战点数不够……$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_PCIsFull:
-	.string "I'm so sorry…\n"
-	.string "Your PC appears to be full…$"
+	.string "非常抱歉……\n您的电脑好像已经满了……$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_DontHaveSpaceToHoldIt:
-	.string "I'm so sorry…\n"
-	.string "You don't have space to hold it…$"
+	.string "非常抱歉……\n您没有空间拿这个了……$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ThankYouVisitWithPoints:
-	.string "Thank you very much.\p"
-	.string "Please visit us when you have\n"
-	.string "saved up Battle Points.$"
+	.string "非常感谢。\p等您攒够了对战点数，\n请再来光临。$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_WishIHadAllDolls:
-	.string "Oh, they're so nice!\n"
-	.string "I wish I had them!\l"
-	.string "Cute cushions!\l"
-	.string "Big plush Dolls!\l"
-	.string "Little plush Dolls!\l"
-	.string "I wish I had them all!$"
+	.string "啊，真好啊！\n好想要啊！\l可爱的靠垫！\l大大的毛绒玩偶！\l小小的毛绒玩偶！\l我全都想要！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_GetYouAnythingYouWant:
-	.string "Leave it to your mommy!\p"
-	.string "If it's anything you want, I'll go\n"
-	.string "through anything to get it, honey!$"
+	.string "交给妈妈吧！\p只要是你想要的，不管是什么，\n妈妈都会想办法弄到手，宝贝！$"
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ItemsWillGetMonTougher:
-	.string "If I can get hold of the items here,\n"
-	.string "my Pokémon will get tougher.\p"
-	.string "You bet they will!\n"
-	.string "No question about it!$"
+	.string "只要弄到这里的道具，\n我的宝可梦就会变强。\p一定会变强！\n这还用说嘛！$"
+	.string ""
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_GoGetYourOwnDoll:
-	.string "Hah?\n"
-	.string "What are you gawking at?\p"
-	.string "I don't like you staring at my plush\n"
-	.string "doll like that.\p"
-	.string "If you want it, go get one yourself!\n"
-	.string "Isn't that right, Smoochum?$"
+	.string "干嘛？\n你盯着看什么看？\p我不喜欢你那样盯着我的\n毛绒玩偶看。\p想要的话，自己去换一个！\n对吧，迷唇娃？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_MoreBattlePointsForRecord:
-	.string "Did you know?\p"
-	.string "If you stretch your record at any of\n"
-	.string "the Battle facilities, they start\l"
-	.string "giving you more and more Battle Points.$"
+	.string "你知道吗？\p要是在对战设施里刷新记录，\n他们给的对战点数\l就会越来越多。$"
+	.string ""
+	.string ""
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_KissPosterDesc::
-	.string "A large poster with a Smoochum print.$"
+	.string "印着迷唇娃的大海报。$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_KissCushionDesc::
-	.string "A Smoochum cushion.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "迷唇娃靠垫。\n可以放在垫子或桌子上。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_SmoochumDollDesc::
-	.string "A Smoochum Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "迷唇娃玩偶。\n可以放在垫子或桌子上。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_TogepiDollDesc::
-	.string "A Togepi Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "波克比玩偶。\n可以放在垫子或桌子上。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_MeowthDollDesc::
-	.string "A Meowth Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "喵喵玩偶。\n可以放在垫子或桌子上。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ClefairyDollDesc::
-	.string "A Clefairy Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "皮皮玩偶。\n可以放在垫子或桌子上。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_DittoDollDesc::
-	.string "A Ditto Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "百变怪玩偶。\n可以放在垫子或桌子上。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_CyndaquilDollDesc::
-	.string "A Cyndaquil Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "火球鼠玩偶。\n可以放在垫子或桌子上。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ChikoritaDollDesc::
-	.string "A Chikorita Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "菊草叶玩偶。\n可以放在垫子或桌子上。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_TotodileDollDesc::
-	.string "A Totodile Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "小锯鳄玩偶。\n可以放在垫子或桌子上。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_LargeDollDesc::
-	.string "A large Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "一个大玩偶。\n可以放在垫子或桌子上。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ProteinDesc::
-	.string "A strange ticket that will get\n"
-	.string "you to an abandoned island.$"
+	.string "一张奇怪的票，能带你\n前往一座废弃的岛屿。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_CalciumDesc::
-	.string "A strange ticket that will get\n"
-	.string "you to an abandoned island.$"
+	.string "一张奇怪的票，能带你\n前往一座废弃的岛屿。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_IronDesc::
-	.string "A strange ticket that will get\n"
-	.string "you to an abandoned island.$"
+	.string "一张奇怪的票，能带你\n前往一座废弃的岛屿。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ZincDesc::
-	.string "An… old map? Maybe\n"
-	.string "it will get you somewhere.$"
+	.string "一张……旧地图？也许\n能带你去某个地方。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_CarbosDesc::
-	.string "x10 EV gain, but halves speed.$"
+	.string "努力值获得量变为10倍，\n但速度减半。$"
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_HPUpDesc::
-	.string "A peculiar box made\n"
-	.string "by Silph Co.$"  
+	.string "西尔佛公司制造的一种\n奇特的盒子。$"
+	.string ""  
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_LeftoversDesc::
-	.string "A hold item that gradually restores\n"
-	.string "Hp in battle.$"
+	.string "一件能在对战中逐渐回复\n体力的道具。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_WhiteHerbDesc::
-	.string "A hold item that restores any\n"
-	.string "lowered stat.$"
+	.string "一件能让降低的能力恢复\n原状的道具。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_QuickClawDesc::
-	.string "A hold item that occasionally allows\n"
-	.string "the first strike.$"
+	.string "一件偶尔能抢先发动\n攻击的道具。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_MentalHerbDesc::
-	.string "A hold item that snaps Pokémon out\n"
-	.string "of infatuation.$"
+	.string "一件能让宝可梦摆脱\n着迷状态的道具。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_BrightpowderDesc::
-	.string "A hold item that casts a glare to\n"
-	.string "reduce accuracy.$"
+	.string "一件能发出眩光，降低\n对手命中率的道具。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ChoiceBandDesc::
-	.string "Raises a move's power, but permits\n"
-	.string "only that move.$"
+	.string "提升招式的威力，但只能\n使用那一个招式。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_KingsRockDesc::
-	.string "A hold item that may cause flinching\n"
-	.string "when the foe is hit.$"
+	.string "一件在攻击命中时偶尔\n能让对手畏缩的道具。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_FocusBandDesc::
-	.string "A hold item that occasionally\n"
-	.string "prevents fainting.$"
+	.string "一件偶尔能防止\n濒死的道具。$"
+	.string ""
 
 TrainerHill_Courtyard_ExchangeServiceCorner_Text_ScopeLensDesc::
-	.string "A hold item that raises the\n"
-	.string "critical-hit rate.$"
+	.string "一件能提高击中要害率\n的道具。$"
+	.string ""

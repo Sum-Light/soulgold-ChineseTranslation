@@ -45,73 +45,73 @@ Route13_EventScript_DirectionsSign::
 	end
 
 Route13_Text_PokefanmAlexSeen:
-	.string "Bow down before my regal Pokémon!$"
+	.string "在我高贵的宝可梦面前\n跪下吧！$"
 
 Route13_Text_PokefanmAlexBeaten:
-	.string "How… How dare you mock royalty!$"
+	.string "你……\n竟敢冒犯王室！$"
 
 Route13_Text_PokefanmAlexAfterBattle:
-	.string "Doesn't everyone wish to someday\n"
-	.string "be a king?$"
+	.string "谁不想有朝一日\n当上国王呢？$"
+	.string ""
 
 Route13_Text_PokefanmJoshuaSeen:
-	.string "Nihihi! Would you like to battle\n"
-	.string "my Pikachu gang?$"
+	.string "嘻嘻嘻！想不想和我的\n皮卡丘军团打一场？$"
+	.string ""
 
 Route13_Text_PokefanmJoshuaBeaten:
-	.string "Pi-Pikachu!$"
+	.string "皮、皮卡丘！$"
 
 Route13_Text_PokefanmJoshuaAfterBattle:
-	.string "You look like you have many\n"
-	.string "Pokémon,\p"
-	.string "but Pikachu is still the best.$"
+	.string "你好像有很多宝可梦，\p不过最棒的\n还是皮卡丘。$"
+	.string ""
+	.string ""
 
 Route13_Text_BirdKeeperPerrySeen:
-	.string "Agility is the key attribute of\n"
-	.string "bird Pokémon.$"
+	.string "敏捷是鸟宝可梦\n最重要的特质。$"
+	.string ""
 
 Route13_Text_BirdKeeperPerryBeaten:
-	.string "You beat me with your speed…$"
+	.string "你竟然靠速度\n赢了我……$"
 
 Route13_Text_BirdKeeperPerryAfterBattle:
-	.string "Your Pokémon are remarkably well-\n"
-	.string "trained.$"
+	.string "你的宝可梦\n训练得真好。$"
+	.string ""
 
 Route13_Text_BirdKeeperBretSeen:
-	.string "Check out my Pokémon. Just look\n"
-	.string "at their coloring and their\n"
-	.string "plumage.$"
+	.string "看看我的宝可梦！\n瞧瞧它们的毛色与羽毛。$"
+	.string ""
+	.string ""
 
 Route13_Text_BirdKeeperBretBeaten:
-	.string "Shoot! Not good enough!$"
+	.string "可恶！\n还差得远呢！$"
 
 Route13_Text_BirdKeeperBretAfterBattle:
-	.string "If you groom them, Pokémon get\n"
-	.string "happy.$"
+	.string "多给宝可梦梳理毛发，\n它们就会很高兴。$"
+	.string ""
 
 Route13_Text_HikerKennySeen:
-	.string "I should go to Rock Tunnel to get\n"
-	.string "myself an Onix.$"
+	.string "我该去岩山隧道\n抓只大岩蛇。$"
+	.string ""
 
 Route13_Text_HikerKennyBeaten:
-	.string "I lost…$"
+	.string "我输了……$"
 
 Route13_Text_HikerKennyAfterBattle:
-	.string "Geological features don't appear\n"
-	.string "to change.\p"
-	.string "But they actually change, little\n"
-	.string "by little.$"
+	.string "地形看上去\n好像从来不变。\p但其实它正一点一点地\n发生变化。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route13_Text_TrainerTips:
-	.string "Trainer Tips\p"
-	.string "Look! Right there, at the left\n"
-	.string "side of the post.$"
+	.string "训练家提示\p看！就在那里，\n柱子的左边。$"
+	.string ""
+	.string ""
 
 Route13_Text_Sign:
-	.string "Route 13\p"
-	.string "North To Silence Bridge$"
+	.string "13号道路\p北　寂静桥$"
+	.string ""
 
 Route13_Text_DirectionsSign:
-	.string "North To Lavender Town\p"
-	.string "West To Fuchsia City$"
+	.string "北　紫苑镇\p西　浅红市$"
+	.string ""
 

@@ -1,60 +1,43 @@
 mapscripts VajraDesertEast_MapScripts {}
 
 script VajraDesertEast_TrainerSirocco {
-	trainerbattle_single(TRAINER_VAJRA_EAST_SIROCCO, "Let me see how tough you are!", "Tough enough, I guess...")
-	msgbox("The hardest environments make the
-			toughest trainers.
-
-			I hope to become the very best
-			someday!", MSGBOX_AUTOCLOSE)
+	trainerbattle_single(TRAINER_VAJRA_EAST_SIROCCO, "让我看看你有多少本事！", "看来还挺能打……")
+	msgbox("最严酷的环境造就\n最强的训练家。\p总有一天，我也要\n成为最厉害的！", MSGBOX_AUTOCLOSE)
 	end
 }
 
 
 script VajraDesertEast_TrainerSol {
-	trainerbattle_double(TRAINER_VAJRA_EAST_SOL, "Huff, huff! One more lap!", "Need... water...!", "Hey, you need two Pokémon ready to
-																											 battle!")
-	msgbox("There's an oasis behind those palm
-			trees, but you can't just go through
-			them!", MSGBOX_AUTOCLOSE)
+	trainerbattle_double(TRAINER_VAJRA_EAST_SOL, "呼哧，呼哧！再跑一圈！", "水……给我水……！", "嘿，你得带两只\n能对战的宝可梦才行！")
+	msgbox("那些棕榈树后面有片绿洲，\n可你不能直接穿过去！", MSGBOX_AUTOCLOSE)
 	end
 }
 
 
 script VajraDesertEast_TrainerDune {
-	trainerbattle_single(TRAINER_VAJRA_EAST_DUNE, "Riding high!", "You caught me off guard...")
-	msgbox("Two Pokémon I'd never seen before
-			flew past here. They've returned a
-			few times.
-
-			What were they, I wonder?", MSGBOX_AUTOCLOSE)
+	trainerbattle_single(TRAINER_VAJRA_EAST_DUNE, "全速前进！", "你攻得我措手不及……")
+	msgbox("有两只我从没见过的宝可梦\n从这儿飞了过去。它们已经\l回来过好几次了。\p它们到底是什么呢？", MSGBOX_AUTOCLOSE)
 	end
 }
 
 
 script VajraDesertEast_TrainerNori {
-	trainerbattle_double(TRAINER_VAJRA_EAST_NORI, "Are you the Trainer who beat Lance?", "No way! The Champion beat me!", "How does the Champion not have two
-																													 Pokémon ready to battle?")
-	msgbox("Can't wait to tell all my friends about
-			this!", MSGBOX_AUTOCLOSE)
+	trainerbattle_double(TRAINER_VAJRA_EAST_NORI, "你就是打赢了阿渡的训练家？", "不是吧！冠军居然打赢了我！", "冠军怎么会没带\n两只宝可梦来对战？")
+	msgbox("我一定要把这事\n告诉所有朋友！", MSGBOX_AUTOCLOSE)
 	end
 }
 
 
 script VajraDesertEast_TrainerAtlas {
-	trainerbattle_double(TRAINER_VAJRA_EAST_ATLAS, "Think you can reach the oasis?", "Looks like you won't get lost among
-																										the trees!", "Sorry, bud, but you need two Pokémon
-																													 ready to battle.")
-	msgbox("This place is almost like a savanna,
-			even though it's part of the desert!", MSGBOX_AUTOCLOSE)
+	trainerbattle_double(TRAINER_VAJRA_EAST_ATLAS, "你觉得你能到达绿洲吗？", "看来你是不会在\n树林里迷路了！", "抱歉啦，伙计，你得带两只\n宝可梦来才能对战。")
+	msgbox("这地方简直就像热带草原，\n虽然它其实是沙漠的一部分！", MSGBOX_AUTOCLOSE)
 	end
 }
 
 script VajraDesertEast_LadyofLake {
-	msgbox("This stream of water is crucial for the
-			life here. I hope it never dries up.", MSGBOX_NPC)
+	msgbox("这条水流对这里的生命\n至关重要。希望它永远不干涸。", MSGBOX_NPC)
 }
 
 script VajraDesertEastSign {
-	msgbox("Vajra Desert East", MSGBOX_SIGN)
+	msgbox("金刚沙漠东部", MSGBOX_SIGN)
 }

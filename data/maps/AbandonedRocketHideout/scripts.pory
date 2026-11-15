@@ -20,82 +20,46 @@ mapscripts AbandonedRocketHideout_MapScripts {
 }
 
 script ARH_Note1 {
-    msgbox("A brittle memo is pinned beneath
-            the dust...
-
-            PROJECT SHADOW - CLOSURE ORDER
-
-            All Shadow specimens are to be
-            discarded immediately.
-
-            Burn the research.
-
-            Leave nothing.", MSGBOX_SIGN)
+    msgbox("尘土下压着一张\n脆弱的便条……\p黑暗计划——关闭命令\p所有黑暗实验体\n即刻废弃。\p烧毁研究成果。\p不留痕迹。", MSGBOX_SIGN)
 }
 
 script ARH_MiddleDoor {
     if (flag(FLAG_ARH_PUZZLE3)) {
-        msgbox("The central shutter is open.", MSGBOX_SIGN)
+        msgbox("中央的卷帘门已经打开了。", MSGBOX_SIGN)
     } else {
-        msgbox("CENTRAL ARCHIVE
-
-                POWER RELAY: NOT DETECTED
-
-                The shutter is locked in place.", MSGBOX_SIGN)
+        msgbox("中央档案室\p未检测到电力继电器\p卷帘门锁死了。", MSGBOX_SIGN)
     }
 }
 
 script ARH_RightDoor {
     if (flag(FLAG_ARH_PUZZLE1)) {
-        msgbox("STORAGE BAY R
-
-                ACCESS GRANTED", MSGBOX_SIGN)
+        msgbox("R号仓储区\p已获准进入", MSGBOX_SIGN)
     } else {
-        msgbox("STORAGE BAY R
-
-                SEALED BY SHADOW PROTOCOL
-
-                Remote authorization is required.", MSGBOX_SIGN)
+        msgbox("R号仓储区\p已由黑暗协议封锁\p需要远程授权。", MSGBOX_SIGN)
     }
 }
 
 script ARH_Note2 {
-    msgbox("Most of the report has been shredded.
-            One paragraph survives...
-
-            'Houndour was the first subject to
-            retain a stable Shadow response.
-
-            Earlier Rattata and Zubat trials were
-            judged unusable.'", MSGBOX_SIGN)
+    msgbox("报告已被粉碎，\n只剩一段文字……\p“戴鲁比是首个\n保持稳定黑暗反应的\l实验体。\p此前的小拉达和超音蝠\n实验体被判定为不可用。”", MSGBOX_SIGN)
 }
 
 script ARH_Computer1 {
     lock
     if (flag(FLAG_ARH_PUZZLE1)) {
-        msgbox("The terminal displays a single line:
-
-                STORAGE BAY R - UNSEALED", MSGBOX_SIGN)
+        msgbox("终端显示着一行字：\pR号仓储区——已解封", MSGBOX_SIGN)
         release
         end
     }
     playse(SE_PC_ON)
-    msgbox("The old terminal sputters to life.
-
-            SHADOW FAILSAFE
-            Enter the Pokédex index of the first
-            viable subject.")
+    msgbox("旧终端断断续续地启动了。\p黑暗保险机制\n请输入首个可用\l实验体的图鉴编号。")
     waitse
     dynmultichoice(0, 0, FALSE, 5, 0, DYN_MULTICHOICE_CB_NONE,
-                   "019", "041", "198", "228", "Cancel")
+                   "019", "041", "198", "228", "取消")
     switch (var(VAR_RESULT)) {
         case 3:
             playse(SE_SUCCESS)
 
-            msgbox("SUBJECT 228: HOUNDOUR
-                    AUTHORIZATION CONFIRMED
-
-                    Storage Bay R is now unsealed.")
+            msgbox("实验体228：戴鲁比\n授权已确认\pR号仓储区已解封。")
             setflag(FLAG_ARH_PUZZLE1)
             setmetatile(17, 10, 0x500, FALSE)
             setmetatile(18, 10, 0x500, FALSE)
@@ -110,46 +74,31 @@ script ARH_Computer1 {
         default:
             playse(SE_FAILURE)
 
-            msgbox("SUBJECT RECORD REJECTED.")
+            msgbox("实验体记录遭到拒绝。")
             
     }
     release
 }
 
 script ARH_BoxLeft {
-    msgbox("A clipboard is wedged between the
-            packing foam and the crate wall.
-
-            SUBJECT INDEX
-             019 - RATTATA
-             041 - ZUBAT
-             198 - MURKROW
-             228 - HOUNDOUR", MSGBOX_SIGN)
+    msgbox("箱子内衬与箱壁之间\n卡着一块写字板。\p实验体索引\n019——小拉达\l041——超音蝠\l198——黑暗鸦\l228——戴鲁比", MSGBOX_SIGN)
 }
 
 script ARH_BoxRight1 {
-    msgbox("The crate contains a Rocket uniform
-            and a note written in red ink...
-
-            'My locker code is 041.
-            Markov, stay out this time.'", MSGBOX_SIGN)
+    msgbox("箱子里有一件火箭队制服，\n还有一张用红墨水写的便条……\p“我的寄存柜密码是041。\n马尔科夫，这次别碰。”", MSGBOX_SIGN)
 }
 
 
 script ARH_BoxRightRoomRightOne2 {
     if (flag(FLAG_ARH_PUZZLE2)) {
-        msgbox("The fitted compartment is empty.", MSGBOX_SIGN)
+        msgbox("隔层是空的。", MSGBOX_SIGN)
         end
     }
 
     lock
-    msgbox("Something heavy shifts beneath a false
-            bottom.")
+    msgbox("假底下面有\n沉重的东西挪动了一下。")
     playfanfare(MUS_HG_OBTAIN_ITEM)
-    msgbox("{PLAYER} found the Magnetic Relay!
-
-            It looks like it belongs in one of the
-            warehouse machines.")
+    msgbox("{PLAYER}找到了磁力继电器！\p这东西好像是装在\n仓库里某台机器上的。")
     waitfanfare
     setflag(FLAG_ARH_PUZZLE2)
     release
@@ -159,54 +108,32 @@ script ARH_BoxWrong {
     random(6)
     switch (var(VAR_RESULT)) {
         case 0:
-            msgbox("Nothing but crushed Poké Ball
-                    shells. Every one has been neatly
-                    stamped REJECTED.", MSGBOX_SIGN)
+            msgbox("只剩压扁的精灵球\n碎壳。每一个都被\l盖上了“不合格”的印章。", MSGBOX_SIGN)
         case 1:
-            msgbox("Hundreds of left-handed black
-                    gloves.
-
-                    There is not one right glove.", MSGBOX_SIGN)
+            msgbox("数百只左手用的\n黑色手套。\p没有一只是右手的。", MSGBOX_SIGN)
         case 2:
-            msgbox("A shipping manifest reads:
-
-                    SINISTER CAPES - 40
-                    DRAMATIC WIND MACHINES - 40", MSGBOX_SIGN)
+            msgbox("一张出货单上写着：\p邪恶披风——40\n戏剧效果鼓风机——40", MSGBOX_SIGN)
         case 3:
-            msgbox("A fossilized RageCandyBar sticks
-                    to the packing paper.", MSGBOX_SIGN)
+            msgbox("包装纸上粘着一块\n石化了的愤怒馒头。", MSGBOX_SIGN)
         case 4:
-            msgbox("The crate is full of fake moustaches
-                    labeled EXECUTIVE EMERGENCY KIT.", MSGBOX_SIGN)
+            msgbox("箱子里塞满了假胡子，\n标签上写着“干部应急包”。", MSGBOX_SIGN)
         case 5:
-            msgbox("This crate is labeled
-                    LOTS OF VOLTORBS.
-
-                    It is empty... 
-                    
-                    You feel a sense of relief.", MSGBOX_SIGN)
+            msgbox("箱子上写着\n“大量霹雳电球”。\p里面是空的……\p你松了一口气。", MSGBOX_SIGN)
     }
 }
 
 script ARH_MachineRight {
     if (flag(FLAG_ARH_PUZZLE3)) {
-        msgbox("The restored relay hums steadily.
-
-                CENTRAL ARCHIVE - ACCESS ONLINE", MSGBOX_SIGN)
+        msgbox("恢复运转的继电器\n平稳地嗡鸣着。\p中央档案室——通道已启用", MSGBOX_SIGN)
         end
     }
     if (!flag(FLAG_ARH_PUZZLE2)) {
-        msgbox("CENTRAL SHUTTER CONTROL
-
-                ERROR: MAGNETIC RELAY MISSING
-
-                A relay-shaped socket is empty.", MSGBOX_SIGN)
+        msgbox("中央卷帘门控制\p错误：未检测到磁力继电器\p继电器形状的插槽是空的。", MSGBOX_SIGN)
         end
     }
 
     lock
-    msgbox("The magnetic relay fits the empty
-            socket perfectly.")
+    msgbox("磁力继电器正好\n嵌进空插槽里。")
     playse(SE_CLICK)
     waitse
     setflag(FLAG_ARH_PUZZLE3)
@@ -218,21 +145,11 @@ script ARH_MachineRight {
     setmetatile(12, 11, 0x500, FALSE)
     playse(SE_EXIT)
     special(DrawWholeMapView)
-    msgbox("The old machinery hums to life.
-
-            The central shutter seems to
-            have opened in the hallway.")
+    msgbox("旧机器嗡嗡地运转起来。\p走廊里的中央卷帘门\n好像打开了。")
     release
 }
 
 // Red-herring machine text.
 script ARH_MachineRight2 {
-    msgbox("UMBRA MEASUREMENT MONITOR
-
-            The final readings are frozen on the
-            dim display.
-
-            HEART RATE: 220
-            AGGRESSION: ERROR
-            EMOTION: 0%", MSGBOX_SIGN)
+    msgbox("暗影测量监视器\p最后的读数定格在\n昏暗的显示屏上。\p心率：220\n攻击性：错误\l情绪：0%", MSGBOX_SIGN)
 }

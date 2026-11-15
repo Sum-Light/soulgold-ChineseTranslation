@@ -18,14 +18,11 @@ script IronValiantEnc {
 script AncientWallMet {
    lock
     if (flag(FLAG_ALL_FUTUREMONS)) {
-        msgbox("The way is open.")
+        msgbox("路已经打开了。")
         release
         end
     }
-    msgbox("There's an inscription on the wall.
-    
-            GATHER ALL
-            OF THE FUTURE")
+    msgbox("墙上刻着铭文。\p聚集所有\n未来之物")
     getcaughtmon(SPECIES_IRON_TREADS)
     if (var(VAR_RESULT) == FALSE) {
         goto(MeteorCave1_NothingHappens)

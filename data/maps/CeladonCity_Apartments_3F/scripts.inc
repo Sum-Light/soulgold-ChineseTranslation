@@ -26,56 +26,56 @@ CeladonCity_Apartments_3F_EventScript_CharacterDesigner::
 	end
 
 GameFreak_Text_GameDesigner:
-	.string "Is that right?\p"
-	.string "I'm the Game Designer!\p"
-	.string "Filling up your Pokédex is tough,\n"
-	.string "but don't give up!$"
+	.string "是吗？\p我是游戏设计师！\p集齐宝可梦图鉴很辛苦，\n但可别放弃啊！$"
+	.string ""
+	.string ""
+	.string ""
 
 GameFreak_Text_GameDesignerCompletedPokedex:
-	.string "Wow! Excellent! You completed\n"
-	.string "your Pokédex!\p"
-	.string "Congratulations!$"
+	.string "哇！太棒了！\n你集齐宝可梦图鉴了！\p恭喜你！$"
+	.string ""
+	.string ""
 
 GameFreak_Text_GraphicArtist:
-	.string "I'm the Graphic Artist.\p"
-	.string "I drew you!$"
+	.string "我是美术设计。\p你的形象就是我画的！$"
+	.string ""
 
 GameFreak_Text_GraphicArtistPrintDiploma:
-	.string "I'm the Graphic Artist.\p"
-	.string "Oh, you completed your Pokédex?\p"
-	.string "Want me to print out your\n"
-	.string "Diploma?$"
+	.string "我是美术设计。\p哦，你集齐图鉴了？\p要我把你的奖状\n打印出来吗？$"
+	.string ""
+	.string ""
+	.string ""
 
 GameFreak_Text_GraphicArtistRefused:
-	.string "Give me a shout if you want your\n"
-	.string "Diploma printed.$"
+	.string "想打印奖状的话，\n就叫我一声。$"
+	.string ""
 
 GameFreak_Text_GraphicArtistError:
-	.string "Something's wrong. I'll have to\n"
-	.string "cancel printing.$"
+	.string "出问题了。我只好\n取消打印。$"
+	.string ""
 
 GameFreak_Text_Programmer:
-	.string "Who, me? I'm the Programmer.\p"
-	.string "Play the slot machines!$"
+	.string "谁，我？我是程序员。\p去玩玩老虎机吧！$"
+	.string ""
 
 GameFreak_Text_CharacterDesigner:
-	.string "Aren't the Twins adorable?\p"
-	.string "Jasmine's pretty too.\p"
-	.string "Oh, I love them!$"
+	.string "双胞胎是不是很可爱？\p阿蜜也很漂亮。\p哦，我太喜欢她们了！$"
+	.string ""
+	.string ""
 
 CeladonMansion3F_Text_DevRoomSign:
-	.string "Game Freak Development Room$"
+	.string "GAME FREAK开发室$"
 
 CeladonMansion3F_Text_Drawing:
-	.string "It's a detailed drawing of a\n"
-	.string "pretty girl.$"
+	.string "是一幅画得很细致的\n漂亮女孩画像。$"
+	.string ""
 
 CeladonMansion3F_Text_GameProgram:
-	.string "It's the game program. Messing\n"
-	.string "with it could put a bug in the\n"
-	.string "game!$"
+	.string "这是游戏程序。乱动它的话，\n可能会让游戏出毛病！$"
+	.string ""
+	.string ""
 
 CeladonMansion3F_Text_ReferenceMaterial:
-	.string "It's crammed with reference\n"
-	.string "materials. There's even a\n"
-	.string "Poké Doll.$"
+	.string "里面塞满了参考资料。\n甚至还有一个皮皮玩偶。$"
+	.string ""
+	.string ""

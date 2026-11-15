@@ -18,16 +18,16 @@ Route5_House_EventScript_Woman::
 	end
 
 Route5_House_Text_Granny1:
-	.string "Eeyaaaah!\p"
-	.string "I sense a sinister shadow\n"
-	.string "hovering over you.\l"
-	.string "Take this to ward it off!$"
+	.string "呀啊啊啊！\p我感觉到一股邪气\n缠绕在你身上。\l拿这个去挡一挡吧！$"
+	.string ""
+	.string ""
+	.string ""
 
 Route5_House_Text_Granny2:
-	.string "You were in mortal danger, but\n"
-	.string "you're protected now.$"
+	.string "你刚才是性命攸关，\n不过现在没事了。$"
+	.string ""
 
 Route5_House_Text_Woman:
-	.string "My grandma is into warding off what\n"
-	.string "she believes to be evil spirits.\p"
-	.string "I'm sorry that she startled you.$"
+	.string "我奶奶热衷于驱除\n她认定的恶灵。\p不好意思，吓到你了。$"
+	.string ""
+	.string ""

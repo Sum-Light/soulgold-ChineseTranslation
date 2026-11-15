@@ -17,15 +17,15 @@ OlivineCity_Cafe_EventScript_Jasmine::
 	end
 
 OlivineCity_Cafe_Text_Jasmine:
-	.string "Oh... Hello, {PLAYER}.\p"
-	.string "These dishes in front of me are\n"
-	.string "not all mine...\p"
-	.string "Uh...\p"
-	.string "Actually, the person who sat here\n"
-	.string "before me ate a lot...\p"
-	.string "If you'd like to battle again,\n"
-	.string "please visit me at the Fighting\l"
-	.string "Dojo in Saffron City.$"
+	.string "哦……你好，{PLAYER}。\p我面前的这些菜\n并不全是我点的……\p呃……\p其实，之前坐在这里的人\n吃了很多……\p如果你想再和我对战，\n请到金黄市的\l格斗道场来找我。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OlivineCity_EventScript_SailorA::
 	lock
@@ -57,29 +57,29 @@ OlivineCity_EventScript_SailorB::
 	end
 
 OlivineCity_Text_CafeSailorStrength:
-	.string "Hah! Your Pokémon sure look like\n"
-	.string "lightweights!\p"
-	.string "They don't have the power to\n"
-	.string "move boulders aside.\p"
-	.string "Here, use this and teach them\n"
-	.string "Strength!$"
+	.string "哈！你的宝可梦看起来\n可真是轻量级选手！\p它们可没有把大石头\n推到一边的力气。\p来，拿上这个，教它们\n学会怪力吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OlivineCity_Text_CafeSailorGotStrength:
-	.string "On the sea, the only thing you\n"
-	.string "can count on is your own self!\p"
-	.string "I'm so proud of my buff bod!\n"
-	.string "You should train like me!$"
+	.string "在海上，你唯一能依靠的\n就是你自己！\p我为自己这身肌肉\n感到骄傲！你也该像我一样锻炼！$"
+	.string ""
+	.string ""
+	.string ""
 
 OlivineCity_Text_CafeFishingGuru:
-	.string "Olivine Cafe's menu is packed\n"
-	.string "with hearty fare for beefy\l"
-	.string "Sailors like me!$"
+	.string "浅葱咖啡馆的菜单上，\n全是适合我这种壮实水手的\l丰盛饭菜！$"
+	.string ""
+	.string ""
 
 OlivineCity_Text_CafeSailor:
-	.string "Whenever I roll into this town,\n"
-	.string "I always visit the Olivine Cafe.\p"
-	.string "Everything on the menu makes me\n"
-	.string "feel stronger. I can't stop eating!$"
+	.string "每次来到这个城镇，\n我都会来浅葱咖啡馆。\p菜单上的每一样东西都让我\n觉得更有力气，我根本停不下来！$"
+	.string ""
+	.string ""
+	.string ""
 
 OlivineCafe_JasmineRematch::
 	lock
@@ -105,22 +105,13 @@ OlivineCafe_JasmineRematch_2:
 
 
 OlivineCafe_JasmineRematch_Text_0:
-	.string "Oh, Hello {PLAYER}...\p"
-	.string "Did you come here to eat too..?\n"
-	.string "I really enjoy the seafood served here.\l"
-	.string "It always makes me feel nostalgic for\l"
-	.string "some reason.$"
+	.string "哦，你好，{PLAYER}……\p你也是来吃饭的吗……\n我很喜欢这里的海鲜。\l不知为什么，它总让我\l想起从前。$"
 
 OlivineCafe_JasmineRematch_Text_1:
-	.string "I was hoping we could have another \n"
-	.string "battle again, if that is okay.$"
+	.string "如果可以的话，我还想\n再和你对战一次。$"
 
 OlivineCafe_JasmineRematch_Text_2:
-	.string "You really are amazing, \n"
-	.string "{PLAYER}.$"
+	.string "你真的很厉害，\n{PLAYER}。$"
 
 OlivineCafe_JasmineRematch_Text_3:
-	.string "You fight with both kindness and grace.\n"
-	.string "Something I strive for every day...\l"
-	.string "Thank you for this battle, I won't\l"
-	.string "forget it.$"
+	.string "你的战斗既温柔又优雅。\n这是我一直想要做到的……\l谢谢你和我对战，我不会\l忘记这一场的。$"

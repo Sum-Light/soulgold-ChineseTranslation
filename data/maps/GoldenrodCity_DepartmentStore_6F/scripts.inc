@@ -17,11 +17,11 @@ GoldenrodDeptStore6_EventScript_Whitney::
 	end
 
 GoldenrodDeptStore6_Text_Whitney:
-	.string "{PLAYER}! Fancy seeing you here!\p"
-	.string "I'm picking up something for\n"
-	.string "my Miltank.\p"
-	.string "If you want another battle, come to\n"
-	.string "the Fighting Dojo!$"
+	.string "{PLAYER}！真巧啊！\p我来给我的大奶罐\n买点东西。\p还想再打一场的话，\n就到格斗道场来吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_DepartmentStore_6F_EventScript_DeclineTrade::
 	msgbox GoldenrodCity_DepartmentStore_6F_Text_YouWontTradeMe, MSGBOX_DEFAULT
@@ -40,24 +40,24 @@ GoldenrodCity_DepartmentStore_6F_EventScript_TradeCompleted::
 	end
 
 GoldenrodCity_DepartmentStore_6F_Text_YouWillTradeWontYou:
-	.string "I collect Pokémon!\n"
-	.string "Do you have a {STR_VAR_1}?\p"
-	.string "Want to trade it for my\n"
-	.string "{STR_VAR_2}?$"
+	.string "我在收集宝可梦！\n你有{STR_VAR_1}吗？\p要用它换我的\n{STR_VAR_2}吗？$"
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_DepartmentStore_6F_Text_MonYouTakeCare:
-	.string "Yay! I got myself {STR_VAR_1}!\p"
-	.string "{STR_VAR_2}, you take care!$"
+	.string "太好了！我得到{STR_VAR_1}了！\p{STR_VAR_2}，你要保重哦！$"
+	.string ""
 
 GoldenrodCity_DepartmentStore_6F_Text_ThisIsntAMon:
-	.string "Uh, no, I don't think so.\n"
-	.string "That isn't a {STR_VAR_1}.$"
+	.string "呃，不，好像不对。\n那不是{STR_VAR_1}。$"
+	.string ""
 
 GoldenrodCity_DepartmentStore_6F_Text_YouWontTradeMe:
-	.string "You don't want to trade? Aww...$"
+	.string "你不愿意交换吗？唉……$"
 
 GoldenrodCity_DepartmentStore_6F_Text_After:
-	.string "Hi, how's my old Machop doing?$"
+	.string "嗨，我以前那只腕力\n还好吗？$"
 
 
 GoldenrodDeptStore6_EventScript_Lass::
@@ -85,19 +85,19 @@ GoldenrodDeptStore6_EventScript_Sign::
 	end
 
 GoldenrodDeptStore_Text_6FLass:
-    .string "Do you listen to Lucky Channel?\p"
-    .string "If you want to win, trade Pokémon\n"
-    .string "with as many people as possible to\l"
-    .string "get different Id numbers.$"
+    .string "你听幸运频道吗？\p想中奖的话，就尽量多\n和别人交换宝可梦，\l多拿几个训练家编号吧。$"
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodDeptStore_Text_6FSuperNerd:
-    .string "If you're tired, try the vending\n"
-    .string "machine's drinks.\p"
-    .string "Your Pokémon will love them too.$"
+    .string "累了的话，就尝尝自动\n售货机的饮料吧。\p宝可梦也爱喝呢。$"
+    .string ""
+    .string ""
 
 GoldenrodDeptStore_Text_6FDirectory:
-    .string "Take a Break from Shopping!\p"
-    .string "6F Tranquil Square$"
+    .string "购物之余歇一歇吧！\p6楼　休息广场$"
+    .string ""
 
 GoldenrodCity_DepartmentStore_6F_EventScript_Jose::
 	lock
@@ -157,52 +157,32 @@ GoldenrodDEpt6F_WhitneyRematch_Movement_0:
 	step_end
 
 GoldenrodCity_DepartmentStore_6F_EventScript_Jose_Text_0:
-	.string "Thanks for the Clefairy again!\n"
-	.string "Hope my Pokémon has been of use to you!$"
+	.string "再次谢谢你送我皮皮！\n希望我的宝可梦对你有用！$"
 
 GoldenrodCity_DepartmentStore_6F_EventScript_Jose_Text_1:
-	.string "I've been looking for a rare Pokémon\n"
-	.string "Clefairy for a while now. Do you have it?\l"
-	.string "I'll give you something rare in return!$"
+	.string "我一直在找稀有的宝可梦\n皮皮，你有吗？\l我会用稀有的东西跟你换！$"
 
 GoldenrodCity_DepartmentStore_6F_EventScript_Jose_Text_2:
-	.string "Thanks a lot!$"
+	.string "太感谢了！$"
 
 HonedgeTrade_Declined_Text_0:
-	.string "Shame, I hear Clefairy can be found on\n"
-	.string "Route 34 sometimes.$"
+	.string "真可惜，听说34号道路\n"
+	.string "有时候能遇到皮皮。$"
 
 HonedgeTrade_NotRequested_Text_0:
-	.string "I don't think that's a Clefairy...$"
+	.string "那好像不是皮皮……$"
 
 GoldenrodDEpt6F_WhitneyRematch_Text_0:
-	.string "Hmm... Maybe this one...?\n"
-	.string "No... That one is cheaper...\l"
-	.string "Wait, but if I buy two then...$"
+	.string "唔……这个好吗……？\n不对……那个更便宜……\l等等，那要是买两个的话……$"
 
 GoldenrodDEpt6F_WhitneyRematch_Text_1:
-	.string "Oh, hi there!\n"
-	.string "Do you also shop here? I was here\l"
-	.string "today to check on some new Pokéfan\l"
-	.string "magazines. They have the cutest\l"
-	.string "Clefairies!$"
+	.string "哦，你好！\n你也来这儿买东西吗？我今天\l是来看新出的宝可梦发烧友\l杂志的。上面的皮皮\l可爱极了！$"
 
 GoldenrodDEpt6F_WhitneyRematch_Text_2:
-	.string "Hey I know, how about a battle?\n"
-	.string "I promise I'll make you cry this\l"
-	.string "time instead!$"
+	.string "嘿，对了，来对战吧？\n这次我保证让你\l哭出来！$"
 
 GoldenrodDEpt6F_WhitneyRematch_Text_3:
-	.string "Mustn't cry... Mustn't cry...!$"
+	.string "不能哭……不能哭……！$"
 
 GoldenrodDEpt6F_WhitneyRematch_Text_4:
-	.string "Aaaaargh! I thought I had you there!\n"
-	.string "So frustrating...\p"
-	.string "That was a really good battle, but I\n"
-	.string "always get so frustrated when I lose\l"
-	.string "that I want to cry. I've been trying\l"
-	.string "really hard to get out of that habit.\p"
-	.string "I've decided that next time we battle,\n"
-	.string "I'll try even harder and we'll roll\l"
-	.string "you over! Until then, you better train \l"
-	.string "hard!$"
+	.string "啊啊啊！我还以为赢定了！\n真不甘心……\p那真是场很棒的对战，可我\n一输就懊恼得想哭。我一直\l在努力改掉这个毛病。\p我决定了，下次对战时我会\n更加拼命，把你们打得\l落花流水！在那之前，\l你可要好好训练啊！$"

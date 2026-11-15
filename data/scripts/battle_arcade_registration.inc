@@ -439,118 +439,102 @@ BattleArcade_Registration_EventScript_ShowResults::
 
 
 BattleArcade_Registration_EventScript_Attendant_Text_0:
-	.string "Welcome to the Rocket Arcade! I am your\n"
-	.string "guide to the Single and Double Battle\l"
-	.string "challenges. Please be aware that these\l"
-	.string "challenges are designed for a single\l"
-	.string "Trainer.$"
+	.string "欢迎来到火箭游戏城！\n"
+	.string "我是单打与双打挑战的向导。\l"
+	.string "请注意，这些挑战\l"
+	.string "是为单人训练家设计的。$"
 
 BattleArcade_Registration_EventScript_Attendant_Text_1:
-	.string "Welcome to the Rocket Arcade! I am your\n"
-	.string "guide to the Multi Battle challenge.\l"
-	.string "Please be aware that this challenge\l"
-	.string "requires two Trainers.$"
+	.string "欢迎来到火箭游戏城！\n"
+	.string "我是多人对战挑战的向导。\l"
+	.string "请注意，此挑战需要两名训练家。$"
 
 BattleArcade_Registration_EventScript_AskEnterChallenge_Text_0:
-	.string "Which challenge would you like to take?$"
+	.string "你想接受哪种挑战？$"
 
 BattleArcade_Registration_EventScript_AskEnterMultiChallenge_Text_0:
-	.string "Would you like to take the Rocket\n"
-	.string "Arcade Multi Battle challenge?$"
+	.string "要接受火箭游戏城的多人对战挑战吗？$"
 
 BattleArcade_Registration_EventScript_ExplainChallenge_Text_0:
-	.string "At the Rocket Arcade, you may take a\n"
-	.string "Single or Double Battle challenge. Each\l"
-	.string "challenge lasts seven games, with the\l"
-	.string "game board activated before every\l"
-	.string "match. Depending on what comes up on\l"
-	.string "the game board, an event takes place.\l"
-	.string "Some events will be good for the\l"
-	.string "challenger, while others won't be. After\l"
-	.string "each of the first six wins, you may cash\l"
-	.string "out your prize money or risk it all on\l"
-	.string "the next round. Win game seven to\l"
-	.string "receive the top prize automatically. If\l"
-	.string "you want to interrupt your challenge,\l"
-	.string "please save the game. If you don't save,\l"
-	.string "you will be disqualified from your\l"
-	.string "challenge. Please be aware of that!$"
+	.string "在火箭游戏城，你可以接受\n"
+	.string "单打或双打挑战。\l"
+	.string "每次挑战共七局，\l"
+	.string "每场比赛前都会启动游戏盘。\l"
+	.string "游戏盘转出的结果会触发事件，\l"
+	.string "有的事件对挑战者有利，\l"
+	.string "有的则不利。\l"
+	.string "前六局每获胜一局，\l"
+	.string "你都可以选择兑现奖金，\l"
+	.string "或在下一局中全部押上。\l"
+	.string "赢下第七局，\l"
+	.string "就能自动获得最高奖金。\l"
+	.string "如果想中断挑战，请先保存游戏。\l"
+	.string "不保存的话，挑战资格将被取消。\l"
+	.string "请务必注意！$"
 
 BattleArcade_Registration_EventScript_ExplainChallenge_Text_1:
-	.string "You may team up with a friend for a\n"
-	.string "Multi Battle challenge. Here, a game\l"
-	.string "board is activated before every match.\l"
-	.string "Depending on what comes up on the game\l"
-	.string "board, an event takes place. The events\l"
-	.string "may have great impact on the match's\l"
-	.string "outcome, good or bad. The objective is\l"
-	.string "to keep a winning streak alive as long\l"
-	.string "as possible. During your challenge, any\l"
-	.string "items held by your Pokémon will be kept\l"
-	.string "in storage. Please note: a Rocket\l"
-	.string "Arcade Multi Battle challenge can't be\l"
-	.string "interrupted.$"
+	.string "你可以和朋友组队参加多人对战挑战。\n"
+	.string "这里每场比赛前都会启动游戏盘。\l"
+	.string "游戏盘转出的结果会触发事件，\l"
+	.string "事件可能对比赛结果产生很大影响，\l"
+	.string "或有利或不利。\l"
+	.string "目标是尽可能延长连胜。\l"
+	.string "挑战期间，宝可梦持有的道具\l"
+	.string "将由我们保管。\l"
+	.string "请注意：\l"
+	.string "火箭游戏城的多人对战挑战\l"
+	.string "无法中断。$"
 
 BattleArcade_Registration_EventScript_TryEnterChallenge_Text_0:
-	.string "The Rocket Arcade offers two levels of\n"
-	.string "challenge, Classic and Chaos. Which is\l"
-	.string "your choice?$"
+	.string "火箭游戏城提供两种难度：经典与混沌。\n"
+	.string "你要选哪一种？$"
 
 BattleArcade_Registration_EventScript_NotEnoughValidMons_Text_0:
-	.string "Excuse me! You don't have\n"
-	.string "{STR_VAR_2} eligible Pokémon. You\l"
-	.string "must have {STR_VAR_2} different\l"
-	.string "Pokémon to enter.$"
+	.string "抱歉！你没有{STR_VAR_2}只\n"
+	.string "符合条件的宝可梦。\l"
+	.string "参赛需要{STR_VAR_2}只不同的宝可梦。$"
 
 BattleArcade_Registration_EventScript_NotEnoughValidMons_Text_1:
-	.string "The {STR_VAR_2} different Pokémon\n"
-	.string "must all be eligible.$"
+	.string "这{STR_VAR_2}只不同的宝可梦\n"
+	.string "必须全部符合条件。$"
 
 BattleArcade_Registration_EventScript_NotEnoughValidMons_Text_2:
-	.string "Eggs{STR_VAR_1} are not allowed to\n"
-	.string "enter.$"
+	.string "蛋{STR_VAR_1}不能参赛。$"
 
 BattleArcade_Registration_EventScript_GiveGoldPrint_Text_0:
-	.string "The Gold Print was added to\n"
-	.string "{PLAYER}'s Vs. Recorder!$"
+	.string "金印花已添加到{PLAYER}的对战记录器中！$"
 
 BattleArcade_Registration_EventScript_GiveSilverPrint_Text_0:
-	.string "The Silver Print was added to\n"
-	.string "{PLAYER}'s Vs. Recorder!$"
+	.string "银印花已添加到{PLAYER}的对战记录器中！$"
 
 BattleArcade_Registration_EventScript_QuitWithoutSaving_Text_0:
-	.string "Excuse me! You didn't save before you\n"
-	.string "quit your challenge last time. Because\l"
-	.string "of that, you have been disqualified\l"
-	.string "from your challenge!$"
+	.string "抱歉！你上次退出挑战前\n"
+	.string "没有保存游戏。\l"
+	.string "因此，你的挑战资格已被取消！$"
 
 BattleArcade_Registration_EventScript_ResumeChallenge_Text_0:
-	.string "We've missed you! You must save the\n"
-	.string "game before you resume your challenge.\l"
-	.string "Please wait.$"
+	.string "欢迎回来！\n"
+	.string "继续挑战前必须先保存游戏。\l"
+	.string "请稍候。$"
 
 BattleArcade_Entrance_LinkMulti_EventScript_Cancel_Text_0:
-	.string "I'm sorry! Link Multi Battles have not\n"
-	.string "been implemented at this time. Please\l"
-	.string "come back later.$"
+	.string "很抱歉！连线多人对战目前尚未实装。\n"
+	.string "请日后再来。$"
 
 BattleArcade_Registration_EventScript_AskModeResultsBoard_Text_0:
-	.string "Which record would you like to see?$"
+	.string "你想查看哪项记录？$"
 
 BattleArcade_Entrance_Text_CongratulationsInHonorOf::
-	.string "Congratulations! In honor of your\n"
-	.string "victory, we present you with this\l"
-	.string "commemorative print!$"
+	.string "恭喜！为纪念你的胜利，\n"
+	.string "我们送上这枚纪念印花！$"
 
 BattleArcade_Entrance_Text_OneTrainerShouldSelectBecome::
-	.string "One Trainer should select “Become\n"
-	.string "Leader.” The other Trainer must select\l"
-	.string "“Join Group.”$"
+	.string "一名训练家请选择“成为队长”，\n"
+	.string "另一名训练家请选择“加入队伍”。$"
 
 BattleArcade_Entrance_Text_WeNeedToLaunchDs::
-	.string "We need to launch DS Wireless\n"
-	.string "Communications.$"
+	.string "需要启动DS无线通信。$"
 
 BattleArcade_Entrance_Text_YouMustSaveTheGame::
-	.string "You must save the game before I show\n"
-	.string "you in. Please wait.$"
+	.string "在我带你进去之前，必须先保存游戏。\n"
+	.string "请稍候。$"

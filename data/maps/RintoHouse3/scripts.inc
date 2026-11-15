@@ -80,70 +80,43 @@ RintoHouse3_Painting::
 
 
 RintoHouse3_Guard_Text_0:
-	.string "Downstairs is reserved for researchers\n"
-	.string "only.$"
+	.string "楼下只限研究人员\n进入。$"
 
 RintoHouse3_ResearchGuide_Text_0:
-	.string "You can see our excavation results\n"
-	.string "here!$"
+	.string "您可以在这里看到\n我们的发掘成果！$"
 
 RintoHouse3_Hiker_Text_0:
-	.string "We've made a lot of discoveries near the\n"
-	.string "pyramid, but no one has been able to get\l"
-	.string "in.$"
+	.string "我们在金字塔附近有不少\n发现，可谁也进不去。$"
 
 RintoHouse3_Researcher_Text_0:
-	.string "The door to the pyramid...\p"
-	.string "It's made of a strange metal that can\n"
-	.string "repel even our Excadrill's attacks.$"
+	.string "通往金字塔的那扇门……\p它用一种奇怪的金属制成，\n连龙头地鼠的攻击都能弹开。$"
 
 RintoHouse3_Excadrill_Text_0:
-	.string "Excadrill: Caaaaaaaa!$"
+	.string "龙头地鼠：咔啊啊啊啊！$"
 
 RintoHouse3_TraderResearcher_Text_0:
-	.string "Thanks to your Tinkaton, we may\n"
-	.string "finally be able to break through one\l"
-	.string "of the pyramid's walls!$"
+	.string "多亏了你的巨锻匠，我们\n也许终于能打穿金字塔的墙！$"
 
 RintoHouse3_TraderResearcher_Text_1:
-	.string "I'm researching alternative ways to\n"
-	.string "get into the pyramid to the west.\p"
-	.string "Would you happen to have a Tinkaton?\p"
-	.string "With its powerful hammer strikes, we\n"
-	.string "might be able to break through one of\l"
-	.string "the pyramid's walls.\p"
-	.string "I can offer you this rare Meltan in\n"
-	.string "return. What do you say?$"
+	.string "我正在研究别的进入\n西边金字塔的办法。\p你手头会不会正好有只巨锻匠？\p它那威力十足的锤击，也许\n能打穿金字塔的一面墙。\p作为回报，我可以送你这只\n稀有的美录坦。怎么样？$"
 
 RintoHouse3_TraderResearcher_Text_2:
-	.string "Amazing! Thank you on behalf of the\n"
-	.string "whole research team!$"
+	.string "太棒了！我代表整个研究\n团队谢谢你！$"
 
 MeltanTrade_Declined_Text_0:
-	.string "Oh... Okay, then...\p"
-	.string "I guess I'll have to ask someone to\n"
-	.string "find and raise one from the Union Cave...$"
+	.string "哦……这样啊……\p那我只好请人去互连洞里\n找一只来养了……$"
 
 MeltanTrade_NotRequested_Text_0:
-	.string "That doesn't look like a Tinkaton to\n"
-	.string "me.$"
+	.string "那看起来可不像\n巨锻匠啊。$"
 
 RintoHouse3_Plaque_Text_0:
-	.string "It appears to be some sort of a\n"
-	.string "Fossil excavated nearby.$"
+	.string "这似乎是附近发掘出的\n某种化石。$"
 
 RintoHouse3_PlaqueBall_Text_0:
-	.string "An ancient Poké Ball. \p"
-	.string "It looks much like the ones\n"
-	.string "used in ancient Hisui.$"
+	.string "一只古老的精灵球。\p它和古代洗翠地区\n使用的很像。$"
 
 RintoHouse3_Bookshelf_Text_0:
-	.string "A Bookshelf filled with history books.\n"
-	.string "Some of them look ancient!$"
+	.string "装满历史书的书架。\n有些看起来非常古老！$"
 
 RintoHouse3_Painting_Text_0:
-	.string "A painting depicting an artist's \n"
-	.string "interpretation of this land a thousand \l"
-	.string "years ago.\p"
-	.string "You have a hard time making out the\n"
-	.string "signature.$"
+	.string "一幅描绘千年前这片土地\n的画家想象的画。\p你很难辨认出\n画上的落款。$"

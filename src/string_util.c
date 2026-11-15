@@ -1,5 +1,6 @@
 #include "global.h"
 #include "string_util.h"
+#include "chinese_text.h"
 #include "text.h"
 #include "strings.h"
 #include "union_room_chat.h"
@@ -379,6 +380,8 @@ u8 *StringExpandPlaceholders(u8 *dest, const u8 *src)
 
             switch (c)
             {
+            case EXT_CTRL_CODE_WAIT_SE:
+            case EXT_CTRL_CODE_DESTROY_MUGSHOT:
             case EXT_CTRL_CODE_RESET_FONT:
             case EXT_CTRL_CODE_PAUSE_UNTIL_PRESS:
             case EXT_CTRL_CODE_FILL_WINDOW:
@@ -390,6 +393,8 @@ u8 *StringExpandPlaceholders(u8 *dest, const u8 *src)
             case EXT_CTRL_CODE_COLOR_HIGHLIGHT_SHADOW:
             case EXT_CTRL_CODE_TEXT_COLORS:
                 *dest++ = *src++;
+            case EXT_CTRL_CODE_PLAY_SE:
+            case EXT_CTRL_CODE_CREATE_MUGSHOT:
             case EXT_CTRL_CODE_PLAY_BGM:
                 *dest++ = *src++;
             default:
@@ -607,7 +612,7 @@ u8 *StringCopyN_Multibyte(u8 *dest, u8 *src, u32 n)
         else
         {
             *dest++ = *src++;
-            if (*(src - 1) == CHAR_EXTRA_SYMBOL)
+            if (*(src - 1) == CHAR_EXTRA_SYMBOL || IsChineseChar(*(src - 1), *src, FONT_NORMAL, FALSE))
                 *dest++ = *src++;
         }
     }
@@ -622,7 +627,7 @@ u32 StringLength_Multibyte(const u8 *str)
 
     while (*str != EOS)
     {
-        if (*str == CHAR_EXTRA_SYMBOL)
+        if (*str == CHAR_EXTRA_SYMBOL || IsChineseChar(*str, str[1], FONT_NORMAL, FALSE))
             str++;
         str++;
         length++;
@@ -723,7 +728,7 @@ u8 GetExtCtrlCodeLength(u8 code)
         [EXT_CTRL_CODE_ENG]                    = 1,
         [EXT_CTRL_CODE_PAUSE_MUSIC]            = 1,
         [EXT_CTRL_CODE_RESUME_MUSIC]           = 1,
-        [EXT_CTRL_CODE_SPEAKER]                = 1,
+        [EXT_CTRL_CODE_SPEAKER]                = 2,
         [EXT_CTRL_CODE_ACCENT]                 = 2,
         [EXT_CTRL_CODE_BACKGROUND]             = 2,
         [EXT_CTRL_CODE_TEXT_COLORS]            = 4,
@@ -830,6 +835,12 @@ u8 *StringCopyUppercase(u8 *dest, const u8 *src)
 {
     while (*src != EOS)
     {
+        if (*src == CHAR_EXTRA_SYMBOL || IsChineseChar(*src, src[1], FONT_NORMAL, FALSE))
+        {
+            *dest++ = *src++;
+            *dest++ = *src++;
+            continue;
+        }
         if (*src >= CHAR_a && *src <= CHAR_z)
             *dest = gCaseToggleTable[*src];
         else

@@ -281,8 +281,7 @@ script heatranPuzzleReset {
 // Puzzle end
 
 script heatranPuzzleHint {
-    msgbox("Face of the heat,
-            wielder of the magma storm.", MSGBOX_SIGN)
+    msgbox("炎热之颜，\n熔岩风暴的操纵者。", MSGBOX_SIGN)
 }
 
 script MtMortarDepthsHeatran {

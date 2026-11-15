@@ -110,62 +110,62 @@ Route10_PowerPlantEntrance_Movement_WalkBack:
 	step_end
 
 Route10_PowerPlantEntrance_Text_Officer1AThiefBrokeIn:
-	.string "A thief broke into the Power\n"
-	.string "Plant…\p"
-	.string "What is the world coming to?$"
+	.string "有小偷闯进了\n发电厂……\p这世道到底\n要变成什么样啊？$"
+	.string ""
+	.string ""
 
 Route10_PowerPlantEntrance_Text_Officer1CeruleanShadyCharacter:
-	.string "I just got word from Cerulean.\p"
-	.string "It appears that a shady\n"
-	.string "character has been loitering\l"
-	.string "around.$"
+	.string "我刚收到华蓝市的消息。\p好像有个可疑的家伙\n一直在附近\l转来转去。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route10_PowerPlantEntrance_Text_Officer1CouldIAskForYourCooperation:
-	.string "Could I ask for your\n"
-	.string "cooperation?$"
+	.string "能请你协助我们吗？$"
+	.string ""
 
 Route10_PowerPlantEntrance_Text_Officer1HaveToBeefUpSecurity:
-	.string "We'll have to beef up our\n"
-	.string "security presence.$"
+	.string "我们必须加强\n这里的警备。$"
+	.string ""
 
 Route10_PowerPlantEntrance_Text_Engineer1SomeoneStoleAPart:
-	.string "Someone made off with a part\n"
-	.string "that's essential for the\l"
-	.string "generator.\p"
-	.string "Without it, the new generator's\n"
-	.string "useless!$"
+	.string "发电机上有个零件\n被人偷走了，\l那可是必需品。\p没有它，新型发电机\n就派不上用场！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route10_PowerPlantEntrance_Text_Engineer1GeneratorUpAndRunning:
-	.string "The generator's up and running.\n"
-	.string "It's making electricity to spare.$"
+	.string "发电机已经运转起来了。\n电力多得用不完。$"
+	.string ""
 
 Route10_PowerPlantEntrance_Text_Engineer2PowerPlantUpAndRunning:
-	.string "This Power Plant had been\n"
-	.string "abandoned in the past.\p"
-	.string "We got it back up and running to\n"
-	.string "provide power to the Magnet\l"
-	.string "Train.$"
+	.string "这座发电厂以前\n被废弃过。\p为了给磁浮列车供电，\n我们又让它\l重新运转起来。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route10_PowerPlantEntrance_Text_Engineer2GeneratorIsRunningAgain:
-	.string "The generator's running again!$"
+	.string "发电机又转起来了！$"
 
 Route10_PowerPlantEntrance_Text_Officer2ManagerHasBeenSadAndFurious:
-	.string "The Power Plant's Manager is in\n"
-	.string "the back room with the generator.\p"
-	.string "But since someone wrecked the\n"
-	.string "generator, he's been both sad and\l"
-	.string "furious…$"
+	.string "发电厂的厂长正在里屋\n守着发电机。\p可自从有人弄坏了发电机，\n他就又伤心\l又恼火……$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route10_PowerPlantEntrance_Text_Officer2ManagerHasBeenCheerful:
-	.string "Since the generator's been fixed,\n"
-	.string "the Manager has been cheerful.$"
+	.string "发电机修好以后，\n厂长心情好多了。$"
+	.string ""
 
 Route10_PowerPlantEntrance_Text_Engineer4MagnetTrainConsumesElectricity:
-	.string "The Magnet Train consumes a lot\n"
-	.string "of electricity.\p"
-	.string "It can't move if the new\n"
-	.string "generator isn't operating.$"
+	.string "磁浮列车非常耗电。\p新型发电机不运转，\n列车就动不了。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route10_PowerPlantEntrance_Text_Engineer4WeCanGetMagnetTrainRunning:
-	.string "All right! We can finally get the\n"
-	.string "Magnet Train running again.$"
+	.string "太好了！磁浮列车\n终于又能跑了。$"
+	.string ""

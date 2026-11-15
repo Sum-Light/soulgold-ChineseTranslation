@@ -137,9 +137,9 @@ static const struct WindowTemplate sHof_WindowTemplate = {
 static const u8 sMonInfoTextColors[4] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_WHITE, TEXT_COLOR_DARK_GRAY};
 static const u8 sPlayerInfoTextColors[4] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_LIGHT_GRAY};
 static const u8 sUnusedTextColors[4] = {TEXT_COLOR_RED, TEXT_COLOR_LIGHT_RED, TEXT_COLOR_TRANSPARENT};
-static const u8 sText_DifficultyNormal[] = _("Difficulty: Normal");
-static const u8 sText_DifficultyHard[] = _("Difficulty: Hard");
-static const u8 sText_TitleDefense[] = _(" · Title Defense ");
+static const u8 sText_DifficultyNormal[] = _("难度：普通");
+static const u8 sText_DifficultyHard[] = _("难度：困难");
+static const u8 sText_TitleDefense[] = _("· 卫冕战");
 
 static const struct CompressedSpriteSheet sSpriteSheet_Confetti[] =
 {

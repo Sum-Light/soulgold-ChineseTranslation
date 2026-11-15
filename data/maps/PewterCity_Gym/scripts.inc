@@ -37,72 +37,72 @@ PewterCity_Gym_EventScript_Brock_Defeated::
 
 
 PewterCity_Gym_Text_Brock_Intro:
-	.string "Brock: Wow, it's not often that we get a\n"
-	.string "challenger from Johto.\p"
-	.string "I'm Brock, the Pewter Gym Leader.\p"
-	.string "I'm an expert on rock-type Pokémon.\p"
-	.string "My Pokémon are impervious to most\n"
-	.string "physical attacks. You'll have a hard\l"
-	.string "time inflicting any damage.\p"
-	.string "Come on!$"
+	.string "小刚：哦，从城都来的挑战者\n可不常见啊。\p我是深灰道馆的馆主，\n小刚。\p我是岩石属性宝可梦\n的专家。\p我的宝可梦大多数物理\n攻击都不放在眼里。想\l造成伤害可不容易。\p来吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 PewterCity_Gym_Text_Brock_WinLoss:
-	.string "Brock: Your Pokémon's powerful attacks\n"
-	.string "overcame my rock-hard defense…\p"
-	.string "You're stronger than I expected…\p"
-	.string "Go ahead--take this Badge.$"
+	.string "小刚：你宝可梦强大的攻击\n打穿了我岩石般的防御……\p你比我想象的要强……\p拿去——这个徽章是你的了。$"
+	.string ""
+	.string ""
+	.string ""
 
 PewterCity_Gym_Text_ReceivedBoulderBadge:
-	.string "{PLAYER} received Boulderbadge.$"
+	.string "{PLAYER}得到了灰色徽章。$"
 
 PewterCity_Gym_Text_Brock_BoulderBadge:
-	.string "Brock: {PLAYER}, thanks. I enjoyed\n"
-	.string "battling you, even though I am a bit\l"
-	.string "upset.\p"
-	.string "That Boulderbadge will make your\n"
-	.string "Pokémon even more powerful.$"
+	.string "小刚：{PLAYER}，谢谢你。\n虽然有点不甘心，但这场\l对战我很尽兴。\p这枚灰色徽章会让你\n的宝可梦更强。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 PewterCity_Gym_Text_EarthquakeSpeech:
-    .string "That TM contains Earthquake.\p"
-    .string "It's a powerful attack that\n"
-    .string "shakes up the battlefield.\p"
-    .string "But be careful not to\n"
-    .string "undermine your own Pokémon!$"
+    .string "这个招式学习器里装的是地震。\p它是能撼动整个战场\n的强大招式。\p不过要小心，别把\n自己的宝可梦也震到！$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 PewterCity_Gym_Text_Brock_FightDone:
-	.string "Brock: The world is huge. There are\n"
-	.string "still many strong trainers like you.\p"
-	.string "Just wait and see. I'm going to become\n"
-	.string "a lot stronger too.$"
+	.string "小刚：世界真大啊。像你这么\n强的训练家还有不少。\p你等着看吧。我也要变得\n强得多才行。$"
+	.string ""
+	.string ""
+	.string ""
 
 PewterCity_Gym_Text_CamperJerry_Seen:
-	.string "The trainers of this Gym use rock-type\n"
-	.string "Pokémon.\p"
-	.string "The rock-type has high Defense.\p"
-	.string "Battles could end up going a long time.\n"
-	.string "Are you ready for this?$"
+	.string "这个道馆的训练家\n都使用岩石属性宝可梦。\p岩石属性的防御力很高。\p战斗可能会拖得很久。\n你做好心理准备了吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 PewterCity_Gym_Text_CamperJerry_Beaten:
-	.string "I have to win these battles…$"
+	.string "这些战斗我一定要赢……$"
 
 PewterCity_Gym_Text_CamperJerry_AfterBattle:
-	.string "Hey, you! Trainer from Johto! Brock is\n"
-	.string "tough. He'll punish you if you don't\l"
-	.string "take him seriously.$"
+	.string "喂，你！城都来的训练家！小刚\n很强。你要是不认真对待，\l会吃苦头的。$"
+	.string ""
+	.string ""
 
 PewterCity_Gym_Text_Guide:
-	.string "Yo! Champ in making! You're really\n"
-	.string "rocking.\p"
-	.string "Are you battling the Gym Leaders of\n"
-	.string "Kanto?\p"
-	.string "They're strong and dedicated people,\n"
-	.string "just like Johto's Gym Leaders.$"
+	.string "哟！未来的冠军！你最近可是\n干劲十足啊。\p你在挑战关都的\n道馆馆主吗？\p他们个个又强又执着，\n和城都的道馆馆主一样。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 PewterCity_Gym_Text_Guide_Win:
-	.string "Yo! Champ in making! That Gym didn't\n"
-	.string "give you much trouble.\p"
-	.string "The way you took charge was really\n"
-	.string "inspiring. I mean that seriously.$"
+	.string "哟！未来的冠军！那个道馆\n没给你添多少麻烦嘛。\p你那股掌控全局的劲头\n真让人振奋。我是认真的。$"
+	.string ""
+	.string ""
+	.string ""
 
 PewterCity_Gym_EventScript_GymGuy::
 	goto_if_set FLAG_DEFEATED_PEWTER_GYM, PewterCity_Gym_EventScript_GymGuyAfter
@@ -127,14 +127,14 @@ PewterCity_Gym_EventScript_GymStatuePostVictory::
 	end
 
 PewterCity_Gym_Text_GymStatue::
-    .string "Pewter Pokémon Gym\n"
-    .string "Leader: Brock\p"
-	.string "Winning Trainers:\n"
-	.string "Blue, Red$"
+    .string "深灰市宝可梦道馆\n馆主：小刚\p优胜训练家：\n青绿、赤红$"
+    .string ""
+	.string ""
+	.string ""
 
 PewterCity_Gym_Text_GymStatuePlayerWon::
-    .string "Pewter Pokémon Gym\n"
-    .string "Leader: Brock\p"
-    .string "Winning Trainers:\n"
-	.string "Blue, Red, {PLAYER}$"
+    .string "深灰市宝可梦道馆\n馆主：小刚\p优胜训练家：\n青绿、赤红、{PLAYER}$"
+    .string ""
+    .string ""
+	.string ""
 

@@ -267,155 +267,73 @@ NewBarkTownRivalHouseAzumarill::
 
 
 NewBarkTown_RivalsMom_Text_0:
-	.string "Oh, hello {PLAYER}!$"
+	.string "哦，你好，{PLAYER}！$"
 
 NewBarkTown_RivalsMom_Text_1:
-	.string "Crystal is currently out, if you were\n"
-	.string "looking for her.$"
+	.string "如果是来找克丽丝的话，\n她现在出门了。$"
 
 NewBarkTown_RivalsMom_Text_2:
-	.string "Crystal is currently upstairs if\n"
-	.string "you are looking for her. She is playing\l"
-	.string "with her Pokémon.$"
+	.string "如果是来找克丽丝的话，她现在\n在楼上。她正在和她的宝可梦\l一起玩。$"
 
 NewBarkTown_RivalsMom_Text_3:
-	.string "Gold is currently out, if you were\n"
-	.string "looking for him.$"
+	.string "如果是来找阿响的话，\n他现在出门了。$"
 
 NewBarkTown_RivalsMom_Text_4:
-	.string "Gold is currently upstairs if\n"
-	.string "you are looking for him. He is playing\l"
-	.string "with his Pokémon.$"
+	.string "如果是来找阿响的话，他现在\n在楼上。他正在和他的宝可梦\l一起玩。$"
 
 NewBarkTown_RivalsSister_Text_0:
-	.string "Elm gave my sister a Marill, I hope I\n"
-	.string "can get a Pokémon to play with \l"
-	.string "soon, too!$"
+	.string "空木博士送了我姐姐一只玛力露，\n希望我也能快点拥有一只\l可以一起玩的宝可梦！$"
 
 NewBarkTown_RivalsSister_Text_1:
-	.string "Elm gave my brother a Marill, I hope I\n"
-	.string "can get a Pokémon to play with \l"
-	.string "soon, too!$"
+	.string "空木博士送了我哥哥一只玛力露，\n希望我也能快点拥有一只\l可以一起玩的宝可梦！$"
 
 NewBarkTownRivalHouseRival_Text_0:
-	.string "Hey {PLAYER}! Have you visited\n"
-	.string "any new places?$"
+	.string "嘿，{PLAYER}！你去过\n什么新地方吗？$"
 
 NewBarkTownRivalHouseRival_Text_1:
-	.string "You'll need this to explore the\n"
-	.string "underwater areas of Johto!$"
+	.string "你要探索城都地区的\n水下区域，就得靠这个！$"
 
 NewBarkTownRivalHouseRival_Text_2:
-	.string "We still need to investigate Darkrai.\p"
-	.string "Take Cresselia to the old inn in\n"
-	.string "Cherrygrove City!$"
+	.string "我们还得调查达克莱伊。\p带着克雷色利亚去吉花市的\n那家老旅馆！$"
 
 NewBarkTownRivalHouseRival_Text_3:
-	.string "Hey {PLAYER}! What's up?\p"
-	.string "So I've been doing some thinking, and\n"
-	.string "decided that I want to help Prof. Elm.\l"
-	.string "with his research into legendary\l"
-	.string "Pokémon!\p"
-	.string "I've started looking into old rumours\n"
-	.string "and stories that are circulating in\l"
-	.string "Johto, and I've found my first lead.\p"
-	.string "If you got time and happen to be in the\n"
-	.string "area, would you mind helping me by\l"
-	.string "checking them out?\p"
-	.string "The first legendary I'm researching\n"
-	.string "right now concerns not one but two\l"
-	.string "Pokémon actually!\p"
-	.string "Have you heard about Darkrai and\n"
-	.string "Cresselia?\p"
-	.string "One causes nightmares while the other\n"
-	.string "cures them, fascinating!\p"
-	.string "I think we should track down Cresselia\n"
-	.string "first, in order to locate Darkrai.\p"
-	.string "I hear that someone living near or in\n"
-	.string "the Lake of Rage might know more.$"
+	.string "嘿，{PLAYER}！怎么了？\p我最近想了很多，决定\n要帮空木博士研究传说的宝可梦！\p我开始调查城都地区流传的\n古老传闻和故事，已经找到了\l第一个线索。\p如果你有空、又正好在附近，\n能不能帮我一起去查一查？\p我眼下正在调查的第一只传说\n宝可梦，其实牵涉到两只！\p你听说过达克莱伊和克雷色利亚吗？\p一只带来噩梦，另一只则能治愈\n噩梦，真是奇妙！\p我觉得应该先找到克雷色利亚，\n这样才能找到达克莱伊。\p我听说愤怒之湖附近或湖里\n有人可能知道得更多。$"
 
 NewBarkTownRivalHouseRival_Text_4:
-	.string "I hear that someone living near or in\n"
-	.string "the Lake of Rage might know more.$"
+	.string "我听说愤怒之湖附近或湖里\n有人可能知道得更多。$"
 
 NewBarkTownRivalHouseRival_Text_5:
-	.string "Oh you found Cresselia's location?\p"
-	.string "That's great! You should catch it\n"
-	.string "if you're able to!$"
+	.string "哦，你找到克雷色利亚的\n位置了？\p太好了！要是能捉的话，\n你就捉住它吧！$"
 
 NewBarkTownRivalHouseRival_Text_6:
-	.string "You caught Cresselia? \n"
-	.string "Nice!\p"
-	.string "I've been researching Darkrai's\n"
-	.string "meanwhile.\p"
-	.string "I'm quite sure that it has something\n"
-	.string "to do with the old, run down inn in\l"
-	.string "Cherrygrove City.\p"
-	.string "It was closed due to some child\n"
-	.string "falling to sleep and not waking up, real\l"
-	.string "bad press for the inn.\p"
-	.string "So in short, take Cresselia with you\n"
-	.string "and go check out the inn in Cherrygrove\l"
-	.string "City. See if you can find out anything!$"
+	.string "你捉住克雷色利亚了？\n干得好！\p这期间我一直在调查\n达克莱伊。\p我很确定它和吉花市那家\n破旧的老旅馆有关。\p那家旅馆因为有个孩子睡着后\n一直没醒而关了门，对旅馆来说\l名声糟透了。\p所以简单说，带上克雷色利亚，\n去吉花市的老旅馆查一查吧。\l看看你能不能查出点什么！$"
 
 NewBarkTownRivalHouseRival_Text_7:
-	.string "Go check out the old inn in\n"
-	.string "Cherrygrove City. Remember to\l"
-	.string "take Cresselia with you!$"
+	.string "去吉花市的老旅馆查一查吧。\n记得带上克雷色利亚！$"
 
 NewBarkTownRivalHouseRival_Text_8:
-	.string "You caught Darkrai! Excellent!\p"
-	.string "You look like you just had a\n"
-	.string "nightmare though, did something\l"
-	.string "happen?\p"
-	.string "Anyway!$"
+	.string "你捉住达克莱伊了！太好了！\p不过你看起来好像刚做过噩梦，\n发生什么事了吗？\p总之！$"
 
 NewBarkTownRivalHouseRival_Text_9:
-	.string "{PLAYER}! I've found another lead\n"
-	.string "on legendaries!\p"
-	.string "Apparently, Hoenn's very own duo\n"
-	.string "is resting somewhere underwater\l"
-	.string "here in Johto.\p"
-	.string "There aren't many deep waters in\n"
-	.string "here, so you'll have to look quite\l"
-	.string "hard for them.\p"
-	.string "You're going to need this!$"
+	.string "{PLAYER}！我又找到了一条\n关于传说宝可梦的线索！\p据说丰缘地区的那一对，\n正沉睡在城都地区某处的水下。\p这里深水不多，你得仔细\n找一找才行。\p你会需要这个的！$"
 
 NewBarkTownRivalHouseRival_Text_10:
-	.string "They are probably quite far away\n"
-	.string "from each other, so you should\l"
-	.string "scour the region far and wide.$"
+	.string "它们大概相隔很远，所以\n你最好把整个地区都仔细\l搜一遍。$"
 
 NewBarkTownRivalHouseRival_Text_11:
-	.string "Groudon is likely hidden in a cave which\n"
-	.string "can only be accessed underwater. Maybe\l"
-	.string "close to a hotter climate?\p"
-	.string "Kyogre might prefer easier access to\n"
-	.string "the open sea. So check on the\l"
-	.string "coastlines!$"
+	.string "固拉多很可能藏在只能从水下\n进入的洞穴里。也许就在\l气候更炎热的地方附近？\p盖欧卡也许更愿意靠近\n开阔的大海。所以去海岸线\l找找看吧！$"
 
 NewBarkTownRivalHouseRival_Text_12:
-	.string "You caught them both?!\p"
-	.string "Send me your Pokédex data about them\n"
-	.string "later. Elm is going to be thrilled\l"
-	.string "about this!\p"
-	.string "There isn't anything currently I'm\n"
-	.string "looking for, and it might take a long\l"
-	.string "while before I find another target\l"
-	.string "we could search for.\p"
-	.string "I don't have much to give, but you\n"
-	.string "can have this!$"
+	.string "两只都捉到了？！\p回头把它们的宝可梦图鉴数据\n发给我。空木博士一定会\l激动坏的！\p眼下我没有什么要找的了，\n而且可能要过很久，我才能找到\l下一个可以一起去搜的目标。\p我没什么能送你的，不过\n这个你拿去吧！$"
 
 NewBarkTownRivalHouseRival_Text_13:
-	.string "So, thanks {PLAYER}! For being\n"
-	.string "a genuine friend!$"
+	.string "那么，谢谢你，{PLAYER}！\n谢谢你做我真正的朋友！$"
 
 NewBarkTownRivalHouseRival_Text_14:
-	.string "Hey {PLAYER}! How's it going?\n"
-	.string "Caught any new special Pokémon?$"
+	.string "嘿，{PLAYER}！最近怎么样？\n捉到什么新的特别宝可梦了吗？$"
 
 NewBarkTownRivalHouseMarill_Text_0:
-	.string "Marii!$"
+	.string "玛力！$"
 
 NewBarkTownRivalHouseAzumarill_Text_0:
-	.string "Azumarill: Azuu!$"
+	.string "玛力露丽：玛露！$"

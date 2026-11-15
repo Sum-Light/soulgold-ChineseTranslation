@@ -24,10 +24,10 @@ DragonsDen_EventScript_ClairRematch::
     end
 
 DragonsDen_Text_Clair:
-    .string "{PLAYER}… So you're here.\p"
-	.string "If you think you can keep up,\n"
-	.string "with me, come to the Fighting\l"
-	.string "Dojo in Saffron.$"
+    .string "{PLAYER}……你来了啊。\p要是觉得自己跟得上我，\n就到金黄市的\l格斗道场来吧。$"
+	.string ""
+	.string ""
+	.string ""
 
 
 
@@ -103,34 +103,34 @@ DragonsDen_Cavern_Movement_ClairLeaveRight:
 	step_end
 
 DragonsDen_Cavern_Text_ClairGiveDragonclaw:
-    .string "Clair: Wait!\p"
-	.string "I'm sorry about this.\n"
-    .string "Here, take this as my apology.$"
+    .string "小椿：等一下！\p这次的事，对不起。\n这个你拿着，就当是我的赔礼。$"
+	.string ""
+    .string ""
 
 DragonsDen_Cavern_Text_ClairDescribeDragonclaw:
-    .string "That contains Dragon Claw.\p"
-    .string "No, it doesn't have anything to\n"
-    .string "do with my nails.\p"
-    .string "If you don't want it, you don't\n"
-    .string "have to take it.$"
+    .string "那里面是龙爪。\p不，这跟我的指甲\n一点关系也没有。\p你要是不想要，\n不拿也行。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 DragonsDen_Cavern_Text_ClairWhatsTheMatter:
-    .string "What's the matter? Aren't\n"
-    .string "you going on to the Pokémon\l"
-    .string "League?\p"
-    .string "After you become Champion, you\n"
-    .string "can rematch any Gym Leader you\l"
-    .string "want.\p"
-    .string "Go to the Pokémon League.\p"
-    .string "Do you know how to get there?\p"
-    .string "From here, go to New Bark Town.\p"
-    .string "Then Surf east to Pokémon League.\p"
-    .string "The route there is very tough.\p"
-    .string "Don't you dare lose at the Pokémon\n"
-    .string "League!\p"
-    .string "If you do, I'll feel even worse\n"
-    .string "about having lost to you!\p"
-    .string "Give it everything you've got.$"
+    .string "怎么了？\n你不是要去\l宝可梦联盟吗？\p等你当上冠军以后，\n想和哪位道馆馆主再战\l都可以。\p去宝可梦联盟吧。\p你知道该怎么去吗？\p从这里先去若叶镇。\p再用冲浪往东前往宝可梦联盟。\p那条路非常艰险。\p你可不许在宝可梦联盟\n输掉！\p要是输了，输给你的我\n心里只会更不是滋味！\p拿出你的全部实力来吧。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 DragonsDen_Cavern_EventScript_Darin::
 	trainerbattle_single TRAINER_DARIN DragonsDen_Cavern_Text_CooltrainermDarinSeen, DragonsDen_Cavern_Text_CooltrainermDarinBeaten
@@ -157,71 +157,71 @@ DragonsDen_Cavern_EventScript_TwinPia::
 	end
 
 DragonsDen_Cavern_Text_DragonShrineSign:
-    .string "Dragon Shrine\p"
-    .string "A shrine honoring the dragon\n"
-    .string "Pokémon\p"
-    .string "said to have lived in Dragon's\n"
-    .string "Den.$"
+    .string "龙之祠堂\p这座祠堂纪念着龙宝可梦，\p相传它们曾经栖息在\n龙穴之中。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 DragonsDen_Cavern_Text_SilverTraining1:
-    .string "…\n"
-    .string "What? {PLAYER}?\p"
-    .string "…No, I won't battle you now…\p"
-    .string "My Pokémon aren't ready to beat\n"
-    .string "you.\p"
-    .string "I can't push them too hard now.\p"
-    .string "I have to be disciplined to become\n"
-    .string "the greatest Pokémon trainer…$"
+    .string "……\n什么？{PLAYER}？\p……不，我现在不会和你对战……\p我的宝可梦\n还没强到能打赢你。\p现在不能太勉强它们。\p要成为最强的宝可梦训练家，\n我就必须严格要求自己……$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 DragonsDen_Cavern_Text_SilverTraining2:
-    .string "…\p"
-    .string "Whew…\p"
-    .string "Learn to stay out of my way…$"
+    .string "……\p呼……\p学着别来碍我的事……$"
+    .string ""
+    .string ""
 
 DragonsDen_Cavern_Text_CooltrainermDarinSeen:
-    .string "You! How dare you enter\n"
-    .string "uninvited!$"
+    .string "你！竟敢擅自闯进来！$"
+    .string ""
 
 DragonsDen_Cavern_Text_CooltrainermDarinBeaten:
-    .string "S-strong!$"
+    .string "好、好强！$"
 
 DragonsDen_Cavern_Text_CooltrainermDarinAfter:
-    .string "The Shrine ahead is home to the\n"
-    .string "Master of our dragon-user clan.\p"
-    .string "You're not allowed to just go in!$"
+    .string "前面的祠堂里，住着我们\n驭龙一族的长老。\p不许你随便进去！$"
+    .string ""
+    .string ""
 
 DragonsDen_Cavern_Text_CooltrainerfCaraSeen:
-    .string "You shouldn't be in here!$"
+    .string "你不该进到这里来！$"
 
 DragonsDen_Cavern_Text_CooltrainerfCaraBeaten:
-    .string "Oh yikes, I lost!$"
+    .string "哎呀，我输了！$"
 
 DragonsDen_Cavern_Text_CooltrainerfCaraAfter:
-    .string "Soon I'm going to get permission\n"
-    .string "from our Master to use dragons.\p"
-    .string "When I do, I'm going to become an\n"
-    .string "admirable dragon trainer and gain\l"
-    .string "our Master's approval.$"
+    .string "再过不久，我就能得到\n长老的许可，可以使用龙了。\p到那时，\n我要成为出色的驭龙训练家，\l赢得长老的认可。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 DragonsDen_Cavern_Text_TwinsLeaandPia1Seen:
-    .string "It's a stranger we don't know.$"
+    .string "是我们不认识的陌生人。$"
 
 DragonsDen_Cavern_Text_TwinsLeaandPia1Beaten:
-    .string "Ouchies.$"
+    .string "好痛哦。$"
 
 DragonsDen_Cavern_Text_TwinsLeaandPia1After:
-    .string "It was like having to battle\n"
-    .string "Lance.$"
+    .string "简直就像在和\n阿渡对战一样。$"
+    .string ""
 
 DragonsDen_Cavern_Text_TwinsLeaandPia2Seen:
-    .string "Who are you?$"
+    .string "你是谁呀？$"
 
 DragonsDen_Cavern_Text_TwinsLeaandPia2Beaten:
-    .string "Meanie.$"
+    .string "坏蛋。$"
 
 DragonsDen_Cavern_Text_TwinsLeaandPia2After:
-    .string "We'll tell on you.\p"
-    .string "Master will be angry with you.$"
+    .string "我们要去告状。\p长老会生你的气的。$"
+    .string ""
 
 DragonsDen_ClairRematch::
 	lock
@@ -249,28 +249,13 @@ DragonsDen_ClairRematch_2:
 
 
 DragonsDen_ClairRematch_Text_0:
-	.string "Hey {PLAYER}.\n"
-	.string "I heard from Lance that you became the\l"
-	.string "new Champion. I guess the elders were\l"
-	.string "right, I was just blinded by my own ego.\l"
-	.string "Sorry.$"
+	.string "嘿，{PLAYER}。\n我听阿渡说，你当上了新的冠军。\l看来长老们说得没错，\l我只是被自己的傲慢蒙蔽了双眼。\l对不起。$"
 
 DragonsDen_ClairRematch_Text_1:
-	.string "Could we have another match right\n"
-	.string "here? I'd like to fight the new\l"
-	.string "Champion without anything holding\l"
-	.string "us back.$"
+	.string "能在这里再和我对战一次吗？\n我想和新冠军\l毫无顾忌地较量一场。$"
 
 DragonsDen_ClairRematch_Text_2:
-	.string "Crazy how much stronger you can grow\n"
-	.string "in such a short amount of time.$"
+	.string "这么短的时间里，\n竟能变强这么多，真不可思议。$"
 
 DragonsDen_ClairRematch_Text_3:
-	.string "I've got a long way to go still if I want\n"
-	.string "to surpass you or even Lance. I think\l"
-	.string "I will leave for a trip soon. Go see\l"
-	.string "places and hopefully learn from all\l"
-	.string "kinds of people. Then I will face you\l"
-	.string "again with all I've learned. Thank you\l"
-	.string "for this lesson in battle. I won't\l"
-	.string "forget it.$"
+	.string "想要超越你，甚至超越阿渡，\n我还有很长的路要走。\l我打算过不久就出去旅行，\l到各地去看看，\l希望能向形形色色的人学习。\l然后带着学到的一切再来挑战你。\l谢谢你在对战中给我上的这一课，\l我不会忘记的。$"

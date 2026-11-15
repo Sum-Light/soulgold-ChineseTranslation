@@ -548,16 +548,16 @@ static void ItemUse_ApplyIVReduceHerb(u8 taskId);
 static void ItemUse_ApplyExpCandy(u8 taskId);
 static void ItemUse_ApplyReverseCandy(u8 taskId);
 
-static const u8 sText_askText[] = _("Would you like to change {STR_VAR_1}'s\nability to {STR_VAR_2}?");
-static const u8 sText_doneText[] = _("{STR_VAR_1}'s ability became\n{STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
-static const u8 sText_ChangePokeballAsk[] = _("Use the {STR_VAR_2} to change\n{STR_VAR_1}'s Ball?");
-static const u8 sText_ChangePokeballDone[] = _("{STR_VAR_1}'s Ball was changed\nto the {STR_VAR_2}.{PAUSE_UNTIL_PRESS}");
-static const u8 sText_PokeballAlreadyMatches[] = _("That Pokémon is already in\nthat kind of Ball.{PAUSE_UNTIL_PRESS}");
-static const u8 sText_askShinyText[] = _("Would you like to turn {STR_VAR_1}\nshiny?");
-static const u8 sText_doneShinyText[] = _("{STR_VAR_1} became shiny!{PAUSE_UNTIL_PRESS}");
-static const u8 sText_BasePointsResetToZero[] = _("{STR_VAR_1}'s base points\nwere all reset to zero!{PAUSE_UNTIL_PRESS}");
-static const u8 sText_CannotSendMonToBoxHM[] = _("Cannot send that mon to the box,\nbecause it knows a HM move.{PAUSE_UNTIL_PRESS}");
-static const u8 sText_CannotSendMonToBoxPartner[] = _("Cannot send a mon that doesn't\nbelong to you to the box.{PAUSE_UNTIL_PRESS}");
+static const u8 sText_askText[] = _("要将{STR_VAR_1}的特性\n改变为{STR_VAR_2}吗？");
+static const u8 sText_doneText[] = _("{STR_VAR_1}的特性变成了\n{STR_VAR_2}！{PAUSE_UNTIL_PRESS}");
+static const u8 sText_ChangePokeballAsk[] = _("要使用{STR_VAR_2}\n更换{STR_VAR_1}的球吗？");
+static const u8 sText_ChangePokeballDone[] = _("{STR_VAR_1}的球\n换成了{STR_VAR_2}。{PAUSE_UNTIL_PRESS}");
+static const u8 sText_PokeballAlreadyMatches[] = _("这只宝可梦已经\n装在这种球里了。{PAUSE_UNTIL_PRESS}");
+static const u8 sText_askShinyText[] = _("要把{STR_VAR_1}\n变成异色吗？");
+static const u8 sText_doneShinyText[] = _("{STR_VAR_1}变成异色了！{PAUSE_UNTIL_PRESS}");
+static const u8 sText_BasePointsResetToZero[] = _("{STR_VAR_1}的\n基础点数消失得干干净净了！{PAUSE_UNTIL_PRESS}");
+static const u8 sText_CannotSendMonToBoxHM[] = _("无法将那只宝可梦送回盒子，\n因为它学会了秘传招式。{PAUSE_UNTIL_PRESS}");
+static const u8 sText_CannotSendMonToBoxPartner[] = _("无法将其他人的宝可梦\n送回盒子。{PAUSE_UNTIL_PRESS}");
 
 #define tItemCount          data[5]
 #define tMaxItemQuantity    data[6]
@@ -5616,8 +5616,8 @@ void ItemUseCB_ShinGenome(u8 taskId, TaskFunc task)
 
 void Task_Mint(u8 taskId)
 {
-    static const u8 sText_askText[] = _("It might affect {STR_VAR_1}'s stats.\nAre you sure you want to use it?");
-    static const u8 sText_doneText[] = _("{STR_VAR_1}'s stats may have changed due\nto the effects of the {STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
+    static const u8 sText_askText[] = _("要改变{STR_VAR_1}的能力吗？");
+    static const u8 sText_doneText[] = _("因{STR_VAR_2}的效果，\n{STR_VAR_1}的能力\l似乎发生了变化！{PAUSE_UNTIL_PRESS}");
     s16 *data = gTasks[taskId].data;
 
     switch (tState)
@@ -6712,7 +6712,7 @@ static void DisplayMonLearnedMove(u8 taskId, u16 move)
 
 static bool8 TryDisplayMonUnlockedInnate(u8 taskId, TaskFunc task)
 {
-    static const u8 sText_PkmnUnlockedInnate[] = _("{STR_VAR_1} unlocked innate potential:\n{STR_VAR_2}!{PAUSE_UNTIL_PRESS}");
+    static const u8 sText_PkmnUnlockedInnate[] = _("{STR_VAR_1}解锁了天赋特性：\n{STR_VAR_2}！{PAUSE_UNTIL_PRESS}");
     struct Pokemon *mon = &gPlayerParty[gPartyMenu.slotId];
 
     if (sLevelUpInnateLevel != sInitialLevel)
@@ -6765,7 +6765,7 @@ static void DisplayGiveHowManyMessage(void)
 
     CopyItemNameHandlePlural(gSpecialVar_ItemId, gStringVar1, 2);
     GetMonNickname(mon, gStringVar2);
-    StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("Use how many {STR_VAR_1}\non {STR_VAR_2}?"));
+    StringExpandPlaceholders(gStringVar4, COMPOUND_STRING("要对{STR_VAR_2}\n使用几个{STR_VAR_1}？"));
     DisplayPartyMenuMessage(gStringVar4, TRUE);
     ScheduleBgCopyTilemapToVram(2);
 }
@@ -7171,7 +7171,7 @@ static void BufferMonStatsToTaskData(struct Pokemon *mon, s16 *data)
 
 void Task_DynamaxCandy(u8 taskId)
 {
-    static const u8 sText_doneText[] = _("{STR_VAR_1}'s Dynamax Level\nincreased by 1!{PAUSE_UNTIL_PRESS}");
+    static const u8 sText_doneText[] = _("{STR_VAR_1}的极巨化等级\n提高了1级！{PAUSE_UNTIL_PRESS}");
     s16 *data = gTasks[taskId].data;
 
     switch (tState)

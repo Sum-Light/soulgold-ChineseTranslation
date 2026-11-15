@@ -76,34 +76,34 @@ MtMoon_Cave_Movement_SilverLeave:
 	step_end
 
 MtMoon_Cave_Text_Rival_Before:
-	.string "..................................\p"
-	.string "It's been a while, {PLAYER}.\p"
-	.string "…Since I lost to you, I thought about\n"
-	.string "what I was lacking with my Pokémon…\p"
-	.string "And we came up with an answer.\p"
-	.string "{PLAYER}, now we'll show you!$"
+	.string "………………\p好久不见了，{PLAYER}。\p……输给你之后，我一直在想\n自己和宝可梦到底缺了什么……\p然后，我们得出了一个答案。\p{PLAYER}，现在就让你看看！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MtMoon_Cave_Text_Rival_Win:
-	.string "..................................\p"
-	.string "I thought I raised my Pokémon to be the\n"
-	.string "best they could be…\p"
-	.string "…But it still wasn't enough…$"
+	.string "………………\p我以为我已经把宝可梦\n培育到了极致……\p……可还是不够……$"
+	.string ""
+	.string ""
+	.string ""
 
 MtMoon_Cave_Text_Rival_After:
-	.string "..................................\p"
-	.string "…You won, fair and square.\p"
-	.string "I admit it. But this isn't the end.\p"
-	.string "I'm going to be the greatest Pokémon\n"
-	.string "trainer ever.\p"
-	.string "Because these guys are behind me.\p"
-	.string "…Listen, {PLAYER}.\p"
-	.string "One of these days I'm going to prove\n"
-	.string "how good I am by beating you.$"
+	.string "………………\p……是我输了，输得心服口服。\p我承认。但这还不算完。\p我要成为史上最强的\n宝可梦训练家。\p因为我有这些家伙在背后支持我。\p……听好了，{PLAYER}。\p总有一天，我会打败你，\n证明我到底有多强。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MtMoon_Cave_Text_Rival_Loss:
-	.string "..................................\p"
-	.string "I've repaid my debt to you.\p"
-	.string "With my Pokémon, I'm going to beat the\n"
-	.string "Champion and become the world's greatest\n"
-	.string "trainer.$"
+	.string "………………\p我已经还清欠你的债了。\p我要带着我的宝可梦，打败冠军，\n成为世界最强的训练家。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 

@@ -669,150 +669,150 @@ AzaleaTown_Gym_EventScript_Statue2::
 	end
 
 AzaleaTown_Gym_Text_GymStatue:
-	.string "Azalea Pokémon Gym$"
+	.string "桧皮宝可梦道馆$"
 
 AzaleaTown_Gym_Text_GymStatueCertified:
-	.string "Azalea Town Pokémon Gym\p"
-	.string "Bugsy's Certified Trainers:\n"
-	.string "{PLAYER}$"
+	.string "桧皮镇宝可梦道馆\p阿笔认证训练家：\n{PLAYER}$"
+	.string ""
+	.string ""
 
 AzaleaTown_Gym_Text_BugsyIntro:
-	.string "I'm Bugsy!\p"
-	.string "I never lose when it comes\n"
-	.string "to bug Pokémon.\p"
-	.string "My research is going to make me the\n"
-	.string "authority on bug Pokémon!\p"
-	.string "Let me demonstrate all I've\n"
-	.string "learned from my studies.$"
+	.string "我是阿笔！\p说到虫宝可梦，\n我是绝不会输的。\p我的研究一定会让我成为\n虫宝可梦的权威！\p就让你见识一下\n我的全部研究成果。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 AzaleaTown_Gym_Text_BugsyBeaten:
-	.string "Whoa, amazing! You're an\n"
-	.string "expert on Pokémon!\p"
-	.string "My research isn't complete\n"
-	.string "yet.\p"
-	.string "Ok, you win. Take this\n"
-	.string "Badge.$"
+	.string "哇！太厉害了！\n你对宝可梦真是了如指掌！\p我的研究还没有\n完成。\p好吧，你赢了。\n这个徽章拿去吧。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 AzaleaTown_Gym_Text_ReceivedHiveBadge:
-	.string "{PLAYER} received Hivebadge.$"
+	.string "{PLAYER}得到了昆虫徽章。$"
 
 AzaleaTown_Gym_Text_HiveBadgeSpeech:
-	.string "Do you know the benefits\n"
-	.string "of Hivebadge?\p"
-	.string "If you have it, Pokémon up\n"
-	.string "to L30 will obey you,\l"
-	.string "even traded ones.\p"
-	.string "Pokémon that know Cut will be able\n"
-	.string "to use it outside of battle too.\p"
-	.string "Here, I also want you to\n"
-	.string "have this.$"
+	.string "你知道昆虫徽章的\n效果吗？\p持有它的话，30级以下的\n宝可梦都会听话，\l交换来的也一样。\p学会居合劈的宝可梦，\n在对战外也能使用它了。\p对了，这个也\n请你收下。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 AzaleaTown_Gym_Text_FuryCutterSpeech:
-	.string "TM89 contains U-Turn.\p"
-	.string "It lets you attack and swap to\n"
-	.string "another Pokémon.\p"
-	.string "Isn't that great?\n"
-	.string "I discovered it!$"
+	.string "招式学习器89里装的是急速折返。\p它能让宝可梦攻击之后，\n和后备宝可梦交换。\p很棒吧？\n这可是我发现的！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 AzaleaTown_Gym_Text_BugsyAdvice:
-	.string "Bug Pokémon are deep. There are\n"
-	.string "many mysteries to be explored.\p"
-	.string "Study your favorites thoroughly.$"
+	.string "虫宝可梦深奥得很。\n还有很多谜团等着发掘。\p好好研究你喜欢的宝可梦吧。$"
+	.string ""
+	.string ""
 
 AzaleaTown_Gym_Text_BugsyRematch:
-	.string "Wow, you're the Johto Champion now!\p"
-	.string "Your skills are truly impressive!\p"
-	.string "I've been busy with my research.\p"
-	.string "I'm ready to show you my new\n"
-	.string "findings.\p"
-	.string "Want to have a rematch with me?$"
+	.string "哇，你已经是城都的冠军了！\p你的实力真是令人佩服！\p我一直在忙研究。\p现在可以让你看看\n我的新成果了。\p要和我再对战一次吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 AzaleaTown_Gym_Text_BugsyRematchDefeat:
-	.string "Wow, you must be an expert trainer.\n"
-	.string "My research must not be complete...$"
+	.string "哇，你真是训练家中的专家。\n我的研究果然还没完成……$"
+	.string ""
 
 AzaleaTown_Gym_Text_BugCatcherBennySeen:
-	.string "Bug Pokémon evolve young. So they\n"
-	.string "get stronger that much faster.$"
+	.string "虫宝可梦进化得早。所以\n它们变强的速度也快得多。$"
+	.string ""
 
 AzaleaTown_Gym_Text_BugCatcherBennyBeaten:
-	.string "Just evolving isn't enough!$"
+	.string "光靠进化还是不够！$"
 
 AzaleaTown_Gym_Text_BugCatcherBennyAfter:
-	.string "Pokémon become stronger\n"
-	.string "if they evolve. Really!$"
+	.string "宝可梦只要进化，\n就会变得更强。真的！$"
+	.string ""
 
 AzaleaTown_Gym_Text_BugCatcherAlSeen:
-	.string "Bug Pokémon are cool and tough!\n"
-	.string "I'll prove it to you!$"
+	.string "虫宝可梦又帅又强！\n我来证明给你看！$"
+	.string ""
 
 AzaleaTown_Gym_Text_BugCatcherAlBeaten:
-	.string "You proved how tough you are…$"
+	.string "你证明了自己有多强……$"
 
 AzaleaTown_Gym_Text_BugCatcherAlAfter:
-	.string "They're so cool, but most girls\n"
-	.string "don't like bug Pokémon.\p"
-	.string "I don't know why…$"
+	.string "它们明明那么帅，可大多数女孩\n都不喜欢虫宝可梦。\p我真搞不懂为什么……$"
+	.string ""
+	.string ""
 
 AzaleaTown_Gym_Text_BugCatcherJoshSeen:
-	.string "You saved all the Slowpoke?\n"
-	.string "Whew, you're mighty!\p"
-	.string "But my grown-up Pokémon are\n"
-	.string "pretty tough too!$"
+	.string "你救了所有的呆呆兽？\n哇，你真厉害！\p不过我的宝可梦都长大了，\n也相当能打！$"
+	.string ""
+	.string ""
+	.string ""
 
 AzaleaTown_Gym_Text_BugCatcherJoshBeaten:
-	.string "Urrgggh!$"
+	.string "呜啊啊啊！$"
 
 AzaleaTown_Gym_Text_BugCatcherJoshAfter:
-	.string "I guess I should teach them\n"
-	.string "better moves…$"
+	.string "看来我得好好教它们\n更强的招式……$"
+	.string ""
 
 AzaleaTown_Gym_Text_TwinsAmyMay1Seen:
-	.string "Amy: Hi! Are you challenging\n"
-	.string "the Leader? No way!$"
+	.string "艾米：嗨！你要去挑战\n馆主吗？不可能啦！$"
+	.string ""
 
 AzaleaTown_Gym_Text_TwinsAmyMay1Beaten:
-	.string "Amy & May: Oh, double\n"
-	.string "goodness!$"
+	.string "艾米与梅：天哪！\n而且是双倍的天哪！$"
+	.string ""
 
 AzaleaTown_Gym_Text_TwinsAmyMay1After:
-	.string "Amy: You're really strong!\p"
-	.string "But Bugsy's even stronger!\n"
-	.string "His Scyther's U-Turn almost\l"
-	.string "always makes turns the tide!$"
+	.string "艾米：你真的好强！\p不过阿笔更强！\n他的飞天螳螂用急速折返\l几乎总能扭转局势！$"
+	.string ""
+	.string ""
+	.string ""
 
 AzaleaTown_Gym_Text_TwinsAmyMay2Seen:
-	.string "May: You want to see the\n"
-	.string "Leader? Good luck!\p"
-	.string "Bugsy is so strong!\n"
-	.string "His Scyther's U-turn always\l"
-	.string "seems to turn tides!$"
+	.string "梅：你想见馆主？\n那就祝你好运！\p阿笔超强的！\n他的飞天螳螂用急速折返\l总是能扭转局势！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 AzaleaTown_Gym_Text_TwinsAmyMay2Beaten:
-	.string "Amy & May: Oh, double\n"
-	.string "goodness!$"
+	.string "艾米与梅：天哪！\n而且是双倍的天哪！$"
+	.string ""
 
 AzaleaTown_Gym_Text_TwinsAmyMay2After:
-	.string "May: Our bug Pokémon lost!\n"
-	.string "Oh, what a shame.\p"
-	.string "Bugsy's won't lose though!\p"
-	.string "His Scyther makes short work\n"
-	.string "of Rock-type Pokémon!$"
+	.string "梅：我们的虫宝可梦输了！\n唉，真丢脸。\p不过阿笔可不会输！\p他的飞天螳螂对付岩石属性\n宝可梦可是手到擒来！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 AzaleaTown_Gym_Text_GymGuide:
-	.string "Yo, challenger!\p"
-	.string "Bugsy's young, but his knowledge\n"
-	.string "of bug Pokémon is for real.\p"
-	.string "It's going to be tough\n"
-	.string "without my advice.\p"
-	.string "Let's see… Bugsy's Mantis Pokémon\n"
-	.string "knows a move that covers its\l"
-	.string "escape while attacking.\p"
-	.string "Oh, and don't forget about those\n"
-	.string "nasty critical hits! Good luck!$"
+	.string "哟，挑战者！\p阿笔虽然年轻，但他对\n虫宝可梦的了解可不含糊。\p不听我的建议，\n可有你受的。\p我想想……阿笔那只螳螂宝可梦\n会一种一边攻击、\l一边掩护自己撤退的招式。\p哦对了，别忘了那些\n讨厌的击中要害！祝你好运！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 AzaleaTown_Gym_Text_GymGuideWin:
-	.string "Well done! That was a great\n"
-	.string "clash of talented young trainers.\p"
-	.string "With people like you, the\n"
-	.string "future of Pokémon is bright!$"
+	.string "干得好！那真是一场\n年轻有为训练家之间的精彩交锋。\p有你们这样的人，\n宝可梦的未来一片光明！$"
+	.string ""
+	.string ""
+	.string ""

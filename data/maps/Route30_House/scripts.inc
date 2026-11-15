@@ -17,16 +17,16 @@ Route30_House_EventScript_BaldMan2::
 	end
 
 Route30_BerryHouse_Text_MonEatBerries:
-	.string "When you follow that path up north,\n"
-	.string "you will see Mr. Pokémon’s house.\p"
-	.string "But before you go, allow me to\n"
-	.string "tell you about Berries!\p"
-	.string "Pokémon get healthier by eating\n"
-	.string "Berries.\p"
-	.string "They can even eat Berries\n"
-	.string "they're holding in battle.\p"
-	.string "Here. I'll share one with you!$"
+	.string "顺着这条路往北走，\n就能看到宝可梦爷爷的家。\p不过在那之前，\n让我先跟你说说树果吧！\p宝可梦吃了树果\n会变得更健康。\p对战时，它们还能吃掉\n带在身上的树果。\p来，我分你一个！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route30_BerryHouse_Text_CheckTrees:
-	.string "Check trees for Berries.\n"
-	.string "They grow back after 12 hours.$"
+	.string "检查果树就能采到树果。\n12小时后会重新长出来。$"
+	.string ""

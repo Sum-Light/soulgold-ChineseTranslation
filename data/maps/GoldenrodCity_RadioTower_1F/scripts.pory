@@ -47,19 +47,19 @@ RadioTower1F_EventScript_Whitney::
 	end
 
 RadioTower1F_Text_Whitney1::
-	.string "Whitney: Hi!\p"
-	.string "My name is Whitney!\p"
-	.string "I heard about the Radio Quiz and\n"
-	.string "its special prize, so I came here\l"
-	.string "to enter...\p"
-	.string "But this Quiz is so hard!$"
+	.string "小茜：嗨！\p我叫小茜！\p我听说了播音问答和\n它的特别奖品，\l所以就来参加了……\p可这问答也太难了！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 RadioTower1F_Text_Whitney2::
-	.string "Whitney: Wow, you did it!\p"
-	.string "I thought the answer to the third\n"
-	.string "question was surely apricorns!\l"
-	.string "Oops!\p"
-	.string "It's time to go back to the Gym!$"
+	.string "小茜：哇，你答对了！\p我还以为第三题的答案\n肯定是球果呢！\l哎呀呀！\p该回道馆去了！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 RadioTower1F_EventScript_Reception::
 	lock
@@ -203,128 +203,128 @@ GoldenrodCity_RadioTower_1F_EventScript_Sign::
 	end
 
 RadioTower1F_Text_ReceptionistWelcome:
-    .string "Welcome!$"
+    .string "欢迎光临！$"
 
 RadioTower1F_Text_ReceptionistNoTours:
-    .string "I'm sorry, but we're not\n"
-    .string "offering any tours today.$"
+    .string "抱歉，我们今天\n不提供任何参观。$"
+    .string ""
 
 RadioTower1F_Text_ExchangeLegacyRadioForVsSeeker:
-    .string "Oh! You still have one of our old\n"
-    .string "standalone Radios.\p"
-    .string "Radio reception is now built into\n"
-    .string "every Pokégear, so we'll replace it\l"
-    .string "with a Vs. Seeker.$"
+    .string "哦！您还留着一台\n我们以前的独立收音机。\p现在收音机功能已经内置在\n每台宝可梦装置里了，我们就\l用它给您换一台对战搜寻器吧。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 RadioTower1F_Text_ExchangeLegacyRadioForBigNugget:
-    .string "Oh! You still have one of our old\n"
-    .string "standalone Radios.\p"
-    .string "You already own its replacement, so\n"
-    .string "please accept a Big Nugget instead.$"
+    .string "哦！您还留着一台\n我们以前的独立收音机。\p您已经有它的替换品了，\n就请收下这颗巨大金珠吧。$"
+    .string ""
+    .string ""
+    .string ""
 
 RadioTower1F_Text_LegacyExchangeComplete:
-    .string "Thank you for returning the old\n"
-    .string "model. Please enjoy our broadcasts!$"
+    .string "谢谢您交回旧型号。\n请继续享受我们的广播！$"
+    .string ""
 
 RadioTower1F_Text_LegacyExchangeNoRoom:
-    .string "I'd like to exchange that old Radio,\n"
-    .string "but your Items Pocket is full.\p"
-    .string "Please make room and speak to me\n"
-    .string "again.$"
+    .string "我想帮您换掉那台旧收音机，\n可是您的道具口袋满了。\p请腾出空位后\n再来找我。$"
+    .string ""
+    .string ""
+    .string ""
 
 RadioTower1F_Text_RadioCardWomanOfferQuiz:
-    .string "We have a special quiz campaign on\n"
-    .string "right now.\p"
-    .string "Answer five questions correctly to\n"
-    .string "win a Vs. Seeker.\p"
-    .string "It lets you challenge route Trainers\n"
-    .string "again after recharged by walking.\p"
-    .string "Would you like to take the quiz?$"
+    .string "我们现在正在举办\n特别的问答活动。\p答对五个问题，\n就能赢得一台对战搜寻器。\p带着它走一走充好电，\n就能再次挑战道路上的训练家。\p您要参加问答吗？$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 RadioTower1F_Text_QuizQuestion1:
-    .string "Question 1:\p"
-    .string "Is there a Pokémon that appears only\n"
-    .string "in the daytime?$"
+    .string "第1题：\p只会在白天出现的宝可梦\n存在吗？$"
+    .string ""
+    .string ""
 
 RadioTower1F_Text_QuizQuestion2:
-    .string "Correct!\n"
-    .string "Question 2:\p"
-    .string "Is this statement correct?\p"
-    .string "You can't buy a Berry at a Mart.$"
+    .string "答对了！\n第2题：\p这句话对吗？\p在商店买不到树果。$"
+    .string ""
+    .string ""
+    .string ""
 
 RadioTower1F_Text_QuizQuestion3:
-    .string "Bull's-eye!\n"
-    .string "Question 3:\p"
-    .string "Kurt, the Poké Ball creator, uses\n"
-	.string "apricorns as ingredients?$"
+    .string "答对了！\n第3题：\p制作精灵球的钢铁，\n用的是球果作材料吗？$"
+    .string ""
+    .string ""
+	.string ""
 
 RadioTower1F_Text_QuizQuestion4:
-    .string "So far so good!\n"
-    .string "Question 4:\p"
-    .string "Is Falkner the Violet Gym Leader\n"
-    .string "who uses bird Pokémon?$"
+    .string "进展顺利！\n第4题：\p阿速是使用鸟宝可梦的\n桔梗道馆馆主吗？$"
+    .string ""
+    .string ""
+    .string ""
 
 RadioTower1F_Text_QuizQuestion5:
-    .string "Wow! Right again!\n"
-    .string "Here's the final question:\p"
-    .string "Do Goldenrod Game Corner's slots\n"
-    .string "have Charmander on their reels?$"
+    .string "哇！又答对了！\n最后一题：\p满金游戏城的老虎机\n图案里有小火龙吗？$"
+    .string ""
+    .string ""
+    .string ""
 
 RadioTower1F_Text_QuizWin:
-    .string "Bingo! You got it!\n"
-    .string "Congratulations!\p"
-    .string "Here's your prize, a Vs. Seeker!$"
+    .string "全对了！您答对啦！\n恭喜您！\p这是您的奖品，\n一台对战搜寻器！$"
+    .string ""
+    .string ""
 
 RadioTower1F_Text_TuneIn:
-    .string "The Radio is already built into your\n"
-    .string "Pokégear.\p"
-    .string "Buena's Password airs every day\n"
-	.string "from 6 PM to midnight!$"
+    .string "收音机功能已经内置在\n您的宝可梦装置里了。\p葵妍的密语每天\n晚上6点到深夜播出！$"
+    .string ""
+    .string ""
+	.string ""
 
 RadioTower1F_Text_QuizPrizeNoRoom:
-    .string "Oh, your Key Items Pocket is full.\p"
-    .string "Please make room, then take the quiz\n"
-    .string "again to receive your prize.$"
+    .string "哎呀，您的关键道具口袋满了。\p请腾出空位后，\n再来挑战一次领取奖品吧。$"
+    .string ""
+    .string ""
 
 RadioTower1F_Text_WrongAnswer:
-    .string "Oh, dear.\n"
-    .string "Sorry, but you got it wrong.\p"
-    .string "Please try again!$"
+    .string "哎呀。\n抱歉，您答错了。\p请再来挑战吧！$"
+    .string ""
+    .string ""
 
 RadioTower1F_Text_DeclineQuiz:
-    .string "Oh. I see. Please see me if you\n"
-    .string "change your mind.$"
+    .string "哦，这样啊。\n改变主意的话请再来找我。$"
+    .string ""
 
 RadioTower1F_Text_Lass:
-    .string "Ben is a fabulous Dj.\p"
-    .string "His sweet voice makes me melt!$"
+    .string "靖史是位了不起的DJ。\p他那甜美的声音\n让我心都化了！$"
+    .string ""
 
 RadioTower1F_Text_Youngster:
-    .string "I love Mary, from Pokémon Talk.\p"
-    .string "I only know what she sounds like,\n"
-    .string "though.$"
+    .string "我喜欢宝可梦讲座的胡桃。\p不过我只知道\n她的声音而已。$"
+    .string ""
+    .string ""
 
 RadioTower1F_Text_GruntM3Seen:
-    .string "We've finally taken over the\n"
-    .string "Radio Tower!\p"
-    .string "Now everyone will get to experience\n"
-    .string "the true terror of Team Rocket!\p"
-    .string "We'll show you how scary we are!$"
+    .string "我们终于占领了\n播音塔！\p现在，所有人都会体验到\n火箭队的真正恐怖！\p就让你见识见识\n我们有多可怕！$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 RadioTower1F_Text_GruntM3Beaten:
-    .string "Too strong! I'm sorry boss…$"
+    .string "太强了！老大，对不起……$"
 
 RadioTower1F_Text_GruntM3After:
-    .string "You're too strong.\p"
-    .string "Our plan could be ruined. I must\n"
-    .string "warn the others…$"
+    .string "你太强了。\p我们的计划可能会泡汤。\n我得去通知其他人……$"
+    .string ""
+    .string ""
 
 RadioTower1F_Text_Directory:
-    .string "1F Reception\n"
-    .string "2F Sales\p"
-    .string "3F Personnel\n"
-    .string "4F Production\p"
-    .string "5F Director's Office$"
+    .string "1楼　接待处\n2楼　营业部\p3楼　人事部\n4楼　制作部\p5楼　局长室$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 
 GoldenrodCity_RadioTower_1F_EventScript_LotteryClerk::
@@ -435,80 +435,80 @@ GoldenrodCity_RadioTower_1F_EventScript_GivePrizeFromEarlier::
 	end
 
 GoldenrodCity_RadioTower_1F_Text_LotteryCornerDrawTicket:
-	.string "This is the Pokémon Lottery Corner.\p"
-	.string "If the Loto Ticket's number matches\n"
-	.string "the Id number of any of your Pokémon,\l"
-	.string "you will receive a fabulous gift.\p"
-	.string "Would you like to draw a Pokémon\n"
-	.string "Loto Ticket?$"
+	.string "这里是宝可梦彩票中心。\p如果彩票的号码与您任意一只\n宝可梦的ID号码有相同数字，\l就能获得精美的奖品。\p您要抽一张宝可梦\n彩票吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_1F_Text_ComeBackTomorrow:
-	.string "Please come back tomorrow.$"
+	.string "请明天再来。$"
 
 GoldenrodCity_RadioTower_1F_Text_PleaseVisitAgain:
-	.string "Please do visit again.$"
+	.string "欢迎您下次再来。$"
 
 GoldenrodCity_RadioTower_1F_Text_PleasePickTicket:
-	.string "Please pick a Loto Ticket.\n"
-	.string "…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string "请抽一张彩票。\n…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}…{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}{PAUSE 0x0F}$"
+	.string ""
 
 GoldenrodCity_RadioTower_1F_Text_TicketNumberIsXPleaseWait:
-	.string "The Loto Ticket number is {STR_VAR_1}.\p"
-	.string "I need to run a check on this number\n"
-	.string "to see if it matches any of your\l"
-	.string "Pokémon's Id numbers. Please wait.$"
+	.string "彩票的号码是{STR_VAR_1}。\p我需要核对这个号码，\n看看它与您的宝可梦的\lID号码有没有一致。请稍等。$"
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_1F_Text_TicketMatchesPartyMon:
-	.string "Congratulations!\p"
-	.string "The Id number of your team's\n"
-	.string "{STR_VAR_1} matches your\l"
-	.string "Loto Ticket's number!$"
+	.string "恭喜您！\p您队伍中{STR_VAR_1}的\nID号码与您的\l彩票号码一致！$"
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_1F_Text_TicketMatchesPCMon:
-	.string "Congratulations!\p"
-	.string "The Id number of your PC-boxed\n"
-	.string "{STR_VAR_1} matches your\l"
-	.string "Loto Ticket's number!$"
+	.string "恭喜您！\p您电脑里存放的{STR_VAR_1}\n的ID号码与您的\l彩票号码一致！$"
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_1F_Text_NoNumbersMatched:
-	.string "I'm sorry.\n"
-	.string "None of the numbers matched.$"
+	.string "很抱歉。\n一个号码都没对上。$"
+	.string ""
 
 GoldenrodCity_RadioTower_1F_Text_TwoDigitsMatched:
-	.string "Two digits matched, so you win the\n"
-	.string "third prize!\l"
-	.string "You've won the {STR_VAR_1}!$"
+	.string "对上了两位数字，您获得了\n三等奖！\l您得到了{STR_VAR_1}！$"
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_1F_Text_ThreeDigitsMatched:
-	.string "Three digits matched, so you win the\n"
-	.string "second prize!\l"
-	.string "You've won the {STR_VAR_1}!$"
+	.string "对上了三位数字，您获得了\n二等奖！\l您得到了{STR_VAR_1}！$"
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_1F_Text_FourDigitsMatched:
-	.string "Four digits matched, so you win the\n"
-	.string "first prize!\l"
-	.string "You've won the {STR_VAR_1}!$"
+	.string "对上了四位数字，您获得了\n头等奖！\l您得到了{STR_VAR_1}！$"
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_1F_Text_AllFiveDigitsMatched:
-	.string "Oh, my goodness, all five digits\n"
-	.string "matched!\p"
-	.string "You've won the jackpot prize!\n"
-	.string "You've won the {STR_VAR_1}!$"
+	.string "哎呀呀，五位数字\n全都对上了！\p您中了头奖！\n您得到了{STR_VAR_1}！$"
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_1F_Text_NoRoomForThis:
-	.string "Oh?\n"
-	.string "You seem to have no room for this.\p"
-	.string "Please make room in your Bag and\n"
-	.string "let me know.$"
+	.string "哦？\n您好像拿不下这个了。\p请整理好包包，\n然后告诉我。$"
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_1F_Text_PrizeWeveBeenHolding:
-	.string "{PLAYER}?\n"
-	.string "Yes, I've been expecting you.\p"
-	.string "This is the prize we've been holding\n"
-	.string "for you.$"
+	.string "{PLAYER}？\n是的，我一直在等您。\p这是给您留着的奖品。$"
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_1F_Text_PleaseVisitAgain2:
-	.string "Please do visit again.$"
+	.string "欢迎您下次再来。$"
 
 
 `
@@ -516,11 +516,9 @@ GoldenrodCity_RadioTower_1F_Text_PleaseVisitAgain2:
 script RadioTowerReceiptionist {
     if (var(VAR_GOLDENROD_CITY_STATE) >= 6
 	 && var(VAR_GOLDENROD_CITY_STATE) < 10) {
-		msgbox("Wait no, Help! 
-                Where's the police?")
+		msgbox("等等，不对，救命！\n警察呢？")
 	} else {
-        msgbox("I'm sorry, but we're not
-                offering any tours today.")
+        msgbox("抱歉，我们今天\n不提供任何参观。")
     }
     release
 	end

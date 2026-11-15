@@ -18,31 +18,31 @@ MtMortar_1F_North_EventScript_Markus::
 	end
 
 MountMortar2_Text_PokemaniacMillerSeen:
-	.string "I'm not losing this time!$"
+	.string "这次我可不会输了！$"
 
 MountMortar2_Text_PokemaniacMillerBeaten:
-	.string "I lost to some kid...?$"
+	.string "我竟然输给了\n一个小鬼……？$"
 
 MountMortar2_Text_PokemaniacMillerAfter:
-	.string "A while back, this karate dude\n"
-	.string "wanted to battle.\p"
-	.string "He was ridiculously good.\n"
-	.string "He just thrashed us silly.\p"
-	.string "He went in deeper saying it\n"
-	.string "was for his training.\p"
-	.string "I wonder how he is?$"
+	.string "前阵子，有个练空手道的家伙\n来找我挑战。\p他强得离谱，\n把我们全打趴下了。\p他还说这是为了修行，\n往更深处去了。\p不知道他现在怎么样了？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MountMortar2_Text_SupernerdMarkusSeen:
-	.string "Hey! Hugh!$"
+	.string "喂！孝文！$"
 
 MountMortar2_Text_SupernerdMarkusBeaten:
-	.string "I mistook you for someone\n"
-	.string "else…$"
+	.string "我把你错认成\n别人了……$"
+	.string ""
 
 MountMortar2_Text_SupernerdMarkusAfter:
-	.string "I came to explore Mt.Mortar,\n"
-	.string "but I got separated from my\l"
-	.string "partner…\p"
-	.string "Did you run into a trainer\n"
-	.string "who uses a Seadra that knows\l"
-	.string "Waterfall?$"
+	.string "我是来擂钵山探险的，\n可跟我的搭档\l走散了……\p你有没有遇到过一个，\n带着会攀瀑的海刺龙\l的训练家？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""

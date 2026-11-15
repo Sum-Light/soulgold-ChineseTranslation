@@ -15,28 +15,17 @@ mapscripts VajraPyramidOutside_MapScripts {
 
 script VajraPyramidOutside_Door {
     if (flag(FLAG_IS_CHAMPION) && flag(FLAG_RINTO_TRADE_COMPLETE)) {
-        msgbox("The door has been busted open by
-                repeated exposure to something
-                blunt.", MSGBOX_SIGN)
+        msgbox("这扇门是被反复猛撞之后\n才被撞开的。", MSGBOX_SIGN)
     } else {
-        msgbox("The door is sealed shut tightly.", MSGBOX_SIGN)
+        msgbox("门紧紧地封着。", MSGBOX_SIGN)
     }
 }
 
 script VajraPyramidOutside_ScientistPostgame {
     if (flag(FLAG_IS_CHAMPION)) {
-        msgbox("We finally managed to break down the
-                door to the Pyramid thanks to the
-                Tinkaton you gave us!
-
-                Please, feel free to explore it first!", MSGBOX_NPC)
+        msgbox("多亏你给我们的巨锻匠，\n我们终于把金字塔的门\l弄开了！\p请吧，你可以先去\n里面探索一下！", MSGBOX_NPC)
     } else {
-        msgbox("We've started working on getting that
-                door opened with the help of your
-                Tinkaton! 
-                
-                It might take some time, so
-                you should come back later.", MSGBOX_NPC)
+        msgbox("我们已经开始借助你的\n巨锻匠，着手把那扇门\l弄开了！\p这可能需要一些时间，\n你过一阵子再来吧。", MSGBOX_NPC)
     }
 }
 
@@ -44,15 +33,13 @@ script VajraPyramidOutside_ScientistsTinkaton {
     lock
     faceplayer
     playmoncry(SPECIES_TINKATON, 0)
-    msgbox("Tinkaton: Tinktii!")
+    msgbox("巨锻匠：锻咿！")
     waitmoncry
-    msgbox("Your old Tinkaton seems to be having
-            fun here!")
+    msgbox("你那只巨锻匠好像\n在这里玩得很开心！")
     release
     end
 }
 
 script VajraPyramidOutside_RuinManiac {
-    msgbox("There's mystery here waiting to be
-            uncovered! I can sense it!", MSGBOX_NPC)
+    msgbox("这里有等着被揭开的谜团！\n我能感觉到！", MSGBOX_NPC)
 }

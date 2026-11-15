@@ -23,30 +23,30 @@ OlivineCity_PortInside_Movement_OakLeave:
 	step_end
 
 OlivineCity_PortInside_Text_Nationaldex1:
-	.string "Prof.Oak: Hello!\n"
-	.string "You are starting to have the\l"
-	.string "attitude of a Champion, {PLAYER}!\p"
-	.string "It's time for your Pokédex to\n"
-	.string "match who you are.\p"
-	.string "Let me see your Pokédex for a\n"
-	.string "second.\p"
-	.string "I'll upgrade your Pokédex with the\n"
-	.string "National Mode.$"
+	.string "大木博士：你好！\n你渐渐有了\l冠军的气度，{PLAYER}！\p你的宝可梦图鉴也该\n配得上你现在的身份了。\p让我看看你的图鉴。\p我要用全国模式\n升级你的宝可梦图鉴。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 OlivineCity_PortInside_Text_Nationaldex2:
-	.string "{PLAYER}'s Pokédex was upgraded\n"
-	.string "with the National Mode!$"
+	.string "{PLAYER}的宝可梦图鉴\n升级成了全国模式！$"
+	.string ""
 OlivineCity_PortInside_Text_Nationaldex3:
-	.string "Prof.Oak: It won't be easy to\n"
-	.string "complete the National Pokédex...\p"
-	.string "However, I'm sure you will make\n"
-	.string "honest attempt on our behalf!$"
+	.string "大木博士：要完成全国图鉴，\n可不是件容易的事……\p不过我相信，你一定会\n替我们认真努力的！$"
+	.string ""
+	.string ""
+	.string ""
 OlivineCity_PortInside_Text_Nationaldex4:
-	.string "Oh, time flies!\p"
-	.string "I have a radio show to record at\n"
-	.string "Goldenrod Radio Tower.\p"
-	.string "You must be heading for Sevii.\p"
-	.string "I hear strong trainers are\n"
-	.string "gathering there. How exciting!$"
+	.string "哦，时间过得真快！\p我还要去满金播音塔\n录制节目。\p你接下来是要去七之岛吧。\p听说强大的训练家\n都在那里聚集。真让人兴奋！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OlivinePort_EventScript_CooltrainerF::
 	msgbox OlivinePort_Text_CooltrainerF, MSGBOX_NPC
@@ -85,65 +85,65 @@ OlivinePort_Movement_BoatLeave:
 	step_end
 
 OlivinePort_Text_NoPass:
-    .string "{PLAYER} tried to show the\n"
-    .string "{STR_VAR_1}…\p"
-    .string "…But no {STR_VAR_1}!\p"
-    .string "Sorry!\n"
-    .string "You may board only if you have an\l"
-    .string "{STR_VAR_1}.$"
+    .string "{PLAYER}想出示\n{STR_VAR_1}……\p……但是没有{STR_VAR_1}！\p抱歉！\n只有持有{STR_VAR_1}的客人\l才能上船。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 OlivinePort_Text_SailorGetOnBoard:
-    .string "We're departing soon.\n"
-    .string "Please get on board.$"
+    .string "船马上要开了。\n请尽快上船。$"
+    .string ""
 
 OlivinePort_Text_CantBoard:
-    .string "Sorry. You can't board now.$"
+    .string "抱歉。您现在不能上船。$"
 
 OlivinePort_Text_WhereSail:
-    .string "Where would you like to sail?$"
+    .string "您想去哪里？$"
 
 OlivinePort_Text_AskBoard:
-    .string "Welcome to Fast Ship S.S.Aqua.\p"
-    .string "Will you be boarding today?$"
+    .string "欢迎乘坐高速船水流号。\p您今天要上船吗？$"
+    .string ""
 
 OlivinePort_Text_AskTicket:
-    .string "May I see your S.S.Ticket?$"
+    .string "可以让我看看您的船票吗？$"
 
 OlivinePort_Text_ComeAgain:
-    .string "We hope to see you again!$"
+    .string "欢迎您随时再来！$"
 
 OlivinePort_Text_FlashTicket:
-    .string "{PLAYER} flashed the S.S.Ticket.\p"
-    .string "That's it. Thank you!$"
+    .string "{PLAYER}出示了船票。\p好的，谢谢您！$"
+    .string ""
 
 OlivinePort_Text_NoTicket:
-    .string "{PLAYER} tried to show the\n"
-    .string "S.S.Ticket…\p"
-    .string "…But no Ticket!\p"
-    .string "Sorry!\n"
-    .string "You may board only\l"
-    .string "if you have an S.S.Ticket.$"
+    .string "{PLAYER}想出示\n船票……\p……可是没有船票！\p抱歉！\n只有持有船票的客人\l才能上船。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 OlivinePort_Text_FishingGuru1:
-    .string "Mareanie are easy to catch here.\p"
-    .string "They're kind of rare elsewhere.$"
+    .string "在这里很容易钓到好坏星。\p在别的地方，它们算挺稀有的。$"
+    .string ""
 
 OlivinePort_Text_FishingGuru2:
-    .string "How many Rods do you have?\p"
-    .string "Different Rods catch different\n"
-    .string "Pokémon.$"
+    .string "你有几根钓竿？\p不同的钓竿能钓到\n不同的宝可梦。$"
+    .string ""
+    .string ""
 
 OlivinePort_Text_Youngster:
-    .string "S.S.Aqua uses jets to skim\n"
-    .string "over the waves!$"
+    .string "水流号靠喷射装置\n在水面上飞驰！$"
+    .string ""
 
 OlivinePort_Text_CooltrainerF:
-    .string "There are lots of Pokémon in\p"
-    .string "the world. I wish I could travel...$"
+    .string "世界上有很多宝可梦。\p我真希望能出去旅行……$"
+    .string ""
 
 OlivinePort_Text_SailorBeforeHOF:
-    .string "We don't want you to fall into the\n"
-    .string "sea, so you're not allowed in.$"
+    .string "我们可不想让你掉进海里，\n所以不能放你进去。$"
+    .string ""
 
 OlivineCity_PortInside_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, OlivineCity_PortInside_MapScripts_MAP_SCRIPT_ON_TRANSITION
@@ -267,91 +267,55 @@ OlivinePortBlaine_Movement_0:
 	step_end
 
 OlivinePort_Sailor_Text_0:
-	.string "Sorry, but the ship is not going to\n"
-	.string "leave anywhere anytime soon.$"
+	.string "抱歉，这船一时半会儿\n哪儿都不会去。$"
 
 OlivinePort_Sailor_Text_1:
-	.string "I was told to sail you to this\n"
-	.string "oddly specific location. Do you\l"
-	.string "want to go now?$"
+	.string "有人吩咐我把你送到一个\n非常具体的地点。\l你现在就要去吗？$"
 
 OlivinePort_Sailor_Text_2:
-	.string "Oh, alright...$"
+	.string "哦，好吧……$"
 
 OlivinePort_Sailor_Text_3:
-	.string "Then let's do it!\p"
-	.string "Anchors aweigh! We're setting sail\n"
-	.string "to the unknown!$"
+	.string "那就出发吧！\p起锚！我们要扬帆\n驶向未知的远方！$"
 
 OlivinePortBlaine_Text_0:
-	.string "Blaine: I let the sailor know about the\n"
-	.string "island.$"
+	.string "夏伯：我已经把岛的事\n告诉水手了。$"
 
 OlivinePortBlaine_Text_1:
-	.string "???: Ahh... Nothing quite like \n"
-	.string "a refreshing Soda Pop!$"
+	.string "？？？：啊……还是\n劲爽汽水最痛快！$"
 
 OlivinePortBlaine_Text_2:
-	.string "Oh! Are those all 8 badges of Johto?\p"
-	.string "You must be quite a trainer to have\n"
-	.string "achieved such a feat!\p"
-	.string "My name is Blaine. I am a Gym Leader in\n"
-	.string "another region.\p"
-	.string "Blaine: Ooh! I have an idea!\p"
-	.string "Quiz time!$"
+	.string "哦！那是城都的8枚徽章吗？\p能集齐这些，你一定是位\n相当了不起的训练家！\p我叫夏伯，是另一个地区的\n道馆馆主。\p夏伯：哦！我有个好主意！\p来答个问题吧！$"
 
 OlivinePortBlaine_Text_3:
-	.string "Blaine: Are you afraid of the unknown?$"
+	.string "夏伯：你害怕未知吗？$"
 
 OlivinePortBlaine_Text_4:
-	.string "Oh... Wrong Answer!$"
+	.string "哦……答错了！$"
 
 OlivinePortBlaine_Text_5:
-	.string "Blaine: Good!\p"
-	.string "Next question!\p"
-	.string "Do you think you could beat me in\n"
-	.string "a Pokémon battle?$"
+	.string "夏伯：很好！\p下一个问题！\p你觉得能在宝可梦对战中\n打赢我吗？$"
 
 OlivinePortBlaine_Text_6:
-	.string "Blaine: I respect the honesty, but you\n"
-	.string "should have a bit more confidence\l"
-	.string "in yourself!$"
+	.string "夏伯：我欣赏你的诚实，\n不过你该对自己\l多一点信心！$"
 
 OlivinePortBlaine_Text_7:
-	.string "Changed your mind about the\n"
-	.string "last question?\p"
-	.string "Do you think you could beat me in\n"
-	.string "a Pokémon battle?$"
+	.string "关于上一个问题的\n想法改变了吗？\p你觉得能在宝可梦对战中\n打赢我吗？$"
 
 OlivinePortBlaine_Text_8:
-	.string "Blaine: Still not confident enough?\n"
-	.string "Well I can't blame you. \p"
-	.string "After all, I am quite the fiery soul!\n"
-	.string "Ho ho ho!$"
+	.string "夏伯：还是没什么信心？\n这也难怪。\p毕竟我可是个热情似火的人！\n呵呵呵！$"
 
 OlivinePortBlaine_Text_9:
-	.string "Blaine: Such a bold statement! \n"
-	.string "I shall put that to the test right here!$"
+	.string "夏伯：说得真够大胆！\n我现在就来验证一下！$"
 
 OlivinePortBlaine_Text_10:
-	.string "Hope you brought a Burn Heal!$"
+	.string "希望你带了灼伤药！$"
 
 OlivinePortBlaine_Text_11:
-	.string "Wowzers! You scorched me!$"
+	.string "哇！你把我烧着了！$"
 
 OlivinePortBlaine_Text_12:
-	.string "Blaine: Yowch! I got burned!\n"
-	.string "You're the real deal!\p"
-	.string "Here's the thing. I was visiting\n"
-	.string "Johto to check up on my old friend\l"
-	.string "Oak, who is currently here. \p"
-	.string "I found this old map of an island\n"
-	.string "we visited long, long ago.\p"
-	.string "I don't think anyone has visited it\n"
-	.string "since then. \p"
-	.string "I will tell the sailor about the island.\n"
-	.string "Speak to him if you wish to visit it.\p"
-	.string "You might find some rare Pokémon there!$"
+	.string "夏伯：好烫！我被烧到了！\n你果然是真本事！\p事情是这样的。我来城都\n是为了看望老朋友大木，\l他正好也在这里。\p我找到了一张旧地图，\n那是我们很久以前\l去过的一座岛。\p我想那之后\n就再没人去过那儿了。\p我会把这座岛告诉水手。\n你想去的话就去找他。\p说不定能在那里\n找到稀有的宝可梦！$"
 
 OlivinePortBlaine_Text_13:
-	.string "Good luck out there!$"
+	.string "祝你好运！$"

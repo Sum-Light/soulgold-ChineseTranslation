@@ -10,9 +10,9 @@ RustboroCity_Flat1_1F_EventScript_Woman::
 	end
 
 RustboroCity_Flat1_1F_Text_EveryPokemonHasAbility:
-	.string "Every Pokémon has a special ability\n"
-	.string "that it can use.$"
+	.string "每只宝可梦都有一种\n它可以使用的特性。$"
+	.string ""
 
 RustboroCity_Flat1_1F_Text_PokemonStrange:
-	.string "Pokémon are such strange creatures.$"
+	.string "宝可梦真是奇怪的生物。$"
 

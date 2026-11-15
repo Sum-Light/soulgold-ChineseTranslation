@@ -107,44 +107,37 @@ BattleRoom_BlackBelt_Movement_0:
 	step_end
 
 BattleRoom_Audino_Text_0:
-	.string "Audino: Audiini!$"
+	.string "差不多娃娃：嗷呜！$"
 
 BattleRoom_Machamp_Text_0:
-	.string "Machamp: Mach!$"
+	.string "怪力：哼哈！$"
 
 BattleRoom_Mienshao_Text_0:
-	.string "Mienshao: Mii!$"
+	.string "师父鼬：咪！$"
 
 BattleRoom_BattleGirl_Text_0:
-	.string "Now Mienshao, use Hi Jump Kick!$"
+	.string "师父鼬，用飞膝踢！$"
 
 BattleRoom_BlackBelt_Text_0:
-	.string "Machamp, counter with Protect!$"
+	.string "怪力，用守住挡下来！$"
 
 BattleRoom_MoneyTrainer_Text_0:
-	.string "Greetings, we offer paid training\n"
-	.string "services for visitors. \p"
-	.string "The money will be used to support our \n"
-	.string "temple and the village. Interested?$"
+	.string "您好，我们为来访者\n提供付费训练服务。\p这笔钱将用于资助寺院\n和村子。有意向吗？$"
 
 BattleRoom_MoneyTrainer_Text_1:
-	.string "For a low price of ¥10,000, we will\n"
-	.string "let you train with our Audinos and \l"
-	.string "Blisseys.$"
+	.string "只要¥10,000，就能和\n差不多娃娃、幸福蛋一起训练。$"
 
 BattleRoom_MoneyTrainer_Text_2:
-	.string "Oh my, it seems you do not have the\n"
-	.string "money right now. \p"
-	.string "Please come back when you have some.$"
+	.string "哎呀，看来您现在\n手头不太宽裕。\p请筹到钱后再来。$"
 
 BattleRoom_MoneyTrainer_Text_3:
-	.string "Thank you, let us begin.$"
+	.string "谢谢，我们开始吧。$"
 
 BattleRoom_MoneyTrainer_Text_4:
-	.string "Thank you for your support.$"
+	.string "感谢您的资助。$"
 
 BattleRoom_MoneyTrainer_Text_5:
-	.string "Come back if you wish to train again.$"
+	.string "想再训练的话，欢迎再来。$"
 
 BattleRoom_MoneyTrainer_Text_6:
-	.string "That's fine.$"
+	.string "好的，没关系。$"

@@ -70,7 +70,7 @@ FuchsiaCity_SafariZoneEntrance_EventScript_StevenGiveCase::
 	return
 
 FuchsiaCity_SafariZoneEntrance_Text_StevenGiveCase:
-	.string "Oh and you might need this.$"
+	.string "对了，你也许\n会需要这个。$"
 
 FuchsiaCity_SafariZoneEntrance_Steven::
 	lock
@@ -95,13 +95,13 @@ FuchsiaCity_SafariZoneEntrance_StevenAfter::
 	end
 
 FuchsiaCity_SafariZoneEntrance_Text_StevenChamp:
-	.string "Oh, hey {PLAYER}.\n"
-	.string "Or should I say Kanto champion?\p"
-	.string "You know, for some time, I was the\n"
-	.string "champion of the Hoenn region.\p"
-	.string "So welcome to the club, {PLAYER}.\p"
-	.string "In fact, here.\n"
-	.string "Consider this a welcome gift.$"
+	.string "哦，嗨，{PLAYER}。\n还是该叫你关都冠军？\p你知道吗，有段时间，\n我是丰缘地区的冠军。\p所以，欢迎加入冠军俱乐部，\n{PLAYER}。\p来，这个给你。\n就当是欢迎的礼物。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 FuchsiaCity_SafariZoneEntrance_EventScript_EntranceCounterTrigger::
 	lockall
@@ -223,16 +223,16 @@ FuchsiaCity_SafariZoneEntrance_Movement_ReturnToTable:
 	step_end
 
 FuchsiaCity_SafariZoneEntrance_Text_StevenWelcome:
-	.string "My name is Steven. My family's\n"
-	.string "company recently purchased this\l"
-	.string "Safari Zone, and we've made many\l"
-	.string "improvements.\p"
-	.string "You'll find very exotic Pokémon\n"
-	.string "here. Especially if you increase\l"
-	.string "your Safari Level.\p"
-	.string "Just speak to the attendant here\n"
-	.string "any time to increase your Safari\l"
-	.string "Level.$"
+	.string "我叫大吾。我家的公司\n最近买下了这个\l狩猎地带，还做了\l不少改造。\p这里有很稀奇的宝可梦。\n把你的狩猎等级\l提升上去，就更容易遇到。\p想提升狩猎等级，\n随时跟这里的\l接待员说一声就行。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 FuchsiaCity_SafariZoneEntrance_UpgradeGuy::
 	goto_if_eq VAR_KANTO_SAFARI_ZONE_PROGRESS, 1, FuchsiaCity_SafariZoneEntrance_UpgradeGuy1
@@ -297,35 +297,35 @@ FuchsiaCity_SafariZoneEntrance_UpgradeGuyNotEnoughMoney::
 	end
 
 FuchsiaCity_SafariZoneEntrance_Text_Steven:
-	.string "Oh, hey, {PLAYER}.\p"
-	.string "I hope you're enjoying the Safari.\p"
-	.string "Have you seen any rare stones\n"
-	.string "lately?$"
+	.string "哦，嗨，{PLAYER}。\p狩猎地带玩得\n还开心吗？\p最近见到过\n什么稀有的石头吗？$"
+	.string ""
+	.string ""
+	.string ""
 
 FuchsiaCity_SafariZoneEntrance_Text_Level1:
-	.string "Hello {PLAYER}, would you\n"
-	.string "like to increase your Safari Level\l"
-	.string "to 2? It will cost you ¥200,000$"
+	.string "您好，{PLAYER}，\n要把狩猎等级\l提升到2吗？费用是¥200,000$"
+	.string ""
+	.string ""
 
 FuchsiaCity_SafariZoneEntrance_Text_Level2:
-	.string "Hello {PLAYER}, would you\n"
-	.string "like to increase your Safari Level\l"
-	.string "to 3? It will cost you ¥300,000$"
+	.string "您好，{PLAYER}，\n要把狩猎等级\l提升到3吗？费用是¥300,000$"
+	.string ""
+	.string ""
 
 FuchsiaCity_SafariZoneEntrance_Text_Level3:
-	.string "Hello {PLAYER}, would you\n"
-	.string "like to increase your Safari Level\l"
-	.string "to 4? It will cost you ¥400,000$"
+	.string "您好，{PLAYER}，\n要把狩猎等级\l提升到4吗？费用是¥400,000$"
+	.string ""
+	.string ""
 
 FuchsiaCity_SafariZoneEntrance_Text_UpgradeGuyDeclined:
-	.string "Oh, that's too bad, then... $"
+	.string "哦，那真可惜…… $"
 
 FuchsiaCity_SafariZoneEntrance_Text_UpgradeGuyAccepted:
-	.string "Enjoy the premium Safari Zone\n"
-	.string "experience!$"
+	.string "好好享受高级狩猎地带的\n体验吧！$"
+	.string ""
 
 FuchsiaCity_SafariZoneEntrance_Text_MaxLevel:
-	.string "Hello {PLAYER}, thank you for\n"
-	.string "continuing to be a premium member\l"
-	.string "at the Fuchsia Safari Zone.$"
+	.string "您好，{PLAYER}，\n感谢您继续成为\l浅红狩猎地带的高级会员。$"
+	.string ""
+	.string ""
 

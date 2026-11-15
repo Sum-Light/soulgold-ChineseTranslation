@@ -18,7 +18,7 @@ script LatiTemple_Latias {
 
 script ResetLatiasPuzzle {
     lock
-    msgbox("Would you like to reset the puzzle?", MSGBOX_YESNO)
+    msgbox("要重置谜题吗？", MSGBOX_YESNO)
     if (var(VAR_RESULT) == YES) {
         clearflag(FLAG_LATITEMPLE_SWITCH1)
         clearflag(FLAG_LATITEMPLE_SWITCH2)

@@ -1,6 +1,5 @@
 mapscripts KitakamiMountain_MapScripts {}
 
 script KitakamiMountainSign {
-    msgbox("Kitakami Mountain ahead
-            Ogerpon the Guardian's domain", MSGBOX_SIGN)
+    msgbox("前方是北上山\n守护神厄诡椪的领地", MSGBOX_SIGN)
 }

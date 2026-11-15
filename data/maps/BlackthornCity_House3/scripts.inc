@@ -68,42 +68,42 @@ BlackthornCity_MoveDeletersHouse_EventScript_LastMonWithSurf::
 	end
 
 BlackthornCity_MoveDeletersHouse_Text_ICanMakeMonForgetMove:
-	.string "Uh…\n"
-	.string "Oh, yes, I'm the Move Deleter.\p"
-	.string "I can make Pokémon forget their moves.\p"
-	.string "Would you like me to do that?$"
+	.string "呃……\n哦，对，我是遗忘爷爷。\p我能让宝可梦忘记招式。\p你要我帮忙吗？$"
+	.string ""
+	.string ""
+	.string ""
 
 BlackthornCity_MoveDeletersHouse_Text_WhichMonShouldForget:
-	.string "Which Pokémon should forget a move?$"
+	.string "要让哪只宝可梦忘记招式？$"
 
 BlackthornCity_MoveDeletersHouse_Text_WhichMoveShouldBeForgotten:
-	.string "Which move should be forgotten?$"
+	.string "要忘记哪个招式呢？$"
 
 BlackthornCity_MoveDeletersHouse_Text_MonOnlyKnowsOneMove:
-	.string "{STR_VAR_1} knows only one move\n"
-	.string "so it can't be forgotten…$"
+	.string "{STR_VAR_1}只会一个招式，\n所以不能忘记……$"
+	.string ""
 
 BlackthornCity_MoveDeletersHouse_Text_MonsMoveShouldBeForgotten:
-	.string "Hm! {STR_VAR_1}'s {STR_VAR_2}?\n"
-	.string "That move should be forgotten?$"
+	.string "哦！{STR_VAR_1}的{STR_VAR_2}？\n要让这个招式被忘记吗？$"
+	.string ""
 
 BlackthornCity_MoveDeletersHouse_Text_MonHasForgottenMove:
-	.string "It worked to perfection!\p"
-	.string "{STR_VAR_1} has forgotten\n"
-	.string "{STR_VAR_2} completely.$"
+	.string "完美成功！\p{STR_VAR_1}完全忘记了\n{STR_VAR_2}。$"
+	.string ""
+	.string ""
 
 BlackthornCity_MoveDeletersHouse_Text_ComeAgain:
-	.string "Come again if there are moves that\n"
-	.string "need to be forgotten.$"
+	.string "有招式要忘记的话，\n请再过来。$"
+	.string ""
 
 BlackthornCity_MoveDeletersHouse_Text_EggCantForgetMoves:
-	.string "What?\n"
-	.string "No Egg should know any moves.$"
+	.string "什么？\n蛋不该会任何招式啊。$"
+	.string ""
 
 BlackthornCity_MoveDeletersHouse_Text_CantForgetSurf:
-	.string "Hm!\p"
-	.string "Your {STR_VAR_1} doesn't seem willing\n"
-	.string "to forget Surf.$"
+	.string "嗯！\p你的{STR_VAR_1}好像不愿意\n忘记冲浪。$"
+	.string ""
+	.string ""
 
 BlackthornCity_MoveRelearnersHouse_EventScript_MoveRelearner::
 	lockall
@@ -160,43 +160,43 @@ BlackthornCity_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale::
 	end
 
 BlackthornCity_MoveRelearnersHouse_Text_ImTheMoveTutor:
-	.string "I'm the Move Tutor.\p"
-	.string "I know all the moves that Pokémon\n"
-	.string "learn--every one of them--and I can\l"
-	.string "teach Pokémon those moves.\p"
-	.string "I can teach a move to a Pokémon\n"
-	.string "of yours if you'd like.\p"
-	.string "I'll do it for a Heart Scale.\n"
-	.string "I'm collecting those now.$"
+	.string "我是招式教学狂。\p宝可梦能学会的招式——\n所有的招式——我全都知道，\l还能把它们教给宝可梦。\p如果你愿意，我可以教\n你的宝可梦一个招式。\p学费是一枚心之鳞片。\n我正在收集呢。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BlackthornCity_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
-	.string "Oh! That's it! That's an honest to\n"
-	.string "goodness Heart Scale!\p"
-	.string "Let me guess, you want me to teach\n"
-	.string "a move?$"
+	.string "哦！就是它！这真是一枚\n货真价实的心之鳞片！\p让我猜猜，你是想让我\n教它一个招式？$"
+	.string ""
+	.string ""
+	.string ""
 
 BlackthornCity_MoveRelearnersHouse_Text_TutorWhichMon:
-	.string "Which Pokémon needs tutoring?$"
+	.string "要让哪只宝可梦学习招式？$"
 
 BlackthornCity_MoveRelearnersHouse_Text_TeachWhichMove:
-	.string "Which move should I teach?$"
+	.string "要教它哪个招式呢？$"
 
 BlackthornCity_MoveRelearnersHouse_Text_DontHaveMoveToTeachPokemon:
-	.string "Sorry…\p"
-	.string "It doesn't appear as if I have any move\n"
-	.string "I can teach that Pokémon.$"
+	.string "抱歉……\p看来我没有能教给\n这只宝可梦的招式。$"
+	.string ""
+	.string ""
 
 BlackthornCity_MoveRelearnersHouse_Text_HandedOverHeartScale:
-	.string "{PLAYER} handed over one Heart Scale\n"
-	.string "in exchange.$"
+	.string "{PLAYER}作为交换，\n交出了1枚心之鳞片。$"
+	.string ""
 
 BlackthornCity_MoveRelearnersHouse_Text_ComeBackWithHeartScale:
-	.string "If your Pokémon need to learn a move,\n"
-	.string "come back with a Heart Scale.$"
+	.string "宝可梦需要学招式的话，\n请带着心之鳞片再来。$"
+	.string ""
 
 BlackthornCity_MoveRelearnersHouse_Text_CantTeachEgg:
-	.string "Hunh? There isn't a single move that\n"
-	.string "I can teach an Egg.$"
+	.string "嗯？蛋没有任何招式\n可以让我教啊。$"
+	.string ""
 
 EggMoveMaster::
 	lock
@@ -252,34 +252,22 @@ EggMoveMaster_9:
 
 
 EggMoveMaster_Text_0:
-	.string "You can teach Egg Moves by\n"
-	.string "pressing Start on the Battle Moves\l"
-	.string "page of the Summary Screen and\l"
-	.string "switching to the Egg Moves page.$"
+	.string "在查看能力画面的\n对战招式页按下START键，\l切换到蛋招式页，\l就能教蛋招式了。$"
 
 EggMoveMaster_Text_1:
-	.string "I'm the Egg Move Master.\p"
-	.string "I know all there is to know about Egg\n"
-	.string "Moves.\p"
-	.string "If you wish, I can teach you all that I \n"
-	.string "know for a one-time fee of ¥88,888.$"
+	.string "我是蛋招式大师。\p有关蛋招式的事，\n我全都知道。\p如果你愿意，只要付一次\n¥88,888，我就把我知道的\l全部教给你。$"
 
 EggMoveMaster_Text_2:
-	.string "What do you say? Do you wish to learn\n"
-	.string "everything about Egg Moves?$"
+	.string "怎么样？你想把蛋招式的\n一切全都学走吗？$"
 
 EggMoveMaster_Text_3:
-	.string "It seems you do not have the money\n"
-	.string "to learn. A pity.$"
+	.string "看来你的钱不够学习。\n真遗憾。$"
 
 EggMoveMaster_Text_4:
-	.string "Thank you for the business!\p"
-	.string "Now let me teach you the grand\n"
-	.string "secrets of the Egg Moves.$"
+	.string "谢谢惠顾！\p现在，让我把蛋招式的\n伟大秘密教给你吧。$"
 
 EggMoveMaster_Text_5:
-	.string "You can now teach Egg Moves to\n"
-	.string "your Pokémon!$"
+	.string "现在你可以教自己的宝可梦\n蛋招式了！$"
 
 EggMoveMaster_Text_6:
-	.string "I see.$"
+	.string "原来如此。$"

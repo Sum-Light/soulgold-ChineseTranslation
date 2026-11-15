@@ -341,244 +341,244 @@ BattleFrontier_BattleFactoryLobby_EventScript_ExitRules::
 	end
 
 BattleFrontier_BattleFactoryLobby_Text_WelcomeForSingleBattle:
-	.string "Where the intelligence of Trainers\n"
-	.string "is put to the test!\p"
-	.string "Welcome to the Battle Factory!\p"
-	.string "I am your guide to the Battle Swap\n"
-	.string "Single Tournament.$"
+	.string "训练家的才智\n将在此接受考验！\p欢迎来到对战工厂！\p我是您的交换式对战\n单打锦标赛向导。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_TakeSinglesChallenge:
-	.string "Would you like to take the Battle\n"
-	.string "Swap Single challenge?$"
+	.string "您要挑战交换式对战\n单打锦标赛吗？$"
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSinglesChallenge:
-	.string "The Battle Swap Single Tournament\n"
-	.string "is a Single Battle competition using\l"
-	.string "only rental Pokémon.\p"
-	.string "First, you will be loaned three\n"
-	.string "Pokémon specifically for this event.\p"
-	.string "Using the supplied rental Pokémon,\n"
-	.string "you must conduct a Single Battle.\p"
-	.string "If you win, you are permitted to trade\n"
-	.string "one of your rental Pokémon.\p"
-	.string "Repeat this cycle of battling and\n"
-	.string "trading--if you win seven times in\l"
-	.string "a row, you will earn Battle Points.\p"
-	.string "If you want to interrupt your\n"
-	.string "challenge, please save the game.\p"
-	.string "If you don't save, you will be\n"
-	.string "disqualified from your challenge.$"
+	.string "交换式对战单打锦标赛\n是一项只使用租借宝可梦的\l单打对战比赛。\p首先，您会领到三只\n专为本活动准备的宝可梦。\p请用领到的租借宝可梦，\n进行单打对战。\p获胜后，您可以交换\n其中一只租借宝可梦。\p重复对战与交换的过程——\n连续获胜七次，\l就能获得对战点数。\p如果想中断挑战，\n请先保存游戏。\p若没有保存，\n您的挑战将被取消资格。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_LookForwardToNextVisit:
-	.string "We look forward to your next visit.$"
+	.string "期待您的再次光临。$"
 
 BattleFrontier_BattleFactoryLobby_Text_WhichLevelMode:
-	.string "Which level do you wish to challenge?\n"
-	.string "Classic or Chaos?$"
+	.string "您想挑战哪个等级？\n经典还是混沌？$"
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_OkayToSaveBeforeChallenge:
-	.string "Before you begin your challenge,\n"
-	.string "I need to save the game. Is that okay?$"
+	.string "在您开始挑战之前，\n我需要保存游戏。可以吗？$"
+	.string ""
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_WillHoldMonsForSafekeeping:
-	.string "Okay, I will hold your Pokémon for\n"
-	.string "safekeeping while you compete.$"
+	.string "好的，在您比赛期间，\n您的宝可梦由我保管。$"
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_StepThisWay:
-	.string "Please step this way.$"
+	.string "请往这边走。$"
 
 BattleFrontier_BattleFactoryLobby_Text_ReturnMonsSaveResults:
-	.string "Thank you for participating!\p"
-	.string "I will return your Pokémon in exchange\n"
-	.string "for our rental Pokémon.\p"
-	.string "I must also save the event results.\n"
-	.string "Please wait.$"
+	.string "感谢您参加！\p我会把租借的宝可梦收回，\n将您的宝可梦还给您。\p我还需要保存活动结果。\n请稍等。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_ReturnMons:
-	.string "I will return your Pokémon in exchange\n"
-	.string "for our rental Pokémon.$"
+	.string "我会把租借的宝可梦收回，\n将您的宝可梦还给您。$"
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_CongratsSevenWins:
-	.string "Congratulations! You've won seven\n"
-	.string "straight Battle Swap matches!$"
+	.string "恭喜！您在交换式对战中\n赢得了七连胜！$"
+	.string ""
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_AwardBattlePointsForStreak:
-	.string "In recognition of your 7-win streak,\n"
-	.string "we award you these Battle Point(s).$"
+	.string "为表彰您的七连胜，\n特此授予您这些对战点数。$"
+	.string ""
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_MaxBattlePoints:
-	.string "Oh, oh, oh!\p"
-	.string "Your Battle Points are maxed.\p"
-	.string "Please come back after using\n"
-	.string "some Battle Points.$"
+	.string "哦，哦，哦！\p您的对战点数已经满了。\p请用掉一些对战点数\n后再来吧。$"
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_WaitingForYouToResume:
-	.string "We've been waiting for you!\p"
-	.string "Before we resume your challenge,\n"
-	.string "I must save the game.$"
+	.string "我们一直在等您！\p在继续您的挑战之前，\n我需要先保存游戏。$"
+	.string ""
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_DidntSaveBeforeQuitting:
-	.string "I'm sorry to say this, but you didn't\n"
-	.string "save before you quit playing last time.\p"
-	.string "As a result, you have been disqualified\n"
-	.string "from your challenge.$"
+	.string "很抱歉，上次您退出游戏前\n没有保存。\p因此，您的挑战\n已被取消资格。$"
+	.string ""
+	.string ""
+	.string ""
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_WellReturnMons:
-	.string "We'll return your personal Pokémon.$"
+	.string "现在把您自己的宝可梦还给您。$"
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_ReceivedPrizeItem:
-	.string "{PLAYER} received the prize\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER}得到了奖品\n{STR_VAR_1}。$"
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_WelcomeForDoubleBattle:
-	.string "Where the intelligence of Trainers\n"
-	.string "is put to the test!\p"
-	.string "Welcome to the Battle Factory!\p"
-	.string "I am your guide to the Battle Swap\n"
-	.string "Double Tournament.$"
+	.string "训练家的才智\n将在此接受考验！\p欢迎来到对战工厂！\p我是您的交换式对战\n双打锦标赛向导。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_TakeDoublesChallenge:
-	.string "Would you like to take the Battle\n"
-	.string "Swap Double challenge?$"
+	.string "您要挑战交换式对战\n双打锦标赛吗？$"
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainDoublesChallenge:
-	.string "The Battle Swap Double Tournament\n"
-	.string "is a Double Battle competition using\l"
-	.string "only rental Pokémon.\p"
-	.string "First, you will be loaned three\n"
-	.string "Pokémon specifically for this event.\p"
-	.string "Using the supplied rental Pokémon,\n"
-	.string "you must conduct a Double Battle.\p"
-	.string "If you win, you are permitted to trade\n"
-	.string "one of your rental Pokémon.\p"
-	.string "Repeat this cycle of battling and\n"
-	.string "trading--if you win seven times in\l"
-	.string "a row, you will earn Battle Points.\p"
-	.string "If you want to interrupt your\n"
-	.string "challenge, please save the game.\p"
-	.string "If you don't save before interrupting,\n"
-	.string "you will be disqualified.$"
+	.string "交换式对战双打锦标赛\n是一项只使用租借宝可梦的\l双打对战比赛。\p首先，您会领到三只\n专为本活动准备的宝可梦。\p请用领到的租借宝可梦，\n进行双打对战。\p获胜后，您可以交换\n其中一只租借宝可梦。\p重复对战与交换的过程——\n连续获胜七次，\l就能获得对战点数。\p如果想中断挑战，\n请先保存游戏。\p中断前若没有保存，\n将被取消资格。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_CongratsForDefeatingHead:
-	.string "Congratulations for defeating\n"
-	.string "the Factory Head and winning\l"
-	.string "seven matches in a row!$"
+	.string "击败工厂头目\n并拿下七连胜，\l恭喜您！$"
+	.string ""
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_AwardBattlePoints:
-	.string "In recognition of your wealth of\n"
-	.string "knowledge and keen intelligence,\l"
-	.string "we award you these Battle Point(s).$"
+	.string "为表彰您渊博的学识\n与敏锐的才智，\l特此授予您这些对战点数。$"
+	.string ""
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_ExchangeMonsAndSave:
-	.string "Let me exchange your Pokémon\n"
-	.string "for our rental Pokémon.\p"
-	.string "I need to save the battle data,\n"
-	.string "so please wait.$"
+	.string "让我把您的宝可梦\n换成租借宝可梦。\p我需要保存对战数据，\n请稍等。$"
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_RecordLastMatch:
-	.string "Would you like to record your last\n"
-	.string "Battle Factory match on your\l"
-	.string "Frontier Pass?$"
+	.string "要把您上一场对战工厂的比赛\n记录到\l开拓通行证上吗？$"
+	.string ""
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_NeedKnowledgeOfMonsMoves:
-	.string "Hi!\n"
-	.string "You, there!\p"
-	.string "Are you thinking that the events here\n"
-	.string "are easy since you don't need to have\l"
-	.string "a raised team of Pokémon?\p"
-	.string "I wouldn't be too sure about winning\n"
-	.string "that easily.\p"
-	.string "If you don't have thorough knowledge\n"
-	.string "about Pokémon and their moves,\l"
-	.string "it will be tough to keep winning.$"
+	.string "嗨！\n那边那位！\p您是不是觉得，这里不用带\n自己练好的队伍，\l活动都很轻松？\p我可不敢说赢起来\n真那么容易。\p要是对宝可梦和招式没有\n充分的了解，\l想一直赢下去可不容易。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_SwappedForWeakMon:
-	.string "I swapped for a weak Pokémon…\n"
-	.string "I thought it was a good kind to have…\p"
-	.string "They wiped the floor with us…$"
+	.string "我换了一只很弱的宝可梦……\n还以为那是个不错的种类……\p结果我们被打得一败涂地……$"
+	.string ""
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_NeedToCheckOpponentsMons:
-	.string "Things haven't been going my way\n"
-	.string "at all.\p"
-	.string "You need to check your opponent's\n"
-	.string "Pokémon during battle to see if\l"
-	.string "they're any good.$"
+	.string "我最近事事都不顺。\p对战时得仔细观察\n对手的宝可梦，\l看看强不强。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_CantFigureOutStaffHints:
-	.string "You know how the staff here give you\n"
-	.string "a few hints about your next opponent?\p"
-	.string "Well, I'm a full-grown man, but I have\n"
-	.string "trouble figuring out their hints.$"
+	.string "您知道吗，这里的工作人员会\n给您一些下一位对手的提示？\p唉，我都这么大个人了，\n可还是琢磨不透那些提示。$"
+	.string ""
+	.string ""
+	.string ""
 
 @ Unused
 BattleFrontier_BattleFactoryLobby_Text_RentalMonsAreVaried:
-	.string "Like, I'm really tough, but I get bored\n"
-	.string "really easily, so I just kept swapping\l"
-	.string "and battling over and over.\p"
-	.string "So anyway, when I kept entering\n"
-	.string "Battle Swap events, I noticed they\l"
-	.string "varied the rental Pokémon.$"
+	.string "我啊，其实挺强的，\n可就是很容易腻，\l于是一直不停地交换和对战。\p后来我一次次参加\n交换式对战活动，\l发现租借的宝可梦每次都不一样。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_RulesAreListed:
-	.string "The Battle Swap rules are listed.$"
+	.string "上面列出了交换式对战的规则。$"
 
 BattleFrontier_BattleFactoryLobby_Text_ReadWhichHeading:
-	.string "Which heading do you want to read?$"
+	.string "您想读哪个标题？$"
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainBasicRules:
-	.string "In a Battle Swap event, you may use\n"
-	.string "only three Pokémon.\p"
-	.string "Whether you are renting or swapping,\n"
-	.string "your team may not have two or more\l"
-	.string "of the same Pokémon.$"
+	.string "在交换式对战活动中，\n只能使用三只宝可梦。\p无论是租借还是交换，\n队伍里都不能有两只以上\l同种的宝可梦。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapPartnerRules:
-	.string "You may swap Pokémon only with\n"
-	.string "the Trainer you have just defeated.\p"
-	.string "You may swap for only those Pokémon\n"
-	.string "used by the beaten Trainer.$"
+	.string "只能和您刚刚击败的训练家\n交换宝可梦。\p能交换的，也只有那位被击败的\n训练家用过的宝可梦。$"
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNumberRules:
-	.string "After every battle you win, you may\n"
-	.string "swap for one of your defeated\l"
-	.string "opponent's Pokémon.\p"
-	.string "You will not be able to swap Pokémon\n"
-	.string "with the seventh Trainer in the event.$"
+	.string "每赢下一场对战，您就可以\n交换一只被击败的\l对手的宝可梦。\p活动中，您不能与第七位\n训练家交换宝可梦。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainSwapNotesRules:
-	.string "There are two key points to be aware\n"
-	.string "of when swapping Pokémon.\p"
-	.string "First, when swapping, you can't check\n"
-	.string "the stats of the Pokémon you are\l"
-	.string "about to receive.\p"
-	.string "Second, the Pokémon on your team\n"
-	.string "are lined up in sequence, depending on\l"
-	.string "the order in which you rented them.\p"
-	.string "This sequence remains unchanged\n"
-	.string "even when swaps are made.$"
+	.string "交换宝可梦时，有两点\n需要特别注意。\p第一，交换时无法查看\n即将收下的宝可梦的\l能力数据。\p第二，队伍中的宝可梦会按照\n您租借它们的顺序\l依次排列。\p即使进行了交换，\n这个顺序也不会改变。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleFrontier_BattleFactoryLobby_Text_ExplainOpenLvRules:
-	.string "In Chaos, the rental Pokémon\n"
-	.string "and the opposing Trainers' Pokémon\l"
-	.string "are all Level 100.$"
+	.string "在混沌模式中，租借的宝可梦\n和对手训练家的宝可梦\l全都是100级。$"
+	.string ""
+	.string ""
 `
 
 script FactoryBpLady {
     lock
 	faceplayer
-	msgbox("Welcome!")
+	msgbox("欢迎光临！")
 	if (flag(FLAG_BADGE08_GET)) {
 		bpmart(FactoryBpMart8Badges)
 	} else {
 		bpmart(FactoryBpMart)
 	}
-	msgbox("Thanks!")
+	msgbox("谢谢惠顾！")
 	release
 	end
 }

@@ -155,72 +155,49 @@ Rinto_TriggerEastGuard_Movement_2:
 	step_end
 
 Rinto_Sign_Text_0:
-	.string "Rinto Village\n"
-	.string "Sunbathed Village$"
+	.string "林都村\n阳光沐浴的村庄$"
 
 Rinto_OldLady_Text_0:
-	.string "Oh more tourists?\p"
-	.string "I hope you don't mind the\n"
-	.string "temperature variations! Ho ho ho!$"
+	.string "哎呀，又来了游客吗？\p希望您不介意\n气温变化这么大！呵呵呵！$"
 
 Rinto_TempleSage_Text_0:
-	.string "I used to be a member of the Team\n"
-	.string "Magma. \p"
-	.string "After leaving I decided that I want\n"
-	.string "to travel the world as a pilgrim.\p"
-	.string "It has been quite refreshing, seeing\n"
-	.string "the beauty of the world.$"
+	.string "我以前是熔岩队的一员。\p离开以后，我决定\n以朝圣者的身份周游世界。\p能见识世界的美好，\n真是让人神清气爽。$"
 
 Rinto_Gible_Text_0:
-	.string "Gible: Gibgib!$"
+	.string "圆陆鲨：嘎嘎！$"
 
 Rinto_Maractus_Text_0:
-	.string "Maractus: Maaaai!$"
+	.string "沙铃仙人掌：沙啊啊伊！$"
 
 Rinto_Piplup_Text_0:
-	.string "...The Piplup appears to have dozed off.$"
+	.string "……波加曼好像睡着了。$"
 
 Rinto_Gentleman_Text_0:
-	.string "Rest let's you restore health and\n"
-	.string "keep going. \p"
-	.string "Do not push yourself without taking \n"
-	.string "the time to heal.$"
+	.string "“睡觉”能让您恢复体力，\n继续上路。\p别硬撑，\n记得抽空好好休养。$"
 
 Rinto_Gentleman_Text_1:
-	.string "Resting after travelling afar is\n"
-	.string "equally important! Do not neglect\l"
-	.string "your health even at a young age!\p"
-	.string "Take this.$"
+	.string "远行之后好好休息，\n同样重要！年轻也别\l不顾身体！\p这个给您。$"
 
 Rinto_EastGuard_Text_0:
-	.string "The sandstorms are too intense right\n"
-	.string "now. I cannot allow you to pass until\l"
-	.string "they calm down.$"
+	.string "现在沙暴太猛了。\n在它平息之前，\l我不能放您过去。$"
 
 Rinto_LittleGirl_Text_0:
-	.string "I saw it! \p"
-	.string "Red and blue!\p"
-	.string "They flew over the town to the east!$"
+	.string "我看见了！\p红的和蓝的！\p它们往东边飞过镇子了！$"
 
 Rinto_Fatman_Text_0:
-	.string "The blazing sun would make this place\n"
-	.string "uninhabitable if not for the small\l"
-	.string "opening to the sea.$"
+	.string "要不是有那一小处\n通向大海的缺口，\l这烈日早把这里烤得没法住人了。$"
 
 Rinto_Dancer_Text_0:
-	.string "Let's go Oricorio, show them our moves!$"
+	.string "上吧，花舞鸟！露一手给他们看！$"
 
 Rinto_DancerOricorio_Text_0:
-	.string "Oriiii!$"
+	.string "哩咿咿！$"
 
 Rinto_Merchant_Text_0:
-	.string "Hey check out my wares!$"
+	.string "嘿，来看看我的货吧！$"
 
 Rinto_Merchant_Text_1:
-	.string "Come back soon!$"
+	.string "欢迎您再来！$"
 
 Rinto_GameboyKid_Text_0:
-	.string "The pyramid in the west has been locked\n"
-	.string "up for a long time. \p"
-	.string "I wonder if the key to opening \n"
-	.string "it even exists anymore?$"
+	.string "西边那座金字塔\n已经锁了很久了。\p我怀疑打开它的钥匙\n现在还存在吗？$"

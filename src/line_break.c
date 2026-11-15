@@ -2,6 +2,7 @@
 #include "line_break.h"
 #include "string_util.h"
 #include "text.h"
+#include "chinese_text.h"
 #include "malloc.h"
 
 static u32 GetWordWidthIgnoringExtCtrlCodes(const u8 *src, u32 length, u8 fontId)
@@ -21,7 +22,15 @@ static u32 GetWordWidthIgnoringExtCtrlCodes(const u8 *src, u32 length, u8 fontId
             }
         }
 
-        width += GetGlyphWidth(src[i], FALSE, fontId);
+        if (i + 1 < length && IsChineseChar(src[i], src[i + 1], fontId, FALSE))
+        {
+            width += GetChineseFontWidthFunc((src[i] << 8) | src[i + 1], fontId);
+            i++;
+        }
+        else if (src[i] == CHAR_EXTRA_SYMBOL && i + 1 < length)
+            width += GetGlyphWidth(0x100 | src[++i], FALSE, fontId);
+        else
+            width += GetGlyphWidth(src[i], FALSE, fontId);
     }
 
     return width;
@@ -91,6 +100,145 @@ void BreakStringNaive(u8 *src, u32 maxWidth, u32 screenLines, u8 fontId, enum To
 }
 
 #define SCROLL_PROMPT_WIDTH 8
+void BreakStringAutomaticSized(u8 *src, u32 capacity, u32 maxWidth, u32 screenLines, u8 fontId, enum ToggleScrollPrompt toggleScrollPrompt)
+{
+    u32 i = 0;
+    u32 out = 0;
+    u32 lineWidth = 0;
+    u32 line = 0;
+    u32 lastSpace = 0;
+    u32 widthAfterSpace = 0;
+    bool32 hasChinese = FALSE;
+    bool32 previousChinese = FALSE;
+    u8 *buffer;
+
+    while (i < capacity && src[i] != EOS)
+    {
+        if (src[i] == EXT_CTRL_CODE_BEGIN)
+        {
+            u32 length;
+            if (i + 1 >= capacity)
+                return;
+            length = 1 + GetExtCtrlCodeLength(src[i + 1]);
+            if (length < 2 || length >= capacity - i)
+                return;
+            i += length;
+        }
+        else if (i + 1 < capacity && IsChineseChar(src[i], src[i + 1], fontId, FALSE))
+        {
+            hasChinese = TRUE;
+            i += 2;
+        }
+        else if (src[i] == CHAR_EXTRA_SYMBOL || src[i] == CHAR_DYNAMIC || src[i] == PLACEHOLDER_BEGIN || src[i] == CHAR_KEYPAD_ICON)
+        {
+            if (i + 2 >= capacity)
+                return;
+            i += 2;
+        }
+        else
+            i++;
+    }
+    if (i >= capacity)
+        return;
+    if (!hasChinese)
+    {
+        BreakStringAutomatic(src, maxWidth, screenLines, fontId, toggleScrollPrompt);
+        return;
+    }
+    buffer = Alloc(capacity);
+    if (buffer == NULL)
+        return;
+
+    for (i = 0; src[i] != EOS;)
+    {
+        u32 length = 1;
+        u32 width = 0;
+        bool32 chinese = FALSE;
+        bool32 control = FALSE;
+        u8 glyph[3] = {src[i], EOS, EOS};
+
+        if (src[i] == EXT_CTRL_CODE_BEGIN)
+        {
+            length = 1 + GetExtCtrlCodeLength(src[i + 1]);
+            control = TRUE;
+            if (src[i + 1] == EXT_CTRL_CODE_FONT)
+                fontId = src[i + 2];
+        }
+        else if (src[i] == CHAR_NEWLINE || src[i] == CHAR_PROMPT_SCROLL || src[i] == CHAR_PROMPT_CLEAR)
+        {
+            lineWidth = 0;
+            lastSpace = 0;
+            previousChinese = FALSE;
+            line = src[i] == CHAR_PROMPT_CLEAR ? 0 : line + 1;
+            control = TRUE;
+        }
+        else
+        {
+            chinese = IsChineseChar(src[i], src[i + 1], fontId, FALSE);
+            if (chinese || src[i] == CHAR_EXTRA_SYMBOL || src[i] == CHAR_DYNAMIC || src[i] == PLACEHOLDER_BEGIN || src[i] == CHAR_KEYPAD_ICON)
+            {
+                length = 2;
+                glyph[1] = src[i + 1];
+                glyph[2] = EOS;
+            }
+            width = GetStringWidth(fontId, glyph, 0);
+            if (lineWidth != 0 && lineWidth + width + (toggleScrollPrompt == SHOW_SCROLL_PROMPT ? SCROLL_PROMPT_WIDTH : 0) > maxWidth)
+            {
+                u8 separator = toggleScrollPrompt == SHOW_SCROLL_PROMPT && line + 1 >= screenLines ? CHAR_PROMPT_SCROLL : CHAR_NEWLINE;
+                if (src[i] == CHAR_SPACE)
+                {
+                    if (out + 2 > capacity)
+                        goto insufficientCapacity;
+                    buffer[out++] = separator;
+                    i++;
+                    line++;
+                    lineWidth = 0;
+                    lastSpace = 0;
+                    previousChinese = FALSE;
+                    continue;
+                }
+                if (chinese || previousChinese)
+                {
+                    if (out + 2 > capacity)
+                        goto insufficientCapacity;
+                    buffer[out++] = separator;
+                    lineWidth = 0;
+                    lastSpace = 0;
+                    line++;
+                }
+                else if (lastSpace != 0)
+                {
+                    buffer[lastSpace - 1] = separator;
+                    lineWidth = widthAfterSpace;
+                    lastSpace = 0;
+                    line++;
+                }
+            }
+        }
+        if (out + length + 1 > capacity)
+            goto insufficientCapacity;
+        for (u32 j = 0; j < length; j++)
+            buffer[out++] = src[i + j];
+        if (!control)
+        {
+            lineWidth += width;
+            if (src[i] == CHAR_SPACE)
+            {
+                lastSpace = out;
+                widthAfterSpace = 0;
+            }
+            else if (lastSpace != 0)
+                widthAfterSpace += width;
+            previousChinese = chinese;
+        }
+        i += length;
+    }
+    buffer[out] = EOS;
+    StringCopy(src, buffer);
+insufficientCapacity:
+    Free(buffer);
+}
+
 void BreakSubStringNaive(u8 *src, u32 maxWidth, u32 screenLines, u8 fontId, enum ToggleScrollPrompt toggleScrollPrompt)
 {
     //  If the string already has line breaks, don't interfere with them
@@ -354,6 +502,8 @@ void BreakSubStringAutomatic(u8 *src, u32 maxWidth, u32 screenLines, u8 fontId, 
                     currWordIndex++;
                 }
             }
+            if (!shouldTryAgain)
+                totalLines = currLineIndex + 1;
         } while (shouldTryAgain);
         //u32 currBadness = GetStringBadness(stringLines, totalLines, maxWidth);
         BuildNewString(stringLines, totalLines, screenLines, src, toggleScrollPrompt);
@@ -366,6 +516,19 @@ void BreakSubStringAutomatic(u8 *src, u32 maxWidth, u32 screenLines, u8 fontId, 
 //  Only allow word splitting on allowed chars
 bool32 IsWordSplittingChar(const u8 *src, u32 index)
 {
+    u32 pos = 0;
+    while (pos < index)
+    {
+        if (src[pos] == EXT_CTRL_CODE_BEGIN)
+            pos += 1 + GetExtCtrlCodeLength(src[pos + 1]);
+        else if (src[pos] == CHAR_EXTRA_SYMBOL || IsChineseChar(src[pos], src[pos + 1], FONT_NORMAL, FALSE))
+            pos += 2;
+        else
+            pos++;
+    }
+    if (pos != index)
+        return FALSE;
+
     switch (src[index])
     {
     case CHAR_SPACE:

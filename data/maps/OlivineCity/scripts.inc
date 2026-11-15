@@ -40,19 +40,19 @@ OlivineCity_EventScript_BaobaCall::
 	end
 
 OlivineCity_Text_Baoba:
-	.string "{PLAYER}!\p"
-	.string "This is Warden Baoba.\p"
-	.string "Sorry to have kept you waiting.\n"
-	.string "We've finally opened the Safari\l"
-	.string "Zone!\p"
-	.string "Do you know where it is?\p"
-	.string "You know the Gate inside the cavern\n"
-	.string "in Cianwood City?\p"
-	.string "If you go through there and walk for\n"
-	.string "a short while, you should soon see\l"
-	.string "the Safari Zone!\p"
-	.string "We're a little out of the way, but\n"
-	.string "please come visit!$"
+	.string "{PLAYER}！\p我是园长巴奥巴。\p抱歉让您久等了。\n我们终于开张了\l狩猎地带！\p您知道它在哪儿吗？\p您知道湛蓝市的洞穴里\n有扇大门吗？\p穿过那里再走一小段，\n就能看到\l狩猎地带了！\p地方虽然有点偏，\n但还请一定来玩！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OlivineCity_EventScript_CityTrigger:: @FLAGHEAP
 	setflag FLAG_HIDE_OLIVINE_CITY_GYM_JASMINE
@@ -164,23 +164,23 @@ OlivineCity_Movement_SilverLeave:
 	step_end
 
 OlivineCity_Text_SilverEncounter:
-	.string "You again?\n"
-	.string "There's no need to be alert.\p"
-	.string "I don't bother with wimps\n"
-	.string "like you.\p"
-	.string "Speaking of weaklings, the\n"
-	.string "city's Gym Leader isn't here,\l"
-	.string "and is supposedly taking care\l"
-	.string "of a sick Pokémon at the\l"
-	.string "Lighthouse.\p"
-	.string "Humph! Boo-hoo!\n"
-	.string "Just let sick Pokémon go!\p"
-	.string "A Pokémon that can't battle\n"
-	.string "is worthless!\p"
-	.string "Why don't you go train at the\n"
-	.string "Lighthouse?\p"
-	.string "Who knows? It may make you a\n"
-	.string "bit of a better Trainer!$"
+	.string "又是你？\n不必那么戒备。\p我懒得理会\n像你这样的弱者。\p说起弱者，\n这里的道馆馆主\l也不在。听说\l那位正待在浅葱灯塔\l照顾生病的宝可梦。\p……哼！哭哭啼啼！\n生病的宝可梦，扔掉算了！\p不能战斗的宝可梦\n根本毫无价值！\p你怎么不去灯塔\n修行修行？\p谁知道呢？说不定\n能让你稍微像样点！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OlivineCity_EventScript_Sailor1::
 	lock
@@ -265,81 +265,81 @@ OlivineCity_EventScript_EonTicketWomanAfter::
 	end
 
 OlivineCity_Text_CafeSign:
-	.string "Olivine Cafe\n"
-	.string "Where Strong Sailors Enjoy\l"
-	.string "Hearty Meals Of Strength$"
+	.string "浅葱咖啡馆\n强壮的水手也爱吃的\l营养大餐就在这儿$"
+	.string ""
+	.string ""
 
 OlivineCity_Text_EonTicketWoman1:
-	.string "My name is Mary!\p"
-	.string "Just kidding, but I love Mary's\n"
-	.string "radio show!$"
+	.string "我叫胡桃！\p开玩笑啦，不过我最爱听\n胡桃的播音节目了！$"
+	.string ""
+	.string ""
 
 OlivineCity_Text_EonTicketWoman2:
-	.string "You must be {PLAYER}!!!\p"
-	.string "Oh my goodness! The champion!\p"
-	.string "I heard about you on Mary's\n"
-	.string "radio show!\p"
-	.string "Here, take this!$"
+	.string "您一定就是{PLAYER}！！！\p天哪！冠军！\p我是从胡桃的播音节目里\n听说您的！\p这个，请您收下！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OlivineCity_Text_EonTicketWoman3:
-	.string "I can't believe I met the\n"
-	.string "champion!!!$"
+	.string "真不敢相信我竟然见到了\n冠军！！！$"
+	.string ""
 
 OlivineCity_Text_Sailor1:
-	.string "Dark roads are dangerous\n"
-	.string "at night.\p"
-	.string "But in the pitch-black of\n"
-	.string "night, the sea is even more\l"
-	.string "treacherous!\p"
-	.string "Without the beacon of the\n"
-	.string "Lighthouse to guide it,\l"
-	.string "no ship can sail.$"
+	.string "夜里的道路很危险。\p可是在黑漆漆的夜里，\n大海要更加\l凶险得多！\p要是没有浅葱灯塔的\n灯光指引，\l任何船只都无法航行。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OlivineCity_Text_YoungsterPokegear:
-	.string "That thing you have--\n"
-	.string "it's a Pokégear, right?\l"
-	.string "Wow, that's cool.$"
+	.string "你身上那个——\n是宝可梦装置吧？\l哇，好酷啊。$"
+	.string ""
+	.string ""
 
 OlivineCity_Text_YoungsterPokedex:
-	.string "Wow, you have a Pokédex!\p"
-	.string "That is just so awesome.$"
+	.string "哇，你有宝可梦图鉴！\p那真是太棒了。$"
+	.string ""
 
 OlivineCity_Text_Sailor2:
-	.string "The league has Jasmine\n"
-	.string "pegged as the sixth\l"
-	.string "strongest Gym Leader!\p"
-	.string "Hah! That's a load of crud.\p"
-	.string "There's no way Pryce could\n"
-	.string "hurt Jasmine's Steel-type\l"
-	.string "Pokémon!\p"
-	.string "Bureaucracy if you ask me.\p"
-	.string "She's something to be feared,\n"
-	.string "that's for sure!$"
+	.string "联盟把阿蜜评为\n第六强的\l道馆馆主！\p哈！纯属胡说八道。\p柳伯怎么可能\n伤得了阿蜜的\l钢属性宝可梦！\p要我说，全是官僚作风。\p她确实是个\n让人畏惧的对手！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OlivineCity_Text_Sign:
-	.string "Olivine City\p"
-	.string "The Port Closest to Foreign Lands$"
+	.string "浅葱市\p距离异国最近的海港$"
+	.string ""
 
 OlivineCity_Text_PortSign:
-	.string "Olivine Port\n"
-	.string "Fast Ship Pier$"
+	.string "浅葱港\n高速船码头$"
+	.string ""
 
 OlivineCity_Text_GymSign:
-	.string "Olivine City Pokémon Gym\n"
-	.string "Leader: Jasmine\p"
-	.string "The Steel-Clad Defense Girl$"
+	.string "浅葱市宝可梦道馆\n馆主：阿蜜\p身披钢铁的防御少女$"
+	.string ""
+	.string ""
 
 OlivineCity_Text_LighthouseSign:
-	.string "Olivine Lighthouse\n"
-	.string "Also known as the Glitter\l"
-	.string "Lighthouse$"
+	.string "浅葱灯塔\n也被称为\l光辉灯塔$"
+	.string ""
+	.string ""
 
 OlivineCity_Text_BattleTowerSign:
-	.string "Battle Tower Ahead\n"
-	.string "Opening Now!$"
+	.string "前方是对战塔\n现已开业！$"
+	.string ""
 
 OlivineCity_Text_Machoke:
-	.string "Machoke: Cho!$"
+	.string "豪力：吼！$"
 
 OlivineCity_Littlegirl_Warf::
 	lock
@@ -405,37 +405,31 @@ OlivineCity_RivalPier::
 
 
 OlivineCity_Littlegirl_Warf_Text_0:
-	.string "I'm feeding the Mareanie every day!\n"
-	.string "They sometimes let me play with them!$"
+	.string "我每天都来喂好坏星！\n它们有时候会让我一起玩！$"
 
 MareanieOlivine_Text_0:
-	.string "Maree!$"
+	.string "好坏！$"
 
 OlivineSouvenirMart_Text_0:
-	.string "Welcome! How may I help you?$"
+	.string "欢迎光临！您需要点什么？$"
 
 OlivineSouvenirMart_Text_1:
-	.string "Come back soon!$"
+	.string "欢迎您再来！$"
 
 OlivineCity_RivalPier_Text_0:
-	.string "Oh. \n"
-	.string "Hey...$"
+	.string "哦。\n嘿……$"
 
 OlivineCity_RivalPier_Text_1:
-	.string "Do you ever think that some people are\n"
-	.string "just not... built for this?$"
+	.string "你有没有想过，有些人\n天生就不适合这种事？$"
 
 OlivineCity_RivalPier_Text_2:
-	.string "Like it comes naturally\n"
-	.string "and for others it's just...$"
+	.string "就好像有些人天生就会，\n而有些人却怎样都……$"
 
 OlivineCity_RivalPier_Text_3:
-	.string "Never mind.\n"
-	.string "It's a dumb question.$"
+	.string "算了。\n我问了个蠢问题。$"
 
 OlivineCity_RivalPier_Text_4:
-	.string "Jasmine's Gym is closed.\n"
-	.string "You're already on it, I assume.$"
+	.string "阿蜜的道馆关门了。\n你已经在办了吧，我想。$"
 
 OlivineCity_RivalPier_Text_5:
-	.string "See you around.$"
+	.string "回头见。$"

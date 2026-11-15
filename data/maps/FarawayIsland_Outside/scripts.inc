@@ -29,11 +29,10 @@ FarawayIslandSailor_2:
 
 
 FarawayIslandSailor_Text_0:
-	.string "Do you want to head back to Olivine?$"
+	.string "要回浅葱市去吗？$"
 
 FarawayIslandSailor_Text_1:
-	.string "Alright, I'll be waiting here.$"
+	.string "好，我在这儿等着。$"
 
 FarawayIslandSailor_Text_2:
-	.string "Aye, right!\n"
-	.string "Then sail home we will!$"
+	.string "好嘞！\n那咱们就开船回家！$"

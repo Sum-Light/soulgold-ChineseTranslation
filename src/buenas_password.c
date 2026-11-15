@@ -22,46 +22,46 @@ enum BuenasPasswordGroup
     BUENA_PASSWORD_COUNT
 };
 
-static const u8 sText_Cyndaquil[] = _("Cyndaquil");
-static const u8 sText_Totodile[] = _("Totodile");
-static const u8 sText_Chikorita[] = _("Chikorita");
-static const u8 sText_Potion[] = _("Potion");
-static const u8 sText_Antidote[] = _("Antidote");
-static const u8 sText_ParlyzHeal[] = _("Parlyz Heal");
-static const u8 sText_PokeBall[] = _("Poke Ball");
-static const u8 sText_GreatBall[] = _("Great Ball");
-static const u8 sText_UltraBall[] = _("Ultra Ball");
-static const u8 sText_Pikachu[] = _("Pikachu");
-static const u8 sText_Rattata[] = _("Rattata");
-static const u8 sText_Geodude[] = _("Geodude");
-static const u8 sText_Hoothoot[] = _("Hoothoot");
-static const u8 sText_Spinarak[] = _("Spinarak");
-static const u8 sText_Drowzee[] = _("Drowzee");
-static const u8 sText_NewBarkTown[] = _("New Bark Town");
-static const u8 sText_CherrygroveCity[] = _("Cherrygrove City");
-static const u8 sText_AzaleaTown[] = _("Azalea Town");
-static const u8 sText_BugPokemon[] = _("Bug Pokemon");
-static const u8 sText_BirdPokemon[] = _("Bird Pokemon");
-static const u8 sText_GrassPokemon[] = _("Grass Pokemon");
-static const u8 sText_Tackle[] = _("Tackle");
-static const u8 sText_Growl[] = _("Growl");
-static const u8 sText_MudSlap[] = _("Mud-Slap");
-static const u8 sText_XAttack[] = _("X Attack");
-static const u8 sText_XDefend[] = _("X Defend");
-static const u8 sText_XSpeed[] = _("X Speed");
-static const u8 sText_PokemonTalk[] = _("Pokemon Talk");
-static const u8 sText_PokemonMusic[] = _("Pokemon Music");
-static const u8 sText_BuenasPassword[] = _("Buena's Password");
+static const u8 sText_Cyndaquil[] = _("火球鼠");
+static const u8 sText_Totodile[] = _("小锯鳄");
+static const u8 sText_Chikorita[] = _("菊草叶");
+static const u8 sText_Potion[] = _("伤药");
+static const u8 sText_Antidote[] = _("解毒药");
+static const u8 sText_ParlyzHeal[] = _("解麻药");
+static const u8 sText_PokeBall[] = _("精灵球");
+static const u8 sText_GreatBall[] = _("超级球");
+static const u8 sText_UltraBall[] = _("高级球");
+static const u8 sText_Pikachu[] = _("皮卡丘");
+static const u8 sText_Rattata[] = _("小拉达");
+static const u8 sText_Geodude[] = _("小拳石");
+static const u8 sText_Hoothoot[] = _("咕咕");
+static const u8 sText_Spinarak[] = _("圆丝蛛");
+static const u8 sText_Drowzee[] = _("催眠貘");
+static const u8 sText_NewBarkTown[] = _("若叶镇");
+static const u8 sText_CherrygroveCity[] = _("吉花市");
+static const u8 sText_AzaleaTown[] = _("桧皮镇");
+static const u8 sText_BugPokemon[] = _("虫属性宝可梦");
+static const u8 sText_BirdPokemon[] = _("鸟宝可梦");
+static const u8 sText_GrassPokemon[] = _("草属性宝可梦");
+static const u8 sText_Tackle[] = _("撞击");
+static const u8 sText_Growl[] = _("叫声");
+static const u8 sText_MudSlap[] = _("掷泥");
+static const u8 sText_XAttack[] = _("力量强化");
+static const u8 sText_XDefend[] = _("防御强化");
+static const u8 sText_XSpeed[] = _("速度强化");
+static const u8 sText_PokemonTalk[] = _("宝可梦讲座");
+static const u8 sText_PokemonMusic[] = _("宝可梦音乐");
+static const u8 sText_BuenasPassword[] = _("葵妍的密语");
 
 static const u8 sText_BuenasPasswordRadio[] = _(
-    "Hello, everyone! It's Buena!\n"
-    "Time for today's password!\p"
-    "Today's password is...\n"
-    "{STR_VAR_1}!\p"
-    "Don't forget it!\p"
-    "I'm looking forward to your\n"
-    "visiting me at the Goldenrod\l"
-    "Radio Tower!{PAUSE_UNTIL_PRESS}");
+    "大家好！我是葵妍！\n现在公布今天的密语！\p今天的密语是……\n{STR_VAR_1}！\p可别忘了哦！\p我很期待大家\n到满金市的广播塔\l来找我哦！{PAUSE_UNTIL_PRESS}"
+    ""
+    ""
+    ""
+    ""
+    ""
+    ""
+    "");
 
 static const u8 *const sBuenasPasswordOptions[][BUENAS_PASSWORD_OPTIONS] =
 {

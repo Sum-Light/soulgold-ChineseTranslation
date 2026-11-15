@@ -107,108 +107,108 @@ Route30_EventScript_Mailbox::
 	end
 
 Route30_Text_Mailbox:
-	.string "Mr.Pokémon's House$"
+	.string "宝可梦爷爷的家$"
 
 Route30_Text_UseTackle:
-	.string "Go, Rattata!\p"
-	.string "Tackle!$"
+	.string "上吧，小拉达！\p撞击！$"
+	.string ""
 
 Route30_Text_ThisIsABigBattle:
-	.string "What? This is a big battle!\n"
-	.string "Leave me alone!$"
+	.string "什么？这可是很重要的决斗！\n别来烦我！$"
+	.string ""
 
 Route30_Text_YoungsterJoey1Seen:
-	.string "I just lost, so I'm trying to\n"
-	.string "find more Pokémon.\p"
-	.string "Wait! You look weak! Come on,\n"
-	.string "let's battle!$"
+	.string "我刚才输了一场，正在找\n更多的宝可梦。\p等等！你看起来很弱！\n来对战吧！$"
+	.string ""
+	.string ""
+	.string ""
 
 Route30_Text_YoungsterJoey1Beaten:
-	.string "Ack! I lost again!\n"
-	.string "Doggone it!$"
+	.string "啊！我又输了！\n真可恶！$"
+	.string ""
 
 Route30_Text_YoungsterJoey1After:
-	.string "Do I have to have more Pokémon\n"
-	.string "in order to battle better?\p"
-	.string "No! I'm sticking with this one\n"
-	.string "no matter what!$"
+	.string "要变得更强，就必须\n多带几只宝可梦吗？\p不！我就坚持用这一只，\n不管发生什么！$"
+	.string ""
+	.string ""
+	.string ""
 
 Route30_Text_YoungsterMikeySeen:
-	.string "You're a Pokémon trainer,\n"
-	.string "right?\p"
-	.string "Then you have to battle!$"
+	.string "你是宝可梦训练家吧？\p那就来对战吧！$"
+	.string ""
+	.string ""
 
 Route30_Text_YoungsterMikeyBeaten:
-	.string "That's strange.\n"
-	.string "I won before.$"
+	.string "真奇怪。\n刚才我明明赢了。$"
+	.string ""
 
 Route30_Text_YoungsterMikeyAfter:
-	.string "Becoming a good trainer is\n"
-	.string "really tough.\p"
-	.string "I'm going to battle other\n"
-	.string "people to get better.$"
+	.string "想成为优秀的训练家，\n真的很不容易。\p我要到处和人\n对战，变得更强。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route30_Text_BugCatcherDonSeen:
-	.string "Instead of a bug Pokémon,\n"
-	.string "I found a trainer!$"
+	.string "没找到虫宝可梦，\n倒是发现了训练家！$"
+	.string ""
 
 Route30_Text_BugCatcherDonBeaten:
-	.string "Argh! You're too strong!$"
+	.string "啊呜！你太强了！$"
 
 Route30_Text_BugCatcherDonAfter:
-	.string "I ran out of Poké Balls while\n"
-	.string "I was catching Pokémon.\p"
-	.string "I should've bought some more…$"
+	.string "抓宝可梦的时候，\n精灵球用完了。\p早知道就多买一些了……$"
+	.string ""
+	.string ""
 
 Route30_Text_YoungsterDirectionsToMrPokemon:
-	.string "Mr. Pokémon's house?\n"
-	.string "It's a bit farther ahead.$"
+	.string "宝可梦爷爷的家？\n就在前面不远。$"
+	.string ""
 
 Route30_Text_YoungsterEveryoneIsBattling:
-	.string "Everyone's having fun\n"
-	.string "battling!\p"
-	.string "You should too!$"
+	.string "大家都在开心地\n对战呢！\p你也去试试吧！$"
+	.string ""
+	.string ""
 
 Route30_Text_CooltrainerF:
-	.string "I'm not a trainer.\p"
-	.string "But if you look one in the\n"
-	.string "eyes, prepare to battle.$"
+	.string "我可不是训练家。\p不过要是和训练家对上眼，\n就要做好对战的准备。$"
+	.string ""
+	.string ""
 
 Route30_Text_Sign:
-	.string "Route 30\p"
-	.string "Violet City - Cherrygrove City$"
+	.string "30号道路\p桔梗市——吉花市$"
+	.string ""
 
 Route30_Text_MrPokemonsHouseDirectionsSign:
-	.string "Mr. Pokémon's House\n"
-	.string "Straight Ahead!$"
+	.string "宝可梦爷爷的家\n就在正前方！$"
+	.string ""
 
 Route30_Text_MrPokemonsHouseSign:
-	.string "Mr. Pokémon's House$"
+	.string "宝可梦爷爷的家$"
 
 Route30_Text_TrainerTips:
-	.string "Trainer Tips\p"
-	.string "No stealing other people's\n"
-	.string "Pokémon!\p"
-	.string "Poké Balls are to be thrown\n"
-	.string "only at wild Pokémon!$"
+	.string "训练家提示\p不可以偷别人的\n宝可梦！\p精灵球只能投向\n野生的宝可梦！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route30_Text_YoungsterJoeyGiveHPUp:
-	.string "I lost again…\n"
-	.string "Gee, you're tough!\p"
-	.string "Oh yeah, I almost forgot that\n"
-	.string "I had to give you this.\p"
-	.string "Use it to get even tougher,\n"
-	.string "Ok?\p"
-	.string "I'm going to get tougher too.$"
+	.string "我又输了……\n你可真强！\p对了，我差点忘了，\n这个要交给你。\p用它变得更强吧，\n好吗？\p我也会变得更强的。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route30_Text_Elm_Disaster:
-	.string "Prof Elm: H-hello? {PLAYER}? It's\n"
-	.string "a disaster!\p"
-	.string "Uh, um, it's just terrible!\p"
-	.string "What should I do? It…\n"
-	.string "Oh, no…\p"
-	.string "Please get back here now!$"
+	.string "空木博士：喂、喂？是{PLAYER}吗？\n出大事了！\p那个，嗯，真是太糟糕了！\p该怎么办才好？它……\n不，糟了……\p总之请你马上回来！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 
 Route30_Text_Poliwag:
-	.string "Poliwag: Wag waag!$"
+	.string "蚊香蝌蚪：呱哇哇！$"

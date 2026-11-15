@@ -119,79 +119,54 @@ MagernaKeyBurglar_8:
 
 
 GoldenrodArcadeLobby_Rocker_Text_0:
-	.string "These machines have to be rigged!\n"
-	.string "There's no way I just lost it all!$"
+	.string "这些机器肯定动了手脚！\n我怎么可能一下子全输光！$"
 
 GoldenrodArcadeLobby_Oldman_Text_0:
-	.string "Hah! Another win! I'll get to buy my\n"
-	.string "daughter something nice this weekend!$"
+	.string "哈哈！又赢了一局！\n这周末能给女儿买点好东西！$"
 
 GoldenrodArcadeLobby_Battlegirl_Text_0:
-	.string "RAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH!\n"
-	.string "JUST ONE MORE WIN AND I'LL STOP!$"
+	.string "啊啊啊啊啊啊啊啊啊啊啊啊！\n再赢一局我就收手！$"
 
 GoldenrodArcadeLobby_Shop_Text_0:
-	.string "Welcome.$"
+	.string "欢迎光临。$"
 
 GoldenrodArcadeLobby_Shop_Text_1:
-	.string "Pleasure doing business.$"
+	.string "欢迎下次再来。$"
 
 GoldenrodArcade_Queue2_Text_0:
-	.string "I can't wait to see the next battle\n"
-	.string "from the front-row seats!$"
+	.string "我都等不及想在前排\n看下一场对战了！$"
 
 GoldenrodArcade_Queue3_Text_0:
-	.string "Hey! No shoving! I was here first!$"
+	.string "喂！别推！是我先来的！$"
 
 GoldenrodArcade_Queue4_Text_0:
-	.string "Is this the Goldenrod Casino? I think\n"
-	.string "I'm a little lost...$"
+	.string "这里是满金游戏城吗？\n我好像有点迷路了……$"
 
 ArcadeLobby_GameMachine_Text_0:
-	.string "Bright flashes and vivid pictures are\n"
-	.string "flashing across the screen. Better not\l"
-	.string "try...$"
+	.string "屏幕上刺眼的光和画面不断\n闪烁，看得人眼花。\l还是别碰了……$"
 
 MagernaKeyBurglar_Text_0:
-	.string "You can use the key to access the top \n"
-	.string "floor of Goldenrod apartment building.$"
+	.string "用这把钥匙就能进入\n"
+	.string "满金天空公寓的顶层。$"
 
 MagernaKeyBurglar_Text_1:
-	.string "As for me, I'm rich beyond belief \n"
-	.string "now! Good bye ice soup, hello gravlax!$"
+	.string "至于我嘛，现在已经\n富得流油啦！\l再见了冰汤，你好腌鲑鱼！$"
 
 MagernaKeyBurglar_Text_2:
-	.string "Hey there champ, may I interest\n"
-	.string "you in some special wares that\l"
-	.string "may or may not have been legally\l"
-	.string "acquired?\p"
-	.string "For example, this key to the top\n"
-	.string "floor apartment residence in the\l"
-	.string "Goldenrod apartment building!\p"
-	.string "Who knows what kind of riches are\n"
-	.string "available for the taking up there?\p"
-	.string "I just need you to do me a tiny\n"
-	.string "favour and it could be yours for\l"
-	.string "the taking.$"
+	.string "嘿，冠军，有没有兴趣看看\n一些来路可能不太合法的\l特别货品？\p比如说，这把能打开\n满金天空公寓顶层住户\l大门的钥匙！\p谁知道上面有多少财宝\n等着人去拿呢？\p你只要帮我一个小忙，\n它说不定就是你的了。$"
 
 MagernaKeyBurglar_Text_3:
-	.string "I need you to win at least 25 battles\n"
-	.string "in the Rocket Arcade battles, my\l"
-	.string "bets are riding on you winning\l"
-	.string "me a fortune!$"
+	.string "我要你在火箭游戏城的\n对战里至少赢下25场，\l我的赌注可全押在你\l身上，就等着你替我\l赢一大笔了！$"
 
 MagernaKeyBurglar_Text_4:
-	.string "You... You did it!\p"
-	.string "I can't thank you enough. Here, it's\n"
-	.string "yours as promised.$"
+	.string "你……你真的做到了！\p太感谢你了。来，这是\n说好的东西。$"
 
 MagernaKeyBurglar_Text_5:
-	.string "{PLAYER} obtained Apartment Key!$"
+	.string "{PLAYER}得到了公寓钥匙！$"
 
 MagernaKeyBurglar_Text_6:
-	.string "You can use it to access the top floor\n"
-	.string "of Goldenrod apartment building.$"
+	.string "用它就能进入满金天空\n"
+	.string "公寓的顶层。$"
 
 MagernaKeyBurglar_Text_7:
-	.string "As for me, it's time to say goodbye\n"
-	.string "to ice soup!$"
+	.string "至于我嘛，也该跟冰汤\n说再见了！$"

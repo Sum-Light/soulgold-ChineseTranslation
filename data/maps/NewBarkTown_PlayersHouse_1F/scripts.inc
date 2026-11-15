@@ -162,55 +162,55 @@ NewBarkTown_PlayersHouse_1F_MovementFaceLeft:
 	step_end
 
 NewBarkTown_PlayersHouse_1F_Text_ElmsLookingForYou:
-	.string "Oh, {PLAYER}…! Our neighbor,\n"
-	.string "Prof. Elm, was looking for you.\p"
-	.string "He said he wanted you to do\n"
-	.string "something for him.\p"
-	.string "Oh! I almost forgot! Your Pokégear\n"
-	.string "is back from the repair shop.\p"
-	.string "Here you go!$"
+	.string "哦，{PLAYER}……！隔壁的\n空木博士正在找你。\p他说有件事想\n请你帮忙。\p哦！差点忘了！你的宝可梦装置\n从修理店拿回来了。\p给你！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 NewBarkTown_PlayersHouse_1F_Text_ObtainedPokeGear:
-	.string "{PLAYER} obtained the Pokégear.$"
+	.string "{PLAYER}得到了宝可梦装置。$"
 
 NewBarkTown_PlayersHouse_1F_Text_ExplainPokeGear:
-	.string "Mom: Phone numbers are stored\n"
-	.string "in memory.\p"
-	.string "Just choose a name you want to call.\p"
-	.string "Gee, isn't that convenient?$"
+	.string "妈妈：电话号码都记在\n里面了。\p想打给谁，选个名字就行。\p哎呀，是不是很方便？$"
+	.string ""
+	.string ""
+	.string ""
 
 NewBarkTown_PlayersHouse_1F_Text_WearTheseRunningShoes:
-	.string "Oh, and don't forget your\n"
-	.string "Running Shoes!$"
+	.string "还有，别忘了你的\n跑步鞋！$"
+	.string ""
 
 NewBarkTown_PlayersHouse_1F_Text_SwitchShoesWithRunningShoes:
-	.string "{PLAYER} switched shoes with the\n"
-	.string "Running Shoes.$"
+	.string "{PLAYER}换上了\n跑步鞋。$"
+	.string ""
 
 NewBarkTown_PlayersHouse_1F_Text_ExplainRunningShoes:
-	.string "Mom: You'll get everywhere faster\n"
-	.string "with them!$"
+	.string "妈妈：穿上它，去哪里\n都能快得多！$"
+	.string ""
 
 NewBarkTown_PlayersHouse_1F_Text_MomHurryUpElmIsWaiting:
-	.string "Mom: Prof. Elm is waiting for you.\p"
-	.string "Hurry up, baby!$"
+	.string "妈妈：空木博士还在等你呢。\p快去吧，宝贝！$"
+	.string ""
 
 NewBarkTown_PlayersHouse_1F_Text_MomsFriend:
-	.string "Hi, {PLAYER}!\p"
-	.string "I'm visiting!\p"
-	.string "Have you heard?\p"
-	.string "My daughter is adamant about\n"
-	.string "becoming Prof. Elm's assistant.\p"
-	.string "She really loves Pokémon!$"
+	.string "嗨，{PLAYER}！\p我是来串门的！\p你听说了吗？\p我女儿一心想要当\n空木博士的助手。\p她真的很喜欢宝可梦！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 NewBarkTown_PlayersHouse_1F_Text_MomLeaving:
-	.string "Mom: Wow, that's a cute Pokémon.\n"
-	.string "Where did you get it?\p"
-	.string "…\p"
-	.string "So, you're leaving on an adventure...\n"
-	.string "That does sound challenging...\p"
-	.string "Just be careful.\p"
-	.string "Pokémon are your friends.\n"
-	.string "You need to work as a team.\p"
-	.string "Now, go on!\n"
-	.string "I'm behind you all the way!$"
+	.string "妈妈：哇，好可爱的宝可梦。\n你从哪里得到的？\p……\p这样啊，你要出去旅行了……\n听起来确实很辛苦……\p一定要小心啊。\p宝可梦是你的朋友。\n你们要齐心协力。\p好了，去吧！\n我会一直支持你的！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""

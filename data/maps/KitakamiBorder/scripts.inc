@@ -14,15 +14,13 @@ KitakamiBorder_HikerMoulder::
 
 
 KitakamiBorder_OldLady_Text_0:
-	.string "I often come here to watch the valley\n"
-	.string "between here and Mt. Silver. \p"
-	.string "It soothes my mind.$"
+	.string "我常来这儿，眺望这边\n和白银山之间的山谷。\p心里就平静下来了。$"
 
 KitakamiBorder_HikerMoulder_Text_0:
-	.string "Are you heading to visit Kitakami?$"
+	.string "你是要去北上村吗？$"
 
 KitakamiBorder_HikerMoulder_Text_1:
-	.string "Enjoy the sights!$"
+	.string "好好欣赏风景吧！$"
 
 KitakamiBorder_HikerMoulder_Text_2:
-	.string "I visit this place almost every month!$"
+	.string "我几乎每个月都会来这儿一趟！$"

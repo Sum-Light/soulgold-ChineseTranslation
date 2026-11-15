@@ -19,17 +19,17 @@ OlivineCity_EventScript_Lass::
 	end
 
 OlivineCity_Text_MartCooltrainerF:
-	.string "Do your Pokémon already know\n"
-	.string "the move for carrying people\l"
-	.string "across water?$"
+	.string "你的宝可梦\n已经学会可以\l载人渡水的招式了吗？$"
+	.string ""
+	.string ""
 
 OlivineCity_Text_MartLass:
-	.string "My Butterfree came from my\n"
-	.string "boyfriend overseas.\p"
-	.string "It carried some Mail from him.\p"
-	.string "Want to know what it says?\p"
-	.string "Let's see... Nope! It's a\n"
-	.string "secret!$"
+	.string "我的巴大蝶是国外的\n男朋友送来的。\p它还带来了他写的邮件。\p想知道上面写了什么吗？\p让我看看……不行！\n这是秘密！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Olivine_Mart2::
 	lock
@@ -53,7 +53,7 @@ Olivine2:
 	.2byte ITEM_NONE
 
 Olivine_Mart2_Text_0:
-	.string "Welcome! How may I help you?$"
+	.string "欢迎光临！有什么能为您效劳的？$"
 
 Olivine_Mart2_Text_1:
-	.string "Come back soon!$"
+	.string "欢迎您随时再来！$"

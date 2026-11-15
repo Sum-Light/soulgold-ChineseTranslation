@@ -42,7 +42,7 @@ static void PrintContestPaintingCaption(u8, u8);
 static void VBlankCB_ContestPainting(void);
 static void _InitContestMonPixels(u8 *spriteGfx, u16 *palette, u16 (*destPixels)[64][64]);
 
-const u8 gContestHallPaintingCaption[] = COMPOUND_STRING("{STR_VAR_1}\n{STR_VAR_2}'s {STR_VAR_3}");
+const u8 gContestHallPaintingCaption[] = COMPOUND_STRING("{STR_VAR_1}\n{STR_VAR_2}的{STR_VAR_3}");
 
 static const u16 sPictureFramePalettes[]          = INCBIN_U16("graphics/picture_frame/bg.gbapal");
 static const u32 sPictureFrameTiles_Cool[]        = INCBIN_U32("graphics/picture_frame/cool.4bpp.smol");
@@ -60,20 +60,20 @@ static const u32 sPictureFrameTilemap_HallLobby[] = INCBIN_U32("graphics/picture
 
 static const u8 *const sContestCategoryNames_Unused[] =
 {
-    [CONTEST_CATEGORY_COOL]   = COMPOUND_STRING("COOLNESS"),
-    [CONTEST_CATEGORY_BEAUTY] = COMPOUND_STRING("BEAUTY"),
-    [CONTEST_CATEGORY_CUTE]   = COMPOUND_STRING("CUTENESS"),
-    [CONTEST_CATEGORY_SMART]  = COMPOUND_STRING("SMARTNESS"),
-    [CONTEST_CATEGORY_TOUGH]  = COMPOUND_STRING("TOUGHNESS"),
+    [CONTEST_CATEGORY_COOL]   = COMPOUND_STRING("帅气"),
+    [CONTEST_CATEGORY_BEAUTY] = COMPOUND_STRING("美丽"),
+    [CONTEST_CATEGORY_CUTE]   = COMPOUND_STRING("可爱"),
+    [CONTEST_CATEGORY_SMART]  = COMPOUND_STRING("聪明"),
+    [CONTEST_CATEGORY_TOUGH]  = COMPOUND_STRING("强壮"),
 };
 
 static const u8 *const sContestRankNames[] =
 {
-    [CONTEST_RANK_NORMAL] = COMPOUND_STRING("NORMAL RANK"),
-    [CONTEST_RANK_SUPER]  = COMPOUND_STRING("SUPER RANK"),
-    [CONTEST_RANK_HYPER]  = COMPOUND_STRING("HYPER RANK"),
-    [CONTEST_RANK_MASTER] = COMPOUND_STRING("MASTER RANK"),
-    [CONTEST_RANK_LINK]   = COMPOUND_STRING("LINK"),
+    [CONTEST_RANK_NORMAL] = COMPOUND_STRING("普通级"),
+    [CONTEST_RANK_SUPER]  = COMPOUND_STRING("高手级"),
+    [CONTEST_RANK_HYPER]  = COMPOUND_STRING("究极级"),
+    [CONTEST_RANK_MASTER] = COMPOUND_STRING("大师级"),
+    [CONTEST_RANK_LINK]   = COMPOUND_STRING("连接"),
 };
 
 static const struct BgTemplate sBgTemplates[] =
@@ -102,21 +102,21 @@ static const struct WindowTemplate sWindowTemplate =
 
 static const u8 *const sMuseumCaptions[NUM_PAINTING_CAPTIONS * CONTEST_CATEGORIES_COUNT] =
 {
-    [0 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_COOL]   = COMPOUND_STRING("Nonstop supercool--\nthe inestimable {STR_VAR_1}"),
-    [1 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_COOL]   = COMPOUND_STRING("Hey, there!\nThe good-looking POKéMON {STR_VAR_1}"),
-    [2 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_COOL]   = COMPOUND_STRING("The marvelous, wonderful, and\nvery great {STR_VAR_1}"),
-    [0 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_BEAUTY] = COMPOUND_STRING("This century's last Venus--\nthe beautiful {STR_VAR_1}"),
-    [1 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_BEAUTY] = COMPOUND_STRING("{STR_VAR_1}'s dazzling,\nglittering smile"),
-    [2 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_BEAUTY] = COMPOUND_STRING("POKéMON CENTER's super idol--\nthe incomparable {STR_VAR_1}"),
-    [0 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_CUTE]   = COMPOUND_STRING("The lovely and sweet {STR_VAR_1}"),
-    [1 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_CUTE]   = COMPOUND_STRING("The pretty {STR_VAR_1}'s\nwinning portrait"),
-    [2 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_CUTE]   = COMPOUND_STRING("Give us a wink!\nThe cutie POKéMON {STR_VAR_1}"),
-    [0 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_SMART]  = COMPOUND_STRING("The smartness maestro--\nthe wise POKéMON {STR_VAR_1}"),
-    [1 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_SMART]  = COMPOUND_STRING("{STR_VAR_1}--the one chosen\nabove all POKéMON"),
-    [2 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_SMART]  = COMPOUND_STRING("The excellent {STR_VAR_1}'s\nmoment of elegance"),
-    [0 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_TOUGH]  = COMPOUND_STRING("The powerfully muscular\nspeedster {STR_VAR_1}"),
-    [1 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_TOUGH]  = COMPOUND_STRING("The strong, stronger, and\nstrongest {STR_VAR_1}"),
-    [2 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_TOUGH]  = COMPOUND_STRING("The mighty tough\nhyper POKéMON {STR_VAR_1}"),
+    [0 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_COOL]   = COMPOUND_STRING("帅气永不停歇—\n无与伦比的{STR_VAR_1}"),
+    [1 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_COOL]   = COMPOUND_STRING("嘿，看这里！\n帅气的宝可梦{STR_VAR_1}"),
+    [2 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_COOL]   = COMPOUND_STRING("出色、精彩，\n而且非常了不起的{STR_VAR_1}"),
+    [0 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_BEAUTY] = COMPOUND_STRING("本世纪最后的维纳斯—\n美丽的{STR_VAR_1}"),
+    [1 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_BEAUTY] = COMPOUND_STRING("{STR_VAR_1}那耀眼夺目、\n闪闪发光的笑容"),
+    [2 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_BEAUTY] = COMPOUND_STRING("宝可梦中心的超级偶像—\n举世无双的{STR_VAR_1}"),
+    [0 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_CUTE]   = COMPOUND_STRING("可爱又甜美的{STR_VAR_1}"),
+    [1 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_CUTE]   = COMPOUND_STRING("漂亮的{STR_VAR_1}的\n获奖肖像"),
+    [2 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_CUTE]   = COMPOUND_STRING("来，眨个眼！\n小可爱宝可梦{STR_VAR_1}"),
+    [0 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_SMART]  = COMPOUND_STRING("聪明才智的大师—\n睿智的宝可梦{STR_VAR_1}"),
+    [1 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_SMART]  = COMPOUND_STRING("{STR_VAR_1}—从所有\n宝可梦中脱颖而出的那一只"),
+    [2 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_SMART]  = COMPOUND_STRING("优秀的{STR_VAR_1}\n优雅的一瞬间"),
+    [0 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_TOUGH]  = COMPOUND_STRING("肌肉强健有力的\n飞毛腿{STR_VAR_1}"),
+    [1 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_TOUGH]  = COMPOUND_STRING("强、更强、\n最强的{STR_VAR_1}"),
+    [2 + NUM_PAINTING_CAPTIONS * CONTEST_CATEGORY_TOUGH]  = COMPOUND_STRING("强壮无比的\n超级宝可梦{STR_VAR_1}"),
 };
 
 static const struct OamData sContestPaintingMonOamData =

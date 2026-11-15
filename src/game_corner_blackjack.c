@@ -298,15 +298,15 @@ static void PrintInitMessage(void);
 static void AButton(void);
 
 //BlackJack
-static const u8 sText_Bust[] = _("BUST!");
-static const u8 sText_YouLose[] = _("You lose!");
-static const u8 sText_YouWin[] = _("You win!");
-static const u8 sText_Push[] = _("PUSH!");
-static const u8 sText_BlackJack[] = _("BLACKJACK!");
-static const u8 sText_Betting[] = _("Your current\nbet is ¥{STR_VAR_1}.");
-static const u8 sText_NoBetting[] = _("Your current\nbet is ¥0.");
-static const u8 sText_NoCoins[] = _("You do not have\nenough Coins.");
-static const u8 sHelpBarHitStandText[] = _("{DPAD_UPDOWN}PICK  {A_BUTTON}SELECT  {B_BUTTON}EXIT");
+static const u8 sText_Bust[] = _("爆牌！");
+static const u8 sText_YouLose[] = _("你输了！");
+static const u8 sText_YouWin[] = _("你赢了！");
+static const u8 sText_Push[] = _("平局！");
+static const u8 sText_BlackJack[] = _("黑杰克！");
+static const u8 sText_Betting[] = _("当前的赌注是\n¥{STR_VAR_1}。");
+static const u8 sText_NoBetting[] = _("当前的赌注是\n¥0。");
+static const u8 sText_NoCoins[] = _("你的代币\n不够。");
+static const u8 sHelpBarHitStandText[] = _("{DPAD_UPDOWN}选择  {A_BUTTON}确定  {B_BUTTON}退出");
 
 static const u32 sBJBackgroundGfx[] = INCBIN_U32("graphics/blackjack/background_tiles.4bpp.smol");
 static const u8 sBJBackgroundTilemap[] = INCBIN_U8("graphics/blackjack/background_tiles.bin.smolTM");

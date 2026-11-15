@@ -31,26 +31,26 @@ CeladonDeptStore5_EventScript_Falkner::
 	end
 
 CeladonDeptStore5_Text_Falkner:
-	.string "{PLAYER}. I didn't expect to see\n"
-	.string "you here.\p"
-	.string "I'm picking up gear for my\n"
-	.string "bird Pokémon.\p"
-	.string "If you want to face me again, I'll\n"
-	.string "be at the Dojo in Saffron City.$"
+	.string "{PLAYER}。没想到会在这里\n见到你。\p我来给我的鸟宝可梦\n买些装备。\p要是你还想和我对战，\n就到金黄市的格斗道场来吧。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CeladonDeptStore5F_Text_Gentleman:
-	.string "I want to buy some items that\n"
-	.string "raise Pokémon stats, but I don't\l"
-	.string "have enough money…$"
+	.string "我想买些能提升宝可梦能力的\n道具，可我的钱\l不够……$"
+	.string ""
+	.string ""
 
 CeladonDeptStore5F_Text_Sailor:
-	.string "I want PP Up, so I can raise the\n"
-	.string "PP of moves. But you can't buy it…$"
+	.string "我想要PP提升剂，好提升\n招式的PP。可是买不到……$"
+	.string ""
 
 CeladonDeptStore5F_Text_Teacher:
-	.string "Using items on them makes Pokémon\n"
-	.string "happy.\p"
-	.string "They hate certain items, though…$"
+	.string "给宝可梦用道具，\n它们会很高兴。\p不过有些道具它们很讨厌……$"
+	.string ""
+	.string ""
 
 CeladonDeptStore5F_Text_Directory:
-	.string "5F: Drug Store$"
+	.string "5楼　药店$"

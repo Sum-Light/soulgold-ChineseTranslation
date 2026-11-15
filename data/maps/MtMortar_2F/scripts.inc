@@ -13,15 +13,15 @@ MtMortar_2F_EventScript_Nerd::
 	end
 
 MtMortar_2F_Text_SupernerdHughSeen::
-	.string "Yo! Markus!$"
+	.string "哟！学霖！$"
 
 MtMortar_2F_Text_SupernerdHughBeaten:
-	.string "Sorry, my mistake.\n"
-	.string "I misjudged you.$"
+	.string "抱歉，是我搞错了。\n认错人了。$"
+	.string ""
 
 MtMortar_2F_Text_SupernerdHughAfter:
-	.string "I'm investigating Mt.Mortar,\n"
-	.string "but my pal's gone Awol.\p"
-	.string "Have you seen a trainer who\n"
-	.string "has a Slowpoke that can use\l"
-	.string "Strength?$"
+	.string "我是来擂钵山调查的，\n可我的伙伴不见了。\p你有没有见过一个，带着\n会怪力的呆呆兽\l的训练家？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""

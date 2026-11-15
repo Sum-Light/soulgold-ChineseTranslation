@@ -401,8 +401,8 @@ RuinsOfAlph_PuzzleAndRewardChambers_EventScript_RewardGotten::
 	end
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Reward:
-	.string "The chamber reacts!\n"
-	.string "The way is open.$"
+	.string "石室产生了反应！\n道路打开了。$"
+	.string ""
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_EscapeWall:
 	.string "The wall reads:\n"
@@ -421,61 +421,61 @@ RuinsOfAlph_PuzzleAndRewardChambers_Text_WaterWall:
 	.string "WATER$"
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_UsedEscapeRope:
-	.string "{PLAYER} used the\n"
-	.string "Escape Rope.$"
+	.string "{PLAYER}使用了\n离洞绳。$"
+	.string ""
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_UsedWaterStone:
-	.string "{PLAYER} used the\n"
-	.string "Water Stone.$"
+	.string "{PLAYER}使用了\n水之石。$"
+	.string ""
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_UsedFlash:
-	.string "{STR_VAR_1} used Flash!$"
+	.string "{STR_VAR_1}使用了闪光！$"
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Solved:
-	.string "The way is open.$"
+	.string "道路打开了。$"
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Receptionist1:
-	.string "Welcome to this chamber.\p"
-	.string "There are sliding panels that depict\n"
-	.string "a Pokémon drawn by the ancients.\p"
-	.string "Slide the panels around to form\n"
-	.string "the picture.\p"
-	.string "To the left is a description of\n"
-	.string "the Pokémon.\p"
-	.string "Scientists in the lab are examin-\n"
-	.string "-ing some newly found patterns.$"
+	.string "欢迎来到这间石室。\p墙上有古人描绘宝可梦的\n滑动石板。\p滑动石板，把图画\n拼合完整吧。\p左边是这只宝可梦的\n说明。\p研究所的研究员们正在调查\n新发现的几种花纹。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Receptionist2:
-	.string "A hole just opened up in the floor!\n"
-	.string "I'd better tell the others.$"
+	.string "地板上刚刚开了一个洞！\n我得去告诉大家。$"
+	.string ""
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Receptionist3:
-	.string "Now a hole in the wall too?!\n"
-	.string "This is getting spooky.$"
+	.string "这次连墙上也开了一个洞？！\n越来越吓人了。$"
+	.string ""
 
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Kabuto:
-	.string "A Pokémon that hid on the sea floor.\n"
-	.string "Eyes on its back scanned the area.$"
+	.string "藏身于海底的宝可梦。\n背上的眼睛扫视着四周。$"
+	.string ""
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_UnownText:
-	.string "It's Unown text!$"
+	.string "是未知图腾的文字！$"
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Statue:
-	.string "It's a replica of an ancient\n"
-	.string "Pokémon.$"
+	.string "这是古代宝可梦的\n仿制品。$"
+	.string ""
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Aerodactyl:
-	.string "This flying Pokémon attacked its\n"
-	.string "prey with saw-like fangs.$"
+	.string "这种飞行宝可梦用锯齿般的\n獠牙袭击猎物。$"
+	.string ""
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Omanyte:
-	.string "This Pokémon drifted in the sea\n"
-	.string "by twisting its ten tentacles.$"
+	.string "这只宝可梦扭动十条触手，\n在海中漂游。$"
+	.string ""
 
 RuinsOfAlph_PuzzleAndRewardChambers_Text_Hooh:
-	.string "A Pokémon that flew gracefully on\n"
-	.string "rainbow-colored wings.$"
+	.string "展开虹色的翅膀，\n优雅地飞翔的宝可梦。$"
+	.string ""
 
 @==========================================================================================================================================================
 @ Hooh

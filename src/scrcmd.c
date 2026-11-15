@@ -3472,11 +3472,11 @@ bool8 ScrCmd_givenamedmon(struct ScriptContext *ctx)
     u8 heldItem[2];
     u8 mailIndex = 0;
 
-    static const u8 sKenyaNickname[] = _("KENYA");
-    static const u8 sKenyaOtName[]   = _("RUDY");
-    static const u8 sShuckieNickname[] = _("SHUCKIE");
-    static const u8 sShuckieOtName[]   = _("KIRK");
-    static const u8 sEeveeOtName[]     = _("BILL");
+    static const u8 sKenyaNickname[] = _("信使");
+    static const u8 sKenyaOtName[]   = _("近田");
+    static const u8 sShuckieNickname[] = _("尼西");
+    static const u8 sShuckieOtName[]   = _("青次");
+    static const u8 sEeveeOtName[]     = _("正辉");
 
     // Use actual Easy Chat word constants
     static const u16 sKenyaMailWords[MAIL_WORDS_COUNT] = {
@@ -3600,8 +3600,8 @@ bool8 ScrCmd_removenamedmon(struct ScriptContext *ctx)
     u16 giftId = ScriptReadHalfword(ctx);
     const u8 *targetNickname;
 
-    static const u8 sKenyaNickname[]   = _("KENYA");
-    static const u8 sShuckieNickname[] = _("SHUCKIE");
+    static const u8 sKenyaNickname[]   = _("信使");
+    static const u8 sShuckieNickname[] = _("尼西");
 
     switch (giftId)
     {

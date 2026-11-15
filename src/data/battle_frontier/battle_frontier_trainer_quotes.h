@@ -3,355 +3,355 @@
 static const struct FacilityTrainerQuote sYouthQuotes[] =
 {
     {
-        .before = COMPOUND_STRING("Snicker snicker..."),
-        .win = COMPOUND_STRING("Snicker snicker!"),
-        .lose = COMPOUND_STRING("Sniffle sniffle..."),
+        .before = COMPOUND_STRING("嘻嘻嘻……"),
+        .win = COMPOUND_STRING("嘻嘻嘻！"),
+        .lose = COMPOUND_STRING("呜呜呜……"),
     },
     {
-        .before = COMPOUND_STRING("I am the hero!\nI refuse to lose!"),
-        .win = COMPOUND_STRING("I AM the hero!\nI beat a villain!"),
-        .lose = COMPOUND_STRING("A hero never loses.\nA hero never dies."),
+        .before = COMPOUND_STRING("我就是英雄！\n我绝对不会输！"),
+        .win = COMPOUND_STRING("我果然是英雄！\n我打败坏蛋啦！"),
+        .lose = COMPOUND_STRING("英雄是不会输的。\n英雄是不会死的。"),
     },
     {
-        .before = COMPOUND_STRING("All right! Let's go!"),
-        .win = COMPOUND_STRING("Yahoo! Ya-hoooooo!\nI did it! I won again!"),
-        .lose = COMPOUND_STRING("No! I lost!"),
+        .before = COMPOUND_STRING("好嘞！上吧！"),
+        .win = COMPOUND_STRING("呀吼！呀—吼！\n成功啦！我又赢啦！"),
+        .lose = COMPOUND_STRING("不！我输了！"),
     },
     {
-        .before = COMPOUND_STRING("Ma! Pa! Watch me!\nI'll do my best!"),
-        .win = COMPOUND_STRING("Ma! Pa! Were you watching?\nI was so strong!"),
-        .lose = COMPOUND_STRING("Ma, Pa... I lost...\nGet revenge for me..."),
+        .before = COMPOUND_STRING("妈妈！爸爸！看着我！\n我会加油的！"),
+        .win = COMPOUND_STRING("妈妈！爸爸！你们看到了吗？\n我可厉害了！"),
+        .lose = COMPOUND_STRING("妈妈、爸爸……我输了……\n帮我报仇啊……"),
     },
 };
 
 static const struct FacilityTrainerQuote sSchoolQuotes[] =
 {
     {
-        .before = COMPOUND_STRING("Grumble, grumble..."),
-        .win = COMPOUND_STRING("Grumble, grumble...\nHuh? Did I win?"),
-        .lose = COMPOUND_STRING("Grumble, grumble...\nOh? Was that it?"),
+        .before = COMPOUND_STRING("嘀嘀咕咕……"),
+        .win = COMPOUND_STRING("嘀嘀咕咕……\n咦？我赢了吗？"),
+        .lose = COMPOUND_STRING("嘀嘀咕咕……\n哦？这就结束了？"),
     },
     {
-        .before = COMPOUND_STRING("...Heehee. I'm confident in\nmy calculations and analysis."),
-        .win = COMPOUND_STRING("Heheh. Exactly as I planned...\nThere's no way I would lose."),
-        .lose = COMPOUND_STRING("Ohhhh... Perhaps calculation\nis no match for chance..."),
+        .before = COMPOUND_STRING("……嘿嘿。我对自己的\n计算和分析很有信心。"),
+        .win = COMPOUND_STRING("嘿嘿。完全在我的计划之中……\n我是不可能输的。"),
+        .lose = COMPOUND_STRING("噢……也许计算\n终究敌不过偶然……"),
     },
     {
-        .before = COMPOUND_STRING("I came here to goof off.\nI don't want to cram..."),
-        .win = COMPOUND_STRING("I can't lose now...\nI don't want to study!"),
-        .lose = COMPOUND_STRING("No! I don't want to go home!\nI don't want to study!"),
+        .before = COMPOUND_STRING("我是来这里偷懒的。\n我不想死读书……"),
+        .win = COMPOUND_STRING("现在可不能输……\n我不想学习！"),
+        .lose = COMPOUND_STRING("不要！我不想回家！\n我不想学习！"),
     },
     {
-        .before = COMPOUND_STRING("Mwahahahaha... Please lend me\na hand for my experiment."),
-        .win = COMPOUND_STRING("Mwahahaha... Yes, I did it!\nThe experiment was a success."),
-        .lose = COMPOUND_STRING("Ho-hum. This is not good...\nThe experiment was a failure."),
+        .before = COMPOUND_STRING("呜哇哈哈哈哈……\n请协助我做个实验吧。"),
+        .win = COMPOUND_STRING("呜哇哈哈哈……成了！\n实验成功了。"),
+        .lose = COMPOUND_STRING("唉。这可不妙……\n实验失败了。"),
     },
 };
 
 static const struct FacilityTrainerQuote sWealthQuotes[] =
 {
     {
-        .before = COMPOUND_STRING("Ahahaha!"),
-        .win = COMPOUND_STRING("Ahahaha!!!"),
-        .lose = COMPOUND_STRING("Ahaha-argh..."),
+        .before = COMPOUND_STRING("啊哈哈哈！"),
+        .win = COMPOUND_STRING("啊哈哈哈！！！"),
+        .lose = COMPOUND_STRING("啊哈哈—呃啊……"),
     },
     {
-        .before = COMPOUND_STRING("Chosen Trainers will choose\nchosen Pokémon."),
-        .win = COMPOUND_STRING("So it seems victory\nhas chosen me."),
-        .lose = COMPOUND_STRING("It seems I have been\nchosen to lose..."),
+        .before = COMPOUND_STRING("被选中的训练家，\n会选择被选中的宝可梦。"),
+        .win = COMPOUND_STRING("看来胜利\n选择了我。"),
+        .lose = COMPOUND_STRING("看来我是被选中\n来输的那一个……"),
     },
     {
-        .before = COMPOUND_STRING("Yes! I'm a Rich Boy!"),
-        .win = COMPOUND_STRING("Good-bye! You've been beaten\nby a Rich Boy!"),
-        .lose = COMPOUND_STRING("Thank you! Merci bien!\nYou've beat a Rich Boy!"),
+        .before = COMPOUND_STRING("没错！我就是富家少爷！"),
+        .win = COMPOUND_STRING("再见！你被富家少爷\n打败啦！"),
+        .lose = COMPOUND_STRING("谢谢！Merci bien！\n你打败了富家少爷！"),
     },
     {
-        .before = COMPOUND_STRING("Let me be brief.\nYou cannot win against me."),
-        .win = COMPOUND_STRING("You cannot win,\nbecause you are very weak."),
-        .lose = COMPOUND_STRING("Hummmm... You are good.\nYou are really pretty good."),
+        .before = COMPOUND_STRING("我就长话短说吧。\n你赢不了我。"),
+        .win = COMPOUND_STRING("你赢不了，\n因为你太弱了。"),
+        .lose = COMPOUND_STRING("唔……你很不错。\n你真的相当不错。"),
     },
 };
 
 static const struct FacilityTrainerQuote sBeautyQuotes[] =
 {
     {
-        .before = COMPOUND_STRING("My last ever battle...\nLet's view this match that way."),
-        .win = COMPOUND_STRING("We will meet again someday...\nHeh. If only that were true..."),
-        .lose = COMPOUND_STRING("It's been fun... Let's have\nanother last battle someday."),
+        .before = COMPOUND_STRING("我人生中最后一场对战……\n就把这场比赛当成那样吧。"),
+        .win = COMPOUND_STRING("总有一天我们会再见的……\n呵。要是真能那样就好了……"),
+        .lose = COMPOUND_STRING("真开心……改天再来一场\n“最后的对战”吧。"),
     },
     {
-        .before = COMPOUND_STRING("Isn't that nice...\nYou're still a kid..."),
-        .win = COMPOUND_STRING("I've become a cynical adult,\nso I even cheat in battles."),
-        .lose = COMPOUND_STRING("I was so innocent back then...\nWhere has that girl gone?"),
+        .before = COMPOUND_STRING("真好啊……\n你还是个孩子……"),
+        .win = COMPOUND_STRING("我已经成了世故的大人，\n所以连对战都会耍诈。"),
+        .lose = COMPOUND_STRING("那时候的我多么纯真啊……\n那个女孩去哪儿了呢？"),
     },
     {
-        .before = COMPOUND_STRING("Ready for the big game?\nGot your cap on straight?"),
-        .win = COMPOUND_STRING("My oh my! My Pokémon\nknocked it out of the park!"),
-        .lose = COMPOUND_STRING("Hey, another out. So what?\nWe'll come back!"),
+        .before = COMPOUND_STRING("准备好迎接大赛了吗？\n帽子戴正了没有？"),
+        .win = COMPOUND_STRING("哎呀呀！我的宝可梦\n打出了一记全垒打！"),
+        .lose = COMPOUND_STRING("嘿，又出局了。那又怎样？\n我们会扳回来的！"),
     },
     {
-        .before = COMPOUND_STRING("Hey there, Trainer! Do you\nthink I'm a grown-up?"),
-        .win = COMPOUND_STRING("Tee hee... I won because\nI'm a grown-up!"),
-        .lose = COMPOUND_STRING("Tee hee! My mom did my makeup!\nI'm actually only seven!"),
+        .before = COMPOUND_STRING("嘿，训练家！\n你觉得我是大人吗？"),
+        .win = COMPOUND_STRING("嘻嘻……我赢了，\n因为我是大人嘛！"),
+        .lose = COMPOUND_STRING("嘻嘻！妆是妈妈帮我化的！\n其实我才7岁！"),
     },
 };
 
 static const struct FacilityTrainerQuote sVeteranQuotes[] =
 {
     {
-        .before = COMPOUND_STRING("Oh... Trainer... Isn't it\ntime...for a battle?"),
-        .win = COMPOUND_STRING("Oh... Trainer... Isn't it\ntime...for a battle?"),
-        .lose = COMPOUND_STRING("Oh... Trainer... Isn't it\ntime...for a battle?"),
+        .before = COMPOUND_STRING("哦……训练家……是不是\n该……对战了？"),
+        .win = COMPOUND_STRING("哦……训练家……是不是\n该……对战了？"),
+        .lose = COMPOUND_STRING("哦……训练家……是不是\n该……对战了？"),
     },
     {
-        .before = COMPOUND_STRING("A true Gentleman's heart\nnever wavers in battle."),
-        .win = COMPOUND_STRING("Ha... Snicker snicker...\nI can't...stop laughing..."),
-        .lose = COMPOUND_STRING("Ooh... Ooh...\nI can't...stop crying..."),
+        .before = COMPOUND_STRING("真正的绅士，内心\n在对战中绝不动摇。"),
+        .win = COMPOUND_STRING("哈……嘻嘻嘻……\n我……笑得停不下来……"),
+        .lose = COMPOUND_STRING("呜……呜……\n我……哭得停不下来……"),
     },
     {
-        .before = COMPOUND_STRING("I will evaluate your ability."),
-        .win = COMPOUND_STRING("As a Trainer, you are at\nthe level of a Preschooler."),
-        .lose = COMPOUND_STRING("As a Trainer, you are at\nthe level of a Poké Fan."),
+        .before = COMPOUND_STRING("让我来评估一下你的实力。"),
+        .win = COMPOUND_STRING("作为训练家，你的水平\n相当于幼儿园小朋友。"),
+        .lose = COMPOUND_STRING("作为训练家，你的水平\n相当于宝可梦发烧友。"),
     },
     {
-        .before = COMPOUND_STRING("Let me be brief.\nYou cannot win against me."),
-        .win = COMPOUND_STRING("You cannot win,\nbecause you are very weak."),
-        .lose = COMPOUND_STRING("Hummmm... You are good.\nYou are really pretty good."),
+        .before = COMPOUND_STRING("我就长话短说吧。\n你赢不了我。"),
+        .win = COMPOUND_STRING("你赢不了，\n因为你太弱了。"),
+        .lose = COMPOUND_STRING("唔……你很不错。\n你真的相当不错。"),
     },
 };
 
 static const struct FacilityTrainerQuote sAceQuotes[] =
 {
     {
-        .before = COMPOUND_STRING("Muwahaha! My legend of\ninvincibility begins with you!"),
-        .win = COMPOUND_STRING("I'm completely invincible!\nMy legend begins here!"),
-        .lose = COMPOUND_STRING("Ha... Are you telling me that\nyour legend just started?"),
+        .before = COMPOUND_STRING("呜哇哈哈！我的不败传说\n就从你开始！"),
+        .win = COMPOUND_STRING("我完全是无敌的！\n我的传说就从这里开始！"),
+        .lose = COMPOUND_STRING("哈……你是想说，\n你的传说才刚刚开始？"),
     },
     {
-        .before = COMPOUND_STRING("Halt at once! You there!\nLet us cross lances!"),
-        .win = COMPOUND_STRING("Trainer, you are at my mercy!"),
-        .lose = COMPOUND_STRING("Trainer, I yield!\nPlease spare me!"),
+        .before = COMPOUND_STRING("立刻站住！说的就是你！\n来与我交锋吧！"),
+        .win = COMPOUND_STRING("训练家，你已任我处置！"),
+        .lose = COMPOUND_STRING("训练家，我认输！\n请饶了我吧！"),
     },
     {
-        .before = COMPOUND_STRING("The main character of this\nstory... I'll tell you who!"),
-        .win = COMPOUND_STRING("The main character is me!\nYou are just an extra!"),
-        .lose = COMPOUND_STRING("Of course, you are\nthe main character!"),
+        .before = COMPOUND_STRING("这个故事的主角……\n我来告诉你是谁！"),
+        .win = COMPOUND_STRING("主角就是我！\n你只是个跑龙套的！"),
+        .lose = COMPOUND_STRING("当然，你才是\n主角！"),
     },
     {
-        .before = COMPOUND_STRING("Let me stop your\nwinning streak here."),
-        .win = COMPOUND_STRING("You still have much to learn.\nLet me give you a crash course!"),
-        .lose = COMPOUND_STRING("You didn't win alone.\nYour Pokémon helped you."),
+        .before = COMPOUND_STRING("让我在这里\n终结你的连胜吧。"),
+        .win = COMPOUND_STRING("你要学的还多着呢。\n我来给你上一堂速成课！"),
+        .lose = COMPOUND_STRING("你不是一个人赢的。\n是你的宝可梦帮了你。"),
     },
 };
 
 static const struct FacilityTrainerQuote sMartialQuotes[] =
 {
     {
-        .before = COMPOUND_STRING("Yo!"),
-        .win = COMPOUND_STRING("Yo! Yo! Yo!"),
-        .lose = COMPOUND_STRING("Yo!"),
+        .before = COMPOUND_STRING("哟！"),
+        .win = COMPOUND_STRING("哟！哟！哟！"),
+        .lose = COMPOUND_STRING("哟！"),
     },
     {
-        .before = COMPOUND_STRING("Are you ready?\nI'm taking my gloves off."),
-        .win = COMPOUND_STRING("You're not even in my league.\nThis is like bullying."),
-        .lose = COMPOUND_STRING("Aww... I cannot believe I lost!\nWho are you?!"),
+        .before = COMPOUND_STRING("准备好了吗？\n我要动真格的了。"),
+        .win = COMPOUND_STRING("你根本不是我的对手。\n这简直像在欺负人。"),
+        .lose = COMPOUND_STRING("啊……真不敢相信我输了！\n你到底是谁？！"),
     },
     {
-        .before = COMPOUND_STRING("Let's have a fun battle!\nNo hard feelings!"),
-        .win = COMPOUND_STRING("Don't look so down!\nI just happened to get lucky!"),
-        .lose = COMPOUND_STRING("Heh..."),
+        .before = COMPOUND_STRING("来一场愉快的对战吧！\n输赢都别往心里去！"),
+        .win = COMPOUND_STRING("别那么垂头丧气嘛！\n我只是碰巧运气好！"),
+        .lose = COMPOUND_STRING("嘿……"),
     },
     {
-        .before = COMPOUND_STRING("I praise your courage\nin challenging me!"),
-        .win = COMPOUND_STRING("I did not have to use my\nstrongest kick on you."),
-        .lose = COMPOUND_STRING("My strong kick didn't help\na bit."),
+        .before = COMPOUND_STRING("敢来挑战我，\n你的勇气值得称赞！"),
+        .win = COMPOUND_STRING("对付你，还用不着\n我最强的踢技。"),
+        .lose = COMPOUND_STRING("我强力的踢技\n一点用都没有。"),
     },
 };
 
 static const struct FacilityTrainerQuote sMysticQuotes[] =
 {
     {
-        .before = COMPOUND_STRING("...Stay away."),
-        .win = COMPOUND_STRING("...Go away."),
-        .lose = COMPOUND_STRING("...Bye."),
+        .before = COMPOUND_STRING("……别过来。"),
+        .win = COMPOUND_STRING("……走开。"),
+        .lose = COMPOUND_STRING("……再见。"),
     },
     {
-        .before = COMPOUND_STRING("My Fairy says\nto take you out!"),
-        .win = COMPOUND_STRING("My Fairy told me to do it!\nIt's all my Fairy's fault!"),
-        .lose = COMPOUND_STRING("My Fairy says that\nyou're crazy dangerous!"),
+        .before = COMPOUND_STRING("我的妖精说，\n要把你打倒！"),
+        .win = COMPOUND_STRING("是我的妖精叫我这么做的！\n全都怪我的妖精！"),
+        .lose = COMPOUND_STRING("我的妖精说，\n你危险得不得了！"),
     },
     {
-        .before = COMPOUND_STRING("Hi! Focus!"),
-        .win = COMPOUND_STRING("Fooooo!"),
-        .lose = COMPOUND_STRING("Eeeeek!"),
+        .before = COMPOUND_STRING("嘿！集中精神！"),
+        .win = COMPOUND_STRING("呼—！"),
+        .lose = COMPOUND_STRING("咿呀—！"),
     },
     {
-        .before = COMPOUND_STRING("Heh-heh-heh. If you lose,\nI'll turn you into a Pokémon."),
-        .win = COMPOUND_STRING("Heh-heh-heh. From today on,\nyou are already a Pokémon!"),
-        .lose = COMPOUND_STRING("Next time, I will turn you\ninto a Pokémon with my power."),
+        .before = COMPOUND_STRING("嘿嘿嘿。你要是输了，\n我就把你变成宝可梦。"),
+        .win = COMPOUND_STRING("嘿嘿嘿。从今天起，\n你就已经是宝可梦了！"),
+        .lose = COMPOUND_STRING("下一次，我会用我的力量\n把你变成宝可梦。"),
     },
 };
 
 static const struct FacilityTrainerQuote sNatureQuotes[] =
 {
     {
-        .before = COMPOUND_STRING("There's a lot that goes into\nbeing a Pokémon Breeder."),
-        .win = COMPOUND_STRING("The most fun part is getting\nclose to Pokémon."),
-        .lose = COMPOUND_STRING("The hardest part is saying\nfarewell to Pokémon."),
+        .before = COMPOUND_STRING("当一名宝可梦培育家，\n要操心的事可多了。"),
+        .win = COMPOUND_STRING("最开心的，\n就是和宝可梦变得亲近。"),
+        .lose = COMPOUND_STRING("最难受的，\n就是和宝可梦道别。"),
     },
     {
-        .before = COMPOUND_STRING("I'm a Gardener, but I'm good\nat Pokémon battles, too."),
-        .win = COMPOUND_STRING("Maybe I'll try to become\nthe Champion."),
-        .lose = COMPOUND_STRING("I'm a Gardener, so my real\njob is gardening."),
+        .before = COMPOUND_STRING("我是个园丁，\n不过宝可梦对战也很拿手。"),
+        .win = COMPOUND_STRING("也许我该试着\n去当个冠军。"),
+        .lose = COMPOUND_STRING("我是个园丁，\n所以本职工作是园艺。"),
     },
     {
-        .before = COMPOUND_STRING("I will test the Pokémon\nyou have been training."),
-        .win = COMPOUND_STRING("Bah! Is that the best you can\ndo? I expected more..."),
-        .lose = COMPOUND_STRING("Wow! You're amazing! You've\ntrained some great Pokémon!"),
+        .before = COMPOUND_STRING("让我来考验一下\n你培育的宝可梦。"),
+        .win = COMPOUND_STRING("哼！你就这点本事吗？\n我还以为会更厉害呢……"),
+        .lose = COMPOUND_STRING("哇！你真了不起！\n把宝可梦培育得这么出色！"),
     },
     {
-        .before = COMPOUND_STRING("I made them too strong.\nThey are beyond my control..."),
-        .win = COMPOUND_STRING("It's all over now...\nNobody can stop them..."),
-        .lose = COMPOUND_STRING("Finally, they calmed down...\nYou've saved me. Thank you!"),
+        .before = COMPOUND_STRING("我把它们培育得太强了。\n已经不受我控制了……"),
+        .win = COMPOUND_STRING("一切都完了……\n谁也阻止不了它们了……"),
+        .lose = COMPOUND_STRING("它们终于平静下来了……\n你救了我。谢谢你！"),
     },
 };
 
 static const struct FacilityTrainerQuote sTravelerQuotes[] =
 {
     {
-        .before = COMPOUND_STRING("Lalalala... Lalalala...\nI am a loner..."),
-        .win = COMPOUND_STRING("Lalalala... Lalalala...\nDrifting like clouds..."),
-        .lose = COMPOUND_STRING("Lalalala... Lalalala...\nTill we meet again..."),
+        .before = COMPOUND_STRING("啦啦啦啦……啦啦啦啦……\n我是独行侠……"),
+        .win = COMPOUND_STRING("啦啦啦啦……啦啦啦啦……\n像云一样漂泊……"),
+        .lose = COMPOUND_STRING("啦啦啦啦……啦啦啦啦……\n后会有期……"),
     },
     {
-        .before = COMPOUND_STRING("I am no mere Hiker.\nCall me an alpinist."),
-        .win = COMPOUND_STRING("A mountain maniac like me\nis called an alpinist."),
-        .lose = COMPOUND_STRING("A specialist in mountains.\nThat's an alpinist."),
+        .before = COMPOUND_STRING("我可不是普通的登山男。\n请叫我登山家。"),
+        .win = COMPOUND_STRING("像我这样的山痴，\n就叫作登山家。"),
+        .lose = COMPOUND_STRING("精通山岳的专家。\n那就是登山家。"),
     },
     {
-        .before = COMPOUND_STRING("Harrumph! Harooo!"),
-        .win = COMPOUND_STRING("Harooo!"),
-        .lose = COMPOUND_STRING("Harrumph!!"),
+        .before = COMPOUND_STRING("哼！哈噜—！"),
+        .win = COMPOUND_STRING("哈噜—！"),
+        .lose = COMPOUND_STRING("哼！！"),
     },
     {
-        .before = COMPOUND_STRING("Let's take it easy with\nPokémon and with life."),
-        .win = COMPOUND_STRING("It's OK to bust your tail.\nBut you need breathing room."),
-        .lose = COMPOUND_STRING("No problem. No problem.\nI'll have another chance."),
+        .before = COMPOUND_STRING("不管是宝可梦还是人生，\n都放轻松一点吧。"),
+        .win = COMPOUND_STRING("拼命努力是可以的。\n不过也得留点喘息的余地。"),
+        .lose = COMPOUND_STRING("没关系，没关系。\n我还会有机会的。"),
     },
 };
 
 static const struct FacilityTrainerQuote sWaterQuotes[] =
 {
     {
-        .before = COMPOUND_STRING("This is Rough Skin, isn't it?!\nRain Dish, Rain Dish?"),
-        .win = COMPOUND_STRING("It's not Rough Skin!\nRain Dish, Rain Dish."),
-        .lose = COMPOUND_STRING("This is Rough Skin, isn't it?!\nRain Dish, Rain Dish..."),
+        .before = COMPOUND_STRING("这是粗糙皮肤，对吧？！\n雨盘、雨盘？"),
+        .win = COMPOUND_STRING("这不是粗糙皮肤！\n雨盘、雨盘。"),
+        .lose = COMPOUND_STRING("这是粗糙皮肤，对吧？！\n雨盘、雨盘……"),
     },
     {
-        .before = COMPOUND_STRING("The weather's too awful\nfor me to work!"),
-        .win = COMPOUND_STRING("Whoa! I'm in a Sunny Day\nkind of mood!!"),
-        .lose = COMPOUND_STRING("If only my Ability\nwere Rain Dish..."),
+        .before = COMPOUND_STRING("天气太糟糕了，\n我没法干活！"),
+        .win = COMPOUND_STRING("哇！我现在的心情\n就像大晴天一样！！"),
+        .lose = COMPOUND_STRING("要是我的特性\n是雨盘就好了……"),
     },
     {
-        .before = COMPOUND_STRING("The clear blue water!\nThe beach! All the bikinis!"),
-        .win = COMPOUND_STRING("What makes this place a resort?\nOnly serious Trainers are here!"),
-        .lose = COMPOUND_STRING("This isn't a resort--it's\ntorture! Battles everywhere!"),
+        .before = COMPOUND_STRING("清澈湛蓝的海水！\n沙滩！到处都是比基尼！"),
+        .win = COMPOUND_STRING("这里凭什么叫度假地啊？\n来的全是认真的训练家！"),
+        .lose = COMPOUND_STRING("这哪是度假地—简直是\n折磨！到处都是对战！"),
     },
 };
 
 static const struct FacilityTrainerQuote sAthleteQuotes[] =
 {
     {
-        .before = COMPOUND_STRING("Muwahaha! My legend of\ninvincibility begins with you!"),
-        .win = COMPOUND_STRING("I'm completely invincible!\nMy legend begins here!"),
-        .lose = COMPOUND_STRING("Ha... Are you telling me that\nyour legend just started?"),
+        .before = COMPOUND_STRING("呜哇哈哈！我的不败传说\n就从你开始！"),
+        .win = COMPOUND_STRING("我完全是无敌的！\n我的传说就从这里开始！"),
+        .lose = COMPOUND_STRING("哈……你是想说，\n你的传说才刚刚开始？"),
     },
     {
-        .before = COMPOUND_STRING("My strategy is to deceive\nmy opponents with my speed."),
-        .win = COMPOUND_STRING("Ahaha... How was it?\nI bet that made you dizzy."),
-        .lose = COMPOUND_STRING("How could you be quicker?\nWhat are you wearing?"),
+        .before = COMPOUND_STRING("我的战术，就是用速度\n迷惑对手。"),
+        .win = COMPOUND_STRING("啊哈哈……怎么样？\n把你转晕了吧。"),
+        .lose = COMPOUND_STRING("你怎么会比我还快？\n你穿的是什么啊？"),
     },
     {
-        .before = COMPOUND_STRING("There are no brakes\non MY skates!"),
-        .win = COMPOUND_STRING("I won't stop! I can't stop!\nThat's just the way I roll!"),
-        .lose = COMPOUND_STRING("They've gotta be defective!\nSomeone! Anyone! STOP ME!"),
+        .before = COMPOUND_STRING("我的轮滑鞋\n可没有刹车！"),
+        .win = COMPOUND_STRING("我不会停！也停不下来！\n这就是我的滑法！"),
+        .lose = COMPOUND_STRING("这鞋肯定有毛病！\n来人啊！谁都行！快让我停下！"),
     },
     {
-        .before = COMPOUND_STRING("Let's work up a good sweat\ntogether, right?"),
-        .win = COMPOUND_STRING("Hey, don't sweat it...\nSometimes you've gotta let go."),
-        .lose = COMPOUND_STRING("You had me sweating bullets!\nThat's what being young is!"),
+        .before = COMPOUND_STRING("我们一起痛痛快快地\n出身汗吧，好吗？"),
+        .win = COMPOUND_STRING("嘿，别太在意……\n有时候就得学会放手。"),
+        .lose = COMPOUND_STRING("你让我捏了一把冷汗！\n这就是年轻啊！"),
     },
 };
 
 static const struct FacilityTrainerQuote sEnthusiastQuotes[] =
 {
     {
-        .before = COMPOUND_STRING("Listen, I love Pokémon\nmore than life itself!"),
-        .win = COMPOUND_STRING("I'll be a Pokémon\nin my next life."),
-        .lose = COMPOUND_STRING("I love your Pokémon, too!\nPlease, let me pet them!"),
+        .before = COMPOUND_STRING("听好了，我爱宝可梦\n胜过自己的生命！"),
+        .win = COMPOUND_STRING("我下辈子\n要当宝可梦。"),
+        .lose = COMPOUND_STRING("我也好喜欢你的宝可梦！\n拜托，让我摸摸它们吧！"),
     },
     {
-        .before = COMPOUND_STRING("Want to see the Pokémon\nI am proudest of?"),
-        .win = COMPOUND_STRING("What do you think about\nmy dear Pokémon? Great, right?"),
-        .lose = COMPOUND_STRING("Oh my goodness!\nMy poor Pokémon..."),
+        .before = COMPOUND_STRING("想看看我最引以为傲的\n宝可梦吗？"),
+        .win = COMPOUND_STRING("你觉得我心爱的宝可梦\n怎么样？很棒吧？"),
+        .lose = COMPOUND_STRING("哎呀，天哪！\n我可怜的宝可梦……"),
     },
     {
-        .before = COMPOUND_STRING("I think I am a Poké Fan,\ntherefore I am a Poké Fan."),
-        .win = COMPOUND_STRING("The Poké Fan is power."),
-        .lose = COMPOUND_STRING("Remember this:\nI am a Poké Fan."),
+        .before = COMPOUND_STRING("我认为我是宝可梦发烧友，\n所以我就是宝可梦发烧友。"),
+        .win = COMPOUND_STRING("宝可梦发烧友就是力量。"),
+        .lose = COMPOUND_STRING("记住了：\n我是宝可梦发烧友。"),
     },
     {
-        .before = COMPOUND_STRING("Join the Pokémon Fan Club!\nYour life will be happy!"),
-        .win = COMPOUND_STRING("Join the Pokémon Fan Club!\nYou'll be strong, like me!"),
-        .lose = COMPOUND_STRING("Join the Pokémon Fan Club!\nYour life will be saved!"),
+        .before = COMPOUND_STRING("加入宝可梦发烧友俱乐部吧！\n你的人生会变得幸福！"),
+        .win = COMPOUND_STRING("加入宝可梦发烧友俱乐部吧！\n你会变得像我一样强！"),
+        .lose = COMPOUND_STRING("加入宝可梦发烧友俱乐部吧！\n你的人生会得到拯救！"),
     },
 };
 
 static const struct FacilityTrainerQuote sPerformerQuotes[] =
 {
     {
-        .before = COMPOUND_STRING("A battle with me is a test\nof your aesthetic sensibility."),
-        .win = COMPOUND_STRING("Hunnh... Not bad...\nYou've got a surreal side..."),
-        .lose = COMPOUND_STRING("Hunnh... Not bad...\nYou've got a realistic side..."),
+        .before = COMPOUND_STRING("和我对战，\n考验的是你的审美感觉。"),
+        .win = COMPOUND_STRING("嗯……还不错……\n你有超现实的一面……"),
+        .lose = COMPOUND_STRING("嗯……还不错……\n你有写实的一面……"),
     },
     {
-        .before = COMPOUND_STRING("Every time a Pokémon moves,\nmy heart trembles!"),
-        .win = COMPOUND_STRING("Nothing stirs the soul\nlike Pokémon moves."),
-        .lose = COMPOUND_STRING("Pokémon moves are so beautiful!\nI could almost faint!"),
+        .before = COMPOUND_STRING("宝可梦每动一下，\n我的心就跟着颤抖！"),
+        .win = COMPOUND_STRING("没有什么比宝可梦的招式\n更能触动灵魂了。"),
+        .lose = COMPOUND_STRING("宝可梦的招式太美了！\n我都快晕过去了！"),
     },
     {
-        .before = COMPOUND_STRING("My Pokémon will trump yours!\nYou can bet on losing!"),
-        .win = COMPOUND_STRING("All right! Victory is mine!\nFortune is smiling on me!"),
-        .lose = COMPOUND_STRING("Ahh... I'm flat broke...\nI've got nothing left..."),
+        .before = COMPOUND_STRING("我的宝可梦会压过你的！\n赌你输准没错！"),
+        .win = COMPOUND_STRING("好！胜利是我的了！\n幸运女神在对我微笑！"),
+        .lose = COMPOUND_STRING("啊……我输得精光……\n什么都不剩了……"),
     },
     {
-        .before = COMPOUND_STRING("All right, then. I'll watch.\nLet your passions run wild!"),
-        .win = COMPOUND_STRING("What? You're done already?\nI'll have none of that!"),
-        .lose = COMPOUND_STRING("Are you sure? Don't you think\nyou could keep going?"),
+        .before = COMPOUND_STRING("那好吧。我看着。\n尽情释放你的热情吧！"),
+        .win = COMPOUND_STRING("什么？这就结束了？\n我可不答应！"),
+        .lose = COMPOUND_STRING("你确定吗？你不觉得\n自己还能继续吗？"),
     },
 };
 
 static const struct FacilityTrainerQuote sBreederQuotes[] =
 {
     {
-        .before = COMPOUND_STRING("There's a lot that goes into\nbeing a Pokémon Breeder."),
-        .win = COMPOUND_STRING("The most fun part is getting\nclose to Pokémon."),
-        .lose = COMPOUND_STRING("The hardest part is saying\nfarewell to Pokémon."),
+        .before = COMPOUND_STRING("当一名宝可梦培育家，\n要操心的事可多了。"),
+        .win = COMPOUND_STRING("最开心的，\n就是和宝可梦变得亲近。"),
+        .lose = COMPOUND_STRING("最难受的，\n就是和宝可梦道别。"),
     },
     {
-        .before = COMPOUND_STRING("I made them too strong.\nThey are beyond my control..."),
-        .win = COMPOUND_STRING("It's all over now...\nNobody can stop them..."),
-        .lose = COMPOUND_STRING("Finally, they calmed down...\nYou've saved me. Thank you!"),
+        .before = COMPOUND_STRING("我把它们培育得太强了。\n已经不受我控制了……"),
+        .win = COMPOUND_STRING("一切都完了……\n谁也阻止不了它们了……"),
+        .lose = COMPOUND_STRING("它们终于平静下来了……\n你救了我。谢谢你！"),
     },
     {
-        .before = COMPOUND_STRING("I am the top Breeder.\nI can tame any kind of Pokémon."),
-        .win = COMPOUND_STRING("You see? My Pokémon are\nvery loyal to me, aren't they?"),
-        .lose = COMPOUND_STRING("They are too attached to me.\nThey are not fit for battling."),
+        .before = COMPOUND_STRING("我是顶尖的培育家。\n任何宝可梦我都能驯服。"),
+        .win = COMPOUND_STRING("看到了吧？我的宝可梦\n对我非常忠诚，对吧？"),
+        .lose = COMPOUND_STRING("它们太黏我了。\n不适合对战。"),
     },
     {
-        .before = COMPOUND_STRING("I will test the Pokémon\nyou have been training."),
-        .win = COMPOUND_STRING("Bah! Is that the best you can\ndo? I expected more..."),
-        .lose = COMPOUND_STRING("Wow! You're amazing! You've\ntrained some great Pokémon!"),
+        .before = COMPOUND_STRING("让我来考验一下\n你培育的宝可梦。"),
+        .win = COMPOUND_STRING("哼！你就这点本事吗？\n我还以为会更厉害呢……"),
+        .lose = COMPOUND_STRING("哇！你真了不起！\n把宝可梦培育得这么出色！"),
     },
 };
 

@@ -11,10 +11,10 @@ VioletCity_House1_EventScript_Kyle::
 	end
 
 VioletCity_House1_Text_PokefanM:
-	.string "A Pokémon you get in a trade\n"
-	.string "grows quickly.\p"
-	.string "But if you don't have the right\n"
-	.string "Gym Badge, they may disobey you.$"
+	.string "交换来的宝可梦\n成长得很快。\p但如果没有相应的\n道馆徽章，它可能会不听话。$"
+	.string ""
+	.string ""
+	.string ""
 
 Violet_PawmiTrade::
 	lock
@@ -44,21 +44,16 @@ PawmiTrade_NotRequested::
 
 
 Violet_PawmiTrade_Text_0:
-	.string "Hi, how is my old Pawmi doing?$"
+	.string "你好，我那只布拨过得还好吗？$"
 
 Violet_PawmiTrade_Text_1:
-	.string "I collect Pokémon\n"
-	.string "Do you have a Cottonee?\l"
-	.string "Want to trade it for my\l"
-	.string "Pawmi?$"
+	.string "我在收集宝可梦\n你有木棉球吗？\l要不要拿它换\l我的布拨？$"
 
 Violet_PawmiTrade_Text_2:
-	.string "Yay! I got myself a Cottonee!\n"
-	.string "Pawmi, you take care!$"
+	.string "太好了！我得到木棉球了！\n布拨，你要保重哦！$"
 
 PawmiTrade_Declined_Text_0:
-	.string "You don't want to trade? Aww...$"
+	.string "不想换吗？唉……$"
 
 PawmiTrade_NotRequested_Text_0:
-	.string "Uh, no, I don't think so.\n"
-	.string "That doesn't look like a Cottonee.$"
+	.string "呃，这个不行。\n那看起来不像木棉球。$"

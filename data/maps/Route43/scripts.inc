@@ -45,97 +45,97 @@ Route43_EventScript_Sign2::
 	end
 
 Route43_Text_PokemaniacBenSeen:
-    .string "I love Pokémon!\p"
-    .string "That's why I started--and why I'll\n"
-    .string "keep on collecting Pokémon!$"
+    .string "我最喜欢宝可梦了！\p所以我才开始——而且会\n一直收集宝可梦！$"
+    .string ""
+    .string ""
 
 Route43_Text_PokemaniacBenBeaten:
-    .string "How could you do this to me?$"
+    .string "你怎么能这样对我？$"
 
 Route43_Text_PokemaniacBenAfter:
-    .string "What else do I like besides\n"
-    .string "Pokémon?\p"
-    .string "Mary on the radio. I bet she's\n"
-    .string "cute!$"
+    .string "除了宝可梦我还喜欢什么？\p广播里的胡桃。\n她一定很可爱！$"
+    .string ""
+    .string ""
+    .string ""
 
 Route43_Text_PokemaniacBrentSeen:
-    .string "Hey! Do you have any rare\n"
-    .string "Pokémon?$"
+    .string "嘿！你带着稀有\n宝可梦吗？$"
+    .string ""
 
 Route43_Text_PokemaniacBrentBeaten:
-    .string "Oh, my poor Pokémon! Darlings!$"
+    .string "哦，我可怜的宝可梦！宝贝们！$"
 
 Route43_Text_PokemaniacBrentAfter:
-    .string "I'd be happy just to own a single\n"
-    .string "rare Pokémon.$"
+    .string "光是拥有一只稀有的\n宝可梦，我就心满意足了。$"
+    .string ""
 
 Route43_Text_PokemaniacRonSeen:
-    .string "Would you get this?\p"
-    .string "Some Silver guy made fun of my\n"
-    .string "Pokémon!\p"
-    .string "Darn it! My Pokémon's great!$"
+    .string "你评评理！\p有个叫小银的家伙\n取笑我的宝可梦！\p可恶！我的宝可梦很棒的！$"
+    .string ""
+    .string ""
+    .string ""
 
 Route43_Text_PokemaniacRonBeaten:
-    .string "My Nidoking did pretty right on!$"
+    .string "我的尼多王表现得很不错！$"
 
 Route43_Text_PokemaniacRonAfter:
-    .string "It's okay for people to like\n"
-    .string "different types of Pokémon.\p"
-    .string "Pokémon isn't just about having the\n"
-    .string "most powerful one.$"
+    .string "人们喜欢不同属性的\n宝可梦，这没什么不好。\p宝可梦并不只是\n比谁更强大。$"
+    .string ""
+    .string ""
+    .string ""
 
 Route43_Text_FisherMarvinSeen:
-    .string "I'm in a slump.\p"
-    .string "Maybe it's the gear I'm using.\p"
-    .string "Let's battle for a change of pace!$"
+    .string "我最近诸事不顺。\p也许是钓具不好吧。\p来对战一场，换换心情！$"
+    .string ""
+    .string ""
 
 Route43_Text_FisherMarvinBeaten:
-    .string "I lost, but I feel better anyway.$"
+    .string "虽然输了，不过心情反倒好些了。$"
 
 Route43_Text_FisherMarvinAfter:
-    .string "Kurt's Lure Ball is the best for\n"
-    .string "catching hooked Pokémon.\p"
-    .string "It's much more effective than a\n"
-    .string "Ultra Ball.$"
+    .string "钓上钩的宝可梦，用钢铁的\n诱饵球最合适。\p它比高级球\n有效得多。$"
+    .string ""
+    .string ""
+    .string ""
 
 Route43_Text_CamperSpencerSeen:
-    .string "I can do so much with my\n"
-    .string "Pokémon--it's super-fun!$"
+    .string "有宝可梦在，我什么都能做，\n超级开心！$"
+    .string ""
 
 Route43_Text_CamperSpencerBeaten:
-    .string "Losing isn't fun at all…$"
+    .string "输了可一点都不开心……$"
 
 Route43_Text_CamperSpencerAfter:
-    .string "What is going on at Lake Of Rage?\p"
-    .string "We were planning to camp there.$"
+    .string "愤怒之湖到底怎么了？\p我们本来打算\n去那里露营的。$"
+    .string ""
 
 Route43_Text_PicnickerTiffanySeen:
-    .string "Are you going to Lake Of Rage too?\p"
-    .string "Let's play for a little while!$"
+    .string "你也去愤怒之湖吗？\p先陪我玩一会儿吧！$"
+    .string ""
 
 Route43_Text_PicnickerTiffanyBeaten:
-    .string "I played too much!$"
+    .string "我玩过头了！$"
 
 Route43_Text_PicnickerTiffanyWantsPicnic:
-    .string "I'm having a picnic with Pokémon.\p"
-    .string "Won't you join us?$"
+    .string "我正在和宝可梦野餐。\p你要不要一起来？$"
+    .string ""
 
 Route43_Sign1:
-    .string "Route 43\p"
-    .string "Lake Of Rage - Mahogany Town$"
+    .string "43号道路\p愤怒之湖——卡吉镇$"
+    .string ""
 
 Route43_Sign2:
-    .string "Route 43\p"
-    .string "Lake Of Rage - Mahogany Town$"
+    .string "43号道路\p愤怒之湖——卡吉镇$"
+    .string ""
 
 Route43_TrainerTips:
-    .string "Trainer Tips\p"
-    .string "All Pokémon have pros and cons\n"
-    .string "depending on their types.\p"
-    .string "If their types differ, a higher-\n"
-    .string "level Pokémon may lose in battle.\p"
-    .string "Learn which types are strong and\n"
-    .string "weak against your Pokémon's type.$"
+    .string "训练家提示\p宝可梦各有各的属性，\n各有长处和短处。\p属性要是相克，等级再高\n也可能在对战中落败。\p要弄清哪些属性对自己\n宝可梦的属性有利或不利。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 Route43Expert::
 	lock
@@ -213,28 +213,16 @@ Route43Expert_21:
 
 
 Route43Expert_Text_0:
-	.string "Power Herb and White Herb only\n"
-	.string "work once per battle, but they\l"
-	.string "regrow back after it.$"
+	.string "强力香草和白色香草\n每场战斗只能用一次，\l但用完还会重新长出来。$"
 
 Route43Expert_Text_1:
-	.string "Many trainers gather here to see\n"
-	.string "what the fuss is about.\p"
-	.string "Me? I'm here to find the strongest\n"
-	.string "trainer among them.\p"
-	.string "Perhaps if you were to defeat all\n"
-	.string "the others here and around the\l"
-	.string "Lake of Rage, we could have a bout.$"
+	.string "许多训练家聚在这里，\n是想看看究竟有多热闹。\p我？我是来找他们当中\n最强的训练家的。\p要是你能打败这里和\n愤怒之湖周边的所有训练家，\l我们或许可以较量一场。$"
 
 Route43Expert_Text_2:
-	.string "Impressive battling prowess!\p"
-	.string "But can you turn the tides against\n"
-	.string "my strategy?$"
+	.string "好厉害的战斗本领！\p可你能扭转局势，\n破解我的策略吗？$"
 
 Route43Expert_Text_3:
-	.string "I could not turn the situation around.$"
+	.string "我没能扭转局势。$"
 
 Route43Expert_Text_4:
-	.string "Your strength is in full bloom.\n"
-	.string "Take these herbs and use them\l"
-	.string "to turn the battle around.$"
+	.string "你的实力正值全盛。\n这些香草给你，拿去扭转战局吧。$"

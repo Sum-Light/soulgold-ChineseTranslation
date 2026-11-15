@@ -24,20 +24,20 @@ Gate_Route31_VioletCity_EventScript_CooltrainerF::
 	end
 
 Gate_Route31_VioletCity_Text_Policeman:
-	.string "Hi there! Did you visit\n"
-	.string "Sprout Tower?$"
+	.string "你好！你去过\n喇叭芽之塔了吗？$"
+	.string ""
 
 Gate_Route31_VioletCity_Text_CooltrainerF:
-	.string "I saw the cutest Pokémon out\n"
-	.string "there.\p"
-	.string "It looked a lot like Pikachu!$"
+	.string "我在外面看到一只\n超可爱的宝可梦。\p它长得特别像皮卡丘！$"
+	.string ""
+	.string ""
 `
 
 script Gate_Route31_VioletCity_RivalExpShare {
     lock
     playse(SE_EXIT)
     playbgm(MUS_HG_LYRA, TRUE)
-    msgbox("{PLAYER}! Wait up!")
+    msgbox("{PLAYER}！等一下！")
     closemessage
     moveobjecttocoords(LOCALID_PLAYER, 6, 5, DIR_EAST)
     clearflag(FLAG_HIDE_RIVAL_VIOLETGATEHOUSE)
@@ -45,18 +45,14 @@ script Gate_Route31_VioletCity_RivalExpShare {
     applymovement(LOCALID_GATEHOUSE_RIVAL, moves(walk_left*4))
     waitmovement(0)
     createfieldmugshotrival
-    msgbox("Professor Elm forgot to give you this.")
+    msgbox("空木博士忘了\n把这个交给你。")
     giveitem(ITEM_EXP_SHARE)
     setflag(FLAG_RECEIVED_EXP_SHARE)
     setflag(FLAG_EXP_SHARE_OPTION)
     createfieldmugshotrival
-    msgbox("It lets you train multiple Pokémon at
-            once, quite a handy piece of tech!")
-    msgbox("If you haven't already, you should make
-            use of those Poké Balls and catch lots
-            of new Pokémon.")
-    msgbox("Anyway, I need to head back home.
-            Hope to see you soon {PLAYER}!")
+    msgbox("能让多只宝可梦同时\n接受训练，相当方便！")
+    msgbox("要是还没用过，就用那些\n精灵球多捉些新宝可梦吧。")
+    msgbox("我得回家去了。\n希望很快再见到你，{PLAYER}！")
     closemessage
     setflag(FLAG_HIDE_RIVAL_VIOLETGATEHOUSE)
     setvar(VAR_RIVAL_STATE, 4)

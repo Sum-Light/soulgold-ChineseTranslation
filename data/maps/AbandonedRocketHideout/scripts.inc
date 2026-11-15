@@ -194,48 +194,28 @@ ARH_MachineRight2::
 
 
 ARH_Note1_Text_0:
-	.string "A brittle memo is pinned beneath\n"
-	.string "the dust...\p"
-	.string "PROJECT SHADOW - CLOSURE ORDER\p"
-	.string "All Shadow specimens are to be\n"
-	.string "discarded immediately.\p"
-	.string "Burn the research.\p"
-	.string "Leave nothing.$"
+	.string "尘土下压着一张\n脆弱的便条……\p黑暗计划——关闭命令\p所有黑暗实验体\n即刻废弃。\p烧毁研究成果。\p不留痕迹。$"
 
 ARH_MiddleDoor_Text_0:
-	.string "The central shutter is open.$"
+	.string "中央的卷帘门已经打开了。$"
 
 ARH_MiddleDoor_Text_1:
-	.string "CENTRAL ARCHIVE\p"
-	.string "POWER RELAY: NOT DETECTED\p"
-	.string "The shutter is locked in place.$"
+	.string "中央档案室\p未检测到电力继电器\p卷帘门锁死了。$"
 
 ARH_RightDoor_Text_0:
-	.string "STORAGE BAY R\p"
-	.string "ACCESS GRANTED$"
+	.string "R号仓储区\p已获准进入$"
 
 ARH_RightDoor_Text_1:
-	.string "STORAGE BAY R\p"
-	.string "SEALED BY SHADOW PROTOCOL\p"
-	.string "Remote authorization is required.$"
+	.string "R号仓储区\p已由黑暗协议封锁\p需要远程授权。$"
 
 ARH_Note2_Text_0:
-	.string "Most of the report has been shredded.\n"
-	.string "One paragraph survives...\p"
-	.string "'Houndour was the first subject to\n"
-	.string "retain a stable Shadow response.\p"
-	.string "Earlier Rattata and Zubat trials were\n"
-	.string "judged unusable.'$"
+	.string "报告已被粉碎，\n只剩一段文字……\p“戴鲁比是首个\n保持稳定黑暗反应的\l实验体。\p此前的小拉达和超音蝠\n实验体被判定为不可用。”$"
 
 ARH_Computer1_Text_0:
-	.string "The terminal displays a single line:\p"
-	.string "STORAGE BAY R - UNSEALED$"
+	.string "终端显示着一行字：\pR号仓储区——已解封$"
 
 ARH_Computer1_Text_1:
-	.string "The old terminal sputters to life.\p"
-	.string "SHADOW FAILSAFE\n"
-	.string "Enter the Pokédex index of the first\l"
-	.string "viable subject.$"
+	.string "旧终端断断续续地启动了。\p黑暗保险机制\n请输入首个可用\l实验体的图鉴编号。$"
 
 ARH_Computer1_Text_2:
 	.string "019$"
@@ -250,94 +230,58 @@ ARH_Computer1_Text_5:
 	.string "228$"
 
 ARH_Computer1_Text_6:
-	.string "Cancel$"
+	.string "取消$"
 
 ARH_Computer1_Text_7:
-	.string "SUBJECT 228: HOUNDOUR\n"
-	.string "AUTHORIZATION CONFIRMED\p"
-	.string "Storage Bay R is now unsealed.$"
+	.string "实验体228：戴鲁比\n授权已确认\pR号仓储区已解封。$"
 
 ARH_Computer1_Text_8:
-	.string "SUBJECT RECORD REJECTED.$"
+	.string "实验体记录遭到拒绝。$"
 
 ARH_BoxLeft_Text_0:
-	.string "A clipboard is wedged between the\n"
-	.string "packing foam and the crate wall.\p"
-	.string "SUBJECT INDEX\n"
-	.string "019 - RATTATA\l"
-	.string "041 - ZUBAT\l"
-	.string "198 - MURKROW\l"
-	.string "228 - HOUNDOUR$"
+	.string "箱子内衬与箱壁之间\n卡着一块写字板。\p实验体索引\n019——小拉达\l041——超音蝠\l198——黑暗鸦\l228——戴鲁比$"
 
 ARH_BoxRight1_Text_0:
-	.string "The crate contains a Rocket uniform\n"
-	.string "and a note written in red ink...\p"
-	.string "'My locker code is 041.\n"
-	.string "Markov, stay out this time.'$"
+	.string "箱子里有一件火箭队制服，\n还有一张用红墨水写的便条……\p“我的寄存柜密码是041。\n马尔科夫，这次别碰。”$"
 
 ARH_BoxRightRoomRightOne2_Text_0:
-	.string "The fitted compartment is empty.$"
+	.string "隔层是空的。$"
 
 ARH_BoxRightRoomRightOne2_Text_1:
-	.string "Something heavy shifts beneath a false\n"
-	.string "bottom.$"
+	.string "假底下面有\n沉重的东西挪动了一下。$"
 
 ARH_BoxRightRoomRightOne2_Text_2:
-	.string "{PLAYER} found the Magnetic Relay!\p"
-	.string "It looks like it belongs in one of the\n"
-	.string "warehouse machines.$"
+	.string "{PLAYER}找到了磁力继电器！\p这东西好像是装在\n仓库里某台机器上的。$"
 
 ARH_BoxWrong_Text_0:
-	.string "Nothing but crushed Poké Ball\n"
-	.string "shells. Every one has been neatly\l"
-	.string "stamped REJECTED.$"
+	.string "只剩压扁的精灵球\n碎壳。每一个都被\l盖上了“不合格”的印章。$"
 
 ARH_BoxWrong_Text_1:
-	.string "Hundreds of left-handed black\n"
-	.string "gloves.\p"
-	.string "There is not one right glove.$"
+	.string "数百只左手用的\n黑色手套。\p没有一只是右手的。$"
 
 ARH_BoxWrong_Text_2:
-	.string "A shipping manifest reads:\p"
-	.string "SINISTER CAPES - 40\n"
-	.string "DRAMATIC WIND MACHINES - 40$"
+	.string "一张出货单上写着：\p邪恶披风——40\n戏剧效果鼓风机——40$"
 
 ARH_BoxWrong_Text_3:
-	.string "A fossilized RageCandyBar sticks\n"
-	.string "to the packing paper.$"
+	.string "包装纸上粘着一块\n石化了的愤怒馒头。$"
 
 ARH_BoxWrong_Text_4:
-	.string "The crate is full of fake moustaches\n"
-	.string "labeled EXECUTIVE EMERGENCY KIT.$"
+	.string "箱子里塞满了假胡子，\n标签上写着“干部应急包”。$"
 
 ARH_BoxWrong_Text_5:
-	.string "This crate is labeled\n"
-	.string "LOTS OF VOLTORBS.\p"
-	.string "It is empty... \p"
-	.string "You feel a sense of relief.$"
+	.string "箱子上写着\n“大量霹雳电球”。\p里面是空的……\p你松了一口气。$"
 
 ARH_MachineRight_Text_0:
-	.string "The restored relay hums steadily.\p"
-	.string "CENTRAL ARCHIVE - ACCESS ONLINE$"
+	.string "恢复运转的继电器\n平稳地嗡鸣着。\p中央档案室——通道已启用$"
 
 ARH_MachineRight_Text_1:
-	.string "CENTRAL SHUTTER CONTROL\p"
-	.string "ERROR: MAGNETIC RELAY MISSING\p"
-	.string "A relay-shaped socket is empty.$"
+	.string "中央卷帘门控制\p错误：未检测到磁力继电器\p继电器形状的插槽是空的。$"
 
 ARH_MachineRight_Text_2:
-	.string "The magnetic relay fits the empty\n"
-	.string "socket perfectly.$"
+	.string "磁力继电器正好\n嵌进空插槽里。$"
 
 ARH_MachineRight_Text_3:
-	.string "The old machinery hums to life.\p"
-	.string "The central shutter seems to\n"
-	.string "have opened in the hallway.$"
+	.string "旧机器嗡嗡地运转起来。\p走廊里的中央卷帘门\n好像打开了。$"
 
 ARH_MachineRight2_Text_0:
-	.string "UMBRA MEASUREMENT MONITOR\p"
-	.string "The final readings are frozen on the\n"
-	.string "dim display.\p"
-	.string "HEART RATE: 220\n"
-	.string "AGGRESSION: ERROR\l"
-	.string "EMOTION: 0%$"
+	.string "暗影测量监视器\p最后的读数定格在\n昏暗的显示屏上。\p心率：220\n攻击性：错误\l情绪：0%$"

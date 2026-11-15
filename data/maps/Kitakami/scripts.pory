@@ -1,10 +1,7 @@
 mapscripts Kitakami_MapScripts {}
 
 script Kitakami_OldLady {
-    msgbox("Oh a visitor? Where are you from?
-            ...
-            Newbark Town? That's quite a journey
-            to get here!", MSGBOX_NPC)
+    msgbox("哦？是客人吗？你是从哪儿来的？\n……\l若叶镇？跑到这儿来，\l可真是一段远路啊！", MSGBOX_NPC)
 }
 
 script Kitakami_Trigger {
@@ -65,28 +62,21 @@ script Kitakami_OgerponTrigger {
 }
 
 script Kitakami_Fatman {
-    msgbox("There's no technology here!
-            WHAT AM I SUPPOSED TO DO??", MSGBOX_NPC)
+    msgbox("这地方连点现代科技都没有！\n我到底该干点什么啊？？", MSGBOX_NPC)
 }
 
 script Kitakami_Battlegirl {
-    msgbox("I come here to train once a year. It's a
-            nice middle ground between the busy
-            city life and harshness of Mt. Silver.", MSGBOX_NPC)
+    msgbox("我每年都来这儿修行一次。\n这里正好介于繁忙的城市生活\l和严酷的白银山之间。", MSGBOX_NPC)
 }
 
 script Kitakami_Littlegirl {
-    msgbox("Mom used to say bad children are taken
-            to the cave down there. 
-            
-            It's a place where Fezandipiti 
-            roosts during the summer.", MSGBOX_NPC)
+    msgbox("妈妈以前说，坏孩子会被抓到\n下面那个洞里去。\p那里是吉雉鸡\n夏天栖息的地方。", MSGBOX_NPC)
 }
 
 script Kitakami_WestSign {
-    msgbox("Kitakami Town - Timeless traditions", MSGBOX_SIGN)
+    msgbox("北上村 - 亘古不变的传统", MSGBOX_SIGN)
 }
 
 script Kitakami_WellSign {
-    msgbox("Old Well - Careful with the ladder!", MSGBOX_SIGN)
+    msgbox("老井 - 上下梯子请当心！", MSGBOX_SIGN)
 }

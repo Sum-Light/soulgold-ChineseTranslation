@@ -40,37 +40,37 @@ SSAqua_RoomNW_EventScript_Corey::
 
 
 SSAqua_RoomNW_Text_SailorStanlySeen:
-	.string "Yeah, I'm a sailor, all right.\p"
-	.string "I wasn't goofing off!\p"
-	.string "This cabin was vacant, so I\n"
-	.string "just took a quick nap!\p"
-	.string "Ah, forget it! Let's battle!$"
+	.string "没错，我是船员。\p我可没有偷懒！\p这间客房空着，\n我就稍微打了个盹！\p唉，算了！来对战吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SSAqua_RoomNW_Text_SailorStanlyBeaten:
-	.string "Sorry! It's all my fault!$"
+	.string "对不起！都是我的错！$"
 
 SSAqua_RoomNW_Text_SailorStanlyAfterBattle:
-	.string "Being a sailor, I have to do\n"
-	.string "physical labor. It's exhausting!$"
+	.string "当船员就得干体力活，\n真是累人！$"
+	.string ""
 
 SSAqua_RoomNW_Text_GentlemanEdwardSeen:
-	.string "Oh, no. I've lost something\n"
-	.string "that's very important.$"
+	.string "哎呀，糟了。我把一件\n很重要的东西弄丢了。$"
+	.string ""
 
 SSAqua_RoomNW_Text_GentlemanEdwardBeaten:
-	.string "I… I can't find it…$"
+	.string "我……我找不到……$"
 
 SSAqua_RoomNW_Text_GentlemanEdwardAfterBattle:
-	.string "I give up. You don't have to\n"
-	.string "look.\p"
-	.string "Just forget about it!$"
+	.string "算了，我放弃了。\n您不用帮我找了。\p就当没这回事吧！$"
+	.string ""
+	.string ""
 
 SSAqua_RoomNW_Text_BurglarCoreySeen:
-	.string "Yeehaw! Lucky!$"
+	.string "哟嗬！真走运！$"
 
 SSAqua_RoomNW_Text_BurglarCoreyBeaten:
-	.string "How unlucky! I lost!$"
+	.string "真倒霉！我输了！$"
 
 SSAqua_RoomNW_Text_BurglarCoreyAfterBattle:
-	.string "I found a pretty coin here.\p"
-	.string "Someone must have lost it…$"
+	.string "我在这里捡到了一枚\n漂亮的硬币。\p一定是有人掉在这儿的……$"
+	.string ""

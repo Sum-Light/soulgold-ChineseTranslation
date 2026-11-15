@@ -29,7 +29,4 @@ Lighthouse_Engineer::
 
 
 Lighthouse_Engineer_Text_0:
-	.string "Some Pokémon broke the ladder to the\n"
-	.string "top floor recently.\p"
-	.string "I'm trying to fix it, but it\n"
-	.string "will take some time.$"
+	.string "最近有宝可梦弄坏了\n通往顶层的梯子。\p我正在修，\n不过还得花些时间。$"

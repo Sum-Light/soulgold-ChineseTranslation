@@ -7,18 +7,14 @@ mapscripts Rinto_PoemonCenter_MapScripts {
 }
 
 script RintoPC_Gbakid1 {
-	msgbox("I wish I could fight against my friends
-			around the globe.", MSGBOX_NPC)
+	msgbox("真想和世界各地的朋友们\n一较高下啊。", MSGBOX_NPC)
 }
 
 script RintoPC_Battlegirl {
-	msgbox("The sandstorms make travelling into
-			this village difficult at times.", MSGBOX_NPC)	
+	msgbox("沙尘暴有时\n会让进出这座村庄变得困难。", MSGBOX_NPC)	
 }
 
 script RintoPC_Hiker {
-	msgbox("I heard that an unusual looking pair of
-			flying Pokémon have been spotted
-			nearby.", MSGBOX_NPC)
+	msgbox("听说最近有人在这一带\n看到了模样古怪的\l一对飞行宝可梦。", MSGBOX_NPC)
 }
 

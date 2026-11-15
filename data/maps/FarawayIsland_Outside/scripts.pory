@@ -3,14 +3,13 @@ mapscripts FarawayIsland_Outside_MapScripts {}
 script FarawayIslandSailor {
 	lock
 	faceplayer
-	msgbox("Do you want to head back to Olivine?", MSGBOX_YESNO)
+	msgbox("要回浅葱市去吗？", MSGBOX_YESNO)
 	if (var(VAR_RESULT) == NO) {
-		msgbox("Alright, I'll be waiting here.")
+		msgbox("好，我在这儿等着。")
 		release
 		end
 	}
-	msgbox("Aye, right!
-			Then sail home we will!")
+	msgbox("好嘞！\n那咱们就开船回家！")
 	closemessage
 	hidefollower
 	applymovement(VAR_LAST_TALKED, Common_Movement_WalkInPlaceFasterDown)

@@ -58,102 +58,102 @@ VioletCity_Gym_EventScript_Falkner_Defeated::
 	end
 
 VioletGym_Text_Falkner_Intro:
-	.string "I'm Falkner, the Violet Pokémon\n"
-	.string "Gym leader!\p"
-	.string "People say you can clip\n"
-	.string "Flying-type Pokémon's wings\p"
-	.string "with a jolt of electricity…\n"
-	.string "I won't allow such insults to bird\l"
-	.string "Pokémon!\p"
-	.string "I'll show you the real power\n"
-	.string "of the magnificent bird Pokémon!$"
+	.string "我是桔梗宝可梦\n道馆馆主阿速！\p人们说，飞行属性宝可梦\n的翅膀一电击就断……\p竟敢这样侮辱\n鸟宝可梦！\l我绝不原谅！\p就让你见识一下，\n华丽鸟宝可梦的真正实力！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 VioletGym_Text_Falkner_WinLoss:
-	.string "…Darn! My dad's cherished bird\n"
-	.string "Pokémon…\p"
-	.string "All right. Take this.\p"
-	.string "It's the official Pokémon League\n"
-	.string "Zephyrbadge.$"
+	.string "……可恶！爸爸心爱的\n鸟宝可梦……\p好吧，这个给你。\p这是宝可梦联盟公认的\n飞翼徽章。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 VioletGym_Text_ReceivedZephyrBadge:
-	.string "{PLAYER} received Zephyrbadge.$"
+	.string "{PLAYER}得到了飞翼徽章。$"
 
 VioletGym_Text_Falkner_BadgeExplain:
-	.string "Zephyrbadge allows Pokémon to\n"
-	.string "use Flash, if they can\l"
-	.string "learn it, anytime.\p"
-	.string "Here--take this too.$"
+	.string "持有飞翼徽章后，\n学会闪光的\l宝可梦随时都能使用它。\p这个也给你吧。$"
+	.string ""
+	.string ""
+	.string ""
 
 
 
 VioletGym_Text_Falkner_AfterFight:
-	.string "There are Pokémon Gyms in cities\n"
-	.string "and towns ahead.\p"
-	.string "You should test your skills at\n"
-	.string "these Gyms.\p"
-	.string "I'm going to train harder to\n"
-	.string "become the greatest bird master!$"
+	.string "前方的城镇里还有\n宝可梦道馆。\p就去那些道馆\n检验一下自己的实力吧。\p为了成为最强的鸟宝可梦大师，\n我还要继续刻苦修炼！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 VioletGym_Text_Falkner_Rematch:
-	.string "Congratulations on defeating\n"
-	.string "the Elite 4!\p"
-	.string "I've been training my\n"
-	.string "Flying-type Pokémon even harder.\p"
-	.string "Think you can take on the power\n"
-	.string "of the skies again?$"
+	.string "恭喜你战胜了\n四天王！\p我一直在更加刻苦地\n训练飞行属性宝可梦。\p想再挑战一次\n天空的力量吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 VioletGym_Text_Falkner_RematchLoss:
-	.string "Wow… You beat me again.\p"
-	.string "I'm going to train harder to\n"
-	.string "become the greatest bird master!$"
+	.string "哇……你又赢了我。\p为了成为最强的鸟宝可梦大师，\n我还要继续刻苦修炼！$"
+	.string ""
+	.string ""
 
 VioletGym_Text_BirdKeeperRod_Seen:
-	.string "The keyword is guts!\p"
-	.string "Those here are training night and\n"
-	.string "day to become bird Pokémon masters.\p"
-	.string "Come on!$"
+	.string "关键是毅力！\p这里的人为了成为最强的\n鸟宝可梦大师，日夜训练。\p来吧！$"
+	.string ""
+	.string ""
+	.string ""
 
 VioletGym_Text_BirdKeeperRod_Beaten:
-	.string "Gaaah!$"
+	.string "哇啊啊！$"
 
 VioletGym_Text_BirdKeeperRod_After:
-	.string "Falkner's skills are for real!\p"
-	.string "Don't get cocky just because\n"
-	.string "you beat me!$"
+	.string "阿速的实力是货真价实的！\p别因为赢了我\n就得意忘形！$"
+	.string ""
+	.string ""
 
 VioletGym_Text_BirdKeeperAbe_Seen:
-	.string "Let me see if you are good\n"
-	.string "enough to face Falkner!$"
+	.string "让我看看你有没有\n挑战阿速的实力！$"
+	.string ""
 
 VioletGym_Text_BirdKeeperAbe_Beaten:
-	.string "This can't be true!$"
+	.string "怎么可能！$"
 
 VioletGym_Text_BirdKeeperAbe_After:
-	.string "This is pathetic, losing to some\n"
-	.string "rookie trainer…$"
+	.string "竟然输给一个新手训练家，\n真丢人……$"
+	.string ""
 
 VioletGym_Text_GymGuide_Intro:
-	.string "Hey! What's up? I'm no trainer,\n"
-	.string "but I can give some advice!\p"
-	.string "Believe me! If you believe, a\n"
-	.string "championship dream can come true.\p"
-	.string "You believe? Then listen.\p"
-	.string "Falkner's ace is a bulky bird\n"
-	.string "that loves to eat Berries.\p"
-	.string "While it's not the strongest,\n"
-	.string "it can take a lot of hits.\p"
-	.string "You can hurt it with Electric \n"
-	.string "and Rock-type moves, but watch out\l"
-	.string "for Mud-Slap!\p"
-	.string "If you want more help, go visit the\n"
-	.string "Pokémon Academy.\p"
-	.string "The students there really know\n"
-	.string "their stuff!$"
+	.string "嘿！你好！我不是训练家，\n但我能给你点建议！\p相信我！只要心怀信念，\n冠军之梦就能实现。\p你信？那就听好。\p阿速的王牌是一只\n爱吃树果的结实鸟宝可梦。\p它虽然不是最强，\n却非常耐打。\p用电属性和岩石属性\n招式能伤到它，\l但要当心掷泥！\p想要更多帮助，就去\n宝可梦学院看看吧。\p那里的学生\n真的很有两下子！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 VioletGym_Text_GymGuide_Win:
-	.string "Nice battle! Keep it up,\n"
-	.string "and you'll be the Champ in no\l"
-	.string "time at all!$"
+	.string "打得漂亮！保持下去，\n你很快就能成为\l宝可梦冠军！$"
+	.string ""
+	.string ""
 
 VioletCity_Gym_EventScript_Statue::
 	lock
@@ -170,24 +170,15 @@ VioletCity_Gym_EventScript_Statue2::
 	end
 
 VioletCity_Gym_Text_GymStatue:
-	.string "Violet City Pokémon Gym$"
+	.string "桔梗市宝可梦道馆$"
 
 VioletCity_Gym_Text_GymStatueCertified:
-	.string "Violet City Pokémon Gym\p"
-	.string "Falkner's Certified Trainers:\n"
-	.string "{PLAYER}$"
+	.string "桔梗市宝可梦道馆\p阿速认证训练家：\n{PLAYER}$"
+	.string ""
+	.string ""
 
 `
 script violetExplainTm {
-	msgbox("Pokémon can learn new moves with TMs.
-			
-			This one contains Roost, which restores
-			HP to Flying-type Pokémon.
-			
-			You may use it as many times as you
-			want.
-			
-			Your next stop should be Azalea Town.
-			Good luck.")
+	msgbox("宝可梦可以通过招式学习器\n学会新招式。\p这里面装着羽栖，\n能让飞行属性宝可梦回复HP。\p这个可以反复使用，\n多少次都行。\p下一站该去桧皮镇了。\n祝你顺利。")
 	return
 }

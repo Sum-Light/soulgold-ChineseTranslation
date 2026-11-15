@@ -17,5 +17,4 @@ BasementSage::
 
 
 BasementSage_Text_0:
-	.string "Guarding Marshadow has been one of our\n"
-	.string "secret tasks for a very long time.$"
+	.string "守护玛夏多，是我们长久以来\n不为人知的使命。$"

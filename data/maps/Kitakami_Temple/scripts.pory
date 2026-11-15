@@ -2,14 +2,14 @@ mapscripts Kitakami_Temple_MapScripts {}
 
 script megaKickTrainer {
     lock
-    msgbox(format("No no, you don't get it, Mega Punch is the superior move!"))
+    msgbox(format("不对不对，你不明白，\n百万吨重拳才是更强的招式！"))
     release
     end
 }
 
 script megaPunchTrainer {
     lock
-    msgbox(format("Fool! Everyone knows Mega Kick is the true path to power!"))
+    msgbox(format("蠢货！谁都知道\n百万吨重踢才是力量的象征！"))
     release
     end
 }
@@ -17,10 +17,7 @@ script megaPunchTrainer {
 script DojoTourist {
     lock
     faceplayer
-    msgbox("The traditions here have been kept
-            alive for countless lifetimes.
-            
-            It is quite impressive!")
+    msgbox("这里的传统历经无数代传承，\n至今仍延续不绝。\p真是令人敬佩！")
     release
     end
 }
@@ -28,10 +25,7 @@ script DojoTourist {
 script DojoTrainee {
     lock
     faceplayer
-    msgbox("We offer paid courses for visitors. 
-
-            If you wish to grow stronger fast,
-            please consider supporting our temple.")
+    msgbox("我们也为来访者提供付费课程。\p若您想早日变强，\n还请资助本寺。")
     release
     end
 }
@@ -39,15 +33,11 @@ script DojoTrainee {
 script DojoTeacher {
     lock
     faceplayer
-    msgbox("Behind me is the practice room. 
-    
-            Take care not to disturb their
-            training.")
+    msgbox("我身后是练习室。\p请留神，不要打扰\n他们修行。")
     release
     end
 }
 
 script DojoTeacher2 {
-    msgbox("These doors lead to the sleeping 
-            quarters.", MSGBOX_NPC)
+    msgbox("这些门通往\n休息的厢房。", MSGBOX_NPC)
 }

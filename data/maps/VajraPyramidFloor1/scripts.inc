@@ -17,4 +17,4 @@ VajraPyramid1_Urn_2:
 
 
 VajraPyramid1_Urn_Text_0:
-	.string "The urn is empty.$"
+	.string "瓮里已经空了。$"

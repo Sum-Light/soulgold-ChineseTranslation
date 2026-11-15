@@ -34,17 +34,13 @@ FinalChamber_HoopaPrison_7:
 
 
 FinalChamber_HoopaPrison_Text_0:
-	.string "The contraption is empty.$"
+	.string "装置里面空无一物。$"
 
 FinalChamber_HoopaPrison_Text_1:
-	.string "Something seems to be sealed inside\n"
-	.string "this contraption. Release it?$"
+	.string "这装置里似乎封印着\n什么东西。要把它放出来吗？$"
 
 FinalChamber_HoopaPrison_Text_2:
-	.string "Something is at the bottom of the\n"
-	.string "now empty contraption.$"
+	.string "在已经空了的装置底部，\n似乎有什么东西。$"
 
 FinalChamber_HoopaPrison_Text_3:
-	.string "Mom did always warn about touching\n"
-	.string "strange objects found deep within\l"
-	.string "ancient pyramids.$"
+	.string "妈妈总是告诫我，\n不要碰在古老金字塔深处\l发现的奇怪东西。$"

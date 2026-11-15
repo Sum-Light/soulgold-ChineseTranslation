@@ -77,61 +77,61 @@ Gate_GoldenrodCity_Route35_EventScript_Fisher::
 	end
 
 Route35GoldenrodGate_Text_RandyAskFavor:
-	.string "Excuse me, kid! Can you do a guy\n"
-	.string "a favor?\p"
-	.string "Can you take this Pokémon with Mail\n"
-	.string "to my friend?\p"
-	.string "He's on Route 31.$"
+	.string "不好意思，小家伙！\n能帮老兄一个忙吗？\p能帮我把这只带着邮件的\n宝可梦送去给我朋友吗？\p他在31号道路。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route35GoldenrodGate_Text_RandyThanks:
-	.string "You will? Perfect! Thanks, kid!\p"
-	.string "My pal's a chubby guy who snoozes\n"
-	.string "all the time.\p"
-	.string "You'll recognize him right away!$"
+	.string "你愿意？太好了！谢谢你，小家伙！\p我朋友是个胖乎乎的家伙，\n整天都在打瞌睡。\p你一眼就能认出他！$"
+	.string ""
+	.string ""
+	.string ""
 
 Route35GoldenrodGate_Text_ReceivedMonWithMail:
-	.string "{PLAYER} received a Pokémon with Mail.$"
+	.string "{PLAYER}得到了一只\n带着邮件的宝可梦。$"
 
 Route35GoldenrodGate_Text_RandyWeirdTree:
-	.string "Make sure to put it at the front of\n"
-	.string "your team when you find my friend!\p"
-	.string "Route 31!\p"
-	.string "Oh, yeah. There was a weird tree\n"
-	.string "blocking the road.\p"
-	.string "I wonder if it's been cleared?$"
+	.string "找到我朋友时，记得把它\n放在队伍最前面！\p就在31号道路！\p对了，那边有棵奇怪的树\n把路挡住了。\p不知道现在清掉了没有？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route35GoldenrodGate_Text_CantCarryMoreMon:
-	.string "You can't carry another Pokémon…$"
+	.string "你不能再多带一只宝可梦了……$"
 
 Route35GoldenrodGate_Text_RandyNeverMind:
-	.string "Oh… Never mind, then…$"
+	.string "啊……那就算了吧……$"
 
 Route35GoldenrodGate_Text_ThanksForDelivery:
-	.string "Thanks, kid! You made the delivery\n"
-	.string "for me!\p"
-	.string "Here's something for your trouble!$"
+	.string "谢谢你，小家伙！\n你帮我送到了！\p这是给你的谢礼！$"
+	.string ""
+	.string ""
 
 Route35GoldenrodGate_Text_RandyMyPalSnoozing:
-	.string "My pal was snoozing, right? Heh,\n"
-	.string "what'd I say?$"
+	.string "我朋友在打瞌睡吧？嘿嘿，\n我没说错吧？$"
+	.string ""
 
 Route35GoldenrodGate_Text_PokefanF_TreeBlocking:
-	.string "A strange tree is blocking the road.\p"
-	.string "It wriggles around if you talk to it.\p"
-	.string "I heard it became wild when someone\n"
-	.string "watered it with a Squirtbottle.$"
+	.string "一棵奇怪的树把路挡住了。\p跟它说话，它就会扭来扭去。\p听说有人用杰尼龟喷壶\n给它浇了水，它就开始闹了。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route35GoldenrodGate_Text_PokefanF_Lullaby:
-	.string "I like the Pokémon Lullaby they play\n"
-	.string "on the radio.$"
+	.string "我喜欢收音机里放的\n宝可梦的摇篮曲。$"
+	.string ""
 
 Route35GoldenrodGate_Text_Fisher:
-	.string "I wonder how many kinds of Pokémon\n"
-	.string "there are in the world.\p"
-	.string "Three years ago, Prof. Oak said that\n"
-	.string "there were 150 different kinds.\p"
-	.string "But recently I heard there's\n"
-	.string "over 400!$"
+	.string "不知道这世上到底有\n多少种宝可梦。\p三年前，大木博士说\n一共有150种。\p可最近我听说，\n已经超过400种了！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route35GateGuard::
 	lock
@@ -151,11 +151,7 @@ Route35GateGuard_2:
 
 
 Route35GateGuard_Text_0:
-	.string "False Swipe deals damage, but never\n"
-	.string "KO's Pokémon.\p"
-	.string "It's really helpful for catching\n"
-	.string "Pokémon!$"
+	.string "点到为止会造成伤害，\n但绝不会打倒宝可梦。\p用来捕捉宝可梦，\n真的非常方便！$"
 
 Route35GateGuard_Text_1:
-	.string "Having trouble catching Pokémon?\n"
-	.string "Try using this.$"
+	.string "捕捉宝可梦遇到困难？\n试试这个吧。$"

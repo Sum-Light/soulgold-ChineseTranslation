@@ -318,5 +318,4 @@ MtMortarDepthsHeatran::
 
 
 heatranPuzzleHint_Text_0:
-	.string "Face of the heat,\n"
-	.string "wielder of the magma storm.$"
+	.string "炎热之颜，\n熔岩风暴的操纵者。$"

@@ -3,12 +3,12 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
     [ABILITY_NONE] =
     {
         .name = _("-------"),
-        .description = COMPOUND_STRING("No special ability."),
-        .longDescription = COMPOUND_STRING("No special ability.\n"
-                                           "                        \n"
-                                           "                        \n"
-                                           "                        \n"
-                                           "               "),
+        .description = COMPOUND_STRING("没有特性"),
+        .longDescription = COMPOUND_STRING("没有特殊的特性。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 0,
         .cantBeSwapped = TRUE,
         .cantBeTraced = TRUE,
@@ -16,229 +16,229 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_STENCH] =
     {
-        .name = _("Stench"),
-        .description = COMPOUND_STRING("May cause a foe to flinch."),
-        .longDescription = COMPOUND_STRING("Moves that deal damage\n"
-                                           "have a 10% flinch chance.\n"
-                                           "When first in the party,\n"
-                                           "wild encounter rate is\n"
-                                           "reduced by 50%."),
+        .name = _("恶臭"),
+        .description = COMPOUND_STRING("臭味有时会使对手畏缩"),
+        .longDescription = COMPOUND_STRING("攻击招式有10%的几率\n使对手畏缩。\n排在队伍首位时，\n野生宝可梦的遇敌率\n降低50%。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 1,
     },
 
     [ABILITY_DRIZZLE] =
     {
-        .name = _("Drizzle"),
-        .description = COMPOUND_STRING("Summons rain in battle."),
-        .longDescription = COMPOUND_STRING("Summons rain for 5 turns\n"
-                                           "when the Pokémon enters\n"
-                                           "a battle."),
+        .name = _("降雨"),
+        .description = COMPOUND_STRING("出场时，会将天气变为下雨"),
+        .longDescription = COMPOUND_STRING("出场时，会在5回合内\n将天气变为下雨。"
+                                           ""
+                                           ""),
         .aiRating = 9,
     },
 
     [ABILITY_SPEED_BOOST] =
     {
-        .name = _("Speed Boost"),
-        .description = COMPOUND_STRING("Gradually boosts Speed."),
-        .longDescription = COMPOUND_STRING("Boosts the Pokémon's\n"
-                                           "Speed stat by 1 stage at\n"
-                                           "the end of every turn."),
+        .name = _("加速"),
+        .description = COMPOUND_STRING("每一回合速度会变快"),
+        .longDescription = COMPOUND_STRING("每回合结束时，\n速度提高1级。"
+                                           ""
+                                           ""),
         .aiRating = 9,
     },
 
     [ABILITY_BATTLE_ARMOR] =
     {
-        .name = _("Battle Armor"),
-        .description = COMPOUND_STRING("Blocks critical hits."),
-        .longDescription = COMPOUND_STRING("Attacks landed on the\n"
-                                           "Pokémon will never be\n"
-                                           "critical hits."),
+        .name = _("战斗盔甲"),
+        .description = COMPOUND_STRING("不会被攻击击中要害"),
+        .longDescription = COMPOUND_STRING("受到的攻击\n不会击中要害。"
+                                           ""
+                                           ""),
         .aiRating = 2,
         .breakable = TRUE,
     },
 
     [ABILITY_STURDY] =
     {
-        .name = _("Sturdy"),
-        .description = COMPOUND_STRING("Negates 1-hit KO attacks."),
-        .longDescription = COMPOUND_STRING("If the Pokémon has full\n"
-                                           "HP and takes damage\n"
-                                           "from a move that would\n"
-                                           "knock it out in one hit,\n"
-                                           "it will endure the hit\n"
-                                           "with 1 HP"),
+        .name = _("结实"),
+        .description = COMPOUND_STRING("HP全满时不会被一击打倒"),
+        .longDescription = COMPOUND_STRING("HP全满时，即使受到\n会被一击打倒的招式\n伤害，也会留下1HP\n撑住。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
         .breakable = TRUE,
     },
 
     [ABILITY_DAMP] =
     {
-        .name = _("Damp"),
-        .description = COMPOUND_STRING("Prevents self-destruction."),
-        .longDescription = COMPOUND_STRING("All Pokémon become\n"
-                                           "unable to use explosive\n"
-                                           "moves or Abilities."),
+        .name = _("湿气"),
+        .description = COMPOUND_STRING("双方无法使用爆炸类的招式"),
+        .longDescription = COMPOUND_STRING("所有宝可梦都无法使出\n爆炸类的招式或特性。"
+                                           ""
+                                           ""),
         .aiRating = 2,
         .breakable = TRUE,
     },
 
     [ABILITY_LIMBER] =
     {
-        .name = _("Limber"),
-        .description = COMPOUND_STRING("Prevents paralysis."),
-        .longDescription = COMPOUND_STRING("The Pokémon's limber\n"
-                                           "body prevents it from\n"
-                                           "being paralyzed."),
+        .name = _("柔软"),
+        .description = COMPOUND_STRING("不会变为麻痹状态"),
+        .longDescription = COMPOUND_STRING("因为身体柔软，\n不会陷入麻痹状态。"
+                                           ""
+                                           ""),
         .aiRating = 3,
         .breakable = TRUE,
     },
 
     [ABILITY_SAND_VEIL] =
     {
-        .name = _("Sand Veil"),
-        .description = COMPOUND_STRING("Ups evasion in a sandstorm."),
-        .longDescription = COMPOUND_STRING("Boosts the Pokémon's\n"
-                                           "evasiveness by 25% in a\n"
-                                           "sandstorm. Reduces wild\n"
-                                           "encounter rate by 50%\n"
-                                           "when first in the party."),
+        .name = _("沙隐"),
+        .description = COMPOUND_STRING("沙暴时，闪避率会提高"),
+        .longDescription = COMPOUND_STRING("沙暴时，闪避率\n提高25%。\n排在队伍首位时，\n野生宝可梦的遇敌率\n降低50%。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 3,
         .breakable = TRUE,
     },
 
     [ABILITY_STATIC] =
     {
-        .name = _("Static"),
-        .description = COMPOUND_STRING("Paralyzes on contact."),
-        .longDescription = COMPOUND_STRING("Contact has a 30% chance\n"
-                                           "to paralyze the attacker.\n"
-                                           "When first in the party,\n"
-                                           "Electric Pokemon appear\n"
-                                           "more often."),
+        .name = _("静电"),
+        .description = COMPOUND_STRING("有时会让接触的对手麻痹"),
+        .longDescription = COMPOUND_STRING("接触到自己的对手有\n30%的几率陷入麻痹。\n排在队伍首位时，\n更容易遇到电属性的\n宝可梦。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_VOLT_ABSORB] =
     {
-        .name = _("Volt Absorb"),
-        .description = COMPOUND_STRING("Turns electricity into HP."),
-        .longDescription = COMPOUND_STRING("Electric-type moves do\n"
-                                           "not work on the Pokémon.\n"
-                                           "Instead, they restore\n"
-                                           "1/4 of its max HP."),
+        .name = _("蓄电"),
+        .description = COMPOUND_STRING("受到电属性攻击时会回复"),
+        .longDescription = COMPOUND_STRING("电属性的招式无效，\n反而会回复最大HP的\n1/4。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_WATER_ABSORB] =
     {
-        .name = _("Water Absorb"),
-        .description = COMPOUND_STRING("Changes water into HP."),
-        .longDescription = COMPOUND_STRING("Water-type moves do\n"
-                                           "not work on the Pokémon.\n"
-                                           "Instead, they restore\n"
-                                           "1/4 of its max HP."),
+        .name = _("储水"),
+        .description = COMPOUND_STRING("受到水属性攻击时会回复"),
+        .longDescription = COMPOUND_STRING("水属性的招式无效，\n反而会回复最大HP的\n1/4。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_OBLIVIOUS] =
     {
-        .name = _("Oblivious"),
-        .description = COMPOUND_STRING("Prevents attraction."),
-        .longDescription = COMPOUND_STRING("Not affected by Taunt,\n"
-                                           "Infatuation, or\n"
-                                           "Intimidate."),
+        .name = _("迟钝"),
+        .description = COMPOUND_STRING("不会因着迷挑衅威吓动摇"),
+        .longDescription = COMPOUND_STRING("不会受到挑衅、着迷\n和威吓的影响。"
+                                           ""
+                                           ""),
         .aiRating = 2,
         .breakable = TRUE,
     },
 
     [ABILITY_CLOUD_NINE] =
     {
-        .name = _("Cloud Nine"),
-        .description = COMPOUND_STRING("Negates weather effects."),
-        .longDescription = COMPOUND_STRING("Eliminates the effects\n"
-                                           "of weather."),
+        .name = _("无关天气"),
+        .description = COMPOUND_STRING("任何天气的影响都会消失"),
+        .longDescription = COMPOUND_STRING("天气的影响会消失。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_COMPOUND_EYES] =
     {
-        .name = _("Compound Eyes"),
-        .description = COMPOUND_STRING("Raises accuracy."),
-        .longDescription = COMPOUND_STRING("Boosts the accuracy of\n"
-                                           "the Pokémon's moves\n"
-                                           "by 30%."),
+        .name = _("复眼"),
+        .description = COMPOUND_STRING("招式的命中率会提高"),
+        .longDescription = COMPOUND_STRING("招式的命中率\n提高30%。"
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_INSOMNIA] =
     {
-        .name = _("Insomnia"),
-        .description = COMPOUND_STRING("Prevents sleep."),
-        .longDescription = COMPOUND_STRING("The Pokémon cannot\n"
-                                           "become drowsy or be\n"
-                                           "put to sleep."),
+        .name = _("不眠"),
+        .description = COMPOUND_STRING("不会陷入睡眠状态"),
+        .longDescription = COMPOUND_STRING("不会陷入瞌睡\n或睡眠状态。"
+                                           ""
+                                           ""),
         .aiRating = 4,
         .breakable = TRUE,
     },
 
     [ABILITY_COLOR_CHANGE] =
     {
-        .name = _("Color Change"),
-        .description = COMPOUND_STRING("Changes type to foe's move."),
-        .longDescription = COMPOUND_STRING("The Pokémon's type\n"
-                                           "becomes the type of the\n"
-                                           "move used on it."),
+        .name = _("变色"),
+        .description = COMPOUND_STRING("属性会变为对手招式的属性"),
+        .longDescription = COMPOUND_STRING("自己的属性会变为\n所受招式的属性。"
+                                           ""
+                                           ""),
         .aiRating = 2,
     },
 
     [ABILITY_IMMUNITY] =
     {
-        .name = _("Immunity"),
-        .description = COMPOUND_STRING("Prevents poisoning."),
-        .longDescription = COMPOUND_STRING("The Pokémon cannot be\n"
-                                           "poisoned or\n"
-                                           "badly poisoned."),
+        .name = _("免疫"),
+        .description = COMPOUND_STRING("不会变为中毒状态"),
+        .longDescription = COMPOUND_STRING("不会陷入中毒\n或剧毒状态。"
+                                           ""
+                                           ""),
         .aiRating = 4,
         .breakable = TRUE,
     },
 
     [ABILITY_FLASH_FIRE] =
     {
-        .name = _("Flash Fire"),
-        .description = COMPOUND_STRING("Powers up if hit by fire."),
-        .longDescription = COMPOUND_STRING("Absorbs Fire-type moves\n"
-                                           "to boost own Fire moves\n"
-                                           "by 50%. When first in\n"
-                                           "party, Fire Pokemon\n"
-                                           "appear more often."),
+        .name = _("引火"),
+        .description = COMPOUND_STRING("受火属性攻击会强化火招式"),
+        .longDescription = COMPOUND_STRING("吸收火属性招式，使自己\n的火属性招式威力提高\n50%。排在队伍首位时，\n更容易遇到火属性的\n宝可梦。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
         .breakable = TRUE,
     },
 
     [ABILITY_SHIELD_DUST] =
     {
-        .name = _("Shield Dust"),
-        .description = COMPOUND_STRING("Prevents added effects."),
-        .longDescription = COMPOUND_STRING("The Pokémon is immune to\n"
-                                           "additional effects\n"
-                                           "from attacks."),
+        .name = _("鳞粉"),
+        .description = COMPOUND_STRING("不会受到招式追加效果影响"),
+        .longDescription = COMPOUND_STRING("不会受到攻击招式的\n追加效果影响。"
+                                           ""
+                                           ""),
         .aiRating = 5,
         .breakable = TRUE,
     },
 
     [ABILITY_OWN_TEMPO] =
     {
-        .name = _("Own Tempo"),
-        .description = COMPOUND_STRING("Prevents confusion."),
-        .longDescription = COMPOUND_STRING("The Pokémon cannot\n"
+        .name = _("我行我素"),
+        .description = COMPOUND_STRING("不会被混乱或威吓"),
+        .longDescription = COMPOUND_STRING("不会陷入"
                                            #if B_UPDATED_INTIMIDATE < GEN_8
-                                           "become confused."),
+                                           "混乱状态。"),
                                            #else
-                                           "become confused and is\n"
-                                           "unaffected by\n"
-                                           "Intimidate."),
+                                           "混乱状态，\n"
+                                           "也不会受到"
+                                           "威吓的影响。"),
                                            #endif
         .aiRating = 3,
         .breakable = TRUE,
@@ -246,65 +246,65 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_SUCTION_CUPS] =
     {
-        .name = _("Suction Cups"),
-        .description = COMPOUND_STRING("Firmly anchors the body."),
-        .longDescription = COMPOUND_STRING("Cannot be forced to\n"
-                                           "switch out. When first\n"
-                                           "in party, increases the\n"
-                                           "chance of fishing bites."),
+        .name = _("吸盘"),
+        .description = COMPOUND_STRING("让替换宝可梦的招式无效"),
+        .longDescription = COMPOUND_STRING("不会被强制替换下场。\n排在队伍首位时，\n钓鱼时宝可梦更容易\n上钩。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 2,
         .breakable = TRUE,
     },
 
     [ABILITY_INTIMIDATE] =
     {
-        .name = _("Intimidate"),
-        .description = COMPOUND_STRING("Lowers the foe's Attack."),
-        .longDescription = COMPOUND_STRING("When entering a battle,\n"
-                                           "lowers the Attack of\n"
-                                           "opponents by 1 stage.\n"
-                                           "Reduces wild encounters\n"
-                                           "5 levels or lower by 50%\n"
-                                           "when first in the party."),
+        .name = _("威吓"),
+        .description = COMPOUND_STRING("出场时降低对手的攻击"),
+        .longDescription = COMPOUND_STRING("出场时，对手的攻击\n降低1级。\n排在队伍首位时，\n比自己低5级以上的\n野生宝可梦的遇敌率\n降低50%。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_SHADOW_TAG] =
     {
-        .name = _("Shadow Tag"),
-        .description = COMPOUND_STRING("Prevents the foe's escape."),
-        .longDescription = COMPOUND_STRING("Opponents cannot switch\n"
-                                           "out of battle. Does not\n"
+        .name = _("踩影"),
+        .description = COMPOUND_STRING("使对手无法逃走或替换"),
+        .longDescription = COMPOUND_STRING("对手无法替换宝可梦。\n"
+                                           ""
                                            #if B_SHADOW_TAG_ESCAPE < GEN_4
-                                           "affect Ghost Pokémon."),
+                                           "对幽灵属性宝可梦无效。"),
                                            #else
-                                           "affect Ghost Pokémon.\n"
-                                           "Negated if opponents\n"
-                                           "also have Shadow Tag."),
+                                           "对幽灵属性宝可梦无效。\n"
+                                           "对手也拥有踩影特性时\n"
+                                           "该效果无效。"),
                                            #endif
         .aiRating = 10,
     },
 
     [ABILITY_ROUGH_SKIN] =
     {
-        .name = _("Rough Skin"),
-        .description = COMPOUND_STRING("Hurts to touch."),
-        .longDescription = COMPOUND_STRING("When the Pokémon is hit\n"
-                                           "by a contact move, the\n"
-                                           "attacker takes damage\n"
-                                           "equal to 1/8 of its\n"
-                                           "max HP."),
+        .name = _("粗糙皮肤"),
+        .description = COMPOUND_STRING("受到攻击时弄伤接触的对手"),
+        .longDescription = COMPOUND_STRING("受到接触类招式攻击时，\n对手会受到其最大HP\n1/8的伤害。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_WONDER_GUARD] =
     {
-        .name = _("Wonder Guard"),
-        .description = COMPOUND_STRING("Only “Supereffective” hits."),
-        .longDescription = COMPOUND_STRING("Moves can only deal\n"
-                                           "Supereffective damage.\n"
-                                           "Indirect damage is\n"
-                                           "unaffected."),
+        .name = _("神奇守护"),
+        .description = COMPOUND_STRING("只有效果绝佳招式才能击中"),
+        .longDescription = COMPOUND_STRING("只有效果绝佳的招式\n才能造成伤害。\n间接伤害不受此限。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 10,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -313,93 +313,93 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_LEVITATE] =
     {
-        .name = _("Levitate"),
-        .description = COMPOUND_STRING("Not hit by Ground attacks."),
-        .longDescription = COMPOUND_STRING("The Pokémon is immune to\n"
-                                           "Ground-type moves, as\n"
-                                           "well as the Spikes,\n"
-                                           "Toxic Spikes, and\n"
-                                           "Sticky Web statuses."),
+        .name = _("飘浮"),
+        .description = COMPOUND_STRING("不会受地面属性招式攻击"),
+        .longDescription = COMPOUND_STRING("不会受到地面属性招式\n以及撒菱、毒菱、\n黏黏网的影响。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_EFFECT_SPORE] =
     {
-        .name = _("Effect Spore"),
-        .description = COMPOUND_STRING("Leaves spores on contact."),
-        .longDescription = COMPOUND_STRING("When hit by a move that\n"
+        .name = _("孢子"),
+        .description = COMPOUND_STRING("有时会使接触的对手异常"),
+        .longDescription = COMPOUND_STRING("受到接触类招式攻击时，\n"
                                            #if B_ABILITY_TRIGGER_CHANCE < GEN_4
-                                           "makes contact, has a 33%\n"
+                                           "有33%的几率使对手\n"
                                            #else
-                                           "makes contact, has a 30%\n"
+                                           "有30%的几率使对手\n"
                                            #endif
-                                           "chance to inflict\n"
-                                           "poison, sleep,\n"
-                                           "or paralysis."),
+                                           "陷入中毒、睡眠\n或麻痹状态。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_SYNCHRONIZE] =
     {
-        .name = _("Synchronize"),
-        .description = COMPOUND_STRING("Passes on status problems."),
-        .longDescription = COMPOUND_STRING("Copies paralysis, poison,\n"
-                                           "or burn statuses onto\n"
-                                           "the Pokémon inflicting\n"
-                                           "them. When first in the\n"
-                                           "party, wild pokemon will\n"
-                                           "have a matching nature."),
+        .name = _("同步"),
+        .description = COMPOUND_STRING("将自己异常状态传染给对手"),
+        .longDescription = COMPOUND_STRING("陷入麻痹、中毒或灼伤\n时，让造成该状态的对手\n陷入相同状态。\n排在队伍首位时，野生\n宝可梦的性格会与自己\n相同。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_CLEAR_BODY] =
     {
-        .name = _("Clear Body"),
-        .description = COMPOUND_STRING("Prevents ability reduction."),
-        .longDescription = COMPOUND_STRING("The Pokémon's stats\n"
-                                           "cannot be lowered by\n"
-                                           "other Pokémon's moves or\n"
-                                           "Abilities."),
+        .name = _("恒净之躯"),
+        .description = COMPOUND_STRING("不会因为对手而被降低能力"),
+        .longDescription = COMPOUND_STRING("不会因其他宝可梦的\n招式或特性而被降低\n能力。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 4,
         .breakable = TRUE,
     },
 
     [ABILITY_NATURAL_CURE] =
     {
-        .name = _("Natural Cure"),
-        .description = COMPOUND_STRING("Heals upon switching out."),
-        .longDescription = COMPOUND_STRING("The Pokémon's status\n"
-                                           "conditions are cured\n"
-                                           "when it switches out of\n"
-                                           "battle."),
+        .name = _("自然回复"),
+        .description = COMPOUND_STRING("被换下后治愈异常状态"),
+        .longDescription = COMPOUND_STRING("替换下场时，\n异常状态会被治愈。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_LIGHTNING_ROD] =
     {
-        .name = _("Lightning Rod"),
-        .description = COMPOUND_STRING("Draws electrical moves."),
-        .longDescription = COMPOUND_STRING("Draws Electric moves to\n"
-                                           "raise Sp. Atk by 1 stage.\n"
-                                           "When first in the party,\n"
-                                           "Electric Pokemon appear\n"
-                                           "more often."),
+        .name = _("避雷针"),
+        .description = COMPOUND_STRING("吸引免疫电招式并提高特攻"),
+        .longDescription = COMPOUND_STRING("吸引电属性招式，\n使特攻提高1级。\n排在队伍首位时，\n更容易遇到电属性的\n宝可梦。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_SERENE_GRACE] =
     {
-        .name = _("Serene Grace"),
-        .description = COMPOUND_STRING("Promotes added effects."),
-        .longDescription = COMPOUND_STRING("Doubles the likelihood\n"
-                                           "of additional effects\n"
-                                           "occurring when the\n"
-                                           "Pokémon uses its moves."
+        .name = _("天恩"),
+        .description = COMPOUND_STRING("招式的追加效果容易出现"),
+        .longDescription = COMPOUND_STRING("自己使出招式时，\n追加效果的出现几率\n变为2倍。"
+                                           ""
+                                           ""
+                                           ""
                                            #if B_SERENE_GRACE_BOOST < GEN_5
-                                           "\nKing's Rock and Razor\n"
-                                           "Fang are excluded."
+                                           "\n王者之证和锐利之牙\n的效果除外。"
+                                           ""
                                            #endif
                                            ),
         .aiRating = 8,
@@ -407,44 +407,44 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_SWIFT_SWIM] =
     {
-        .name = _("Swift Swim"),
-        .description = COMPOUND_STRING("Raises Speed in rain."),
-        .longDescription = COMPOUND_STRING("Doubles the Pokémon's\n"
-                                           "Speed stat in rain."),
+        .name = _("悠游自如"),
+        .description = COMPOUND_STRING("下雨天气时，速度会提高"),
+        .longDescription = COMPOUND_STRING("下雨时，\n速度变为2倍。"
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_CHLOROPHYLL] =
     {
-        .name = _("Chlorophyll"),
-        .description = COMPOUND_STRING("Raises Speed in sunshine."),
-        .longDescription = COMPOUND_STRING("Doubles the Pokémon's\n"
-                                           "Speed stat in harsh\n"
-                                           "sunlight."),
+        .name = _("叶绿素"),
+        .description = COMPOUND_STRING("晴天时，速度会提高"),
+        .longDescription = COMPOUND_STRING("晴天时，\n速度变为2倍。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_ILLUMINATE] =
     {
-        .name = _("Illuminate"),
-        .description = COMPOUND_STRING("Encounter rate increases."),
-        .longDescription = COMPOUND_STRING("Doubles wild encounter\n"
-                                           "rate. In battle, ignores\n"
-                                           "foes' evasion and blocks\n"
-                                           "accuracy drops."),
+        .name = _("发光"),
+        .description = COMPOUND_STRING("命中率不会被降低"),
+        .longDescription = COMPOUND_STRING("野生宝可梦的遇敌率\n变为2倍。战斗中无视\n对手的闪避率变化，\n且命中率不会被降低。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 0,
         .breakable = TRUE,
     },
 
     [ABILITY_TRACE] =
     {
-        .name = _("Trace"),
-        .description = COMPOUND_STRING("Copies special ability."),
-        .longDescription = COMPOUND_STRING("When the Pokémon enters\n"
-                                           "a battle, it changes its \n"
-                                           "Ability to match that of\n"
-                                           "an opponent with some\n"
-                                           "exceptions."),
+        .name = _("复制"),
+        .description = COMPOUND_STRING("出场时，复制对手的特性"),
+        .longDescription = COMPOUND_STRING("出场时，将自己的特性\n变为与对手相同的特性。\n部分特性除外。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
         .cantBeCopied = TRUE,
         .cantBeTraced = TRUE, //B_UPDATED_ABILITY_DATA >= GEN_4
@@ -452,41 +452,41 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_HUGE_POWER] =
     {
-        .name = _("Huge Power"),
-        .description = COMPOUND_STRING("Raises Attack."),
-        .longDescription = COMPOUND_STRING("Doubles the power of\n"
-                                           "the Pokémon's physical\n"
-                                           "moves.\n"),
+        .name = _("大力士"),
+        .description = COMPOUND_STRING("物理攻击的威力会变为2倍"),
+        .longDescription = COMPOUND_STRING("物理招式的威力\n变为2倍。"
+                                           ""
+                                           ""),
         .aiRating = 10,
     },
 
     [ABILITY_POISON_POINT] =
     {
-        .name = _("Poison Point"),
-        .description = COMPOUND_STRING("Poisons foe on contact."),
-        .longDescription = COMPOUND_STRING("When the Pokémon is hit\n"
-                                           "by a contact move,\n"
+        .name = _("毒刺"),
+        .description = COMPOUND_STRING("有时会让接触到的对手中毒"),
+        .longDescription = COMPOUND_STRING("受到接触类招式攻击时，\n"
+                                           ""
                                            #if B_ABILITY_TRIGGER_CHANCE < GEN_4
-                                           "the attacker has a 33%\n"
+                                           "对手有33%的几率\n"
                                            #else
-                                           "the attacker has a 30%\n"
+                                           "对手有30%的几率\n"
                                            #endif
-                                           "chance of being\n"
-                                           "poisoned."),
+                                           "陷入中毒状态。"
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_INNER_FOCUS] =
     {
-        .name = _("Inner Focus"),
-        .description = COMPOUND_STRING("Prevents flinching."),
-        .longDescription = COMPOUND_STRING("The Pokémon never\n"
+        .name = _("精神力"),
+        .description = COMPOUND_STRING("不会畏缩或被威吓影响"),
+        .longDescription = COMPOUND_STRING("受到攻击时\n"
                                            #if B_UPDATED_INTIMIDATE < GEN_8
-                                           "flinches when attacked.),"
+                                           "不会畏缩。"),
                                            #else
-                                           "flinches when attacked\n"
-                                           "and is unaffected by\n"
-                                           "Intimidate."),
+                                           "不会畏缩，\n也不会受到威吓的影响。"
+                                           ""
+                                           ""),
                                            #endif
 
         .aiRating = 2,
@@ -495,219 +495,219 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_MAGMA_ARMOR] =
     {
-        .name = _("Magma Armor"),
-        .description = COMPOUND_STRING("Prevents freezing."),
-        .longDescription = COMPOUND_STRING("Prevents freezing. Eggs\n"
-                                           "hatch faster while this\n"
-                                           "Pokemon is in the party."),
+        .name = _("熔岩铠甲"),
+        .description = COMPOUND_STRING("不会变为冰冻状态"),
+        .longDescription = COMPOUND_STRING("不会陷入冰冻状态。\n在队伍中时，\n蛋会更快孵化。"
+                                           ""
+                                           ""),
         .aiRating = 1,
         .breakable = TRUE,
     },
 
     [ABILITY_WATER_VEIL] =
     {
-        .name = _("Water Veil"),
-        .description = COMPOUND_STRING("Prevents burns."),
-        .longDescription = COMPOUND_STRING("The Pokémon's water veil\n"
-                                           "prevents it from being\n"
-                                           "burned."),
+        .name = _("水幕"),
+        .description = COMPOUND_STRING("不会变为灼伤状态"),
+        .longDescription = COMPOUND_STRING("因为有水幕包裹，\n不会陷入灼伤状态。"
+                                           ""
+                                           ""),
         .aiRating = 4,
         .breakable = TRUE,
     },
 
     [ABILITY_MAGNET_PULL] =
     {
-        .name = _("Magnet Pull"),
-        .description = COMPOUND_STRING("Traps Steel-type Pokémon."),
-        .longDescription = COMPOUND_STRING("Prevents adjacent\n"
-                                           "Steel-type foes from\n"
-                                           "fleeing or switching.\n"
-                                           "In the lead party slot,\n"
-                                           "Steel Pokemon appear\n"
-                                           "more often."),
+        .name = _("磁力"),
+        .description = COMPOUND_STRING("使钢属性宝可梦无法逃走"),
+        .longDescription = COMPOUND_STRING("让相邻的钢属性对手\n无法逃走或替换。\n排在队伍首位时，\n更容易遇到钢属性的\n宝可梦。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 9,
     },
 
     [ABILITY_SOUNDPROOF] =
     {
-        .name = _("Soundproof"),
-        .description = COMPOUND_STRING("Avoids sound-based moves."),
-        .longDescription = COMPOUND_STRING("The Pokémon is immune to\n"
-                                           "sound-based moves."),
+        .name = _("隔音"),
+        .description = COMPOUND_STRING("不受到声音招式的影响"),
+        .longDescription = COMPOUND_STRING("不会受到声音类招式\n的影响。"
+                                           ""),
         .aiRating = 4,
         .breakable = TRUE,
     },
 
     [ABILITY_RAIN_DISH] =
     {
-        .name = _("Rain Dish"),
-        .description = COMPOUND_STRING("Slight HP recovery in rain."),
-        .longDescription = COMPOUND_STRING("Restores 1/16 max HP\n"
-                                           "at the end of each turn\n"
-                                           "while rain is active."),
+        .name = _("雨盘"),
+        .description = COMPOUND_STRING("下雨天气时，缓缓回复HP"),
+        .longDescription = COMPOUND_STRING("下雨时，每回合结束时\n回复最大HP的1/16。"
+                                           ""
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_SAND_STREAM] =
     {
-        .name = _("Sand Stream"),
-        .description = COMPOUND_STRING("Summons a sandstorm."),
-        .longDescription = COMPOUND_STRING("Summons a sandstorm for\n"
-                                           "5 turns when the Pokémon\n"
-                                           "enters a battle."),
+        .name = _("扬沙"),
+        .description = COMPOUND_STRING("出场时，会把天气变为沙暴"),
+        .longDescription = COMPOUND_STRING("出场时，会在5回合内\n将天气变为沙暴。"
+                                           ""
+                                           ""),
         .aiRating = 9,
     },
 
     [ABILITY_PRESSURE] =
     {
-        .name = _("Pressure"),
-        .description = COMPOUND_STRING("Raises foe's PP usage."),
-        .longDescription = COMPOUND_STRING("Opponents use 2 PP per\n"
-                                           "move used against the\n"
-                                           "Pokémon instead of 1."),
+        .name = _("压迫感"),
+        .description = COMPOUND_STRING("减少对手使用招式的PP"),
+        .longDescription = COMPOUND_STRING("对手向自己使出招式时，\n消耗的PP由1变为2。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_THICK_FAT] =
     {
-        .name = _("Thick Fat"),
-        .description = COMPOUND_STRING("Heat-and-cold protection."),
-        .longDescription = COMPOUND_STRING("Halves the damage taken\n"
-                                           "from Fire-type and\n"
-                                           "Ice-type moves."),
+        .name = _("厚脂肪"),
+        .description = COMPOUND_STRING("使火冰属性的招式伤害减半"),
+        .longDescription = COMPOUND_STRING("受到火属性和冰属性\n招式的伤害减半。"
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_EARLY_BIRD] =
     {
-        .name = _("Early Bird"),
-        .description = COMPOUND_STRING("Awakens quickly from sleep."),
-        .longDescription = COMPOUND_STRING("The Pokémon recovers\n"
-                                           "from sleep in half the\n"
-                                           "usual number of turns."),
+        .name = _("早起"),
+        .description = COMPOUND_STRING("睡眠时会提早醒来"),
+        .longDescription = COMPOUND_STRING("从睡眠中醒来所需的\n回合数减半。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_FLAME_BODY] =
     {
-        .name = _("Flame Body"),
-        .description = COMPOUND_STRING("Burns the foe on contact."),
-        .longDescription = COMPOUND_STRING("Contact with the Pokemon\n"
-                                           "has a 30% chance to burn.\n"
-                                           "Eggs hatch faster while\n"
-                                           "this Pokemon is in the\n"
-                                           "party."),
+        .name = _("火焰之躯"),
+        .description = COMPOUND_STRING("有时会让接触的对手灼伤"),
+        .longDescription = COMPOUND_STRING("接触到自己的对手有\n30%的几率陷入灼伤。\n在队伍中时，\n蛋会更快孵化。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_RUN_AWAY] =
     {
-        .name = _("Run Away"),
-        .description = COMPOUND_STRING("Makes escaping easier."),
-        .longDescription = COMPOUND_STRING("The Pokémon can always\n"
-                                           "flee from wild battles,\n"
-                                           "even when trapped."),
+        .name = _("逃跑"),
+        .description = COMPOUND_STRING("野生宝可梦面前一定能逃走"),
+        .longDescription = COMPOUND_STRING("与野生宝可梦战斗时，\n即使处于无法逃走的\n状态也一定能逃走。"
+                                           ""
+                                           ""),
         .aiRating = 0,
     },
 
     [ABILITY_KEEN_EYE] =
     {
-        .name = _("Keen Eye"),
-        .description = COMPOUND_STRING("Prevents loss of accuracy."),
-        .longDescription = COMPOUND_STRING("Prevents loss of\n"
-                                           "accuracy. Additionally Boosts\n"
-                                           "the accuracy of the Pokémon's\n"
-                                           "moves by 30%."),
+        .name = _("锐利目光"),
+        .description = COMPOUND_STRING("命中率不会被降低"),
+        .longDescription = COMPOUND_STRING("命中率不会被降低。\n此外，招式的命中率\n提高30%。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 1,
         .breakable = TRUE,
     },
 
     [ABILITY_HYPER_CUTTER] =
     {
-        .name = _("Hyper Cutter"),
-        .description = COMPOUND_STRING("Prevents Attack reduction."),
-        .longDescription = COMPOUND_STRING("Attack cannot be lowered\n"
-                                           "by other Pokemon's moves\n"
-                                           "or Abilities."),
+        .name = _("怪力钳"),
+        .description = COMPOUND_STRING("不会被对手降低攻击"),
+        .longDescription = COMPOUND_STRING("不会因其他宝可梦的\n招式或特性而被降低\n攻击。"
+                                           ""
+                                           ""),
         .aiRating = 3,
         .breakable = TRUE,
     },
 
     [ABILITY_PICKUP] =
     {
-        .name = _("Pickup"),
-        .description = COMPOUND_STRING("May pick up items."),
-        .longDescription = COMPOUND_STRING("May pick up an item\n"
-                                           "after battle if not\n"
-                                           "already holding one.\n"
-                                           "Can also recover own held\n"
-                                           "item after it has been used."),
+        .name = _("捡拾"),
+        .description = COMPOUND_STRING("有时会捡来对手用过的道具"),
+        .longDescription = COMPOUND_STRING("没有携带道具时，战斗\n结束后有时会捡到道具。\n还能捡回自己用掉的\n携带道具。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 1,
     },
 
     [ABILITY_TRUANT] =
     {
-        .name = _("Truant"),
-        .description = COMPOUND_STRING("Moves only every two turns."),
-        .longDescription = COMPOUND_STRING("Every other turn, the\n"
-                                           "Pokemon loafs around\n"
-                                           "instead of using a move."),
+        .name = _("懒惰"),
+        .description = COMPOUND_STRING("每隔一回合就会休息"),
+        .longDescription = COMPOUND_STRING("每隔1回合就会偷懒，\n无法使出招式。"
+                                           ""
+                                           ""),
         .aiRating = -2,
         .cantBeOverwritten = TRUE,
     },
 
     [ABILITY_HUSTLE] =
     {
-        .name = _("Hustle"),
-        .description = COMPOUND_STRING("Trades accuracy for power."),
-        .longDescription = COMPOUND_STRING("Physical moves deal 50%\n"
-                                           "more damage, but their\n"
-                                           "accuracy is reduced to\n"
-                                           "80%."),
+        .name = _("活力"),
+        .description = COMPOUND_STRING("攻击变高，但命中率会降低"),
+        .longDescription = COMPOUND_STRING("物理招式的伤害提高\n50%，但命中率会\n降至80%。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_CUTE_CHARM] =
     {
-        .name = _("Cute Charm"),
-        .description = COMPOUND_STRING("Infatuates on contact."),
-        .longDescription = COMPOUND_STRING("When hit by a contact\n"
-                                           "move, has a 30% chance\n"
-                                           "of infatuating an\n"
-                                           "opposite-gender\n"
-                                           "attacker."),
+        .name = _("迷人之躯"),
+        .description = COMPOUND_STRING("有时会让接触到的对手着迷"),
+        .longDescription = COMPOUND_STRING("受到接触类招式攻击时，\n有30%的几率让性别\n不同的对手着迷。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 2,
     },
 
     [ABILITY_PLUS] =
     {
-        .name = _("Plus"),
-        .description = COMPOUND_STRING("Powers up with Minus."),
-        .longDescription = COMPOUND_STRING("Raises Sp. Atk by 50%\n"
-                                           "if an ally in battle\n"
-                                           "has Plus or Minus."),
+        .name = _("正电"),
+        .description = COMPOUND_STRING("同伴正负电可提高特攻"),
+        .longDescription = COMPOUND_STRING("场上的同伴拥有正电\n或负电特性时，\n特攻提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 0,
     },
 
     [ABILITY_MINUS] =
     {
-        .name = _("Minus"),
-        .description = COMPOUND_STRING("Powers up with Plus."),
-        .longDescription = COMPOUND_STRING("Raises Sp. Atk by 50%\n"
-                                           "if an ally in battle\n"
-                                           "has Plus or Minus."),
+        .name = _("负电"),
+        .description = COMPOUND_STRING("同伴正负电可提高特攻"),
+        .longDescription = COMPOUND_STRING("场上的同伴拥有正电\n或负电特性时，\n特攻提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 0,
     },
 
     [ABILITY_FORECAST] =
     {
-        .name = _("Forecast"),
-        .description = COMPOUND_STRING("Changes with the weather."),
-        .longDescription = COMPOUND_STRING("During rain, sun, or icy\n"
-                                           "weather, Castform changes\n"
-                                           "to Water, Fire, or Ice\n"
-                                           "type and matching form."),
+        .name = _("阴晴不定"),
+        .description = COMPOUND_STRING("受天气影响改变形态"),
+        .longDescription = COMPOUND_STRING("下雨、晴天或冰雪天气\n时，飘浮泡泡会变为\n水、火或冰属性以及\n对应的样子。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
         .cantBeCopied = TRUE,
         .cantBeTraced = B_UPDATED_ABILITY_DATA >= GEN_4,
@@ -716,673 +716,673 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_STICKY_HOLD] =
     {
-        .name = _("Sticky Hold"),
-        .description = COMPOUND_STRING("Prevents item theft."),
-        .longDescription = COMPOUND_STRING("The Pokémon's held item\n"
-                                           "cannot be removed or\n"
-                                           "stolen by other Pokémon."),
+        .name = _("黏着"),
+        .description = COMPOUND_STRING("道具不会被对手夺走"),
+        .longDescription = COMPOUND_STRING("携带的道具不会被\n其他宝可梦移除\n或夺走。"
+                                           ""
+                                           ""),
         .aiRating = 3,
         .breakable = TRUE,
     },
 
     [ABILITY_SHED_SKIN] =
     {
-        .name = _("Shed Skin"),
-        .description = COMPOUND_STRING("Heals the body by shedding."),
-        .longDescription = COMPOUND_STRING("Pokemon may cure its  \n"
-                                           "status problems by shedding\n"
-                                           "its skin.                  \n"
-                                           "               "),
+        .name = _("蜕皮"),
+        .description = COMPOUND_STRING("有时会治愈异常状态"),
+        .longDescription = COMPOUND_STRING("有时会通过蜕皮\n治愈自己的异常状态。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_GUTS] =
     {
-        .name = _("Guts"),
-        .description = COMPOUND_STRING("Ups Attack if suffering."),
-        .longDescription = COMPOUND_STRING("Boosts Attack by 50%\n"
-                                           "when the Pokémon is\n"
-                                           "afflicted by a status\n"
-                                           "condition. Burn's Attack\n"
-                                           "drop is also ignored."),
+        .name = _("毅力"),
+        .description = COMPOUND_STRING("异常状态时攻击会提高"),
+        .longDescription = COMPOUND_STRING("陷入异常状态时，\n攻击提高50%。\n灼伤造成的攻击降低\n也会被无视。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_MARVEL_SCALE] =
     {
-        .name = _("Marvel Scale"),
-        .description = COMPOUND_STRING("Ups Defense if suffering."),
-        .longDescription = COMPOUND_STRING("Raises Defense by 50% when\n"
-                                           "inflicted by a major status\n"
-                                           "effect such as Poison.  \n"
-                                           "               "),
+        .name = _("神奇鳞片"),
+        .description = COMPOUND_STRING("异常状态时防御会提高"),
+        .longDescription = COMPOUND_STRING("陷入中毒等异常状态\n时，防御提高50%。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
         .breakable = TRUE,
     },
 
     [ABILITY_LIQUID_OOZE] =
     {
-        .name = _("Liquid Ooze"),
-        .description = COMPOUND_STRING("Draining causes injury."),
-        .longDescription = COMPOUND_STRING("Pokémon that drain HP\n"
-                                           "from this Pokémon lose\n"
-                                           "HP instead of gaining it."),
+        .name = _("污泥浆"),
+        .description = COMPOUND_STRING("吸收污泥的对手会减少HP"),
+        .longDescription = COMPOUND_STRING("从自己身上吸取HP的\n宝可梦不会回复，\n反而会减少HP。"
+                                           ""
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_OVERGROW] =
     {
-        .name = _("Overgrow"),
-        .description = COMPOUND_STRING("Ups Grass moves in a pinch."),
-        .longDescription = COMPOUND_STRING("Boosts the power of the\n"
-                                           "Pokémon's Grass-type moves by\n"
-                                           "50% when its HP drops to 1/3\n"
-                                           "or less of its max."),
+        .name = _("茂盛"),
+        .description = COMPOUND_STRING("HP低时强化草属性招式"),
+        .longDescription = COMPOUND_STRING("HP降到最大HP的1/3\n以下时，草属性招式的\n威力提高50%。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_BLAZE] =
     {
-        .name = _("Blaze"),
-        .description = COMPOUND_STRING("Ups Fire moves in a pinch."),
-        .longDescription = COMPOUND_STRING("Boosts the power of the\n"
-                                           "Pokémon's Fire-type moves by\n"
-                                           "50% when its HP drops to 1/3\n"
-                                           "or less of its max."),
+        .name = _("猛火"),
+        .description = COMPOUND_STRING("HP低时强化火属性招式"),
+        .longDescription = COMPOUND_STRING("HP降到最大HP的1/3\n以下时，火属性招式的\n威力提高50%。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_TORRENT] =
     {
-        .name = _("Torrent"),
-        .description = COMPOUND_STRING("Ups Water moves in a pinch."),
-        .longDescription = COMPOUND_STRING("Boosts the power of the\n"
-                                           "Pokémon's Water-type moves by\n"
-                                           "50% when its HP drops to 1/3\n"
-                                           "or less of its max."),
+        .name = _("激流"),
+        .description = COMPOUND_STRING("HP低时强化水属性招式"),
+        .longDescription = COMPOUND_STRING("HP降到最大HP的1/3\n以下时，水属性招式的\n威力提高50%。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_SWARM] =
     {
-        .name = _("Swarm"),
-        .description = COMPOUND_STRING("Ups Bug moves in a pinch."),
-        .longDescription = COMPOUND_STRING("Boosts the power of the\n"
-                                           "Pokémon's Bug-type moves by\n"
-                                           "50% when its HP drops to 1/3\n"
-                                           "or less of its max."),
+        .name = _("虫之预感"),
+        .description = COMPOUND_STRING("HP低时强化虫属性招式"),
+        .longDescription = COMPOUND_STRING("HP降到最大HP的1/3\n以下时，虫属性招式的\n威力提高50%。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_ROCK_HEAD] =
     {
-        .name = _("Rock Head"),
-        .description = COMPOUND_STRING("Prevents recoil damage."),
-        .longDescription = COMPOUND_STRING("The Pokémon takes no\n"
-                                           "recoil damage from its\n"
-                                           "own attacking moves."),
+        .name = _("坚硬脑袋"),
+        .description = COMPOUND_STRING("不会受反作用力减少HP"),
+        .longDescription = COMPOUND_STRING("使出攻击招式时，\n不会受到反作用力\n伤害。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_DROUGHT] =
     {
-        .name = _("Drought"),
-        .description = COMPOUND_STRING("Summons sunlight in battle."),
-        .longDescription = COMPOUND_STRING("Summons harsh sunlight in\n"
-                                           "battle. Lasts for 5 turns\n"
-                                           "unless cancelled by Air Lock\n"
-                                           "or Cloud Nine. "),
+        .name = _("日照"),
+        .description = COMPOUND_STRING("出场时，会将天气变为晴朗"),
+        .longDescription = COMPOUND_STRING("在战斗中将天气变为\n晴朗。只要没有被气闸\n或无关天气抵消，\n就会持续5回合。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 9,
     },
 
     [ABILITY_ARENA_TRAP] =
     {
-        .name = _("Arena Trap"),
-        .description = COMPOUND_STRING("Prevents fleeing."),
-        .longDescription = COMPOUND_STRING("Opponents cannot switch\n"
-                                           "out or flee. Does not\n"
-                                           "affect Flying-types or\n"
-                                           "Pokémon that are\n"
-                                           "airborne."),
+        .name = _("沙穴"),
+        .description = COMPOUND_STRING("在战斗中让对手无法逃走"),
+        .longDescription = COMPOUND_STRING("对手无法替换或逃走。\n对飞行属性或浮在空中\n的宝可梦无效。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 9,
     },
 
     [ABILITY_VITAL_SPIRIT] =
     {
-        .name = _("Vital Spirit"),
-        .description = COMPOUND_STRING("Prevents sleep."),
-        .longDescription = COMPOUND_STRING("The Pokémon is alert\n"
-                                           "and cannot become\n"
-                                           "drowsy or fall asleep."),
+        .name = _("干劲"),
+        .description = COMPOUND_STRING("不会变为睡眠状态"),
+        .longDescription = COMPOUND_STRING("充满干劲，不会陷入\n瞌睡或睡眠状态。"
+                                           ""
+                                           ""),
         .aiRating = 4,
         .breakable = TRUE,
     },
 
     [ABILITY_WHITE_SMOKE] =
     {
-        .name = _("White Smoke"),
-        .description = COMPOUND_STRING("Prevents ability reduction."),
-        .longDescription = COMPOUND_STRING("Prevents other Pokémon\n"
-                                           "from lowering its stats\n"
-                                           "                        \n"
-                                           "               "),
+        .name = _("白色烟雾"),
+        .description = COMPOUND_STRING("不会被对手降低能力"),
+        .longDescription = COMPOUND_STRING("不会被其他宝可梦\n降低能力。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 4,
         .breakable = TRUE,
     },
 
     [ABILITY_PURE_POWER] =
     {
-        .name = _("Pure Power"),
-        .description = COMPOUND_STRING("Raises Attack."),
-        .longDescription = COMPOUND_STRING("Doubles the Pokémon's\n"
-                                           "Attack stat."),
+        .name = _("瑜伽之力"),
+        .description = COMPOUND_STRING("物理攻击的威力会变为2倍"),
+        .longDescription = COMPOUND_STRING("攻击变为2倍。"
+                                           ""),
         .aiRating = 10,
     },
 
     [ABILITY_SHELL_ARMOR] =
     {
-        .name = _("Shell Armor"),
-        .description = COMPOUND_STRING("Blocks critical hits."),
-        .longDescription = COMPOUND_STRING("Attacks landed on the\n"
-                                           "Pokémon will never be\n"
-                                           "critical hits."),
+        .name = _("硬壳盔甲"),
+        .description = COMPOUND_STRING("对手的攻击不会击中要害"),
+        .longDescription = COMPOUND_STRING("受到的攻击\n不会击中要害。"
+                                           ""
+                                           ""),
         .aiRating = 2,
         .breakable = TRUE,
     },
 
     [ABILITY_AIR_LOCK] =
     {
-        .name = _("Air Lock"),
-        .description = COMPOUND_STRING("Negates weather effects."),
-        .longDescription = COMPOUND_STRING("Suppresses all weather\n"
-                                           "effects while the Pokemon\n"
-                                           "is in battle."),
+        .name = _("气闸"),
+        .description = COMPOUND_STRING("所有天气的影响都会消失"),
+        .longDescription = COMPOUND_STRING("在场时，所有天气的\n影响都会消失。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_TANGLED_FEET] =
     {
-        .name = _("Tangled Feet"),
-        .description = COMPOUND_STRING("Ups evasion if confused."),
-        .longDescription = COMPOUND_STRING("Doubles the Pokémon's\n"
-                                           "evasiveness while it\n"
-                                           "is confused."),
+        .name = _("蹒跚"),
+        .description = COMPOUND_STRING("在混乱状态时闪避率会提高"),
+        .longDescription = COMPOUND_STRING("混乱状态时，\n闪避率变为2倍。"
+                                           ""
+                                           ""),
         .aiRating = 2,
         .breakable = TRUE,
     },
 
     [ABILITY_MOTOR_DRIVE] =
     {
-        .name = _("Motor Drive"),
-        .description = COMPOUND_STRING("Electricity raises Speed."),
-        .longDescription = COMPOUND_STRING("Being hit by electricity\n"
-                                           "raises Speed by one stage.\n"
-                                           "                        \n"
-                                           "               "),
+        .name = _("电气引擎"),
+        .description = COMPOUND_STRING("免疫电属性攻击并提高速度"),
+        .longDescription = COMPOUND_STRING("受到电属性招式攻击时，\n速度提高1级。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
         .breakable = TRUE,
     },
 
     [ABILITY_RIVALRY] =
     {
-        .name = _("Rivalry"),
-        .description = COMPOUND_STRING("Powers up against rivals."),
-        .longDescription = COMPOUND_STRING("Deals more damage against\n"
-                                           "Pokémon of the same gender.\n"
-                                           "                        \n"
-                                           "               "),
+        .name = _("斗争心"),
+        .description = COMPOUND_STRING("对同性别对手变强反之变弱"),
+        .longDescription = COMPOUND_STRING("对性别相同的宝可梦\n造成的伤害会提高。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 1,
     },
 
     [ABILITY_STEADFAST] =
     {
-        .name = _("Steadfast"),
-        .description = COMPOUND_STRING("Flinching raises Speed."),
-        .longDescription = COMPOUND_STRING("Raises the Pokémon's\n"
-                                           "Speed by 1 stage each\n"
-                                           "time it flinches."),
+        .name = _("不屈之心"),
+        .description = COMPOUND_STRING("每次畏缩时速度会提高"),
+        .longDescription = COMPOUND_STRING("每次畏缩时，\n速度提高1级。"
+                                           ""
+                                           ""),
         .aiRating = 2,
     },
 
     [ABILITY_SNOW_CLOAK] =
     {
-        .name = _("Snow Cloak"),
-        .description = COMPOUND_STRING("Ups evasion in Hail or Snow."),
-        .longDescription = COMPOUND_STRING("Ups evasion in Hail or\n"
-                                           "Snow by 20%. Also gives\n"
-                                           "immunity to hail damage.\n"
-                                           "               "),
+        .name = _("雪隐"),
+        .description = COMPOUND_STRING("下雪天气时，闪避率会提高"),
+        .longDescription = COMPOUND_STRING("冰雹或下雪时，闪避率\n提高20%。也不会受到\n冰雹的伤害。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 3,
         .breakable = TRUE,
     },
 
     [ABILITY_GLUTTONY] =
     {
-        .name = _("Gluttony"),
-        .description = COMPOUND_STRING("Eats Berries early."),
-        .longDescription = COMPOUND_STRING("The Pokémon eats its\n"
-                                           "held Berry when its HP\n"
-                                           "drops to 1/2 instead\n"
-                                           "of the usual 1/4."),
+        .name = _("贪吃鬼"),
+        .description = COMPOUND_STRING("会在一半HP时提前吃树果"),
+        .longDescription = COMPOUND_STRING("原本HP降到1/4时才会\n吃的树果，在HP降到\n1/2时就会吃掉。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_ANGER_POINT] =
     {
-        .name = _("Anger Point"),
-        .description = COMPOUND_STRING("Critical hits raise Attack."),
-        .longDescription = COMPOUND_STRING("Taking a critical hit\n"
-                                           "raises Attack to the\n"
-                                           "maximum of 6 stages."),
+        .name = _("愤怒穴位"),
+        .description = COMPOUND_STRING("要害被击中时攻击变为最大"),
+        .longDescription = COMPOUND_STRING("被击中要害时，攻击\n会提高到最大的6级。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_UNBURDEN] =
     {
-        .name = _("Unburden"),
-        .description = COMPOUND_STRING("Using a hold item ups Speed."),
-        .longDescription = COMPOUND_STRING("Using or losing a held\n"
-                                           "item doubles Speed until\n"
-                                           "the Pokemon leaves battle\n"
-                                           "or gains a new item."),
+        .name = _("轻装"),
+        .description = COMPOUND_STRING("失去道具时速度会提高"),
+        .longDescription = COMPOUND_STRING("用掉或失去携带的道具\n时，速度变为2倍，\n直到离场或获得新的\n道具为止。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_HEATPROOF] =
     {
-        .name = _("Heatproof"),
-        .description = COMPOUND_STRING("Heat and burn protection."),
-        .longDescription = COMPOUND_STRING("Halves damage from\n"
-                                           "Fire-type moves and burn\n"
-                                           "damage."),
+        .name = _("耐热"),
+        .description = COMPOUND_STRING("受火属性招式的伤害减半"),
+        .longDescription = COMPOUND_STRING("受到火属性招式的伤害\n和灼伤的伤害减半。"
+                                           ""
+                                           ""),
         .aiRating = 5,
         .breakable = TRUE,
     },
 
     [ABILITY_SIMPLE] =
     {
-        .name = _("Simple"),
-        .description = COMPOUND_STRING("Prone to wild stat changes."),
-        .longDescription = COMPOUND_STRING("Stat changes count double\n"
-                                           "for this Pokemon, still\n"
-                                           "capped at -6 and +6."),
+        .name = _("单纯"),
+        .description = COMPOUND_STRING("能力变化会变为平时的2倍"),
+        .longDescription = COMPOUND_STRING("自己的能力变化会变为\n2倍，但上下限仍为\n+6和-6。"
+                                           ""
+                                           ""),
         .aiRating = 8,
         .breakable = TRUE,
     },
 
     [ABILITY_DRY_SKIN] =
     {
-        .name = _("Dry Skin"),
-        .description = COMPOUND_STRING("Prefers moisture to heat."),
-        .longDescription = COMPOUND_STRING("Heals 1/8 HP in rain,\n"
-                                           "loses 1/8 HP in sun,\n"
-                                           "absorbs Water moves, and\n"
-                                           "takes extra Fire damage."),
+        .name = _("干燥皮肤"),
+        .description = COMPOUND_STRING("雨天回复HP，晴天减少"),
+        .longDescription = COMPOUND_STRING("下雨时回复1/8的HP，\n晴天时减少1/8的HP。\n会吸收水属性招式，\n受到火属性招式的伤害\n会增加。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
         .breakable = TRUE,
     },
 
     [ABILITY_DOWNLOAD] =
     {
-        .name = _("Download"),
-        .description = COMPOUND_STRING("Adjusts power favorably."),
-        .longDescription = COMPOUND_STRING("On entry, raises Attack\n"
-                                           "or Sp. Atk by 1 stage,\n"
-                                           "whichever counters the\n"
-                                           "foe's lower defense."),
+        .name = _("下载"),
+        .description = COMPOUND_STRING("根据情况提升攻击或特攻"),
+        .longDescription = COMPOUND_STRING("出场时，对手的防御\n较低则攻击提高1级，\n特防较低则特攻提高\n1级。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_IRON_FIST] =
     {
-        .name = _("Iron Fist"),
-        .description = COMPOUND_STRING("Boosts punching moves."),
-        .longDescription = COMPOUND_STRING("Boosts the power of\n"
-                                           "punching moves by 20%."),
+        .name = _("铁拳"),
+        .description = COMPOUND_STRING("使用拳类招式的威力会提高"),
+        .longDescription = COMPOUND_STRING("拳类招式的威力\n提高20%。"
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_POISON_HEAL] =
     {
-        .name = _("Poison Heal"),
-        .description = COMPOUND_STRING("Restores HP if poisoned."),
-        .longDescription = COMPOUND_STRING("Restores 1/8 of max HP\n"
-                                           "each turn when poisoned\n"
-                                           "instead of taking\n"
-                                           "poison damage."),
+        .name = _("毒疗"),
+        .description = COMPOUND_STRING("中毒时反而会回复HP"),
+        .longDescription = COMPOUND_STRING("中毒时不会受到毒的\n伤害，反而每回合回复\n最大HP的1/8。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_ADAPTABILITY] =
     {
-        .name = _("Adaptability"),
-        .description = COMPOUND_STRING("Boosts same type attacks."),
-        .longDescription = COMPOUND_STRING("Same-type attack bonus\n"
-                                           "is 2x instead of 1.5x\n"
-                                           "for the Pokémon's moves."),
+        .name = _("适应力"),
+        .description = COMPOUND_STRING("强化自身同属性的招式"),
+        .longDescription = COMPOUND_STRING("使出与自己属性相同的\n招式时，威力加成由\n1.5倍变为2倍。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_SKILL_LINK] =
     {
-        .name = _("Skill Link"),
-        .description = COMPOUND_STRING("Multi-hit moves hit 5 times."),
-        .longDescription = COMPOUND_STRING("Multi-hit moves that hit\n"
-                                           "2 to 5 times always land\n"
-                                           "all 5 hits."),
+        .name = _("连续攻击"),
+        .description = COMPOUND_STRING("连续招式总能使出最高次数"),
+        .longDescription = COMPOUND_STRING("攻击2～5次的连续招式\n必定会击中5次。"
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_HYDRATION] =
     {
-        .name = _("Hydration"),
-        .description = COMPOUND_STRING("Cures status in rain."),
-        .longDescription = COMPOUND_STRING("Cures any status\n"
-                                           "condition at the end of\n"
-                                           "each turn while it is\n"
-                                           "raining."),
+        .name = _("湿润之躯"),
+        .description = COMPOUND_STRING("下雨天气时治愈异常状态"),
+        .longDescription = COMPOUND_STRING("下雨时，每回合结束时\n治愈所有异常状态。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_SOLAR_POWER] =
     {
-        .name = _("Solar Power"),
-        .description = COMPOUND_STRING("Powers up in sunshine."),
-        .longDescription = COMPOUND_STRING("In harsh sunlight,\n"
-                                           "raises Sp. Atk by 50%\n"
-                                           "but loses 1/8 of max HP\n"
-                                           "at the end of each turn."),
+        .name = _("太阳之力"),
+        .description = COMPOUND_STRING("晴天时减少HP提高特攻"),
+        .longDescription = COMPOUND_STRING("晴天时，特攻提高50%，\n但每回合结束时减少\n最大HP的1/8。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_QUICK_FEET] =
     {
-        .name = _("Quick Feet"),
-        .description = COMPOUND_STRING("Ups Speed if suffering."),
-        .longDescription = COMPOUND_STRING("Boosts Speed by 50%\n"
-                                           "when afflicted by a\n"
-                                           "status condition, and\n"
-                                           "ignores paralysis'\n"
-                                           "Speed drop."),
+        .name = _("飞毛腿"),
+        .description = COMPOUND_STRING("变为异常状态时速度会提高"),
+        .longDescription = COMPOUND_STRING("陷入异常状态时，\n速度提高50%，\n并无视麻痹造成的\n速度降低。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_NORMALIZE] =
     {
-        .name = _("Normalize"),
-        .description = COMPOUND_STRING("Moves become Normal-type."),
-        .longDescription = COMPOUND_STRING("All of the Pokémon's\n"
-                                           "moves become Normal-type\n"
-                                           "and deal 20% more damage."),
+        .name = _("一般皮肤"),
+        .description = COMPOUND_STRING("招式变为一般属性并强化"),
+        .longDescription = COMPOUND_STRING("自己的所有招式都变为\n一般属性，且伤害提高\n20%。"
+                                           ""
+                                           ""),
         .aiRating = -1,
     },
 
     [ABILITY_SNIPER] =
     {
-        .name = _("Sniper"),
-        .description = COMPOUND_STRING("Boosts critical hits."),
-        .longDescription = COMPOUND_STRING("Critical hits deal 2.25x\n"
-                                           "damage instead of the\n"
-                                           "usual 1.5x."),
+        .name = _("狙击手"),
+        .description = COMPOUND_STRING("击中要害时，威力提升"),
+        .longDescription = COMPOUND_STRING("击中要害时的伤害由\n通常的1.5倍变为\n2.25倍。"
+                                           ""
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_MAGIC_GUARD] =
     {
-        .name = _("Magic Guard"),
-        .description = COMPOUND_STRING("Only damaged by attacks."),
-        .longDescription = COMPOUND_STRING("The Pokémon only takes\n"
-                                           "damage from direct\n"
-                                           "attacks. Indirect damage\n"
-                                           "does not affect it."),
+        .name = _("魔法防守"),
+        .description = COMPOUND_STRING("不会受到攻击以外的伤害"),
+        .longDescription = COMPOUND_STRING("只会受到直接攻击的\n伤害，不会受到间接\n伤害。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 9,
     },
 
     [ABILITY_NO_GUARD] =
     {
-        .name = _("No Guard"),
-        .description = COMPOUND_STRING("Ensures that all moves hit."),
-        .longDescription = COMPOUND_STRING("All moves used by or\n"
-                                           "against this Pokemon\n"
-                                           "never miss."),
+        .name = _("无防守"),
+        .description = COMPOUND_STRING("双方的招式都必定会击中"),
+        .longDescription = COMPOUND_STRING("自己使出的招式和\n以自己为目标的招式\n都必定命中。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_STALL] =
     {
-        .name = _("Stall"),
-        .description = COMPOUND_STRING("Always moves last."),
-        .longDescription = COMPOUND_STRING("The Pokémon moves last\n"
-                                           "within its priority\n"
-                                           "bracket every turn."),
+        .name = _("慢出"),
+        .description = COMPOUND_STRING("使出招式的顺序必定为最后"),
+        .longDescription = COMPOUND_STRING("每回合都会在相同\n优先度的招式中\n最后行动。"
+                                           ""
+                                           ""),
         .aiRating = -1,
     },
 
     [ABILITY_TECHNICIAN] =
     {
-        .name = _("Technician"),
-        .description = COMPOUND_STRING("Boosts weaker moves."),
-        .longDescription = COMPOUND_STRING("Boosts the power of\n"
-                                           "moves with 60 base\n"
-                                           "power or less by 50%."),
+        .name = _("技术高手"),
+        .description = COMPOUND_STRING("强化低威力的招式"),
+        .longDescription = COMPOUND_STRING("威力在60以下的招式\n威力提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_LEAF_GUARD] =
     {
-        .name = _("Leaf Guard"),
-        .description = COMPOUND_STRING("Blocks status in sunshine."),
-        .longDescription = COMPOUND_STRING("Prevents major status\n"
-                                           "conditions while harsh\n"
-                                           "sunlight is active."),
+        .name = _("叶子防守"),
+        .description = COMPOUND_STRING("晴天时不会变为异常状态"),
+        .longDescription = COMPOUND_STRING("晴天时，\n不会陷入异常状态。"
+                                           ""
+                                           ""),
         .aiRating = 2,
         .breakable = TRUE,
     },
 
     [ABILITY_KLUTZ] =
     {
-        .name = _("Klutz"),
-        .description = COMPOUND_STRING("Can't use hold items."),
-        .longDescription = COMPOUND_STRING("The Pokémon cannot use\n"
-                                           "the effects of its\n"
-                                           "held item."),
+        .name = _("笨拙"),
+        .description = COMPOUND_STRING("无法使用持有的道具"),
+        .longDescription = COMPOUND_STRING("无法发挥携带道具的\n效果。"
+                                           ""
+                                           ""),
         .aiRating = -1,
     },
 
     [ABILITY_MOLD_BREAKER] =
     {
-        .name = _("Mold Breaker"),
-        .description = COMPOUND_STRING("Moves hit through abilities."),
-        .longDescription = COMPOUND_STRING("Moves ignore Abilities\n"
-                                           "that would hinder or\n"
-                                           "prevent their effects."),
+        .name = _("破格"),
+        .description = COMPOUND_STRING("使用招式不受对手特性影响"),
+        .longDescription = COMPOUND_STRING("使出招式时，无视会\n妨碍或阻止招式效果的\n特性。"
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_SUPER_LUCK] =
     {
-        .name = _("Super Luck"),
-        .description = COMPOUND_STRING("Critical hits land often."),
-        .longDescription = COMPOUND_STRING("Raises this Pokemon's\n"
-                                           "critical-hit ratio by\n"
-                                           "1 stage."),
+        .name = _("超幸运"),
+        .description = COMPOUND_STRING("攻击容易击中对手的要害"),
+        .longDescription = COMPOUND_STRING("击中要害率提高1级。"
+                                           ""
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_AFTERMATH] =
     {
-        .name = _("Aftermath"),
-        .description = COMPOUND_STRING("Fainting damages the foe."),
-        .longDescription = COMPOUND_STRING("If knocked out by a\n"
-                                           "contact move, damages the\n"
-                                           "attacker for 1/4 of its\n"
-                                           "max HP."),
+        .name = _("诱爆"),
+        .description = COMPOUND_STRING("昏厥时伤害接触的对手"),
+        .longDescription = COMPOUND_STRING("被接触类招式打倒时，\n给予对手其最大HP\n1/4的伤害。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_ANTICIPATION] =
     {
-        .name = _("Anticipation"),
-        .description = COMPOUND_STRING("Senses dangerous moves."),
-        .longDescription = COMPOUND_STRING("On entry, shudders if a\n"
-                                           "foe has a supereffective\n"
-                                           "move."),
+        .name = _("危险预知"),
+        .description = COMPOUND_STRING("可以察觉到对手的危险招式"),
+        .longDescription = COMPOUND_STRING("出场时，如果对手拥有\n效果绝佳的招式，\n就会发抖。"
+                                           ""
+                                           ""),
         .aiRating = 2,
     },
 
     [ABILITY_FOREWARN] =
     {
-        .name = _("Forewarn"),
-        .description = COMPOUND_STRING("Determines a foe's move."),
-        .longDescription = COMPOUND_STRING("On entry, reveals the\n"
-                                           "move with the highest\n"
-                                           "power among the foe's\n"
-                                           "Pokémon."),
+        .name = _("预知梦"),
+        .description = COMPOUND_STRING("出场时读取对手的招式"),
+        .longDescription = COMPOUND_STRING("出场时，可以得知对手\n宝可梦的招式中威力\n最高的那一个。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 2,
     },
 
     [ABILITY_UNAWARE] =
     {
-        .name = _("Unaware"),
-        .description = COMPOUND_STRING("Ignores stat changes."),
-        .longDescription = COMPOUND_STRING("Ignores the foe's stat\n"
-                                           "stage changes when\n"
-                                           "dealing or taking damage."),
+        .name = _("纯朴"),
+        .description = COMPOUND_STRING("可无视对手能力变化攻击"),
+        .longDescription = COMPOUND_STRING("造成或受到伤害时，\n无视对手的能力变化。"
+                                           ""
+                                           ""),
         .aiRating = 6,
         .breakable = TRUE,
     },
 
     [ABILITY_TINTED_LENS] =
     {
-        .name = _("Tinted Lens"),
-        .description = COMPOUND_STRING("Ups “not very effective”."),
-        .longDescription = COMPOUND_STRING("Doubles the damage of\n"
-                                           "not very effective moves\n"
-                                           "used by this Pokemon."),
+        .name = _("有色眼镜"),
+        .description = COMPOUND_STRING("提升效果不好的招式威力"),
+        .longDescription = COMPOUND_STRING("自己使出的效果不好的\n招式伤害变为2倍。"
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_FILTER] =
     {
-        .name = _("Filter"),
-        .description = COMPOUND_STRING("Weakens “supereffective”."),
-        .longDescription = COMPOUND_STRING("Reduces damage from\n"
-                                           "super effective moves to\n"
-                                           "75%."),
+        .name = _("过滤"),
+        .description = COMPOUND_STRING("减轻效果绝佳的攻击伤害"),
+        .longDescription = COMPOUND_STRING("受到效果绝佳的招式\n伤害降至75%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
         .breakable = TRUE,
     },
 
     [ABILITY_SLOW_START] =
     {
-        .name = _("Slow Start"),
-        .description = COMPOUND_STRING("Takes a while to get going."),
-        .longDescription = COMPOUND_STRING("For 5 turns after entry,\n"
-                                           "Attack and Speed are\n"
-                                           "halved."),
+        .name = _("慢启动"),
+        .description = COMPOUND_STRING("在5回合内攻击和速度减半"),
+        .longDescription = COMPOUND_STRING("出场后的5回合内，\n攻击和速度减半。"
+                                           ""
+                                           ""),
         .aiRating = -2,
     },
 
     [ABILITY_SCRAPPY] =
     {
-        .name = _("Scrappy"),
-        .description = COMPOUND_STRING("Hits Ghost-type Pokémon."),
-        .longDescription = COMPOUND_STRING("Normal- and Fighting-\n"
-                                           "type moves can hit Ghost-\n"
-                                           "type Pokemon. Immune to\n"
-                                           "Intimidate."),
+        .name = _("胆量"),
+        .description = COMPOUND_STRING("招式可击中幽灵并无视威吓"),
+        .longDescription = COMPOUND_STRING("一般和格斗属性的招式\n可以击中幽灵属性的\n宝可梦。不受威吓影响。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_STORM_DRAIN] =
     {
-        .name = _("Storm Drain"),
-        .description = COMPOUND_STRING("Draws in Water moves."),
-        .longDescription = COMPOUND_STRING("Draws in all Water-type\n"
-                                           "moves, taking no damage\n"
-                                           "and raising its Sp. Atk\n"
-                                           "by 1 stage instead."),
+        .name = _("引水"),
+        .description = COMPOUND_STRING("吸引免疫水招式并提高特攻"),
+        .longDescription = COMPOUND_STRING("吸引所有水属性招式，\n不会受到伤害，\n反而特攻提高1级。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_ICE_BODY] =
     {
-        .name = _("Ice Body"),
-        .description = COMPOUND_STRING("HP recovery in Hail or Snow."),
-        .longDescription = COMPOUND_STRING("Restores 1/16 max HP at\n"
-                                           "each turn's end during\n"
-                                           "hail or snow, and blocks\n"
-                                           "hail damage."),
+        .name = _("冰冻之躯"),
+        .description = COMPOUND_STRING("下雪天气时会缓缓回复HP"),
+        .longDescription = COMPOUND_STRING("冰雹或下雪时，每回合\n结束时回复最大HP的\n1/16。不会受到冰雹的\n伤害。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_SOLID_ROCK] =
     {
-        .name = _("Solid Rock"),
-        .description = COMPOUND_STRING("Weakens “supereffective”."),
-        .longDescription = COMPOUND_STRING("Reduces damage from\n"
-                                           "super effective moves to\n"
-                                           "75%."),
+        .name = _("坚硬岩石"),
+        .description = COMPOUND_STRING("减轻效果绝佳的攻击伤害"),
+        .longDescription = COMPOUND_STRING("受到效果绝佳的招式\n伤害降至75%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
         .breakable = TRUE,
     },
 
     [ABILITY_SNOW_WARNING] =
     {
-        .name = _("Snow Warning"),
+        .name = _("降雪"),
     #if B_SNOW_WARNING >= GEN_9
-        .description = COMPOUND_STRING("Summons snow in battle."),
-        .longDescription = COMPOUND_STRING("Summons a snowstorm for\n"
-                                           "5 turns when the Pokémon\n"
-                                           "enters a battle."),
+        .description = COMPOUND_STRING("出场时，会将天气变为下雪"),
+        .longDescription = COMPOUND_STRING("出场时，会在5回合内\n将天气变为下雪。"
+                                           ""
+                                           ""),
     #else
-        .description = COMPOUND_STRING("Summons hail in battle."),
-        .longDescription = COMPOUND_STRING("Summons hail in battle.\n"
-                                           "                        \n"
-                                           "                        \n"
-                                           "                        \n"
-                                           "               "),
+        .description = COMPOUND_STRING("出场时，会将天气变为冰雹"),
+        .longDescription = COMPOUND_STRING("出场时，\n会将天气变为冰雹。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
     #endif
         .aiRating = 8,
     },
 
     [ABILITY_HONEY_GATHER] =
     {
-        .name = _("Honey Gather"),
-        .description = COMPOUND_STRING("May gather Honey."),
-        .longDescription = COMPOUND_STRING("May gather a Honey item\n"
-                                           "after battle if not\n"
-                                           "holding an item."),
+        .name = _("采蜜"),
+        .description = COMPOUND_STRING("战斗结束时有时捡来甜甜蜜"),
+        .longDescription = COMPOUND_STRING("没有携带道具时，战斗\n结束后有时会捡到\n甜甜蜜。"
+                                           ""
+                                           ""),
         .aiRating = 0,
     },
 
     [ABILITY_FRISK] =
     {
-        .name = _("Frisk"),
-        .description = COMPOUND_STRING("Checks a foe's item."),
-        .longDescription = COMPOUND_STRING("On entry, reveals the\n"
-                                           "held items of opposing\n"
-                                           "Pokémon."),
+        .name = _("察觉"),
+        .description = COMPOUND_STRING("出场时，可察觉对手持有物"),
+        .longDescription = COMPOUND_STRING("出场时，可以得知对手\n宝可梦携带的道具。"
+                                           ""
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_RECKLESS] =
     {
-        .name = _("Reckless"),
-        .description = COMPOUND_STRING("Boosts moves with recoil."),
-        .longDescription = COMPOUND_STRING("Boosts recoil and crash\n"
-                                           "moves by 20%."),
+        .name = _("舍身"),
+        .description = COMPOUND_STRING("强化有反作用力伤害的招式"),
+        .longDescription = COMPOUND_STRING("有反作用力伤害或未击中\n会受伤的招式威力提高\n20%。"
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_MULTITYPE] =
     {
-        .name = _("Multitype"),
-        .description = COMPOUND_STRING("Changes type to its Plate."),
-        .longDescription = COMPOUND_STRING("Changes Arceus's type to\n"
-                                           "match its held Plate and\n"
-                                           "prevents item removal."),
+        .name = _("多属性"),
+        .description = COMPOUND_STRING("属性会根据持有的石板改变"),
+        .longDescription = COMPOUND_STRING("阿尔宙斯的属性会变为\n所携带石板的属性，\n且道具不会被移除。"
+                                           ""
+                                           ""),
         .aiRating = 8,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -1394,11 +1394,11 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_FLOWER_GIFT] =
     {
-        .name = _("Flower Gift"),
-        .description = COMPOUND_STRING("Allies power up in sunshine."),
-        .longDescription = COMPOUND_STRING("In harsh sunlight, allies'\n"
-                                           "Attack and Sp. Def are\n"
-                                           "raised by 50%."),
+        .name = _("花之礼"),
+        .description = COMPOUND_STRING("晴天时提升我方攻击和特防"),
+        .longDescription = COMPOUND_STRING("晴天时，我方的攻击和\n特防提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 4,
         .cantBeCopied = TRUE,
         .cantBeTraced = B_UPDATED_ABILITY_DATA >= GEN_5,
@@ -1407,285 +1407,285 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_BAD_DREAMS] =
     {
-        .name = _("Bad Dreams"),
-        .description = COMPOUND_STRING("Damages sleeping Pokémon."),
-        .longDescription = COMPOUND_STRING("Sleeping opposing Pokemon\n"
-                                           "lose 1/8 max HP at the\n"
-                                           "end of each turn."),
+        .name = _("梦魇"),
+        .description = COMPOUND_STRING("给予睡眠状态的对手伤害"),
+        .longDescription = COMPOUND_STRING("睡眠状态的对手每回合\n结束时减少最大HP的\n1/8。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_PICKPOCKET] =
     {
-        .name = _("Pickpocket"),
-        .description = COMPOUND_STRING("Steals the foe's held item."),
-        .longDescription = COMPOUND_STRING("If hit by a contact move\n"
-                                           "while itemless, steals\n"
-                                           "the attacker's held item."),
+        .name = _("顺手牵羊"),
+        .description = COMPOUND_STRING("盗取接触到的对手的道具"),
+        .longDescription = COMPOUND_STRING("没有携带道具时受到\n接触类招式攻击，\n会夺走对手携带的道具。"
+                                           ""
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_SHEER_FORCE] =
     {
-        .name = _("Sheer Force"),
-        .description = COMPOUND_STRING("Trades effects for power."),
-        .longDescription = COMPOUND_STRING("Moves with added effects\n"
-                                           "hit 30% harder, but those\n"
-                                           "added effects do not\n"
-                                           "activate."),
+        .name = _("强行"),
+        .description = COMPOUND_STRING("消除追加效果以强化招式"),
+        .longDescription = COMPOUND_STRING("有追加效果的招式威力\n提高30%，但追加效果\n不会发动。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_CONTRARY] =
     {
-        .name = _("Contrary"),
-        .description = COMPOUND_STRING("Inverts stat changes."),
-        .longDescription = COMPOUND_STRING("Stat changes are\n"
-                                           "reversed: boosts become\n"
-                                           "drops and drops become\n"
-                                           "boosts."),
+        .name = _("唱反调"),
+        .description = COMPOUND_STRING("能力的升降变化发生逆转"),
+        .longDescription = COMPOUND_STRING("能力变化会发生逆转：\n提高变为降低，\n降低变为提高。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
         .breakable = TRUE,
     },
 
     [ABILITY_UNNERVE] =
     {
-        .name = _("Unnerve"),
-        .description = COMPOUND_STRING("Foes can't eat Berries."),
-        .longDescription = COMPOUND_STRING("Opposing Pokémon are too\n"
-                                           "nervous to eat their\n"
-                                           "held Berries."),
+        .name = _("紧张感"),
+        .description = COMPOUND_STRING("让对手紧张得无法食用树果"),
+        .longDescription = COMPOUND_STRING("让对手紧张得无法\n食用携带的树果。"
+                                           ""
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_DEFIANT] =
     {
-        .name = _("Defiant"),
-        .description = COMPOUND_STRING("Lowered stats up Attack."),
-        .longDescription = COMPOUND_STRING("Sharply raises Attack by\n"
-                                           "2 stages whenever any of\n"
-                                           "the Pokémon's stats are\n"
-                                           "lowered by a foe."),
+        .name = _("不服输"),
+        .description = COMPOUND_STRING("被降低能力时大幅提高攻击"),
+        .longDescription = COMPOUND_STRING("每当能力被对手降低\n时，攻击大幅提高2级。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_DEFEATIST] =
     {
-        .name = _("Defeatist"),
-        .description = COMPOUND_STRING("Gives up at half HP."),
-        .longDescription = COMPOUND_STRING("Halves Attack and Sp.\n"
-                                           "Atk when the Pokémon's\n"
-                                           "HP drops to 1/2 or less."),
+        .name = _("软弱"),
+        .description = COMPOUND_STRING("HP减半时攻击特攻会减半"),
+        .longDescription = COMPOUND_STRING("HP降到1/2以下时，\n攻击和特攻减半。"
+                                           ""
+                                           ""),
         .aiRating = -1,
     },
 
     [ABILITY_CURSED_BODY] =
     {
-        .name = _("Cursed Body"),
-        .description = COMPOUND_STRING("Disables moves on contact."),
-        .longDescription = COMPOUND_STRING("Moves that hit this\n"
-                                           "Pokemon have a 30% chance\n"
-                                           "to be Disabled."),
+        .name = _("咒术之躯"),
+        .description = COMPOUND_STRING("受击时有时会使招式定身法"),
+        .longDescription = COMPOUND_STRING("击中自己的招式有30%\n的几率陷入定身法状态。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_HEALER] =
     {
-        .name = _("Healer"),
-        .description = COMPOUND_STRING("Heals partner Pokémon."),
-        .longDescription = COMPOUND_STRING("Has a 30% chance each\n"
-                                           "turn to cure an ally's\n"
-                                           "status condition."),
+        .name = _("治愈之心"),
+        .description = COMPOUND_STRING("有时会治愈异常状态的同伴"),
+        .longDescription = COMPOUND_STRING("每回合有30%的几率\n治愈同伴的异常状态。"
+                                           ""
+                                           ""),
         .aiRating = 0,
     },
 
     [ABILITY_FRIEND_GUARD] =
     {
-        .name = _("Friend Guard"),
-        .description = COMPOUND_STRING("Lowers damage to partner."),
-        .longDescription = COMPOUND_STRING("Allied Pokemon take 25%\n"
-                                           "less direct damage from\n"
-                                           "moves."),
+        .name = _("友情防守"),
+        .description = COMPOUND_STRING("减轻同伴受到的攻击伤害"),
+        .longDescription = COMPOUND_STRING("同伴受到的招式直接\n伤害减少25%。"
+                                           ""
+                                           ""),
         .aiRating = 0,
         .breakable = TRUE,
     },
 
     [ABILITY_WEAK_ARMOR] =
     {
-        .name = _("Weak Armor"),
-        .description = COMPOUND_STRING("Its stats change when hit."),
-        .longDescription = COMPOUND_STRING("Being hit by a physical\n"
-                                           "move lowers Defense by 1\n"
-                                           "stage and raises Speed by\n"
-                                           "2 stage."),
+        .name = _("碎裂铠甲"),
+        .description = COMPOUND_STRING("受物理攻击降防御提高速度"),
+        .longDescription = COMPOUND_STRING("受到物理招式攻击时，\n防御降低1级，\n速度提高2级。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 2,
     },
 
     [ABILITY_HEAVY_METAL] =
     {
-        .name = _("Heavy Metal"),
-        .description = COMPOUND_STRING("Doubles weight."),
-        .longDescription = COMPOUND_STRING("Doubles the Pokémon's\n"
-                                           "weight, affecting\n"
-                                           "weight-based moves."),
+        .name = _("重金属"),
+        .description = COMPOUND_STRING("自身的重量会变为2倍"),
+        .longDescription = COMPOUND_STRING("自己的体重变为2倍，\n会影响与体重有关的\n招式。"
+                                           ""
+                                           ""),
         .aiRating = -1,
         .breakable = TRUE,
     },
 
     [ABILITY_LIGHT_METAL] =
     {
-        .name = _("Light Metal"),
-        .description = COMPOUND_STRING("Halves weight."),
-        .longDescription = COMPOUND_STRING("Halves the Pokémon's\n"
-                                           "weight, affecting\n"
-                                           "weight-based moves."),
+        .name = _("轻金属"),
+        .description = COMPOUND_STRING("自身的重量会减半"),
+        .longDescription = COMPOUND_STRING("自己的体重减半，\n会影响与体重有关的\n招式。"
+                                           ""
+                                           ""),
         .aiRating = 2,
         .breakable = TRUE,
     },
 
     [ABILITY_MULTISCALE] =
     {
-        .name = _("Multiscale"),
-        .description = COMPOUND_STRING("Halves damage at full HP."),
-        .longDescription = COMPOUND_STRING("Damage taken from moves is\n"
-                                           "halved while this Pokemon\n"
-                                           "is at full HP."),
+        .name = _("多重鳞片"),
+        .description = COMPOUND_STRING("HP全满时减轻受到的伤害"),
+        .longDescription = COMPOUND_STRING("HP全满时，受到的\n招式伤害减半。"
+                                           ""
+                                           ""),
         .aiRating = 8,
         .breakable = TRUE,
     },
 
     [ABILITY_TOXIC_BOOST] =
     {
-        .name = _("Toxic Boost"),
-        .description = COMPOUND_STRING("Ups Attack if poisoned."),
-        .longDescription = COMPOUND_STRING("Boosts Attack by 50%\n"
-                                           "while the Pokémon is\n"
-                                           "poisoned."),
+        .name = _("中毒激升"),
+        .description = COMPOUND_STRING("中毒时提高物理招式的威力"),
+        .longDescription = COMPOUND_STRING("中毒状态时，\n攻击提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_FLARE_BOOST] =
     {
-        .name = _("Flare Boost"),
-        .description = COMPOUND_STRING("Ups Sp. Atk if burned."),
-        .longDescription = COMPOUND_STRING("Boosts Sp. Atk by 50%\n"
-                                           "while the Pokémon is\n"
-                                           "burned."),
+        .name = _("受热激升"),
+        .description = COMPOUND_STRING("灼伤时提高特殊招式的威力"),
+        .longDescription = COMPOUND_STRING("灼伤状态时，\n特攻提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_HARVEST] =
     {
-        .name = _("Harvest"),
-        .description = COMPOUND_STRING("May recycle a used Berry."),
-        .longDescription = COMPOUND_STRING("At each turn's end, may\n"
-                                           "restore a consumed Berry;\n"
-                                           "always succeeds in sun."),
+        .name = _("收获"),
+        .description = COMPOUND_STRING("可多次生成被使用掉的树果"),
+        .longDescription = COMPOUND_STRING("每回合结束时，有时会\n重新获得用掉的树果。\n晴天时必定成功。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_TELEPATHY] =
     {
-        .name = _("Telepathy"),
-        .description = COMPOUND_STRING("Can't be damaged by an ally."),
-        .longDescription = COMPOUND_STRING("Prevents damage from\n"
-                                           "allied Pokemon's moves."),
+        .name = _("心灵感应"),
+        .description = COMPOUND_STRING("闪避己方的招式伤害"),
+        .longDescription = COMPOUND_STRING("不会受到同伴招式的\n伤害。"
+                                           ""),
         .aiRating = 0,
         .breakable = TRUE,
     },
 
     [ABILITY_MOODY] =
     {
-        .name = _("Moody"),
-        .description = COMPOUND_STRING("Stats change gradually."),
-        .longDescription = COMPOUND_STRING("Each turn, raises one\n"
-                                           "random stat by 2 stages\n"
-                                           "and lowers another by\n"
-                                           "1 stage."),
+        .name = _("心情不定"),
+        .description = COMPOUND_STRING("每回合随机升降能力"),
+        .longDescription = COMPOUND_STRING("每回合随机使1项能力\n提高2级，另1项能力\n降低1级。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 10,
     },
 
     [ABILITY_OVERCOAT] =
     {
-        .name = _("Overcoat"),
-        .description = COMPOUND_STRING("Blocks weather and powder."),
-        .longDescription = COMPOUND_STRING("Prevents weather damage\n"
-                                           "and powder or spore move\n"
-                                           "effects."),
+        .name = _("防尘"),
+        .description = COMPOUND_STRING("无视沙暴与粉末或孢子招式"),
+        .longDescription = COMPOUND_STRING("不会受到天气的伤害，\n也不会受到粉末类或\n孢子类招式的影响。"
+                                           ""
+                                           ""),
         .aiRating = 5,
         .breakable = TRUE,
     },
 
     [ABILITY_POISON_TOUCH] =
     {
-        .name = _("Poison Touch"),
-        .description = COMPOUND_STRING("Poisons foe on contact."),
-        .longDescription = COMPOUND_STRING("Has a 30% chance to\n"
-                                           "poison foes when the\n"
-                                           "Pokémon hits them with\n"
-                                           "a contact move."),
+        .name = _("毒手"),
+        .description = COMPOUND_STRING("接触时可能会使对手中毒"),
+        .longDescription = COMPOUND_STRING("用接触类招式击中对手\n时，有30%的几率使其\n中毒。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_REGENERATOR] =
     {
-        .name = _("Regenerator"),
-        .description = COMPOUND_STRING("Heals upon switching out."),
-        .longDescription = COMPOUND_STRING("Restores 1/3 max HP when\n"
-                                           "this Pokemon switches out\n"
-                                           "without fainting."),
+        .name = _("再生力"),
+        .description = COMPOUND_STRING("换下后HP会少量回复"),
+        .longDescription = COMPOUND_STRING("未昏厥而替换下场时，\n回复最大HP的1/3。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_BIG_PECKS] =
     {
-        .name = _("Big Pecks"),
-        .description = COMPOUND_STRING("Prevents Defense loss."),
-        .longDescription = COMPOUND_STRING("The Pokémon's Defense\n"
-                                           "cannot be lowered by\n"
-                                           "other Pokémon."),
+        .name = _("健壮胸肌"),
+        .description = COMPOUND_STRING("不会受到防御降低的效果"),
+        .longDescription = COMPOUND_STRING("防御不会被其他\n宝可梦降低。"
+                                           ""
+                                           ""),
         .aiRating = 1,
         .breakable = TRUE,
     },
 
     [ABILITY_SAND_RUSH] =
     {
-        .name = _("Sand Rush"),
-        .description = COMPOUND_STRING("Ups Speed in a sandstorm."),
-        .longDescription = COMPOUND_STRING("Doubles Speed in a\n"
-                                           "sandstorm and prevents\n"
-                                           "sandstorm damage."),
+        .name = _("拨沙"),
+        .description = COMPOUND_STRING("沙暴天气时，速度会提高"),
+        .longDescription = COMPOUND_STRING("沙暴时速度变为2倍，\n且不会受到沙暴的伤害。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_WONDER_SKIN] =
     {
-        .name = _("Wonder Skin"),
-        .description = COMPOUND_STRING("May avoid status problems."),
-        .longDescription = COMPOUND_STRING("Status moves used against\n"
-                                           "this Pokemon have their\n"
-                                           "accuracy lowered to 50%."),
+        .name = _("奇迹皮肤"),
+        .description = COMPOUND_STRING("不易受到变化招式攻击"),
+        .longDescription = COMPOUND_STRING("对自己使出的变化招式\n命中率会降至50%。"
+                                           ""
+                                           ""),
         .aiRating = 4,
         .breakable = TRUE,
     },
 
     [ABILITY_ANALYTIC] =
     {
-        .name = _("Analytic"),
-        .description = COMPOUND_STRING("Moving last boosts power."),
-        .longDescription = COMPOUND_STRING("Moves hit 30% harder when\n"
-                                           "this Pokemon moves last."),
+        .name = _("分析"),
+        .description = COMPOUND_STRING("在最后使出招式时威力提高"),
+        .longDescription = COMPOUND_STRING("最后行动时，\n招式威力提高30%。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_ILLUSION] =
     {
-        .name = _("Illusion"),
-        .description = COMPOUND_STRING("Appears as a partner."),
-        .longDescription = COMPOUND_STRING("On entry, takes the\n"
-                                           "appearance of the last\n"
-                                           "party Pokémon until it\n"
-                                           "is hit by an attack."),
+        .name = _("幻觉"),
+        .description = COMPOUND_STRING("幻化成同行宝可梦迷惑对手"),
+        .longDescription = COMPOUND_STRING("出场时，会幻化成队伍\n中最后一只宝可梦的\n样子，直到受到攻击\n为止。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -1694,10 +1694,10 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_IMPOSTER] =
     {
-        .name = _("Imposter"),
-        .description = COMPOUND_STRING("Transforms into the foe."),
-        .longDescription = COMPOUND_STRING("Transforms into the opposite\n"
-                                           "Pokemon on entry."),
+        .name = _("变身者"),
+        .description = COMPOUND_STRING("变身为当前面对的宝可梦"),
+        .longDescription = COMPOUND_STRING("出场时，变身为正对面\n的宝可梦。"
+                                           ""),
         .aiRating = 9,
         .cantBeCopied = TRUE,
         .cantBeTraced = TRUE,
@@ -1705,119 +1705,119 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_INFILTRATOR] =
     {
-        .name = _("Infiltrator"),
-        .description = COMPOUND_STRING("Passes through barriers."),
-        .longDescription = COMPOUND_STRING("The Pokémon's moves\n"
-                                           "ignore the foe's\n"
-                                           "screens, Safeguard,\n"
-                                           "Mist, Substitute,\n"
-                                           "and Aura Shield."),
+        .name = _("穿透"),
+        .description = COMPOUND_STRING("能穿透壁障或替身进行攻击"),
+        .longDescription = COMPOUND_STRING("招式可以无视对手的\n壁障、神秘守护、白雾、\n替身和气场护盾。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_MUMMY] =
     {
-        .name = _("Mummy"),
-        .description = COMPOUND_STRING("Spreads with contact."),
-        .longDescription = COMPOUND_STRING("Contact with the Pokémon\n"
-                                           "changes the attacker's\n"
-                                           "Ability to Mummy."),
+        .name = _("木乃伊"),
+        .description = COMPOUND_STRING("被接触后将对手变为木乃伊"),
+        .longDescription = COMPOUND_STRING("接触到自己的对手，\n其特性会变为木乃伊。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_MOXIE] =
     {
-        .name = _("Moxie"),
-        .description = COMPOUND_STRING("KOs raise Attack."),
-        .longDescription = COMPOUND_STRING("Raises Attack by 1 stage\n"
-                                           "each time the Pokémon\n"
-                                           "knocks out a foe."),
+        .name = _("自信过度"),
+        .description = COMPOUND_STRING("打倒对手时攻击会提高"),
+        .longDescription = COMPOUND_STRING("每打倒1只对手，\n攻击提高1级。"
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_JUSTIFIED] =
     {
-        .name = _("Justified"),
-        .description = COMPOUND_STRING("Dark hits raise Attack."),
-        .longDescription = COMPOUND_STRING("Raises Attack by 1 stage\n"
-                                           "when hit by a\n"
-                                           "Dark-type move."),
+        .name = _("正义之心"),
+        .description = COMPOUND_STRING("受恶属性攻击时提高攻击"),
+        .longDescription = COMPOUND_STRING("受到恶属性招式攻击时，\n攻击提高1级。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_RATTLED] =
     {
-        .name = _("Rattled"),
-        .description = COMPOUND_STRING("Raises Speed when scared."),
-        .longDescription = COMPOUND_STRING("Taking Bug-, Ghost-, or\n"
-                                           "Dark-type damage raises\n"
-                                           "Speed by 1 stage. Can also\n"
-                                           "trigger from Intimidate."),
+        .name = _("胆怯"),
+        .description = COMPOUND_STRING("受恶鬼虫攻击威吓提高速度"),
+        .longDescription = COMPOUND_STRING("受到虫、幽灵或恶属性\n招式的伤害时，速度\n提高1级。受到威吓时\n也会发动。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_MAGIC_BOUNCE] =
     {
-        .name = _("Magic Bounce"),
-        .description = COMPOUND_STRING("Reflects status moves."),
-        .longDescription = COMPOUND_STRING("Reflects status moves\n"
-                                           "back at the Pokémon\n"
-                                           "that used them."),
+        .name = _("魔法镜"),
+        .description = COMPOUND_STRING("反弹对手使出的变化招式"),
+        .longDescription = COMPOUND_STRING("将变化招式反弹给\n使出该招式的宝可梦。"
+                                           ""
+                                           ""),
         .aiRating = 9,
         .breakable = TRUE,
     },
 
     [ABILITY_SAP_SIPPER] =
     {
-        .name = _("Sap Sipper"),
-        .description = COMPOUND_STRING("Grass increases Attack."),
-        .longDescription = COMPOUND_STRING("Grass-type moves do not\n"
-                                           "work on the Pokémon.\n"
-                                           "Instead, they raise its\n"
-                                           "Attack by 1 stage."),
+        .name = _("食草"),
+        .description = COMPOUND_STRING("免疫草属性攻击并提高攻击"),
+        .longDescription = COMPOUND_STRING("草属性的招式无效，\n反而会使攻击提高1级。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_PRANKSTER] =
     {
-        .name = _("Prankster"),
-        .description = COMPOUND_STRING("Status moves go first."),
-        .longDescription = COMPOUND_STRING("Gives status moves +1\n"
-                                           "priority. They miss\n"
-                                           "against Dark-types."),
+        .name = _("恶作剧之心"),
+        .description = COMPOUND_STRING("可以率先使出变化招式"),
+        .longDescription = COMPOUND_STRING("变化招式的优先度+1。\n但对恶属性的宝可梦\n不会命中。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_SAND_FORCE] =
     {
-        .name = _("Sand Force"),
-        .description = COMPOUND_STRING("Powers up in a sandstorm."),
-        .longDescription = COMPOUND_STRING("In sandstorm, Rock-,\n"
-                                           "Ground-, and Steel-type\n"
-                                           "moves hit 30% harder and\n"
-                                           "sand damage is blocked."),
+        .name = _("沙之力"),
+        .description = COMPOUND_STRING("沙暴时强化岩地钢招式"),
+        .longDescription = COMPOUND_STRING("沙暴时，岩石、地面和\n钢属性招式的威力提高\n30%，且不会受到沙暴\n的伤害。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_IRON_BARBS] =
     {
-        .name = _("Iron Barbs"),
-        .description = COMPOUND_STRING("Hurts to touch."),
-        .longDescription = COMPOUND_STRING("When hit by a contact\n"
-                                           "move, the attacker takes\n"
-                                           "damage equal to 1/8 of\n"
-                                           "its max HP."),
+        .name = _("铁刺"),
+        .description = COMPOUND_STRING("用铁刺给予接触的对手伤害"),
+        .longDescription = COMPOUND_STRING("受到接触类招式攻击时，\n对手会受到其最大HP\n1/8的伤害。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_ZEN_MODE] =
     {
-        .name = _("Zen Mode"),
-        .description = COMPOUND_STRING("Transforms at half HP."),
-        .longDescription = COMPOUND_STRING("Changes to Zen Mode when\n"
-                                           "HP drops to 1/2 or less,\n"
-                                           "and back when above."),
+        .name = _("达摩模式"),
+        .description = COMPOUND_STRING("HP一半以下时改变样子"),
+        .longDescription = COMPOUND_STRING("HP降到1/2以下时变为\n达摩模式，高于1/2时\n变回原样。"
+                                           ""
+                                           ""),
         .aiRating = -1,
         .cantBeCopied = TRUE,
         .cantBeSwapped = B_UPDATED_ABILITY_DATA >= GEN_7,
@@ -1829,159 +1829,159 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_VICTORY_STAR] =
     {
-        .name = _("Victory Star"),
-        .description = COMPOUND_STRING("Raises party accuracy."),
-        .longDescription = COMPOUND_STRING("Raises the accuracy of\n"
-                                           "the Pokémon and its\n"
-                                           "allies by 10%."),
+        .name = _("胜利之星"),
+        .description = COMPOUND_STRING("自己和同伴的命中率会提高"),
+        .longDescription = COMPOUND_STRING("自己和同伴的命中率\n提高10%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_TURBOBLAZE] =
     {
-        .name = _("Turboblaze"),
-        .description = COMPOUND_STRING("Moves hit through abilities."),
-        .longDescription = COMPOUND_STRING("Moves hit through\n"
-                                           "abilities such as Levitate.\n"
-                                           "                        \n"
-                                           "               "),
+        .name = _("涡轮火焰"),
+        .description = COMPOUND_STRING("使用招式不受对手特性影响"),
+        .longDescription = COMPOUND_STRING("招式可以无视飘浮等\n特性击中对手。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_TERAVOLT] =
     {
-        .name = _("Teravolt"),
-        .description = COMPOUND_STRING("Moves hit through abilities."),
-        .longDescription = COMPOUND_STRING("Moves hit through\n"
-                                           "abilities such as Levitate.\n"
-                                           "                        \n"
-                                           "               "),
+        .name = _("兆级电压"),
+        .description = COMPOUND_STRING("使用招式不受对手特性影响"),
+        .longDescription = COMPOUND_STRING("招式可以无视飘浮等\n特性击中对手。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_AROMA_VEIL] =
     {
-        .name = _("Aroma Veil"),
-        .description = COMPOUND_STRING("Prevents limiting of moves."),
-        .longDescription = COMPOUND_STRING("Protects allies from\n"
-                                           "mental effects that limit\n"
-                                           "move choice or action."),
+        .name = _("芳香幕"),
+        .description = COMPOUND_STRING("防守向己方发出的心灵攻击"),
+        .longDescription = COMPOUND_STRING("保护我方不受限制招式\n选择或行动的心灵类\n效果影响。"
+                                           ""
+                                           ""),
         .aiRating = 3,
         .breakable = TRUE,
     },
 
     [ABILITY_FLOWER_VEIL] =
     {
-        .name = _("Flower Veil"),
-        .description = COMPOUND_STRING("Protects Grass-types."),
-        .longDescription = COMPOUND_STRING("Allied Grass-types\n"
-                                           "cannot have their stats\n"
-                                           "lowered or be afflicted\n"
-                                           "with status conditions."),
+        .name = _("花幕"),
+        .description = COMPOUND_STRING("守护己方草宝可梦能力状态"),
+        .longDescription = COMPOUND_STRING("我方的草属性宝可梦\n不会被降低能力，\n也不会陷入异常状态。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 0,
         .breakable = TRUE,
     },
 
     [ABILITY_CHEEK_POUCH] =
     {
-        .name = _("Cheek Pouch"),
-        .description = COMPOUND_STRING("Eating Berries restores HP."),
-        .longDescription = COMPOUND_STRING("Eating a Berry restores\n"
-                                           "HP in addition to the\n"
-                                           "Berry's normal effect."),
+        .name = _("颊囊"),
+        .description = COMPOUND_STRING("食用任意树果HP都会回复"),
+        .longDescription = COMPOUND_STRING("食用树果时，除了树果\n原本的效果外，\n还会回复HP。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_PROTEAN] =
     {
-        .name = _("Protean"),
-        .description = COMPOUND_STRING("Changes type to used move."),
-        .longDescription = COMPOUND_STRING("Changes the Pokemon's\n"
-                                           "type to match the move it\n"
-                                           "uses before attacking."),
+        .name = _("变幻自如"),
+        .description = COMPOUND_STRING("一次性变为使出招式的属性"),
+        .longDescription = COMPOUND_STRING("攻击前，自己的属性\n会变为所使出招式的\n属性。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_FUR_COAT] =
     {
-        .name = _("Fur Coat"),
-        .description = COMPOUND_STRING("Raises Defense."),
-        .longDescription = COMPOUND_STRING("Halves the damage the\n"
-                                           "Pokémon takes from\n"
-                                           "physical moves."),
+        .name = _("毛皮大衣"),
+        .description = COMPOUND_STRING("受物理招式的伤害会减半"),
+        .longDescription = COMPOUND_STRING("受到物理招式的伤害\n减半。"
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_MAGICIAN] =
     {
-        .name = _("Magician"),
-        .description = COMPOUND_STRING("Steals the foe's held item."),
-        .longDescription = COMPOUND_STRING("When this Pokemon uses a\n"
-                                           "damaging move, it steals\n"
-                                           "the target's held item."),
+        .name = _("魔术师"),
+        .description = COMPOUND_STRING("夺走被自己击中对手的道具"),
+        .longDescription = COMPOUND_STRING("使出攻击招式时，\n会夺走目标携带的道具。"
+                                           ""
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_BULLETPROOF] =
     {
-        .name = _("Bulletproof"),
-        .description = COMPOUND_STRING("Avoids some projectiles."),
-        .longDescription = COMPOUND_STRING("Protects the Pokémon\n"
-                                           "from ball and bomb\n"
-                                           "moves."),
+        .name = _("防弹"),
+        .description = COMPOUND_STRING("防守球和弹类招式"),
+        .longDescription = COMPOUND_STRING("不会受到球类和弹类\n招式的影响。"
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_COMPETITIVE] =
     {
-        .name = _("Competitive"),
-        .description = COMPOUND_STRING("Lowered stats up Sp. Atk."),
-        .longDescription = COMPOUND_STRING("When any stat is lowered,\n"
-                                           "raises Sp. Atk by 2\n"
-                                           "stages."),
+        .name = _("好胜"),
+        .description = COMPOUND_STRING("被降低能力时大幅提高特攻"),
+        .longDescription = COMPOUND_STRING("能力被降低时，\n特攻提高2级。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_STRONG_JAW] =
     {
-        .name = _("Strong Jaw"),
-        .description = COMPOUND_STRING("Boosts biting moves."),
-        .longDescription = COMPOUND_STRING("Boosts the power of\n"
-                                           "biting moves by 50%."),
+        .name = _("强壮之颚"),
+        .description = COMPOUND_STRING("啃咬类招式的威力会提高"),
+        .longDescription = COMPOUND_STRING("啃咬类招式的威力\n提高50%。"
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_REFRIGERATE] =
     {
-        .name = _("Refrigerate"),
-        .description = COMPOUND_STRING("Normal moves become Ice."),
-        .longDescription = COMPOUND_STRING("Normal-type moves become\n"
-                                           "Ice-type and deal 20%\n"
-                                           "more damage."),
+        .name = _("冰冻皮肤"),
+        .description = COMPOUND_STRING("一般招式变为冰属性并强化"),
+        .longDescription = COMPOUND_STRING("一般属性的招式会变为\n冰属性，且伤害提高\n20%。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_SWEET_VEIL] =
     {
-        .name = _("Sweet Veil"),
-        .description = COMPOUND_STRING("Prevents party from sleep."),
-        .longDescription = COMPOUND_STRING("Prevents this Pokemon\n"
-                                           "and its allies from being\n"
-                                           "put to sleep."),
+        .name = _("甜幕"),
+        .description = COMPOUND_STRING("己方宝可梦不会睡眠"),
+        .longDescription = COMPOUND_STRING("自己和同伴都不会\n陷入睡眠状态。"
+                                           ""
+                                           ""),
         .aiRating = 4,
         .breakable = TRUE,
     },
 
     [ABILITY_STANCE_CHANGE] =
     {
-        .name = _("Stance Change"),
-        .description = COMPOUND_STRING("Transforms as it battles."),
-        .longDescription = COMPOUND_STRING("Transforms to Sword form\n"
-                                           "with offensive attacks and\n"
-                                           "reverts to Shield form with\n"
-                                           "moves such as King's Shield."),
+        .name = _("战斗切换"),
+        .description = COMPOUND_STRING("根据招式切换刀剑盾牌形态"),
+        .longDescription = COMPOUND_STRING("使出攻击招式时变为\n刀剑形态，使出王者盾牌\n等招式时变回盾牌形态。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 10,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -1993,221 +1993,221 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_GALE_WINGS] =
     {
-        .name = _("Gale Wings"),
-        .description = COMPOUND_STRING("Flying moves go first."),
-        .longDescription = COMPOUND_STRING("Gives Flying-type moves\n"
-                                           "+1 priority while the\n"
-                                           "Pokémon is at full HP."),
+        .name = _("疾风之翼"),
+        .description = COMPOUND_STRING("满HP时能先使出飞行招式"),
+        .longDescription = COMPOUND_STRING("HP全满时，飞行属性\n招式的优先度+1。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_MEGA_LAUNCHER] =
     {
-        .name = _("Mega Launcher"),
-        .description = COMPOUND_STRING("Boosts pulse moves."),
-        .longDescription = COMPOUND_STRING("Boosts the power of\n"
-                                           "pulse and aura moves\n"
-                                           "by 50%."),
+        .name = _("超级发射器"),
+        .description = COMPOUND_STRING("强化波动和波导类招式"),
+        .longDescription = COMPOUND_STRING("波动和波导类招式的\n威力提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_GRASS_PELT] =
     {
-        .name = _("Grass Pelt"),
-        .description = COMPOUND_STRING("Ups Defense in grass."),
-        .longDescription = COMPOUND_STRING("Raises Defense by 50%\n"
-                                           "while Grassy Terrain\n"
-                                           "is active."),
+        .name = _("草之毛皮"),
+        .description = COMPOUND_STRING("青草场地时，防御会提高"),
+        .longDescription = COMPOUND_STRING("青草场地时，\n防御提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 2,
         .breakable = TRUE,
     },
 
     [ABILITY_SYMBIOSIS] =
     {
-        .name = _("Symbiosis"),
-        .description = COMPOUND_STRING("Passes its item to an ally."),
-        .longDescription = COMPOUND_STRING("Passes its held item to\n"
-                                           "an ally immediately after\n"
-                                           "the ally uses its item."),
+        .name = _("共生"),
+        .description = COMPOUND_STRING("会把道具传递给同伴"),
+        .longDescription = COMPOUND_STRING("同伴用掉道具后，\n立刻把自己携带的道具\n传递给同伴。"
+                                           ""
+                                           ""),
         .aiRating = 0,
     },
 
     [ABILITY_TOUGH_CLAWS] =
     {
-        .name = _("Tough Claws"),
-        .description = COMPOUND_STRING("Boosts contact moves."),
-        .longDescription = COMPOUND_STRING("Boosts the power of\n"
-                                           "contact moves by 30%."),
+        .name = _("硬爪"),
+        .description = COMPOUND_STRING("接触类招式威力会提高"),
+        .longDescription = COMPOUND_STRING("接触类招式的威力\n提高30%。"
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_PIXILATE] =
     {
-        .name = _("Pixilate"),
-        .description = COMPOUND_STRING("Normal moves become Fairy."),
-        .longDescription = COMPOUND_STRING("Normal-type moves become\n"
-                                           "Fairy-type and deal 20%\n"
-                                           "more damage."),
+        .name = _("妖精皮肤"),
+        .description = COMPOUND_STRING("一般招式变妖精属性并强化"),
+        .longDescription = COMPOUND_STRING("一般属性的招式会变为\n妖精属性，且伤害提高\n20%。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_GOOEY] =
     {
-        .name = _("Gooey"),
-        .description = COMPOUND_STRING("Lowers Speed on contact."),
-        .longDescription = COMPOUND_STRING("Lowers the attacker's\n"
-                                           "Speed by 1 stage when\n"
-                                           "hit by a contact move."),
+        .name = _("黏滑"),
+        .description = COMPOUND_STRING("降低接触自己的对手的速度"),
+        .longDescription = COMPOUND_STRING("受到接触类招式攻击时，\n对手的速度降低1级。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_AERILATE] =
     {
-        .name = _("Aerilate"),
-        .description = COMPOUND_STRING("Normal moves become Flying."),
-        .longDescription = COMPOUND_STRING("Normal-type moves become\n"
-                                           "Flying-type and deal 20%\n"
-                                           "more damage."),
+        .name = _("飞行皮肤"),
+        .description = COMPOUND_STRING("一般招式变飞行属性并强化"),
+        .longDescription = COMPOUND_STRING("一般属性的招式会变为\n飞行属性，且伤害提高\n20%。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_PARENTAL_BOND] =
     {
-        .name = _("Parental Bond"),
-        .description = COMPOUND_STRING("Moves hit twice."),
-        .longDescription = COMPOUND_STRING("The Pokémon attacks\n"
-                                           "twice with the second\n"
-                                           "hit dealing 25% of the\n"
-                                           "first hits damage."),
+        .name = _("亲子爱"),
+        .description = COMPOUND_STRING("亲子俩可以合计攻击2次"),
+        .longDescription = COMPOUND_STRING("可以攻击2次，第2次的\n伤害为第1次的25%。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 10,
     },
 
     [ABILITY_DARK_AURA] =
     {
-        .name = _("Dark Aura"),
-        .description = COMPOUND_STRING("Boosts Dark moves."),
-        .longDescription = COMPOUND_STRING("Boosts the power of all\n"
-                                           "Dark-type moves in\n"
-                                           "battle by 33%."),
+        .name = _("暗黑气场"),
+        .description = COMPOUND_STRING("全体的恶属性招式变强"),
+        .longDescription = COMPOUND_STRING("场上所有恶属性招式的\n威力提高33%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
         .breakable = B_UPDATED_ABILITY_DATA < GEN_8,
     },
 
     [ABILITY_FAIRY_AURA] =
     {
-        .name = _("Fairy Aura"),
-        .description = COMPOUND_STRING("Boosts Fairy moves."),
-        .longDescription = COMPOUND_STRING("Boosts the power of all\n"
-                                           "Fairy-type moves in\n"
-                                           "battle by 33%."),
+        .name = _("妖精气场"),
+        .description = COMPOUND_STRING("全体的妖精属性招式变强"),
+        .longDescription = COMPOUND_STRING("场上所有妖精属性招式\n的威力提高33%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
         .breakable = B_UPDATED_ABILITY_DATA < GEN_8,
     },
 
     [ABILITY_AURA_BREAK] =
     {
-        .name = _("Aura Break"),
-        .description = COMPOUND_STRING("Reverses aura abilities."),
-        .longDescription = COMPOUND_STRING("Reverses the effects of\n"
-                                           "Dark, Fairy, and Malice\n"
-                                           "Auras, weakening those\n"
-                                           "moves instead."),
+        .name = _("气场破坏"),
+        .description = COMPOUND_STRING("让气场的效果发生逆转"),
+        .longDescription = COMPOUND_STRING("逆转暗黑气场、妖精\n气场和恶意气场的效果，\n使对应招式的威力\n反而降低。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 3,
         .breakable = TRUE,
     },
 
     [ABILITY_PRIMORDIAL_SEA] =
     {
-        .name = _("Primordial Sea"),
-        .description = COMPOUND_STRING("Summons heavy rain."),
-        .longDescription = COMPOUND_STRING("Summons heavy rain that\n"
-                                           "makes Fire-type moves\n"
-                                           "fail, lasting while the\n"
-                                           "Pokémon is in battle."),
+        .name = _("始源之海"),
+        .description = COMPOUND_STRING("变为不受火属性攻击的天气"),
+        .longDescription = COMPOUND_STRING("降下让火属性招式失败\n的大雨，自己在场期间\n会一直持续。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 10,
     },
 
     [ABILITY_DESOLATE_LAND] =
     {
-        .name = _("Desolate Land"),
-        .description = COMPOUND_STRING("Summons intense sunlight."),
-        .longDescription = COMPOUND_STRING("Turns sunlight extremely\n"
-                                           "harsh on entry, blocking\n"
-                                           "damaging Water moves\n"
-                                           "until the Pokemon leaves."),
+        .name = _("终结之地"),
+        .description = COMPOUND_STRING("变为不受水属性攻击的天气"),
+        .longDescription = COMPOUND_STRING("出场时让日照变得非常\n强烈，直到离场为止，\n水属性的攻击招式都\n会无效。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 10,
     },
 
     [ABILITY_DELTA_STREAM] =
     {
-        .name = _("Delta Stream"),
-        .description = COMPOUND_STRING("Summons strong winds."),
-        .longDescription = COMPOUND_STRING("Summons strong winds\n"
-                                           "that remove Flying-type\n"
-                                           "weaknesses while the\n"
-                                           "Pokémon is in battle."),
+        .name = _("德尔塔气流"),
+        .description = COMPOUND_STRING("变为飞行弱点消失的天气"),
+        .longDescription = COMPOUND_STRING("自己在场期间刮起强风，\n使飞行属性的弱点消失。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 10,
     },
 
     [ABILITY_STAMINA] =
     {
-        .name = _("Stamina"),
-        .description = COMPOUND_STRING("Boosts Defense when hit."),
-        .longDescription = COMPOUND_STRING("Raises Defense by 1\n"
-                                           "stage each time the\n"
-                                           "Pokémon is hit by an\n"
-                                           "attack."),
+        .name = _("持久力"),
+        .description = COMPOUND_STRING("受到攻击时，防御会提高"),
+        .longDescription = COMPOUND_STRING("每次受到攻击时，\n防御提高1级。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_WIMP_OUT] =
     {
-        .name = _("Wimp Out"),
-        .description = COMPOUND_STRING("Flees at half HP."),
-        .longDescription = COMPOUND_STRING("The Pokémon switches out\n"
-                                           "when its HP drops to\n"
-                                           "1/2 or less."),
+        .name = _("跃跃欲逃"),
+        .description = COMPOUND_STRING("HP变为一半时会慌张逃走"),
+        .longDescription = COMPOUND_STRING("HP降到1/2以下时，\n会替换下场。"
+                                           ""
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_EMERGENCY_EXIT] =
     {
-        .name = _("Emergency Exit"),
-        .description = COMPOUND_STRING("Flees at half HP."),
-        .longDescription = COMPOUND_STRING("The Pokémon switches out\n"
-                                           "when its HP drops to\n"
-                                           "1/2 or less."),
+        .name = _("危险回避"),
+        .description = COMPOUND_STRING("HP变为一半时会回避危险"),
+        .longDescription = COMPOUND_STRING("HP降到1/2以下时，\n会替换下场。"
+                                           ""
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_WATER_COMPACTION] =
     {
-        .name = _("Water Compaction"),
-        .description = COMPOUND_STRING("Water boosts Defense."),
-        .longDescription = COMPOUND_STRING("Raises Defense by 2\n"
-                                           "stages when hit by a\n"
-                                           "Water-type move."),
+        .name = _("遇水凝固"),
+        .description = COMPOUND_STRING("受水招式攻击大幅提高防御"),
+        .longDescription = COMPOUND_STRING("受到水属性招式攻击时，\n防御提高2级。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_MERCILESS] =
     {
-        .name = _("Merciless"),
-        .description = COMPOUND_STRING("Criticals poisoned foes."),
-        .longDescription = COMPOUND_STRING("The Pokémon's attacks\n"
-                                           "always land critical\n"
-                                           "hits on poisoned foes."),
+        .name = _("不仁不义"),
+        .description = COMPOUND_STRING("攻击中毒对手必定击中要害"),
+        .longDescription = COMPOUND_STRING("攻击中毒状态的对手时\n必定击中要害。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_SHIELDS_DOWN] =
     {
-        .name = _("Shields Down"),
-        .description = COMPOUND_STRING("Shell breaks at half HP."),
-        .longDescription = COMPOUND_STRING("Above 1/2 HP its shell\n"
-                                           "blocks status. At 1/2\n"
-                                           "or less it breaks and\n"
-                                           "switches to Attack mode."),
+        .name = _("界限盾壳"),
+        .description = COMPOUND_STRING("HP变为一半时更有攻击性"),
+        .longDescription = COMPOUND_STRING("HP高于1/2时，外壳能\n防住异常状态。HP降到\n1/2以下时外壳破碎，\n变为攻击模式。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -2219,112 +2219,112 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_STAKEOUT] =
     {
-        .name = _("Stakeout"),
-        .description = COMPOUND_STRING("Stronger as foes switch in."),
-        .longDescription = COMPOUND_STRING("Moves deal double damage\n"
-                                           "against targets that\n"
-                                           "switched in this turn."),
+        .name = _("蹲守"),
+        .description = COMPOUND_STRING("对替换出场的对手加倍伤害"),
+        .longDescription = COMPOUND_STRING("对本回合替换出场的\n目标，招式伤害变为\n2倍。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_WATER_BUBBLE] =
     {
-        .name = _("Water Bubble"),
-        .description = COMPOUND_STRING("Guards from fire and burns."),
-        .longDescription = COMPOUND_STRING("Halves incoming Fire\n"
-                                           "damage, doubles Water\n"
-                                           "moves, and prevents burns."),
+        .name = _("水泡"),
+        .description = COMPOUND_STRING("降低火招式伤害且不会灼伤"),
+        .longDescription = COMPOUND_STRING("受到火属性招式的伤害\n减半，水属性招式威力\n变为2倍，不会灼伤。"
+                                           ""
+                                           ""),
         .aiRating = 8,
         .breakable = TRUE,
     },
 
     [ABILITY_STEELWORKER] =
     {
-        .name = _("Steelworker"),
-        .description = COMPOUND_STRING("Powers up Steel moves."),
-        .longDescription = COMPOUND_STRING("Boosts the power of the\n"
-                                           "Pokémon's Steel-type\n"
-                                           "moves by 50%."),
+        .name = _("钢能力者"),
+        .description = COMPOUND_STRING("钢属性的招式威力会提高"),
+        .longDescription = COMPOUND_STRING("钢属性招式的威力\n提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_BERSERK] =
     {
-        .name = _("Berserk"),
-        .description = COMPOUND_STRING("Boosts Sp. Atk at low HP."),
-        .longDescription = COMPOUND_STRING("When damage drops HP\n"
-                                           "below half, raises Sp.\n"
-                                           "Atk by 1 stage."),
+        .name = _("怒火冲天"),
+        .description = COMPOUND_STRING("受击HP变一半时提高特攻"),
+        .longDescription = COMPOUND_STRING("因受到伤害而使HP\n降到一半以下时，\n特攻提高1级。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_SLUSH_RUSH] =
     {
-        .name = _("Slush Rush"),
-        .description = COMPOUND_STRING("Raises Speed in Hail/Snow."),
-        .longDescription = COMPOUND_STRING("Doubles Speed during\n"
-                                           "hail or snow and prevents\n"
-                                           "hail damage."),
+        .name = _("拨雪"),
+        .description = COMPOUND_STRING("下雪天气时，速度会提高"),
+        .longDescription = COMPOUND_STRING("冰雹或下雪时速度变为\n2倍，且不会受到冰雹\n的伤害。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_LONG_REACH] =
     {
-        .name = _("Long Reach"),
-        .description = COMPOUND_STRING("Never makes contact."),
-        .longDescription = COMPOUND_STRING("The Pokémon's moves do\n"
-                                           "not make contact with\n"
-                                           "the target."),
+        .name = _("远隔"),
+        .description = COMPOUND_STRING("可以不接触对手使出招式"),
+        .longDescription = COMPOUND_STRING("使出的所有招式都\n不会接触到目标。"
+                                           ""
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_LIQUID_VOICE] =
     {
-        .name = _("Liquid Voice"),
-        .description = COMPOUND_STRING("Makes sound moves Water."),
-        .longDescription = COMPOUND_STRING("All of the Pokémon's\n"
-                                           "sound-based moves become\n"
-                                           "Water-type."),
+        .name = _("湿润之声"),
+        .description = COMPOUND_STRING("所有声音招式都变为水属性"),
+        .longDescription = COMPOUND_STRING("自己的所有声音类招式\n都变为水属性。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_TRIAGE] =
     {
-        .name = _("Triage"),
-        .description = COMPOUND_STRING("Healing moves go first."),
-        .longDescription = COMPOUND_STRING("Gives healing moves\n"
-                                           "+3 priority in battle."),
+        .name = _("先行治疗"),
+        .description = COMPOUND_STRING("可以率先使出回复招式"),
+        .longDescription = COMPOUND_STRING("回复招式的优先度+3。"
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_GALVANIZE] =
     {
-        .name = _("Galvanize"),
-        .description = COMPOUND_STRING("Normal moves turn Electric."),
-        .longDescription = COMPOUND_STRING("Normal-type moves become\n"
-                                           "Electric-type and deal\n"
-                                           "20% more damage."),
+        .name = _("电气皮肤"),
+        .description = COMPOUND_STRING("一般招式变为电属性并强化"),
+        .longDescription = COMPOUND_STRING("一般属性的招式会变为\n电属性，且伤害提高\n20%。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_SURGE_SURFER] =
     {
-        .name = _("Surge Surfer"),
-        .description = COMPOUND_STRING("Faster on electricity."),
-        .longDescription = COMPOUND_STRING("Doubles the Pokémon's\n"
-                                           "Speed while Electric\n"
-                                           "Terrain is active."),
+        .name = _("冲浪之尾"),
+        .description = COMPOUND_STRING("电气场地时速度会变为2倍"),
+        .longDescription = COMPOUND_STRING("电气场地时，\n速度变为2倍。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_SCHOOLING] =
     {
-        .name = _("Schooling"),
-        .description = COMPOUND_STRING("Forms a school when strong."),
-        .longDescription = COMPOUND_STRING("At level 20+, Wishiwashi\n"
-                                           "becomes School Form at\n"
-                                           "1/4 HP or above, else\n"
-                                           "Solo Form."),
+        .name = _("鱼群"),
+        .description = COMPOUND_STRING("HP多则聚众变强少则分散"),
+        .longDescription = COMPOUND_STRING("等级在20以上的弱丁鱼，\nHP在1/4以上时变为\n鱼群的样子，否则变为\n单独的样子。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -2336,12 +2336,12 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_DISGUISE] =
     {
-        .name = _("Disguise"),
-        .description = COMPOUND_STRING("Decoy protects it once."),
-        .longDescription = COMPOUND_STRING("A cloak blocks the\n"
-                                           "damage from one attack,\n"
-                                           "then breaks, costing\n"
-                                           "1/8 of max HP."),
+        .name = _("画皮"),
+        .description = COMPOUND_STRING("通过画皮防住1次攻击"),
+        .longDescription = COMPOUND_STRING("画皮可以防住1次攻击\n的伤害，之后画皮会\n破损并减少最大HP的\n1/8。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
         .breakable = TRUE,
         .cantBeCopied = TRUE,
@@ -2354,11 +2354,11 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_BATTLE_BOND] =
     {
-        .name = _("Battle Bond"),
-        .description = COMPOUND_STRING("Changes form after a KO."),
-        .longDescription = COMPOUND_STRING("After knocking out a\n"
-                                           "foe, Greninja transforms\n"
-                                           "into its Ash form."),
+        .name = _("牵绊变身"),
+        .description = COMPOUND_STRING("打倒对手时提高能力"),
+        .longDescription = COMPOUND_STRING("打倒对手后，\n甲贺忍蛙会变为\n小智版甲贺忍蛙。"
+                                           ""
+                                           ""),
         .aiRating = 6,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -2370,11 +2370,11 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_POWER_CONSTRUCT] =
     {
-        .name = _("Power Construct"),
-        .description = COMPOUND_STRING("Cells aid it when weakened."),
-        .longDescription = COMPOUND_STRING("When Zygarde falls below\n"
-                                           "half HP, it changes into\n"
-                                           "Complete Forme."),
+        .name = _("群聚变形"),
+        .description = COMPOUND_STRING("HP一半时变成完全体形态"),
+        .longDescription = COMPOUND_STRING("基格尔德的HP降到一半\n以下时，会变为完全体\n形态。"
+                                           ""
+                                           ""),
         .aiRating = 10,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -2386,22 +2386,22 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_CORROSION] =
     {
-        .name = _("Corrosion"),
-        .description = COMPOUND_STRING("Poisons any type."),
-        .longDescription = COMPOUND_STRING("The Pokémon can poison\n"
-                                           "even Steel-type and\n"
-                                           "Poison-type targets."),
+        .name = _("腐蚀"),
+        .description = COMPOUND_STRING("可使钢毒属性的宝可梦中毒"),
+        .longDescription = COMPOUND_STRING("即使目标是钢属性或\n毒属性，也能使其中毒。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_COMATOSE] =
     {
-        .name = _("Comatose"),
-        .description = COMPOUND_STRING("Always drowsing."),
-        .longDescription = COMPOUND_STRING("The Pokémon is always\n"
-                                           "drowsing and acts as if\n"
-                                           "asleep, but cannot gain\n"
-                                           "another status."),
+        .name = _("绝对睡眠"),
+        .description = COMPOUND_STRING("在半梦半醒的状态下攻击"),
+        .longDescription = COMPOUND_STRING("总是半梦半醒，视为\n睡眠状态，但不会陷入\n其他异常状态。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -2412,96 +2412,96 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_QUEENLY_MAJESTY] =
     {
-        .name = _("Queenly Majesty"),
-        .description = COMPOUND_STRING("Protects from priority."),
-        .longDescription = COMPOUND_STRING("Opposing Pokémon cannot\n"
-                                           "hit it with increased\n"
-                                           "priority moves."),
+        .name = _("女王的威严"),
+        .description = COMPOUND_STRING("使对手无法使出先制招式"),
+        .longDescription = COMPOUND_STRING("对手无法用先制招式\n攻击自己。"
+                                           ""
+                                           ""),
         .aiRating = 6,
         .breakable = TRUE,
     },
 
     [ABILITY_INNARDS_OUT] =
     {
-        .name = _("Innards Out"),
-        .description = COMPOUND_STRING("Hurts foe when defeated."),
-        .longDescription = COMPOUND_STRING("When knocked out by an\n"
-                                           "attack, deals damage to\n"
-                                           "the attacker equal to\n"
-                                           "the HP it had left."),
+        .name = _("飞出的内在物"),
+        .description = COMPOUND_STRING("被击倒时造成剩余HP伤害"),
+        .longDescription = COMPOUND_STRING("被攻击打倒时，给予\n对手与自己被打倒前\n剩余HP相同的伤害。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_DANCER] =
     {
-        .name = _("Dancer"),
-        .description = COMPOUND_STRING("Dances along with others."),
-        .longDescription = COMPOUND_STRING("When another Pokemon uses\n"
-                                           "a dance move, this\n"
-                                           "Pokemon copies it right\n"
-                                           "afterward."),
+        .name = _("舞者"),
+        .description = COMPOUND_STRING("跟随着其他舞蹈使出舞蹈"),
+        .longDescription = COMPOUND_STRING("其他宝可梦使出舞蹈类\n招式后，会立刻跟着\n使出相同的招式。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_BATTERY] =
     {
-        .name = _("Battery"),
-        .description = COMPOUND_STRING("Boosts ally's Sp. Atk."),
-        .longDescription = COMPOUND_STRING("Raises the power of\n"
-                                           "allies' special moves\n"
-                                           "by 30%."),
+        .name = _("蓄电池"),
+        .description = COMPOUND_STRING("提高我方的特殊招式的威力"),
+        .longDescription = COMPOUND_STRING("同伴的特殊招式威力\n提高30%。"
+                                           ""
+                                           ""),
         .aiRating = 0,
     },
 
     [ABILITY_FLUFFY] =
     {
-        .name = _("Fluffy"),
-        .description = COMPOUND_STRING("Tougher but flammable."),
-        .longDescription = COMPOUND_STRING("Halves contact-move\n"
-                                           "damage but doubles\n"
-                                           "damage from Fire-type\n"
-                                           "moves."),
+        .name = _("毛茸茸"),
+        .description = COMPOUND_STRING("减轻接触伤害，但怕火"),
+        .longDescription = COMPOUND_STRING("受到接触类招式的伤害\n减半，但受到火属性\n招式的伤害变为2倍。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
         .breakable = TRUE,
     },
 
     [ABILITY_DAZZLING] =
     {
-        .name = _("Dazzling"),
-        .description = COMPOUND_STRING("Protects from priority."),
-        .longDescription = COMPOUND_STRING("Opposing Pokémon cannot\n"
-                                           "hit it with increased\n"
-                                           "priority moves."),
+        .name = _("鲜艳之躯"),
+        .description = COMPOUND_STRING("使对手无法使出先制招式"),
+        .longDescription = COMPOUND_STRING("对手无法用先制招式\n攻击自己。"
+                                           ""
+                                           ""),
         .aiRating = 5,
         .breakable = TRUE,
     },
 
     [ABILITY_SOUL_HEART] =
     {
-        .name = _("Soul-Heart"),
-        .description = COMPOUND_STRING("KOs raise Sp. Atk."),
-        .longDescription = COMPOUND_STRING("Raises Sp. Atk by 1\n"
-                                           "stage each time any\n"
-                                           "Pokémon is knocked out."),
+        .name = _("魂心"),
+        .description = COMPOUND_STRING("有宝可梦倒下时提高特攻"),
+        .longDescription = COMPOUND_STRING("每当有宝可梦被打倒时，\n特攻提高1级。"
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_TANGLING_HAIR] =
     {
-        .name = _("Tangling Hair"),
-        .description = COMPOUND_STRING("Lowers Speed on contact."),
-        .longDescription = COMPOUND_STRING("Lowers the attacker's\n"
-                                           "Speed by 1 stage when\n"
-                                           "hit by a contact move."),
+        .name = _("卷发"),
+        .description = COMPOUND_STRING("降低接触自己的对手的速度"),
+        .longDescription = COMPOUND_STRING("受到接触类招式攻击时，\n对手的速度降低1级。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_RECEIVER] =
     {
-        .name = _("Receiver"),
-        .description = COMPOUND_STRING("Copies ally's ability."),
-        .longDescription = COMPOUND_STRING("Inherits the Ability of\n"
-                                           "a defeated ally."),
+        .name = _("接球手"),
+        .description = COMPOUND_STRING("继承被打倒的同伴的特性"),
+        .longDescription = COMPOUND_STRING("继承被打倒的同伴的\n特性。"
+                                           ""),
         .aiRating = 0,
         .cantBeCopied = TRUE,
         .cantBeTraced = TRUE,
@@ -2509,10 +2509,10 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_POWER_OF_ALCHEMY] =
     {
-        .name = _("Power Of Alchemy"),
-        .description = COMPOUND_STRING("Copies ally's ability."),
-        .longDescription = COMPOUND_STRING("Inherits the Ability of\n"
-                                           "a defeated ally."),
+        .name = _("化学之力"),
+        .description = COMPOUND_STRING("继承被打倒的同伴的特性"),
+        .longDescription = COMPOUND_STRING("继承被打倒的同伴的\n特性。"
+                                           ""),
         .aiRating = 0,
         .cantBeCopied = TRUE,
         .cantBeTraced = TRUE,
@@ -2520,21 +2520,21 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_BEAST_BOOST] =
     {
-        .name = _("Beast Boost"),
-        .description = COMPOUND_STRING("KOs boost best stat."),
-        .longDescription = COMPOUND_STRING("Raises its highest stat\n"
-                                           "by 1 stage each time it\n"
-                                           "knocks out a foe."),
+        .name = _("异兽提升"),
+        .description = COMPOUND_STRING("打倒对手时，提升最高能力"),
+        .longDescription = COMPOUND_STRING("每打倒1只对手，\n自己最高的那项能力\n提高1级。"
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_RKS_SYSTEM] =
     {
-        .name = _("RKS System"),
-        .description = COMPOUND_STRING("Memories change its type."),
-        .longDescription = COMPOUND_STRING("Changes Silvally's type\n"
-                                           "to match its held Memory\n"
-                                           "and resists replacement."),
+        .name = _("AR系统"),
+        .description = COMPOUND_STRING("根据存储碟改变自己属性"),
+        .longDescription = COMPOUND_STRING("银伴战兽的属性会变为\n所携带存储碟的属性，\n且该特性不会被替换。"
+                                           ""
+                                           ""),
         .aiRating = 8,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -2546,173 +2546,173 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_ELECTRIC_SURGE] =
     {
-        .name = _("Electric Surge"),
-        .description = COMPOUND_STRING("Field becomes Electric."),
-        .longDescription = COMPOUND_STRING("Turns the ground into\n"
-                                           "Electric Terrain for 5\n"
-                                           "turns when entering\n"
-                                           "battle."),
+        .name = _("电气制造者"),
+        .description = COMPOUND_STRING("出场时，会布下电气场地"),
+        .longDescription = COMPOUND_STRING("出场时，在5回合内将\n脚下变为电气场地。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_PSYCHIC_SURGE] =
     {
-        .name = _("Psychic Surge"),
-        .description = COMPOUND_STRING("Field becomes weird."),
-        .longDescription = COMPOUND_STRING("Turns the ground into\n"
-                                           "Psychic Terrain for 5\n"
-                                           "turns when entering\n"
-                                           "battle."),
+        .name = _("精神制造者"),
+        .description = COMPOUND_STRING("出场时，会布下精神场地"),
+        .longDescription = COMPOUND_STRING("出场时，在5回合内将\n脚下变为精神场地。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_MISTY_SURGE] =
     {
-        .name = _("Misty Surge"),
-        .description = COMPOUND_STRING("Field becomes misty."),
-        .longDescription = COMPOUND_STRING("Turns the ground into\n"
-                                           "Misty Terrain for 5\n"
-                                           "turns when entering\n"
-                                           "battle."),
+        .name = _("薄雾制造者"),
+        .description = COMPOUND_STRING("出场时，会布下薄雾场地"),
+        .longDescription = COMPOUND_STRING("出场时，在5回合内将\n脚下变为薄雾场地。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_GRASSY_SURGE] =
     {
-        .name = _("Grassy Surge"),
-        .description = COMPOUND_STRING("Field becomes grassy."),
-        .longDescription = COMPOUND_STRING("Turns the ground into\n"
-                                           "Grassy Terrain for 5\n"
-                                           "turns when entering\n"
-                                           "battle."),
+        .name = _("青草制造者"),
+        .description = COMPOUND_STRING("出场时，会布下青草场地"),
+        .longDescription = COMPOUND_STRING("出场时，在5回合内将\n脚下变为青草场地。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_FULL_METAL_BODY] =
     {
-        .name = _("Full Metal Body"),
-        .description = COMPOUND_STRING("Prevents stat reduction."),
-        .longDescription = COMPOUND_STRING("The Pokémon's stats\n"
-                                           "cannot be lowered by\n"
-                                           "other Pokémon's moves\n"
-                                           "or Abilities."),
+        .name = _("金属防护"),
+        .description = COMPOUND_STRING("不因对手招式特性降低能力"),
+        .longDescription = COMPOUND_STRING("不会因其他宝可梦的\n招式或特性而被降低\n能力。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_SHADOW_SHIELD] =
     {
-        .name = _("Shadow Shield"),
-        .description = COMPOUND_STRING("Halves damage at full HP."),
-        .longDescription = COMPOUND_STRING("Damage from moves is\n"
-                                           "halved while this Pokemon\n"
-                                           "is at full HP. This effect\n"
-                                           "cannot by bypassed by\n"
-                                           "Mold Breaker."),
+        .name = _("幻影防守"),
+        .description = COMPOUND_STRING("HP全满时减少受到的伤害"),
+        .longDescription = COMPOUND_STRING("HP全满时，受到的\n招式伤害减半。\n此效果不会被破格\n无视。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_PRISM_ARMOR] =
     {
-        .name = _("Prism Armor"),
-        .description = COMPOUND_STRING("Weakens “supereffective”."),
-        .longDescription = COMPOUND_STRING("Reduces super effective\n"
-                                           "damage to 75%. This effect\n"
-                                           "cannot by bypassed by\n"
-                                           "Mold Breaker."),
+        .name = _("棱镜装甲"),
+        .description = COMPOUND_STRING("减轻所受效果绝佳的伤害"),
+        .longDescription = COMPOUND_STRING("受到效果绝佳的招式\n伤害降至75%。\n此效果不会被破格\n无视。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_NEUROFORCE] =
     {
-        .name = _("Neuroforce"),
-        .description = COMPOUND_STRING("Ups “supereffective”."),
-        .longDescription = COMPOUND_STRING("Boosts the power of\n"
-                                           "supereffective moves\n"
-                                           "by 25%."),
+        .name = _("脑核之力"),
+        .description = COMPOUND_STRING("增强效果绝佳招式的伤害"),
+        .longDescription = COMPOUND_STRING("效果绝佳的招式威力\n提高25%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_INTREPID_SWORD] =
     {
-        .name = _("Intrepid Sword"),
-        .description = COMPOUND_STRING("Ups Attack on entry."),
-        .longDescription = COMPOUND_STRING("Raises Attack by 1 stage\n"
-                                           "when the Pokémon enters\n"
-                                           "a battle. Can trigger\n"
-                                           "once per battle."),
+        .name = _("不挠之剑"),
+        .description = COMPOUND_STRING("首次出场时，攻击会提高"),
+        .longDescription = COMPOUND_STRING("出场时，攻击提高1级。\n每场战斗只能发动1次。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_DAUNTLESS_SHIELD] =
     {
-        .name = _("Dauntless Shield"),
-        .description = COMPOUND_STRING("Ups Defense on entry."),
-        .longDescription = COMPOUND_STRING("Raises Defense by 1\n"
-                                           "stage when the Pokémon\n"
-                                           "enters a battle. Can trigger\n"
-                                           "once per battle."),
+        .name = _("不屈之盾"),
+        .description = COMPOUND_STRING("首次出场时，防御会提高"),
+        .longDescription = COMPOUND_STRING("出场时，防御提高1级。\n每场战斗只能发动1次。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_LIBERO] =
     {
-        .name = _("Libero"),
-        .description = COMPOUND_STRING("Changes type to move's."),
-        .longDescription = COMPOUND_STRING("Changes the Pokémon's\n"
-                                           "type to match the move\n"
-                                           "it is about to use."),
+        .name = _("自由者"),
+        .description = COMPOUND_STRING("一次性变为使出招式的属性"),
+        .longDescription = COMPOUND_STRING("自己的属性会变为\n即将使出的招式的属性。"
+                                           ""
+                                           ""),
     },
 
     [ABILITY_BALL_FETCH] =
     {
-        .name = _("Ball Fetch"),
-        .description = COMPOUND_STRING("Fetches failed Poké Ball."),
-        .longDescription = COMPOUND_STRING("If itemless, fetches the\n"
-                                           "first failed Poke Ball at\n"
-                                           "the end of a turn."),
+        .name = _("捡球"),
+        .description = COMPOUND_STRING("拾取捕捉失败的精灵球"),
+        .longDescription = COMPOUND_STRING("没有携带道具时，会在\n回合结束时捡回第1个\n捕捉失败的精灵球。"
+                                           ""
+                                           ""),
         .aiRating = 0,
     },
 
     [ABILITY_COTTON_DOWN] =
     {
-        .name = _("Cotton Down"),
-        .description = COMPOUND_STRING("Lower Speed of all when hit."),
-        .longDescription = COMPOUND_STRING("When hit by an attack,\n"
-                                           "lowers every other\n"
-                                           "Pokemon's Speed by 1\n"
-                                           "stage."),
+        .name = _("棉絮"),
+        .description = COMPOUND_STRING("受攻击降低其他宝可梦速度"),
+        .longDescription = COMPOUND_STRING("受到攻击时，自己以外\n的所有宝可梦速度\n降低1级。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_PROPELLER_TAIL] =
     {
-        .name = _("Propeller Tail"),
-        .description = COMPOUND_STRING("Ignores foe's redirection."),
-        .longDescription = COMPOUND_STRING("Ignores moves and\n"
-                                           "Abilities that redirect\n"
-                                           "the target of its moves."),
+        .name = _("螺旋尾鳍"),
+        .description = COMPOUND_STRING("招式不被对手特性招式吸引"),
+        .longDescription = COMPOUND_STRING("无视会改变招式目标的\n招式和特性。"
+                                           ""
+                                           ""),
         .aiRating = 2,
     },
 
     [ABILITY_MIRROR_ARMOR] =
     {
-        .name = _("Mirror Armor"),
-        .description = COMPOUND_STRING("Reflect stat decreases."),
-        .longDescription = COMPOUND_STRING("Bounces back only the\n"
-                                           "stat-lowering effects\n"
-                                           "the Pokémon receives."),
+        .name = _("镜甲"),
+        .description = COMPOUND_STRING("反弹自己受到的能力降低"),
+        .longDescription = COMPOUND_STRING("只反弹自己受到的\n能力降低效果。"
+                                           ""
+                                           ""),
         .aiRating = 6,
         .breakable = TRUE,
     },
 
     [ABILITY_GULP_MISSILE] =
     {
-        .name = _("Gulp Missile"),
-        .description = COMPOUND_STRING("If hit, spits prey from sea."),
-        .longDescription = COMPOUND_STRING("After using Surf or Dive,\n"
-                                           "Cramorant catches prey;\n"
-                                           "when hit, spits it at the\n"
-                                           "attacker."),
+        .name = _("一口导弹"),
+        .description = COMPOUND_STRING("冲浪潜水捕食，受击吐出"),
+        .longDescription = COMPOUND_STRING("使出冲浪或潜水后，\n古月鸟会衔住猎物。\n受到攻击时，会把猎物\n吐向对手。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 3,
         .cantBeSwapped = B_UPDATED_ABILITY_DATA < GEN_9,
         .cantBeCopied = B_UPDATED_ABILITY_DATA < GEN_9,
@@ -2724,74 +2724,74 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_STALWART] =
     {
-        .name = _("Stalwart"),
-        .description = COMPOUND_STRING("Ignores foe's redirection."),
-        .longDescription = COMPOUND_STRING("Ignores moves and\n"
-                                           "Abilities that redirect\n"
-                                           "the target of its moves."),
+        .name = _("坚毅"),
+        .description = COMPOUND_STRING("招式不被对手特性招式吸引"),
+        .longDescription = COMPOUND_STRING("无视会改变招式目标的\n招式和特性。"
+                                           ""
+                                           ""),
         .aiRating = 2,
     },
 
     [ABILITY_STEAM_ENGINE] =
     {
-        .name = _("Steam Engine"),
-        .description = COMPOUND_STRING("Fire or Water hits up Speed."),
-        .longDescription = COMPOUND_STRING("Raises Speed by 6 stages\n"
-                                           "when hit by a Fire- or\n"
-                                           "Water-type move."),
+        .name = _("蒸汽机"),
+        .description = COMPOUND_STRING("受水火攻击时速度巨幅提高"),
+        .longDescription = COMPOUND_STRING("受到火属性或水属性\n招式攻击时，速度\n提高6级。"
+                                           ""
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_PUNK_ROCK] =
     {
-        .name = _("Punk Rock"),
-        .description = COMPOUND_STRING("Ups and resists sound."),
-        .longDescription = COMPOUND_STRING("Boosts sound moves by\n"
-                                           "30% and halves the\n"
-                                           "damage taken from\n"
-                                           "sound-based moves."),
+        .name = _("庞克摇滚"),
+        .description = COMPOUND_STRING("强化声音招式并减轻其影响"),
+        .longDescription = COMPOUND_STRING("声音类招式的威力\n提高30%，受到声音类\n招式的伤害减半。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 2,
         .breakable = TRUE,
     },
 
     [ABILITY_SAND_SPIT] =
     {
-        .name = _("Sand Spit"),
-        .description = COMPOUND_STRING("Creates a sandstorm if hit."),
-        .longDescription = COMPOUND_STRING("Creates a sandstorm when\n"
-                                           "this Pokemon is hit by an\n"
-                                           "attack."),
+        .name = _("吐沙"),
+        .description = COMPOUND_STRING("受到攻击时，会刮起沙暴"),
+        .longDescription = COMPOUND_STRING("受到攻击时，\n会刮起沙暴。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_ICE_SCALES] =
     {
-        .name = _("Ice Scales"),
-        .description = COMPOUND_STRING("Halves special damage."),
-        .longDescription = COMPOUND_STRING("Halves the damage the\n"
-                                           "Pokémon takes from\n"
-                                           "special moves."),
+        .name = _("冰鳞粉"),
+        .description = COMPOUND_STRING("受到的特殊攻击伤害会减半"),
+        .longDescription = COMPOUND_STRING("受到特殊招式的伤害\n减半。"
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_RIPEN] =
     {
-        .name = _("Ripen"),
-        .description = COMPOUND_STRING("Doubles effect of Berries."),
-        .longDescription = COMPOUND_STRING("Doubles the effects of\n"
-                                           "Berries used by this\n"
-                                           "Pokemon."),
+        .name = _("熟成"),
+        .description = COMPOUND_STRING("使树果成熟，效果变为2倍"),
+        .longDescription = COMPOUND_STRING("自己使用的树果效果\n变为2倍。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_ICE_FACE] =
     {
-        .name = _("Ice Face"),
-        .description = COMPOUND_STRING("Hail or Snow renew free hit."),
-        .longDescription = COMPOUND_STRING("In Ice Face form, blocks\n"
-                                           "one physical hit. Hail or\n"
-                                           "snow restores Ice Face."),
+        .name = _("结冻头"),
+        .description = COMPOUND_STRING("头部冰块可抵挡物理攻击"),
+        .longDescription = COMPOUND_STRING("结冻头的样子下，可以\n防住1次物理攻击。\n冰雹或下雪时结冻头\n会复原。"
+                                           ""
+                                           ""),
         .aiRating = 4,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -2804,83 +2804,83 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_POWER_SPOT] =
     {
-        .name = _("Power Spot"),
-        .description = COMPOUND_STRING("Powers up ally moves."),
-        .longDescription = COMPOUND_STRING("Boosts the power of\n"
-                                           "allies' moves by 30%."),
+        .name = _("能量点"),
+        .description = COMPOUND_STRING("相邻宝可梦招式威力会提升"),
+        .longDescription = COMPOUND_STRING("同伴的招式威力\n提高30%。"
+                                           ""),
         .aiRating = 2,
     },
 
     [ABILITY_MIMICRY] =
     {
-        .name = _("Mimicry"),
-        .description = COMPOUND_STRING("Changes type on terrain."),
-        .longDescription = COMPOUND_STRING("The Pokémon's type\n"
-                                           "changes to match the\n"
-                                           "current terrain."),
+        .name = _("拟态"),
+        .description = COMPOUND_STRING("属性会根据场地而变化"),
+        .longDescription = COMPOUND_STRING("自己的属性会根据\n当前的场地而变化。"
+                                           ""
+                                           ""),
         .aiRating = 2,
     },
 
     [ABILITY_SCREEN_CLEANER] =
     {
-        .name = _("Screen Cleaner"),
-        .description = COMPOUND_STRING("Removes walls of light."),
-        .longDescription = COMPOUND_STRING("On entry, removes Light\n"
-                                           "Screen, Reflect, and\n"
-                                           "Aurora Veil on both\n"
-                                           "sides of the field."),
+        .name = _("除障"),
+        .description = COMPOUND_STRING("出场时消除双方墙壁效果"),
+        .longDescription = COMPOUND_STRING("出场时，消除双方场地\n上的光墙、反射壁和\n极光幕。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_STEELY_SPIRIT] =
     {
-        .name = _("Steely Spirit"),
-        .description = COMPOUND_STRING("Boosts ally's Steel moves."),
-        .longDescription = COMPOUND_STRING("Powers up Steel-type\n"
-                                           "moves used by this\n"
-                                           "Pokemon and its allies."),
+        .name = _("钢之意志"),
+        .description = COMPOUND_STRING("我方钢属性攻击威力会提高"),
+        .longDescription = COMPOUND_STRING("自己和同伴的钢属性\n招式威力会提高。"
+                                           ""
+                                           ""),
         .aiRating = 2,
     },
 
     [ABILITY_PERISH_BODY] =
     {
-        .name = _("Perish Body"),
-        .description = COMPOUND_STRING("Foe faints in 3 turns if hit."),
-        .longDescription = COMPOUND_STRING("Contact with this Pokemon\n"
-                                           "starts a 3-turn Perish\n"
-                                           "Count on both battlers."),
+        .name = _("灭亡之躯"),
+        .description = COMPOUND_STRING("受接触攻击双方3回合昏厥"),
+        .longDescription = COMPOUND_STRING("接触到自己的对手和\n自己都会陷入3回合后\n昏厥的灭亡之歌状态。"
+                                           ""
+                                           ""),
         .aiRating = -1,
     },
 
     [ABILITY_WANDERING_SPIRIT] =
     {
-        .name = _("Wandering Spirit"),
-        .description = COMPOUND_STRING("Trade abilities on contact."),
-        .longDescription = COMPOUND_STRING("When hit by contact, this\n"
-                                           "Pokemon swaps Abilities\n"
-                                           "with the attacker."),
+        .name = _("游魂"),
+        .description = COMPOUND_STRING("与接触攻击的宝可梦换特性"),
+        .longDescription = COMPOUND_STRING("受到接触类招式攻击时，\n与对手互换特性。"
+                                           ""
+                                           ""),
         .aiRating = 2,
     },
 
     [ABILITY_GORILLA_TACTICS] =
     {
-        .name = _("Gorilla Tactics"),
-        .description = COMPOUND_STRING("Ups Attack and locks move."),
-        .longDescription = COMPOUND_STRING("Raises Attack, but locks\n"
-                                           "this Pokemon into the\n"
-                                           "first move it selects."),
+        .name = _("一猩一意"),
+        .description = COMPOUND_STRING("攻击提高但只能用最初招式"),
+        .longDescription = COMPOUND_STRING("攻击会提高，但只能\n使出最初选择的招式。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_NEUTRALIZING_GAS] =
     {
-        .name = _("Neutralizing Gas"),
-        .description = COMPOUND_STRING("All Abilities are nullified."),
-        .longDescription = COMPOUND_STRING("While this Pokemon is in\n"
-                                           "battle, suppressible\n"
-                                           "Abilities and innates\n"
-                                           "are nullified or cannot\n"
-                                           "trigger."),
+        .name = _("化学变化气体"),
+        .description = COMPOUND_STRING("在场时全场特性消失或无效"),
+        .longDescription = COMPOUND_STRING("自己在场期间，可被\n压制的特性和天赋特性\n会失效或无法发动。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -2890,22 +2890,22 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_PASTEL_VEIL] =
     {
-        .name = _("Pastel Veil"),
-        .description = COMPOUND_STRING("Protects team from poison."),
-        .longDescription = COMPOUND_STRING("Prevents this Pokemon\n"
-                                           "and allies from poisoning\n"
-                                           "and cures allies on entry."),
+        .name = _("粉彩护幕"),
+        .description = COMPOUND_STRING("守护己方不会中毒"),
+        .longDescription = COMPOUND_STRING("自己和同伴都不会中毒。\n出场时会治愈同伴的\n中毒状态。"
+                                           ""
+                                           ""),
         .aiRating = 4,
         .breakable = TRUE,
     },
 
     [ABILITY_HUNGER_SWITCH] =
     {
-        .name = _("Hunger Switch"),
-        .description = COMPOUND_STRING("Changes form each turn."),
-        .longDescription = COMPOUND_STRING("Switches between Full\n"
-                                           "and Hangry forms at the\n"
-                                           "end of each turn."),
+        .name = _("饱了又饿"),
+        .description = COMPOUND_STRING("每回合结束时交替改变样子"),
+        .longDescription = COMPOUND_STRING("每回合结束时，在满腹\n花纹和空腹花纹之间\n交替切换。"
+                                           ""
+                                           ""),
         .aiRating = 2,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -2915,82 +2915,82 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_QUICK_DRAW] =
     {
-        .name = _("Quick Draw"),
-        .description = COMPOUND_STRING("Moves first occasionally."),
-        .longDescription = COMPOUND_STRING("Damaging moves have a\n"
-                                           "30% chance to move first\n"
-                                           "within their priority\n"
-                                           "bracket."),
+        .name = _("速击"),
+        .description = COMPOUND_STRING("有时能比对手先一步行动"),
+        .longDescription = COMPOUND_STRING("攻击招式有30%的几率\n在相同优先度的招式中\n最先行动。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_UNSEEN_FIST] =
     {
-        .name = _("Unseen Fist"),
-        .description = COMPOUND_STRING("Contact evades protection."),
-        .longDescription = COMPOUND_STRING("Contact moves hit through\n"
-                                           "protection effects such\n"
-                                           "as Protect and Detect."),
+        .name = _("无形拳"),
+        .description = COMPOUND_STRING("接触招式可以无视守护效果"),
+        .longDescription = COMPOUND_STRING("接触类招式可以无视\n守住、看穿等守护效果\n击中对手。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_CURIOUS_MEDICINE] =
     {
-        .name = _("Curious Medicine"),
-        .description = COMPOUND_STRING("Remove ally's stat changes."),
-        .longDescription = COMPOUND_STRING("On entry, removes all\n"
-                                           "stat changes from allied\n"
-                                           "Pokemon."),
+        .name = _("怪药"),
+        .description = COMPOUND_STRING("出场时将我方能力变化复原"),
+        .longDescription = COMPOUND_STRING("出场时，同伴的所有\n能力变化都会复原。"
+                                           ""
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_TRANSISTOR] =
     {
-        .name = _("Transistor"),
-        .description = COMPOUND_STRING("Ups Electric-type moves."),
-        .longDescription = COMPOUND_STRING("Boosts the power of the\n"
-                                           "Pokémon's Electric-type\n"
-                                           "moves by 30%."),
+        .name = _("电晶体"),
+        .description = COMPOUND_STRING("电属性的招式威力会提高"),
+        .longDescription = COMPOUND_STRING("电属性招式的威力\n提高30%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_DRAGONS_MAW] =
     {
-        .name = _("Dragon's Maw"),
-        .description = COMPOUND_STRING("Ups Dragon-type moves."),
-        .longDescription = COMPOUND_STRING("Boosts the power of the\n"
-                                           "Pokémon's Dragon-type\n"
-                                           "moves by 50%."),
+        .name = _("龙颚"),
+        .description = COMPOUND_STRING("龙属性的招式威力会提高"),
+        .longDescription = COMPOUND_STRING("龙属性招式的威力\n提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_CHILLING_NEIGH] =
     {
-        .name = _("Chilling Neigh"),
-        .description = COMPOUND_STRING("KOs boost Attack stat."),
-        .longDescription = COMPOUND_STRING("Raises Attack by 1 stage\n"
-                                           "each time the Pokémon\n"
-                                           "knocks out a foe."),
+        .name = _("苍白嘶鸣"),
+        .description = COMPOUND_STRING("打倒对手时会提高攻击"),
+        .longDescription = COMPOUND_STRING("每打倒1只对手，\n攻击提高1级。"
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_GRIM_NEIGH] =
     {
-        .name = _("Grim Neigh"),
-        .description = COMPOUND_STRING("KOs boost Sp. Atk stat."),
-        .longDescription = COMPOUND_STRING("Raises Sp. Atk by 1\n"
-                                           "stage each time the\n"
-                                           "Pokémon knocks out a foe."),
+        .name = _("漆黑嘶鸣"),
+        .description = COMPOUND_STRING("打倒对手时会提高特攻"),
+        .longDescription = COMPOUND_STRING("每打倒1只对手，\n特攻提高1级。"
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_AS_ONE_ICE_RIDER] =
     {
-        .name = _("As One"),
-        .description = COMPOUND_STRING("Unnerve and Chilling Neigh."),
-        .longDescription = COMPOUND_STRING("Combines the effects of\n"
-                                           "Unnerve and Chilling\n"
-                                           "Neigh."),
+        .name = _("人马一体"),
+        .description = COMPOUND_STRING("兼备紧张感和苍白嘶鸣特性"),
+        .longDescription = COMPOUND_STRING("兼备紧张感和苍白嘶鸣\n这两种特性的效果。"
+                                           ""
+                                           ""),
         .aiRating = 10,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -3001,12 +3001,12 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_AS_ONE_SHADOW_RIDER] =
     {
-        .name = _("As One"),
-        .description = COMPOUND_STRING("Unnerve and Grim Neigh."),
-        .longDescription = COMPOUND_STRING("Combines the effects of\n"
-                                           "Unnerve and Grim Neigh:\n"
-                                           "foes can't eat Berries\n"
-                                           "and KOs raise Sp. Atk."),
+        .name = _("人马一体"),
+        .description = COMPOUND_STRING("兼备紧张感和漆黑嘶鸣特性"),
+        .longDescription = COMPOUND_STRING("兼备紧张感和漆黑嘶鸣\n的效果：对手无法食用\n树果，打倒对手时特攻\n会提高。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 10,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -3017,128 +3017,128 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_LINGERING_AROMA] =
     {
-        .name = _("Lingering Aroma"),
-        .description = COMPOUND_STRING("Spreads with contact."),
-        .longDescription = COMPOUND_STRING("Contact with the Pokémon\n"
-                                           "changes the attacker's\n"
-                                           "Ability to Lingering\n"
-                                           "Aroma."),
+        .name = _("甩不掉的气味"),
+        .description = COMPOUND_STRING("被接触会沾上甩不掉的气味"),
+        .longDescription = COMPOUND_STRING("接触到自己的对手，\n其特性会变为甩不掉的\n气味。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_SEED_SOWER] =
     {
-        .name = _("Seed Sower"),
-        .description = COMPOUND_STRING("Affects terrain when hit."),
-        .longDescription = COMPOUND_STRING("When hit by an attack,\n"
-                                           "the Pokémon turns the\n"
-                                           "field into Grassy\n"
-                                           "Terrain."),
+        .name = _("掉出种子"),
+        .description = COMPOUND_STRING("受到攻击时会生成青草场地"),
+        .longDescription = COMPOUND_STRING("受到攻击时，\n将脚下变为青草场地。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_THERMAL_EXCHANGE] =
     {
-        .name = _("Thermal Exchange"),
-        .description = COMPOUND_STRING("Fire hits up Attack."),
-        .longDescription = COMPOUND_STRING("The Pokémon cannot be\n"
-                                           "burned. Fire-type moves\n"
-                                           "that hit it raise its\n"
-                                           "Attack by 1 stage."),
+        .name = _("热交换"),
+        .description = COMPOUND_STRING("受火攻提高攻击，防灼伤"),
+        .longDescription = COMPOUND_STRING("不会陷入灼伤状态。\n受到火属性招式攻击时，\n攻击提高1级。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 4,
         .breakable = TRUE,
     },
 
     [ABILITY_ANGER_SHELL] =
     {
-        .name = _("Anger Shell"),
-        .description = COMPOUND_STRING("Gets angry at half HP."),
-        .longDescription = COMPOUND_STRING("When damage drops HP to\n"
-                                           "half or less, Attack,\n"
-                                           "Sp. Atk, and Speed rise\n"
-                                           "by 1 stage while Defense\n"
-                                           "and Sp. Def fall by 1\n"
-                                           "stage."),
+        .name = _("愤怒甲壳"),
+        .description = COMPOUND_STRING("受击HP变一半时变得愤怒"),
+        .longDescription = COMPOUND_STRING("因受到伤害而使HP降到\n一半以下时，攻击、\n特攻和速度提高1级，\n防御和特防降低1级。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_PURIFYING_SALT] =
     {
-        .name = _("Purifying Salt"),
-        .description = COMPOUND_STRING("Protected by pure salts."),
-        .longDescription = COMPOUND_STRING("Halves damage from\n"
-                                           "Ghost-type moves. The\n"
-                                           "Pokémon is immune to\n"
-                                           "status conditions."),
+        .name = _("洁净之盐"),
+        .description = COMPOUND_STRING("免疫异常，减轻幽灵伤害"),
+        .longDescription = COMPOUND_STRING("受到幽灵属性招式的\n伤害减半。不会陷入\n异常状态。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
         .breakable = TRUE,
     },
 
     [ABILITY_WELL_BAKED_BODY] =
     {
-        .name = _("Well-Baked Body"),
-        .description = COMPOUND_STRING("Strengthened by Fire."),
-        .longDescription = COMPOUND_STRING("Fire-type moves do not\n"
-                                           "work. Instead, they\n"
-                                           "sharply raise the\n"
-                                           "Pokémon's Defense stat."),
+        .name = _("焦香之躯"),
+        .description = COMPOUND_STRING("免疫火招式并大幅提升防御"),
+        .longDescription = COMPOUND_STRING("火属性的招式无效，\n反而会使防御大幅提高。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
         .breakable = TRUE,
     },
 
     [ABILITY_WIND_RIDER] =
     {
-        .name = _("Wind Rider"),
-        .description = COMPOUND_STRING("Ups Attack if hit by wind."),
-        .longDescription = COMPOUND_STRING("Immune to wind moves.\n"
-                                           "Instead, they raise\n"
-                                           "Attack. Tailwind also\n"
-                                           "raises the Pokémon's\n"
-                                           "Attack."),
+        .name = _("乘风"),
+        .description = COMPOUND_STRING("免疫风招式，顺风升攻击"),
+        .longDescription = COMPOUND_STRING("风类招式无效，反而会\n使攻击提高。顺风时\n攻击也会提高。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 4,
         .breakable = TRUE,
     },
 
     [ABILITY_GUARD_DOG] =
     {
-        .name = _("Guard Dog"),
-        .description = COMPOUND_STRING("Cannot be intimidated."),
-        .longDescription = COMPOUND_STRING("The Pokémon cannot be\n"
-                                           "intimidated or forced\n"
-                                           "out. Intimidate raises\n"
-                                           "its Attack instead."),
+        .name = _("看门犬"),
+        .description = COMPOUND_STRING("不被逼退，威吓反升攻击"),
+        .longDescription = COMPOUND_STRING("不会被威吓影响，也不会\n被强制替换下场。受到\n威吓时攻击反而会提高。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
         .breakable = TRUE,
     },
 
     [ABILITY_ROCKY_PAYLOAD] =
     {
-        .name = _("Rocky Payload"),
-        .description = COMPOUND_STRING("Powers up Rock moves."),
-        .longDescription = COMPOUND_STRING("Boosts the power of the\n"
-                                           "Pokémon's Rock-type\n"
-                                           "moves by 50%."),
+        .name = _("搬岩"),
+        .description = COMPOUND_STRING("岩石属性的招式威力会提高"),
+        .longDescription = COMPOUND_STRING("岩石属性招式的威力\n提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_WIND_POWER] =
     {
-        .name = _("Wind Power"),
-        .description = COMPOUND_STRING("Gets charged by wind."),
-        .longDescription = COMPOUND_STRING("Wind moves give the\n"
-                                           "Pokémon the Charged\n"
-                                           "status, doubling its\n"
-                                           "next Electric move."),
+        .name = _("风力发电"),
+        .description = COMPOUND_STRING("受风招式时会变为充电状态"),
+        .longDescription = COMPOUND_STRING("受到风类招式时变为\n充电状态，下一次使出\n的电属性招式威力变为\n2倍。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_ZERO_TO_HERO] =
     {
-        .name = _("Zero to Hero"),
-        .description = COMPOUND_STRING("Changes form on switch out."),
-        .longDescription = COMPOUND_STRING("The Pokémon transforms\n"
-                                           "into its Hero Form when\n"
-                                           "it switches out."),
+        .name = _("全能变身"),
+        .description = COMPOUND_STRING("换下后会变为全能形态"),
+        .longDescription = COMPOUND_STRING("替换下场时，\n会变为全能形态。"
+                                           ""
+                                           ""),
         .aiRating = 10,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -3150,12 +3150,12 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_COMMANDER] =
     {
-        .name = _("Commander"),
-        .description = COMPOUND_STRING("Commands from Dondozo."),
-        .longDescription = COMPOUND_STRING("On entry, if ally\n"
-                                           "Dondozo is present, the\n"
-                                           "Pokémon enters its mouth\n"
-                                           "and commands from there."),
+        .name = _("发号施令"),
+        .description = COMPOUND_STRING("进入吃吼霸口中发出指令"),
+        .longDescription = COMPOUND_STRING("出场时，如果同伴是\n吃吼霸，就会进入它的\n口中发出指令。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 10,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -3166,23 +3166,23 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_ELECTROMORPHOSIS] =
     {
-        .name = _("Electromorphosis"),
-        .description = COMPOUND_STRING("Gets Charged when hit."),
-        .longDescription = COMPOUND_STRING("Taking damage gives the\n"
-                                           "Pokémon the Charged\n"
-                                           "status, doubling its\n"
-                                           "next Electric move."),
+        .name = _("电力转换"),
+        .description = COMPOUND_STRING("受伤时会变为充电状态"),
+        .longDescription = COMPOUND_STRING("受到伤害时变为充电\n状态，下一次使出的\n电属性招式威力变为\n2倍。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_PROTOSYNTHESIS] =
     {
-        .name = _("Protosynthesis"),
-        .description = COMPOUND_STRING("Sun boosts best stat."),
-        .longDescription = COMPOUND_STRING("Harsh sunlight or\n"
-                                           "Booster Energy boosts\n"
-                                           "the Pokémon's highest\n"
-                                           "stat."),
+        .name = _("古代活性"),
+        .description = COMPOUND_STRING("晴天时提升最高能力"),
+        .longDescription = COMPOUND_STRING("晴天时或携带驱劲能量\n时，自己最高的那项\n能力会提高。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -3192,12 +3192,12 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_QUARK_DRIVE] =
     {
-        .name = _("Quark Drive"),
-        .description = COMPOUND_STRING("Elec. field ups best stat."),
-        .longDescription = COMPOUND_STRING("Electric Terrain or\n"
-                                           "Booster Energy boosts\n"
-                                           "the Pokémon's highest\n"
-                                           "stat."),
+        .name = _("夸克充能"),
+        .description = COMPOUND_STRING("电气场地上提升最高能力"),
+        .longDescription = COMPOUND_STRING("电气场地时或携带驱劲\n能量时，自己最高的\n那项能力会提高。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -3207,71 +3207,71 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_GOOD_AS_GOLD] =
     {
-        .name = _("Good as Gold"),
-        .description = COMPOUND_STRING("Avoids status moves."),
-        .longDescription = COMPOUND_STRING("A body of pure gold\n"
-                                           "gives the Pokémon full\n"
-                                           "immunity to status\n"
-                                           "moves."),
+        .name = _("黄金之躯"),
+        .description = COMPOUND_STRING("不会受到变化招式的影响"),
+        .longDescription = COMPOUND_STRING("纯金的身体让自己完全\n不受变化招式的影响。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
         .breakable = TRUE,
     },
 
     [ABILITY_VESSEL_OF_RUIN] =
     {
-        .name = _("Vessel of Ruin"),
-        .description = COMPOUND_STRING("Lowers foes' sp. damage."),
-        .longDescription = COMPOUND_STRING("The power of the vessel\n"
-                                           "lowers the Sp. Atk of\n"
-                                           "all Pokémon except\n"
-                                           "itself."),
+        .name = _("灾祸之鼎"),
+        .description = COMPOUND_STRING("降低其他的宝可梦的特攻"),
+        .longDescription = COMPOUND_STRING("鼎的力量会降低自己\n以外所有宝可梦的特攻。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
         .breakable = TRUE,
     },
 
     [ABILITY_SWORD_OF_RUIN] =
     {
-        .name = _("Sword of Ruin"),
-        .description = COMPOUND_STRING("Lowers foes' Defense."),
-        .longDescription = COMPOUND_STRING("The power of the sword\n"
-                                           "lowers the Defense of\n"
-                                           "all Pokémon except\n"
-                                           "itself."),
+        .name = _("灾祸之剑"),
+        .description = COMPOUND_STRING("降低其他的宝可梦的防御"),
+        .longDescription = COMPOUND_STRING("剑的力量会降低自己\n以外所有宝可梦的防御。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
         .breakable = TRUE,
     },
 
     [ABILITY_TABLETS_OF_RUIN] =
     {
-        .name = _("Tablets of Ruin"),
-        .description = COMPOUND_STRING("Lowers foes' damage."),
-        .longDescription = COMPOUND_STRING("The power of the tablets\n"
-                                           "lowers the Attack of all\n"
-                                           "Pokémon except itself."),
+        .name = _("灾祸之简"),
+        .description = COMPOUND_STRING("降低其他的宝可梦的攻击"),
+        .longDescription = COMPOUND_STRING("简的力量会降低自己\n以外所有宝可梦的攻击。"
+                                           ""
+                                           ""),
         .aiRating = 5,
         .breakable = TRUE,
     },
 
     [ABILITY_BEADS_OF_RUIN] =
     {
-        .name = _("Beads of Ruin"),
-        .description = COMPOUND_STRING("Lowers foes' Sp. Defense."),
-        .longDescription = COMPOUND_STRING("The power of the beads\n"
-                                           "lowers the Sp. Def of\n"
-                                           "all Pokémon except\n"
-                                           "itself."),
+        .name = _("灾祸之玉"),
+        .description = COMPOUND_STRING("降低其他的宝可梦的特防"),
+        .longDescription = COMPOUND_STRING("玉的力量会降低自己\n以外所有宝可梦的特防。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
         .breakable = TRUE,
     },
 
     [ABILITY_ORICHALCUM_PULSE] =
     {
-        .name = _("Orichalcum Pulse"),
-        .description = COMPOUND_STRING("Summons sunlight in battle."),
-        .longDescription = COMPOUND_STRING("Turns sunlight harsh on\n"
-                                           "entry. In harsh\n"
-                                           "sunlight, the Pokémon's\n"
-                                           "Attack is boosted."),
+        .name = _("绯红脉动"),
+        .description = COMPOUND_STRING("引发晴天，晴天提升攻击"),
+        .longDescription = COMPOUND_STRING("出场时将天气变为晴朗。\n晴天时，攻击会提高。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
         .cantBeSwapped = TRUE,
         .cantBeCopied = TRUE,
@@ -3280,12 +3280,12 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_HADRON_ENGINE] =
     {
-        .name = _("Hadron Engine"),
-        .description = COMPOUND_STRING("Field becomes Electric."),
-        .longDescription = COMPOUND_STRING("Turns the ground\n"
-                                           "electric on entry. On\n"
-                                           "Electric Terrain, Sp.\n"
-                                           "Atk is boosted."),
+        .name = _("强子引擎"),
+        .description = COMPOUND_STRING("生成电场，电场提升特攻"),
+        .longDescription = COMPOUND_STRING("出场时将脚下变为电气\n场地。电气场地时，\n特攻会提高。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
         .cantBeSwapped = TRUE,
         .cantBeCopied = TRUE,
@@ -3294,129 +3294,129 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_OPPORTUNIST] =
     {
-        .name = _("Opportunist"),
-        .description = COMPOUND_STRING("Copies foe's stat change."),
-        .longDescription = COMPOUND_STRING("When an opponent's stats\n"
-                                           "are boosted, the Pokémon\n"
-                                           "copies those stat\n"
-                                           "boosts."),
+        .name = _("跟风"),
+        .description = COMPOUND_STRING("跟随对手趁机同样提高能力"),
+        .longDescription = COMPOUND_STRING("对手的能力提高时，\n自己也会同样提高\n这些能力。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_CUD_CHEW] =
     {
-        .name = _("Cud Chew"),
-        .description = COMPOUND_STRING("Eats a used berry again."),
-        .longDescription = COMPOUND_STRING("After eating a Berry,\n"
-                                           "the Pokémon eats that\n"
-                                           "same Berry again at the\n"
-                                           "next turn's end."),
+        .name = _("反刍"),
+        .description = COMPOUND_STRING("吃树果后会反刍再吃1次"),
+        .longDescription = COMPOUND_STRING("吃了树果后，会在下一\n回合结束时再吃1次\n相同的树果。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_SHARPNESS] =
     {
-        .name = _("Sharpness"),
-        .description = COMPOUND_STRING("Strengthens slicing moves."),
-        .longDescription = COMPOUND_STRING("Boosts the power of the\n"
-                                           "Pokémon's slicing moves\n"
-                                           "by 50%."),
+        .name = _("锋锐"),
+        .description = COMPOUND_STRING("提高切割对手的招式的威力"),
+        .longDescription = COMPOUND_STRING("切割类招式的威力\n提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_SUPREME_OVERLORD] =
     {
-        .name = _("Supreme Overlord"),
-        .description = COMPOUND_STRING("Inherits fallen's strength."),
-        .longDescription = COMPOUND_STRING("On entry, moves gain 10%\n"
-                                           "power for each defeated\n"
-                                           "party member, up to 50%."),
+        .name = _("大将"),
+        .description = COMPOUND_STRING("按被打倒数提升攻击特攻"),
+        .longDescription = COMPOUND_STRING("出场时，队伍中每有1只\n被打倒的同伴，招式\n威力提高10%，最多\n提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_COSTAR] =
     {
-        .name = _("Costar"),
-        .description = COMPOUND_STRING("Copies ally's stat changes."),
-        .longDescription = COMPOUND_STRING("When the Pokémon enters\n"
-                                           "battle, it copies an\n"
-                                           "ally's stat changes."),
+        .name = _("同台共演"),
+        .description = COMPOUND_STRING("出场时复制同伴能力变化"),
+        .longDescription = COMPOUND_STRING("出场时，复制同伴的\n能力变化。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_TOXIC_DEBRIS] =
     {
-        .name = _("Toxic Debris"),
-        .description = COMPOUND_STRING("Throws poison spikes if hit."),
-        .longDescription = COMPOUND_STRING("When hit by a physical\n"
-                                           "move, it scatters Toxic\n"
-                                           "Spikes on the opponent's\n"
-                                           "field."),
+        .name = _("毒满地"),
+        .description = COMPOUND_STRING("受物理伤害时，会散布毒菱"),
+        .longDescription = COMPOUND_STRING("受到物理招式攻击时，\n会在对手的场地上散布\n毒菱。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_ARMOR_TAIL] =
     {
-        .name = _("Armor Tail"),
-        .description = COMPOUND_STRING("Protects from priority."),
-        .longDescription = COMPOUND_STRING("Opponents cannot use\n"
-                                           "priority moves against\n"
-                                           "the Pokémon or its\n"
-                                           "allies."),
+        .name = _("尾甲"),
+        .description = COMPOUND_STRING("使对手无法使出先制招式"),
+        .longDescription = COMPOUND_STRING("对手无法对自己和同伴\n使出先制招式。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
         .breakable = TRUE,
     },
 
     [ABILITY_EARTH_EATER] =
     {
-        .name = _("Earth Eater"),
-        .description = COMPOUND_STRING("Eats ground to heal HP."),
-        .longDescription = COMPOUND_STRING("Ground-type moves do not\n"
-                                           "work. Instead, they\n"
-                                           "restore 1/4 of max HP."),
+        .name = _("食土"),
+        .description = COMPOUND_STRING("受到地面属性攻击时会回复"),
+        .longDescription = COMPOUND_STRING("地面属性的招式无效，\n反而会回复最大HP的\n1/4。"
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_MYCELIUM_MIGHT] =
     {
-        .name = _("Mycelium Might"),
-        .description = COMPOUND_STRING("Status moves never fail."),
-        .longDescription = COMPOUND_STRING("Status moves act last\n"
-                                           "but ignore the target's\n"
-                                           "Ability protections."),
+        .name = _("菌丝之力"),
+        .description = COMPOUND_STRING("变化招式变慢，但无视特性"),
+        .longDescription = COMPOUND_STRING("变化招式会最后行动，\n但可以无视目标特性的\n防护效果。"
+                                           ""
+                                           ""),
         .aiRating = 2,
     },
 
     [ABILITY_HOSPITALITY] =
     {
-        .name = _("Hospitality"),
-        .description = COMPOUND_STRING("Restores ally's HP."),
-        .longDescription = COMPOUND_STRING("When the Pokémon enters\n"
-                                           "a battle, it restores 1/4\n"
-                                           "of its ally's max HP."),
+        .name = _("款待"),
+        .description = COMPOUND_STRING("出场时回复同伴少量HP"),
+        .longDescription = COMPOUND_STRING("出场时，回复同伴\n最大HP的1/4。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_MINDS_EYE] =
     {
-        .name = _("Mind's Eye"),
-        .description = COMPOUND_STRING("Keen Eye and Scrappy."),
-        .longDescription = COMPOUND_STRING("Ignores foes' evasion,\n"
-                                           "prevents accuracy loss,\n"
-                                           "and lets Normal or\n"
-                                           "Fighting hit Ghost."),
+        .name = _("心眼"),
+        .description = COMPOUND_STRING("兼具胆量以及锐利目光特性"),
+        .longDescription = COMPOUND_STRING("无视对手的闪避率变化，\n命中率不会被降低，\n一般和格斗属性的招式\n可以击中幽灵属性。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
         .breakable = TRUE,
     },
 
     [ABILITY_EMBODY_ASPECT_TEAL_MASK] =
     {
-        .name = _("Embody Aspect"),
-        .description = COMPOUND_STRING("Raises Speed."),
-        .longDescription = COMPOUND_STRING("When Terastallized, the\n"
-                                           "Teal Mask shines and\n"
-                                           "raises Speed by 1 stage."),
+        .name = _("面影辉映"),
+        .description = COMPOUND_STRING("铭记回忆，提高自身速度"),
+        .longDescription = COMPOUND_STRING("太晶化时，碧草面具\n会发出光辉，速度\n提高1级。"
+                                           ""
+                                           ""),
         .aiRating = 6,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -3426,12 +3426,12 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_EMBODY_ASPECT_HEARTHFLAME_MASK] =
     {
-        .name = _("Embody Aspect"),
-        .description = COMPOUND_STRING("Raises Attack."),
-        .longDescription = COMPOUND_STRING("When Terastallized, the\n"
-                                           "Hearthflame Mask shines\n"
-                                           "and raises Attack by 1\n"
-                                           "stage."),
+        .name = _("面影辉映"),
+        .description = COMPOUND_STRING("铭记回忆，提高自身攻击"),
+        .longDescription = COMPOUND_STRING("太晶化时，火灶面具\n会发出光辉，攻击\n提高1级。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -3441,12 +3441,12 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_EMBODY_ASPECT_WELLSPRING_MASK] =
     {
-        .name = _("Embody Aspect"),
-        .description = COMPOUND_STRING("Raises Sp. Def."),
-        .longDescription = COMPOUND_STRING("When Terastallized, the\n"
-                                           "Wellspring Mask shines\n"
-                                           "and raises Sp. Def by 1\n"
-                                           "stage."),
+        .name = _("面影辉映"),
+        .description = COMPOUND_STRING("铭记回忆，提高自身特防"),
+        .longDescription = COMPOUND_STRING("太晶化时，水井面具\n会发出光辉，特防\n提高1级。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -3456,12 +3456,12 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_EMBODY_ASPECT_CORNERSTONE_MASK] =
     {
-        .name = _("Embody Aspect"),
-        .description = COMPOUND_STRING("Raises Defense."),
-        .longDescription = COMPOUND_STRING("When Terastallized, the\n"
-                                           "Cornerstone Mask shines\n"
-                                           "and raises Defense by 1\n"
-                                           "stage."),
+        .name = _("面影辉映"),
+        .description = COMPOUND_STRING("铭记回忆，提高自身防御"),
+        .longDescription = COMPOUND_STRING("太晶化时，础石面具\n会发出光辉，防御\n提高1级。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -3471,34 +3471,34 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_TOXIC_CHAIN] =
     {
-        .name = _("Toxic Chain"),
-        .description = COMPOUND_STRING("Moves can poison."),
-        .longDescription = COMPOUND_STRING("The Pokémon's toxic\n"
-                                           "chain may badly poison\n"
-                                           "any target it hits with\n"
-                                           "a move."),
+        .name = _("毒锁链"),
+        .description = COMPOUND_STRING("有时能让击中对手陷入剧毒"),
+        .longDescription = COMPOUND_STRING("用招式击中目标时，\n毒锁链有时会让目标\n陷入剧毒状态。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_SUPERSWEET_SYRUP] =
     {
-        .name = _("Supersweet Syrup"),
-        .description = COMPOUND_STRING("Lowers the foe's Evasion."),
-        .longDescription = COMPOUND_STRING("On first entry each\n"
-                                           "battle, lowers opposing\n"
-                                           "Pokémon's evasiveness by\n"
-                                           "1 stage."),
+        .name = _("甘露之蜜"),
+        .description = COMPOUND_STRING("首次出场时降低对手闪避率"),
+        .longDescription = COMPOUND_STRING("每场战斗首次出场时，\n对手的闪避率降低1级。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_TERA_SHIFT] =
     {
-        .name = _("Tera Shift"),
-        .description = COMPOUND_STRING("Terastallizes upon entry."),
-        .longDescription = COMPOUND_STRING("When the Pokémon enters\n"
-                                           "battle, it absorbs\n"
-                                           "nearby energy and\n"
-                                           "becomes Terastal Form."),
+        .name = _("太晶变形"),
+        .description = COMPOUND_STRING("出场时，会变为太晶形态"),
+        .longDescription = COMPOUND_STRING("出场时，吸收周围的\n能量，变为太晶形态。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 10,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -3510,12 +3510,12 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_TERA_SHELL] =
     {
-        .name = _("Tera Shell"),
-        .description = COMPOUND_STRING("Resists all at full HP."),
-        .longDescription = COMPOUND_STRING("At full HP, all\n"
-                                           "damage-dealing moves\n"
-                                           "that hit the Pokémon are\n"
-                                           "not very effective."),
+        .name = _("太晶甲壳"),
+        .description = COMPOUND_STRING("HP全满时抵抗所有属性"),
+        .longDescription = COMPOUND_STRING("HP全满时，击中自己的\n所有攻击招式都会变为\n效果不好。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 10,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -3525,12 +3525,12 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_TERAFORM_ZERO] =
     {
-        .name = _("Teraform Zero"),
-        .description = COMPOUND_STRING("Zeroes weather and terrain."),
-        .longDescription = COMPOUND_STRING("When Stellar Form\n"
-                                           "appears, the Pokémon\n"
-                                           "eliminates all weather\n"
-                                           "and terrain effects."),
+        .name = _("归零化境"),
+        .description = COMPOUND_STRING("会将天气场地影响全部归零"),
+        .longDescription = COMPOUND_STRING("变为星晶形态时，\n消除所有天气和场地的\n影响。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 10,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -3539,11 +3539,11 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_POISON_PUPPETEER] =
     {
-        .name = _("Poison Puppeteer"),
-        .description = COMPOUND_STRING("Confuses poisoned foes."),
-        .longDescription = COMPOUND_STRING("Pokémon poisoned by the\n"
-                                           "user's moves also become\n"
-                                           "confused."),
+        .name = _("毒傀儡"),
+        .description = COMPOUND_STRING("因其招式而中毒时会混乱"),
+        .longDescription = COMPOUND_STRING("因自己的招式而中毒的\n宝可梦还会陷入混乱。"
+                                           ""
+                                           ""),
         .aiRating = 8,
         .cantBeCopied = TRUE,
         .cantBeSwapped = TRUE,
@@ -3552,2255 +3552,2254 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
 
     [ABILITY_INVERSION] =
     {
-        .name = _("Inversion"),
-        .description = COMPOUND_STRING("Weaknesses and resists swap."),
-        .longDescription = COMPOUND_STRING("When attacked, this\n"
-                                           "Pokemon's weaknesses\n"
-                                           "and resistances are\n"
-                                           "reversed."),
+        .name = _("属性逆转"),
+        .description = COMPOUND_STRING("弱点与抗性会互相逆转"),
+        .longDescription = COMPOUND_STRING("受到攻击时，自己的\n弱点和抗性会发生逆转。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_FIGHTING_ATE] =
     {
-        .name = _("Fightilate"),
-        .description = COMPOUND_STRING("Normal moves turn Fighting."),
-        .longDescription = COMPOUND_STRING("Normal-type moves become\n"
-                                           "Fighting-type and deal 20%\n"
-                                           "more damage."),
+        .name = _("格斗皮肤"),
+        .description = COMPOUND_STRING("一般招式会变为格斗属性"),
+        .longDescription = COMPOUND_STRING("一般属性的招式会变为\n格斗属性，且伤害提高\n20%。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_POISON_ATE] =
     {
-        .name = _("Venomate"),
-        .description = COMPOUND_STRING("Normal moves turn Poison."),
-        .longDescription = COMPOUND_STRING("Normal-type moves become\n"
-                                           "Poison-type and deal 20%\n"
-                                           "more damage."),
+        .name = _("剧毒皮肤"),
+        .description = COMPOUND_STRING("一般招式会变为毒属性"),
+        .longDescription = COMPOUND_STRING("一般属性的招式会变为\n毒属性，且伤害提高\n20%。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_GROUND_ATE] =
     {
-        .name = _("Terrate"),
-        .description = COMPOUND_STRING("Normal moves turn Ground."),
-        .longDescription = COMPOUND_STRING("Normal-type moves become\n"
-                                           "Ground-type and deal 20%\n"
-                                           "more damage."),
+        .name = _("大地皮肤"),
+        .description = COMPOUND_STRING("一般招式会变为地面属性"),
+        .longDescription = COMPOUND_STRING("一般属性的招式会变为\n地面属性，且伤害提高\n20%。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_ROCK_ATE] =
     {
-        .name = _("Rockate"),
-        .description = COMPOUND_STRING("Normal moves turn Rock."),
-        .longDescription = COMPOUND_STRING("Normal-type moves become\n"
-                                           "Rock-type and deal 20%\n"
-                                           "more damage."),
+        .name = _("岩石皮肤"),
+        .description = COMPOUND_STRING("一般招式会变为岩石属性"),
+        .longDescription = COMPOUND_STRING("一般属性的招式会变为\n岩石属性，且伤害提高\n20%。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_BUG_ATE] =
     {
-        .name = _("Swarmate"),
-        .description = COMPOUND_STRING("Normal moves turn Bug."),
-        .longDescription = COMPOUND_STRING("Normal-type moves become\n"
-                                           "Bug-type and deal 20%\n"
-                                           "more damage."),
+        .name = _("虫群皮肤"),
+        .description = COMPOUND_STRING("一般招式会变为虫属性"),
+        .longDescription = COMPOUND_STRING("一般属性的招式会变为\n虫属性，且伤害提高\n20%。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_GHOST_ATE] =
     {
-        .name = _("Spectrate"),
-        .description = COMPOUND_STRING("Normal moves turn Ghost."),
-        .longDescription = COMPOUND_STRING("Normal-type moves become\n"
-                                           "Ghost-type and deal 20%\n"
-                                           "more damage."),
+        .name = _("幽灵皮肤"),
+        .description = COMPOUND_STRING("一般招式会变为幽灵属性"),
+        .longDescription = COMPOUND_STRING("一般属性的招式会变为\n幽灵属性，且伤害提高\n20%。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_STEEL_ATE] =
     {
-        .name = _("Steelate"),
-        .description = COMPOUND_STRING("Normal moves turn Steel."),
-        .longDescription = COMPOUND_STRING("Normal-type moves become\n"
-                                           "Steel-type and deal 20%\n"
-                                           "more damage."),
+        .name = _("钢铁皮肤"),
+        .description = COMPOUND_STRING("一般招式会变为钢属性"),
+        .longDescription = COMPOUND_STRING("一般属性的招式会变为\n钢属性，且伤害提高\n20%。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_FIRE_ATE] =
     {
-        .name = _("Flamilate"),
-        .description = COMPOUND_STRING("Normal moves turn Fire."),
-        .longDescription = COMPOUND_STRING("Normal-type moves become\n"
-                                           "Fire-type and deal 20%\n"
-                                           "more damage."),
+        .name = _("火焰皮肤"),
+        .description = COMPOUND_STRING("一般招式会变为火属性"),
+        .longDescription = COMPOUND_STRING("一般属性的招式会变为\n火属性，且伤害提高\n20%。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_WATER_ATE] =
     {
-        .name = _("Aquate"),
-        .description = COMPOUND_STRING("Normal moves turn Water."),
-        .longDescription = COMPOUND_STRING("Normal-type moves become\n"
-                                           "Water-type and deal 20%\n"
-                                           "more damage."),
+        .name = _("水流皮肤"),
+        .description = COMPOUND_STRING("一般招式会变为水属性"),
+        .longDescription = COMPOUND_STRING("一般属性的招式会变为\n水属性，且伤害提高\n20%。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_GRASS_ATE] =
     {
-        .name = _("Florate"),
-        .description = COMPOUND_STRING("Normal moves turn Grass."),
-        .longDescription = COMPOUND_STRING("Normal-type moves become\n"
-                                           "Grass-type and deal 20%\n"
-                                           "more damage."),
+        .name = _("草木皮肤"),
+        .description = COMPOUND_STRING("一般招式会变为草属性"),
+        .longDescription = COMPOUND_STRING("一般属性的招式会变为\n草属性，且伤害提高\n20%。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_PSYCHIC_ATE] =
     {
-        .name = _("Psychate"),
-        .description = COMPOUND_STRING("Normal moves turn Psychic."),
-        .longDescription = COMPOUND_STRING("Normal-type moves become\n"
-                                           "Psychic-type and deal 20%\n"
-                                           "more damage."),
+        .name = _("超能皮肤"),
+        .description = COMPOUND_STRING("一般招式会变为超能力属性"),
+        .longDescription = COMPOUND_STRING("一般属性的招式会变为\n超能力属性，且伤害\n提高20%。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_DRAGON_ATE] =
     {
-        .name = _("Draconate"),
-        .description = COMPOUND_STRING("Normal moves turn Dragon."),
-        .longDescription = COMPOUND_STRING("Normal-type moves become\n"
-                                           "Dragon-type and deal 20%\n"
-                                           "more damage."),
+        .name = _("龙族皮肤"),
+        .description = COMPOUND_STRING("一般招式会变为龙属性"),
+        .longDescription = COMPOUND_STRING("一般属性的招式会变为\n龙属性，且伤害提高\n20%。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_DARK_ATE] =
     {
-        .name = _("Dreadate"),
-        .description = COMPOUND_STRING("Normal moves turn Dark."),
-        .longDescription = COMPOUND_STRING("Normal-type moves become\n"
-                                           "Dark-type and deal 20%\n"
-                                           "more damage."),
+        .name = _("黑暗皮肤"),
+        .description = COMPOUND_STRING("一般招式会变为恶属性"),
+        .longDescription = COMPOUND_STRING("一般属性的招式会变为\n恶属性，且伤害提高\n20%。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_STEEL_FEET] =
     {
-        .name = _("Steel Feet"),
-        .description = COMPOUND_STRING("Boosts kicking moves."),
-        .longDescription = COMPOUND_STRING("Kicking moves used by this\n"
-                                           "Pokemon deal 20% more\n"
-                                           "damage."),
+        .name = _("钢铁之足"),
+        .description = COMPOUND_STRING("踢类招式的威力会提高"),
+        .longDescription = COMPOUND_STRING("自己使出的踢类招式\n伤害提高20%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_DUAL_STRIKE] =
     {
-        .name = _("Dual Strike"),
-        .description = COMPOUND_STRING("Moves hit twice."),
-        .longDescription = COMPOUND_STRING("Single-target attacks hit\n"
-                                           "twice, with the second\n"
-                                           "hit reduced in power."),
+        .name = _("双重打击"),
+        .description = COMPOUND_STRING("招式会击中2次"),
+        .longDescription = COMPOUND_STRING("单体攻击招式会击中\n2次，第2次的威力会\n降低。"
+                                           ""
+                                           ""),
         .aiRating = 10,
     },
 
     [ABILITY_UNSTOPPABLE] =
     {
-        .name = _("Unstoppable"),
-        .description = COMPOUND_STRING("Prevents fatigue confuse."),
-        .longDescription = COMPOUND_STRING("Prevents fatigue confusion\n"
-                                           "and frees the Pokemon\n"
-                                           "from Sky Drop."),
+        .name = _("势不可挡"),
+        .description = COMPOUND_STRING("不会因疲劳而陷入混乱"),
+        .longDescription = COMPOUND_STRING("不会因逆鳞等招式的\n"
+                                           "疲劳而混乱。"),
         .aiRating = 4,
         .breakable = TRUE,
     },
 
     [ABILITY_UNCANNY] =
     {
-        .name = _("Uncanny"),
-        .description = COMPOUND_STRING("Lowers foes' Sp. Atk."),
-        .longDescription = COMPOUND_STRING("On entry, lowers opposing\n"
-                                           "Pokemon's Sp. Atk by\n"
-                                           "1 stage."),
+        .name = _("妖异威压"),
+        .description = COMPOUND_STRING("降低对手的特攻"),
+        .longDescription = COMPOUND_STRING("出场时，对手的特攻\n降低1级。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_MYSTIC_FORCE] =
     {
-        .name = _("Mystic Force"),
-        .description = COMPOUND_STRING("Psychic Terrain ups Speed."),
-        .longDescription = COMPOUND_STRING("Doubles Speed while\n"
-                                           "Psychic Terrain is active."),
+        .name = _("秘法之力"),
+        .description = COMPOUND_STRING("精神场地时，速度会提高"),
+        .longDescription = COMPOUND_STRING("精神场地时，\n速度变为2倍。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_MANEUVERABILITY] =
     {
-        .name = _("Maneuverability"),
-        .description = COMPOUND_STRING("Prioritizes weaker attacks."),
-        .longDescription = COMPOUND_STRING("Damaging moves at or under\n"
-                                           "60 power gain +1 priority."),
+        .name = _("机动自如"),
+        .description = COMPOUND_STRING("能率先使出低威力的招式"),
+        .longDescription = COMPOUND_STRING("威力在60以下的攻击\n招式优先度+1。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_ADRENALINE] =
     {
-        .name = _("Adrenaline"),
-        .description = COMPOUND_STRING("Boosts Speed in a pinch."),
-        .longDescription = COMPOUND_STRING("At 1/3 HP or less, Speed\n"
-                                           "is raised by 30%."),
+        .name = _("肾上腺素"),
+        .description = COMPOUND_STRING("危急时速度会提高"),
+        .longDescription = COMPOUND_STRING("HP在1/3以下时，\n速度提高30%。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_PACK_LEADER] =
     {
-        .name = _("Pack Leader"),
-        .description = COMPOUND_STRING("Boosts attacks with allies."),
-        .longDescription = COMPOUND_STRING("Moves deal 5% more damage\n"
-                                           "for each living ally."),
+        .name = _("群体领袖"),
+        .description = COMPOUND_STRING("同伴越多，招式威力越高"),
+        .longDescription = COMPOUND_STRING("队伍中每有1只未昏厥\n的同伴，招式伤害\n提高5%。"
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_REACTIVE] =
     {
-        .name = _("Reactive"),
-        .description = COMPOUND_STRING("Reacts to super hits."),
-        .longDescription = COMPOUND_STRING("Moves gain +1 priority if\n"
-                                           "the foe chooses a super\n"
-                                           "effective attack."),
+        .name = _("临机应变"),
+        .description = COMPOUND_STRING("对效果绝佳的招式作出反应"),
+        .longDescription = COMPOUND_STRING("对手选择了效果绝佳的\n攻击招式时，自己招式\n的优先度+1。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_TRUE_GRIT] =
     {
-        .name = _("True Grit"),
-        .description = COMPOUND_STRING("Powers up Normal moves."),
-        .longDescription = COMPOUND_STRING("Normal-type moves used by\n"
-                                           "this Pokemon deal 50%\n"
-                                           "more damage."),
+        .name = _("坚韧本色"),
+        .description = COMPOUND_STRING("一般属性的招式威力会提高"),
+        .longDescription = COMPOUND_STRING("自己使出的一般属性\n招式伤害提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_WARRIOR_SPIRIT] =
     {
-        .name = _("Warrior Spirit"),
-        .description = COMPOUND_STRING("Powers up Fighting moves."),
-        .longDescription = COMPOUND_STRING("Fighting-type moves used by\n"
-                                           "this Pokemon deal 50%\n"
-                                           "more damage."),
+        .name = _("武者气魄"),
+        .description = COMPOUND_STRING("格斗属性的招式威力会提高"),
+        .longDescription = COMPOUND_STRING("自己使出的格斗属性\n招式伤害提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_WIND_FORCE] =
     {
-        .name = _("Wind Force"),
-        .description = COMPOUND_STRING("Powers up Flying moves."),
-        .longDescription = COMPOUND_STRING("Flying-type moves used by\n"
-                                           "this Pokemon deal 50%\n"
-                                           "more damage."),
+        .name = _("疾风之力"),
+        .description = COMPOUND_STRING("飞行属性的招式威力会提高"),
+        .longDescription = COMPOUND_STRING("自己使出的飞行属性\n招式伤害提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_TOXIC_CORE] =
     {
-        .name = _("Toxic Core"),
-        .description = COMPOUND_STRING("Powers up Poison moves."),
-        .longDescription = COMPOUND_STRING("Poison-type moves used by\n"
-                                           "this Pokemon deal 50%\n"
-                                           "more damage."),
+        .name = _("剧毒核心"),
+        .description = COMPOUND_STRING("毒属性的招式威力会提高"),
+        .longDescription = COMPOUND_STRING("自己使出的毒属性\n招式伤害提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_EARTHBOUND] =
     {
-        .name = _("Earthbound"),
-        .description = COMPOUND_STRING("Powers up Ground moves."),
-        .longDescription = COMPOUND_STRING("Ground-type moves used by\n"
-                                           "this Pokemon deal 50%\n"
-                                           "more damage."),
+        .name = _("大地之缘"),
+        .description = COMPOUND_STRING("地面属性的招式威力会提高"),
+        .longDescription = COMPOUND_STRING("自己使出的地面属性\n招式伤害提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_HIVE_FORCE] =
     {
-        .name = _("Hive Force"),
-        .description = COMPOUND_STRING("Powers up Bug moves."),
-        .longDescription = COMPOUND_STRING("Bug-type moves used by\n"
-                                           "this Pokemon deal 50%\n"
-                                           "more damage."),
+        .name = _("虫巢之力"),
+        .description = COMPOUND_STRING("虫属性的招式威力会提高"),
+        .longDescription = COMPOUND_STRING("自己使出的虫属性\n招式伤害提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_SPECTRAL_FORCE] =
     {
-        .name = _("Spectral Force"),
-        .description = COMPOUND_STRING("Powers up Ghost moves."),
-        .longDescription = COMPOUND_STRING("Ghost-type moves used by\n"
-                                           "this Pokemon deal 50%\n"
-                                           "more damage."),
+        .name = _("幽魂之力"),
+        .description = COMPOUND_STRING("幽灵属性的招式威力会提高"),
+        .longDescription = COMPOUND_STRING("自己使出的幽灵属性\n招式伤害提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_FIERY_HEART] =
     {
-        .name = _("Fire Mane"),
-        .description = COMPOUND_STRING("Powers up Fire moves."),
-        .longDescription = COMPOUND_STRING("Fire-type moves used by\n"
-                                           "this Pokemon deal 50%\n"
-                                           "more damage."),
+        .name = _("火焰鬃毛"),
+        .description = COMPOUND_STRING("火属性的招式威力会提高"),
+        .longDescription = COMPOUND_STRING("自己使出的火属性\n招式伤害提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_SEABOUND] =
     {
-        .name = _("Seabound"),
-        .description = COMPOUND_STRING("Powers up Water moves."),
-        .longDescription = COMPOUND_STRING("Water-type moves used by\n"
-                                           "this Pokemon deal 50%\n"
-                                           "more damage."),
+        .name = _("海洋之缘"),
+        .description = COMPOUND_STRING("水属性的招式威力会提高"),
+        .longDescription = COMPOUND_STRING("自己使出的水属性\n招式伤害提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_VERDANT_SOUL] =
     {
-        .name = _("Verdant Soul"),
-        .description = COMPOUND_STRING("Powers up Grass moves."),
-        .longDescription = COMPOUND_STRING("Grass-type moves used by\n"
-                                           "this Pokemon deal 50%\n"
-                                           "more damage."),
+        .name = _("苍翠之心"),
+        .description = COMPOUND_STRING("草属性的招式威力会提高"),
+        .longDescription = COMPOUND_STRING("自己使出的草属性\n招式伤害提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_MIND_FORCE] =
     {
-        .name = _("Mind Force"),
-        .description = COMPOUND_STRING("Powers up Psychic moves."),
-        .longDescription = COMPOUND_STRING("Psychic-type moves used by\n"
-                                           "this Pokemon deal 50%\n"
-                                           "more damage."),
+        .name = _("念力之源"),
+        .description = COMPOUND_STRING("超能力属性招式威力会提高"),
+        .longDescription = COMPOUND_STRING("自己使出的超能力属性\n招式伤害提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_FROST_FORCE] =
     {
-        .name = _("Frost Force"),
-        .description = COMPOUND_STRING("Powers up Ice moves."),
-        .longDescription = COMPOUND_STRING("Ice-type moves used by\n"
-                                           "this Pokemon deal 50%\n"
-                                           "more damage."),
+        .name = _("冰霜之力"),
+        .description = COMPOUND_STRING("冰属性的招式威力会提高"),
+        .longDescription = COMPOUND_STRING("自己使出的冰属性\n招式伤害提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_NIGHTFALL] =
     {
-        .name = _("Nightfall"),
-        .description = COMPOUND_STRING("Powers up Dark moves."),
-        .longDescription = COMPOUND_STRING("Dark-type moves used by\n"
-                                           "this Pokemon deal 50%\n"
-                                           "more damage."),
+        .name = _("夜幕降临"),
+        .description = COMPOUND_STRING("恶属性的招式威力会提高"),
+        .longDescription = COMPOUND_STRING("自己使出的恶属性\n招式伤害提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_FAE_HEART] =
     {
-        .name = _("Fae Heart"),
-        .description = COMPOUND_STRING("Powers up Fairy moves."),
-        .longDescription = COMPOUND_STRING("Fairy-type moves used by\n"
-                                           "this Pokemon deal 50%\n"
-                                           "more damage."),
+        .name = _("妖精之心"),
+        .description = COMPOUND_STRING("妖精属性的招式威力会提高"),
+        .longDescription = COMPOUND_STRING("自己使出的妖精属性\n招式伤害提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_PLANTATION] =
     {
-        .name = _("Plantation"),
-        .description = COMPOUND_STRING("Attacks may seed foes."),
-        .longDescription = COMPOUND_STRING("Damaging moves have a\n"
-                                           "30% chance to seed the\n"
-                                           "target if it is not Grass.\n"
-                                           "Does not trigger from False\n"
-                                           "Swipe."),
+        .name = _("播种"),
+        .description = COMPOUND_STRING("攻击时有时会种下寄生种子"),
+        .longDescription = COMPOUND_STRING("攻击招式有30%的几率\n给非草属性的目标种下\n寄生种子。使出点到为止\n时不会发动。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_ECHOING] =
     {
-        .name = _("Echoing"),
-        .description = COMPOUND_STRING("Sound moves may flinch."),
-        .longDescription = COMPOUND_STRING("Sound moves have a 30%\n"
-                                           "chance to make the target\n"
-                                           "flinch."),
+        .name = _("回声震荡"),
+        .description = COMPOUND_STRING("声音招式有时会使对手畏缩"),
+        .longDescription = COMPOUND_STRING("声音类招式有30%的\n几率使目标畏缩。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_TIRELESS] =
     {
-        .name = _("Tireless"),
-        .description = COMPOUND_STRING("Skips recharge turns."),
-        .longDescription = COMPOUND_STRING("Moves that normally need\n"
-                                           "to recharge skip their\n"
-                                           "recharge turn."),
+        .name = _("不知疲倦"),
+        .description = COMPOUND_STRING("可以跳过无法动弹的回合"),
+        .longDescription = COMPOUND_STRING("使出之后本该有1回合\n无法动弹的招式时，\n可以跳过该回合。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_AURA_SHIELD] =
     {
-        .name = _("Aura Shield"),
-        .description = COMPOUND_STRING("Blocks one attack."),
-        .longDescription = COMPOUND_STRING("Blocks the first attack\n"
-                                           "that would hit this\n"
-                                           "Pokemon. Infiltrator\n"
-                                           "and Mold Breaker bypass\n"
-                                           "the shield."),
+        .name = _("气场护盾"),
+        .description = COMPOUND_STRING("可以挡住1次攻击"),
+        .longDescription = COMPOUND_STRING("挡住第1次将要击中\n自己的攻击。穿透和\n破格特性可以无视\n护盾。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_PLAIN_SOUL] =
     {
-        .name = _("Plain Soul"),
-        .description = COMPOUND_STRING("Adds Normal typing."),
-        .longDescription = COMPOUND_STRING("Adds Normal as an extra\n"
-                                           "type while this Pokemon\n"
-                                           "is in battle."),
+        .name = _("一般之魂"),
+        .description = COMPOUND_STRING("追加一般属性"),
+        .longDescription = COMPOUND_STRING("自己在场期间，\n会被追加一般属性。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_FIGHTER_SOUL] =
     {
-        .name = _("Fighter Soul"),
-        .description = COMPOUND_STRING("Adds Fighting typing."),
-        .longDescription = COMPOUND_STRING("Adds Fighting as an extra\n"
-                                           "type while this Pokemon\n"
-                                           "is in battle."),
+        .name = _("格斗之魂"),
+        .description = COMPOUND_STRING("追加格斗属性"),
+        .longDescription = COMPOUND_STRING("自己在场期间，\n会被追加格斗属性。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_WIND_SOUL] =
     {
-        .name = _("Wind Soul"),
-        .description = COMPOUND_STRING("Adds Flying typing."),
-        .longDescription = COMPOUND_STRING("Adds Flying as an extra\n"
-                                           "type while this Pokemon\n"
-                                           "is in battle."),
+        .name = _("飞行之魂"),
+        .description = COMPOUND_STRING("追加飞行属性"),
+        .longDescription = COMPOUND_STRING("自己在场期间，\n会被追加飞行属性。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_VENOM_SOUL] =
     {
-        .name = _("Venom Soul"),
-        .description = COMPOUND_STRING("Adds Poison typing."),
-        .longDescription = COMPOUND_STRING("Adds Poison as an extra\n"
-                                           "type while this Pokemon\n"
-                                           "is in battle."),
+        .name = _("毒之魂"),
+        .description = COMPOUND_STRING("追加毒属性"),
+        .longDescription = COMPOUND_STRING("自己在场期间，\n会被追加毒属性。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_EARTH_SOUL] =
     {
-        .name = _("Earth Soul"),
-        .description = COMPOUND_STRING("Adds Ground typing."),
-        .longDescription = COMPOUND_STRING("Adds Ground as an extra\n"
-                                           "type while this Pokemon\n"
-                                           "is in battle."),
+        .name = _("地面之魂"),
+        .description = COMPOUND_STRING("追加地面属性"),
+        .longDescription = COMPOUND_STRING("自己在场期间，\n会被追加地面属性。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_STONE_SOUL] =
     {
-        .name = _("Stone Soul"),
-        .description = COMPOUND_STRING("Adds Rock typing."),
-        .longDescription = COMPOUND_STRING("Adds Rock as an extra\n"
-                                           "type while this Pokemon\n"
-                                           "is in battle."),
+        .name = _("岩石之魂"),
+        .description = COMPOUND_STRING("追加岩石属性"),
+        .longDescription = COMPOUND_STRING("自己在场期间，\n会被追加岩石属性。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_HIVE_SOUL] =
     {
-        .name = _("Hive Soul"),
-        .description = COMPOUND_STRING("Adds Bug typing."),
-        .longDescription = COMPOUND_STRING("Adds Bug as an extra\n"
-                                           "type while this Pokemon\n"
-                                           "is in battle."),
+        .name = _("虫之魂"),
+        .description = COMPOUND_STRING("追加虫属性"),
+        .longDescription = COMPOUND_STRING("自己在场期间，\n会被追加虫属性。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_PHANTOM_SOUL] =
     {
-        .name = _("Phantom Soul"),
-        .description = COMPOUND_STRING("Adds Ghost typing."),
-        .longDescription = COMPOUND_STRING("Adds Ghost as an extra\n"
-                                           "type while this Pokemon\n"
-                                           "is in battle."),
+        .name = _("幽灵之魂"),
+        .description = COMPOUND_STRING("追加幽灵属性"),
+        .longDescription = COMPOUND_STRING("自己在场期间，\n会被追加幽灵属性。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_STEEL_SOUL] =
     {
-        .name = _("Steel Soul"),
-        .description = COMPOUND_STRING("Adds Steel typing."),
-        .longDescription = COMPOUND_STRING("Adds Steel as an extra\n"
-                                           "type while this Pokemon\n"
-                                           "is in battle."),
+        .name = _("钢之魂"),
+        .description = COMPOUND_STRING("追加钢属性"),
+        .longDescription = COMPOUND_STRING("自己在场期间，\n会被追加钢属性。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_FLAME_SOUL] =
     {
-        .name = _("Flame Soul"),
-        .description = COMPOUND_STRING("Adds Fire typing."),
-        .longDescription = COMPOUND_STRING("Adds Fire as an extra\n"
-                                           "type while this Pokemon\n"
-                                           "is in battle."),
+        .name = _("火之魂"),
+        .description = COMPOUND_STRING("追加火属性"),
+        .longDescription = COMPOUND_STRING("自己在场期间，\n会被追加火属性。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_SEA_SOUL] =
     {
-        .name = _("Sea Soul"),
-        .description = COMPOUND_STRING("Adds Water typing."),
-        .longDescription = COMPOUND_STRING("Adds Water as an extra\n"
-                                           "type while this Pokemon\n"
-                                           "is in battle."),
+        .name = _("水之魂"),
+        .description = COMPOUND_STRING("追加水属性"),
+        .longDescription = COMPOUND_STRING("自己在场期间，\n会被追加水属性。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_VERDANT_SOUL_TYPE] =
     {
-        .name = _("Lifetree Soul"),
-        .description = COMPOUND_STRING("Adds Grass typing."),
-        .longDescription = COMPOUND_STRING("Adds Grass as an extra\n"
-                                           "type while this Pokemon\n"
-                                           "is in battle."),
+        .name = _("草之魂"),
+        .description = COMPOUND_STRING("追加草属性"),
+        .longDescription = COMPOUND_STRING("自己在场期间，\n会被追加草属性。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_THUNDER_SOUL] =
     {
-        .name = _("Thunder Soul"),
-        .description = COMPOUND_STRING("Adds Electric typing."),
-        .longDescription = COMPOUND_STRING("Adds Electric as an extra\n"
-                                           "type while this Pokemon\n"
-                                           "is in battle."),
+        .name = _("电之魂"),
+        .description = COMPOUND_STRING("追加电属性"),
+        .longDescription = COMPOUND_STRING("自己在场期间，\n会被追加电属性。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_MIND_SOUL] =
     {
-        .name = _("Mind Soul"),
-        .description = COMPOUND_STRING("Adds Psychic typing."),
-        .longDescription = COMPOUND_STRING("Adds Psychic as an extra\n"
-                                           "type while this Pokemon\n"
-                                           "is in battle."),
+        .name = _("超能力之魂"),
+        .description = COMPOUND_STRING("追加超能力属性"),
+        .longDescription = COMPOUND_STRING("自己在场期间，\n会被追加超能力属性。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_FROST_SOUL] =
     {
-        .name = _("Frost Soul"),
-        .description = COMPOUND_STRING("Adds Ice typing."),
-        .longDescription = COMPOUND_STRING("Adds Ice as an extra\n"
-                                           "type while this Pokemon\n"
-                                           "is in battle."),
+        .name = _("冰之魂"),
+        .description = COMPOUND_STRING("追加冰属性"),
+        .longDescription = COMPOUND_STRING("自己在场期间，\n会被追加冰属性。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_DRAGON_SOUL] =
     {
-        .name = _("Dragon Soul"),
-        .description = COMPOUND_STRING("Adds Dragon typing."),
-        .longDescription = COMPOUND_STRING("Adds Dragon as an extra\n"
-                                           "type while this Pokemon\n"
-                                           "is in battle."),
+        .name = _("龙之魂"),
+        .description = COMPOUND_STRING("追加龙属性"),
+        .longDescription = COMPOUND_STRING("自己在场期间，\n会被追加龙属性。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_NIGHT_SOUL] =
     {
-        .name = _("Night Soul"),
-        .description = COMPOUND_STRING("Adds Dark typing."),
-        .longDescription = COMPOUND_STRING("Adds Dark as an extra\n"
-                                           "type while this Pokemon\n"
-                                           "is in battle."),
+        .name = _("恶之魂"),
+        .description = COMPOUND_STRING("追加恶属性"),
+        .longDescription = COMPOUND_STRING("自己在场期间，\n会被追加恶属性。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_FAE_SOUL] =
     {
-        .name = _("Fae Soul"),
-        .description = COMPOUND_STRING("Adds Fairy typing."),
-        .longDescription = COMPOUND_STRING("Adds Fairy as an extra\n"
-                                           "type while this Pokemon\n"
-                                           "is in battle."),
+        .name = _("妖精之魂"),
+        .description = COMPOUND_STRING("追加妖精属性"),
+        .longDescription = COMPOUND_STRING("自己在场期间，\n会被追加妖精属性。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_SHOWTIME] =
     {
-        .name = _("Showtime"),
-        .description = COMPOUND_STRING("Sets Trick Room on entry."),
-        .longDescription = COMPOUND_STRING("Sets Trick Room for 5\n"
-                                           "turns when this Pokemon\n"
-                                           "enters battle."),
+        .name = _("好戏开场"),
+        .description = COMPOUND_STRING("出场时，会制造戏法空间"),
+        .longDescription = COMPOUND_STRING("出场时，制造持续\n5回合的戏法空间。"
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_ROOTED] =
     {
-        .name = _("Rooted"),
-        .description = COMPOUND_STRING("Gain Ingrain on entry."),
-        .longDescription = COMPOUND_STRING("Gains Ingrain when this\n"
-                                           "Pokemon enters battle."),
+        .name = _("扎根大地"),
+        .description = COMPOUND_STRING("出场时，会进入扎根状态"),
+        .longDescription = COMPOUND_STRING("出场时，\n自己进入扎根状态。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_RESTORING] =
     {
-        .name = _("Restoring"),
-        .description = COMPOUND_STRING("Gain Aqua Ring on entry."),
-        .longDescription = COMPOUND_STRING("Gains Aqua Ring when this\n"
-                                           "Pokemon enters battle."),
+        .name = _("水环守护"),
+        .description = COMPOUND_STRING("出场时，会进入水流环状态"),
+        .longDescription = COMPOUND_STRING("出场时，\n自己进入水流环状态。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_READY_STANCE] =
     {
-        .name = _("Ready Stance"),
-        .description = COMPOUND_STRING("Normal moves go first."),
-        .longDescription = COMPOUND_STRING("At full HP, Normal-type\n"
-                                           "moves gain +1 priority."),
+        .name = _("蓄势待发"),
+        .description = COMPOUND_STRING("能率先使出一般属性招式"),
+        .longDescription = COMPOUND_STRING("HP全满时，一般属性\n招式的优先度+1。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_FIRST_STRIKE] =
     {
-        .name = _("First Strike"),
-        .description = COMPOUND_STRING("Fighting moves go first."),
-        .longDescription = COMPOUND_STRING("At full HP, Fighting-type\n"
-                                           "moves gain +1 priority."),
+        .name = _("先发制人"),
+        .description = COMPOUND_STRING("能率先使出格斗属性招式"),
+        .longDescription = COMPOUND_STRING("HP全满时，格斗属性\n招式的优先度+1。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_TOXIC_REFLEX] =
     {
-        .name = _("Toxic Reflex"),
-        .description = COMPOUND_STRING("Poison moves go first."),
-        .longDescription = COMPOUND_STRING("At full HP, Poison-type\n"
-                                           "moves gain +1 priority."),
+        .name = _("毒性反射"),
+        .description = COMPOUND_STRING("能率先使出毒属性招式"),
+        .longDescription = COMPOUND_STRING("HP全满时，毒属性\n招式的优先度+1。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_EARTHEN_RUSH] =
     {
-        .name = _("Earthen Rush"),
-        .description = COMPOUND_STRING("Ground moves go first."),
-        .longDescription = COMPOUND_STRING("At full HP, Ground-type\n"
-                                           "moves gain +1 priority."),
+        .name = _("大地疾冲"),
+        .description = COMPOUND_STRING("能率先使出地面属性招式"),
+        .longDescription = COMPOUND_STRING("HP全满时，地面属性\n招式的优先度+1。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_STONE_SENTINEL] =
     {
-        .name = _("Stone Sentinel"),
-        .description = COMPOUND_STRING("Rock moves go first."),
-        .longDescription = COMPOUND_STRING("At full HP, Rock-type\n"
-                                           "moves gain +1 priority."),
+        .name = _("岩石哨卫"),
+        .description = COMPOUND_STRING("能率先使出岩石属性招式"),
+        .longDescription = COMPOUND_STRING("HP全满时，岩石属性\n招式的优先度+1。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_SWARM_INSTINCT] =
     {
-        .name = _("Swarm Instinct"),
-        .description = COMPOUND_STRING("Bug moves go first."),
-        .longDescription = COMPOUND_STRING("At full HP, Bug-type\n"
-                                           "moves gain +1 priority."),
+        .name = _("虫群本能"),
+        .description = COMPOUND_STRING("能率先使出虫属性招式"),
+        .longDescription = COMPOUND_STRING("HP全满时，虫属性\n招式的优先度+1。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_PHANTOM_STEP] =
     {
-        .name = _("Phantom Step"),
-        .description = COMPOUND_STRING("Ghost moves go first."),
-        .longDescription = COMPOUND_STRING("At full HP, Ghost-type\n"
-                                           "moves gain +1 priority."),
+        .name = _("幽影步"),
+        .description = COMPOUND_STRING("能率先使出幽灵属性招式"),
+        .longDescription = COMPOUND_STRING("HP全满时，幽灵属性\n招式的优先度+1。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_QUICK_FORGE] =
     {
-        .name = _("Quick Forge"),
-        .description = COMPOUND_STRING("Steel moves go first."),
-        .longDescription = COMPOUND_STRING("At full HP, Steel-type\n"
-                                           "moves gain +1 priority."),
+        .name = _("迅捷锻造"),
+        .description = COMPOUND_STRING("能率先使出钢属性招式"),
+        .longDescription = COMPOUND_STRING("HP全满时，钢属性\n招式的优先度+1。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_FLAME_RUSH] =
     {
-        .name = _("Heat Rush"),
-        .description = COMPOUND_STRING("Fire moves go first."),
-        .longDescription = COMPOUND_STRING("At full HP, Fire-type\n"
-                                           "moves gain +1 priority."),
+        .name = _("热浪疾冲"),
+        .description = COMPOUND_STRING("能率先使出火属性招式"),
+        .longDescription = COMPOUND_STRING("HP全满时，火属性\n招式的优先度+1。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_TIDAL_REFLEX] =
     {
-        .name = _("Tidal Reflex"),
-        .description = COMPOUND_STRING("Water moves go first."),
-        .longDescription = COMPOUND_STRING("At full HP, Water-type\n"
-                                           "moves gain +1 priority."),
+        .name = _("潮汐反射"),
+        .description = COMPOUND_STRING("能率先使出水属性招式"),
+        .longDescription = COMPOUND_STRING("HP全满时，水属性\n招式的优先度+1。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_VERDANT_GALE] =
     {
-        .name = _("Verdant Gale"),
-        .description = COMPOUND_STRING("Grass moves go first."),
-        .longDescription = COMPOUND_STRING("At full HP, Grass-type\n"
-                                           "moves gain +1 priority."),
+        .name = _("苍翠疾风"),
+        .description = COMPOUND_STRING("能率先使出草属性招式"),
+        .longDescription = COMPOUND_STRING("HP全满时，草属性\n招式的优先度+1。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_STATIC_BURST] =
     {
-        .name = _("Static Burst"),
-        .description = COMPOUND_STRING("Electric moves go first."),
-        .longDescription = COMPOUND_STRING("At full HP, Electric-type\n"
-                                           "moves gain +1 priority."),
+        .name = _("静电迸发"),
+        .description = COMPOUND_STRING("能率先使出电属性招式"),
+        .longDescription = COMPOUND_STRING("HP全满时，电属性\n招式的优先度+1。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_THINK_AHEAD] =
     {
-        .name = _("Think Ahead"),
-        .description = COMPOUND_STRING("Psychic moves go first."),
-        .longDescription = COMPOUND_STRING("At full HP, Psychic-type\n"
-                                           "moves gain +1 priority."),
+        .name = _("先思一步"),
+        .description = COMPOUND_STRING("能率先使出超能力属性招式"),
+        .longDescription = COMPOUND_STRING("HP全满时，超能力属性\n招式的优先度+1。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_FROST_SNAP] =
     {
-        .name = _("Frost Snap"),
-        .description = COMPOUND_STRING("Ice moves go first."),
-        .longDescription = COMPOUND_STRING("At full HP, Ice-type\n"
-                                           "moves gain +1 priority."),
+        .name = _("瞬息冰霜"),
+        .description = COMPOUND_STRING("能率先使出冰属性招式"),
+        .longDescription = COMPOUND_STRING("HP全满时，冰属性\n招式的优先度+1。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_DRACONIC_REFLEX] =
     {
-        .name = _("Draconic Sense"),
-        .description = COMPOUND_STRING("Dragon moves go first."),
-        .longDescription = COMPOUND_STRING("At full HP, Dragon-type\n"
-                                           "moves gain +1 priority."),
+        .name = _("龙之感知"),
+        .description = COMPOUND_STRING("能率先使出龙属性招式"),
+        .longDescription = COMPOUND_STRING("HP全满时，龙属性\n招式的优先度+1。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_NIGHT_STALKER] =
     {
-        .name = _("Nightstalker"),
-        .description = COMPOUND_STRING("Dark moves go first."),
-        .longDescription = COMPOUND_STRING("At full HP, Dark-type\n"
-                                           "moves gain +1 priority."),
+        .name = _("暗夜猎手"),
+        .description = COMPOUND_STRING("能率先使出恶属性招式"),
+        .longDescription = COMPOUND_STRING("HP全满时，恶属性\n招式的优先度+1。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_FAIRY_BLINK] =
     {
-        .name = _("Sprite shift"),
-        .description = COMPOUND_STRING("Fairy moves go first."),
-        .longDescription = COMPOUND_STRING("At full HP, Fairy-type\n"
-                                           "moves gain +1 priority."),
+        .name = _("妖精闪步"),
+        .description = COMPOUND_STRING("能率先使出妖精属性招式"),
+        .longDescription = COMPOUND_STRING("HP全满时，妖精属性\n招式的优先度+1。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_ELEMENTAL_FIST] =
     {
-        .name = _("Elemental Fist"),
-        .description = COMPOUND_STRING("Punches use Sp. Atk."),
-        .longDescription = COMPOUND_STRING("Punching moves use Sp.\n"
-                                           "Atk instead of Attack."),
+        .name = _("元素之拳"),
+        .description = COMPOUND_STRING("拳类招式以特攻计算"),
+        .longDescription = COMPOUND_STRING("拳类招式会用特攻代替\n攻击来计算伤害。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_ELEMENTALIST] =
     {
-        .name = _("Elementalist"),
-        .description = COMPOUND_STRING("Physical uses Sp. Atk."),
-        .longDescription = COMPOUND_STRING("Physical moves use Sp.\n"
-                                           "Atk instead of Attack."),
+        .name = _("元素使"),
+        .description = COMPOUND_STRING("物理招式以特攻计算"),
+        .longDescription = COMPOUND_STRING("物理招式会用特攻代替\n攻击来计算伤害。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_SOOTHING] =
     {
-        .name = _("Soothing"),
-        .description = COMPOUND_STRING("May lull foes to sleep."),
-        .longDescription = COMPOUND_STRING("Damaging moves have a\n"
-                                           "10% chance to put the\n"
-                                           "target to sleep."),
+        .name = _("安抚"),
+        .description = COMPOUND_STRING("有时会让对手陷入睡眠"),
+        .longDescription = COMPOUND_STRING("攻击招式有10%的几率\n使目标陷入睡眠。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_ROLLING_STONE] =
     {
-        .name = _("Rolling Stones"),
-        .description = COMPOUND_STRING("Rollout hits raise Speed."),
-        .longDescription = COMPOUND_STRING("Each successful Rollout\n"
-                                           "hit raises Speed by\n"
-                                           "1 stage."),
+        .name = _("滚动岩石"),
+        .description = COMPOUND_STRING("滚动击中时速度会提高"),
+        .longDescription = COMPOUND_STRING("滚动每击中1次，\n速度提高1级。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
     [ABILITY_GENERALIST] =
     {
-        .name = _("Generalist"),
-        .description = COMPOUND_STRING("Boosts varied types."),
-        .longDescription = COMPOUND_STRING("Moves not matching this\n"
-                                           "Pokemon's type deal 25%\n"
-                                           "more damage."),
+        .name = _("多面手"),
+        .description = COMPOUND_STRING("强化非自身属性的招式"),
+        .longDescription = COMPOUND_STRING("与自己属性不同的招式\n伤害提高25%。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_WINDBURST] =
     {
-        .name = _("Windburst"),
-        .description = COMPOUND_STRING("Sets Tailwind on entry."),
-        .longDescription = COMPOUND_STRING("Sets Tailwind for its\n"
-                                           "side when this Pokemon\n"
-                                           "enters battle."),
+        .name = _("疾风骤起"),
+        .description = COMPOUND_STRING("出场时，会刮起顺风"),
+        .longDescription = COMPOUND_STRING("出场时，\n为我方刮起顺风。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_BATTLE_FERVOR] =
     {
-        .name = _("Battle Fervor"),
-        .description = COMPOUND_STRING("Ups Attack on entry."),
-        .longDescription = COMPOUND_STRING("On entry, raises Attack\n"
-                                           "by 1 stage."),
+        .name = _("战斗热忱"),
+        .description = COMPOUND_STRING("出场时，攻击会提高"),
+        .longDescription = COMPOUND_STRING("出场时，\n攻击提高1级。"
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_GUARD_STANCE] =
     {
-        .name = _("Guard Stance"),
-        .description = COMPOUND_STRING("Ups Defense on entry."),
-        .longDescription = COMPOUND_STRING("On entry, raises Defense\n"
-                                           "by 1 stage."),
+        .name = _("防守架势"),
+        .description = COMPOUND_STRING("出场时，防御会提高"),
+        .longDescription = COMPOUND_STRING("出场时，\n防御提高1级。"
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_MENTAL_SURGE] =
     {
-        .name = _("Mental Surge"),
-        .description = COMPOUND_STRING("Ups Sp. Atk on entry."),
-        .longDescription = COMPOUND_STRING("On entry, raises Sp. Atk\n"
-                                           "by 1 stage."),
+        .name = _("精神涌动"),
+        .description = COMPOUND_STRING("出场时，特攻会提高"),
+        .longDescription = COMPOUND_STRING("出场时，\n特攻提高1级。"
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_RESOLUTE_GUARD] =
     {
-        .name = _("Resolute Guard"),
-        .description = COMPOUND_STRING("Ups Sp. Def on entry."),
-        .longDescription = COMPOUND_STRING("On entry, raises Sp. Def\n"
-                                           "by 1 stage."),
+        .name = _("坚毅守护"),
+        .description = COMPOUND_STRING("出场时，特防会提高"),
+        .longDescription = COMPOUND_STRING("出场时，\n特防提高1级。"
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_SKIP_STEP] =
     {
-        .name = _("Skip Step"),
-        .description = COMPOUND_STRING("Ups Speed on entry."),
-        .longDescription = COMPOUND_STRING("On entry, raises Speed\n"
-                                           "by 1 stage."),
+        .name = _("轻快步伐"),
+        .description = COMPOUND_STRING("出场时，速度会提高"),
+        .longDescription = COMPOUND_STRING("出场时，\n速度提高1级。"
+                                           ""),
         .aiRating = 3,
     },
 
     [ABILITY_BREAKING_PRESENCE] =
     {
-        .name = _("Breaking"),
-        .description = COMPOUND_STRING("Lowers foes' Defense."),
-        .longDescription = COMPOUND_STRING("On entry, lowers opposing\n"
-                                           "Pokemon's Defense by\n"
-                                           "1 stage."),
+        .name = _("破防威势"),
+        .description = COMPOUND_STRING("降低对手的防御"),
+        .longDescription = COMPOUND_STRING("出场时，对手的防御\n降低1级。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_DISQUIET] =
     {
-        .name = _("Disquiet"),
-        .description = COMPOUND_STRING("Lowers foes' Sp. Def."),
-        .longDescription = COMPOUND_STRING("On entry, lowers opposing\n"
-                                           "Pokemon's Sp. Def by\n"
-                                           "1 stage."),
+        .name = _("心神不宁"),
+        .description = COMPOUND_STRING("降低对手的特防"),
+        .longDescription = COMPOUND_STRING("出场时，对手的特防\n降低1级。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_HOBBLE] =
     {
-        .name = _("Tangling"),
-        .description = COMPOUND_STRING("Lowers foes' Speed."),
-        .longDescription = COMPOUND_STRING("On entry, lowers opposing\n"
-                                           "Pokemon's Speed by\n"
-                                           "1 stage."),
+        .name = _("纠缠"),
+        .description = COMPOUND_STRING("降低对手的速度"),
+        .longDescription = COMPOUND_STRING("出场时，对手的速度\n降低1级。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_SEER] =
     {
-        .name = _("Seer"),
-        .description = COMPOUND_STRING("Psychic hits boost Speed."),
-        .longDescription = COMPOUND_STRING("Psychic-type attacks that\n"
-                                           "deal damage raise Speed\n"
-                                           "by 1 stage."),
+        .name = _("先知"),
+        .description = COMPOUND_STRING("超能力招式击中时提高速度"),
+        .longDescription = COMPOUND_STRING("超能力属性的攻击招式\n造成伤害时，速度\n提高1级。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_SMOULDERING] =
     {
-        .name = _("Smouldering"),
-        .description = COMPOUND_STRING("Water raises Sp. Def."),
-        .longDescription = COMPOUND_STRING("Absorbs Water-type moves\n"
-                                           "and raises Sp. Def by\n"
-                                           "1 stage."),
+        .name = _("余烬未熄"),
+        .description = COMPOUND_STRING("受水属性招式时提高特防"),
+        .longDescription = COMPOUND_STRING("吸收水属性招式，\n特防提高1级。"
+                                           ""
+                                           ""),
         .aiRating = 6,
         .breakable = TRUE,
     },
 
     [ABILITY_CONSUME] =
     {
-        .name = _("Consume"),
-        .description = COMPOUND_STRING("Heals after a KO."),
-        .longDescription = COMPOUND_STRING("After knocking out foes,\n"
-                                           "restores 1/2 max HP for\n"
-                                           "each foe that fainted."),
+        .name = _("吞噬"),
+        .description = COMPOUND_STRING("打倒对手后回复HP"),
+        .longDescription = COMPOUND_STRING("打倒对手后，每有1只\n对手昏厥，回复最大\nHP的1/2。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_LIFESTEAL] =
     {
-        .name = _("Lifesteal"),
-        .description = COMPOUND_STRING("Drains HP from damage."),
-        .longDescription = COMPOUND_STRING("Damaging moves heal 1/8\n"
-                                           "of the damage dealt."),
+        .name = _("生命汲取"),
+        .description = COMPOUND_STRING("从造成的伤害中吸取HP"),
+        .longDescription = COMPOUND_STRING("使出攻击招式时，回复\n所造成伤害的1/8。"
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_HAUNTING] =
     {
-        .name = _("Haunting"),
-        .description = COMPOUND_STRING("Ghost moves may flinch."),
-        .longDescription = COMPOUND_STRING("Ghost-type attacks have\n"
-                                           "a 20% chance to make the\n"
-                                           "target flinch."),
+        .name = _("阴魂缠身"),
+        .description = COMPOUND_STRING("幽灵招式有时会使对手畏缩"),
+        .longDescription = COMPOUND_STRING("幽灵属性的攻击招式\n有20%的几率使目标\n畏缩。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_WINDCALLER] =
     {
-        .name = _("Windcaller"),
-        .description = COMPOUND_STRING("Bolsters Flying/Tailwind."),
-        .longDescription = COMPOUND_STRING("Flying-type moves deal\n"
-                                           "30% more damage, and\n"
-                                           "Tailwind lasts 2 turns\n"
-                                           "longer."),
+        .name = _("唤风者"),
+        .description = COMPOUND_STRING("强化飞行属性招式与顺风"),
+        .longDescription = COMPOUND_STRING("飞行属性招式的伤害\n提高30%，顺风的持续\n时间延长2回合。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_SIEGEBREAKER] =
     {
-        .name = _("Siegebreaker"),
-        .description = COMPOUND_STRING("Attacks use Defense."),
-        .longDescription = COMPOUND_STRING("Attacks use 2/3 of Defense\n"
-                                           "instead of Attack or\n"
-                                           "Sp. Atk."),
+        .name = _("破阵者"),
+        .description = COMPOUND_STRING("攻击招式以防御计算"),
+        .longDescription = COMPOUND_STRING("攻击招式会用防御的\n2/3代替攻击或特攻来\n计算伤害。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_SANDSHIELD] =
     {
-        .name = _("Sandshield"),
-        .description = COMPOUND_STRING("Doubles Def in sandstorm."),
-        .longDescription = COMPOUND_STRING("Doubles Defense during\n"
-                                           "a sandstorm."),
+        .name = _("沙之护盾"),
+        .description = COMPOUND_STRING("沙暴时，防御变为2倍"),
+        .longDescription = COMPOUND_STRING("沙暴时，\n防御变为2倍。"
+                                           ""),
         .aiRating = 6,
         .breakable = TRUE,
     },
 
     [ABILITY_JADE_BLOOM] =
     {
-        .name = _("Jade Bloom"),
-        .description = COMPOUND_STRING("Heals and blooms each turn."),
-        .longDescription = COMPOUND_STRING("At turn end, if not\n"
-                                           "statused, restores 1/16\n"
-                                           "max HP and raises either\n"
-                                           "Sp. Atk or Sp. Def."),
+        .name = _("翠玉绽放"),
+        .description = COMPOUND_STRING("无异常时回血增特攻或特防"),
+        .longDescription = COMPOUND_STRING("回合结束时，如果没有\n陷入异常状态，回复\n最大HP的1/16，并提高\n特攻或特防。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_BRIMSTONE] =
     {
-        .name = _("Brimstone"),
-        .description = COMPOUND_STRING("Fire bypasses immunities."),
-        .longDescription = COMPOUND_STRING("Fire-type moves ignore\n"
-                                           "Flash Fire and other Fire\n"
-                                           "immunities when this\n"
-                                           "Pokemon attacks."),
+        .name = _("硫磺之火"),
+        .description = COMPOUND_STRING("火属性招式可无视免疫"),
+        .longDescription = COMPOUND_STRING("自己攻击时，火属性\n招式可以无视引火等\n对火属性的免疫效果。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_STYGIAN] =
     {
-        .name = _("Stygian"),
-        .description = COMPOUND_STRING("Act first vs. sleep."),
-        .longDescription = COMPOUND_STRING("Moves gain +1 priority\n"
-                                           "when they are expected to\n"
-                                           "hit a sleeping target."),
+        .name = _("冥河之影"),
+        .description = COMPOUND_STRING("能率先攻击睡眠中的对手"),
+        .longDescription = COMPOUND_STRING("招式预计会击中睡眠\n状态的目标时，\n优先度+1。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_OMEGA] =
     {
-        .name = _("Omega"),
-        .description = COMPOUND_STRING("Always superior typing."),
-        .longDescription = COMPOUND_STRING("This Pokemon's attacks\n"
-                                           "are super effective.\n"
-                                           "hits it takes are not\n"
-                                           "very effective. Type\n"
-                                           "immunities and absorbing\n"
-                                           "Abilities still apply."),
+        .name = _("欧米伽"),
+        .description = COMPOUND_STRING("属性相克上始终占优"),
+        .longDescription = COMPOUND_STRING("自己的攻击都会变为\n效果绝佳，受到的攻击\n都会变为效果不好。\n属性免疫和吸收类特性\n仍然有效。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
         .breakable = TRUE,
     },
 
     [ABILITY_PERMAFROST] =
     {
-        .name = _("Permafrost"),
-        .description = COMPOUND_STRING("Resists burns and Atk loss."),
-        .longDescription = COMPOUND_STRING("Cannot be burned or have\n"
-                                           "Attack lowered. Damaging\n"
-                                           "moves may freeze or\n"
-                                           "frostbite the target."),
+        .name = _("永冻"),
+        .description = COMPOUND_STRING("不会灼伤，攻击不会被降低"),
+        .longDescription = COMPOUND_STRING("不会陷入灼伤状态，\n攻击也不会被降低。\n攻击招式有时会让目标\n陷入冻伤状态。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
         .breakable = TRUE,
     },
 
     [ABILITY_STONE_FACE] =
     {
-        .name = _("Stone Face"),
-        .description = COMPOUND_STRING("Sturdy, blocks stat loss."),
-        .longDescription = COMPOUND_STRING("Endures a full-HP KO at\n"
-                                           "1/4 max HP and prevents\n"
-                                           "other Pokemon from\n"
-                                           "lowering its stats."),
+        .name = _("岩石面孔"),
+        .description = COMPOUND_STRING("结实，且能力不会被降低"),
+        .longDescription = COMPOUND_STRING("HP全满时受到会被打倒\n的攻击，会留下最大HP\n的1/4撑住。不会被其他\n宝可梦降低能力。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_VOIDTOUCH] =
     {
-        .name = _("Voidtouch"),
-        .description = COMPOUND_STRING("Ignores defensive screens."),
-        .longDescription = COMPOUND_STRING("Damaging moves ignore\n"
-                                           "Reflect, Light Screen,\n"
-                                           "Aurora Veil, Safeguard,\n"
-                                           "and Mist."),
+        .name = _("虚空之触"),
+        .description = COMPOUND_STRING("无视防守用的壁障"),
+        .longDescription = COMPOUND_STRING("攻击招式可以无视\n反射壁、光墙、极光幕、\n神秘守护和白雾。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_GLACIAL] =
     {
-        .name = _("Glacial"),
-        .description = COMPOUND_STRING("Sp. Def rises, heals in hail."),
-        .longDescription = COMPOUND_STRING("Raises Sp. Def by 1 on\n"
-                                           "entry. In hail or snow,\n"
-                                           "restores 1/8 max HP at\n"
-                                           "turn's end."),
+        .name = _("冰川之躯"),
+        .description = COMPOUND_STRING("提高特防，冰雹时回复HP"),
+        .longDescription = COMPOUND_STRING("出场时，特防提高1级。\n冰雹或下雪时，回合\n结束时回复最大HP的\n1/8。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_LUNAR_CYCLE] =
     {
-        .name = _("Lunar Cycle"),
-        .description = COMPOUND_STRING("Attacks raise Speed."),
-        .longDescription = COMPOUND_STRING("After damaging a target\n"
-                                           "with an attack, raises\n"
-                                           "Speed by 1 stage."),
+        .name = _("月相轮转"),
+        .description = COMPOUND_STRING("攻击后速度会提高"),
+        .longDescription = COMPOUND_STRING("用攻击招式对目标造成\n伤害后，速度提高1级。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_FROST_NOVA] =
     {
-        .name = _("Frost Nova"),
-        .description = COMPOUND_STRING("Freezes on being KO'd."),
-        .longDescription = COMPOUND_STRING("When knocked out by an\n"
-                                           "attack, freezes the\n"
-                                           "attacker for exactly\n"
-                                           "1 turn."),
+        .name = _("冰霜新星"),
+        .description = COMPOUND_STRING("被打倒时冰冻对手"),
+        .longDescription = COMPOUND_STRING("被攻击打倒时，让对手\n陷入正好持续1回合的\n冰冻状态。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_SHOCKWIRING] =
     {
-        .name = _("Shockwiring"),
-        .description = COMPOUND_STRING("Charges on entry."),
-        .longDescription = COMPOUND_STRING("On entry, gives this\n"
-                                           "Pokemon the charged\n"
-                                           "state."),
+        .name = _("电能布线"),
+        .description = COMPOUND_STRING("出场时，会变为充电状态"),
+        .longDescription = COMPOUND_STRING("出场时，\n自己变为充电状态。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_RITUAL] =
     {
-        .name = _("Ritualist"),
-        .description = COMPOUND_STRING("Absorbs Ghost, boosts Hex."),
-        .longDescription = COMPOUND_STRING("Absorbs Ghost-type moves\n"
-                                           "to restore HP, and raises\n"
-                                           "Hex's power to 75."),
+        .name = _("仪式师"),
+        .description = COMPOUND_STRING("吸收幽灵招式强化祸不单行"),
+        .longDescription = COMPOUND_STRING("吸收幽灵属性招式并\n回复HP。祸不单行的\n威力提高到75。"
+                                           ""
+                                           ""),
         .aiRating = 6,
         .breakable = TRUE,
     },
 
     [ABILITY_OVERLOCK] =
     {
-        .name = _("Overclock"),
-        .description = COMPOUND_STRING("Shift Gear boosts Steel."),
-        .longDescription = COMPOUND_STRING("After using Shift Gear,\n"
-                                           "the next Steel-type move\n"
-                                           "used by this Pokemon has\n"
-                                           "double power."),
+        .name = _("超频"),
+        .description = COMPOUND_STRING("换档后强化钢属性招式"),
+        .longDescription = COMPOUND_STRING("使出换档后，自己下一次\n使出的钢属性招式威力\n变为2倍。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_SPECTRAL_DRAIN] =
     {
-        .name = _("Spectral Drain"),
-        .description = COMPOUND_STRING("Ground/Ghost drains HP."),
-        .longDescription = COMPOUND_STRING("Ground- and Ghost-type\n"
-                                           "moves heal 25% of damage\n"
-                                           "dealt. Immune to Leech\n"
-                                           "Seed."),
+        .name = _("幽魂汲取"),
+        .description = COMPOUND_STRING("地面和幽灵招式能吸取HP"),
+        .longDescription = COMPOUND_STRING("地面和幽灵属性的招式\n会回复所造成伤害的\n25%。不受寄生种子\n影响。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_BLAZING_SUN] =
     {
-        .name = _("Blazing Sun"),
-        .description = COMPOUND_STRING("Fire attacks always burn."),
-        .longDescription = COMPOUND_STRING("Damaging Fire-type moves\n"
-                                           "always burn the target if\n"
-                                           "it can be burned."),
+        .name = _("烈日灼烧"),
+        .description = COMPOUND_STRING("火属性攻击必定使对手灼伤"),
+        .longDescription = COMPOUND_STRING("只要目标能被灼伤，\n火属性的攻击招式就\n必定使其灼伤。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_OVERLOAD] =
     {
-        .name = _("Overload"),
-        .description = COMPOUND_STRING("Ignores defense items."),
-        .longDescription = COMPOUND_STRING("When attacking, ignores\n"
-                                           "defensive effects from\n"
-                                           "the target's held items."),
+        .name = _("超载"),
+        .description = COMPOUND_STRING("无视对手的防御类道具"),
+        .longDescription = COMPOUND_STRING("攻击时，无视目标携带\n道具的防御类效果。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_FILL_VOID] =
     {
-        .name = _("Fill Void"),
-        .description = COMPOUND_STRING("KOs raise Def and Sp. Atk."),
-        .longDescription = COMPOUND_STRING("After this Pokemon knocks\n"
-                                           "out a foe, raises Def and\n"
-                                           "Sp. Atk by 1 stage."),
+        .name = _("填补虚空"),
+        .description = COMPOUND_STRING("打倒对手时提高防御和特攻"),
+        .longDescription = COMPOUND_STRING("打倒对手后，防御和\n特攻提高1级。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_DUST_DEVIL] =
     {
-        .name = _("Dust Devil"),
-        .description = COMPOUND_STRING("Attacks may confuse."),
-        .longDescription = COMPOUND_STRING("Damaging moves have a\n"
-                                           "15% chance to confuse the\n"
-                                           "target."),
+        .name = _("尘卷风"),
+        .description = COMPOUND_STRING("攻击时有时会使对手混乱"),
+        .longDescription = COMPOUND_STRING("攻击招式有15%的几率\n使目标混乱。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_SOLIDIFY] =
     {
-        .name = _("Solidify"),
-        .description = COMPOUND_STRING("Special hits raise Sp. Def."),
-        .longDescription = COMPOUND_STRING("When hit by a special\n"
-                                           "attack, raises Sp. Def by\n"
-                                           "1 stage."),
+        .name = _("凝固"),
+        .description = COMPOUND_STRING("受特殊招式攻击时提高特防"),
+        .longDescription = COMPOUND_STRING("受到特殊招式攻击时，\n特防提高1级。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_UNLEASHED] =
     {
-        .name = _("Unleashed"),
-        .description = COMPOUND_STRING("Shell Smash ups all stats."),
-        .longDescription = COMPOUND_STRING("Shell Smash raises all\n"
-                                           "stats, but this Pokemon\n"
-                                           "cannot use held items."),
+        .name = _("解放之力"),
+        .description = COMPOUND_STRING("破壳会提高所有能力"),
+        .longDescription = COMPOUND_STRING("破壳会提高所有能力，\n但自己无法使用携带的\n道具。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_TETHER] =
     {
-        .name = _("Tether"),
-        .description = COMPOUND_STRING("Copies foe stat boosts."),
-        .longDescription = COMPOUND_STRING("Copies opposing stat\n"
-                                           "boosts when they are\n"
-                                           "raised."),
+        .name = _("牵系"),
+        .description = COMPOUND_STRING("复制对手的能力提高"),
+        .longDescription = COMPOUND_STRING("对手的能力提高时，\n会复制提高的部分。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_SOLAR_PANEL] =
     {
-        .name = _("Solar Panel"),
-        .description = COMPOUND_STRING("Sun guides Electric moves."),
-        .longDescription = COMPOUND_STRING("In harsh sunlight,\n"
-                                           "Electric-type moves used\n"
-                                           "by this Pokemon never\n"
-                                           "miss."),
+        .name = _("太阳能板"),
+        .description = COMPOUND_STRING("晴天时，电属性招式必中"),
+        .longDescription = COMPOUND_STRING("晴天时，自己使出的\n电属性招式必定命中。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_INFERNAL] =
     {
-        .name = _("Infernal"),
-        .description = COMPOUND_STRING("Lowers foes' Atk and Def."),
-        .longDescription = COMPOUND_STRING("On entry, lowers opposing\n"
-                                           "Pokemon's Attack and\n"
-                                           "Defense by 1 stage."),
+        .name = _("炼狱威压"),
+        .description = COMPOUND_STRING("降低对手的攻击和防御"),
+        .longDescription = COMPOUND_STRING("出场时，对手的攻击和\n防御降低1级。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_REEF_WARDEN] =
     {
-        .name = _("Reef Warden"),
-        .description = COMPOUND_STRING("Heals out, blocks healing."),
-        .longDescription = COMPOUND_STRING("Restores 1/2 max HP on\n"
-                                           "switch-out and contact with\n"
-                                           "this Pokemon blocks the\n"
-                                           "attacker's healing."),
+        .name = _("珊瑚礁守卫"),
+        .description = COMPOUND_STRING("换下时回复，封住对手回复"),
+        .longDescription = COMPOUND_STRING("替换下场时回复最大HP\n的1/2。接触到自己的\n对手会陷入回复封锁\n状态。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_SOLAR_ARMOR] =
     {
-        .name = _("Solar Armor"),
-        .description = COMPOUND_STRING("Blocks status moves."),
-        .longDescription = COMPOUND_STRING("Blocks status moves used\n"
-                                           "against this Pokemon."),
+        .name = _("日光铠甲"),
+        .description = COMPOUND_STRING("不受变化招式的影响"),
+        .longDescription = COMPOUND_STRING("防住对自己使出的\n变化招式。"
+                                           ""),
         .aiRating = 6,
         .breakable = TRUE,
     },
 
     [ABILITY_ABYSSAL_VEIL] =
     {
-        .name = _("Abyssal Veil"),
-        .description = COMPOUND_STRING("Blocks status at high HP."),
-        .longDescription = COMPOUND_STRING("Blocks status moves while\n"
-                                           "this Pokemon has more\n"
-                                           "than 75% HP."),
+        .name = _("深渊之幕"),
+        .description = COMPOUND_STRING("HP较多时不受变化招式影响"),
+        .longDescription = COMPOUND_STRING("HP高于75%时，防住\n对自己使出的变化招式。"
+                                           ""
+                                           ""),
         .aiRating = 5,
         .breakable = TRUE,
     },
 
     [ABILITY_PLASMA_SURGE] =
     {
-        .name = _("Plasma Surge"),
-        .description = COMPOUND_STRING("Terrain attacks paralyze."),
-        .longDescription = COMPOUND_STRING("During Electric Terrain,\n"
-                                           "damaging attacks always\n"
-                                           "paralyze targets if they\n"
-                                           "can be paralyzed."),
+        .name = _("等离子涌动"),
+        .description = COMPOUND_STRING("电气场地时攻击必定麻痹"),
+        .longDescription = COMPOUND_STRING("电气场地时，只要目标\n能被麻痹，攻击招式就\n必定使其麻痹。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_PHALANX] =
     {
-        .name = _("Phalanx"),
-        .description = COMPOUND_STRING("Halves physical damage."),
-        .longDescription = COMPOUND_STRING("Halves physical move\n"
-                                           "damage taken by this\n"
-                                           "Pokemon."),
+        .name = _("方阵"),
+        .description = COMPOUND_STRING("受到的物理招式伤害减半"),
+        .longDescription = COMPOUND_STRING("自己受到的物理招式\n伤害减半。"
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_SPECTRAL] =
     {
-        .name = _("Spectral"),
-        .description = COMPOUND_STRING("Halves special damage."),
-        .longDescription = COMPOUND_STRING("Halves special move\n"
-                                           "damage taken by this\n"
-                                           "Pokemon."),
+        .name = _("幽魂之躯"),
+        .description = COMPOUND_STRING("受到的特殊招式伤害减半"),
+        .longDescription = COMPOUND_STRING("自己受到的特殊招式\n伤害减半。"
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_SUNHARDENED] =
     {
-        .name = _("Sunhardened"),
-        .description = COMPOUND_STRING("Doubles Sp. Def in sun."),
-        .longDescription = COMPOUND_STRING("Doubles Sp. Def while\n"
-                                           "harsh sunlight is active."),
+        .name = _("烈日淬炼"),
+        .description = COMPOUND_STRING("晴天时，特防变为2倍"),
+        .longDescription = COMPOUND_STRING("晴天时，\n特防变为2倍。"
+                                           ""),
         .aiRating = 6,
         .breakable = TRUE,
     },
 
     [ABILITY_HEATSTORM] =
     {
-        .name = _("Heatstorm"),
-        .description = COMPOUND_STRING("Scorches field on entry."),
-        .longDescription = COMPOUND_STRING("Creates a Scorched Field\n"
-                                           "on entry. It strengthens\n"
-                                           "Fire moves and Scald while\n"
-                                           "weakening Water and Ice\n"
-                                           "moves."),
+        .name = _("炽热风暴"),
+        .description = COMPOUND_STRING("出场时，会布下焦土场地"),
+        .longDescription = COMPOUND_STRING("出场时布下焦土场地。\n强化火属性招式和热水，\n削弱热水以外的水属性\n招式及冰属性招式。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_COALWALKER] =
     {
-        .name = _("Coalwalker"),
-        .description = COMPOUND_STRING("Doubles Def when scorched."),
-        .longDescription = COMPOUND_STRING("Doubles Defense while a\n"
-                                           "Scorched Field is active."),
+        .name = _("踏炭者"),
+        .description = COMPOUND_STRING("焦土场地时，防御变为2倍"),
+        .longDescription = COMPOUND_STRING("焦土场地时，\n防御变为2倍。"
+                                           ""),
         .aiRating = 6,
         .breakable = TRUE,
     },
 
     [ABILITY_LAVA_SURFER] =
     {
-        .name = _("Lava Surfer"),
-        .description = COMPOUND_STRING("Scorched doubles Speed."),
-        .longDescription = COMPOUND_STRING("Doubles Speed while a\n"
-                                           "Scorched Field is active."),
+        .name = _("熔岩冲浪"),
+        .description = COMPOUND_STRING("焦土场地时，速度变为2倍"),
+        .longDescription = COMPOUND_STRING("焦土场地时，\n速度变为2倍。"
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_ASH_ASSETS] =
     {
-        .name = _("Ash Assets"),
-        .description = COMPOUND_STRING("Thrives in scorched fields."),
-        .longDescription = COMPOUND_STRING("After a KO, creates a\n"
-                                           "scorched field if absent;\n"
-                                           "attacks deal 15% more in\n"
-                                           "scorched fields."),
+        .name = _("灰烬之利"),
+        .description = COMPOUND_STRING("在焦土场地上更加强大"),
+        .longDescription = COMPOUND_STRING("打倒对手后，如果没有\n焦土场地就会布下。\n焦土场地时，攻击招式\n的伤害提高15%。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_FORCE_RETURN] =
     {
-        .name = _("Force Return"),
-        .description = COMPOUND_STRING("Reflects attack damage."),
-        .longDescription = COMPOUND_STRING("When hit by an attack,\n"
-                                           "the attacker takes 30% of\n"
-                                           "the damage dealt."),
+        .name = _("力量反震"),
+        .description = COMPOUND_STRING("反弹受到的攻击伤害"),
+        .longDescription = COMPOUND_STRING("受到攻击时，对手会\n受到所造成伤害的30%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_ENIGMA] =
     {
-        .name = _("Enigma"),
-        .description = COMPOUND_STRING("Doubles Power moves."),
-        .longDescription = COMPOUND_STRING("Moves with Power in their\n"
-                                           "name deal double damage."),
+        .name = _("谜团"),
+        .description = COMPOUND_STRING("部分招式的威力变为2倍"),
+        .longDescription = COMPOUND_STRING("大地之力、原始之力、\n辅助力量等指定招式的\n威力变为2倍，中文名\n无需含有“力量”二字。"
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_BURROWER] =
     {
-        .name = _("Burrower"),
-        .description = COMPOUND_STRING("Dig is instant, stronger."),
-        .longDescription = COMPOUND_STRING("Dig executes in 1 turn\n"
-                                           "and deals 50% more\n"
-                                           "damage."),
+        .name = _("掘地者"),
+        .description = COMPOUND_STRING("挖洞无需蓄力且威力提高"),
+        .longDescription = COMPOUND_STRING("挖洞只需1回合就能\n使出，且伤害提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_DIVER] =
     {
-        .name = _("Diver"),
-        .description = COMPOUND_STRING("Dive is instant, stronger."),
-        .longDescription = COMPOUND_STRING("Dive executes in 1 turn\n"
-                                           "and deals 50% more\n"
-                                           "damage."),
+        .name = _("潜水者"),
+        .description = COMPOUND_STRING("潜水无需蓄力且威力提高"),
+        .longDescription = COMPOUND_STRING("潜水只需1回合就能\n使出，且伤害提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_LAST_STAND] =
     {
-        .name = _("Last Stand"),
-        .description = COMPOUND_STRING("Boosts attacks, costs HP."),
-        .longDescription = COMPOUND_STRING("Damaging attacks hit 30%\n"
-                                           "harder, but this Pokemon\n"
-                                           "loses 10% max HP after\n"
-                                           "attacking."),
+        .name = _("殊死一搏"),
+        .description = COMPOUND_STRING("强化攻击，但会消耗HP"),
+        .longDescription = COMPOUND_STRING("攻击招式的威力提高\n30%，但攻击后自己会\n失去最大HP的10%。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_HUNTER] =
     {
-        .name = _("Hunter"),
-        .description = COMPOUND_STRING("Preys on paralysis."),
-        .longDescription = COMPOUND_STRING("Glare also confuses.\n"
-                                           "Attack is raised 50% while\n"
-                                           "a foe is paralyzed."),
+        .name = _("猎手"),
+        .description = COMPOUND_STRING("擅长对付麻痹的对手"),
+        .longDescription = COMPOUND_STRING("大蛇瞪眼还会使对手\n混乱。有对手处于麻痹\n状态时，攻击提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_NINE_LIVES] =
     {
-        .name = _("Nine Lives"),
-        .description = COMPOUND_STRING("Sturdy, fast when low."),
-        .longDescription = COMPOUND_STRING("Endures full-HP KOs like\n"
-                                           "Sturdy, and gains +2\n"
-                                           "priority at 1/3 HP or\n"
-                                           "less."),
+        .name = _("九条命"),
+        .description = COMPOUND_STRING("结实，HP低时能率先行动"),
+        .longDescription = COMPOUND_STRING("HP全满时，和结实一样\n能撑住会被打倒的攻击。\nHP在1/3以下时，\n优先度+2。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_DEBILITATE] =
     {
-        .name = _("Debilitate"),
-        .description = COMPOUND_STRING("Drains foe PP faster."),
-        .longDescription = COMPOUND_STRING("Opposing Pokemon spend\n"
-                                           "3 extra PP when using\n"
-                                           "moves against this\n"
-                                           "Pokemon."),
+        .name = _("衰弱"),
+        .description = COMPOUND_STRING("更快消耗对手的PP"),
+        .longDescription = COMPOUND_STRING("对手向自己使出招式时，\n会额外多消耗3点PP。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_TITAN_GRIP] =
     {
-        .name = _("Titan Grip"),
-        .description = COMPOUND_STRING("Turns recoil drops on foes."),
-        .longDescription = COMPOUND_STRING("Close Combat and\n"
-                                           "Superpower lower the\n"
-                                           "opposing Pokemon's stats\n"
-                                           "instead of this one's."),
+        .name = _("泰坦之握"),
+        .description = COMPOUND_STRING("把自身能力降低转给对手"),
+        .longDescription = COMPOUND_STRING("使出近身战和蛮力时，\n降低的不是自己的能力，\n而是对手的能力。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_FLEXIBLE] =
     {
-        .name = _("Prepared"),
-        .description = COMPOUND_STRING("Two-turn moves are instant."),
-        .longDescription = COMPOUND_STRING("Two-turn moves execute\n"
-                                           "in a single turn."),
+        .name = _("准备周全"),
+        .description = COMPOUND_STRING("需要2回合的招式立刻使出"),
+        .longDescription = COMPOUND_STRING("需要2回合的招式只需\n1回合就能使出。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_REBORN] =
     {
-        .name = _("Reborn"),
-        .description = COMPOUND_STRING("Revives itself once."),
-        .longDescription = COMPOUND_STRING("Once per battle, if this\n"
-                                           "Pokemon would faint, it\n"
-                                           "survives and heals to\n"
-                                           "full HP instead."),
+        .name = _("重生"),
+        .description = COMPOUND_STRING("可以让自己复活1次"),
+        .longDescription = COMPOUND_STRING("每场战斗1次，即将\n昏厥时不会倒下，\n并且HP会全部回复。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_REJUVENATION] =
     {
-        .name = _("Rejuvenation"),
-        .description = COMPOUND_STRING("Heals if unhurt."),
-        .longDescription = COMPOUND_STRING("At turn's end, restores\n"
-                                           "1/10 max HP if it took no\n"
-                                           "damage that turn."),
+        .name = _("焕发生机"),
+        .description = COMPOUND_STRING("未受伤害时回复HP"),
+        .longDescription = COMPOUND_STRING("该回合没有受到伤害时，\n回合结束时回复最大HP\n的1/10。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_TIDAL_DEITY] =
     {
-        .name = _("Tidal Deity"),
-        .description = COMPOUND_STRING("Full HP pierces defenses."),
-        .longDescription = COMPOUND_STRING("At full HP, bypasses\n"
-                                           "protection and screens.\n"
-                                           "When HP drops below full,\n"
-                                           "sets rain for 5 turns."),
+        .name = _("潮汐之神"),
+        .description = COMPOUND_STRING("HP全满时可穿透防守"),
+        .longDescription = COMPOUND_STRING("HP全满时，无视守护和\n壁障效果。HP不再全满\n时，会在5回合内将\n天气变为下雨。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_ROCKSTORM] =
     {
-        .name = _("Rockstorm"),
-        .description = COMPOUND_STRING("Rock moves hit in sand."),
-        .longDescription = COMPOUND_STRING("In a sandstorm, Rock-\n"
-                                           "type moves used by this\n"
-                                           "Pokemon cannot miss."),
+        .name = _("岩石风暴"),
+        .description = COMPOUND_STRING("沙暴时，岩石属性招式必中"),
+        .longDescription = COMPOUND_STRING("沙暴时，自己使出的\n岩石属性招式必定命中。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_STORMRIDER] =
     {
-        .name = _("Stormrider"),
-        .description = COMPOUND_STRING("Lowers foes' Sp. Def."),
-        .longDescription = COMPOUND_STRING("At each turn's end,\n"
-                                           "lowers the opposing\n"
-                                           "Pokemon's Sp. Def by\n"
-                                           "1 stage."),
+        .name = _("驭风者"),
+        .description = COMPOUND_STRING("降低对手的特防"),
+        .longDescription = COMPOUND_STRING("每回合结束时，对手的\n特防降低1级。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_VOLCANO_HOWL] =
     {
-        .name = _("Volcano Howl"),
-        .description = COMPOUND_STRING("Lowers foes' Defense."),
-        .longDescription = COMPOUND_STRING("At each turn's end,\n"
-                                           "lowers the opposing\n"
-                                           "Pokemon's Defense by\n"
-                                           "1 stage."),
+        .name = _("火山咆哮"),
+        .description = COMPOUND_STRING("降低对手的防御"),
+        .longDescription = COMPOUND_STRING("每回合结束时，对手的\n防御降低1级。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_ARCTIC_AURA] =
     {
-        .name = _("Arctic Aura"),
-        .description = COMPOUND_STRING("Lowers foes' Attack."),
-        .longDescription = COMPOUND_STRING("At each turn's end,\n"
-                                           "lowers the opposing\n"
-                                           "Pokemon's Attack by\n"
-                                           "1 stage."),
+        .name = _("极地气场"),
+        .description = COMPOUND_STRING("降低对手的攻击"),
+        .longDescription = COMPOUND_STRING("每回合结束时，对手的\n攻击降低1级。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_BLOODLUST] =
     {
-        .name = _("Bloodlust"),
-        .description = COMPOUND_STRING("Crits raise Atk and Speed."),
-        .longDescription = COMPOUND_STRING("Landing a critical hit\n"
-                                           "raises Attack and Speed\n"
-                                           "by 1 stage each."),
+        .name = _("嗜血"),
+        .description = COMPOUND_STRING("击中要害时提高攻击和速度"),
+        .longDescription = COMPOUND_STRING("击中对手要害时，攻击\n和速度各提高1级。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_GANG_UP] =
     {
-        .name = _("Gang Up"),
-        .description = COMPOUND_STRING("Preys on hurt foes."),
-        .longDescription = COMPOUND_STRING("Moves deal 20% more\n"
-                                           "damage to foes already\n"
-                                           "hurt this turn."),
+        .name = _("合力围攻"),
+        .description = COMPOUND_STRING("对受过伤害的对手更强"),
+        .longDescription = COMPOUND_STRING("对本回合已受到过伤害\n的对手，招式伤害\n提高20%。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_PENDULUM] =
     {
-        .name = _("Pendulum"),
-        .description = COMPOUND_STRING("Repeated moves power up."),
-        .longDescription = COMPOUND_STRING("Consecutive uses of the\n"
-                                           "same move gain 20% more\n"
-                                           "power, up to 60%."),
+        .name = _("钟摆"),
+        .description = COMPOUND_STRING("连续使出相同招式威力提高"),
+        .longDescription = COMPOUND_STRING("连续使出相同的招式时，\n每次威力提高20%，\n最多提高60%。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_MOMENTUM] =
     {
-        .name = _("Momentum"),
-        .description = COMPOUND_STRING("Priority raises Speed."),
-        .longDescription = COMPOUND_STRING("After using a priority\n"
-                                           "move, Speed rises by\n"
-                                           "1 stage."),
+        .name = _("动量"),
+        .description = COMPOUND_STRING("使出先制招式后提高速度"),
+        .longDescription = COMPOUND_STRING("使出先制招式后，\n速度提高1级。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_DESPERADO] =
     {
-        .name = _("Desperado"),
-        .description = COMPOUND_STRING("SE hits raise offenses."),
-        .longDescription = COMPOUND_STRING("Taking super-effective\n"
-                                           "damage raises Attack and\n"
-                                           "Sp. Atk by 1 stage."),
+        .name = _("亡命之徒"),
+        .description = COMPOUND_STRING("受效果绝佳时提高攻击特攻"),
+        .longDescription = COMPOUND_STRING("受到效果绝佳的伤害时，\n攻击和特攻提高1级。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_GLASS_CANNON] =
     {
-        .name = _("Glass Cannon"),
-        .description = COMPOUND_STRING("Stronger but frailer."),
-        .longDescription = COMPOUND_STRING("On entry, raises its\n"
-                                           "higher offense by 2 and\n"
-                                           "lowers both defenses by 2."),
+        .name = _("玻璃大炮"),
+        .description = COMPOUND_STRING("攻击更强，但防守更脆弱"),
+        .longDescription = COMPOUND_STRING("出场时，攻击和特攻中\n较高的一项提高2级，\n防御和特防各降低2级。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_AEGIS] =
     {
-        .name = _("Aegis"),
-        .description = COMPOUND_STRING("Caps one hit per turn."),
-        .longDescription = COMPOUND_STRING("Once per turn, direct\n"
-                                           "attack damage cannot\n"
-                                           "exceed 1/4 max HP."),
+        .name = _("神盾"),
+        .description = COMPOUND_STRING("每回合限制1次攻击的伤害"),
+        .longDescription = COMPOUND_STRING("每回合1次，受到的\n直接攻击伤害不会超过\n最大HP的1/4。"
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_MARTYR] =
     {
-        .name = _("Martyr"),
-        .description = COMPOUND_STRING("Fainting heals allies."),
-        .longDescription = COMPOUND_STRING("When this Pokemon faints,\n"
-                                           "its allies recover\n"
-                                           "1/4 max HP."),
+        .name = _("舍身奉献"),
+        .description = COMPOUND_STRING("昏厥时回复同伴的HP"),
+        .longDescription = COMPOUND_STRING("自己昏厥时，同伴回复\n最大HP的1/4。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_INDOMITABLE] =
     {
-        .name = _("Indomitable"),
-        .description = COMPOUND_STRING("No flinch, dodges status."),
-        .longDescription = COMPOUND_STRING("Prevents flinching.\n"
-                                           "Incoming status moves\n"
-                                           "have halved accuracy."),
+        .name = _("百折不挠"),
+        .description = COMPOUND_STRING("不会畏缩，易闪避变化招式"),
+        .longDescription = COMPOUND_STRING("不会畏缩。对自己使出\n的变化招式命中率减半。"
+                                           ""
+                                           ""),
         .aiRating = 5,
         .breakable = TRUE,
     },
 
     [ABILITY_COLOSSAL] =
     {
-        .name = _("Colossal"),
-        .description = COMPOUND_STRING("Blocks weak attacks."),
-        .longDescription = COMPOUND_STRING("Damaging moves with\n"
-                                           "44 power or less do not\n"
-                                           "affect this Pokemon."),
+        .name = _("庞然巨躯"),
+        .description = COMPOUND_STRING("防住低威力的攻击"),
+        .longDescription = COMPOUND_STRING("威力在44以下的攻击\n招式对自己无效。"
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_PARRYING] =
     {
-        .name = _("Parrying"),
-        .description = COMPOUND_STRING("Focuses through hits."),
-        .longDescription = COMPOUND_STRING("Focus Punch is not\n"
-                                           "interrupted, and charging\n"
-                                           "hits raise Defense."),
+        .name = _("招架"),
+        .description = COMPOUND_STRING("受到攻击也不会中断集中"),
+        .longDescription = COMPOUND_STRING("真气拳不会被打断。\n蓄力期间受到攻击时，\n防御会提高。"
+                                           ""
+                                           ""),
         .aiRating = 4,
         .breakable = TRUE,
     },
 
     [ABILITY_FAINTRATTLE] =
     {
-        .name = _("Faintrattle"),
-        .description = COMPOUND_STRING("Poisons contact KOs."),
-        .longDescription = COMPOUND_STRING("If a contact attack\n"
-                                           "knocks it out, the\n"
-                                           "attacker is badly poisoned."),
+        .name = _("濒倒震响"),
+        .description = COMPOUND_STRING("被接触招式打倒时使其中毒"),
+        .longDescription = COMPOUND_STRING("被接触类招式打倒时，\n让对手陷入剧毒状态。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_SHARDPLATE] =
     {
-        .name = _("Shardplate"),
-        .description = COMPOUND_STRING("Plate weakens over battle."),
-        .longDescription = COMPOUND_STRING("Direct damage is reduced\n"
-                                           "at first, weakening with\n"
-                                           "each hit this battle."),
+        .name = _("碎片铠甲"),
+        .description = COMPOUND_STRING("铠甲会随战斗逐渐减弱"),
+        .longDescription = COMPOUND_STRING("起初能减轻受到的直接\n伤害，但本场战斗中\n每受到1次攻击，效果\n就会减弱。"
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_HAUNTED] =
     {
-        .name = _("Haunted"),
-        .description = COMPOUND_STRING("Counts as statused."),
-        .longDescription = COMPOUND_STRING("Acts as if statused for\n"
-                                           "status-based effects, but\n"
-                                           "blocks major status."),
+        .name = _("幽魂附体"),
+        .description = COMPOUND_STRING("视为处于异常状态"),
+        .longDescription = COMPOUND_STRING("对于与异常状态有关的\n效果，视为处于异常\n状态，但不会陷入\n异常状态。"
+                                           ""
+                                           ""),
         .aiRating = 5,
         .breakable = TRUE,
     },
 
     [ABILITY_MENDING] =
     {
-        .name = _("Mending"),
-        .description = COMPOUND_STRING("May heal at turn end."),
-        .longDescription = COMPOUND_STRING("At turn's end, has a 30%\n"
-                                           "chance to cure status and\n"
-                                           "heal 1/8 max HP."),
+        .name = _("自我修复"),
+        .description = COMPOUND_STRING("回合结束时有时会回复"),
+        .longDescription = COMPOUND_STRING("回合结束时，有30%的\n几率治愈异常状态并\n回复最大HP的1/8。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_PLAGUETOUCH] =
     {
-        .name = _("Plaguetouch"),
-        .description = COMPOUND_STRING("Contact may inflict status."),
-        .longDescription = COMPOUND_STRING("Contact attacks have a\n"
-                                           "20% chance to inflict a\n"
-                                           "random major status."),
+        .name = _("疫病之触"),
+        .description = COMPOUND_STRING("接触攻击有时造成异常状态"),
+        .longDescription = COMPOUND_STRING("用接触类招式攻击时，\n有20%的几率让目标\n陷入随机一种异常状态。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_MONSOON] =
     {
-        .name = _("Monsoon"),
-        .description = COMPOUND_STRING("Rain empowers Water."),
-        .longDescription = COMPOUND_STRING("In rain, Water moves do\n"
-                                           "not miss and bypass Water\n"
-                                           "immunities."),
+        .name = _("季风"),
+        .description = COMPOUND_STRING("下雨时强化水属性招式"),
+        .longDescription = COMPOUND_STRING("下雨时，水属性招式\n必定命中，并且无视\n对水属性的免疫效果。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_MIRAGE] =
     {
-        .name = _("Mirage"),
-        .description = COMPOUND_STRING("Sun may confuse foes."),
-        .longDescription = COMPOUND_STRING("In sun, damaging moves\n"
-                                           "have a 25% chance to\n"
-                                           "confuse the target."),
+        .name = _("海市蜃楼"),
+        .description = COMPOUND_STRING("晴天时有时会使对手混乱"),
+        .longDescription = COMPOUND_STRING("晴天时，攻击招式有\n25%的几率使目标混乱。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_BLIZZARD_HEART] =
     {
-        .name = _("Blizzard Heart"),
-        .description = COMPOUND_STRING("Snow may freeze foes."),
-        .longDescription = COMPOUND_STRING("In snow or hail, Ice\n"
-                                           "attacks have a 20% chance\n"
-                                           "to freeze or frostbite."),
+        .name = _("暴雪之心"),
+        .description = COMPOUND_STRING("下雪时有时会冰冻对手"),
+        .longDescription = COMPOUND_STRING("下雪或冰雹时，冰属性\n的攻击招式有20%的\n几率使目标冰冻或冻伤。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_MUDSLIDE] =
     {
-        .name = _("Mudslide"),
-        .description = COMPOUND_STRING("Sand absorbs Water."),
-        .longDescription = COMPOUND_STRING("In sand, absorbs Water\n"
-                                           "moves and raises Defense\n"
-                                           "by 2 stages."),
+        .name = _("泥石流"),
+        .description = COMPOUND_STRING("沙暴时吸收水属性招式"),
+        .longDescription = COMPOUND_STRING("沙暴时，吸收水属性\n招式，防御提高2级。"
+                                           ""
+                                           ""),
         .aiRating = 6,
         .breakable = TRUE,
     },
 
     [ABILITY_CHANNEL_EARTH] =
     {
-        .name = _("Channel Earth"),
-        .description = COMPOUND_STRING("Terrain heals HP."),
-        .longDescription = COMPOUND_STRING("At turn's end, heals\n"
-                                           "1/16 max HP while any\n"
-                                           "terrain is active."),
+        .name = _("大地导流"),
+        .description = COMPOUND_STRING("有场地时回复HP"),
+        .longDescription = COMPOUND_STRING("存在任意场地时，回合\n结束时回复最大HP的\n1/16。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_MAGNIFY_FIELD] =
     {
-        .name = _("Magnify Field"),
-        .description = COMPOUND_STRING("Extends weather/terrain."),
-        .longDescription = COMPOUND_STRING("On entry, extends finite\n"
-                                           "active weather and terrain\n"
-                                           "by 2 turns."),
+        .name = _("场域扩张"),
+        .description = COMPOUND_STRING("延长天气和场地的回合数"),
+        .longDescription = COMPOUND_STRING("出场时，当前有回合数\n限制的天气和场地\n延长2回合。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_BLITZ] =
     {
-        .name = _("Blitz"),
-        .description = COMPOUND_STRING("Next hit is stronger."),
-        .longDescription = COMPOUND_STRING("After using Protect, its\n"
-                                           "next damaging move deals\n"
-                                           "20% more damage."),
+        .name = _("闪击"),
+        .description = COMPOUND_STRING("下一次攻击威力提高"),
+        .longDescription = COMPOUND_STRING("使出守住后，下一次\n使出的攻击招式伤害\n提高20%。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_GUARDIAN] =
     {
-        .name = _("Guardian"),
-        .description = COMPOUND_STRING("Draws and softens attacks."),
-        .longDescription = COMPOUND_STRING("Draws single-target foe\n"
-                                           "attacks from allies and\n"
-                                           "takes 15% less damage."),
+        .name = _("守护者"),
+        .description = COMPOUND_STRING("吸引攻击并减轻伤害"),
+        .longDescription = COMPOUND_STRING("把对手瞄准同伴的单体\n攻击吸引到自己身上，\n且受到的伤害减少15%。"
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_BACKDRAFT] =
     {
-        .name = _("Backdraft"),
-        .description = COMPOUND_STRING("Switching lowers foe Speed."),
-        .longDescription = COMPOUND_STRING("When this Pokemon switches\n"
-                                           "out voluntarily, opposing\n"
-                                           "Pokemon's Speed falls by\n"
-                                           "1 stage."),
+        .name = _("回燃"),
+        .description = COMPOUND_STRING("替换下场时降低对手的速度"),
+        .longDescription = COMPOUND_STRING("自己主动替换下场时，\n对手的速度降低1级。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_RALLY] =
     {
-        .name = _("Rally"),
-        .description = COMPOUND_STRING("Boosts ally's best stat."),
-        .longDescription = COMPOUND_STRING("On entry in doubles,\n"
-                                           "raises its ally's highest\n"
-                                           "non-HP stat by 1."),
+        .name = _("鼓舞"),
+        .description = COMPOUND_STRING("提高同伴最高的能力"),
+        .longDescription = COMPOUND_STRING("在双打对战中出场时，\n同伴HP以外最高的\n那项能力提高1级。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_ECHO_CHAMBER] =
     {
-        .name = _("Echo Chamber"),
-        .description = COMPOUND_STRING("Sound moves echo."),
-        .longDescription = COMPOUND_STRING("Single-target sound moves\n"
-                                           "strike twice, with the\n"
-                                           "second hit weaker."),
+        .name = _("回声室"),
+        .description = COMPOUND_STRING("声音招式会产生回声"),
+        .longDescription = COMPOUND_STRING("单体声音类招式会\n击中2次，第2次的威力\n较低。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_FLARE] =
     {
-        .name = _("Flare"),
-        .description = COMPOUND_STRING("Burned foes fuel Fire."),
-        .longDescription = COMPOUND_STRING("Fire-type moves deal\n"
-                                           "50% more damage to burned\n"
-                                           "targets."),
+        .name = _("烈焰"),
+        .description = COMPOUND_STRING("对灼伤的对手强化火招式"),
+        .longDescription = COMPOUND_STRING("对灼伤状态的目标，\n火属性招式的伤害\n提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_SPLINTER] =
     {
-        .name = _("Splinter"),
-        .description = COMPOUND_STRING("Damaged foes take chips."),
-        .longDescription = COMPOUND_STRING("At turn's end, damaged\n"
-                                           "foes lose 1/16 max HP."),
+        .name = _("裂伤"),
+        .description = COMPOUND_STRING("对伤到的对手追加少量伤害"),
+        .longDescription = COMPOUND_STRING("回合结束时，本回合被\n自己造成过伤害的对手\n减少最大HP的1/16。"
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_MAIM_AND_MEND] =
     {
-        .name = _("Maim and Mend"),
-        .description = COMPOUND_STRING("Crits heal the user."),
-        .longDescription = COMPOUND_STRING("Landing a critical hit\n"
-                                           "heals the user by 1/4 of\n"
-                                           "damage dealt."),
+        .name = _("伤敌愈己"),
+        .description = COMPOUND_STRING("击中要害时回复自己的HP"),
+        .longDescription = COMPOUND_STRING("击中对手要害时，回复\n所造成伤害的1/4。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_VALKYRIE] =
     {
-        .name = _("Valkyrie"),
-        .description = COMPOUND_STRING("Gains Steel resistances."),
-        .longDescription = COMPOUND_STRING("Gains Steel-type\n"
-                                           "resistances and Poison\n"
-                                           "immunity without gaining\n"
-                                           "Steel-type weaknesses."),
+        .name = _("女武神"),
+        .description = COMPOUND_STRING("获得钢属性的抗性"),
+        .longDescription = COMPOUND_STRING("获得钢属性的抗性和对\n毒属性的免疫，但不会\n获得钢属性的弱点。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_IMMOVABLE] =
     {
-        .name = _("Immovable"),
-        .description = COMPOUND_STRING("Moves last, cannot be forced."),
-        .longDescription = COMPOUND_STRING("Moves last within its\n"
-                                           "priority bracket and\n"
-                                           "blocks being forced out."),
+        .name = _("岿然不动"),
+        .description = COMPOUND_STRING("最后行动，不会被强制替换"),
+        .longDescription = COMPOUND_STRING("在相同优先度的招式中\n最后行动，且不会被\n强制替换下场。"
+                                           ""
+                                           ""),
         .aiRating = 3,
         .breakable = TRUE,
     },
 
     [ABILITY_TRANSMUTE] =
     {
-        .name = _("Transmute"),
-        .description = COMPOUND_STRING("Weakens first attack."),
-        .longDescription = COMPOUND_STRING("Once per battle, changes\n"
-                                           "a foe's direct attack to\n"
-                                           "a resisted type."),
+        .name = _("转化"),
+        .description = COMPOUND_STRING("削弱受到的第1次攻击"),
+        .longDescription = COMPOUND_STRING("每场战斗1次，将对手的\n直接攻击变为自己能\n抵抗的属性。"
+                                           ""
+                                           ""),
         .aiRating = 6,
         .breakable = TRUE,
     },
 
     [ABILITY_TWIN_STARS] =
     {
-        .name = _("Twin Stars"),
-        .description = COMPOUND_STRING("Twins boost together."),
-        .longDescription = COMPOUND_STRING("In doubles, paired Twin\n"
-                                           "Stars users each gain\n"
-                                           "+1 to five stats once."),
+        .name = _("双子星"),
+        .description = COMPOUND_STRING("双子星会一同提高能力"),
+        .longDescription = COMPOUND_STRING("双打对战中，拥有双子星\n特性的两只宝可梦搭档\n时，各有5项能力提高\n1级，仅限1次。"
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_COSMIC_FORM] =
     {
-        .name = _("Cosmic Form"),
-        .description = COMPOUND_STRING("Bends type matchups."),
-        .longDescription = COMPOUND_STRING("Its moves bypass type\n"
-                                           "immunities, and super-\n"
-                                           "effective damage is cut."),
+        .name = _("宇宙之形"),
+        .description = COMPOUND_STRING("扭曲属性相克关系"),
+        .longDescription = COMPOUND_STRING("自己的招式可以无视\n属性免疫，受到的效果\n绝佳伤害会减轻。"
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_TIME_SPIRAL] =
     {
-        .name = _("Time Spiral"),
-        .description = COMPOUND_STRING("Warps priority and fields."),
-        .longDescription = COMPOUND_STRING("Inverts move priority except\n"
-                                           "forced-switch moves. Finite\n"
-                                           "weather and terrain\n"
-                                           "lose an extra turn at each\n"
-                                           "turn's end."),
+        .name = _("时间螺旋"),
+        .description = COMPOUND_STRING("扭曲优先度与天气场地"),
+        .longDescription = COMPOUND_STRING("除强制替换的招式外，\n招式的优先度会逆转。\n有回合数限制的天气和\n场地，每回合结束时\n会多减少1回合。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
         .breakable = TRUE,
     },
 
     [ABILITY_NULL_SPACE] =
     {
-        .name = _("Null Space"),
-        .description = COMPOUND_STRING("Pierces protection."),
-        .longDescription = COMPOUND_STRING("Damaging moves bypass\n"
-                                           "single-turn protection,\n"
-                                           "but deal half damage."),
+        .name = _("虚无空间"),
+        .description = COMPOUND_STRING("可以穿透守护效果"),
+        .longDescription = COMPOUND_STRING("攻击招式可以无视只持续\n1回合的守护效果，\n但此时伤害减半。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_SPACETIME_RIFT] =
     {
-        .name = _("Spacetime Rift"),
-        .description = COMPOUND_STRING("Protects cosmic twins."),
-        .longDescription = COMPOUND_STRING("On a side with Palkia and\n"
-                                           "Dialga, protects them from\n"
-                                           "spread attacks."),
+        .name = _("时空裂隙"),
+        .description = COMPOUND_STRING("双神同场时可防御范围攻击"),
+        .longDescription = COMPOUND_STRING("帕路奇亚和帝牙卢卡在\n同一方时，保护它们\n不受群体攻击招式影响。"
+                                           ""
+                                           ""),
         .aiRating = 6,
         .breakable = TRUE,
     },
 
     [ABILITY_UNDERDOG] =
     {
-        .name = _("Underdog"),
-        .description = COMPOUND_STRING("Hits stronger foes harder."),
-        .longDescription = COMPOUND_STRING("Deals 30% more damage to\n"
-                                           "targets with a higher base\n"
-                                           "stat total."),
+        .name = _("以弱胜强"),
+        .description = COMPOUND_STRING("对更强的对手造成更多伤害"),
+        .longDescription = COMPOUND_STRING("对种族值合计比自己高\n的目标，伤害提高30%。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_ROCK_AND_STONE] =
     {
-        .name = _("Rock and Stone"),
-        .description = COMPOUND_STRING("KOs set Stealth Rock."),
-        .longDescription = COMPOUND_STRING("When it knocks out a foe,\n"
-                                           "sets Stealth Rock on the\n"
-                                           "opposing side."),
+        .name = _("岩与石"),
+        .description = COMPOUND_STRING("打倒对手时撒下隐形岩"),
+        .longDescription = COMPOUND_STRING("打倒对手时，在对手的\n场地上撒下隐形岩。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_POLARITY_SHIFT] =
     {
-        .name = _("Polarity Shift"),
-        .description = COMPOUND_STRING("Entry swaps foe's Speed."),
-        .longDescription = COMPOUND_STRING("On entry, swaps Speed\n"
-                                           "with the opposing Pokemon."),
+        .name = _("极性转换"),
+        .description = COMPOUND_STRING("出场时，与对手交换速度"),
+        .longDescription = COMPOUND_STRING("出场时，与对手的\n宝可梦交换速度。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_HORSE_COUNCIL] =
     {
-        .name = _("Horse Council"),
-        .description = COMPOUND_STRING("Horses boost attacks."),
-        .longDescription = COMPOUND_STRING("Physical and special\n"
-                                           "attacks deal 10% more\n"
-                                           "damage per living horse\n"
-                                           "ally in the party."),
+        .name = _("群马议会"),
+        .description = COMPOUND_STRING("马类同伴会强化攻击招式"),
+        .longDescription = COMPOUND_STRING("队伍中每有1只未昏厥的\n马类同伴，物理和特殊\n招式的伤害提高10%。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_POWER_SHIFT] =
     {
-        .name = _("Power Shift"),
-        .description = COMPOUND_STRING("Entry swaps foe offenses."),
-        .longDescription = COMPOUND_STRING("On entry, swaps Attack\n"
-                                           "and Sp. Atk with the\n"
-                                           "opposing Pokemon."),
+        .name = _("力量对调"),
+        .description = COMPOUND_STRING("出场时与对手交换攻击特攻"),
+        .longDescription = COMPOUND_STRING("出场时，与对手的\n宝可梦交换攻击和特攻。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_WISHMAKER] =
     {
-        .name = _("Wishmaker"),
-        .description = COMPOUND_STRING("Casts Wish on entry."),
-        .longDescription = COMPOUND_STRING("On entry, casts Wish\n"
-                                           "for itself."),
+        .name = _("祈愿者"),
+        .description = COMPOUND_STRING("出场时，会使出祈愿"),
+        .longDescription = COMPOUND_STRING("出场时，\n为自己使出祈愿。"
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_FLIER] =
     {
-        .name = _("Flier"),
-        .description = COMPOUND_STRING("Fly is instant, stronger."),
-        .longDescription = COMPOUND_STRING("Fly executes in 1 turn\n"
-                                           "and deals 50% more\n"
-                                           "damage."),
+        .name = _("飞行者"),
+        .description = COMPOUND_STRING("飞翔无需蓄力且威力提高"),
+        .longDescription = COMPOUND_STRING("飞翔只需1回合就能\n使出，且伤害提高50%。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_FLAMEBURST] =
     {
-        .name = _("Flameburst"),
-        .description = COMPOUND_STRING("Burns foes on fainting."),
-        .longDescription = COMPOUND_STRING("When this Pokemon faints\n"
-                                           "from a damaging attack,\n"
-                                           "it burns the opposing\n"
-                                           "side."),
+        .name = _("焰爆"),
+        .description = COMPOUND_STRING("昏厥时让对手灼伤"),
+        .longDescription = COMPOUND_STRING("因攻击招式而昏厥时，\n让对手一方陷入灼伤\n状态。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_INKY] =
     {
-        .name = _("Inky"),
-        .description = COMPOUND_STRING("Hits lower Accuracy."),
-        .longDescription = COMPOUND_STRING("When hit by a damaging\n"
-                                           "move, lowers the\n"
-                                           "attacker's Accuracy."),
+        .name = _("泼墨"),
+        .description = COMPOUND_STRING("受到攻击时降低对手命中率"),
+        .longDescription = COMPOUND_STRING("受到攻击招式攻击时，\n降低对手的命中率。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_BRAND_OF_TORMENT] =
     {
-        .name = _("Brand of Torment"),
-        .description = COMPOUND_STRING("Contact may torment."),
-        .longDescription = COMPOUND_STRING("Contact attacks have a\n"
-                                           "30% chance to torment\n"
-                                           "the attacker."),
+        .name = _("无理烙印"),
+        .description = COMPOUND_STRING("接触时有时令对手无理取闹"),
+        .longDescription = COMPOUND_STRING("受到接触类招式攻击时，\n有30%的几率让对手\n陷入无理取闹状态。"
+                                           ""
+                                           ""),
         .aiRating = 4,
     },
 
     [ABILITY_DRAGONIZE] =
     {
-        .name = _("Dragonize"),
-        .description = COMPOUND_STRING("Normal moves turn Dragon."),
-        .longDescription = COMPOUND_STRING("Normal-type moves become\n"
-                                           "Dragon-type and deal 20%\n"
-                                           "more damage."),
+        .name = _("龙皮肤"),
+        .description = COMPOUND_STRING("一般招式变为龙属性并强化"),
+        .longDescription = COMPOUND_STRING("一般属性的招式会变为\n龙属性，且伤害提高\n20%。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_EELEVATE] =
     {
-        .name = _("Eelevate"),
-        .description = COMPOUND_STRING("Levitate and boosts KOs."),
-        .longDescription = COMPOUND_STRING("The Pokemon is immune\n"
-                                           "to Ground-type moves.\n"
-                                           "When it knocks out a foe,\n"
-                                           "its highest stat rises."),
+        .name = _("鳗鳗高升"),
+        .description = COMPOUND_STRING("飘浮，打倒对手时提高能力"),
+        .longDescription = COMPOUND_STRING("不会受到地面属性招式\n的攻击。打倒对手时，\n自己最高的那项能力\n会提高。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
         .breakable = TRUE,
     },
 
     [ABILITY_MEGA_SOL] =
     {
-        .name = _("Mega Sol"),
-        .description = COMPOUND_STRING("Acts as sun for itself."),
-        .longDescription = COMPOUND_STRING("The Pokemon's own moves\n"
-                                           "and effects behave as if\n"
-                                           "the sunlight is harsh."),
+        .name = _("超级日光"),
+        .description = COMPOUND_STRING("自己始终视为处于晴天"),
+        .longDescription = COMPOUND_STRING("自己的招式和效果会\n视为处于晴天来发动。"
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_SPICY_SPRAY] =
     {
-        .name = _("Spicy Spray"),
-        .description = COMPOUND_STRING("Burns foes when damaged."),
-        .longDescription = COMPOUND_STRING("When damaged by a direct\n"
-                                           "attack, this Pokemon\n"
-                                           "burns the attacker."),
+        .name = _("辣椒喷发"),
+        .description = COMPOUND_STRING("受到伤害时让对手灼伤"),
+        .longDescription = COMPOUND_STRING("受到直接攻击的伤害时，\n让对手陷入灼伤状态。"
+                                           ""
+                                           ""),
         .aiRating = 5,
     },
 
     [ABILITY_WIND_CHIME] =
     {
-        .name = _("Wind Chime"),
-        .description = COMPOUND_STRING("Ups Sp. Atk if hit by wind."),
-        .longDescription = COMPOUND_STRING("Immune to wind moves.\n"
-                                           "Instead, they raise\n"
-                                           "Sp. Atk. Tailwind also\n"
-                                           "raises the Pokémon's\n"
-                                           "Sp. Atk."),
+        .name = _("风铃"),
+        .description = COMPOUND_STRING("受到风的招式时提高特攻"),
+        .longDescription = COMPOUND_STRING("风类招式无效，反而会\n使特攻提高。顺风时\n特攻也会提高。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 4,
         .breakable = TRUE,
     },
 
     [ABILITY_GRAVITY_WELL] =
     {
-        .name = _("Gravity Well"),
-        .description = COMPOUND_STRING("Sets Gravity on entry."),
-        .longDescription = COMPOUND_STRING("Intensifies Gravity for\n"
-                                           "5 turns when this Pokémon\n"
-                                           "enters battle."),
+        .name = _("重力井"),
+        .description = COMPOUND_STRING("出场时，会使重力变强"),
+        .longDescription = COMPOUND_STRING("出场时，在5回合内\n使重力变强。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_ALLSEEING_IDOL] =
     {
-        .name = _("Allseeing Idol"),
-        .description = COMPOUND_STRING("Levitate + Gravity ups Def."),
-        .longDescription = COMPOUND_STRING("The Pokémon is immune to\n"
-                                           "Ground moves and hazards,\n"
-                                           "even during Gravity, which\n"
-                                           "also boosts Defense by 30%."),
+        .name = _("全视偶像"),
+        .description = COMPOUND_STRING("飘浮，且重力下防御提高"),
+        .longDescription = COMPOUND_STRING("即使在重力下，也不会\n受到地面属性招式和\n场地陷阱的影响。\n重力下防御还会提高\n30%。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
         .breakable = TRUE,
     },
 
     [ABILITY_ACIDIC] =
     {
-        .name = _("Acidic"),
-        .description = COMPOUND_STRING("Poison melts Steel."),
-        .longDescription = COMPOUND_STRING("Poison-type attacks are\n"
-                                           "super effective against\n"
-                                           "Steel-type Pokemon."),
+        .name = _("强酸"),
+        .description = COMPOUND_STRING("毒属性招式能腐蚀钢属性"),
+        .longDescription = COMPOUND_STRING("毒属性的攻击招式对\n钢属性宝可梦效果绝佳。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_AURA_GUARD] =
     {
-        .name = _("Aura Guard"),
-        .description = COMPOUND_STRING("Halves contact damage."),
-        .longDescription = COMPOUND_STRING("Halves damage taken from\n"
-                                           "moves that make contact."),
+        .name = _("波导防护"),
+        .description = COMPOUND_STRING("受到的接触招式伤害减半"),
+        .longDescription = COMPOUND_STRING("受到接触类招式的伤害\n减半。"
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_LIKE_A_DRAGON] =
     {
-        .name = _("Like a Dragon"),
-        .description = COMPOUND_STRING("Gain Dragon benefits."),
-        .longDescription = COMPOUND_STRING("Gains Dragon-type STAB\n"
-                                           "and resistances without\n"
-                                           "gaining Dragon-type\n"
-                                           "weaknesses."),
+        .name = _("如龙"),
+        .description = COMPOUND_STRING("获得龙属性的优势"),
+        .longDescription = COMPOUND_STRING("获得龙属性的属性一致\n加成和抗性，但不会\n获得龙属性的弱点。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
         .breakable = TRUE,
     },
 
     [ABILITY_ELECTROLEVITATE] =
     {
-        .name = _("Electromagnetism"),
-        .description = COMPOUND_STRING("Avoids Ground-moves."),
-        .longDescription = COMPOUND_STRING("The Pokemon is immune\n"
-                                           "to Ground-type moves and\n"
-                                           "grounded entry hazards,\n"
-                                           "but benefits from effects\n"
-                                           "of Electric Terrain."),
+        .name = _("电磁作用"),
+        .description = COMPOUND_STRING("不会受地面属性招式攻击"),
+        .longDescription = COMPOUND_STRING("不会受到地面属性招式\n和地面上的场地陷阱\n影响，但仍能获得电气\n场地的效果。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },
 
     [ABILITY_MALICE_AURA] =
     {
-        .name = _("Malice Aura"),
-        .description = COMPOUND_STRING("Boosts Ghost moves."),
-        .longDescription = COMPOUND_STRING("Boosts the power of all\n"
-                                           "Ghost-type moves in\n"
-                                           "battle by 33%."),
+        .name = _("恶意气场"),
+        .description = COMPOUND_STRING("全体的幽灵属性招式变强"),
+        .longDescription = COMPOUND_STRING("场上所有幽灵属性招式\n的威力提高33%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
         .breakable = B_UPDATED_ABILITY_DATA < GEN_8,
     },
 
     [ABILITY_TRUESHOT_AURA] =
     {
-        .name = _("Trueshot Aura"),
-        .description = COMPOUND_STRING("Raises team's critical hits."),
-        .longDescription = COMPOUND_STRING("Raises own and ally's\n"
-                                           "critical-hit ratio by two\n"
-                                           "stages."),
+        .name = _("精准气场"),
+        .description = COMPOUND_STRING("我方的招式容易击中要害"),
+        .longDescription = COMPOUND_STRING("自己和同伴的\n击中要害率提高2级。"
+                                           ""
+                                           ""),
         .aiRating = 10,
     },
 
     [ABILITY_OGRE_FORCE] =
     {
-        .name = _("Ogre Force"),
-        .description = COMPOUND_STRING("Boosts moves with effects."),
-        .longDescription = COMPOUND_STRING("Moves with added effects\n"
-                                           "deal 15% more damage."),
+        .name = _("厄鬼之力"),
+        .description = COMPOUND_STRING("强化有追加效果的招式"),
+        .longDescription = COMPOUND_STRING("有追加效果的招式伤害\n提高15%。"
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_RESONANCE] =
     {
-        .name = _("Resonance"),
-        .description = COMPOUND_STRING("Ups and resists sound."),
-        .longDescription = COMPOUND_STRING("Boosts sound moves by\n"
-                                           "30% and halves the\n"
-                                           "damage taken from\n"
-                                           "sound-based moves."),
+        .name = _("共鸣"),
+        .description = COMPOUND_STRING("强化声音招式并减轻其伤害"),
+        .longDescription = COMPOUND_STRING("声音类招式的威力\n提高30%，受到声音类\n招式的伤害减半。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 2,
         .breakable = TRUE,
     },
 
     [ABILITY_TEMPO] =
     {
-        .name = _("Tempo"),
-        .description = COMPOUND_STRING("Sound hits raise Speed."),
-        .longDescription = COMPOUND_STRING("After dealing damage with\n"
-                                           "a sound move, raises\n"
-                                           "Speed by 1 stage."),
+        .name = _("节拍"),
+        .description = COMPOUND_STRING("声音招式击中时提高速度"),
+        .longDescription = COMPOUND_STRING("用声音类招式造成伤害\n后，速度提高1级。"
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_CONTROLLED_BURN] =
     {
-        .name = _("Controlled Burn"),
-        .description = COMPOUND_STRING("Boosts Fire recoil attacks."),
-        .longDescription = COMPOUND_STRING("Fire recoil attacks deal\n"
-                                           "20% more damage and have\n"
-                                           "their recoil or HP costs\n"
-                                           "halved."),
+        .name = _("控火"),
+        .description = COMPOUND_STRING("强化有反作用力的火招式"),
+        .longDescription = COMPOUND_STRING("有反作用力的火属性\n攻击招式伤害提高20%，\n且反作用力伤害或HP\n消耗减半。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_CROSSFIRE] =
     {
-        .name = _("Crossfire"),
-        .description = COMPOUND_STRING("Alternating types hit harder."),
-        .longDescription = COMPOUND_STRING("Attacks deal 25% more if\n"
-                                           "their type differs from\n"
-                                           "its previous attack.\n"
-                                           "Resets on switching."),
+        .name = _("交叉火力"),
+        .description = COMPOUND_STRING("交替使出不同属性威力提高"),
+        .longDescription = COMPOUND_STRING("攻击招式的属性与自己\n上一次的攻击不同时，\n伤害提高25%。替换后\n重新计算。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
     },
 
     [ABILITY_HOT_TAG] =
     {
-        .name = _("Hot Tag"),
-        .description = COMPOUND_STRING("Shields replacement."),
-        .longDescription = COMPOUND_STRING("After pivoting with a\n"
-                                           "move, its replacement\n"
-                                           "takes 40% less damage\n"
-                                           "from its next direct hit."),
+        .name = _("热力交接"),
+        .description = COMPOUND_STRING("保护接替上场的宝可梦"),
+        .longDescription = COMPOUND_STRING("用招式替换下场后，\n接替上场的宝可梦下一次\n受到的直接攻击伤害\n减少40%。"
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 8,
     },
 
     [ABILITY_BULL_RUSH] =
     {
-        .name = _("Bull Rush"),
-        .description = COMPOUND_STRING("Powers up its first attack."),
-        .longDescription = COMPOUND_STRING("Its first damaging move\n"
-                                           "after entering battle\n"
-                                           "deals 20% more damage."),
+        .name = _("蛮牛冲锋"),
+        .description = COMPOUND_STRING("出场后第1次攻击威力提高"),
+        .longDescription = COMPOUND_STRING("出场后第1次使出的\n攻击招式伤害提高20%。"
+                                           ""
+                                           ""),
         .aiRating = 6,
     },
 
     [ABILITY_MIND_FLOAT] =
     {
-        .name = _("Mind Float"),
-        .description = COMPOUND_STRING("Not hit by Ground attacks."),
-        .longDescription = COMPOUND_STRING("The Pokemon is immune\n"
-                                           "to Ground-type moves and\n"
-                                           "grounded entry hazards,\n"
-                                           "but benefits from effects\n"
-                                           "of Psychic Terrain."),
+        .name = _("精神浮游"),
+        .description = COMPOUND_STRING("不会受地面属性招式攻击"),
+        .longDescription = COMPOUND_STRING("不会受到地面属性招式\n和地面上的场地陷阱\n影响，但仍能获得精神\n场地的效果。"
+                                           ""
+                                           ""
+                                           ""
+                                           ""),
         .aiRating = 7,
         .breakable = TRUE,
     },

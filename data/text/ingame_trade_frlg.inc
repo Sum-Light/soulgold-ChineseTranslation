@@ -1,60 +1,60 @@
 Trade_Text_LookingForMonWannaTradeForMon::
-	.string "I'm looking for the Pokémon\n"
-	.string "{STR_VAR_1}!\p"
-	.string "Wanna trade one for my\n"
-	.string "{STR_VAR_2}?$"
+	.string "我在找宝可梦{STR_VAR_1}！\p要不要拿一只来\n换我的{STR_VAR_2}？$"
+	.string ""
+	.string ""
+	.string ""
 
 Trade_Text_AwwOhWell::
-	.string "Awww!\n"
-	.string "Oh, well…$"
+	.string "哎——！\n那好吧……$"
+	.string ""
 
 Trade_Text_WhatThatsNoMon::
-	.string "What?\n"
-	.string "That's no {STR_VAR_1}!$"
+	.string "什么？\n这不是{STR_VAR_1}啊！$"
+	.string ""
 
 Trade_Text_HeyThanks::
-	.string "Hey, thanks!$"
+	.string "嘿，谢啦！$"
 
 Trade_Text_IsntMyOldMonGreat::
-	.string "Isn't my old {STR_VAR_2} great?$"
+	.string "我以前的那只{STR_VAR_2}\n很棒吧？$"
 
 Trade_Text_DoYouHaveMonWouldYouTradeForMon::
-	.string "Hello, there! Do you happen to\n"
-	.string "have a {STR_VAR_1}?\p"
-	.string "Would you agree to a trade for\n"
-	.string "my {STR_VAR_2}?$"
+	.string "你好！请问你有\n{STR_VAR_1}吗？\p愿意用它来交换\n我的{STR_VAR_2}吗？$"
+	.string ""
+	.string ""
+	.string ""
 
 Trade_Text_WellIfYouDontWantTo::
-	.string "Well, if you don't want to…$"
+	.string "嗯，你不愿意的话就算了……$"
 
 Trade_Text_ThisIsntMon::
-	.string "Hmmm?\n"
-	.string "This isn't a {STR_VAR_1}.\p"
-	.string "Think of me if you get one.$"
+	.string "嗯？\n这不是{STR_VAR_1}呀。\p要是得到了，可要想起我哦。$"
+	.string ""
+	.string ""
 
 Trade_Text_Thanks::
-	.string "Thanks!$"
+	.string "谢谢！$"
 
 Trade_Text_HasTradedMonGrownStronger::
-	.string "The {STR_VAR_2} that I traded you,\n"
-	.string "has it grown stronger?$"
+	.string "我换给你的那只{STR_VAR_2}，\n它变强了吗？$"
+	.string ""
 
 Trade_Text_DoYouHaveMonWantToTradeForMon::
-	.string "Hi!\n"
-	.string "Do you have a {STR_VAR_1}?\p"
-	.string "Want to trade it for my\n"
-	.string "{STR_VAR_2}?$"
+	.string "嗨！\n你有{STR_VAR_1}吗？\p要不要用它来换\n我的{STR_VAR_2}？$"
+	.string ""
+	.string ""
+	.string ""
 
 Trade_Text_ThatsTooBad::
-	.string "That's too bad.$"
+	.string "那太可惜了。$"
 
 Trade_Text_ThisIsNoMon::
-	.string "…This is no {STR_VAR_1}.\p"
-	.string "If you get one, trade it with me.$"
+	.string "……这不是{STR_VAR_1}。\p要是得到了，就来跟我交换吧。$"
+	.string ""
 
 Trade_Text_ThanksYoureAPal::
-	.string "Thanks, you're a pal!$"
+	.string "谢谢，你真够朋友！$"
 
 Trade_Text_HowIsMyOldMon::
-	.string "How is my old {STR_VAR_2}?\n"
-	.string "My {STR_VAR_1} is doing great!$"
+	.string "我以前的{STR_VAR_2}还好吗？\n我的{STR_VAR_1}可精神了！$"
+	.string ""

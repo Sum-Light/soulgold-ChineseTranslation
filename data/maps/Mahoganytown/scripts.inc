@@ -269,85 +269,85 @@ MahoganyTown_Movement_PlayerMerchant2:
 	step_end
 
 MahoganyTown_Text_RageCandyBarMerchantTryOne:
-	.string "Hiya, kid!\p"
-	.string "I see you're new in Mahogany Town.\p"
-	.string "Since you're new, you should try a\n"
-	.string "yummy Ragecandybar!\p"
-	.string "Right now, it can be yours for just\n"
-	.string "¥300! Want one?$"
+	.string "哟，小家伙！\p我看你是刚到卡吉镇吧。\p既然是新来的，就该尝尝\n美味的愤怒馒头！\p现在只要¥300\n就能买到一个！要来一个吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MahoganyTown_Text_RageCandyBarMerchantSavorIt:
-    .string "Good! Savor it!$"
+    .string "好！慢慢享用吧！$"
 
 MahoganyTown_Text_RageCandyBarMerchantNotEnoughMoney:
-    .string "You don't have enough money.$"
+    .string "您的钱不够啊。$"
 
 MahoganyTown_Text_RageCandyBarMerchantRefused:
-    .string "Oh, fine then…$"
+    .string "啊，这样啊……$"
 
 MahoganyTown_Text_RageCandyBarMerchantSoldOut:
-    .string "Ragecandybar's sold out.\p"
-    .string "I'm packing up. Don't bother me,\n"
-    .string "kiddo.$"
+    .string "愤怒馒头卖完了。\p我正收拾摊子呢。小家伙，\n别来烦我。$"
+    .string ""
+    .string ""
 
 MahoganyTown_Text_Gramps:
-    .string "Are you off to see the Gyarados\n"
-    .string "rampage at the Lake?$"
+    .string "你是要去看湖里\n暴鲤龙大肆闹腾吗？$"
+    .string ""
 
 MahoganyTown_Text_GrampsClearedRocketHideout:
-    .string "Magikarp have returned to Lake\n"
-    .string "Of Rage.\p"
-    .string "That should be good news for the\n"
-    .string "anglers there.$"
+    .string "鲤鱼王又回到了愤怒之湖。\p对在那儿钓鱼的人来说，\n这可是个好消息。$"
+    .string ""
+    .string ""
+    .string ""
 
 MahoganyTown_Text_Fisher:
-    .string "Since you came this far, take the\n"
-    .string "time to do some sightseeing.\p"
-    .string "You should head north and check\n"
-    .string "out Lake Of Rage right now.$"
+    .string "既然你都大老远来了，就花点时间\n四处逛逛吧。\p你现在就该往北走，\n去愤怒之湖看看。$"
+    .string ""
+    .string ""
+    .string ""
 
 MahoganyTown_Text_Lass:
-    .string "Visit Grandma's shop. She sells\n"
-    .string "stuff that nobody else has.$"
+    .string "去奶奶的店里转转吧。\n她卖的东西别处可没有。$"
+    .string ""
 
 MahoganyTown_Text_Sign:
-    .string "Mahogany Town\p"
-    .string "Welcome to the Home of the Ninja$"
+    .string "卡吉镇\p欢迎来到忍者之乡$"
+    .string ""
 
 MahoganyTown_Text_RagecandybarSign:
-    .string "While visiting Mahogany Town, try\n"
-    .string "a Ragecandybar!$"
+    .string "来到卡吉镇，\n请尝尝愤怒馒头！$"
+    .string ""
 
 MahoganyTown_Text_GymSign:
-    .string "Mahogany Town Pokémon Gym\p"
-    .string "Leader: Pryce\p"
-    .string "The Teacher of Winter's Harshness$"
+    .string "卡吉镇宝可梦道馆\p馆主：柳伯\p严冬的教导者$"
+    .string ""
+    .string ""
 
 ElmPhoneRadioTowerRocketTakeoverText:
-	.string "Prof. Elm: {PLAYER}, how are\n"
-	.string "things going?\p"
-	.string "I called because something weird\n"
-	.string "is happening with the radio\l"
-	.string "broadcasts.\p"
-	.string "They were talking about Team\n"
-	.string "Rocket.\p"
-	.string "{PLAYER}, do you know anything\n"
-	.string "about it?\p"
-	.string "Maybe Team Rocket has returned.\n"
-	.string "No, that just can't be true.\p"
-	.string "Sorry to bug you.\n"
-	.string "Take care!$"
+	.string "空木博士：{PLAYER}，\n最近还好吗？\p我打电话来，\n是因为广播节目里\l出了些怪事。\p节目里提到了火箭队。\p{PLAYER}，这件事\n你知道些什么吗？\p难道是火箭队又回来了。\n不会吧，这怎么可能。\p抱歉打扰你了。\n保重！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 ElmPhoneRoute39LegendaryText:
-	.string "Prof. Elm: Woah!\n"
-	.string "{PLAYER}, did you see that?!\p"
-	.string "A massive Pokémon just flew over\n"
-	.string "Ecruteak City!\l"
-	.string "I could see it from my Lab!\p"
-	.string "Could it be one of the legendary\n"
-	.string "Pokémon??\p"
-	.string "It looked like it was headed West,\n"
-	.string "toward Route 39.\p"
-	.string "{PLAYER}!\n"
-	.string "This may be a rare opportunity\l"
-	.string "to give chase!$"
+	.string "空木博士：哎呀！\n{PLAYER}，你看见了吗？！\p一只巨大的宝可梦刚刚飞过了\n缘朱市！\l我在研究所里都看见了！\p难道是传说的\n宝可梦？？\p它好像朝西边飞去了，\n往39号道路那边。\p{PLAYER}！\n这可是难得的好机会，\l快去追吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""

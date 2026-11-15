@@ -48,100 +48,100 @@ AbandonedShip_Rooms2_1F_EventScript_Garrison::
 	end
 
 AbandonedShip_Rooms2_1F_Text_DanIntro:
-	.string "Dan: While searching for treasures,\n"
-	.string "we discovered a Trainer!$"
+	.string "文：在寻宝的途中，\n我们发现了一位训练家！$"
+	.string ""
 
 AbandonedShip_Rooms2_1F_Text_DanDefeat:
-	.string "Dan: We couldn't win even though\n"
-	.string "we worked together…$"
+	.string "文：即使我们联手\n也没能打过他……$"
+	.string ""
 
 AbandonedShip_Rooms2_1F_Text_DanPostBattle:
-	.string "Dan: We can't find any treasures…\n"
-	.string "I wonder if someone got them already?$"
+	.string "文：我们什么宝藏也没找到……\n是不是已经被挖走了？$"
+	.string ""
 
 AbandonedShip_Rooms2_1F_Text_DanNotEnoughMons:
-	.string "Dan: You don't even have two Pokémon.\n"
-	.string "You can't expect to beat us like that.$"
+	.string "文：你连2只宝可梦都没有，\n这样肯定赢不了我们。$"
+	.string ""
 
 AbandonedShip_Rooms2_1F_Text_KiraIntro:
-	.string "Kira: Oh?\n"
-	.string "We were searching for treasures.\l"
-	.string "But we discovered a Trainer instead!$"
+	.string "夏：哦？\n我们一直在寻宝，\l结果却找到一位训练家！$"
+	.string ""
+	.string ""
 
 AbandonedShip_Rooms2_1F_Text_KiraDefeat:
-	.string "Kira: Ooh, so strong!$"
+	.string "夏：哦，太强了！$"
 
 AbandonedShip_Rooms2_1F_Text_KiraPostBattle:
-	.string "Kira: Where could the treasures be?\p"
-	.string "I've already decided what I'm buying\n"
-	.string "when we find the treasures!$"
+	.string "夏：宝藏究竟在哪里？\p我都已经想好\n挖到宝以后买什么了！$"
+	.string ""
+	.string ""
 
 AbandonedShip_Rooms2_1F_Text_KiraNotEnoughMons:
-	.string "Kira: Oh, you don't have two Pokémon?\n"
-	.string "We'll have to battle some other time!$"
+	.string "夏：哦，你没有2只宝可梦？\n那以后再战吧！$"
+	.string ""
 
 AbandonedShip_Rooms2_1F_Text_KiraRegister:
-	.string "Kira: Oh, you make me so angry!\n"
-	.string "I'm going to register you for that!$"
+	.string "夏：哦，你把我惹火了！\n我要登记你！$"
+	.string ""
 
 AbandonedShip_Rooms2_1F_Text_DanRematchIntro:
-	.string "Dan: We've been searching for\n"
-	.string "treasures all this time.\p"
-	.string "Our Pokémon have grown stronger, too.\n"
-	.string "Let us show you, okay?$"
+	.string "文：我们一直\n在寻找宝藏。\p我们的宝可梦也变强了，\n给你展示一下吧？$"
+	.string ""
+	.string ""
+	.string ""
 
 AbandonedShip_Rooms2_1F_Text_DanRematchDefeat:
-	.string "Dan: You're strong, as usual!$"
+	.string "文：你还是那么强！$"
 
 AbandonedShip_Rooms2_1F_Text_DanPostRematch:
-	.string "Dan: We can't find any treasures,\n"
-	.string "we lose at Pokémon…\p"
-	.string "I want to go home… But if I say that,\n"
-	.string "she gets all angry with me…$"
+	.string "文：我们没找到宝藏，\n还输了宝可梦对战……\p我要回家……不过要是我真的说出来，\n她肯定会生气的……$"
+	.string ""
+	.string ""
+	.string ""
 
 AbandonedShip_Rooms2_1F_Text_DanRematchNotEnoughMons:
-	.string "Dan: You don't even have two Pokémon.\n"
-	.string "You can't expect to beat us like that.$"
+	.string "文：你连2只宝可梦都没有，\n这样你是赢不了我们的。$"
+	.string ""
 
 AbandonedShip_Rooms2_1F_Text_KiraRematchIntro:
-	.string "Kira: Oh? We meet again!\p"
-	.string "Just like us, you still haven't given up\n"
-	.string "searching for treasures, have you?\p"
-	.string "Want to make it so the loser has\n"
-	.string "to give up searching?$"
+	.string "夏：哦？我们又见面了！\p你和我们一样，还在寻找\n宝藏，对不对？\p不如来场对战吧，\n输的人放弃寻宝。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 AbandonedShip_Rooms2_1F_Text_KiraRematchDefeat:
-	.string "Kira: Oh, we lost again…$"
+	.string "夏：哦，我们又输了……$"
 
 AbandonedShip_Rooms2_1F_Text_KiraPostRematch:
-	.string "Kira: We're not leaving until we raise\n"
-	.string "our Pokémon some more and we find\l"
-	.string "the treasures here!$"
+	.string "夏：不把宝可梦练得强一些，\n不找到宝藏，\l我们绝不回去！$"
+	.string ""
+	.string ""
 
 AbandonedShip_Rooms2_1F_Text_KiraRematchNotEnoughMons:
-	.string "Kira: Oh, you don't have two Pokémon?\n"
-	.string "We'll have to battle some other time!$"
+	.string "夏：哦，你没有2只宝可梦？\n那只好以后再战了！$"
+	.string ""
 
 AbandonedShip_Rooms2_1F_Text_JaniIntro:
-	.string "I'm not good at swimming,\n"
-	.string "but I am good at battles!$"
+	.string "我不擅长游泳，\n但我擅长对战！$"
+	.string ""
 
 AbandonedShip_Rooms2_1F_Text_JaniDefeat:
-	.string "Oops.\n"
-	.string "That didn't go very well.$"
+	.string "哎呀，\n不对头啊。$"
+	.string ""
 
 AbandonedShip_Rooms2_1F_Text_JaniPostBattle:
-	.string "Walking around barefoot in this ship\n"
-	.string "is kind of gross.$"
+	.string "赤脚在这艘船上走\n还真有些难受。$"
+	.string ""
 
 AbandonedShip_Rooms2_1F_Text_GarrisonIntro:
-	.string "Strength and compassion…\n"
-	.string "Those are a Trainer's treasures!$"
+	.string "力量与体贴……\n这就是训练家的宝藏！$"
+	.string ""
 
 AbandonedShip_Rooms2_1F_Text_GarrisonDefeat:
-	.string "Ah, there is something about you\n"
-	.string "that sparkles.$"
+	.string "啊，没想到你还\n真有两下子。$"
+	.string ""
 
 AbandonedShip_Rooms2_1F_Text_GarrisonPostBattle:
-	.string "In a cabin somewhere on board,\n"
-	.string "I saw something sparkle.$"
+	.string "我在某个船舱中，\n看到有什么东西在闪光。$"
+	.string ""

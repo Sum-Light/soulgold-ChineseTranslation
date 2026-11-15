@@ -9,14 +9,10 @@ VajraDesertEastCave_TrainerDylan::
 
 
 VajraDesertEastCave_TrainerDylan_Text_0:
-	.string "Are you trying to find the hidden \n"
-	.string "temple?$"
+	.string "你是在找那座隐藏的\n神殿吗？$"
 
 VajraDesertEastCave_TrainerDylan_Text_1:
-	.string "Untold riches await!$"
+	.string "无尽的财宝在等着你！$"
 
 VajraDesertEastCave_TrainerDylan_Text_2:
-	.string "There's no way to access the oasis\n"
-	.string "either side of the lower areas.\p"
-	.string "Perhaps it might be possible\n"
-	.string "from above?$"
+	.string "从下层区域两侧\n根本没法到达绿洲。\p也许从上面\n就能过去了？$"

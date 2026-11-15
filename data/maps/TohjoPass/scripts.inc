@@ -13,4 +13,4 @@ TohjoPass_Floette::
 
 
 TohjoPass_Floette_Text_0:
-	.string "Floette: Floweeeeey!$"
+	.string "花叶蒂：芙萝咿——！$"

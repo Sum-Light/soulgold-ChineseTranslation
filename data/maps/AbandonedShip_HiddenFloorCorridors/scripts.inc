@@ -132,24 +132,24 @@ AbandonedShip_HiddenFloorCorridors_EventScript_TheDoorIsOpen::
 	end
 
 AbandonedShip_HiddenFloorCorridors_Text_Rm1DoorIsLocked:
-	.string "The door is locked.\p"
-	.string "“Rm. 1” is painted on the door.$"
+	.string "门锁上了。\p门上写着“1号房”。$"
+	.string ""
 
 AbandonedShip_HiddenFloorCorridors_Text_Rm2DoorIsLocked:
-	.string "The door is locked.\p"
-	.string "“Rm. 2” is painted on the door.$"
+	.string "门锁上了。\p门上写着“2号房”。$"
+	.string ""
 
 AbandonedShip_HiddenFloorCorridors_Text_Rm4DoorIsLocked:
-	.string "The door is locked.\p"
-	.string "“Rm. 4” is painted on the door.$"
+	.string "门锁上了。\p门上写着“4号房”。$"
+	.string ""
 
 AbandonedShip_HiddenFloorCorridors_Text_Rm6DoorIsLocked:
-	.string "The door is locked.\p"
-	.string "“Rm. 6” is painted on the door.$"
+	.string "门锁上了。\p门上写着“6号房”。$"
+	.string ""
 
 AbandonedShip_HiddenFloorCorridors_Text_InsertedKey:
-	.string "{PLAYER} inserted and turned the\n"
-	.string "Key.\p"
-	.string "The inserted Key stuck fast,\n"
-	.string "but the door opened.$"
+	.string "{PLAYER}插入了钥匙。\p插入的钥匙很快卡住了，\n不过门被打开了。$"
+	.string ""
+	.string ""
+	.string ""
 

@@ -3,15 +3,7 @@ mapscripts RintoHouse2_MapScripts {}
 script RintoHouse2_BottleCapManiac {
     lock
     faceplayer
-    msgbox("The name's Mr. Hyper!
-
-            I can put your Pokémon through my
-            amazing Hyper Training!
-
-            A Bottle Cap trains one stat, while a
-            Gold Bottle Cap trains every stat.
-
-            Want to get your Pokémon hyped up?",
+    msgbox("我就是极限特训爷爷！\p我可以给您的宝可梦\n做神奇的极限特训！\p银色王冠特训一项能力，\n金色王冠则特训所有能力。\p想让您的宝可梦燃起来吗？",
            MSGBOX_YESNO)
     if (var(VAR_RESULT) == NO) {
         goto(RintoHouse2_BottleCapManiac_Goodbye)
@@ -20,8 +12,7 @@ script RintoHouse2_BottleCapManiac {
 }
 
 script RintoHouse2_BottleCapManiac_ChooseMon {
-    msgbox("Which one of your Pokémon wants some
-            Hyper Training?")
+    msgbox("您的哪一只宝可梦\n想接受极限特训？")
     special(ChoosePartyMon)
     waitstate
     if (var(VAR_0x8004) >= PARTY_SIZE) {
@@ -30,8 +21,7 @@ script RintoHouse2_BottleCapManiac_ChooseMon {
 
     special(IsSelectedMonEgg)
     if (var(VAR_RESULT) == TRUE) {
-        msgbox("An Egg?! I admire the enthusiasm,
-                but I can't train that just yet!")
+        msgbox("是蛋？！我欣赏这份热情，\n不过这还没法特训！")
         goto(RintoHouse2_BottleCapManiac_ChooseMon)
     }
 
@@ -62,38 +52,32 @@ script RintoHouse2_BottleCapManiac_ChooseMon {
         setvar(VAR_0x8005, TRUE)
     }
     if (var(VAR_0x8005) == FALSE) {
-        msgbox("But {STR_VAR_1} is already so
-                awesome that it doesn't need any
-                training!")
+        msgbox("可是{STR_VAR_1}已经这么\n出色了，完全不需要\l特训！")
         goto(RintoHouse2_BottleCapManiac_ChooseMon)
     }
     goto(RintoHouse2_BottleCapManiac_ChooseCap)
 }
 
 script RintoHouse2_BottleCapManiac_ChooseCap {
-    msgbox("So, will it be a Bottle Cap or a
-            Gold Bottle Cap?")
+    msgbox("那么，是要银色王冠，\n还是金色王冠？")
     dynmultichoice(0, 0, FALSE, 4, 0, DYN_MULTICHOICE_CB_NONE,
-                   "Bottle Cap",
-                   "Gold Bottle Cap",
-                   "Choose another Pokémon",
-                   "Cancel")
+                   "银色王冠",
+                   "金色王冠",
+                   "换一只宝可梦",
+                   "取消")
     switch (var(VAR_RESULT)) {
         case 0:
             if (checkitem(ITEM_BOTTLE_CAP) == FALSE) {
-                msgbox("Oh no! You don't have a
-                        Bottle Cap!")
+                msgbox("哎呀！您没有\n银色王冠！")
                 goto(RintoHouse2_BottleCapManiac_ChooseCap)
             }
             goto(RintoHouse2_BottleCapManiac_ChooseStat)
         case 1:
             if (checkitem(ITEM_GOLD_BOTTLE_CAP) == FALSE) {
-                msgbox("Oh no! You don't have a
-                        Gold Bottle Cap!")
+                msgbox("哎呀！您没有\n金色王冠！")
                 goto(RintoHouse2_BottleCapManiac_ChooseCap)
             }
-            msgbox("Exchange a Gold Bottle Cap to
-                    train all of {STR_VAR_1}'s stats?",
+            msgbox("用一枚金色王冠来特训\n{STR_VAR_1}的所有能力？",
                    MSGBOX_YESNO)
             if (var(VAR_RESULT) == NO) {
                 goto(RintoHouse2_BottleCapManiac_ChooseCap)
@@ -132,16 +116,15 @@ script RintoHouse2_BottleCapManiac_ChooseCap {
 }
 
 script RintoHouse2_BottleCapManiac_ChooseStat {
-    msgbox("Which one of {STR_VAR_1}'s stats
-            should I train?")
+    msgbox("要特训{STR_VAR_1}的\n哪一项能力？")
     dynmultichoice(0, 0, FALSE, 5, 0, DYN_MULTICHOICE_CB_NONE,
                    "HP",
-                   "Attack",
-                   "Defense",
-                   "Sp. Atk",
-                   "Sp. Def",
-                   "Speed",
-                   "Go back")
+                   "攻击",
+                   "防御",
+                   "特攻",
+                   "特防",
+                   "速度",
+                   "返回")
     switch (var(VAR_RESULT)) {
         case 0:
             canhypertrain(STAT_HP, VAR_0x8004)
@@ -185,14 +168,12 @@ script RintoHouse2_BottleCapManiac_ChooseStat {
 }
 
 script RintoHouse2_BottleCapManiac_StatAlreadyMaxed {
-    msgbox("That stat can't get any more hyper!
-            It's already as high as it can get!")
+    msgbox("这项能力已经到极限了！\n没法再高一点了！")
     goto(RintoHouse2_BottleCapManiac_ChooseStat)
 }
 
 script RintoHouse2_BottleCapManiac_ConfirmHP {
-    msgbox("Exchange a Bottle Cap to train
-            {STR_VAR_1}'s HP?", MSGBOX_YESNO)
+    msgbox("用一枚银色王冠来特训\n{STR_VAR_1}的HP？", MSGBOX_YESNO)
     if (var(VAR_RESULT) == NO) {
         goto(RintoHouse2_BottleCapManiac_ChooseStat)
     }
@@ -202,8 +183,7 @@ script RintoHouse2_BottleCapManiac_ConfirmHP {
 }
 
 script RintoHouse2_BottleCapManiac_ConfirmAttack {
-    msgbox("Exchange a Bottle Cap to train
-            {STR_VAR_1}'s Attack?", MSGBOX_YESNO)
+    msgbox("用一枚银色王冠来特训\n{STR_VAR_1}的攻击？", MSGBOX_YESNO)
     if (var(VAR_RESULT) == NO) {
         goto(RintoHouse2_BottleCapManiac_ChooseStat)
     }
@@ -213,8 +193,7 @@ script RintoHouse2_BottleCapManiac_ConfirmAttack {
 }
 
 script RintoHouse2_BottleCapManiac_ConfirmDefense {
-    msgbox("Exchange a Bottle Cap to train
-            {STR_VAR_1}'s Defense?", MSGBOX_YESNO)
+    msgbox("用一枚银色王冠来特训\n{STR_VAR_1}的防御？", MSGBOX_YESNO)
     if (var(VAR_RESULT) == NO) {
         goto(RintoHouse2_BottleCapManiac_ChooseStat)
     }
@@ -224,8 +203,7 @@ script RintoHouse2_BottleCapManiac_ConfirmDefense {
 }
 
 script RintoHouse2_BottleCapManiac_ConfirmSpAttack {
-    msgbox("Exchange a Bottle Cap to train
-            {STR_VAR_1}'s Sp. Atk?", MSGBOX_YESNO)
+    msgbox("用一枚银色王冠来特训\n{STR_VAR_1}的特攻？", MSGBOX_YESNO)
     if (var(VAR_RESULT) == NO) {
         goto(RintoHouse2_BottleCapManiac_ChooseStat)
     }
@@ -235,8 +213,7 @@ script RintoHouse2_BottleCapManiac_ConfirmSpAttack {
 }
 
 script RintoHouse2_BottleCapManiac_ConfirmSpDefense {
-    msgbox("Exchange a Bottle Cap to train
-            {STR_VAR_1}'s Sp. Def?", MSGBOX_YESNO)
+    msgbox("用一枚银色王冠来特训\n{STR_VAR_1}的特防？", MSGBOX_YESNO)
     if (var(VAR_RESULT) == NO) {
         goto(RintoHouse2_BottleCapManiac_ChooseStat)
     }
@@ -246,8 +223,7 @@ script RintoHouse2_BottleCapManiac_ConfirmSpDefense {
 }
 
 script RintoHouse2_BottleCapManiac_ConfirmSpeed {
-    msgbox("Exchange a Bottle Cap to train
-            {STR_VAR_1}'s Speed?", MSGBOX_YESNO)
+    msgbox("用一枚银色王冠来特训\n{STR_VAR_1}的速度？", MSGBOX_YESNO)
     if (var(VAR_RESULT) == NO) {
         goto(RintoHouse2_BottleCapManiac_ChooseStat)
     }
@@ -257,18 +233,14 @@ script RintoHouse2_BottleCapManiac_ConfirmSpeed {
 }
 
 script RintoHouse2_BottleCapManiac_TrainingDone {
-    msgbox("Then get hyped! It's time for some
-            real Hyper Training!")
+    msgbox("那就燃起来！真正的\n极限特训开始了！")
     closemessage
     fadescreen(FADE_TO_BLACK)
     delay(30)
     playse(SE_EXP_MAX)
     waitse
     fadescreen(FADE_FROM_BLACK)
-    msgbox("{STR_VAR_1} grew stronger thanks
-            to Hyper Training!
-
-            Want to keep the hype rolling?",
+    msgbox("{STR_VAR_1}多亏了极限特训\n变得更强了！\p还想继续燃下去吗？",
            MSGBOX_YESNO)
     if (var(VAR_RESULT) == YES) {
         goto(RintoHouse2_BottleCapManiac_ChooseMon)
@@ -278,8 +250,7 @@ script RintoHouse2_BottleCapManiac_TrainingDone {
 
 script RintoHouse2_BottleCapManiac_Goodbye {
     createfieldmugshot(MUGSHOT_GENTLEMAN)
-    msgbox("Come back anytime! I'll always be
-            hyped to see you!")
+    msgbox("随时再来！我随时都\n热情满满地等着您！")
     release
     end
 }

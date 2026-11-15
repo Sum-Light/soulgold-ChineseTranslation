@@ -156,19 +156,16 @@ MeteorCave1_LegeRoom_WalkingWake::
 
 
 MeteorCave1_LegendaryRoom_RagingBoltDoor_Text_0:
-	.string "The path is open.$"
+	.string "路已经打开了。$"
 
 MeteorCave1_LegendaryRoom_RagingBoltDoor_Text_1:
-	.string "There's an inscription on the wall.\p"
-	.string "BRING THUNDER$"
+	.string "墙上刻着铭文。\p带来雷霆$"
 
 MeteorCave1_LegendaryRoom_RagingBoltDoor_Text_2:
-	.string "Nothing seems to happen.$"
+	.string "似乎什么也没发生。$"
 
 MeteorCave1_LegendaryRoom_GougingFireDoor_Text_0:
-	.string "There's an inscription on the wall.\p"
-	.string "BRING VOLCANO$"
+	.string "墙上刻着铭文。\p带来火山$"
 
 MeteorCave1_LegendaryRoom_WalkingWakeDoor_Text_0:
-	.string "There's an inscription on the wall.\p"
-	.string "BRING AURORA$"
+	.string "墙上刻着铭文。\p带来极光$"

@@ -33,20 +33,20 @@ CianwoodCity_EventScript_PharmacistAfter::
 
 
 CianwoodCity_Text_PharmacistGivePotion:
-	.string "Your Pokémon appear to be fine.\p"
-	.string "Is something worrying you?\p"
-	.string "…\p"
-	.string "The Lighthouse Pokémon is in\n"
-	.string "trouble?\p"
-	.string "I got it!\p"
-	.string "This ought to do the trick.$"
+	.string "你的宝可梦看起来\n没什么问题。\p有什么事让你\n担心吗？\p……\p灯塔那只宝可梦\n出事了？\p明白了！\p这个应该能派上用场。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CianwoodCity_Text_ReceivedSecretpotion:
-	.string "{PLAYER} received Secretpotion.$"
+	.string "{PLAYER}得到了秘传之药。$"
 
 CianwoodCity_Text_PharmacistDescribePotion:
-	.string "My Secretpotion is a tad too\n"
-	.string "strong, so I only offer it in an\l"
-	.string "emergency.$"
+	.string "我的秘传之药药性太强，\n所以只在紧急时候\l才拿出来。$"
+	.string ""
+	.string ""
 `
 

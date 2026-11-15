@@ -34,8 +34,7 @@ LobbyDoorLati_4:
 
 
 LobbyDoorLati_Text_0:
-	.string "The door is now open.$"
+	.string "门已经打开了。$"
 
 LobbyDoorLati_Text_1:
-	.string "Ancient writings fill the door.\p"
-	.string "It is sealed shut.$"
+	.string "门上刻满了\n古老的文字。\p门扉紧闭。$"

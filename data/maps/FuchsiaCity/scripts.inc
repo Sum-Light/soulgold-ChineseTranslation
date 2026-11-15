@@ -23,20 +23,20 @@ FuchsiaCity_EventScript_BaobaCall::
 	end
 
 FuchsiaCity_Text_Baoba:
-	.string "Warden Baoba: {PLAYER}!\p"
-	.string "This is Warden Baoba.\p"
-	.string "Something awful has happened!\n"
-	.string "My old Safari Zone in Fuchsia City\l"
-	.string "was bought out and reopened!\p"
-	.string "And apparently it has exotic new\n"
-	.string "Pokémon!\p"
-	.string "It's hurting my business!\p"
-	.string "{PLAYER}, you must venture into the\n"
-	.string "new Safari Zone and catch a Pokémon\l"
-	.string "to show me. I must know about these\l"
-	.string "'exotic' Pokémon.\p"
-	.string "Please {PLAYER}, my business depends\n"
-	.string "on you!$"
+	.string "园长巴奥巴：{PLAYER}！\p我是园长巴奥巴。\p出大事了！\n我在浅红市的狩猎地带\l被人买下，重新开业了！\p听说那里还有稀奇的\n新宝可梦！\p这害得我生意都做不下去了！\p{PLAYER}，你去新的狩猎地带\n抓一只宝可梦回来给我看。\l我得弄清楚那些\l“稀奇”的宝可梦。\p求你了，{PLAYER}，我的生意\n就全靠你了！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 FuchsiaCity_EventScript_Dratini::
 	lock
@@ -99,44 +99,44 @@ FuchsiaCity_EventScript_SafariZone::
 	end
 
 FuchsiaCity_Text_Youngster:
-	.string "One of the Elite Four used to be\n"
-	.string "the Leader of Fuchsia's Gym.$"
+	.string "四天王里有一位，\n曾经是浅红道馆的馆主。$"
+	.string ""
 
 FuchsiaCity_Text_PokefanM:
-	.string "Koga's daughter succeeded him as\n"
-	.string "the Gym Leader after he joined the\l"
-	.string "Elite Four.$"
+	.string "阿桔成为四天王之后，\n他的女儿就接替他，\l当上了道馆馆主。$"
+	.string ""
+	.string ""
 
 FuchsiaCity_Text_Teacher:
-	.string "The Safari Zone is under new\n"
-	.string "management.\p"
-	.string "And it has tons of new Pokémon!$"
+	.string "狩猎地带换了新的\n经营者。\p而且还有好多\n新宝可梦！$"
+	.string ""
+	.string ""
 
 FuchsiaCity_Text_Sign:
-	.string "Fuchsia City\p"
-	.string "Behold! It's Passion Pink!$"
+	.string "浅红市\p看哪！热情的粉红色！$"
+	.string ""
 
 FuchsiaCity_Text_GymSign:
-	.string "Fuchsia City Pokémon Gym\n"
-	.string "Leader: Janine\p"
-	.string "The Poisonous Ninja Master$"
+	.string "浅红市宝可梦道馆\n馆主：阿杏\p毒之忍者大师$"
+	.string ""
+	.string ""
 
 FuchsiaCity_Text_SafariZoneOfficeSign:
-	.string "There's a notice here…\p"
-	.string "Safari Zone Office is closed until\n"
-	.string "further notice.$"
+	.string "这里贴着一张告示……\p狩猎地带办事处暂停营业，\n恢复时间另行通知。$"
+	.string ""
+	.string ""
 
 FuchsiaCity_Text_SafariZone:
-	.string "Safari Zone\n"
-	.string "Now Owned By\l"
-	.string "Devon Corp.$"
+	.string "狩猎地带\n现已由得文公司\l接手经营$"
+	.string ""
+	.string ""
 
 FuchsiaCity_Text_SafariZoneClosedSign:
-	.string "The Warden is traveling abroad.\p"
-	.string "Therefore, the Safari Zone is\n"
-	.string "closed.$"
+	.string "园长目前正在国外旅行。\p因此，狩猎地带\n暂停开放。$"
+	.string ""
+	.string ""
 
 FuchsiaCity_Text_NoLitteringSign:
-	.string "No littering.\p"
-	.string "Please take your waste with you.$"
+	.string "请勿乱扔垃圾。\p请把垃圾随身带走。$"
+	.string ""
 

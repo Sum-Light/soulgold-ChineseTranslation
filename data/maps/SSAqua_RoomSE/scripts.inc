@@ -19,34 +19,34 @@ SSAqua_RoomSE_EventScript_Peg::
 	end
 
 SSAqua_RoomSE_Text_PokefanmColinSeen:
-    .string "Hey, kid! Want to battle\n"
-    .string "with me?$"
+    .string "喂，小家伙！\n要不要和我对战？$"
+    .string ""
 
 SSAqua_RoomSE_Text_PokefanmColinBeaten:
-    .string "You're strong!$"
+    .string "你很强！$"
 
 SSAqua_RoomSE_Text_PokefanmColinAfter:
-    .string "You're traveling all alone?\n"
-    .string "Isn't your mom worried?$"
+    .string "你一个人旅行？\n你妈妈不担心吗？$"
+    .string ""
 
 SSAqua_RoomSE_Text_TwinsMegandpeg1Seen:
-    .string "You think I'm a baby?\n"
-    .string "That's not fair!$"
+    .string "你觉得我是小宝宝？\n太过分了！$"
+    .string ""
 
 SSAqua_RoomSE_Text_TwinsMegandpeg1Beaten:
-    .string "Oh! We lost!$"
+    .string "哎呀！我们输了！$"
 
 SSAqua_RoomSE_Text_TwinsMegandpeg1After:
-    .string "Baby is a rude name to call\n"
-    .string "us girls!$"
+    .string "叫我们女孩子“小宝宝”，\n可是很没礼貌的！$"
+    .string ""
 
 SSAqua_RoomSE_Text_TwinsMegandpeg2Seen:
-    .string "I'm not a baby!\n"
-    .string "That's not nice to say to a lady!$"
+    .string "我才不是小宝宝！\n对淑女说这种话太失礼了！$"
+    .string ""
 
 SSAqua_RoomSE_Text_TwinsMegandpeg2Beaten:
-    .string "Oh! We lost!$"
+    .string "哎呀！我们输了！$"
 
 SSAqua_RoomSE_Text_TwinsMegandpeg2After:
-    .string "Sometimes, kids are smarter\n"
-    .string "than grown-ups!$"
+    .string "有时候，小孩子比\n大人还聪明呢！$"
+    .string ""

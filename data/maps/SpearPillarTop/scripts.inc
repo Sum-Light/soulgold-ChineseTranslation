@@ -153,26 +153,22 @@ TimeGearDoesNotReact::
 
 
 PortalDialga_Text_0:
-	.string "You gaze deep into the portal.\p"
-	.string "It shows you the sea of flowing time.$"
+	.string "你凝视着传送门的深处。\p其中展现出时间流动之海。$"
 
 PortalDialga_Text_1:
-	.string "Touch the portal?$"
+	.string "要触碰传送门吗？$"
 
 PortalPalkia_Text_0:
-	.string "You gaze deep into the portal.\p"
-	.string "It shows you a vast and endless space.$"
+	.string "你凝视着传送门的深处。\p其中展现出广阔无垠的空间。$"
 
 PortalGiratina_Text_0:
-	.string "You gaze deep into the portal.\p"
-	.string "It shows you a bottomless abyss.$"
+	.string "你凝视着传送门的深处。\p其中展现出深不见底的深渊。$"
 
 TimeGearPrimal_Text_0:
-	.string "A strange gear lies on the ground.$"
+	.string "地上躺着一个奇怪的齿轮。$"
 
 TimeGearPrimal_Text_1:
-	.string "The Time Gear suddenly started glowing!\p"
-	.string "Touch it?$"
+	.string "时之齿轮突然开始发光了！\p要触碰它吗？$"
 
 TimeGearDoesNotReact_Text_0:
-	.string "It does not react to your presence.$"
+	.string "它对你的存在毫无反应。$"

@@ -4,7 +4,7 @@ script TohjoPass_Floette {
     lock
     faceplayer
     playmoncry(SPECIES_FLOETTE, CRY_MODE_NORMAL)
-    msgbox("Floette: Floweeeeey!")
+    msgbox("花叶蒂：芙萝咿——！")
     waitmoncry
     release
     end

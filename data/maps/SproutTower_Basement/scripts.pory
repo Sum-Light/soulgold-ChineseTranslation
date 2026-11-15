@@ -10,6 +10,5 @@ script MarshadowEncounter {
 }
 
 script BasementSage {
-    msgbox("Guarding Marshadow has been one of our
-            secret tasks for a very long time.", MSGBOX_NPC)
+    msgbox("守护玛夏多，是我们长久以来\n不为人知的使命。", MSGBOX_NPC)
 }

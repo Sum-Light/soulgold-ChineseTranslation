@@ -11,16 +11,16 @@ BlackthornMart_EventScript_BlackBelt::
 	end
 
 BlackthornMart_Text_CooltrainerM:
-	.string "You can't buy Max Revive, but it\n"
-	.string "fully restores a fainted Pokémon.\p"
-	.string "Beware--it won't restore PP, the\n"
-	.string "Power Points needed for moves.$"
+	.string "活力块买不到，但它能让\n濒死的宝可梦完全恢复。\p当心——它不会恢复PP，\n也就是招式所需点数。$"
+	.string ""
+	.string ""
+	.string ""
 
 BlackthornMart_Text_BlackBelt:
-	.string "Max Repel keeps weak Pokémon away\n"
-	.string "from you.\p"
-	.string "It's the longest lasting of the\n"
-	.string "Repel sprays.$"
+	.string "黄金喷雾能让弱小的宝可梦\n远离你。\p它是各种喷雾中\n持续时间最长的。$"
+	.string ""
+	.string ""
+	.string ""
 
 Blackthorn_Mart2::
 	lock
@@ -46,7 +46,7 @@ Blackthorn2:
 	.2byte ITEM_NONE
 
 Blackthorn_Mart2_Text_0:
-	.string "Welcome! How may I help you?$"
+	.string "欢迎光临！\n请问需要什么？$"
 
 Blackthorn_Mart2_Text_1:
-	.string "Come back soon!$"
+	.string "欢迎再来！$"

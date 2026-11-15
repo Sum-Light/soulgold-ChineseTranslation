@@ -147,19 +147,19 @@ IcePath_B3F_Movement_StuckSwinubJump:
 	step_end
 
 IcePath_B3F_Text_Swinub:
-	.string "Swinub: Swiiiiii!$"
+	.string "小山猪：哼咿咿咿！$"
 IcePath_B3F_Text_SwinubBerry:
-	.string "Give the Swinub a Berry?$"
+	.string "要给小山猪树果吗？$"
 IcePath_B3F_Text_SwinubAteBerry:
-	.string "Swinub enjoyed the Aspear Berry!$"
+	.string "小山猪津津有味地吃了利木果！$"
 IcePath_B3F_Text_SwinubTurnedAway:
-	.string "Swinub doesn't like it!$"
+	.string "小山猪不喜欢这个！$"
 
 IcePath_B3F_Text_Delibird:
-	.string "Delibird: Skwaaaaa!$"
+	.string "信使鸟：嘎啊啊啊！$"
 IcePath_B3F_Text_DelibirdBerry:
-	.string "Give the Delibird a Berry?$"
+	.string "要给信使鸟树果吗？$"
 IcePath_B3F_Text_DelibirdAteBerry:
-	.string "Delibird enjoyed the Aspear Berry!$"
+	.string "信使鸟津津有味地吃了利木果！$"
 IcePath_B3F_Text_DelibirdTurnedAway:
-	.string "Delibird doesn't like it!$"
+	.string "信使鸟不喜欢这个！$"

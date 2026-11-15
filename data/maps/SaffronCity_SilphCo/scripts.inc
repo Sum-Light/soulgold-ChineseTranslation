@@ -31,7 +31,7 @@ SaffronCity_SilphCo_EventScript_Refused::
 	end
 
 SaffronCity_SilphCo_Text_Refused:
-	.string "Oh...$"
+	.string "哦……$"
 
 SaffronCity_SilphCo_EventScript_TreeckoChosen::
 	closemessage
@@ -93,29 +93,29 @@ SaffronCity_SilphCo_Movement_StevenLeave:
 
 
 SaffronCity_SilphCo_Text_Steven1:
-	.string "Hello...\n"
-	.string "You're breaking up...\l"
-	.string "I think it depends on my dad.\l"
-	.string "I see...\n"
-	.string "I'll be on my way. See you soon.$"
+	.string "喂……\n听不太清……\l这得看我父亲的意思。\l明白了……我这就过去，回头见。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 SaffronCity_SilphCo_Text_Steven2:
-	.string "Steven: You are... I remember your\n"
-	.string "eyes.\p"
-	.string "When I see a trainer whose eyes\n"
-	.string "twinkle, I always remember.\p"
-	.string "You have a Pokédex! So you are\n"
-	.string "also in search of Pokémon!\l"
-	.string "Let me see...\p"
-	.string "I think I can help you with that.\p"
-	.string "Let's say that you have stones in\n"
-	.string "front of you. Which color would\l"
-	.string " you pick?$"
+	.string "大吾：你是……我记得\n你的眼神。\p每当见到眼神闪闪发光的\n训练家，我总会记得。\p你有宝可梦图鉴！那你也在\n寻找宝可梦咯！\l让我看看……\p我想我能帮上你。\p打个比方，你面前有几块\n石头。你会选\l哪种颜色？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 SaffronCity_SilphCo_Text_Steven3:
-	.string "You chose correctly! I'll give you\n"
-	.string "{STR_VAR_1}!$"
+	.string "选得不错！这个\n{STR_VAR_1}就送给你！$"
+	.string ""
 SaffronCity_SilphCo_Text_Steven4:
-	.string "Take good care of it. Your caring\n"
-	.string "for it will make me very happy.$"
+	.string "要好好照顾它。你用心\n待它，我会很高兴的。$"
+	.string ""
 
 SaffronCity_SilphCo_EventScript_Receptionist::
 	msgbox SilphCo_Text_Receptionist, MSGBOX_NPC
@@ -138,24 +138,24 @@ SaffronCity_SilphCo_EventScript_Sign2::
 	end
 
 SilphCo_Text_Sign1:
-	.string "Silph Co.\n"
-	.string "1F Reception.$"
+	.string "西尔佛公司\n1楼　接待处。$"
+	.string ""
 
 SilphCo_Text_Sign2:
-	.string "Silph Co.\n"
-	.string "Elevator Out Of Service$"
+	.string "西尔佛公司\n电梯停止运行$"
+	.string ""
 
 SilphCo_Text_Receptionist:
-	.string "Welcome. This is Silph Co.'s Head\n"
-	.string "Office Building.$"
+	.string "欢迎您。这里是西尔佛公司的\n总部大楼。$"
+	.string ""
 
 SilphCo_Text_Officer:
-	.string "Only employees are permitted to\n"
-	.string "go upstairs.\p"
-	.string "But since you came such a long\n"
-	.string "way,\p"
-	.string "have this neat little souvenir.$"
+	.string "只有员工才能\n上楼。\p不过你既然大老远\n跑了过来，\p这个小纪念品就送给你吧。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SilphCo_Text_Officer_GotUpGrade:
-	.string "It's Silph Co.'s latest product.\p"
-	.string "It's not for sale anywhere yet.$"
+	.string "这是西尔佛公司的最新产品。\p目前哪里都还买不到。$"
+	.string ""

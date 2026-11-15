@@ -16,15 +16,15 @@ Route7_EventScript_Door::
 	end
 
 Route7_Text_UndergroundPathSign:
-	.string "What's this flyer?\p"
-	.string "… Uncouth trainers have been\n"
-	.string "holding battles in the\l"
-	.string "Underground Path.\p"
-	.string "Because of rising complaints by\n"
-	.string "local residents, the Underground\l"
-	.string "Path has been sealed indefinitely.\p"
-	.string "Celadon Police$"
+	.string "这是什么传单？\p……不守规矩的训练家\n在地下通道里\l举行对战。\p最近，附近居民的投诉\n越来越多，地下通道\l已被无限期封锁。\p玉虹市警察$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route7_Text_LockedDoor:
-	.string "It's locked…$"
+	.string "上锁了……$"
 

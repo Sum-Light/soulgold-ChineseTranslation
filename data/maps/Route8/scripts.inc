@@ -33,64 +33,64 @@ Route8_EventScript_Tom::
 	end
 
 Route8_Text_BikerDwayneSeen:
-	.string "We're the Kanto Pokémon Federation\n"
-	.string "trainer group.\p"
-	.string "We'll drive you under our wheels!$"
+	.string "我们是关都宝可梦联合\n训练家团体。\p我们要用车轮\n把你碾平！$"
+	.string ""
+	.string ""
 
 Route8_Text_BikerDwayneBeaten:
-	.string "S-sorry!$"
+	.string "对、对不起！$"
 
 Route8_Text_BikerDwayneAfter:
-	.string "The Kanto Pokémon Federation will\n"
-	.string "never fall!$"
+	.string "关都宝可梦联合\n永不倒下！$"
+	.string ""
 
 Route8_Text_BikerHarrisSeen:
-	.string "The cops shut down our\n"
-	.string "Underground Path!\p"
-	.string "That really fries me!$"
+	.string "警察把我们的\n地下通道封了！\p真是气死我了！$"
+	.string ""
+	.string ""
 
 Route8_Text_BikerHarrisBeaten:
-	.string "F-forgive me!$"
+	.string "饶、饶了我吧！$"
 
 Route8_Text_BikerHarrisAfter:
-	.string "Wiped out by some punk from\n"
-	.string "Johto…$"
+	.string "居然栽在城都来的\n小鬼手里……$"
+	.string ""
 
 Route8_Text_BikerZekeSeen:
-	.string "We're the Kanto Pokémon Federa-\n"
-	.string "Tion!\n"
-	.string "Right on!$"
+	.string "我们是关都宝可梦联合！\n没错，就是这样！$"
+	.string ""
+	.string ""
 
 Route8_Text_BikerZekeBeaten:
-	.string "Yikes! Sorry!$"
+	.string "哎呀！对不起！$"
 
 Route8_Text_BikerZekeAfter:
-	.string "We'll try not to disturb anyone\n"
-	.string "from now on…$"
+	.string "今后我们会尽量\n不打扰别人……$"
+	.string ""
 
 Route8_Text_SupernerdSamSeen:
-	.string "How does the Magnet Train work?$"
+	.string "磁浮列车是怎么跑起来的？$"
 
 Route8_Text_SupernerdSamBeaten:
-	.string "I just want to see the Magnet\n"
-	.string "Train…$"
+	.string "我只是想看看\n磁浮列车……$"
+	.string ""
 
 Route8_Text_SupernerdSamAfter:
-	.string "The power of magnets is awesome!$"
+	.string "磁铁的力量太厉害了！$"
 
 Route8_Text_SupernerdTomSeen:
-	.string "Hm… You've got many Gym Badges.$"
+	.string "嗯……你的道馆徽章真不少。$"
 
 Route8_Text_SupernerdTomBeaten:
-	.string "Just as I thought… You're tough!$"
+	.string "果然不出我所料……你很强！$"
 
 Route8_Text_SupernerdTomAfter:
-	.string "Gym Badges give you advantages in\n"
-	.string "battles.$"
+	.string "道馆徽章能让你在对战中\n占优势。$"
+	.string ""
 
 Route8_Text_LockedDoor:
-	.string "It's locked…$"
+	.string "上锁了……$"
 
 Route8_Text_UndergroundPathSign:
-	.string "The flyer's torn.\p"
-	.string "It's impossible to read…$"
+	.string "传单被撕破了。\p已经没法读了……$"
+	.string ""

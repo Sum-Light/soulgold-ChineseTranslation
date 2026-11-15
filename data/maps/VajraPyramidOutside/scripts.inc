@@ -67,33 +67,22 @@ VajraPyramidOutside_RuinManiac::
 
 
 VajraPyramidOutside_Door_Text_0:
-	.string "The door has been busted open by\n"
-	.string "repeated exposure to something\l"
-	.string "blunt.$"
+	.string "这扇门是被反复猛撞之后\n才被撞开的。$"
 
 VajraPyramidOutside_Door_Text_1:
-	.string "The door is sealed shut tightly.$"
+	.string "门紧紧地封着。$"
 
 VajraPyramidOutside_ScientistPostgame_Text_0:
-	.string "We finally managed to break down the\n"
-	.string "door to the Pyramid thanks to the\l"
-	.string "Tinkaton you gave us!\p"
-	.string "Please, feel free to explore it first!$"
+	.string "多亏你给我们的巨锻匠，\n我们终于把金字塔的门\l弄开了！\p请吧，你可以先去\n里面探索一下！$"
 
 VajraPyramidOutside_ScientistPostgame_Text_1:
-	.string "We've started working on getting that\n"
-	.string "door opened with the help of your\l"
-	.string "Tinkaton! \p"
-	.string "It might take some time, so\n"
-	.string "you should come back later.$"
+	.string "我们已经开始借助你的\n巨锻匠，着手把那扇门\l弄开了！\p这可能需要一些时间，\n你过一阵子再来吧。$"
 
 VajraPyramidOutside_ScientistsTinkaton_Text_0:
-	.string "Tinkaton: Tinktii!$"
+	.string "巨锻匠：锻咿！$"
 
 VajraPyramidOutside_ScientistsTinkaton_Text_1:
-	.string "Your old Tinkaton seems to be having\n"
-	.string "fun here!$"
+	.string "你那只巨锻匠好像\n在这里玩得很开心！$"
 
 VajraPyramidOutside_RuinManiac_Text_0:
-	.string "There's mystery here waiting to be\n"
-	.string "uncovered! I can sense it!$"
+	.string "这里有等着被揭开的谜团！\n我能感觉到！$"

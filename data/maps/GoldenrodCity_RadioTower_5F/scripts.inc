@@ -121,39 +121,39 @@ GoldenrodCity_RadioTower_5F_Movement_Spin2:
 
 
 GoldenrodCity_RadioTower_5F_Text_FakeDirector1:
-	.string "Y-you! You came to rescue me?$"
+	.string "你、你！你是来救我的吗？$"
 
 GoldenrodCity_RadioTower_5F_Text_FakeDirector2:
-	.string "Is that what you were expecting?\p"
-	.string "Wrong! I'm an imposter!\p"
-	.string "I pretended to be the real thing to\n"
-	.string "prepare for our takeover.\p"
-	.string "Do you want to know where we hid\n"
-	.string "the real Director?\p"
-	.string "Sure, I'll tell you. But only if you\n"
-	.string "can beat me!$"
+	.string "怎么样？和你期待的一样吗？\p错！我是冒牌货！\p我假扮成真正的局长，\n是为了准备接管这里。\p你想知道我们把真正的\n局长藏在哪儿了吗？\p好啊，我这就告诉你。\n不过，你得先打赢我！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_5F_Text_FakeDirectorWin:
-	.string "Ok, Ok. I'll tell you where he is.$"
+	.string "好，好。我告诉你他在哪儿。$"
 
 GoldenrodCity_RadioTower_5F_Text_FakeDirectorAfter:
-	.string "The boss stashed the Director in\n"
-	.string "the Underground Warehouse.\p"
-	.string "It's at the far end of the Under-\n"
-	.string "Ground.\p"
-	.string "I am a nice guy, I will give you\n"
-	.string "the Basement Key to get to the\l"
-	.string "Underground Warehouse.\p"
-	.string "But I doubt you'll get that far.$"
+	.string "老大把局长关在了\n地下仓库里。\p就在地下通道的\n最深处。\p我是个好人，就给你\n去地下仓库用的\l地下钥匙吧。\p不过，我看你到不了那么远。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_5F_Text_FakeDirectorAfter2:
-	.string "The boss stashed the Director in\n"
-	.string "the Underground Warehouse.\p"
-	.string "It's at the far end of the Under-\n"
-	.string "Ground.\p"
-	.string "You can use the Basement Key to\n"
-	.string "get to the Underground Warehouse.\p"
-	.string "But I doubt you'll get that far.$"
+	.string "老大把局长关在了\n地下仓库里。\p就在地下通道的\n最深处。\p用那把地下钥匙，就能\n进到地下仓库。\p不过，我看你到不了那么远。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 @=======[STUDIO]==============================================================================================================================
 
@@ -246,166 +246,166 @@ GoldenrodCity_RadioTower_5F_Movement_Leave2:
 	step_end
 
 GoldenrodCity_RadioTower_5F_Text_ExecutiveF1Seen:
-	.string "Remember me from the Hideout in\n"
-	.string "Mahogany Town?\p"
-	.string "My boss scolded me but I'm stronger.\p"
-	.string "I lost then, but I won't this time.$"
+	.string "还记得卡吉镇基地里的\n那个我吗？\p老大训了我一顿，可我变强了。\p上次是我输了，这次不会了。$"
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_5F_Text_ExecutiveF1Beaten:
-	.string "This can't be happening!\p"
-	.string "I fought hard, but I still lost…\p"
-	.string "I'm so sorry Giovanni…$"
+	.string "怎么可能！\p我已经拼尽全力，\n却还是输了……\p坂木大人，真是对不起……$"
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_5F_Text_ExecutiveF1After:
-	.string "{PLAYER}, isn't it?\p"
-	.string "A brat like you won't appreciate\n"
-	.string "the magnificence of Team Rocket.\p"
-	.string "That's too bad. I really admire\n"
-	.string "your power.$"
+	.string "{PLAYER}，是吧？\p像你这种小鬼，是不会懂\n火箭队的伟大的。\p真可惜。我其实很欣赏\n你的实力。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_5F_Text_RocketBossSeen:
-	.string "Oh? You managed to get this far?\p"
-	.string "You must be quite the trainer.\p"
-	.string "We intend to take over this Radio\n"
-	.string "Station and announce our comeback.\p"
-	.string "That should bring our boss Giovanni\n"
-	.string "back from his solitary training.\p"
-	.string "We are going to regain our former\n"
-	.string "glory...\p"
-	.string "I won't allow you to interfere with\n"
-	.string "our meticulous plans!$"
+	.string "哦？你竟然能走到这里？\p看来你是个相当厉害的\n训练家。\p我们打算占领这座广播站，\n宣布我们的复活。\p这样一来，在某个地方独自\n修行的老大坂木就会回来。\p我们要夺回昔日的荣光……\p我绝不允许你妨碍\n我们周密的计划！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_5F_Text_RocketBossBeaten:
-	.string "No! Forgive me, Giovanni!$"
+	.string "不！坂木大人，请原谅我！$"
 
 GoldenrodCity_RadioTower_5F_Text_RocketBossAfter:
-	.string "How could this be?\p"
-	.string "Our dreams have come to naught.\p"
-	.string "I wasn't up to the task after all.\p"
-	.string "Like Giovanni did before me, I will\n"
-	.string "disband Team Rocket here today.\p"
-	.string "Farewell.$"
+	.string "怎么会这样？\p我们的梦想全都落空了。\p看来我终究还是力不从心。\p就像坂木大人曾经做过的那样，\n我今日就在此解散火箭队。\p永别了。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_5F_Text_DirectorThanks:
-	.string "Director: {PLAYER}, thank you!\p"
-	.string "Your courageous actions have saved\n"
-	.string "Pokémon nationwide.\p"
-	.string "I know it's not much, but please\n"
-	.string "take this.$"
+	.string "局长：{PLAYER}，谢谢你！\p你的英勇行动，拯救了\n全国的宝可梦。\p虽然不算什么，\n还请收下这个。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_5F_Text_DirectorThanksAgain:
-	.string "Director: {PLAYER}, once again, thank you!\p"
-	.string "The large winged Pokémon that flew past\n"
-	.string "reminded me, I have a reward for your\l"
-	.string "courageous actions.\p"
-	.string "I know it's not much, but please\n"
-	.string "take this.$"
+	.string "局长：{PLAYER}，再次谢谢你！\p刚才飞过的那只大翅膀\n宝可梦提醒了我，我要为你的\l英勇行动准备一份谢礼。\p虽然不算什么，\n还请收下这个。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_5F_Text_DirectorClearWingExplanation:
-	.string "There used to be a tower right here\n"
-	.string "in Goldenrod City.\p"
-	.string "But it was old and creaky.\p"
-	.string "So we replaced it with our Radio\n"
-	.string "Tower.\p"
-	.string "We dug up that wing during\n"
-	.string "construction.\p"
-	.string "I heard that all sorts of Pokémon\n"
-	.string "lived in Goldenrod in the past.\p"
-	.string "Perhaps…\p"
-	.string "That wing has some connection to the\n"
-	.string "Tin Tower in Ecruteak City…\p"
-	.string "Ok, I better go to my Office.$"
+	.string "这里以前有一座塔，\n就在满金市。\p但那座塔又旧又破。\p于是我们就把它改建成了\n播音塔。\p那片羽毛，就是施工时\n挖出来的。\p听说在很久以前，满金\n生活着各种各样的宝可梦。\p说不定……\p那片羽毛和缘朱市的\n铃铛塔有些什么渊源……\p好，我还是回局长室去吧。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 @ 1.2.1 Sequence Break version - slightly different text
 GoldenrodCity_RadioTower_5F_Text_DirectorClearWingExplanation2:
-	.string "There used to be a tower right here\n"
-	.string "in Goldenrod City.\p"
-	.string "But it was old and creaky.\p"
-	.string "So we replaced it with our Radio\n"
-	.string "Tower.\p"
-	.string "We dug up that wing during\n"
-	.string "construction.\p"
-	.string "I heard that all sorts of Pokémon\n"
-	.string "lived in Goldenrod in the past.\p"
-	.string "Perhaps…\p"
-	.string "That wing has some connection to the\n"
-	.string "Tin Tower in Ecruteak City…$"
+	.string "这里以前有一座塔，\n就在满金市。\p但那座塔又旧又破。\p于是我们就把它改建成了\n播音塔。\p那片羽毛，就是施工时\n挖出来的。\p听说在很久以前，满金\n生活着各种各样的宝可梦。\p说不定……\p那片羽毛和缘朱市的\n铃铛塔有些什么渊源……$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_5F_Text_DirectorTidalWingExplanation:
-	.string "There used to be a tower right here\n"
-	.string "in Goldenrod City.\p"
-	.string "But it was old and creaky.\p"
-	.string "So we replaced it with our Radio\n"
-	.string "Tower.\p"
-	.string "We dug up that wing during\n"
-	.string "construction.\p"
-	.string "I heard that all sorts of Pokémon\n"
-	.string "lived in Goldenrod in the past.\p"
-	.string "Perhaps…\p"
-	.string "That wing has some connection to the\n"
-	.string "Whirl Islands near Cianwood City…\p"
-	.string "Ok, I better go to my Office.$"
+	.string "这里以前有一座塔，\n就在满金市。\p但那座塔又旧又破。\p于是我们就把它改建成了\n播音塔。\p那片羽毛，就是施工时\n挖出来的。\p听说在很久以前，满金\n生活着各种各样的宝可梦。\p说不定……\p那片羽毛和湛蓝市附近的\n漩涡岛有些什么渊源……\p好，我还是回局长室去吧。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 @ 1.2.1 Sequence Break version - slightly different text
 GoldenrodCity_RadioTower_5F_Text_DirectorTidalWingExplanation2:
-	.string "There used to be a tower right here\n"
-	.string "in Goldenrod City.\p"
-	.string "But it was old and creaky.\p"
-	.string "So we replaced it with our Radio\n"
-	.string "Tower.\p"
-	.string "We dug up that wing during\n"
-	.string "construction.\p"
-	.string "I heard that all sorts of Pokémon\n"
-	.string "lived in Goldenrod in the past.\p"
-	.string "Perhaps…\p"
-	.string "That wing has some connection to the\n"
-	.string "Whirl Islands near Cianwood City…$"
+	.string "这里以前有一座塔，\n就在满金市。\p但那座塔又旧又破。\p于是我们就把它改建成了\n播音塔。\p那片羽毛，就是施工时\n挖出来的。\p听说在很久以前，满金\n生活着各种各样的宝可梦。\p说不定……\p那片羽毛和湛蓝市附近的\n漩涡岛有些什么渊源……$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_5F_Text_DirectorLegendary:
-	.string "Ah!\p"
-	.string "That reminds me…\p"
-	.string "That wing I gave you... I think\n"
-	.string "it's related to the Legendary\l"
-	.string "Pokémon.\p"
-	.string "But! The Legendary Pokémon won't\n"
-	.string "appear with just that wing...\p"
-	.string "Apparently there is something else\n"
-	.string "you need... Or something like that.\p"
-	.string "I wonder what it was...\p"
-	.string "I can't remember.$"
+	.string "啊！\p对了，我想起来了……\p我给你的那片羽毛……\n我觉得它和\l传说的宝可梦有关。\p不过！只有那片羽毛，\n传说的宝可梦是不会出现的……\p据说还需要别的东西……\n好像是这么说的。\p那到底是什么来着……\p我记不起来了。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_5F_Text_DirectorFakeout:
-	.string "Are you expecting something?\n"
-	.string "This is what they call Fake Out.\p"
-	.string "I really must go back to my office\n"
-	.string "this time. See ya!$"
+	.string "你在期待什么？\n这就叫击掌奇袭。\p这次我是真的得回局长室了。\n再见啦！$"
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_5F_Text_DirectorIntro:
-	.string "Director: Hello, {PLAYER}!\p"
-	.string "You know, I love Pokémon.\p"
-	.string "I built this Radio Tower so I could\n"
-	.string "express my love of Pokémon.\p"
-	.string "It would be nice if people enjoyed\n"
-	.string "our programs.$"
+	.string "局长：你好，{PLAYER}！\p你知道吗，我很喜欢宝可梦。\p我建这座播音塔，就是为了\n表达我对宝可梦的喜爱。\p要是大家能喜欢我们的节目，\n那就太好了。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 @ 1.2.1 Sequence Break - Directs player toward Baoba
 GoldenrodCity_RadioTower_5F_Text_DirectorWest:
-	.string "Director: Hello, {PLAYER}!\p"
-	.string "Did you see the large winged Pokémon\n"
-	.string "that flew past earlier?\p"
-	.string "It's the talk of the town!\n"
-	.string "Or should I say, of the Radio Tower?\p"
-	.string "It seemed to be headed West, in the\n"
-	.string "direction of Route 39.$"
+	.string "局长：你好，{PLAYER}！\p你看到刚才飞过去的\n那只大翅膀宝可梦了吗？\p它成了全城的话题！\n还是该说，是播音塔的话题？\p它好像是往西飞的，\n朝39号道路的方向去了。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_5F_Text_Ben:
-	.string "Ben: Do you listen to our music?$"
+	.string "靖史：你听我们的音乐吗？$"
 
 GoldenrodCity_RadioTower_5F_Text_DirectorOfficeSign:
-	.string "5F Director's   Office$"
+	.string "5楼　局长室$"
 
 GoldenrodCity_RadioTower_5F_Text_Studio1Sign:
-	.string "5F Studio 1$"
+	.string "5楼　第1演播室$"
 
 OakRadioTowerF5::
 	moveobjecttocoords OBJ_EVENT_ID_PLAYER, 28, 11, DIR_NORTH
@@ -573,153 +573,82 @@ RadioTower_5F_Archer_Movement_0:
 	step_end
 
 OakRadioTowerF5_Text_0:
-	.string "{PLAYER}! You've pulled off a miracle\n"
-	.string "by taking down Team Rocket!$"
+	.string "{PLAYER}！你击溃了火箭队，\n"
+	.string "真是创造了奇迹！$"
 
 OakRadioTowerF5_Text_1:
-	.string "I knew it was the right choice to\n"
-	.string "entrust Pokédex to you. I want you to\l"
-	.string "have this, I think you've more than\l"
-	.string "earned it.$"
+	.string "把宝可梦图鉴托付给你，\n"
+	.string "果然是没错的。这个给你，\l"
+	.string "我觉得你完全配得上。$"
 
 OakRadioTowerF5_Text_2:
-	.string "That is a Mega Ring. When combined with\n"
-	.string "a Mega stone, it allows the bond\l"
-	.string "between trainer and Pokémon to fully\l"
-	.string "manifest. I'm sure you'll be able to pull\l"
-	.string "it off.$"
+	.string "这是超级环。只要和超级石\n"
+	.string "配合使用，训练家和宝可梦\l"
+	.string "之间的羁绊就能完全显现。\l"
+	.string "我相信你一定能做到。$"
 
 OakRadioTowerF5_Text_3:
-	.string "Now I must start heading back to Kanto,\n"
-	.string "I hope you'll pay a visit to the Pallet\l"
-	.string "Town at some point! Give my regards to\l"
-	.string "Prof. Elm.$"
+	.string "现在我该回关都去了。\n"
+	.string "希望你以后能来真新镇看看！\l"
+	.string "替我向空木博士问好。$"
 
 RadioTower_5F_Archer_Text_0:
-	.string "Archer: Oh? You managed to get\n"
-	.string "this far...?\p"
-	.string "You must be quite the Trainer.\p"
-	.string "We intend to take over this\n"
-	.string "Radio Tower and officially announce \l"
-	.string "our comeback.\p"
-	.string "That should bring our boss Giovanni\n"
-	.string "back from his solitary training.\p"
-	.string "We are going to regain our former\n"
-	.string "glory... \p"
-	.string "I will not allow you to interfere with\n"
-	.string "our meticulous plans!$"
+	.string "阿波罗：哦？你竟然能走到\n这一步……？\p看来你是个相当厉害的\n训练家。\p我们打算占领这座\n播音塔，正式宣布\l我们的复活。\p这样，在某个地方独自修行\n的老大坂木就会回来。\p我们要夺回昔日的\n荣光……\p我绝不允许你妨碍\n我们周密的计划！$"
 
 RadioTower_5F_Archer_Text_1:
-	.string "No! Forgive me, Giovanni!$"
+	.string "不！坂木大人，请原谅我！$"
 
 RadioTower_5F_Archer_Text_2:
-	.string "Archer: How could this be...?\p"
-	.string "It seems I was not up to the task... \n"
-	.string "Yet.\p"
-	.string "We shall retreat for now, but know \n"
-	.string "that Team Rocket roots run deeper \l"
-	.string "in this region than you might think.\p"
-	.string "We shall meet again, {PLAYER}.\n"
-	.string "Farewell...$"
+	.string "阿波罗：怎么会这样……？\p看来我终究还是力不从心……\n不过，只是还不到时候。\p这次我们先撤退。但你要知道，\n火箭队在这个地区的根，\l比你想象的埋得更深。\p我们还会再见的，{PLAYER}。\n再会了……$"
 
 RadioTower_5F_Archer_Text_3:
-	.string "Director: Oh...\p"
-	.string "You have already defeated them?\n"
-	.string "Thank you!\p"
-	.string "Your courageous actions have saved\n"
-	.string "Pokémon nationwide.\p"
-	.string "You deserve to be rewarded for your\n"
-	.string "actions! \p"
-	.string "I'll let you pick one of our \n"
-	.string "prized treasures! \p"
-	.string "Go ahead and pick one!$"
+	.string "局长：哦……\p你已经把他们打倒了？\n谢谢你！\p你的英勇行动，拯救了\n全国的宝可梦。\p你的行动理应得到回报！\p我让你从我们珍藏的\n宝物里挑一件！\p好，挑一件吧！$"
 
 RadioTower_5F_Archer_Text_4:
-	.string "Rainbow Wing$"
+	.string "虹色之羽$"
 
 RadioTower_5F_Archer_Text_5:
-	.string "Silver Wing$"
+	.string "银色之羽$"
 
 RadioTower_5F_Archer_Text_6:
-	.string "There used to be a tower right here.\p"
-	.string "When the tower was replaced with the\n"
-	.string "Radio Tower, that Rainbow Wing was \l"
-	.string "found at the top of the tower.\p"
-	.string "I heard from a friend from Cianwood\n"
-	.string "City that you can climb the Bell\l"
-	.string "Tower in Ecruteak City when you have a\l"
-	.string "Rainbow Wing.$"
+	.string "这里以前有一座塔。\p这座塔改建为播音塔时，\n那片虹色之羽，\l就是在塔顶被发现的。\p我从湛蓝市的朋友那里听说，\n只要带着虹色之羽，\l就能登上缘朱市的\l铃铛塔。$"
 
 RadioTower_5F_Archer_Text_7:
-	.string "There used to be a tower right here.\p"
-	.string "When the tower was replaced with the\n"
-	.string "Radio Tower, that Silver Wing was \l"
-	.string "found at the top of the tower.\p"
-	.string "I heard from a friend from Cianwood\n"
-	.string "City that you can go down the cave\l"
-	.string "at Whirl Islands when you have a Silver\l"
-	.string "Wing.$"
+	.string "这里以前有一座塔。\p这座塔改建为播音塔时，\n那片银色之羽，\l就是在塔顶被发现的。\p我从湛蓝市的朋友那里听说，\n只要带着银色之羽，\l就能下到漩涡岛的\l洞窟里去。$"
 
 RadioTower_5F_Archer_Text_8:
-	.string "I have to get back to my office.\n"
-	.string "See you!$"
+	.string "我得回局长室去了。\n再见！$"
 
 RadioTower_5F_Archer_Text_9:
-	.string "Oh, I almost forgot!\p"
-	.string "According to my friend from Cianwood,\n"
-	.string "the legendary Pokémon will not appear\l"
-	.string "if you just go to the place I mentioned.\l"
-	.string "Apparently there is something else you\l"
-	.string "need... Or something like that.\p"
-	.string "I wonder what it was...\n"
-	.string "I can't remember.$"
+	.string "对了，差点儿忘了！\p据我在湛蓝市的朋友说，\n只去我刚才说的那个地方，\l传说的宝可梦是不会出现的。\l好像还需要别的什么东西……\l就是这么说的。\p那到底是什么来着……\n我记不起来了。$"
 
 RadioTower_5F_Archer_Text_10:
-	.string "That is a Mega Ring. \p"
-	.string "When combined with a Mega stone, \n"
-	.string "it allows the bond between trainer \l"
-	.string "and Pokémon to fully manifest. \p"
-	.string "I'm sure you'll be able to pull it off.$"
+	.string "这是超级环。\p只要和超级石配合，\n训练家和宝可梦之间的羁绊\l就能完全显现。\p我相信你一定能做到。$"
 
 RadioTower_5F_Archer_Text_11:
-	.string "Now I must get back to my work, I hope\n"
-	.string "you'll tune in to my next radio show!$"
+	.string "现在我该回去工作了。\n"
+	.string "希望你下次也收听我的广播节目！$"
 
 GoldenrodCity_RadioTower_5F_EventScript_DirectorPath_Text_0:
-	.string "Ah, {PLAYER}!\p"
-	.string "I heard you became the champion,\n"
-	.string "congratulations!$"
+	.string "啊，{PLAYER}！\p听说你当上了冠军，\n恭喜你！$"
 
 GoldenrodCity_RadioTower_5F_EventScript_DirectorPath_Text_1:
-	.string "I assume you're here for the other \n"
-	.string "wing? Ho ho ho!\p"
-	.string "I'd be more than happy to give it\n"
-	.string "to you on one condition.\p"
-	.string "I have been itching for a good\n"
-	.string "battle for a very long time.\p"
-	.string "Team Rocket ambushed me when I had\n"
-	.string "no Pokémon. \p"
-	.string "They would have stood no chance \n"
-	.string "against my prized team.$"
+	.string "我猜，你是为另一片羽毛\n来的吧？呵呵呵！\p我可以把它交给你，\n只要你答应我一个条件。\p我一直很想好好打一场，\n已经等很久了。\p火箭队偷袭我的时候，\n我身边一只宝可梦都没有。\p要是我的宝贝队伍在，\n他们根本不是对手。$"
 
 GoldenrodCity_RadioTower_5F_EventScript_DirectorPath_Text_2:
-	.string "I'll show you the power of a former\n"
-	.string "Elite Four member, ho ho ho!$"
+	.string "就让你见识一下，前四天王\n的实力！呵呵呵！$"
 
 GoldenrodCity_RadioTower_5F_EventScript_DirectorPath_Text_3:
-	.string "What a nostalgic feeling!$"
+	.string "真是怀念的感觉！$"
 
 GoldenrodCity_RadioTower_5F_EventScript_DirectorPath_Text_4:
-	.string "You are truly above and beyond other\n"
-	.string "trainers in Johto, {PLAYER}!\p"
-	.string "I'm more than happy to hand this over\n"
-	.string "to you.$"
+	.string "你真是远超城都其他\n训练家的存在，{PLAYER}！\p我很乐意把这个\n交给你。$"
 
 GoldenrodCity_RadioTower_5F_EventScript_DirectorPath_Text_5:
-	.string "Now go on and continue your legend!$"
+	.string "去吧，去续写你的传说吧！$"
 
 DirectorGotSilver_Text_0:
-	.string "You chose Silver Wing$"
+	.string "你选择了银色之羽$"
 
 DirectorGotRainbow_Text_0:
-	.string "You chose Rainbow Wing$"
+	.string "你选择了虹色之羽$"

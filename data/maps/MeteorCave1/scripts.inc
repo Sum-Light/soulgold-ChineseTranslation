@@ -107,12 +107,10 @@ FlutterManeEnc::
 
 
 MeteorCave1_WallIns_Text_0:
-	.string "The way is open.$"
+	.string "路已经打开了。$"
 
 MeteorCave1_WallIns_Text_1:
-	.string "There's an inscription on the wall.\p"
-	.string "GATHER ALL\n"
-	.string "ANCIENTS$"
+	.string "墙上刻着铭文。\p聚集所有\n古代之物$"
 
 MeteorCave1_NothingHappens_Text_0:
-	.string "Nothing seems to happen.$"
+	.string "似乎什么也没发生。$"

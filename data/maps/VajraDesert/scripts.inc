@@ -42,15 +42,17 @@ VajraDesert_TrainerKennedy::
 
 
 VajraDesert_BrailleRegirock:
-	.braille "TYRANT OF\n"
-	.braille "THE DESERT\n"
-	.braille "FULLY EVOLVED.$"
+	.string "斑驳岩甲披身，\n"
+	.string "基岩踏碎成尘。\l"
+	.string "拉起漫天沙暴，\l"
+	.string "斯为最终之形。$"
 
 VajraDesert_SusDoor::
 	lock
 	msgbox VajraDesert_SusDoor_Text_0
 	closemessage
-	braillemsgbox VajraDesert_BrailleRegirock
+	msgbox VajraDesert_BrailleRegirock, MSGBOX_DEFAULT
+	closemessage
 	checkspecies SPECIES_TYRANITAR
 	compare VAR_RESULT, TRUE
 	goto_if_eq VajraDesert_SusDoor_2
@@ -91,65 +93,52 @@ VajraDesertWest_EastSign::
 
 
 VajraDesert_ManSighing_Text_0:
-	.string "Man... The sandpits seem terrible at\n"
-	.string "this moment. The path to the village\l"
-	.string "is blocked. I hope it clears up soon.$"
+	.string "哎呀……这会儿的沙坑实在\n糟得很。去村里的路\l都堵住了。真希望它快点\l平息下来。$"
 
 VajraDesert_TrainerJill_Text_0:
-	.string "I read in a magazine that training in\n"
-	.string "harsh environments is great for you!$"
+	.string "我在杂志上读到过，在\n严酷的环境里锻炼\l对身体特别好！$"
 
 VajraDesert_TrainerJill_Text_1:
-	.string "I wanna go home...$"
+	.string "我想回家……$"
 
 VajraDesert_TrainerJill_Text_2:
-	.string "I should've listened to mom, that\n"
-	.string "magazine was really sketchy...$"
+	.string "我该听妈妈的话的，\n那本杂志真不靠谱……$"
 
 VajraDesert_TrainerRodaros_Text_0:
-	.string "Behold the might of the sandstorm!$"
+	.string "见识一下沙暴的威力吧！$"
 
 VajraDesert_TrainerRodaros_Text_1:
-	.string "Gah! Sand in my mouth!$"
+	.string "呸！满嘴都是沙子！$"
 
 VajraDesert_TrainerRodaros_Text_2:
-	.string "The area can be unstable with the\n"
-	.string "sandpits shifting around by phases\l"
-	.string "of the moon.$"
+	.string "这一带会随着月相变化，\n流沙坑不断移动，很不安定。$"
 
 VajraDesert_TrainerBelmare_Text_0:
-	.string "Let me show you my cutest Pokémon!$"
+	.string "让你看看我最可爱的宝可梦！$"
 
 VajraDesert_TrainerBelmare_Text_1:
-	.string "Oh dear...$"
+	.string "哎呀……$"
 
 VajraDesert_TrainerBelmare_Text_2:
-	.string "My Maractus is absolutely the most\n"
-	.string "adorable Pokémon. We come here to\l"
-	.string "sunbathe!$"
+	.string "我的沙铃仙人掌绝对是\n最可爱的宝可梦。我们来这儿\l晒太阳！$"
 
 VajraDesert_TrainerKennedy_Text_0:
-	.string "Overcoming harsh ordeals with your\n"
-	.string "Pokémon is the spirit of the journey!$"
+	.string "和宝可梦一起克服严酷的\n考验，这才是旅行的精神！$"
 
 VajraDesert_TrainerKennedy_Text_1:
-	.string "Marvelous battling skills!$"
+	.string "对战本领真了不起！$"
 
 VajraDesert_TrainerKennedy_Text_2:
-	.string "I've lived in the nearby village for the\n"
-	.string "past 40 years, we've never missed a\l"
-	.string "training day.$"
+	.string "我在附近的村子住了\n四十年，从没落下过\l一天训练。$"
 
 VajraDesert_SusDoor_Text_0:
-	.string "Something is carved on the door...$"
+	.string "门上刻着什么……$"
 
 VajraDesertWest_GrottoDoor_Text_0:
-	.string "There seems to be a small path in\n"
-	.string "the sand. Enter?$"
+	.string "沙子里好像有一条\n小路。要进去吗？$"
 
 VajraDesertWest_WestSign_Text_0:
-	.string "Vajra Desert\n"
-	.string "{RIGHT_ARROW} Rinto Village$"
+	.string "金刚沙漠\n{RIGHT_ARROW} 林都村$"
 
 VajraDesertWest_EastSign_Text_0:
-	.string "{UP_ARROW}{RIGHT_ARROW} Rinto Village$"
+	.string "{UP_ARROW}{RIGHT_ARROW} 林都村$"

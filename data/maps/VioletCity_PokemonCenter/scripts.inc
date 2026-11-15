@@ -80,67 +80,67 @@ VioletCity_PokemonCenter_EventScript_Man::
 	end
 
 VioletCity_PokeCenter_Text_ElmsAideFavor:
-	.string "{PLAYER}, long time, no see.\p"
-	.string "Prof. Elm asked me to find you.\p"
-	.string "He has another favor to ask.\p"
-	.string "Would you take the Pokémon Egg?$"
+	.string "{PLAYER}，好久不见。\p空木博士让我来找你。\p他还有件事想拜托你。\p你愿意收下这颗宝可梦蛋吗？$"
+	.string ""
+	.string ""
+	.string ""
 
 VioletCity_PokeCenter_Text_ElmsAideNoRoom:
-	.string "{PLAYER}, long time, no see.\p"
-	.string "Prof. Elm asked me to find you.\p"
-	.string "He has another favor to ask.\p"
-	.string "Would you take the Pokémon Egg?\p"
-	.string "Oh, wait... You need to make room\n"
-	.string "in your party first.$"
+	.string "{PLAYER}，好久不见。\p空木博士让我来找你。\p他还有件事想拜托你。\p你愿意收下这颗宝可梦蛋吗？\p啊，等等……你得先在队伍里\n腾出位置才行。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 VioletCity_PokeCenter_Text_ElmsAideGiveEgg:
-	.string "We discovered that a Pokémon won't\n"
-	.string "hatch until it grows in the Egg.\p"
-	.string "It also has to be with other\n"
-	.string "active Pokémon to hatch.\p"
-	.string "{PLAYER}, you're the only person\n"
-	.string "we can rely on.$"
+	.string "我们发现，宝可梦要在蛋里\n长大之后才会孵化。\p而且必须和其他\n活动中的宝可梦在一起才会孵化。\p{PLAYER}，我们能依靠的人\n就只有你了。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 VioletCity_PokeCenter_Text_ElmsAideGiveItem:
-	.string "Oh, and this might help when it hatches.$"
+	.string "这个在它孵化时或许用得上。$"
 
 VioletCity_PokeCenter_Text_ElmsAideFullParty:
-	.string "Oh, no. You can't carry any more\n"
-	.string "Pokémon with you.\p"
-	.string "I'll wait here while you make\n"
-	.string "room for the Egg.$"
+	.string "哦，不行。您身边已经\n没法再带更多宝可梦了。\p我就等在这里，您去给蛋\n腾出位置吧。$"
+	.string ""
+	.string ""
+	.string ""
 
 VioletCity_PokeCenter_Text_ElmsAideRefuse:
-	.string "B-but… Prof. Elm asked for you…$"
+	.string "可、可是……博士说要找你……$"
 
 VioletCity_PokeCenter_Text_FarawayLink:
-	.string "I've been thinking it'd be great\n"
-	.string "to link up and battle with my\n"
-	.string "friends who live far away.$"
+	.string "我一直在想，要是能和远方的\n朋友联机对战就好了。$"
+	.string ""
+	.string ""
 
 VioletCity_PokeCenter_Text_MobileAdapter:
-	.string "I just battled a friend in\n"
-	.string "Cianwood over a link.\p"
-	.string "If you connect a Mobile Adapter,\n"
-	.string "you can link with a friend far\n"
-	.string "away.$"
+	.string "我刚和湛蓝市的朋友\n联机对战了一场。\p只要接上移动适配器，就能\n和远方的朋友联机。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 VioletCity_PokeCenter_Text_GameboyKid:
-	.string "A guy named Bill made the\n"
-	.string "Pokémon PC storage system.$"
+	.string "宝可梦电脑的寄存系统\n是一个叫正辉的人做的。$"
+	.string ""
 
 VioletCity_PokeCenter_Text_Gentleman:
-	.string "It was around three years ago.\p"
-	.string "Team Rocket was up to no good\n"
-	.string "with Pokémon.\p"
-	.string "But justice prevailed--a young\n"
-	.string "kid broke 'em up.$"
+	.string "那是大约三年前的事了。\p火箭队当时在利用宝可梦\n干坏事。\p但正义最终胜利了——\n一个少年把他们打垮了。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 VioletCity_PokeCenter_Text_Youngster:
-	.string "Pokémon are smart. They won't\n"
-	.string "obey a trainer they don't respect.\p"
-	.string "Without the right Gym Badges,\n"
-	.string "they will just do as they please.$"
+	.string "宝可梦很聪明。它们不会\n服从不尊重的训练家。\p要是没有相应的道馆徽章，\n它们就会随心所欲。$"
+	.string ""
+	.string ""
+	.string ""
 
 VioletPCGiveExpJar::
 	msgbox VioletPCGiveExpJar_Text_0
@@ -150,9 +150,7 @@ VioletPCGiveExpJar::
 
 
 VioletPCGiveExpJar_Text_0:
-	.string "You should also take this for raising\n"
-	.string "more Pokémon.$"
+	.string "为了培育更多的宝可梦，\n你也把这个收下吧。$"
 
 VioletPCGiveExpJar_Text_1:
-	.string "{PLAYER}, you're the only \n"
-	.string "person we can rely on.$"
+	.string "{PLAYER}，我们能依靠的人\n就只有你了。$"

@@ -76,45 +76,45 @@ AzaleaTown_House1_EventScript_Farfetchd::
 
 
 CharcoalKiln_Text_Boss1:
-	.string "All the Slowpoke have disappeared\n"
-	.string "from the town.\p"
-	.string "The forest's protector may be\n"
-	.string "angry with us…\p"
-	.string "It may be a bad omen. We should\n"
-	.string "stay in.$"
+	.string "镇上的呆呆兽全都\n不见了。\p森林的守护神也许是\n在生我们的气……\p这或许是不祥的预兆。\n我们还是待在家里吧。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CharcoalKiln_Text_Boss2:
-	.string "The Slowpoke have returned…$"
+	.string "呆呆兽回来了……$"
 
 CharcoalKiln_Text_Boss3:
-	.string "The Slowpoke have returned…\p"
-	.string "But my Apprentice hasn't come back\n"
-	.string "from Ilex Forest.\p"
-	.string "Where in the world is that lazy guy?$"
+	.string "呆呆兽回来了……\p可我的徒弟去了栎树林，\n到现在还没回来。\p那个懒家伙\n到底跑哪儿去了？$"
+	.string ""
+	.string ""
+	.string ""
 
 CharcoalKiln_Text_Boss4:
-	.string "You chased off Team Rocket and\n"
-	.string "went to Ilex Forest alone?\p"
-	.string "That takes guts! I like that.\n"
-	.string "Come train with us.$"
+	.string "你赶跑了火箭队，\n还一个人去了栎树林？\p有胆量！我喜欢。\n来和我们一起修行吧。$"
+	.string ""
+	.string ""
+	.string ""
 
 CharcoalKiln_Text_Apprentice1:
-	.string "Where have all the Slowpoke gone?\p"
-	.string "Are they out playing somewhere?$"
+	.string "呆呆兽们都去哪儿了？\p是不是跑到哪里玩去了？$"
+	.string ""
 
 CharcoalKiln_Text_Apprentice2:
-	.string "The Slowpoke came back!$"
+	.string "呆呆兽回来了！$"
 
 CharcoalKiln_Text_Apprentice3:
-	.string "I'm sorry--I forgot to thank you.\p"
-	.string "This is Charcoal that I made.\p"
-	.string "Fire-type Pokémon would be happy\n"
-	.string "to hold that.$"
+	.string "不好意思——我忘了向你道谢。\p这是我做的木炭。\p火属性的宝可梦\n会很高兴带着它的。$"
+	.string ""
+	.string ""
+	.string ""
 
 CharcoalKiln_Text_Apprentice4:
-	.string "The Slowpoke came back, and you even\n"
-	.string "found Farfetch'D.\p"
-	.string "You're the coolest, man!$"
+	.string "呆呆兽回来了，你还找到了\n大葱鸭。\p你真是太帅了，老兄！$"
+	.string ""
+	.string ""
 
 CharcoalKiln_Text_Farfetchd:
-	.string "Farfetch'D: Kwaa!$"
+	.string "大葱鸭：嘎哇！$"

@@ -66,44 +66,44 @@ SafariZoneGate_EventScript_SlowpokeLady::
 
 
 SafariZone_Text_ForeignFeeling:
-	.string "Safari Zone...\n"
-	.string "It makes me feel like I am in a\l"
-	.string "foreign country.\p"
-	.string "It brings up a strange feeling.$"
+	.string "狩猎地带……\n感觉就像身在外\l国一样。\p让人有种奇妙的感觉。$"
+	.string ""
+	.string ""
+	.string ""
 
 SafariZone_Text_SilentNPC:
-	.string "..................\p"
-	.string "(I am not a talker.)$"
+	.string "………………\p(我不太爱说话。)$"
+	.string ""
 
 SafariZone_Text_Kangaskhan:
-	.string "Kangaskhan: ..................$"
+	.string "袋兽：………………$"
 
 SafariZone_Text_JigglypuffTrainer:
-	.string "This Safari Zone is great!\n"
-	.string "I just kept going after Pokémon!\p"
-	.string "That made my Jigglypuff upset though.$"
+	.string "这个狩猎地带真棒！\n我一路追着宝可梦跑！\p不过这让我的胖丁不高兴了。$"
+	.string ""
+	.string ""
 
 SafariZone_Text_FirstCatch:
-	.string "I have always wanted to catch my first\n"
-	.string "Pokémon at the Safari Zone.$"
+	.string "我一直想在狩猎地带\n抓到我的第一只宝可梦。$"
+	.string ""
 
 SafariZone_Text_SlowpokeFan:
-	.string "There are many Pokémon to choose from,\n"
-	.string "but nothing beats the cuteness of\l"
-	.string "Slowpoke.\p"
-	.string "People often say that I look like one!$"
+	.string "可选的宝可梦有很多，\n但都比不上呆呆兽\l可爱。\p常有人说我长得很像它！$"
+	.string ""
+	.string ""
+	.string ""
 
 SafariZone_Text_CustomSystem:
-	.string "You may be under the impression there\n"
-	.string "is a sophisticated system to\l"
-	.string "customizing the Safari Zone, right?\p"
-	.string "The real truth is that...$"
+	.string "你大概以为，把狩猎地带\n改装成喜欢的样子，\l有一套高明的系统吧？\p其实真相是……$"
+	.string ""
+	.string ""
+	.string ""
 
 SafariZone_Text_Sign:
-	.string "Safari Zone\n"
-	.string "This is where everything is thrilling.\p"
-	.string "Feel free to come by and experience\n"
-	.string "the wild!$"
+	.string "狩猎地带\n这里的一切都让人兴奋。\p欢迎随时来体验\n野生的刺激！$"
+	.string ""
+	.string ""
+	.string ""
 
 
 SafariZoneGate_EventScript_IncenseClerk::
@@ -153,8 +153,8 @@ SafariZoneGate_EventScript_VitaminGuru::
 
 
 SafariZoneGate_Text_VitaminGuruSellWhatYouNeed:
-	.string "I'm the rare item Guru! I'll go for it and\n"
-	.string "sell you what you need!$"
+	.string "我是稀有道具达人！我会豁出去\n把您需要的东西卖给您！$"
+	.string ""
 
 SafariZoneGate_EventScript_RestoreWestExpansion::
 	setflag FLAG_SAFARI_ZONE_WEST_EXPANSION

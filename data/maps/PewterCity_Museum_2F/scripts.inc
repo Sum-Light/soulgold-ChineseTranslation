@@ -23,25 +23,25 @@ PewterCity_Museum_2F_EventScript_Meteor::
 	end
 
 PewterCity_Museum_2F_Text_Nerd:
-	.string "They say that meteorites struck\n"
-	.string "Birth Island.\p"
-	.string "We would love to display them here\n"
-	.string "in our museum, but...\p"
-	.string "These meteorites are said to emit\n"
-	.string "strange energy and cannot be\l"
-	.string "carried away...$"
+	.string "听说有陨石坠落到了\n诞生之岛。\p我们很想把它们摆进\n我们的博物馆里，可是……\p据说这些陨石会释放\n奇怪的能量，根本\l搬不走……$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 PewterCity_Museum_2F_Text_AskedDaddyToCatchPikachu::
-    .string "I want a Pikachu!\n"
-    .string "It's so cute!\p"
-    .string "I asked my daddy to catch me one!$"
+    .string "我想要皮卡丘！\n它好可爱！\p我已经求爸爸去给我\n抓一只了！$"
+    .string ""
+    .string ""
 
 PewterCity_Museum_2F_Text_PikachuSoonIPromise::
-    .string "Yeah, a Pikachu soon, I promise!$"
+    .string "对对，很快就有皮卡丘了，\n我保证！$"
 
 PewterCity_Museum_2F_Text_SpaceShuttle::
-    .string "Space Shuttle$"
+    .string "航天飞机$"
 
 PewterCity_Museum_2F_Text_MeteoriteThatFellOnMtMoon::
-    .string "A meteorite that fell on Mt. Moon.\n"
-    .string "It is thought to be a Moon Stone.$"
+    .string "坠落在月见山的陨石。\n人们认为它是一块月之石。$"
+    .string ""

@@ -157,116 +157,116 @@ MrPokemonHouse_Movement_MrPokemon_Leave:
 	step_end
 
 MrPokemonHouse_Text_Intro1:
-	.string "Hello, hello! You must be\n"
-	.string "{PLAYER}.\p"
-	.string "Prof. Elm said that you would\n"
-	.string "visit.$"
+	.string "你好你好！你一定是\n{PLAYER}吧。\p空木博士说你会\n过来一趟。$"
+	.string ""
+	.string ""
+	.string ""
 
 MrPokemonHouse_Text_Intro2:
-	.string "This is what I want Prof. Elm\n"
-	.string "to examine.$"
+	.string "这就是我想请空木博士\n调查的东西。$"
+	.string ""
 
 MrPokemonHouse_Text_GotEgg:
-	.string "{PLAYER} received Mystery Egg.$"
+	.string "{PLAYER}得到了神奇蛋。$"
 
 MrPokemonHouse_Text_Intro3:
-	.string "I know a couple who run a\n"
-	.string "Pokémon Day-Care service.\p"
-	.string "They gave me that Egg.\p"
-	.string "I was intrigued, so I sent\n"
-	.string "mail to Prof. Elm.\p"
-	.string "For Pokémon evolution,\n"
-	.string "Prof. Elm is the authority.$"
+	.string "我认识一对经营\n宝可梦培育屋的夫妇。\p这颗蛋就是他们给我的。\p我觉得有意思，\n就写信告诉了空木博士。\p说到宝可梦的进化，\n空木博士可是权威。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 
 MrPokemonHouse_Text_Intro4:
-	.string "Even Prof. Oak here recognizes\n"
-	.string "that.$"
+	.string "连大木博士都\n认可这一点。$"
+	.string ""
 
 MrPokemonHouse_Text_Intro5:
-	.string "If my assumption is correct,\n"
-	.string "Prof. Elm will know it.$"
+	.string "如果我的推测没错，\n空木博士会知道这是什么。$"
+	.string ""
 
 MrPokemonHouse_Text_Heal:
-	.string "You are returning to Prof. Elm?\p"
-	.string "Here. Your Pokémon should have\n"
-	.string "some rest.$"
+	.string "你要回空木博士那里去？\p来，让你的宝可梦\n好好休息一下。$"
+	.string ""
+	.string ""
 
 MrPokemonHouse_Text_DependingOnYou:
-	.string "I'm depending on you!$"
+	.string "就拜托你了！$"
 
 MrPokemonHouse_Text_AlwaysNewDiscoveries:
-	.string "Life is delightful!\n"
-	.string "Always, new discoveries to be made.$"
+	.string "生活真有趣！\n总会有新的发现。$"
+	.string ""
 
 MrPokemonHouse_Text_OakIntro:
-	.string "Oak: Aha! So you're {PLAYER}!\p"
-	.string "I'm Oak! A Pokémon researcher.\p"
-	.string "I was just visiting my old friend\n"
-	.string "Mr. Pokémon.\p"
-	.string "I heard you were running an errand\n"
-	.string "for Prof. Elm, so I waited here.\p"
-	.string "Oh! What's this? A rare Pokémon!\p"
-	.string "Let's see…\n"
-	.string "Hm, I see!\p"
-	.string "I understand why Prof. Elm gave\n"
-	.string "you a Pokémon for this errand.\p"
-	.string "To researchers like Prof. Elm and\n"
-	.string "I, Pokémon are our friends.\p"
-	.string "He saw that you would treat your\n"
-	.string "Pokémon with love and care.\p"
-	.string "…Ah!\p"
-	.string "You seem to be dependable. How\n"
-	.string "would you like to help me out?\p"
-	.string "See? This is the latest version of\n"
-	.string "the Pokédex.\p"
-	.string "It automatically records data on\n"
-	.string "Pokémon you've seen or caught.\p"
-	.string "It's a hi-tech encyclopedia!\p"
-	.string "It shows their habitats, how\n"
-	.string "they evolve, and their moves.$"
+	.string "大木博士：啊哈！你就是\n{PLAYER}吧！\p我是大木！\n一名宝可梦研究者。\p我正好来拜访老朋友\n宝可梦爷爷。\p听说你在替空木博士\n跑腿，我就在这儿等了。\p哦！这是什么？\n稀有的宝可梦！\p让我看看……\n嗯，我明白了！\p我明白空木博士为什么\n会为这点差事给你宝可梦了。\p对空木博士和我这样的\n研究者来说，宝可梦是朋友。\p他看出你会用心\n爱护自己的宝可梦。\p……啊！\p你看起来很可靠。要不要\n来帮我一个忙？\p看吧？这是最新型的\n宝可梦图鉴。\p它会自动记录你见过或\n捉到的宝可梦的数据。\p这可是高科技的\n百科全书！\p上面记载着它们的栖息地、\n进化方式，还有招式。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MrPokemonHouse_Text_GetDex:
-	.string "{PLAYER} received Pokédex!$"
+	.string "{PLAYER}得到了宝可梦图鉴！$"
 
 MrPokemonHouse_Text_OakParting:
-	.string "Go meet many kinds of Pokémon and\n"
-	.string "complete that Pokédex!\p"
-	.string "But I've stayed too long.\p"
-	.string "I have to get to Goldenrod\n"
-	.string "for my usual radio show.\p"
-	.string "{PLAYER}, I'm counting on you!$"
+	.string "去遇见各种各样的宝可梦，\n把图鉴完成吧！\p不过我待得太久了。\p我得去满金市，\n照常上我的电台节目。\p{PLAYER}，就拜托你了！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MrPokemonHouse_Text_GimmeTheScale:
-	.string "Hm? That Scale! What's that?\n"
-	.string "A red Gyarados?\p"
-	.string "That's rare! I, I want it…\p"
-	.string "{PLAYER}, would you care to\n"
-	.string "trade it?\p"
-	.string "I can offer this Mega Stone\n"
-	.string "that I got from Prof. Oak.$"
+	.string "嗯？那个鳞片！是什么？\n红色的暴鲤龙？\p那可太稀罕了！我，我想要……\p{PLAYER}，你愿意\n跟我换吗？\p我可以用大木博士给我的\n这块超级石来换。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MrPokemonHouse_Text_Disappointed:
-	.string "That's disappointing.\n"
-	.string "That happens to be very rare.$"
+	.string "真遗憾。\n那可是非常稀有的东西。$"
+	.string ""
 
 MrPokemonHouse_Text_ExpShare:
-	.string "I also have a special item\n"
-	.string "for you.$"
+	.string "我还有一件特别的\n东西要送给你。$"
+	.string ""
 
 MrPokemonHouse_Text_ForeignMagazines:
-	.string "It's packed with foreign\n"
-	.string "magazines.\p"
-	.string "Can't even read their titles…$"
+	.string "里面塞满了外文\n杂志。\p连标题都看不懂……$"
+	.string ""
+	.string ""
 
 MrPokemonHouse_Text_BrokenComputer:
-	.string "It's a big computer.\n"
-	.string "Hmm. It's broken.$"
+	.string "一台大电脑。\n唔，已经坏了。$"
+	.string ""
 
 MrPokemonHouse_Text_StrangeCoins:
-	.string "A whole pile of strange coins!\p"
-	.string "Maybe they're from another\n"
-	.string "country…$"
+	.string "好一大堆奇怪的硬币！\p说不定是从别的\n国家来的……$"
+	.string ""
+	.string ""
 
 MrPokemonHouse_Text_GotExpShare:
-	.string "{PLAYER} received Eviolite!$"
+	.string "{PLAYER}得到了\n妖精属性进化石！$"

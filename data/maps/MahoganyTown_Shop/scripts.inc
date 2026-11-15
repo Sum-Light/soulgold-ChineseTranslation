@@ -218,39 +218,39 @@ MahoganyTown_Pokemart:
 	end
 
 MahoganyTown_Shop_Text_Granny:
-	.string "Please come back another time.\n"
-	.string "The store is... closed\l"
-	.string "right now.$"
+	.string "请您改天再来。\n本店现在……\l暂停营业。$"
+	.string ""
+	.string ""
 
 MahoganyMart1F_Text_Pharmacist_Lance:
-    .string "Rockets have hijacked my basement!$"
+    .string "火箭队占领了我的地下室！$"
 
 MahoganyMart1F_Text_BlackBelt:
-    .string "Heheh! The experi- ment worked like\n"
-    .string "a charm.\p"
-    .string "Magikarp are just worthless, but\n"
-    .string "Gyarados are big moneymakers.$"
+    .string "嘿嘿！实验\n大获成功。\p鲤鱼王毫无价值，\n可暴鲤龙就是摇钱树了。$"
+    .string ""
+    .string ""
+    .string ""
 
 MahoganyMart1F_Text_BlackBelt_Lance:
-    .string "Urrgh…\p"
-    .string "That guy's Pokémon are tough…$"
+    .string "唔……\p那家伙的宝可梦\n好强……$"
+    .string ""
 
 MahoganyMart1F_Text_Lance_HyperBeam:
-    .string "Lance: Dragonite, Hyper Beam.$"
+    .string "阿渡：快龙，破坏光线。$"
 
 MahoganyMart1F_Text_Lance_Radio:
-    .string "What took you, {PLAYER}?\p"
-    .string "Just as we thought, that strange\n"
-    .string "radio signal is coming from here.$"
+    .string "{PLAYER}，你怎么这么慢？\p果然和我们想的一样，那段\n古怪的电波就是从这里发出的。$"
+    .string ""
+    .string ""
 
 MahoganyMart1F_Text_Lance_Stairs:
-    .string "Excellent work finding the stairs,\n"
-	.string "Dragonite!$"
+    .string "找到楼梯了，干得好，\n快龙！$"
+	.string ""
 
 MahoganyMart1F_Text_Lance_SplitUp:
-    .string "Lance: {PLAYER}, we should split up\n"
-    .string "to check this place.\p"
-    .string "I'll go first.$"
+    .string "阿渡：{PLAYER}，我们分头\n调查这里吧。\p我先走一步。$"
+    .string ""
+    .string ""
 
 MahoganyMart_LowBadgeCountWarning::
 	setvar VAR_TEMP_0, 1
@@ -265,8 +265,8 @@ MahoganyMart_LowBadgeCountWarning_End:
 	end
 
 MahoganyMart_Text_LowBadgeCountWarning:
-	.string "You have a feeling that the area\n"
-	.string "beyond this point may be challenging\l"
-	.string "with your current experience.\p"
-	.string "It might be useful to gather more\n"
-	.string "badges first if you feel uncertain.$"
+	.string "你觉得以你现在的经验，\n前方区域可能会\l很棘手。\p如果不放心，先多收集几枚\n徽章或许会有帮助。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""

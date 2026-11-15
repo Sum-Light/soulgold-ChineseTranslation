@@ -52,44 +52,44 @@ FallarborTown_EventScript_MoveTutorSign::
 	end
 
 FallarborTown_Text_ShadyCharactersCozmosHome:
-	.string "Something's happening,\n"
-	.string "and I don't like it!\p"
-	.string "I've seen shady characters wandering\n"
-	.string "in and out of Prof. Cozmo's home…$"
+	.string "发生了些\n很讨厌的事！\p我总是看到鬼鬼祟祟的家伙\n在索蓝斯博士家进进出出……$"
+	.string ""
+	.string ""
+	.string ""
 
 FallarborTown_Text_RegionKnownForMeteors:
-	.string "This region's been known for meteors\n"
-	.string "since the olden days.\p"
-	.string "They say Meteor Falls was gouged out\n"
-	.string "by a falling meteorite long ago.$"
+	.string "自古这片地区\n就以陨石而闻名，\p据说流星瀑布就是很久以前\n一颗陨石掉下来砸成的。$"
+	.string ""
+	.string ""
+	.string ""
 
 FallarborTown_Text_MyPreciousAzurill:
-	.string "See! Take a look!\n"
-	.string "This is my precious Azurill!\p"
-	.string "It's slick and smooth and plushy, too!$"
+	.string "来啊！来看看！\n这是我珍贵的露力丽！\p滑滑软软的，多漂亮！$"
+	.string ""
+	.string ""
 
 FallarborTown_Text_Azurill:
-	.string "Azurill: Rooreelooo.$"
+	.string "露力丽：露力露。$"
 
 FallarborTown_Text_HaveYouChallengedFlannery:
-	.string "Have you already challenged Flannery,\n"
-	.string "the Leader of Lavaridge Gym?\p"
-	.string "The girl's grandfather was famous.\n"
-	.string "He was one of the Elite Four in the\l"
-	.string "Pokémon League at one point.\p"
-	.string "It wouldn't surprise me to see Flannery\n"
-	.string "become a great Trainer in her own\l"
-	.string "right.$"
+	.string "你挑战过釜炎镇道馆的馆主\n亚莎了吗？\p那女孩的爷爷非常出名，\n他曾是宝可梦联盟的\l四天王之一，\p如今亚莎也成长为一个\n出色的训练家\l并不让我感到奇怪。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 FallarborTown_Text_BattleTentSign:
-	.string "Battle Tent Fallarbor Site\n"
-	.string "“May the Greatest Teams Gather!”$"
+	.string "对战帐篷秋叶镇分址\n“最强战队，在此集结！”$"
+	.string ""
 
 FallarborTown_Text_TownSign:
-	.string "Fallarbor Town\n"
-	.string "“A farm community with small gardens.”$"
+	.string "这里是秋叶镇。\n“有着小型田野的农村。”$"
+	.string ""
 
 FallarborTown_Text_MoveTutorSign:
-	.string "Move Tutor's House\n"
-	.string "“New moves taught to Pokémon.”$"
+	.string "招式爱好者的家\n“教会宝可梦新的招式。”$"
+	.string ""
 

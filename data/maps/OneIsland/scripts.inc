@@ -32,63 +32,63 @@ OneIsland_EventScript_PokemonNetCenterSign::
 	end
 
 OneIsland_Text_BillLetsGoSeeCelio::
-	.string "BILL: Here we are!\n"
-	.string "This is ONE ISLAND.\p"
-	.string "There are several islands around\n"
-	.string "here, and this is one of them.\p"
-	.string "My friend CELIO sent the boat to\n"
-	.string "fetch me here.\p"
-	.string "He's in charge of the island's PC\n"
-	.string "network by his lonesome.\p"
-	.string "…Why am I telling you this now?\n"
-	.string "Let's just go see CELIO!$"
+	.string "正辉：我们到了！\n这里就是第一岛。\p这一带散布着好几座岛，\n这里只是其中之一。\p我的朋友锦辉派船\n把我接到这里来。\p他一个人负责\n这座岛的电脑网络。\p……我怎么现在说起这些了？\n总之，我们快去见锦辉吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Text_WhereDoYouWantToSail::
-	.string "Ahoy, there!\n"
-	.string "Where do you want to sail?$"
+	.string "喂，客官！\n您要去哪儿？$"
+	.string ""
 
 OneIsland_Text_LuckyToHaveCelioHere::
-	.string "Here we are on an island smack in\n"
-	.string "the middle of nowhere.\p"
-	.string "We're lucky to have an upstanding\n"
-	.string "young man like CELIO here.\p"
-	.string "My granddaughter was in a tizzy\n"
-	.string "over CELIO's friend.\p"
-	.string "Something about a famous\n"
-	.string "Pokémaniac?\p"
-	.string "I'm not sure what that means, but\n"
-	.string "CELIO is quite the man!$"
+	.string "我们这地方，\n孤零零地坐落在大海中央。\p能有锦辉这样\n正直的年轻人，真是幸运。\p我孙女听说他的朋友之后\n兴奋得不得了。\p好像是个很有名的\n怪兽狂什么的？\p我不太懂那是什么，不过\n锦辉真是个了不起的人！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OneIsland_Text_HavePCLinkageWithKanto::
-	.string "My granddaughter was in a tizzy\n"
-	.string "over a new breakthrough.\p"
-	.string "She said we now have PC linkage\n"
-	.string "with people in KANTO.\p"
-	.string "I'm not sure what that means, but\n"
-	.string "CELIO is quite the man!$"
+	.string "我孙女因为一项新突破\n兴奋得不得了。\p她说我们终于能和关都的人\n通过网络连上了。\p我不太懂那是什么，不过\n锦辉真是个了不起的人！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OneIsland_Text_HavePCLinkageWithHoenn::
-	.string "My granddaughter was in a tizzy\n"
-	.string "over a new breakthrough.\p"
-	.string "She said we finally have PC linkage\n"
-	.string "with people in HOENN.\p"
-	.string "I'm not sure what that means, but\n"
-	.string "CELIO is quite the man.\p"
-	.string "He would make a fine husband for\n"
-	.string "my granddaughter!$"
+	.string "我孙女因为一项新突破\n兴奋得不得了。\p她说我们终于能和丰缘的人\n通过网络连上了。\p我不太懂那是什么，不过\n锦辉真是个了不起的人。\p他会是门好亲事，\n配我孙女正合适！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OneIsland_Text_IslandSign::
-	.string "ONE ISLAND\n"
-	.string "Friends Gather at Knot Island$"
+	.string "第一岛\n朋友相聚的结缘岛$"
+	.string ""
 
 OneIsland_Text_PokemonNetCenterSign::
-	.string "Expanding the Pokémon World!\n"
-	.string "Pokémon Net Center$"
+	.string "拓宽宝可梦的世界！\n宝可梦网络中心$"
+	.string ""
 
 @ Unused
 OneIsland_Text_ReturnToCinnabar::
-	.string "グレンタウンに　もどりますか？$"
+	.string "要回红莲镇吗？$"
 
 OneIsland_Text_IsntWarmClimateHereGreat::
-	.string "Hi, sight-seeing, are you?\n"
-	.string "Isn't the warm climate here great?$"
+	.string "嗨，您是来观光的吧？\n这里气候温暖，很不错吧？$"
+	.string ""

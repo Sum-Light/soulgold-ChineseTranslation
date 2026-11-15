@@ -15,8 +15,8 @@ Route22_EventScript_Sign::
 	end
 
 Route22_Text_VictoryRoadEntranceSign:
-	.string "Pokémon League\p"
-	.string "Victory Road Entrance$"
+	.string "宝可梦联盟\p冠军之路入口$"
+	.string ""
 
 Route22_EventScript_ResetActivation::
 	setvar VAR_TEMP_0, 0
@@ -286,60 +286,60 @@ Route22_Movement_CelebiPush:
 
 
 Route22_Text_Silver1:
-	.string "Silver: You told me...\n"
-	.string "you were the number one in the whole\l"
-	.string "world!\p"
-	.string "Are you gonna quit?\p"
-	.string "What are you going to do now?$"
+	.string "小银：你跟我说过……\n你是全世界\l第一的吧！\p你是要放弃了吗？\p接下来你打算怎么办？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route22_Text_Giovanni1:
-	.string "....................\p"
-	.string "Giovanni: One must acknowledge one's\n"
-	.string "defeat before he can move on...\p"
-	.string "I will go solo... for now...\p"
-	.string "So that one day I will form a\n"
-	.string "stronger organization!$"
+	.string "………………\p坂木：人必须先承认\n自己的失败，才能迈步向前……\p接下来，我要独自上路……\p总有一天，我会建立起\n更强大的组织！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route22_Text_Silver2:
-	.string "Silver: What aspect of you was\n"
-	.string "number one?\p"
-	.string "Gathering so many only to be\n"
-	.string "defeated by a mere child!$"
+	.string "小银：你到底哪里\n算得上是第一？\p召集了那么多人，\n却败给一个小孩子！$"
+	.string ""
+	.string ""
+	.string ""
 
 Route22_Text_Giovanni2:
-	.string "Giovanni: Putting together the\n"
-	.string "potential of many is how you\l"
-	.string "produce a huge power...\l"
-	.string "That's what an organization is...\l"
-	.string "That's the strength of organization\p"
-	.string "I failed... to make the best use of\n"
-	.string "my subordinates' potential...!\p"
-	.string "But you shall witness one day the\n"
-	.string "revival of me and my Team Rocket!$"
+	.string "坂木：把许多人的潜力\n汇聚到一起，\l就能产生巨大的力量……\l这就是组织……\l这就是组织的强大之处。\p我失败了……没能充分\n发挥部下的潜力……！\p但总有一天，你会亲眼\n见证我和火箭队的复活！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route22_Text_Silver3:
-	.string "Silver: I don't understand you!\p"
-	.string "You don't make any sense!$"
+	.string "小银：我真搞不懂你！\p你说的我完全不明白！$"
+	.string ""
 
 Route22_Text_Giovanni3:
-	.string ".......................\p"
-	.string "Giovanni: One day you will\n"
-	.string "understand.$"
+	.string "………………\p坂木：总有一天，你会明白的。$"
+	.string ""
+	.string ""
 
 Route22_Text_Silver4:
-	.string "Silver: I don't want to\n"
-	.string "Understand you!\p"
-	.string "I will never become someone like\n"
-	.string "you.\p"
-	.string "A coward when you're alone and\n"
-	.string "acting like a tyrant when you're\l"
-	.string "in front of other cowards!\p"
-	.string "I will become strong!\p"
-	.string "I will become a stronger man all\n"
-	.string "by myself!$"
+	.string "小银：我才不想\n搞懂你这种人！\p我绝不会变成\n你那样的人。\p一个人的时候是个胆小鬼，\n在一群胆小鬼\l面前却作威作福！\p我要变强！\p我要靠我自己\n变成一个更强的男人！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route22_Text_Silver5:
-	.string "All By Myself!$"
+	.string "全靠我自己！$"
 
 Route22_Text_Silver6:
-	.string "Silver: ... What are you staring at?$"
+	.string "小银：……你看什么看？$"

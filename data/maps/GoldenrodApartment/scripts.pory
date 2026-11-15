@@ -7,23 +7,13 @@ mapscripts GoldenrodApartment_MapScripts {
 }
 
 script GoldenrodApartments_BasementGuard {
-    msgbox("Sorry but this stairway leads to the
-            apartments storage. Besides, I don't
-            think there's any reason why a trainer
-            would want to check out old house
-            appliances that have been abandoned
-            due to rampant consumerism.")
+    msgbox("抱歉，这道楼梯通往\n公寓的储藏室。再说，\l我想也不会有哪个训练家\l会想去看那些因为过度消费\l而被丢在这里的\l旧家电吧。")
     checkspecies(SPECIES_ROTOM)
     if (var(VAR_RESULT) == FALSE) {
         release
         end
     }
-    msgbox("...What? You have a Rotom that wants
-            check out the appliances? Well... 
-            I suppose the tenants wouldn't
-            use them anyway. Let's say I never
-            saw you if anyone asks. I'm going to
-            have a coffee break.")
+    msgbox("……什么？你的洛托姆\n想去看看那些家电？好吧……\l反正住客也不会\l再用它们了。要是有人问起，\l我们就当没见过。我要去\l喝杯咖啡歇歇了。")
     closemessage
     setflag(FLAG_HIDE_GROD_APARTMENTS_GUARD)
     fadescreenswapbuffers(FADE_TO_BLACK)
@@ -35,62 +25,48 @@ script GoldenrodApartments_BasementGuard {
 } 
 
 script GoldenrodApartments_OldLady {
-    msgbox("The city has been expanding a lot in
-            recent years. I fear I've been left
-            behind by the rapid changes.", MSGBOX_NPC)
+    msgbox("这几年这座城市\n一直在不断扩张。\l我真怕自己被这飞速的\l变化甩在了后头。", MSGBOX_NPC)
 }
 
 script GoldenrodApartments_Child {
-    msgbox("Mom always comes home late...", MSGBOX_NPC)
+    msgbox("妈妈总是很晚才回家……", MSGBOX_NPC)
 }
 
 script GoldenrodApartments_Girl {
-    msgbox("Our mother works at the radio tower,
-            which makes her very busy. Luckily
-            we have mom's Breloom to help with
-            everything!", MSGBOX_NPC)
+    msgbox("我们妈妈在播音塔工作，\n所以总是很忙。还好\l有妈妈的斗笠菇帮忙\l料理一切！", MSGBOX_NPC)
 }
 
 script GoldenrodApartments_Breloom {
     lock
     playmoncry(SPECIES_BRELOOM, CRY_MODE_NORMAL)
     waitmoncry
-    msgbox("Breloom is joyfully doing the dishes!")
+    msgbox("斗笠菇正开开心心地洗着碗！")
     waitmessage
     release
     end
 }
 
 script GoldenrodApartments_Gameboykid {
-    msgbox("Strange noises can be heard from the
-            floor above this. I have never seen
-            anyone who lives there though, strange.", MSGBOX_NPC)
+    msgbox("这上面那层楼\n总会传来奇怪的声音。\l可我从来没见过\l住在那里的人，真奇怪。", MSGBOX_NPC)
 }
 
 script GoldenrodApartments_ScientistF {
-    msgbox("Goldenrod recently invited scientists
-            from other regions to the Radio Tower
-            for a business meeting.", MSGBOX_NPC)
+    msgbox("满金市最近邀请了\n其他地区的研究员\l到播音塔开商务会议。", MSGBOX_NPC)
 }
 
 script GoldenrodApartments_ScientistM {
-    msgbox("These SkyBNB apartments are barely
-            equipped with the most basics of
-            tools... How vexing.", MSGBOX_NPC)
+    msgbox("这些天空民宿公寓\n只勉强配有最基本的\l工具……真让人烦心。", MSGBOX_NPC)
 }
 
 script GoldenrodApartments_LockedDoor {
     lock
     if (flag(FLAG_MAGERNA_DOOR_OPENED)) {
-        msgbox("The door is now open.")
+        msgbox("门已经开了。")
         release
         end
     }
     if (flag(FLAG_GOT_MAGERNA_KEY)) {
-        msgbox("The way seems to be barred by a metal
-            door. A small keyhole is visible. 
-            
-            You used the Apartment Key.")
+        msgbox("前路似乎被一道金属门\n挡住了。能看见一个小锁孔。\p你使用了公寓钥匙。")
         closemessage
         playse(SE_UNLOCK)
         setmetatile(62, 8, 0x401, FALSE)
@@ -100,27 +76,25 @@ script GoldenrodApartments_LockedDoor {
         setflag(FLAG_HIDE_MAGERNA_POLICE)
         removeobject(LOCALID_M_POLICE1)
         removeobject(LOCALID_M_POLICE2)
-        msgbox("The way is now open.")
+        msgbox("路已经通了。")
         release
         end
     }
-    msgbox("The way seems to be barred by a metal
-            door. A small keyhole is visible, but
-            you have nothing that would fit it.")
+    msgbox("前路被一道金属门\n挡住了。能看见一个小锁孔，\l可你身上没有能配上的东西。")
     release
     end
 }
 
 script GoldenrodApartments_Apartment1 {
-    msgbox("Goldenrod Sky Apartments F1", MSGBOX_SIGN)
+    msgbox("满金天空公寓1楼", MSGBOX_SIGN)
 }
 
 script GoldenrodApartments_Apartment2 {
-    msgbox("Goldenrod Sky Apartments F2", MSGBOX_SIGN)
+    msgbox("满金天空公寓2楼", MSGBOX_SIGN)
 }
 
 script GoldenrodApartments_Apartment3 {
-    msgbox("Goldenrod Sky Apartments F3", MSGBOX_SIGN)
+    msgbox("满金天空公寓3楼", MSGBOX_SIGN)
 }
 
 // For refight after hall of fame reset
@@ -144,8 +118,8 @@ script MagearnaEncounter {
 
 script MadScientistEvent {
     lock
-    msgbox("You sense trouble in this direction.")
-    msgbox("Are you prepared to go forward?", MSGBOX_YESNO)
+    msgbox("你感到这个方向有麻烦。")
+    msgbox("你准备好继续往前了吗？", MSGBOX_YESNO)
     if (var(VAR_RESULT) == NO) {
         applymovement(LOCALID_PLAYER, moves(walk_right))
         waitmovement(0)
@@ -159,51 +133,28 @@ script MadScientistEvent {
     playbgm(MUS_HG_TEAM_ROCKET_HQ, FALSE)
     applymovement(LOCALID_MADSC, moves(walk_in_place_up))
     waitmovement(0)
-    msgbox("Scientist: Ha haa! The machine is nearly
-            complete! 
-            
-            I shall have my revenge on those 
-            Rocket executives for taking my
-            research funding!")
+    msgbox("科学家：哈哈！机器就快\n完成了！\p我要向那些夺走我\n研究经费的火箭队干部\l报仇！")
     playse(SE_LEDGE)
     applymovement(LOCALID_MADSC, moves(jump_in_place_up))
     playse(SE_LEDGE)
     applymovement(LOCALID_MADSC, moves(jump_in_place_up))
     waitmovement
-    msgbox("Scientist: And then! The rest of those
-            snobby scientific committee members!
-            
-            This will be my ultimate creation!
-            Ahahahahahahahahaaaaaaaaaaaaaa!")
-    msgbox("But first...")
+    msgbox("科学家：还有！还有那些\n自以为是的科学委员会成员！\p这将是我的究极之作！\n啊哈哈哈哈哈哈哈哈——！")
+    msgbox("首先……")
     delay(30)
     turnobject(LOCALID_MADSC, DIR_SOUTH)
-    msgbox("Scientist: Who are you and how 
-            did you get in?!")
-    msgbox("I don't have time for 
-            debt collectors or salespeople! 
-            
-            I will be rid of you!")
+    msgbox("科学家：你是谁？\n你是怎么进来的？！")
+    msgbox("我没空搭理\n讨债的，也没空搭理推销员！\p我这就把你打发走！")
     closemessage
     applymovement(LOCALID_MADSC, moves(walk_down))
     waitmovement(0)
-    trainerbattle_no_intro(TRAINER_MAD_SCIENTIST, "No! I can't afford this!")
+    trainerbattle_no_intro(TRAINER_MAD_SCIENTIST, "不！这我可付不起！")
     applymovement(LOCALID_MADSC, moves(walk_in_place_down))
-    msgbox("Scientist: It seems the tax office has 
-            sent quite a tough customer this time. 
-            
-            No matter!
-            
-            I've been looking for volunteers
-            actually, so this will work out nicely!
-            
-            You shall be the first to witness the
-            raw power of my mechanical Pokémon!")
+    msgbox("科学家：看来这次税务局\n派来了个硬茬子。\p不过没关系！\p我正想找志愿者呢，\n这反倒正好！\p就让你第一个见识\n我这只机械宝可梦的\l真正力量！")
     closemessage
     applymovement(LOCALID_MADSC, moves(walk_right, face_up))
     waitmovement(0)
-    msgbox("Scientist: Magearna! Destroy this 
-            foolish intruder!")
+    msgbox("科学家：玛机雅娜！\n消灭这个愚蠢的闯入者！")
     closemessage
     playmoncry(SPECIES_MAGEARNA, CRY_MODE_NORMAL)
     waitmoncry
@@ -223,14 +174,8 @@ script MadScientistEvent {
                                     MOVE_DRAINING_KISS, 
                                     MOVE_STORED_POWER)
     playbgm(MUS_HG_TEAM_ROCKET_HQ, FALSE)
-    msgbox("Scientist: This... THIS CANNOT BE!
-    
-            My creation... Gone? JUST LIKE THAT?
-            
-            It was supposed to be invincible!
-            
-            This isn't over! I can still-")
-    msgbox("??? Hold it right there!")
+    msgbox("科学家：这……这不可能！\p我的作品……没了？就这样没了？\p它本该是无敌的！\p这还没完！我还能——")
+    msgbox("？？？：站住别动！")
     closemessage
     playse(SE_PIN)
     applymovement(LOCALID_MADSC, Common_Movement_ExclamationMark)
@@ -245,33 +190,16 @@ script MadScientistEvent {
     applymovement(LOCALID_M_POLICE2, moves(walk_left, walk_up*5, walk_left*4, walk_up*2, face_left))
     waitmovement(0)
     turnobject(LOCALID_PLAYER, DIR_EAST)
-    msgbox("Police: You're under arrest for tax 
-            evasion, having ties to the Team Rocket
-            and for developing illegal Pokémon.")
+    msgbox("警察：你因逃税、与火箭队\n有牵连，以及开发非法宝可梦\l而被捕了。")
     applymovement(LOCALID_MADSC, moves(walk_in_place_down))
     waitmovement(0)
-    msgbox("Scientist: B-But I was the one whom 
-            Team Rocket abandoned!
-            
-            I'm innocent! I just wanted
-            to show them they were in the wrong!")
+    msgbox("科学家：可、可我是\n被火箭队抛弃的人啊！\p我是无辜的！我只是想\n证明他们错了！")
     applymovement(LOCALID_M_POLICE2, moves(walk_in_place_left))
     waitmovement
-    msgbox("Save it for the judge.")
+    msgbox("留着去跟法官说吧。")
     turnobject(LOCALID_M_POLICE1, DIR_WEST)
     fadedefaultbgm
-    msgbox("Police: I thank you for help 
-            subduing this crook. 
-            
-            They've been holed up here
-            for a while, causing all sorts of
-            disturbance.
-            
-            We'll let you keep the Pokémon if
-            you stay quiet about it. 
-            
-            We trust it will be in good 
-            hands with you.")
+    msgbox("警察：谢谢你帮忙\n制服了这个坏家伙。\p他躲在这里好一阵子了，\n到处惹是生非。\p只要你守口如瓶，\n那只宝可梦就归你了。\p我们相信你会好好\n照顾它的。")
     closemessage
     fadescreen(FADE_TO_BLACK)
     removeobject(LOCALID_MADSC)

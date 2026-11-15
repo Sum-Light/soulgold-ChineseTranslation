@@ -676,3 +676,15 @@ $(SPINDAGFXDIR)/spot_2.1bpp: %.1bpp: %.png
 
 $(SPINDAGFXDIR)/spot_3.1bpp: %.1bpp: %.png
 	$(GFX) $< $@ -plain -data_width 2
+
+$(FONTGFXDIR)/chinese_small.latfont: $(FONTGFXDIR)/chinese_small.png
+	$(GFX) $< $@
+
+$(FONTGFXDIR)/chinese_normal.latfont: $(FONTGFXDIR)/chinese_normal.png
+	$(GFX) $< $@
+
+$(FONTGFXDIR)/chinese_punctuation_small.latfont: $(FONTGFXDIR)/chinese_punctuation_small.png
+	$(GFX) $< $@
+
+$(FONTGFXDIR)/chinese_punctuation_normal.latfont: $(FONTGFXDIR)/chinese_punctuation_normal.png
+	$(GFX) $< $@

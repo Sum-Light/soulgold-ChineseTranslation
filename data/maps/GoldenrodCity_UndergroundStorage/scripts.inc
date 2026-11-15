@@ -36,64 +36,64 @@ GoldenrodCity_UndergroundStorage_EventScript_Eto::
 	end
 
 RadioTowerBasement_Text_GruntM24Seen:
-    .string "How did you get this far?\p"
-    .string "I guess it can't be helped. I'll\n"
-    .string "dispose of you.$"
+    .string "你居然能走到这儿？\p没办法了。\n就让我来收拾你吧。$"
+    .string ""
+    .string ""
 
 RadioTowerBasement_Text_GruntM24Beaten:
-    .string "I got disposed of…$"
+    .string "反倒被收拾了……$"
 
 RadioTowerBasement_Text_GruntM24After:
-    .string "Team Rocket will keep going, waiting\n"
-    .string "for the return of Giovanni.\p"
-    .string "We'll do whatever it takes.$"
+    .string "火箭队会一直等下去，\n等坂木大人回来。\p我们什么都干得出来。$"
+    .string ""
+    .string ""
 
 RadioTowerBasement_Text_GruntM14Seen:
-    .string "You're not going any farther!\p"
-    .string "I don't show mercy to my enemies,\n"
-    .string "not even brats!$"
+    .string "别再往前走了！\p我对敌人绝不手下留情，\n小鬼也一样！$"
+    .string ""
+    .string ""
 
 RadioTowerBasement_Text_GruntM14Beaten:
-    .string "Blast it!$"
+    .string "可恶！$"
 
 RadioTowerBasement_Text_GruntM14After:
-    .string "I lost…\p"
-    .string "Please forgive me, Giovanni!$"
+    .string "我输了……\p坂木大人，请原谅我！$"
+    .string ""
 
 RadioTowerBasement_Text_GruntM15Seen:
-    .string "Hyuck-hyuck-hyuck! Look who it is!\p"
-    .string "Ready? I'm really tough now!$"
+    .string "嘻嘻嘻！看看是谁来了！\p准备好了吗？我现在可厉害了！$"
+    .string ""
 
 RadioTowerBasement_Text_GruntM15Beaten:
-    .string "Hyuck-hyuck-hyuck! You're so good!\p"
-    .string "This Team Rocket thing is just\n"
-    .string "a job, but I can see it hurts others.\p"
-    .string "That's it, I'm leaving.\p"
-    .string "Thank you so much. Sorry Giovanni!$"
+    .string "嘻嘻嘻！你可真厉害！\p火箭队这活儿也就是份工作，\n可我看得出来，它在伤害别人。\p行了，我不干了。\p多谢你。对不住了，坂木大人！$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 RadioTowerBasement_Text_GruntM15After:
-    .string "Hyuck-hyuck-hyuck! That was a blast!\n"
-    .string "I'll remember you!$"
+    .string "嘻嘻嘻！打得真痛快！\n我会记住你的！$"
+    .string ""
 
 RadioTowerBasement_Text_DirectorIntro:
-    .string "Director: Who? What? You came to\n"
-    .string "rescue me?\p"
-    .string "Thank you!\p"
-    .string "The Radio Tower!\p"
-    .string "What's happening there?\p"
-    .string "Taken over by Team Rocket?\p"
-    .string "Here. Take this Card Key.$"
+    .string "局长：谁？什么？你是来\n救我的吗？\p谢谢你！\p播音塔！\p那边出什么事了？\p被火箭队占领了？\p来，拿着这张钥匙卡。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 RadioTowerBasement_Text_DirectorCardKey:
-    .string "Director: Use that to open the\n"
-    .string "shutters on 3F.$"
+    .string "局长：用这个，就能打开\n3楼的卷帘门。$"
+    .string ""
 
 RadioTowerBasement_Text_DirectorAfter:
-    .string "I'm begging you to help.\p"
-    .string "There's no telling what they'll do if\n"
-    .string "they control the transmitter.\p"
-    .string "They may even be able to control\n"
-    .string "Pokémon using a special signal!\p"
-    .string "You're the only one I can call on.\p"
-    .string "Please save the Radio Tower…\p"
-    .string "And all the Pokémon nationwide!$"
+    .string "求求你，帮帮我们。\p他们若控制了无线电发射装置，\n真不知道会干出什么事来。\p说不定他们能用特殊的电波\n操纵宝可梦！\p我能拜托的人只有你了。\p请你救救播音塔……\p还有全国的宝可梦！$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""

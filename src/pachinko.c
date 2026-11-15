@@ -251,9 +251,9 @@ static void StartExitPinballGame(void);
 static void ExitPinballGame(void);
 static void UpdateBallSprite(struct Sprite *sprite);
 
-static const u8 sJackpotText[] = _("JACKPOT!\nYou won {STR_VAR_1} COINS!");
-static const u8 sWinText[] = _("You won {STR_VAR_1} COINS!");
-static const u8 sLoseText[] = _("Game over!");
+static const u8 sJackpotText[] = _("大奖！\n赢得了{STR_VAR_1}枚代币！");
+static const u8 sWinText[] = _("赢得了{STR_VAR_1}枚代币！");
+static const u8 sLoseText[] = _("游戏结束！");
 
 static EWRAM_DATA struct PinballGame *sPinballGame = NULL;
 static EWRAM_DATA struct Credits *sScore = NULL;

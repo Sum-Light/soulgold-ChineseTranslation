@@ -14,9 +14,7 @@ TohjoPassGuard::
 
 
 TohjoPassGuard_Text_0:
-	.string "Rhyperior: Grr...$"
+	.string "超甲狂犀：呜……$"
 
 TohjoPassGuard_Text_1:
-	.string "The Rhyperior is guarding the entrance\n"
-	.string "with a menacing presence.\p"
-	.string "You decide to come back another time.$"
+	.string "超甲狂犀守在山洞入口，\n气势逼人。\p你决定改天再来。$"

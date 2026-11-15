@@ -118,13 +118,13 @@ static const u32 sPokegearIconTrophyGfx[] = INCBIN_U32("graphics/pokegear/icon_t
 static const u32 sPokegearIconRadioGfx[] = INCBIN_U32("graphics/pokegear/icon_jukebox.4bpp.smol");
 
 
-static const u8 sText_Map[] = _("Map");
-static const u8 sText_DexNav[] = _("DexNav");
-static const u8 sText_Trophies[] = _("Trophies");
-static const u8 sText_Radio[] = _("Radio");
-static const u8 sText_Back[] = _("{B_BUTTON} Back");
-static const u8 sText_MainHelp[] = _("{SELECT_BUTTON}Reg. {B_BUTTON}Back");
-static const u8 sText_RegisterHelp[] = _("{DPAD_NONE}Slot {B_BUTTON}Back");
+static const u8 sText_Map[] = _("地图");
+static const u8 sText_DexNav[] = _("图鉴导航");
+static const u8 sText_Trophies[] = _("奖杯");
+static const u8 sText_Radio[] = _("电台");
+static const u8 sText_Back[] = _("{B_BUTTON} 返回");
+static const u8 sText_MainHelp[] = _("{SELECT_BUTTON}注册 {B_BUTTON}返回");
+static const u8 sText_RegisterHelp[] = _("{DPAD_NONE}栏位 {B_BUTTON}返回");
 static const u8 sText_DpadUp[] = _(" {DPAD_UP}");
 static const u8 sText_DpadRight[] = _(" {DPAD_RIGHT}");
 static const u8 sText_DpadDown[] = _(" {DPAD_DOWN}");

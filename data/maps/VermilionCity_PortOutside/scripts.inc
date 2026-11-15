@@ -6,7 +6,7 @@ VermilionCity_PortOutside_EventScript_Fisher::
 	end
 
 VermilionCity_PortOutside_Text_Fisher::
-	.string "You just came from Johto?\n"
-	.string "How's the fishin' over there\l"
-	.string "...\p"
-	.string "Johto has Red Gyarados?!$"
+	.string "您是刚从城都地区来？\n那边钓鱼的情况\l怎么样……\p城都有红色的暴鲤龙？！$"
+	.string ""
+	.string ""
+	.string ""

@@ -125,76 +125,55 @@ Inn_TryingToExit_Movement_0:
 	step_end
 
 DarkraiInn1_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE_0_Text_0:
-	.string "Welcome, honored guest!$"
+	.string "欢迎光临，尊贵的客人！$"
 
 DarkraiInn1_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE_0_Text_1:
-	.string "We are delighted to have you stay\n"
-	.string "at our humble inn. \p"
-	.string "Here is your room key.$"
+	.string "您肯光临我们这家小旅馆，\n真是我们的荣幸。\p这是您房间的钥匙。$"
 
 DarkraiInn1_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE_0_Text_2:
-	.string "{PLAYER} obtained the Moon Key!$"
+	.string "{PLAYER}得到了月亮钥匙！$"
 
 DarkraiInn1_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE_0_Text_3:
-	.string "Your room is number 404, take the stairs\n"
-	.string "on your left and it will be right in\l"
-	.string "front of you.$"
+	.string "您的房间是404号，\n从左边楼梯上去，\l就在正前方。$"
 
 DarkraiInn1_MapScripts_MAP_SCRIPT_ON_FRAME_TABLE_0_Text_4:
-	.string "We hope you enjoy your stay.$"
+	.string "祝您入住愉快。$"
 
 Inn_Door404_Text_0:
-	.string "The door to your room is now open.$"
+	.string "您房间的门已经打开了。$"
 
 Inn_Door404_Text_1:
-	.string "Room 404\p"
-	.string "You use your key to unlock the door,\n"
-	.string "however the key is now stuck in the\l"
-	.string "lock.$"
+	.string "404号房\p你用钥匙打开了房门，\n可钥匙却卡在了\l锁孔里。$"
 
 Inn_Keeper_Text_0:
-	.string "We hope you enjoy a peaceful rest\n"
-	.string "at our inn.$"
+	.string "希望您在我们旅馆\n安安稳稳地休息。$"
 
 Inn_AnimalHead_Text_0:
-	.string "A stuffed trophy depicting a head\n"
-	.string "of a Pokémon.\p"
-	.string "...\p"
-	.string "It feels like the eyes are following \n"
-	.string "you.$"
+	.string "一只宝可梦头部的\n填充标本。\p……\p总觉得那双眼睛\n在盯着你。$"
 
 Inn_LockedDoor_Text_0:
-	.string "You try to open the door but it\n"
-	.string "seems to be locked.$"
+	.string "你试着开门，\n但门好像锁着。$"
 
 FoggyWindow_Inn_Text_0:
-	.string "You peek out of the window...\p"
-	.string "A thick fog seems to cover your\n"
-	.string "view.$"
+	.string "你朝窗外望去……\p一层浓雾好像遮住了\n你的视线。$"
 
 Inn_OrnatePiano_Text_0:
-	.string "An ornate piano sits in front of you.\n"
-	.string "It seems to be well maintained.$"
+	.string "你面前放着一架华丽的钢琴。\n看起来保养得很好。$"
 
 Inn_Drums_Text_0:
-	.string "A seemingly new drumset. How cool!$"
+	.string "看起来崭新的架子鼓。真帅！$"
 
 Inn_LockedSafe_Text_0:
-	.string "A locked safe, you wonder what is\n"
-	.string "kept inside.$"
+	.string "一个上锁的保险箱，\n不知道里面装着什么。$"
 
 Inn_NoteOnWall_Text_0:
-	.string "Seems to be some sort of notice about\n"
-	.string "closure of the inn. Odd...$"
+	.string "好像是一张关于旅馆\n停业的通知。真奇怪……$"
 
 Inn_PapersOnWall_Text_0:
-	.string "Various notes litter the wall, the text\n"
-	.string "is blurry and hard to read.$"
+	.string "墙上贴满了各种便条，\n字迹模糊，难以辨认。$"
 
 Inn_TryingToExit_Text_0:
-	.string "You just arrived, surely there's no\n"
-	.string "reason to leave just yet...$"
+	.string "你才刚到，\n没理由这就走吧……$"
 
 Inn_ReceptionPhone_Text_0:
-	.string "This is probably used to call the \n"
-	.string "residents.$"
+	.string "这大概是用来呼叫\n住客的吧。$"

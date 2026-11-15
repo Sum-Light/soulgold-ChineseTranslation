@@ -30,21 +30,16 @@ VoltorbTrade_NotRequested::
 
 
 Olivine_VoltorbTrade_Text_0:
-	.string "Hi, how is my old Voltorb doing?$"
+	.string "我那只霹雳电球还好吗？$"
 
 Olivine_VoltorbTrade_Text_1:
-	.string "I collect Pokémon\n"
-	.string "Do you have a Mareanie?\l"
-	.string "Want to trade it for my\l"
-	.string "Hisuian Voltorb?$"
+	.string "我在收集宝可梦。\n你有好坏星吗？\l愿意用它换我的\l洗翠的霹雳电球吗？$"
 
 Olivine_VoltorbTrade_Text_2:
-	.string "Yay! I got myself a Mareanie!\n"
-	.string "Voltorb, you take care!$"
+	.string "太好了！我换到好坏星了！\n霹雳电球，你要保重哦！$"
 
 VoltorbTrade_Declined_Text_0:
-	.string "You don't want to trade? Aww...$"
+	.string "你不愿意交换？哎呀……$"
 
 VoltorbTrade_NotRequested_Text_0:
-	.string "Uh, no, I don't think so.\n"
-	.string "That doesn't look like a Mareanie.$"
+	.string "呃，不行，我不换。\n那看起来不像好坏星。$"

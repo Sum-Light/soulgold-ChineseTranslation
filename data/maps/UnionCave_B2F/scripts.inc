@@ -38,38 +38,38 @@ UnionCave_B2F_EventScript_LaprasRan::
 
 
 UnionCave_B2F_Text_CooltrainermNickSeen:
-	.string "There are two kinds of people.\p"
-	.string "Those who have style, and those\n"
-	.string "who don't.\p"
-	.string "What kind of person are you?$"
+	.string "世上有两种人。\p有品位的，\n和没有品位的。\p你是哪一种？$"
+	.string ""
+	.string ""
+	.string ""
 
 UnionCave_B2F_Text_CooltrainermNickBeaten:
-	.string "You've got dazzling style!$"
+	.string "你的风格真是耀眼！$"
 
 UnionCave_B2F_Text_CooltrainermNickAfter:
-	.string "Your Pokémon style is stunning and\n"
-	.string "colorful, I admit.\p"
-	.string "You'll just keep getting better!$"
+	.string "你的宝可梦风格\n华丽又多彩，我承认。\p你会越来越强的！$"
+	.string ""
+	.string ""
 
 UnionCave_B2F_Text_CooltrainerfGwenSeen:
-	.string "I'm in training. Care for a round?$"
+	.string "我正在特训。\n要不要来一场？$"
 
 UnionCave_B2F_Text_CooltrainerfGwenBeaten:
-	.string "Aww, no! You're too good for me.$"
+	.string "啊，不行！\n你实在太强了。$"
 
 UnionCave_B2F_Text_CooltrainerfGwenAfter:
-	.string "I'm going to train by myself until I\n"
-	.string "improve.$"
+	.string "我要一个人\n特训变强。$"
+	.string ""
 
 UnionCave_B2F_Text_CooltrainerfEmmaSeen:
-	.string "If the Pokémon I liked were there,\n"
-	.string "I'd go anywhere.\p"
-	.string "That's what a real trainer does.$"
+	.string "只要有我喜欢的\n宝可梦在，我哪里都会去。\p真正的训练家\n就是这么做的。$"
+	.string ""
+	.string ""
 
 UnionCave_B2F_Text_CooltrainerfEmmaBeaten:
-	.string "I'd rather pet my babies than this!$"
+	.string "与其这样，\n我宁可去摸摸我的宝贝们！$"
 
 UnionCave_B2F_Text_CooltrainerfEmmaAfter:
-	.string "Just once a week, a Pokémon comes to\n"
-	.string "the water's edge.\p"
-	.string "I wanted to see that Pokémon…$"
+	.string "每周会有一次，宝可梦\n会来到水边。\p我一直想见见\n那只宝可梦……$"
+	.string ""
+	.string ""

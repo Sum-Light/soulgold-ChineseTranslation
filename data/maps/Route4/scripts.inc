@@ -27,40 +27,40 @@ Route4_EventScript_Sign::
 	end
 
 Route4_Text_BirdKeeperHank_Seen:
-	.string "I'm raising my Pokémon. Want to battle\n"
-	.string "with me?$"
+	.string "我正在培育宝可梦。\n要跟我打一场吗？$"
+	.string ""
 
 Route4_Text_BirdKeeperHank_Beaten:
-	.string "Ack! I lost that one…$"
+	.string "啊！这局是我输了……$"
 
 Route4_Text_BirdKeeperHank_AfterBattle:
-	.string "If you have a specific Pokémon that you\n"
-	.string "want to raise, put it out first, then\n"
-	.string "switch it right away.\p"
-	.string "That's how to do it.$"
+	.string "有想培育的宝可梦，\n就让它先上场，再马上换下。\p就是这么练的。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route4_Text_PicnickerHope_Seen:
-	.string "I have a feeling that I can win.\p"
-	.string "Let's see if I'm right!$"
+	.string "我感觉自己能赢。\p来看看我猜得对不对！$"
+	.string ""
 
 Route4_Text_PicnickerHope_Beaten:
-	.string "Aww, you are too strong.$"
+	.string "唉，你太强了。$"
 
 Route4_Text_PicnickerHope_AfterBattle:
-	.string "I heard Clefairy appear at Mt.Moon.\p"
-	.string "But where could they be?$"
+	.string "听说皮皮会在月见山出现。\p可它们到底在哪儿呢？$"
+	.string ""
 
 Route4_Text_PicnickerSharon_Seen:
-	.string "Um…\n"
-	.string "I…$"
+	.string "那个……\n我……$"
+	.string ""
 
 Route4_Text_PicnickerSharon_Beaten:
 	.string "…$"
 
 Route4_Text_PicnickerSharon_AfterBattle:
-	.string "……I'll go train some more…$"
+	.string "……我再去多训练一下……$"
 
 Route4_Text_MtMoonSquareSign:
-	.string "Mt.Moon Square\p"
-	.string "Just go up the stairs.$"
+	.string "月见山广场\p沿楼梯上去就是。$"
+	.string ""
 

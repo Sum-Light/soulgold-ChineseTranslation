@@ -195,119 +195,119 @@ BugContest_EventScript_SideEnd::
 	end
 
 BugContest_Text_Judging0::
-	.string "The contest has now concluded.\n"
-	.string "Please pick the Pokémon you would\l"
-	.string "like to keep and have judged.$"
+	.string "大赛到此结束。\n请选择要留下并参加评审的\l宝可梦。$"
+	.string ""
+	.string ""
 
 BugContest_Text_Judging1::
-	.string "We will now judge the Pokémon\n"
-	.string "you've caught.\p"
-	.string "...................\n"
-	.string "...................\p"
-	.string "We have chosen the winners! Are\n"
-	.string "ready for this?$"
+	.string "现在开始评审\n各位捕捉到的宝可梦。\p…… …… ……\n…… …… ……\p获奖者已经决定了！\n准备好了吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BugContest_Text_WrongChoiceMon:
-	.string "Please pick the Pokémon you would\n"
-	.string "like to keep and have judged.$"
+	.string "请选择要留下并参加评审的\n宝可梦。$"
+	.string ""
 
 BugContest_Text_DidntCatch:
-	.string "Oh no! You didn't catch a Pokémon.\n"
-	.string "You've forfeited the competition.\p"
-	.string "Your party will now be returned.$"
+	.string "哎呀！您没有捉到宝可梦。\n本次大赛视为弃权。\p现在将同行宝可梦归还给您。$"
+	.string ""
+	.string ""
 
 BugContest_Text_TimesUp:
-	.string "Ding-dong! Time's up!$"
+	.string "叮咚！时间到！$"
 
 BugContest_Text_WhiteOut:
-	.string "{PLAYER} is out of useable Pokémon.\n"
-	.string "{PLAYER} forfeited the contest.$"
+	.string "{PLAYER}没有能战斗的宝可梦了。\n{PLAYER}退出了大赛。$"
+	.string ""
 
 BugContest_Text_First1:
-	.string "Placing third is the Cooltrainer\n"
-	.string "Belinda, who caught a wriggling\l"
-	.string "Butterfree!$"
+	.string "第3名是精英训练家贝琳达，\n捉到的是一只扭来扭去的\l巴大蝶！$"
+	.string ""
+	.string ""
 BugContest_Text_First2:
-	.string "Placing second is the Bugcatcher\n"
-	.string "Shaun, who caught a writhing\l"
-	.string "Pinsir!$"
+	.string "第2名是捕虫少年肖恩，\n捉到的是一只扭动不停的\l凯罗斯！$"
+	.string ""
+	.string ""
 BugContest_Text_First3:
-	.string "This Bug-Catching Contest Winner\n"
-	.string "is...\p"
-	.string "{PLAYER}, who caught a whopping\n"
-	.string "{STR_VAR_1}!$"
+	.string "本届捕虫大赛的优胜者是……\p{PLAYER}！\n捉到了个头惊人的{STR_VAR_1}！$"
+	.string ""
+	.string ""
+	.string ""
 
 BugContest_Text_Second1:
-	.string "Placing second is the Cooltrainer\n"
-	.string "Belinda, who caught a wriggling\l"
-	.string "Butterfree!$"
+	.string "第3名是精英训练家贝琳达，\n捉到的是一只扭来扭去的\l巴大蝶！$"
+	.string ""
+	.string ""
 BugContest_Text_Second2:
-	.string "Placing second is {PLAYER}, who\n"
-	.string "caught a writhing {STR_VAR_1}!$"
+	.string "第2名是{PLAYER}，\n捉到了扭动不停的{STR_VAR_1}！$"
+	.string ""
 BugContest_Text_Second3:
-	.string "This Bug-Catching Contest Winner\n"
-	.string "is...\p"
-	.string "Bugcatcher Shaun, who caught a\n"
-	.string "whopping Pinsir!$"
+	.string "本届捕虫大赛的优胜者是……\p捕虫少年肖恩！\n捉到了个头惊人的凯罗斯！$"
+	.string ""
+	.string ""
+	.string ""
 
 
 BugContest_Text_Third1:
-	.string "Placing third is {PLAYER}, who\n"
-	.string "caught a wriggling {STR_VAR_1}!$"
+	.string "第3名是{PLAYER}，\n捉到了扭来扭去的{STR_VAR_1}！$"
+	.string ""
 BugContest_Text_Third2:
-	.string "Placing second is the Cooltrainer\n"
-	.string "Belinda, who caught a writhing\l"
-	.string "Butterfree!$"
+	.string "第2名是精英训练家贝琳达，\n捉到的是一只扭动不停的\l巴大蝶！$"
+	.string ""
+	.string ""
 BugContest_Text_Third3:
-	.string "This Bug-Catching Contest Winner\n"
-	.string "is...\p"
-	.string "Bugcatcher Shaun, who caught a\n"
-	.string "whopping Pinsir!$"
+	.string "本届捕虫大赛的优胜者是……\p捕虫少年肖恩！\n捉到了个头惊人的凯罗斯！$"
+	.string ""
+	.string ""
+	.string ""
 
 BugContest_Text_TakePartInFuture:
-	.string "Thank you for participating!\n"
-	.string "We hope you'll take part in the\l"
-	.string "future.$"
+	.string "感谢您的参与！\n欢迎您今后\l再次参加大赛。$"
+	.string ""
+	.string ""
 
 BugContest_Text_TransferAndReturn:
-	.string "Your chosen Bug Pokémon will now\n"
-	.string "be sent to the PC and your party\l"
-	.string "will be returned to you.$"
+	.string "您选择的虫属性宝可梦\n将传送到电脑中，\l同行宝可梦会归还给您。$"
+	.string ""
+	.string ""
 
 BugContest_Text_FirstPlaceRewardPrompt:
-	.string "As the winner, you may choose one\n"
-	.string "special prize.$"
+	.string "作为优胜者，\n您可以选择1件特别奖品。$"
+	.string ""
 
 BugContest_Text_SecondPlaceRewardPrompt:
-	.string "For second place, please choose\n"
-	.string "one of these stones.$"
+	.string "作为第2名的奖品，\n请从这些石头中选择1个。$"
+	.string ""
 
 BugContest_Text_FirstRewardMoonStone:
-	.string "Moon Stone$"
+	.string "月之石$"
 
 BugContest_Text_FirstRewardSunStone:
-	.string "Sun Stone$"
+	.string "日之石$"
 
 BugContest_Text_FirstRewardLeafStone:
-	.string "Leaf Stone$"
+	.string "叶之石$"
 
 BugContest_Text_FirstRewardDawnStone:
-	.string "Dawn Stone$"
+	.string "觉醒之石$"
 
 BugContest_Text_FirstRewardShinyStone:
-	.string "Shiny Stone$"
+	.string "光之石$"
 
 BugContest_Text_FirstRewardIceStone:
-	.string "Ice Stone$"
+	.string "冰之石$"
 
 BugContest_Text_FirstRewardDuskStone:
-	.string "Dusk Stone$"
+	.string "暗之石$"
 
 BugContest_Text_SecondRewardFireStone:
-	.string "Fire Stone$"
+	.string "火之石$"
 
 BugContest_Text_SecondRewardThunderStone:
-	.string "Thunder Stone$"
+	.string "雷之石$"
 
 BugContest_Text_SecondRewardWaterStone:
-	.string "Water Stone$"
+	.string "水之石$"

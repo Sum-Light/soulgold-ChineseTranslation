@@ -24,15 +24,15 @@ SaffronCity_EventScript_BaobaCall::
 	end
 
 SaffronCity_Text_Baoba:
-	.string "Warden Baoba: {PLAYER}!\p"
-	.string "This is Warden Baoba.\p"
-	.string "I'm calling to tell you that the\n"
-	.string "Safari Zone has expanded again!\p"
-	.string "Finally, my Safari Zone has been\n"
-	.string "fully realized!\p"
-	.string "You remember where it is, right?\p"
-	.string "Just west of Cianwood City!\n"
-	.string "see you soon!$"
+	.string "园长巴奥巴：{PLAYER}！\p我是园长巴奥巴。\p打电话是想告诉你，\n狩猎地带又扩建了！\p我的狩猎地带终于\n大功告成了！\p你还记得在哪儿吧？\p就在湛蓝市西边！\n回头见！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_EventScript_Lass1A::
 	goto_if_set FLAG_RETURNED_MACHINE_PART, SaffronCity_EventScript_Lass1B
@@ -109,92 +109,92 @@ SaffronCity_EventScript_Elli::
 	end
 
 SaffronCity_Text_Elli:
-	.string "I love Vulpix! :D$"
+	.string "我最喜欢六尾了！$"
 
 SaffronCity_Text_Lass1:
-	.string "A little girl who is an expert at\n"
-	.string "mimicking people lives here.\p"
-	.string "She even mimics the people she's\n"
-	.string "conversing with. It's confusing.$"
+	.string "这里住着一个小女孩，\n最会模仿别人。\p连跟她说话的人\n她都要模仿。真让人糊涂。$"
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_Text_Lass1_ReturnedPart:
-	.string "The Copycat girl looked unhappy.\p"
-	.string "She said she lost her favorite\n"
-	.string "Poké Doll--Clefairy.$"
+	.string "模仿少女好像心事重重。\p她说她最喜欢的皮皮玩偶\n弄丢了。$"
+	.string ""
+	.string ""
 
 SaffronCity_Text_PokefanM:
-	.string "You came out from Johto?\p"
-	.string "You can zip back home if the\n"
-	.string "Magnet Train's running.$"
+	.string "你是从城都来的？\p要是磁浮列车通车了，\n你眨眼的工夫就能回家。$"
+	.string ""
+	.string ""
 
 SaffronCity_Text_PokefanM_ReturnedPart:
-	.string "You came out from Johto?\p"
-	.string "You can zip back home by hopping\n"
-	.string "on the Magnet Train.$"
+	.string "你是从城都来的？\p坐上磁浮列车，\n一眨眼就能回家了。$"
+	.string ""
+	.string ""
 
 SaffronCity_Text_CooltrainerM:
-	.string "I went to the Gym, raring for\n"
-	.string "battles against trainers…\p"
-	.string "It turns out, I stumbled into the\n"
-	.string "unused Gym next door.\p"
-	.string "Boy, I was pretty embarrassed.$"
+	.string "我兴冲冲地去了道馆，\n准备跟训练家们对战……\p结果一头走进了隔壁\n那个废弃不用的道馆。\p唉，可把我羞死了。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_Text_CooltrainerF:
-	.string "This is Silph Co., famous for\n"
-	.string "Pokémon merchandise.\p"
-	.string "In the past, Team Rocket wanted\n"
-	.string "the company because of that.$"
+	.string "这里是以宝可梦商品闻名的\n西尔佛公司。\p正因为如此，火箭队\n以前才盯上了这家公司。$"
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_Text_Fisher:
-	.string "Chew… Chew…\p"
-	.string "I hear there's big trouble brewing\n"
-	.string "at the Power Plant.\p"
-	.string "Chew… Chew…$"
+	.string "嚼……嚼……\p听说无人发电厂\n要出大乱子了。\p嚼……嚼……$"
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_Text_Fisher_ReturnedPart:
-	.string "Chew… Chew…\p"
-	.string "I hear there was big trouble at the\n"
-	.string "Power Plant.\p"
-	.string "Chew… Chew… Haaah, I'm full!$"
+	.string "嚼……嚼……\p听说无人发电厂\n出过大乱子。\p嚼……嚼……哈啊，吃饱了！$"
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_Text_Youngster1:
-	.string "Going into an alley for the first\n"
-	.string "time makes me sorta anxious.$"
+	.string "第一次走进小巷，\n总觉得有点不安。$"
+	.string ""
 
 SaffronCity_Text_Youngster2:
-	.string "There's a place called Trainer\n"
-	.string "House in Viridian where trainers\p"
-	.string "gather from all over the place.$"
+	.string "常青市有个地方叫\n训练家之屋。\p各地的训练家都会\n聚到那里去。$"
+	.string ""
+	.string ""
 
 SaffronCity_Text_Lass2:
-	.string "Our city was featured on a radio\n"
-	.string "program.\p"
-	.string "It's nice to hear praise for your\n"
-	.string "city, but it's a bit embarrassing\l"
-	.string "too.$"
+	.string "我们的城市上过广播节目。\p听到别人夸自己的城市\n当然高兴，\l不过也有点不好意思。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_Text_Sign:
-	.string "Saffron City\p"
-	.string "Shining, Golden Land of Commerce$"
+	.string "金黄市\p闪耀的黄金商业之都$"
+	.string ""
 
 SaffronCity_Text_GymSign:
-	.string "Saffron City\n"
-	.string "Pokémon Gym\l"
-	.string "Leader: Sabrina\p"
-	.string "The Master of Psychic Pokémon!$"
+	.string "金黄市\n宝可梦道馆\l馆主：娜姿\p超能力宝可梦的大师！$"
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_Text_FightingDojoSign:
-	.string "Everyone Welcome!\n"
-	.string "Fighting Dojo$"
+	.string "欢迎所有人！\n格斗道场$"
+	.string ""
 
 SaffronCity_Text_SilphCoSign:
-	.string "Silph Co.\n"
-	.string "Office Building$"
+	.string "西尔佛公司\n办公大楼$"
+	.string ""
 
 SaffronCity_Text_MrPsychicHouseSign:
-	.string "Mr.Psychic's\n"
-	.string "House$"
+	.string "超能力大叔的家$"
+	.string ""
 
 SaffronCity_Text_MagnetTrainStationSign:
-	.string "Saffron City\n"
-	.string "Magnet Train Station$"
+	.string "金黄市\n磁浮列车车站$"
+	.string ""

@@ -23,21 +23,21 @@ LakeOfRage_House1_EventScript_HiddenPowerGuyAfter::
 	end
 
 HiddenPowerGuy_Text_Intro:
-    .string "…You have strayed far…\p"
-    .string "Here I have meditated. Inside me,\n"
-    .string "a new power has been awakened.\p"
-    .string "Let me share my power with your\n"
-    .string "Pokémon. Take this, child.$"
+    .string "……你远道而来……\p我在此地冥想。在我体内，\n有新的力量觉醒了。\p让我把这力量分给你的宝可梦。\n孩子，收下这个。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 HiddenPowerGuy_Text_Explanation:
-    .string "Do you see it? It is Hidden Power!\p"
-    .string "It draws out the power of Pokémon\n"
-    .string "for attacking.\p"
-    .string "Remember this: its type and power\n"
-    .string "depend on the Pokémon using it.$"
+    .string "看见了吗？这就是觉醒力量！\p它能引出宝可梦的力量\n来发动攻击。\p记住：它的属性和威力，\n取决于使用它的宝可梦。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 HiddenPowerGuy_Text_Meditating:
-    .string "I am meditating…$"
+    .string "我正在冥想……$"
 
 LakeOfRageMystic_CresseliaQuest::
 	compare VAR_POSTGAME_RIVAL_LEGENDARYQ, 2
@@ -61,22 +61,10 @@ LakeOfRageMystic_CresseliaQuest_5:
 
 
 LakeOfRageMystic_CresseliaQuest_Text_0:
-	.string "Perhaps there is a hidden trail among\n"
-	.string "the trees if you look carefully enough.$"
+	.string "仔细找找的话，树木之间\n也许有一条隐秘的小径。$"
 
 LakeOfRageMystic_CresseliaQuest_Text_1:
-	.string "I am meditating...$"
+	.string "我正在冥想……$"
 
 LakeOfRageMystic_CresseliaQuest_Text_2:
-	.string "Hmm? \n"
-	.string "You wish to know about Cresselia?\p"
-	.string "Fascinating. \p"
-	.string "It is quite rare for someone seek me\n"
-	.string "for knowledge willingly.\p"
-	.string "I have indeed seen the creature in\n"
-	.string "question, basking in the bright\l"
-	.string "moonlight on a rare occasion.\p"
-	.string "Then it vanishes into the far corners \n"
-	.string "of the lake when spotted!\p"
-	.string "Perhaps there is a hidden trail among\n"
-	.string "the trees if you look carefully enough.$"
+	.string "嗯？\n你想知道克雷色利亚的事？\p有意思。\p会主动向我求教的人\n实在少见。\p我确实见过那头生物，\n在难得的夜晚，\l它沐浴着皎洁的月光。\p可一旦被发现，它就会消失在\n湖泊远方的角落！\p仔细找找的话，树木之间\n也许有一条隐秘的小径。$"

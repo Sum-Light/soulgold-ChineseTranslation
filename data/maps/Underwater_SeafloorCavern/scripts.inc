@@ -41,10 +41,10 @@ Underwater_SeafloorCavern_EventScript_CheckStolenSub::
 	end
 
 Underwater_SeafloorCavern_Text_SubExplorer1:
-	.string "“Submarine Explorer 1” is painted\n"
-	.string "on the hull.\p"
-	.string "This is the submarine Team Aqua\n"
-	.string "stole in Slateport!\p"
-	.string "Team Aqua must have gone\n"
-	.string "ashore here.$"
+	.string "船体上涂着“海渊1号潜艇”\n的字样。\p这就是那艘海洋队从凯那市\n偷走的潜水艇！\p海洋队一定是在\n这里靠岸的。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 

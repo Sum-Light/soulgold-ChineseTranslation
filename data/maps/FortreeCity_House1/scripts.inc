@@ -41,38 +41,38 @@ FortreeCity_House1_EventScript_Zigzagoon::
 	end
 
 FortreeCity_House1_Text_YouWillTradeWontYou:
-	.string "Wrooooaaar! I need it!\n"
-	.string "I have to get me a {STR_VAR_1}!\l"
-	.string "I'll do anything for it!\p"
-	.string "…Uh… Did you hear that?\n"
-	.string "My shout from the bottom of my heart?\p"
-	.string "Having heard that, you will trade\n"
-	.string "your {STR_VAR_1} for my {STR_VAR_2},\l"
-	.string "won't you?$"
+	.string "唔啊啊啊！我想要！\n我想要只{STR_VAR_1}！\l我会拼尽全力找到它的！\p……呃……被你听到了吗？\n被你听到了我那发自内心的呼喊？\p既然听见了，就用{STR_VAR_1}\n来换我的{STR_VAR_2}吧，\l好吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 FortreeCity_House1_Text_MonYouTakeCare:
-	.string "Oh, yeah, right on!\p"
-	.string "{STR_VAR_1}, welcome!\n"
-	.string "{STR_VAR_2}, you take care!$"
+	.string "哦，耶，对！\p欢迎，{STR_VAR_1}！\n你要照顾好{STR_VAR_2}！$"
+	.string ""
+	.string ""
 
 FortreeCity_House1_Text_ThisIsntAMon:
-	.string "Uh, no, I don't think so.\n"
-	.string "That isn't a {STR_VAR_1}.$"
+	.string "呃，不，\n我想这不是{STR_VAR_1}。$"
+	.string ""
 
 FortreeCity_House1_Text_YouWontTradeMe:
-	.string "No? You won't trade me?\n"
-	.string "Even after I bared my heart to you?$"
+	.string "不？你不跟我换？\n即使你看到了我的真心也不肯换？$"
+	.string ""
 
 FortreeCity_House1_Text_GoingToMakeVolbeatStrong:
-	.string "I'm going to make Volbeat super\n"
-	.string "strong from this moment on!\p"
-	.string "I hope you do the same with Plusle!$"
+	.string "从现在开始，我要把甜甜萤\n养得壮壮的！\p你也要善待正电拍拍啊！$"
+	.string ""
+	.string ""
 
 FortreeCity_House1_Text_TradingMemoriesWithOthers:
-	.string "Trading Pokémon with others…\p"
-	.string "It's as if you're trading your own\n"
-	.string "memories with other people.$"
+	.string "和别人交换宝可梦……\p就像跟别人交换\n自己的记忆一样。$"
+	.string ""
+	.string ""
 
 FortreeCity_House1_Text_Zigzagoon:
-	.string "Zigzagoon: Gumomoh?$"
+	.string "蛇纹熊：咕莫莫？$"
 

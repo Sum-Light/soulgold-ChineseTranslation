@@ -219,68 +219,31 @@ AchievementGuy_Reward100::
 
 
 AchievementGuy_Text_0:
-	.string "I've achieved many things in my life.\n"
-	.string "Now, I want to see what the younger\l"
-	.string "generation can do.\p"
-	.string "Let me have a closer look at you...$"
+	.string "我这辈子已经取得了很多成就。\n现在，我想看看年轻一代\l能做些什么。\p让我好好看看你……$"
 
 AchievementGuy_Text_1:
-	.string "You've achieved everything possible!\n"
-	.string "There is nothing further I could bestow\l"
-	.string "upon you, true master of Pokémon.$"
+	.string "你已经取得了全部成就！\n我再没有什么可以授予你了，\l真正的宝可梦大师。$"
 
 AchievementGuy_Text_2:
-	.string "Hmm... \n"
-	.string "You've achieved {STR_VAR_1} things \l"
-	.string "so far!\p"
-	.string "If you were to achieve {STR_VAR_2} more\n"
-	.string "things, I might have something for you!$"
+	.string "嗯……\n你目前为止已经取得了\l{STR_VAR_1}项成就！\p再取得{STR_VAR_2}项成就，\n我或许就有东西给你了！$"
 
 keepUpTheGoodWork_Text_0:
-	.string "Never stop reaching for greater\n"
-	.string "heights. I look forward to\l"
-	.string "seeing what you will do next.$"
+	.string "永远不要停止向更高处攀登。\n我期待着看到你\l接下来会做些什么。$"
 
 AchievementGuy_Reward15_Text_0:
-	.string "Hmm! \p"
-	.string "You have at least {STR_VAR_1} \n"
-	.string "achievements under your belt! \p"
-	.string "A great start! I will bestow you this\n"
-	.string "as a reward!$"
+	.string "嗯！\p你至少已经取得了\n{STR_VAR_1}项成就！\p开局不错！这个就作为奖励\n授予你吧！$"
 
 AchievementGuy_Reward30_Text_0:
-	.string "Excellent! \p"
-	.string "You've achieved {STR_VAR_1}\n"
-	.string "things and reached the next step\l"
-	.string "on your journey! \p"
-	.string "I have something nice for you!$"
+	.string "太出色了！\p你已经取得了{STR_VAR_1}项成就，\n在旅程中又迈进了\l新的一步！\p我有件好东西给你！$"
 
 AchievementGuy_Reward45_Text_0:
-	.string "Superb! \p"
-	.string "You've achieved {STR_VAR_1}\n"
-	.string "things and reached the next\l"
-	.string "milestone!\p"
-	.string "I have something nice for you!$"
+	.string "太棒了！\p你已经取得了{STR_VAR_1}项成就，\n抵达了下一个\l里程碑！\p我有件好东西给你！$"
 
 AchievementGuy_Reward60_Text_0:
-	.string "Woah! You've achieved {STR_VAR_1}\n"
-	.string "things and are known around\l"
-	.string "the Johto!\p"
-	.string "I have something for you\n"
-	.string "to commemorate this achievement!$"
+	.string "哇！你已经取得了\n{STR_VAR_1}项成就，\l在城都地区也小有名气了！\p我有样东西给你，\n纪念这份成就！$"
 
 AchievementGuy_Reward75_Text_0:
-	.string "Incredible! \p"
-	.string "You've achieved {STR_VAR_1}\n"
-	.string "things and reached the next\l"
-	.string "milestone!\p"
-	.string "Another reward just for you!$"
+	.string "难以置信！\p你已经取得了{STR_VAR_1}项成就，\n抵达了下一个\l里程碑！\p这是专门给你的另一份奖励！$"
 
 AchievementGuy_Reward100_Text_0:
-	.string "Amazing! \p"
-	.string "You've achieved {STR_VAR_1}\n"
-	.string "things and reached my final\l"
-	.string "milestone!\p"
-	.string "These items are the only thing\n"
-	.string "left to give. I have nothing\l"
-	.string "further for you!$"
+	.string "了不起！\p你已经取得了{STR_VAR_1}项成就，\n抵达了我最后的\l里程碑！\p这些是我最后能给你的东西，\n再没有别的了！$"

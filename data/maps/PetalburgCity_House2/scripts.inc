@@ -10,15 +10,15 @@ PetalburgCity_House2_EventScript_SchoolKid::
 	end
 
 PetalburgCity_House2_Text_NormanBecameGymLeader:
-	.string "Norman became our town's new\n"
-	.string "Gym Leader.\p"
-	.string "I think he called his family over from\n"
-	.string "somewhere far away.$"
+	.string "千里是城镇里新来的\n道馆馆主，\p他带着全家从很远的\n地方搬过来了。$"
+	.string ""
+	.string ""
+	.string ""
 
 PetalburgCity_House2_Text_BattledNormanOnce:
-	.string "I battled Norman once, but, whew,\n"
-	.string "he was way too strong.\p"
-	.string "How would I put it?\p"
-	.string "I just got the feeling that he\n"
-	.string "lives for Pokémon.$"
+	.string "我曾经挑战过千里，\n但是，唉，他太强了。\p怎么说呢？\p我感觉他是\n为宝可梦而生的。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 

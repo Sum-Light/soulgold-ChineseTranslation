@@ -29,15 +29,15 @@ CeruleanCity_House3_EventScript_Zubat::
 	end
 
 CeruleanHouse_Text_Granny:
-	.string "My husband lives happily with\n"
-	.string "Pokémon he got through trades.$"
+	.string "我丈夫和他交换来的\n宝可梦一起生活得很幸福。$"
+	.string ""
 
 CeruleanHouse_Text_Gramps:
-	.string "Ah… I'm so happy…$"
+	.string "啊……我真幸福……$"
 
 CeruleanHouse_Text_Kangaskhan:
-	.string "Kangaskhan: Garu garuu.$"
+	.string "袋兽：嘎噜嘎噜。$"
 
 CeruleanHouse_Text_Zubat:
-	.string "Zubat: Zuba zubaa.$"
+	.string "超音蝠：兹巴兹巴。$"
 

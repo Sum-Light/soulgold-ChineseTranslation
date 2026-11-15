@@ -3,10 +3,10 @@ mapscripts Route49DesertGate_MapScripts {}
 script Route49GateJoy {
     lock
     faceplayer
-    msgbox("Hi! Let me heal your Pokémon!")
+    msgbox("您好！我来为您治疗宝可梦！")
     playse(SE_USE_ITEM)
     special(HealPlayerParty)
-    msgbox("Done! All good to go!")
+    msgbox("好了！全都恢复精神了！")
     release
     end
 }

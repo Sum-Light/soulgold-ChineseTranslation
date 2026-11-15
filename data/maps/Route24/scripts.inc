@@ -120,59 +120,59 @@ Route24_Movement_GruntLeave:
 	step_end
 
 Route24_Text_RocketSeen:
-	.string "Hey, kid! Me am a Team Rocket\n"
-	.string "member kind of guy!\p"
-	.string "Come from another country, a\n"
-	.string "trainer number one, me!\p"
-	.string "Think I did, if stop the energy,\n"
-	.string "be big panic for here people!\p"
-	.string "Secret it is my mission, so tell\n"
-	.string "you I not!\p"
-	.string "But! If win you do versus me, a\n"
-	.string "man I be and mine secret to you\l"
-	.string "I tell.\p"
-	.string "Hey, kid! Battle begin we do!$"
+	.string "嘿，小家伙！火箭队的人，\n我是！\p从别国来的，\n第一的训练家，我！\p我想，电停下，\n这里的人，大恐慌！\p秘密的任务，我有，\n所以告诉你，我不！\p但是！对战赢了我，\n说话算话，我，秘密\l全告诉你！\p嘿，小家伙！对战，开始，我们！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route24_Text_RocketBeaten:
-	.string "Ayieeeh! No, no, no, believe it\n"
-	.string "I can't!\p"
-	.string "Strong very much be you! Match\n"
-	.string "I am not to you!$"
+	.string "哇呀呀！不，不，不，\n信不了，我！\p你，非常强！\n不是对手，我！$"
+	.string ""
+	.string ""
+	.string ""
 
 Route24_Text_RocketAfter:
-	.string "Ok. Tell you mine secret will I\n"
-	.string "Machine Part steal by me, hide it\l"
-	.string "I did in Gym of the Cerulean.\p"
-	.string "Inside water put it I did. Look\n"
-	.string "for in water center of Gym at.\p"
-	.string "But you forget me not!\p"
-	.string "Beat you for sure will Team\n"
-	.string "Rocket.\p"
-	.string "Come from Johto will they, mine\n"
-	.string "friends, yes. Will revenge they\l"
-	.string "are.$"
+	.string "好。秘密，告诉你，我。\n机械零件，偷了，藏起来\l在华蓝道馆。\p水里面，放了。\n道馆的水中央，找吧。\p但是，忘了我，不行！\p火箭队，一定赢你，\n肯定的。\p城都的同伙，会来的，\n我的伙伴，是的。报复，\l他们会的。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route24_Text_RocketDisappears:
-	.string "…\p"
-	.string "You say what? Team Rocket bye-\n"
-	.string "bye a go-go? Broken it is says\l"
-	.string "you?\p"
-	.string "Oh, no! Should I do what now on\n"
-	.string "from, me?$"
+	.string "……\p你说什么？火箭队，\n拜拜没了吗？坏了，\l你说？\p哦，不！怎么办，现在，\n我？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 
 
 Route24_Text_Woman:
-	.string "Isn't it a lovely view?$"
+	.string "景色真美啊。$"
 Route24_Text_Man:
-	.string "I could stay here all day.$"
+	.string "我可以在这儿待一整天。$"
 
 Route24_Text_WomanRocket:
-	.string "Nobody pushes me!$"
+	.string "谁也别推我！$"
 Route24_Text_ManRocket:
-	.string "Nobody pushes my girlfriend!$"
+	.string "谁也别推我女朋友！$"
 
 Route24_Text_WomanAfterRocket:
-	.string "What was that all about?$"
+	.string "刚才那到底是怎么回事？$"
 Route24_Text_ManAfterRocket:
-	.string "Was that a Rocket?$"
+	.string "刚才那是火箭队的人吗？$"

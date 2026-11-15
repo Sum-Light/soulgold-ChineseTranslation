@@ -24,14 +24,10 @@ RintoPC_Hiker::
 
 
 RintoPC_Gbakid1_Text_0:
-	.string "I wish I could fight against my friends\n"
-	.string "around the globe.$"
+	.string "真想和世界各地的朋友们\n一较高下啊。$"
 
 RintoPC_Battlegirl_Text_0:
-	.string "The sandstorms make travelling into\n"
-	.string "this village difficult at times.$"
+	.string "沙尘暴有时\n会让进出这座村庄变得困难。$"
 
 RintoPC_Hiker_Text_0:
-	.string "I heard that an unusual looking pair of\n"
-	.string "flying Pokémon have been spotted\l"
-	.string "nearby.$"
+	.string "听说最近有人在这一带\n看到了模样古怪的\l一对飞行宝可梦。$"

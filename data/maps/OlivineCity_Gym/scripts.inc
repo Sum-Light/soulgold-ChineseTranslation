@@ -76,17 +76,17 @@ OlivineCity_Gym_EventScript_MoveLeft4::
 	return
 
 OlivineCity_Gym_Text_Gent:
-	.string "I knew you'd come here.\p"
-	.string "Thank you for helping the Gym Leader,\n"
-	.string "but battle is a separate matter.\p"
-	.string "Go for it!$"
+	.string "我就知道你会来。\p谢谢你帮了道馆馆主，\n不过对战是另一回事。\p来吧！$"
+	.string ""
+	.string ""
+	.string ""
 
 OlivineCity_Gym_Text_Gent2:
-	.string "Impressive!\n"
-	.string "You should continue your journey to\n"
-	.string "different places.\p"
-	.string "Since you can use Surf, why don't you\n"
-	.string "try it on the Lake Of Rage?$"
+	.string "真厉害！\n你应该继续去各地旅行。\p既然你会用冲浪，\n何不去愤怒之湖试试？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OlivineCity_Gym_EventScript_Lass::
 	lock
@@ -159,17 +159,17 @@ OlivineCity_Gym_EventScript_MoveRight4::
 	return
 
 OlivineCity_Gym_Text_Lass:
-	.string "Giggle...\n"
-	.string "I know how capable you are\l"
-	.string "from the Lighthouse.\p"
-	.string "It's time you showed that side of\n"
-	.string "yourself to Jasmine! Good luck!$"
+	.string "呵呵……\n你在浅葱灯塔的表现，\l我可是很清楚的。\p是时候让阿蜜见识见识\n你的本事了！加油！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OlivineCity_Gym_Text_Lass2:
-	.string "You are amazing...\n"
-	.string "You should aim even higher, since\l"
-	.string "you have such potential.\p"
-	.string "Have you been to Mahogany Town?$"
+	.string "你真了不起……\n既然有这份潜力，就该把目标\l定得更高。\p你去过卡吉镇吗？$"
+	.string ""
+	.string ""
+	.string ""
 
 OlivineCity_Gym_EventScript_GymGuide::
 	lock
@@ -194,33 +194,33 @@ OlivineCity_Gym_EventScript_GymGuideAfter::
 	end
 
 OlivineCity_Gym_Text_GymGuideText:
-	.string "Jasmine uses the newly discovered\n"
-	.string "Steel-type.\p"
-	.string "She's known for having not one,\n"
-	.string "but two aces.\p"
-	.string "The first is a metal bug that can\n"
-	.string "use a technique to boost its Attack.\p"
-	.string "While fire will hurt it, it can\n"
-	.string "sometimes endure powerful blows.\p"
-	.string "The second is a giant iron snake\n"
-	.string "with lots of powerful moves.\p"
-	.string "Approach it with caution.\p"
-	.string "It may look slow, but I've seen it\n"
-	.string "strike first with shocking displays\l"
-	.string "of Speed.$"
+	.string "阿蜜使用的是最近才\n发现的钢属性。\p她据说拥有两张王牌，\n而不是一张。\p第一张是能使用招式提升\n攻击的金属虫子。\p火属性招式对它很有效，\n但它有时能扛住强力攻击。\p第二张是条巨大的铁蛇，\n会许多强力的招式。\p对付它要小心。\p它看起来很慢，但我见过它\n以惊人的速度抢先出手，\l那真是令人震惊。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OlivineCity_Gym_Text_GymGuideWinText:
-	.string "That was awesome.\p"
-	.string "The Steel-type, huh?\p"
-	.string "That was a close encounter of an\n"
-	.string "unknown kind!$"
+	.string "太精彩了。\p钢属性，果然不一般。\p那真是一次前所未有的\n近距离接触！$"
+	.string ""
+	.string ""
+	.string ""
 
 OlivineCity_Gym_Text_GymGuidePreText:
-	.string "Jasmine, the Gym Leader, is at the\n"
-	.string "Lighthouse.\p"
-	.string "She's been tending to a sick Pokémon.\p"
-	.string "A strong trainer has to be\n"
-	.string "compassionate.$"
+	.string "道馆馆主阿蜜现在在\n浅葱灯塔。\p她一直在照顾一只生病的宝可梦。\p强大的训练家，也必须\n有一颗体贴的心。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OlivineCity_Gym_EventScript_Jasmine::
 	lock
@@ -289,47 +289,47 @@ OlivineCity_Gym_EventScript_Jasmine_Defeated::
 
 
 OlivineCity_Gym_Text_JasmineSteelTypeIntro:
-	.string "…Thank you for your help at the\n"
-	.string "Lighthouse…\p"
-	.string "But this is different.\n"
-	.string "Please allow me to introduce myself.\p"
-	.string "I am Jasmine, a Gym Leader.\n"
-	.string "I use the Steel-type.\p"
-	.string "…Do you know about the Steel-type?\p"
-	.string "It's a type that was only recently\n"
-	.string "discovered.\p"
-	.string "…Um… May I begin?$"
+	.string "……浅葱灯塔的事，\n谢谢你了……\p不过这是两回事。\n请让我先自我介绍一下。\p我是道馆馆主阿蜜。\n我使用的是钢属性。\p……你知道钢属性吗？\p那是最近才被发现的\n属性。\p……那个……可以开始了吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OlivineCity_Gym_Text_JasmineBetterTrainer:
-	.string "…You are a better trainer than me,\n"
-	.string "in both skill and kindness.\p"
-	.string "In accordance with League rules,\n"
-	.string "I confer upon you this Badge.$"
+	.string "……无论是实力还是善良，\n你都比我更优秀。\p按照联盟的规定，\n我把这枚徽章授予你。$"
+	.string ""
+	.string ""
+	.string ""
 
 OlivineCity_Gym_Text_ReceivedMineralBadge:
-	.string "{PLAYER} received Mineralbadge.$"
+	.string "{PLAYER}得到了钢铁徽章。$"
 
 OlivineCity_Gym_Text_JasmineBadgeSpeech:
-	.string "…Um… Please take this too…$"
+	.string "……那个……这个也请收下……$"
 
 OlivineCity_Gym_Text_JasmineIronTailSpeech:
-	.string "…You could use that TM to teach\n"
-	.string "Flash Cannon.$"
+	.string "……你可以用这个招式学习器\n让宝可梦学会加农光炮。$"
+	.string ""
 
 OlivineCity_Gym_Text_JasmineGoodLuck:
-	.string "Um… I don't know how to say this,\n"
-	.string "but good luck…$"
+	.string "那个……我不知道该怎么说，\n不过，祝你好运……$"
+	.string ""
 
 OlivineCity_Gym_Text_JasmineRematchText:
-	.string "…Congratulations, Johto Champion.\p"
-	.string "You have become so strong…\p"
-	.string "I wonder if I have improved.\p"
-	.string "Would you like to test that?\p"
-	.string "Want to have a rematch with me?$"
+	.string "……恭喜你，城都的冠军。\p你已经变得这么强了……\p不知道我有没有进步。\p你想试试看吗？\p要不要再和我对战一场？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OlivineCity_Gym_Text_JasmineRematchDefeatText:
-	.string "…You are a better trainer than me,\n"
-	.string "in both skill and kindness.$"
+	.string "……无论是实力还是善良，\n你都比我更优秀。$"
+	.string ""
 
 OlivineCity_Gym_EventScript_Statue::
 	lock
@@ -346,12 +346,12 @@ OlivineCity_Gym_EventScript_Statue2::
 	end
 
 OlivineCity_Gym_Text_GymStatue:
-	.string "Olivine City Pokémon Gym$"
+	.string "浅葱市宝可梦道馆$"
 
 OlivineCity_Gym_Text_GymStatueCertified:
-	.string "Olivine City Pokémon Gym\p"
-	.string "Jasmine's Certified Trainers:\n"
-	.string "{PLAYER}$"
+	.string "浅葱市宝可梦道馆\p阿蜜认证训练家：\n{PLAYER}$"
+	.string ""
+	.string ""
 
 OlivineCity_Gym_EventScript_Steelix::
 	playmoncry SPECIES_STEELIX, CRY_MODE_NORMAL
@@ -360,4 +360,4 @@ OlivineCity_Gym_EventScript_Steelix::
 
 
 OlivineCity_Gym_EventScript_Steelix_Text_0:
-	.string "Steel!!$"
+	.string "钢！！$"

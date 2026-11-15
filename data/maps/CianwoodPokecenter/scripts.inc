@@ -31,14 +31,14 @@ CianwoodPokemoncenter_EventScript_FisherGiveTentacool::
 	end
 
 CianwoodPokemoncenter_Text_Fisher1:
-	.string "As far as water Pokémon go,\n"
-	.string "tentacool is the best by a nautical\l"
-	.string "mile!$"
+	.string "要说水属性的宝可梦，\n玛瑙水母绝对第一，\l领先整整一海里！$"
+	.string ""
+	.string ""
 
 CianwoodPokemoncenter_Text_Fisher2:
-	.string "You seem like you need a water\n"
-	.string "Pokémon.\p"
-	.string "Here, take this one, I have plenty.$"
+	.string "看来你正需要一只\n水属性的宝可梦。\p来，这只给你，\n我还有很多。$"
+	.string ""
+	.string ""
 
 CianwoodPokecenter_EventScript_Lass::
 	lock
@@ -49,9 +49,9 @@ CianwoodPokecenter_EventScript_Lass::
 	end
 
 CianwoodCity_Text_PokecenterLass:
-	.string "Did you meet the Pokémaniac?\p"
-	.string "He's always bragging about his\n"
-	.string "rare Pokémon.$"
+	.string "你见过那位宝可梦狂热迷了吗？\p他总在炫耀自己\n稀有的宝可梦。$"
+	.string ""
+	.string ""
 
 
 CianwoodGym_EventScript_GymGuide::
@@ -70,25 +70,25 @@ CianwoodGym_EventScript_GymGuideAfter::
 	end
 
 CianwoodCity_Text_GymGuide:
-	.string "The Pokémon Gym trainers here are\n"
-	.string "macho bullies.\p"
-	.string "If I stick around, they might\n"
-	.string "come after me.\p"
-	.string "Here's some advice: the Gym Leader\n"
-	.string "uses the Fighting-type.\p"
-	.string "So you should confound him with\n"
-	.string "psychic Pokémon.\p"
-	.string "Wipe out his Pokémon before they\n"
-	.string "can use their physical strength.\p"
-	.string "And those boulders in the middle\n"
-	.string "of the Gym?\p"
-	.string "If you don't move them correctly,\n"
-	.string "you won't reach the Gym Leader.\p"
-	.string "If you get stuck, go outside.$"
+	.string "这里的道馆训练家\n都是粗鲁的莽汉。\p我要是老待在这儿，\n说不定会挨他们揍。\p给你个建议：这里的馆主\n用的是格斗属性。\p所以你应该用超能力宝可梦\n来对付他。\p趁它们还没使出力气，\n先把它们打倒。\p还有道馆正中间的那些巨石呢？\p推移顺序不对的话，\n就到不了馆主那里。\p要是卡住了，就先出去一趟。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CianwoodCity_Text_GymGuideWin:
-	.string "{PLAYER}! You won!\n"
-	.string "I could tell by looking at you!$"
+	.string "{PLAYER}！你赢了！\n光看你的样子我就知道了！$"
+	.string ""
 
 CianwoodPokecenter_EventScript_Nerd::
 	lock
@@ -99,8 +99,8 @@ CianwoodPokecenter_EventScript_Nerd::
 	end
 
 CianwoodCity_Text_PokecenterSuperNerd:
-	.string "I love showing off the Pokémon\n"
-	.string "that I've raised.\p"
-	.string "Don't you?\p"
-	.string "I'm going to get into a bunch of\n"
-	.string "battles, and show off my Pokémon!$"
+	.string "我最爱炫耀自己\n培养的宝可梦了。\p你不也一样吗？\p我要去到处对战，\n好好炫耀我的宝可梦！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""

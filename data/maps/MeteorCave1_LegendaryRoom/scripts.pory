@@ -27,17 +27,15 @@ mapscripts MeteorCave1_LegendaryRoom_MapScripts {
 script MeteorCave1_LegendaryRoom_RagingBoltDoor {
     lock
     if (flag(FLAG_RAGINGDOOR)) {
-        msgbox("The path is open.")
+        msgbox("路已经打开了。")
         release
         end
     }
-    msgbox("There's an inscription on the wall.
-    
-            BRING THUNDER")
+    msgbox("墙上刻着铭文。\p带来雷霆")
     checkspecies(SPECIES_RAIKOU)
     if (var(VAR_RESULT) == FALSE) {
         delay(30)
-        msgbox("Nothing seems to happen.")
+        msgbox("似乎什么也没发生。")
         release
         end
     }
@@ -58,17 +56,15 @@ script MeteorCave1_LegendaryRoom_RagingBoltDoor {
 script MeteorCave1_LegendaryRoom_GougingFireDoor {
     lock
     if (flag(FLAG_GOUGINGDOOR)) {
-        msgbox("The path is open.")
+        msgbox("路已经打开了。")
         release
         end
     }
-    msgbox("There's an inscription on the wall.
-    
-            BRING VOLCANO")
+    msgbox("墙上刻着铭文。\p带来火山")
     checkspecies(SPECIES_ENTEI)
     if (var(VAR_RESULT) == FALSE) {
         delay(30)
-        msgbox("Nothing seems to happen.")
+        msgbox("似乎什么也没发生。")
         release
         end
     }
@@ -89,17 +85,15 @@ script MeteorCave1_LegendaryRoom_GougingFireDoor {
 script MeteorCave1_LegendaryRoom_WalkingWakeDoor {
     lock
     if (flag(FLAG_WALKINGDOOR)) {
-        msgbox("The path is open.")
+        msgbox("路已经打开了。")
         release
         end
     }
-    msgbox("There's an inscription on the wall.
-    
-            BRING AURORA")
+    msgbox("墙上刻着铭文。\p带来极光")
     checkspecies(SPECIES_SUICUNE)
     if (var(VAR_RESULT) == FALSE) {
         delay(30)
-        msgbox("Nothing seems to happen.")
+        msgbox("似乎什么也没发生。")
         release
         end
     }

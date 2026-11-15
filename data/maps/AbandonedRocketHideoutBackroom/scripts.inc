@@ -48,25 +48,10 @@ GenesectEncounter_2:
 
 
 ARH_LaptopBackroom_Text_0:
-	.string "While the laptop no longer has power,\n"
-	.string "there's a small post-it note under it.\p"
-	.string "SUBJECT SHADOW L????\p"
-	.string "The rest of the text has been drenched\n"
-	.string "by what seems to be coffee stains.$"
+	.string "笔记本电脑已经没电了，\n它下面压着一张便利贴。\p实验体：黑暗L????\p其余文字被似乎是\n咖啡渍的痕迹浸透了。$"
 
 ARH_NotesBackroom_Text_0:
-	.string "Log - Emotion Compression Studies\p"
-	.string "By crystallizing energy found from a\n"
-	.string "certain legendary Pokémon, we have\l"
-	.string "managed to create containers for\l"
-	.string "holding strong negative emotions. \p"
-	.string "These can be used like magnets on\n"
-	.string "creatures of high purity to invert\l"
-	.string "their emotions to the opposite end.\p"
-	.string "Further testing will be required to\n"
-	.string "see the long term effects.$"
+	.string "记录——情绪压缩研究\p我们把从某种传说的\n宝可梦身上结晶出的\l能量，制成了能储存\l强烈负面情绪的容器。\p把这些容器用在\n纯净度高的生物身上，\l就能像磁铁一样，\l把它们的情绪逆转\l到相反的一端。\p长期影响还需要\n进一步实验确认。$"
 
 ARH_Strangewall_Text_0:
-	.string "Something about this wall feels off,\n"
-	.string "but there's no visible keyholes or\l"
-	.string "card readers.$"
+	.string "这面墙总感觉哪里不对，\n可看不到钥匙孔，\l也没有读卡器。$"

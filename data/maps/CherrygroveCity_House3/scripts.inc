@@ -18,10 +18,10 @@ CherrygroveCity_House3_EventScript_Girl::
 	end
 
 CherrygroveCity_EvolutionHouse_Text_Youngster:
-	.string "Pokémon gain experience in\n"
-	.string "battle and change their form.$"
+	.string "宝可梦在战斗中积累经验，\n外形也会发生变化。$"
+	.string ""
 
 CherrygroveCity_EvolutionHouse_Text_Lass:
-	.string "Pokémon change?\p"
-	.string "I would be shocked if one did\n"
-	.string "that!$"
+	.string "宝可梦会变化？\p要真是那样，\n我会吓一大跳的！$"
+	.string ""
+	.string ""

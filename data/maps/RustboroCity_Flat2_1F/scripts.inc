@@ -16,9 +16,9 @@ RustboroCity_Flat2_1F_EventScript_Skitty::
 	end
 
 RustboroCity_Flat2_1F_Text_DevonWorkersLiveHere:
-	.string "Devon Corporation's workers live in\n"
-	.string "this building.$"
+	.string "这里是得文公司员工的\n宿舍楼。$"
+	.string ""
 
 RustboroCity_Flat2_1F_Text_Skitty:
-	.string "Skitty: Gyaaaah!$"
+	.string "向尾喵：喵呀呀！$"
 

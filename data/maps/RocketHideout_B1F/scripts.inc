@@ -250,20 +250,20 @@ RocketHideout_B1F_Movement_GruntWalkLeft:
 	step_end
 
 RocketHideout_B1F_Text_CameraGrunt1Seen:
-    .string "Hey!\n"
-    .string "Intruder alert!$"
+    .string "喂！\n有入侵者！$"
+    .string ""
 
 RocketHideout_B1F_Text_CameraGrunt1Beaten:
-    .string "Dang… I failed…$"
+    .string "可恶……我输了……$"
 
 RocketHideout_B1F_Text_CameraGrunt2Seen:
-    .string "It's my turn! There's no escape!$"
+    .string "这次轮到我了！你逃不掉的！$"
 
 RocketHideout_B1F_Text_CameraGrunt2Beaten:
-    .string "Surveillance cams are in the\n"
-    .string "Pokémon statues.\p"
-    .string "We'll keep appearing until you\n"
-    .string "trip a secret switch.$"
+    .string "监视摄像头就藏在\n宝可梦雕像里。\p直到你触动秘密开关为止，\n我们会不断出现。$"
+    .string ""
+    .string ""
+    .string ""
 
 RocketHideout_B1F_EventScript_TrainerJed::
 	trainerbattle_single TRAINER_JED RocketHideout_B1F_Text_ScientistJedSeen, RocketHideout_B1F_Text_ScientistJedBeaten
@@ -271,32 +271,32 @@ RocketHideout_B1F_EventScript_TrainerJed::
 	end
 
 RocketHideout_B1F_Text_ScientistJedSeen:
-    .string "This was once a ninja hideout.\p"
-    .string "There are traps to confound\n"
-    .string "intruders like you.$"
+    .string "这里原本是忍者的藏身处。\p里面布满了用来迷惑\n你这种入侵者的机关。$"
+    .string ""
+    .string ""
 
 RocketHideout_B1F_Text_ScientistJedBeaten:
-    .string "I get it…$"
+    .string "我明白了……$"
 
 RocketHideout_B1F_Text_ScientistJedAfter:
-    .string "All right. I'll divulge a secret\n"
-    .string "about our hideout.\p"
-    .string "That thing on the floor up ahead\n"
-    .string "is a warp panel.\p"
-    .string "If you step on it, you'll be\n"
-    .string "warped back to the entrance.$"
+    .string "好吧。我就把基地的\n一个秘密告诉你。\p前面地上的那个东西\n是传送板。\p踩上去的话，就会被\n传送回入口。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 RocketHideout_B1F_Text_GruntM16Seen:
-    .string "Heheh. Feeling lucky, punk?$"
+    .string "嘿嘿。想试试运气吗，小鬼？$"
 
 RocketHideout_B1F_Text_GruntM16Beaten:
-    .string "Kaboom!$"
+    .string "轰隆！$"
 
 RocketHideout_B1F_Text_GruntM16After:
-    .string "I don't even know where the traps\n"
-    .string "are planted.\p"
-    .string "You'll just have to collect your\n"
-    .string "courage and walk.$"
+    .string "连我都不知道\n陷阱都埋在哪儿。\p你只能鼓起勇气\n自己走过去了。$"
+    .string ""
+    .string ""
+    .string ""
 
 RocketHideout_B1F_EventScript_Rocket16::
 	trainerbattle_single TRAINER_GRUNT_13 RocketHideout_B1F_Text_GruntM16Seen, RocketHideout_B1F_Text_GruntM16Beaten
@@ -308,7 +308,7 @@ RocketHideout_B1F_EventScript_Persian::
 	end
 
 RocketHideout_B1F_Text_SecurityCameraStatue:
-    .string "It's a Persian statue…$"
+    .string "是猫老大的雕像……$"
 
 RocketHideout_B1F_EventScript_DummyPanel::
 	msgbox RocketHideout_B1F_Text_NothingThere, MSGBOX_SIGN
@@ -351,10 +351,10 @@ RocketHideout_B1F_EventScript_TurnOffSwitch::
 	end
 
 RocketHideout_B1F_Text_NothingThere:
-	.string "A strange panel... Nothing here.$"
+	.string "一块奇怪的面板……什么都没有。$"
 
 RocketHideout_B1F_Text_SecretSwitch:
-    .string "A secret switch! Better press it.$"
+    .string "是秘密开关！最好按一下。$"
 
 RocketHideout_B1F_Text_SwitchOff:
-    .string "The switch is turned off.$"
+    .string "开关已经关闭了。$"

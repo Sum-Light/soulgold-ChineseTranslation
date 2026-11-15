@@ -13,7 +13,7 @@ Route28_EventScript_Sign::
 	end
 
 Route28_Text_Sign:
-	.string "Route 28$"
+	.string "28号道路$"
 
 Route28Guard::
 	msgbox Route28Guard_Text_0, MSGBOX_NPC
@@ -21,7 +21,4 @@ Route28Guard::
 
 
 Route28Guard_Text_0:
-	.string "The road beyond leads to the fierce\n"
-	.string "heights of Mt Silver. Only those with\l"
-	.string "explicit permission from the League\l"
-	.string "are allowed to explore further.$"
+	.string "再往前就是险峻的\n白银山了。只有得到联盟\l明确许可的人，\l才能进入那里。$"

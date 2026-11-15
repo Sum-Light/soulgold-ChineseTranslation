@@ -66,18 +66,16 @@ FoggyForestBMOutTeleportR::
 
 
 FoggyForest_HexManiac_Text_0:
-	.string "Heeheehee, are you lost?$"
+	.string "嘻嘻嘻，你迷路了吗？$"
 
 FoggyForest_HexManiac_Text_1:
-	.string "The eyes above are watching.$"
+	.string "天上的眼睛在看着。$"
 
 FoggyForest_HexManiac_Text_2:
-	.string "Bravery or foolishness, which one are\n"
-	.string "you carrying here?$"
+	.string "勇敢，还是愚蠢？\n你身上带着哪一个？$"
 
 FoggyForest_Girl_Text_0:
-	.string "Round and round, all paths lead back\n"
-	.string "here, la la la!$"
+	.string "转啊转啊，所有的路\n都绕回这里，啦啦啦！$"
 
 FoggyForest_Phantump_Text_0:
-	.string "Phantump: Phoo!$"
+	.string "小木灵：噗！$"

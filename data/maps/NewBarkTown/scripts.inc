@@ -229,55 +229,55 @@ NewBarkTown_Movement_FaceDown:
 	step_end
 
 NewBarkTown_Text_LabSign:
-	.string "Prof. Elm's Lab$"
+	.string "空木博士的研究所$"
 
 NewBarkTown_Text_Door:
-	.string "The door is locked.$"
+	.string "门锁上了。$"
 
 NewBarkTown_Text_Wooper:
-	.string "Wooper: Woooooop.$"
+	.string "乌波：呜——啪。$"
 
 NewBarkTown_Text_FatManState2:
-	.string "Wow, your Pokégear is impressive!\n"
-	.string "Did your mom get it for you?$"
+	.string "哇，你的宝可梦装置真不错！\n是妈妈给你买的吗？$"
+	.string ""
 
 NewBarkTown_Text_FatManState3:
-	.string "Yo, {PLAYER}!\p"
-	.string "I hear Prof. Elm discovered\n"
-	.string "some new Pokémon.$"
+	.string "哟，{PLAYER}！\p听说空木博士发现了\n新的宝可梦。$"
+	.string ""
+	.string ""
 
 NewBarkTown_Text_LassState2:
-	.string "Wait, {PLAYER}!\p"
-	.string "It's dangerous to go out\n"
-	.string "without a Pokémon!\p"
-	.string "Wild Pokémon jump out of the grass\n"
-	.string "on the way to the next town.$"
+	.string "等等，{PLAYER}！\p没有宝可梦就出门是很危险的！\p去邻镇的路上，野生的宝可梦\n会从草丛里跳出来。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 NewBarkTown_Text_LassState3:
-	.string "Oh! Your Pokémon is adorable!\n"
-	.string "I wish I had one!$"
+	.string "哎呀！你的宝可梦真可爱！\n我也好想有一只啊！$"
+	.string ""
 
 NewBarkTown_Text_LassState4:
-	.string "Hi, {PLAYER}! Leaving again?\p"
-	.string "You should tell your mom if\n"
-	.string "you are leaving.$"
+	.string "嗨，{PLAYER}！又要出门了？\p要出门的话，\n得先跟妈妈说一声。$"
+	.string ""
+	.string ""
 
 NewBarkTown_Text_LassState5:
-	.string "Call your mom on your Pokégear\n"
-	.string "to let her know how you're doing.$\p"
+	.string "用宝可梦装置给妈妈打个电话，\n让她知道你过得怎么样。$\p"
+	.string ""
 
 NewBarkTown_Text_Silver1:
-	.string ". . .\p"
-	.string "So this is the famous Elm\n"
-	.string "Pokémon Lab…$"
+	.string "…………\p原来这就是大名鼎鼎的\n空木宝可梦研究所……$"
+	.string ""
+	.string ""
 
 NewBarkTown_Text_Silver2:
-	.string "…What are you staring at?$"
+	.string "……你看什么看？$"
 
 NewBarkTown_Text_Sign:
-	.string "New Bark Town\p"
-	.string "The Town Where the Winds of\n"
-	.string "a New Beginning Blow$"
+	.string "若叶镇\p吹拂着全新开始之风的城镇$"
+	.string ""
+	.string ""
 
 NewBarkTown_EventScript_PlayersHouseMailbox::
 	msgbox NewBarkTown_Text_PlayersHouse, MSGBOX_SIGN
@@ -288,10 +288,10 @@ NewBarkTown_EventScript_ElmsHouseMailbox::
 	end
 
 NewBarkTown_Text_PlayersHouse:
-	.string "{PLAYER}'s House$"
+	.string "{PLAYER}的家$"
 
 NewBarkTown_Text_ElmsHouse:
-	.string "Prof. Elm's House$"
+	.string "空木博士的家$"
 
 NewBarkTown_EventScript_RivalIntro::
 	lock
@@ -538,52 +538,34 @@ NewBarkTown_EventScript_RivalBattle_Text_0:
 	.string "{PLAYER}!$"
 
 NewBarkTown_EventScript_RivalBattle_Text_1:
-	.string "So you picked...\n"
-	.string "a {STR_VAR_1}!$"
+	.string "你选的是……\n{STR_VAR_1}啊！$"
 
 NewBarkTown_EventScript_RivalBattle_Text_2:
-	.string "That's a cute Pokémon you have!$"
+	.string "这只宝可梦真可爱！$"
 
 NewBarkTown_EventScript_RivalBattle_Text_3:
-	.string "When you walk with it, it'll become\n"
-	.string "more friendly!$"
+	.string "带着它一起走，\n它会跟你越来越亲近！$"
 
 NewBarkTown_EventScript_RivalBattle_Text_4:
-	.string "You should turn around and talk to it\n"
-	.string "sometimes, too.$"
+	.string "偶尔回头\n和它说说话吧。$"
 
 NewBarkTown_EventScript_RivalBattle_Text_5:
-	.string "Hey, why don't we have a battle?\n"
-	.string "That's what trainers usually do when\l"
-	.string "they meet!$"
+	.string "嘿，我们不来对战一场吗？\n训练家碰面的时候，\l通常都会这么做的！$"
 
 NewBarkTown_EventScript_RivalBattle_Text_6:
-	.string "You did really well, {PLAYER}!$"
+	.string "你打得真不错，{PLAYER}！$"
 
 NewBarkTown_EventScript_RivalBattle_Text_7:
-	.string "That was really fun, and both of our\n"
-	.string "Pokémon did their best!$"
+	.string "真有意思，我们俩的\n宝可梦都拼尽全力了！$"
 
 NewBarkTown_EventScript_RivalBattle_Text_8:
-	.string "You got a task from Elm right?\n"
-	.string "I'll leave you to it then.\l"
-	.string "See ya!$"
+	.string "空木博士交给你任务了吧？\n那我就先不打扰了。\l回见！$"
 
 RivalsMailbox_Text_0:
-	.string "Crystal's house$"
+	.string "克丽丝的家$"
 
 RivalsMailbox_Text_1:
-	.string "Gold's house$"
+	.string "阿响的家$"
 
 NewBarkTown_EventScript_ArcherArcadeCall_Text_0:
-	.string "???: Greetings, {PLAYER}.\p"
-	.string "This is Archer speaking.\p"
-	.string "Archer: I've heard of your victory\n"
-	.string "in the League and would like to \l"
-	.string "offer you an invitation to our \l"
-	.string "newly opened Rocket Arcade.\p"
-	.string "If you are interested in gambling\n"
-	.string "your way to the top, come visit us\l"
-	.string "in the Goldenrod Underground.\p"
-	.string "I assure you no tricks or traps are\n"
-	.string "planned for you this time.$"
+	.string "？？？：{PLAYER}，你好。\p我是阿波罗。\p阿波罗：听说你在联盟\n取得了优胜，我还想\l邀请你来我们新开张的\l火箭游戏城坐坐。\p如果你想靠赌运气\n爬到顶峰，就来满金的\l地下街找我们吧。\p我向你保证，这次\n没有诡计，也没有陷阱。$"

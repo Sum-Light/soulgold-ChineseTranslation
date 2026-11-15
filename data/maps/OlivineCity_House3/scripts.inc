@@ -28,30 +28,30 @@ OlivineCityHouse3_EventScriptFishingGuruRefused::
 	end
 
 OlivineCity_Text_OfferGoodRod:
-	.string "Olivine is on the sea!\p"
-	.string "And if it's on the sea, there\n"
-	.string "are bound to be fish!\p"
-	.string "I've fished here for 30 years.\p"
-	.string "Would you like to face the sea\n"
-	.string "and try your hand at fishing?$"
+	.string "浅葱市就在海边！\p既然靠着海，\n就一定有鱼！\p我在这里钓了30年鱼。\p你要不要面向大海，\n也来试试钓鱼？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OlivineCity_Text_GiveGoodRod:
-	.string "Ah, hahah! We have ourselves\n"
-	.string "a new angler in the making!$"
+	.string "啊，哈哈！我们这儿\n又出了一位新钓手！$"
+	.string ""
 
 OlivineCity_Text_GaveGoodRod:
-	.string "Fish aren't only found in the\n"
-	.string "sea--they're wherever there's\l"
-	.string "water.\p"
-	.string "By the way, your Pokédex shows\n"
-	.string "fishing groups for Pokémon.\p"
-	.string "Different spots may contain\n"
-	.string "similar fish types.$"
+	.string "鱼不只在海里——\n有水的地方\l就有鱼。\p对了，你的宝可梦图鉴\n会按钓点显示宝可梦。\p不同钓点，\n也可能有相似的鱼类。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OlivineCity_Text_DontWantGoodRod:
-	.string "Whaaat? You don't like to fish!?\n"
-	.string "That's incomprehensible!$"
+	.string "什——么？你不喜欢钓鱼！？\n真是难以置信！$"
+	.string ""
 
 OlivineCity_Text_HaveGoodRod:
-	.string "How are things?\n"
-	.string "Did you land the big one?$"
+	.string "最近怎么样？\n钓到大家伙了吗？$"
+	.string ""

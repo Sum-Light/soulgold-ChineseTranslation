@@ -27,19 +27,19 @@ GoldenrodDeptStore3_EventScript_Rocker::
 	end
 
 GoldenrodDeptStore_Text_3FSuperNerd:
-    .string "I, I, I'm really impatient!\p"
-    .string "I use X Speed in battle to speed up\n"
-    .string "my Pokémon.$"
+    .string "我、我、我性子特别急！\p对战时我会用速度强化\n来提升宝可梦的速度。$"
+    .string ""
+    .string ""
 
 GoldenrodDeptStore_Text_3FRocker:
-    .string "Hey! When you battle, do you use X\n"
-    .string "Special?\p"
-    .string "It's awesome. It really jacks up\n"
-    .string "Special Attack!$"
+    .string "嘿！你对战时会用\n特攻强化吗？\p那可太厉害了。它能\n大幅提升特攻！$"
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodDeptStore_Text_3FDirectory:
-    .string "For Victory Seekers\p"
-    .string "3F Battle Collection$"
+    .string "献给追求胜利的人\p3楼　对战藏品$"
+    .string ""
 
 
 Goldenrod_3F_Berries_Shop::
@@ -107,17 +107,17 @@ Goldenrod_DepartmentStore_3F_EventScript_Woman::
 	end
 
 Goldenrod_DepartmentStore_3F_Text_ItemsBestForTougheningPokemon:
-	.string "For quickly toughening up Pokémon,\n"
-	.string "items are the best.\p"
-	.string "Protein boosts Attack,\n"
-	.string "and Calcium raises Sp. Atk.$"
+	.string "想让宝可梦快速变强，\n道具最管用。\p攻击增强剂能提升攻击，\n特攻增强剂能提升特攻。$"
+	.string ""
+	.string ""
+	.string ""
 
 Goldenrod_DepartmentStore_3F_Text_WantMoreEndurance:
-	.string "I want my Pokémon to have more\n"
-	.string "endurance.\p"
-	.string "I'm trying to decide whether to raise\n"
-	.string "Defense with Iron, or Sp. Def with Zinc.$"
+	.string "我想让宝可梦的\n耐力更强。\p该用防御增强剂提升防御，\n还是用特防增强剂提升特防呢？$"
+	.string ""
+	.string ""
+	.string ""
 
 Goldenrod_DepartmentStore_3F_Text_GaveCarbosToSpeedUpMon:
-	.string "I gave a Carbos to my Pokémon,\n"
-	.string "and its Speed went up.$"
+	.string "我给我的宝可梦喂了速度\n增强剂，它的速度提升了。$"
+	.string ""

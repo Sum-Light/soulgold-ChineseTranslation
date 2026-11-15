@@ -30,24 +30,24 @@ Route114_FossilManiacsHouse_EventScript_Bookshelf::
 	end
 
 Route114_FossilManiacsHouse_Text_HaveThisToDigLikeMyBrother:
-	.string "My big brother's the Fossil Maniac…\n"
-	.string "He's a nice guy who loves Fossils…\p"
-	.string "He loves digging holes, too…\n"
-	.string "He dug this hole by himself…\p"
-	.string "You can have this, so you can Dig\n"
-	.string "holes just like my big brother…$"
+	.string "我哥哥是化石迷……\n他是喜欢化石的好人……\p他也喜欢挖洞……\n这个洞是他自己挖的……\p给你这个，你也可以挖洞\n就像我哥哥一样……$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route114_FossilManiacsHouse_Text_DigReturnsYouToEntrance:
-	.string "If you make a Pokémon Dig inside a\n"
-	.string "cave, you're returned to the entrance…$"
+	.string "如果让你的宝可梦在山洞里挖洞\n你就会回到洞的入口……$"
+	.string ""
 
 Route114_FossilManiacsHouse_Text_RocksFillDisplayCase:
-	.string "Rocks in peculiar shapes fill\n"
-	.string "the display case…$"
+	.string "不同形状的石头\n在这里展示……$"
+	.string ""
 
 Route114_FossilManiacsHouse_Text_CrammedWithBooks:
-	.string "The Composition Of Strata…\n"
-	.string "How Rain Shapes The Land…\l"
-	.string "Stones, Soil, And Rock…\p"
-	.string "It's crammed with books.$"
+	.string "地层的组成……\n雨后大陆的形状……石头，\l土壤，还有岩石是怎样的……\p这些全塞满了书。$"
+	.string ""
+	.string ""
+	.string ""
 

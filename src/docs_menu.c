@@ -78,18 +78,18 @@ static const u16 sPalette[] =
 static const u8 sTextColors[] = {COLOR_BACKGROUND, COLOR_WHITE, COLOR_BACKGROUND};
 static const u8 sMutedColors[] = {COLOR_BACKGROUND, COLOR_MUTED, COLOR_BACKGROUND};
 static const u8 sAccentColors[] = {COLOR_BACKGROUND, COLOR_ACCENT, COLOR_BACKGROUND};
-static const u8 sText_Docs[] = _("Documentation");
-static const u8 sText_Guides[] = _("Guides");
+static const u8 sText_Docs[] = _("资料");
+static const u8 sText_Guides[] = _("攻略");
 static const u8 sText_Version[] = _(DISPLAY_VERSION);
-static const u8 sText_Scan[] = _("Scan with your phone");
-static const u8 sText_OpenManually[] = _("Open the website\nmanually");
-static const u8 sText_QrBlocked[] = _("QR code blocked.\nUse the address\non the right.");
-static const u8 sText_DocsDescription[] = _("Pokédex, items\nand locations");
-static const u8 sText_GuidesDescription[] = _("Guides, tips and\nFAQ");
+static const u8 sText_Scan[] = _("用手机扫描");
+static const u8 sText_OpenManually[] = _("手动打开\n网站");
+static const u8 sText_QrBlocked[] = _("二维码无法显示。\n请使用右侧\n的网址。");
+static const u8 sText_DocsDescription[] = _("图鉴、道具\n和地点");
+static const u8 sText_GuidesDescription[] = _("攻略、技巧和\n常见问题");
 static const u8 sText_Website[] = _("eemeliri.github.io\n/soulgold/");
-static const u8 sText_SwitchToGuides[] = _("A: Guides");
-static const u8 sText_SwitchToDocs[] = _("A: Docs");
-static const u8 sText_Back[] = _("B: Back");
+static const u8 sText_SwitchToGuides[] = _("A：攻略");
+static const u8 sText_SwitchToDocs[] = _("A：资料");
+static const u8 sText_Back[] = _("B：返回");
 
 static bool8 ReadDocsQr(u8 page, u8 *modules)
 {

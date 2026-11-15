@@ -13,14 +13,11 @@ mapscripts MeteorCave1_MapScripts {
 script MeteorCave1_WallIns {
     lock
     if (flag(FLAG_ALL_PASTMONS)) {
-        msgbox("The way is open.")
+        msgbox("路已经打开了。")
         release
         end
     }
-    msgbox("There's an inscription on the wall.
-    
-            GATHER ALL
-            ANCIENTS")
+    msgbox("墙上刻着铭文。\p聚集所有\n古代之物")
     getcaughtmon(SPECIES_GREAT_TUSK)
     if (var(VAR_RESULT) == FALSE) {
         goto(MeteorCave1_NothingHappens)
@@ -60,7 +57,7 @@ script MeteorCave1_WallIns {
 
 script MeteorCave1_NothingHappens {
     delay(30)
-    msgbox("Nothing seems to happen.")
+    msgbox("似乎什么也没发生。")
     release
     end
 }

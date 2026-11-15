@@ -18,15 +18,11 @@ VajraCrossroad_SignBP::
 
 
 VajraCrossroad_Girl_Text_0:
-	.string "Many strong trainers around the world \n"
-	.string "come to visit our village to partake\l"
-	.string "in the Battle Pyramid challenge. \p"
-	.string "It was relocated here from Hoenn region\n"
-	.string "some time ago.$"
+	.string "世界各地的许多强大训练家都会\n来到我们村子，参加\l对战金字塔的挑战。\p它是前些时候从丰缘地区\n搬到这里来的。$"
 
 VajraCrossroad_Sign_Text_0:
-	.string "{LEFT_ARROW} Old Pyramid\n"
-	.string "{RIGHT_ARROW} Rinto Village$"
+	.string "{LEFT_ARROW} 古金字塔\n"
+	.string "{RIGHT_ARROW} 林都村$"
 
 VajraCrossroad_SignBP_Text_0:
-	.string "Battle Pyramid, brave trainers welcome!$"
+	.string "金刚金字塔，欢迎勇敢的训练家！$"

@@ -18,9 +18,9 @@ Goldenrod_House4_Venipede::
 
 
 Golderod_House4_Fatman_Text_0:
-	.string "Some say once Pokémon reaches a\n"
-	.string "certain level, it starts to gain more\l"
-	.string "abilities. Could that be true?$"
+	.string "听说宝可梦到了一定等级，\n"
+	.string "就会获得更多特性。\l"
+	.string "这是真的吗？$"
 
 Goldenrod_House4_Venipede_Text_0:
-	.string "Hiss!$"
+	.string "嘶——！$"

@@ -63,28 +63,28 @@ PewterCity_EventScript_Cooltrainer::
 	end
 
 PewterCity_Text_CooltrainerF:
-	.string "Have you visited Pewter Gym?\p"
-	.string "The Leader uses rock-type Pokémon.$"
+	.string "你去过深灰道馆了吗？\p那里的馆主使用的是\n岩石属性宝可梦。$"
+	.string ""
 
 PewterCity_Text_BugCatcher:
-	.string "At night, Clefairy come out to play at\n"
-	.string "Mt.Moon.\p"
-	.string "But not every night.$"
+	.string "到了晚上，皮皮会到\n月见山来玩。\p不过也不是每晚都来。$"
+	.string ""
+	.string ""
 
 PewterCity_Text_Gramps:
-	.string "Ah, you came all the way out here from\n"
-	.string "Johto?\p"
-	.string "That brings back memories. When I was\n"
-	.string "young, I went to Johto to train.\p"
-	.string "You remind me so much of what I was like\n"
-	.string "as a young man.\p"
-	.string "Here. I want you to have this item I\n"
-	.string "found in Johto.$"
+	.string "哦，你从城都大老远\n跑到这儿来了？\p真是让人怀念。\n我年轻时也去过城都修行。\p你让我想起了\n自己年轻时的样子。\p来，这个是我在城都找到的\n东西，送给你吧。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 PewterCity_Text_Gramps_GotSilverWing:
-	.string "Going to new, unknown places and seeing\n"
-	.string "new people…\p"
-	.string "Those are the joys of travel.$"
+	.string "到陌生的新地方去，\n结识新的人……\p这才是旅行的乐趣。$"
+	.string ""
+	.string ""
 
 PewterCity_EventScript_CitySign::
 	msgbox PewterCity_Text_Sign, MSGBOX_NPC
@@ -107,23 +107,23 @@ PewterCity_EventScript_WelcomeSign::
 	end
 
 PewterCity_Text_Sign:
-	.string "Pewter City\n"
-	.string "A Stone Gray City$"
+	.string "深灰市\n石头灰色的城市$"
+	.string ""
 
 PewterCity_Text_GymSign:
-	.string "Pewter City Pokémon Gym\n"
-	.string "Leader: Brock\p"
-	.string "The Rock Solid Pokémon Trainer$"
+	.string "深灰市宝可梦道馆\n馆主：小刚\p坚如磐石的宝可梦训练家$"
+	.string ""
+	.string ""
 
 PewterCity_Text_MuseumSign:
-	.string "There's a notice here…\p"
-	.string "Pewter Museum Of Science is closed for\n"
-	.string "renovations…$"
+	.string "这里贴着一张告示……\p深灰科学博物馆正在\n翻修，暂停开放……$"
+	.string ""
+	.string ""
 
 PewterCity_Text_MtMoonGiftShopSign:
-	.string "There's a notice here…\p"
-	.string "Mt.Moon Gift Shop Now Open!$"
+	.string "这里贴着一张告示……\p月见山礼品店开业了！$"
+	.string ""
 
 PewterCity_Text_WelcomeSign:
-	.string "Welcome To Pewter City!$"
+	.string "欢迎来到深灰市！$"
 

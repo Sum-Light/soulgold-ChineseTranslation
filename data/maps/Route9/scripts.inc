@@ -42,73 +42,73 @@ Route9_EventScript_Sign::
 	end
 
 Route9_Text_CamperDeanSeen:
-	.string "I came to explore Rock Tunnel.$"
+	.string "我是来岩山隧道探险的。$"
 
 Route9_Text_CamperDeanBeaten:
-	.string "Whoa! Danger, man.$"
+	.string "哇！这可太危险了。$"
 
 Route9_Text_CamperDeanAfter:
-	.string "My Pokémon were hurt before even\n"
-	.string "entering Rock Tunnel.\p"
-	.string "I'd better take them to a Pokémon\n"
-	.string "Center right away.$"
+	.string "还没进岩山隧道，\n我的宝可梦就受伤了。\p我得马上带它们\n去宝可梦中心。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route9_Text_PicnickerHeidiSeen:
-	.string "Have you ever been to a picnic?\p"
-	.string "They're so much fun!$"
+	.string "你野餐过吗？\p野餐可好玩了！$"
+	.string ""
 
 Route9_Text_PicnickerHeidiBeaten:
-	.string "Ohhhh!$"
+	.string "呜哇——！$"
 
 Route9_Text_PicnickerHeidiAfter:
-	.string "We bake lots of goodies and share\n"
-	.string "them all around.\p"
-	.string "They're delicious!$"
+	.string "我们会烤好多点心，\n分给大家吃。\p可好吃了！$"
+	.string ""
+	.string ""
 
 Route9_Text_CamperSidSeen:
-	.string "Hey, you! Don't litter!$"
+	.string "喂，你！别乱扔垃圾！$"
 
 Route9_Text_CamperSidBeaten:
-	.string "I was just pointing out…$"
+	.string "我只是提醒你一下……$"
 
 Route9_Text_CamperSidAfter:
-	.string "Sorry. You weren't littering. It\n"
-	.string "was my mistake.$"
+	.string "抱歉。你没乱扔垃圾，\n是我看错了。$"
+	.string ""
 
 Route9_Text_PicnickerEdnaSeen:
-	.string "People shouldn't leave any litter\n"
-	.string "behind.$"
+	.string "垃圾不能随便\n扔在路边。$"
+	.string ""
 
 Route9_Text_PicnickerEdnaBeaten:
-	.string "Ohh… I lost…$"
+	.string "唉……我输了……$"
 
 Route9_Text_PicnickerEdnaAfter:
-	.string "Conserving energy is important,\n"
-	.string "but the environment is even more\l"
-	.string "vital.$"
+	.string "节约能源很重要，\n不过比起能源，\l环境更加重要。$"
+	.string ""
+	.string ""
 
 Route9_Text_HikerTimSeen:
-	.string "She'll be coming 'round Mt.Silver\n"
-	.string "when she comes…\p"
-	.string "Mt.Silver is in Johto, right?$"
+	.string "她绕过白银山\n就要来啦……\p白银山是在城都地区吧？$"
+	.string ""
+	.string ""
 
 Route9_Text_HikerTimBeaten:
-	.string "I was too busy singing…$"
+	.string "我光顾着唱歌了……$"
 
 Route9_Text_HikerTimAfter:
-	.string "Battles are about concentration.$"
+	.string "对战靠的就是集中力。$"
 
 Route9_Text_HikerSidneySeen:
-	.string "I'll tell you a secret.\p"
-	.string "But first, we battle!$"
+	.string "我告诉你一个秘密。\p不过，先跟我打一场！$"
+	.string ""
 
 Route9_Text_HikerSidneyBeaten:
-	.string "Oh, dang! I lost that…$"
+	.string "哎呀！这局我输了……$"
 
 Route9_Text_HikerSidneyAfter:
-	.string "The Power Plant is across a small\n"
-	.string "river.$"
+	.string "无人发电厂就在\n小河对面。$"
+	.string ""
 
 Route9_Text_Sign:
-	.string "Route 9\p"
-	.string "Cerulean City - Rock Tunnel$"
+	.string "9号道路\p华蓝市——岩山隧道$"
+	.string ""

@@ -1,243 +1,243 @@
 gOtherText_NewName::
-	.string "NEW NAME$"
+	.string "新名字$"
 
 gNameChoice_Green::
-	.string "GREEN$"
+	.string "青绿$"
 
 gNameChoice_Red::
-	.string "RED$"
+	.string "赤红$"
 
 gNameChoice_Leaf::
-	.string "LEAF$"
+	.string "叶子$"
 
 gNameChoice_Fire::
-	.string "FIRE$"
+	.string "烈火$"
 
 gNameChoice_Gary::
-	.string "GARY$"
+	.string "盖瑞$"
 
 gNameChoice_Kaz::
-	.string "KAZ$"
+	.string "卡兹$"
 
 gNameChoice_Toru::
-	.string "TORU$"
+	.string "托鲁$"
 
 gNameChoice_Ash::
-	.string "ASH$"
+	.string "阿什$"
 
 gNameChoice_Kene::
-	.string "KENE$"
+	.string "肯尼$"
 
 gNameChoice_Geki::
-	.string "GEKI$"
+	.string "格基$"
 
 gNameChoice_Jak::
-	.string "JAK$"
+	.string "杰克$"
 
 gNameChoice_Janne::
-	.string "JANNE$"
+	.string "珍妮$"
 
 gNameChoice_Jonn::
-	.string "JONN$"
+	.string "约恩$"
 
 gNameChoice_Kamon::
-	.string "KAMON$"
+	.string "卡蒙$"
 
 gNameChoice_Karl::
-	.string "KARL$"
+	.string "卡尔$"
 
 gNameChoice_Taylor::
-	.string "TAYLOR$"
+	.string "泰勒$"
 
 gNameChoice_Oscar::
-	.string "OSCAR$"
+	.string "奥斯卡$"
 
 gNameChoice_Hiro::
-	.string "HIRO$"
+	.string "希罗$"
 
 gNameChoice_Max::
-	.string "MAX$"
+	.string "马克斯$"
 
 gNameChoice_Jon::
-	.string "JON$"
+	.string "乔恩$"
 
 gNameChoice_Ralph::
-	.string "RALPH$"
+	.string "拉尔夫$"
 
 gNameChoice_Kay::
-	.string "KAY$"
+	.string "凯伊$"
 
 gNameChoice_Tosh::
-	.string "TOSH$"
+	.string "托什$"
 
 gNameChoice_Roak::
-	.string "ROAK$"
+	.string "罗克$"
 
 gNameChoice_Omi::
-	.string "OMI$"
+	.string "奥米$"
 
 gNameChoice_Jodi::
-	.string "JODI$"
+	.string "乔迪$"
 
 gNameChoice_Amanda::
-	.string "AMANDA$"
+	.string "阿曼达$"
 
 gNameChoice_Hillary::
-	.string "HILLARY$"
+	.string "希拉里$"
 
 gNameChoice_Makey::
-	.string "MAKEY$"
+	.string "梅基$"
 
 gNameChoice_Michi::
-	.string "MICHI$"
+	.string "美智$"
 
 gNameChoice_Paula::
-	.string "PAULA$"
+	.string "保拉$"
 
 gNameChoice_June::
-	.string "JUNE$"
+	.string "琼$"
 
 gNameChoice_Cassie::
-	.string "CASSIE$"
+	.string "卡西$"
 
 gNameChoice_Rey::
-	.string "REY$"
+	.string "雷伊$"
 
 gNameChoice_Seda::
-	.string "SEDA$"
+	.string "塞达$"
 
 gNameChoice_Kiko::
-	.string "KIKO$"
+	.string "琪可$"
 
 gNameChoice_Mina::
-	.string "MINA$"
+	.string "米娜$"
 
 gNameChoice_Norie::
-	.string "NORIE$"
+	.string "诺莉$"
 
 gNameChoice_Sai::
-	.string "SAI$"
+	.string "赛伊$"
 
 gNameChoice_Momo::
-	.string "MOMO$"
+	.string "桃桃$"
 
 gNameChoice_Suzi::
-	.string "SUZI$"
+	.string "苏西$"
 
 gControlsGuide_Text_Intro::
-	.string "The various buttons will be explained in\n"
-	.string "the order of their importance.$"
+	.string "下面将按照重要程度的顺序\n说明各个按键的作用。$"
+	.string ""
 
 gControlsGuide_Text_DPad::
-	.string "Moves the main character.\n"
-	.string "Also used to choose various data\n"
-	.string "headings.$"
+	.string "移动主人公。\n也用于选择\n各种项目。$"
+	.string ""
+	.string ""
 
 gControlsGuide_Text_AButton::
-	.string "Used to confirm a choice, check\n"
-	.string "things, chat, and scroll text.$"
+	.string "用于确认选择、调查、\n对话以及翻动文字。$"
+	.string ""
 
 gControlsGuide_Text_BButton::
-	.string "Used to exit, cancel a choice,\n"
-	.string "and cancel a mode.$"
+	.string "用于返回、取消选择\n以及退出模式。$"
+	.string ""
 
 gControlsGuide_Text_StartButton::
-	.string "Press this button to open the\n"
-	.string "MENU.$"
+	.string "按下这个键\n可以打开菜单。$"
+	.string ""
 
 gControlsGuide_Text_SelectButton::
-	.string "Used to shift items and to use\n"
-	.string "a registered item.$"
+	.string "用于整理道具的位置，\n以及使用已登录的道具。$"
+	.string ""
 
 gControlsGuide_Text_LRButtons::
-	.string "If you need help playing the\n"
-	.string "game, or on how to do things,\n"
-	.string "press the L or R Button.$"
+	.string "如果在游玩或操作上\n需要帮助，\n请按L键或R键。$"
+	.string ""
+	.string ""
 
 gOakSpeech_Text_AskPlayerGender::
-	.string "Now tell me. Are you a boy?\n"
-	.string "Or are you a girl?$"
+	.string "那么告诉我，你是男孩？\n还是女孩？$"
+	.string ""
 
 gPikachuIntro_Text_Page1::
-	.string "In the world which you are about to\n"
-	.string "enter, you will embark on a grand\n"
-	.string "adventure with you as the hero.\n"
-	.string "\n"
-	.string "Speak to people and check things\n"
-	.string "wherever you go, be it towns, roads,\n"
-	.string "or caves. Gather information and\n"
-	.string "hints from every source.$"
+	.string "在即将踏入的这个世界里，\n你将作为主人公\n展开一场宏大的冒险。\n\n无论是城镇、道路还是洞窟，\n走到哪里都要和人交谈、\n调查各种东西，\n从各处收集情报和线索。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 gPikachuIntro_Text_Page2::
-	.string "New paths will open to you by helping\n"
-	.string "people in need, overcoming challenges,\n"
-	.string "and solving mysteries.\n"
-	.string "\n"
-	.string "At times, you will be challenged by\n"
-	.string "others and attacked by wild creatures.\n"
-	.string "Be brave and keep pushing on.$"
+	.string "帮助有困难的人，克服挑战，\n解开谜团，\n新的道路就会为你敞开。\n\n有时你会受到别人的挑战，\n也会遭到野生生物的袭击。\n鼓起勇气，继续前进吧。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 gPikachuIntro_Text_Page3::
-	.string "Through your adventure, we hope\n"
-	.string "that you will interact with all sorts\n"
-	.string "of people and achieve personal growth.\n"
-	.string "That is our biggest objective.\n"
-	.string "\n"
-	.string "Press the A Button, and let your\n"
-	.string "adventure begin!$"
+	.string "希望你能在冒险中\n与各种各样的人交流，\n并获得成长。\n这就是我们最大的心愿。\n\n按下A键，\n开始你的冒险吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 gOakSpeech_Text_WelcomeToTheWorld::
-	.string "Hello, there!\n"
-	.string "Glad to meet you!\p"
-	.string "Welcome to the world of Pokémon!\p"
-	.string "My name is OAK.\p"
-	.string "People affectionately refer to me\n"
-	.string "as the Pokémon PROFESSOR.\p$"
+	.string "你好啊！\n很高兴见到你！\p欢迎来到宝可梦的世界！\p我的名字是大木。\p大家都亲切地叫我\n宝可梦博士。\p$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 gOakSpeech_Text_ThisWorld::
-	.string "This world…$"
+	.string "这个世界……$"
 
 gOakSpeech_Text_IsInhabitedFarAndWide::
-	.string "…is inhabited far and wide by\n"
-	.string "creatures called Pokémon.\p$"
+	.string "……到处都栖息着\n被称作宝可梦的生物。\p$"
+	.string ""
 
 gOakSpeech_Text_IStudyPokemon::
-	.string "For some people, Pokémon are pets.\n"
-	.string "Others use them for battling.\p"
-	.string "As for myself…\p"
-	.string "I study Pokémon as a profession.\p$"
+	.string "有的人把宝可梦当作宠物，\n也有人让它们进行对战。\p至于我嘛……\p我的工作就是研究宝可梦。\p$"
+	.string ""
+	.string ""
+	.string ""
 
 gOakSpeech_Text_TellMeALittleAboutYourself::
-	.string "But first, tell me a little about\n"
-	.string "yourself.\p$"
+	.string "不过首先，\n跟我说说你自己吧。\p$"
+	.string ""
 
 gOakSpeech_Text_YourNameWhatIsIt::
-	.string "Let's begin with your name.\n"
-	.string "What is it?\p$"
+	.string "先从名字开始吧。\n你叫什么名字？\p$"
+	.string ""
 
 gOakSpeech_Text_SoYourNameIsPlayer::
-	.string "Right…\n"
-	.string "So your name is {PLAYER}.$"
+	.string "嗯……\n原来你叫{PLAYER}啊。$"
+	.string ""
 
 gOakSpeech_Text_WhatWasHisName::
-	.string "This is my grandson.\p"
-	.string "He's been your rival since you both\n"
-	.string "were babies.\p"
-	.string "…Erm, what was his name now?$"
+	.string "这是我的孙子。\p从你们还是婴儿的时候起，\n他就是你的劲敌了。\p……呃，他叫什么名字来着？$"
+	.string ""
+	.string ""
+	.string ""
 
 gOakSpeech_Text_YourRivalsNameWhatWasIt::
-	.string "Your rival's name, what was it now?$"
+	.string "你的劲敌叫什么名字来着？$"
 
 gOakSpeech_Text_ConfirmRivalName::
-	.string "…Er, was it {RIVAL}?$"
+	.string "……呃，是叫{RIVAL}吗？$"
 
 gOakSpeech_Text_RememberRivalsName::
-	.string "That's right! I remember now!\n"
-	.string "His name is {RIVAL}!\p$"
+	.string "对了！我想起来了！\n他的名字是{RIVAL}！\p$"
+	.string ""
 
 gOakSpeech_Text_LetsGo::
-	.string "{PLAYER}!\p"
-	.string "Your very own Pokémon legend is\n"
-	.string "about to unfold!\p"
-	.string "A world of dreams and adventures\n"
-	.string "with Pokémon awaits! Let's go!$"
+	.string "{PLAYER}！\p只属于你的宝可梦传说\n即将拉开序幕！\p充满梦想与冒险的宝可梦世界\n正在等着你！出发吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""

@@ -358,70 +358,70 @@ Route120_EventScript_Callie::
 	end
 
 Route120_Text_StevenGreeting:
-	.string "Steven: Hm? {PLAYER}{KUN}, hi.\n"
-	.string "It's been a while.\p"
-	.string "There's something here that you can't\n"
-	.string "see, right?\p"
-	.string "Now, if I were to use this device on\n"
-	.string "the invisible obstacle…\p"
-	.string "No, no. Rather than describing it,\n"
-	.string "I should just show you.\l"
-	.string "That would be more fun.\p"
-	.string "{PLAYER}{KUN}, are your Pokémon ready for\n"
-	.string "battle?$"
+	.string "大吾：嗯？{PLAYER}{KUN}，\n好久不见。\p这里好像有什么看不见\n的东西，对吧？\p对着这个看不见的障碍\n使用这个道具的话……\p不，与其说明，\n不如直接使用展示\l给你看更有趣。\p{PLAYER}{KUN}，\n你的宝可梦准备好战斗了吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route120_Text_StevenIllWaitHere:
-	.string "Steven: No?\p"
-	.string "I'll wait here, so you can get ready.$"
+	.string "大吾：还没有吗？\p那我在这里等着你，\n去准备吧。$"
+	.string ""
 
 Route120_Text_StevenReadyForBattle:
-	.string "Steven: {PLAYER}{KUN}, are your Pokémon\n"
-	.string "ready for battle?$"
+	.string "大吾：{PLAYER}{KUN}，\n你的宝可梦准备好战斗了吗？？$"
+	.string ""
 
 Route120_Text_StevenShowMeYourPower:
-	.string "Steven: {PLAYER}{KUN}, show me your true\n"
-	.string "power as a Trainer!$"
+	.string "大吾：{PLAYER}{KUN}，\n让我见识下你作为训练家的实力吧！$"
+	.string ""
 
 Route120_Text_StevenUsedDevonScope:
-	.string "Steven used the Devon Scope.\p"
-	.string "An invisible Pokémon became completely\n"
-	.string "visible!\p"
-	.string "The startled Pokémon attacked!$"
+	.string "大吾使用了得文侦测镜。\p看不见的宝可梦\n完全现形了！\p受惊的宝可梦攻击过来了！$"
+	.string ""
+	.string ""
+	.string ""
 
 Route120_Text_StevenGiveDevonScope:
-	.string "Steven: I see…\n"
-	.string "Your battle style is intriguing.\p"
-	.string "Your Pokémon have obviously grown\n"
-	.string "since I first met you in Dewford.\p"
-	.string "I'd like you to have this\n"
-	.string "Devon Scope.\p"
-	.string "Who knows, there may be other\n"
-	.string "concealed Pokémon.$"
+	.string "大吾：原来如此……\n你的战斗方式很有趣呢。\p比起在我们在武斗镇初见时，\n你的宝可梦成长了不少。\p这个得文侦测镜\n送给你，\p说不定还有其他隐藏了\n身形的宝可梦呢。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route120_Text_StevenGoodbye:
-	.string "Steven: {PLAYER}{KUN}.\p"
-	.string "I enjoy seeing Pokémon and Trainers\n"
-	.string "who strive together.\p"
-	.string "I think you're doing great.\p"
-	.string "Well, let's meet again somewhere.$"
+	.string "大吾：{PLAYER}{KUN}，\p我很喜欢看到训练家和宝可梦\n共同努力一起成长，\p你做得很不错。\p那么，后会有期。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Kecleon_Text_SomethingUnseeable:
-	.string "Something unseeable is in the way.$"
+	.string "有什么看不见的东西挡在路上。$"
 
 Kecleon_Text_WantToUseDevonScope:
-	.string "Something unseeable is in the way.\p"
-	.string "Want to use the Devon Scope?$"
+	.string "有什么看不见的东西挡在路上。\p要使用得文侦测镜吗？$"
+	.string ""
 
 Kecleon_Text_UseDevonScopeMonAttacked:
-	.string "{PLAYER} used the Devon Scope.\p"
-	.string "An invisible Pokémon became completely\n"
-	.string "visible!\p"
-	.string "The startled Pokémon attacked!$"
+	.string "{PLAYER}使用了得文侦测镜。\p看不见的宝可梦\n完全现形了！\p受惊的宝可梦攻击过来了！$"
+	.string ""
+	.string ""
+	.string ""
 
 Route120_Text_RouteSignFortree:
-	.string "Route 120\n"
-	.string "{LEFT_ARROW} Fortree City$"
+	.string "120号道路\n{LEFT_ARROW}茵郁市$"
+	.string ""
 
 Route120_Text_RouteSign121:
-	.string "{RIGHT_ARROW} Route 121\n"
-	.string "{LEFT_ARROW} Route 120$"
+	.string "{RIGHT_ARROW}121号道路\n{LEFT_ARROW}120号道路$"
+	.string ""

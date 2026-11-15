@@ -4,41 +4,18 @@ script Itemfinder_Cooltrainer {
     lock
     faceplayer
     if (flag(FLAG_GOT_DOWSING_MACHINE)) {
-        msgbox("There are many items lying about
-                that aren't obvious.
-                
-                Use the Dowsing Machine for a while
-                to see if it points you towards them.
-                
-                When it does, you know there's an
-                item near you.")
+        msgbox("地上散落着很多\n一眼看不出的道具。\p把探宝器用上一会儿，\n看看它会不会指向道具。\p它一有反应，就说明\n附近有道具。")
         release
         end
     }
-    msgbox("Ah. You're on an adventure with
-            your Pokémon?
-            
-            Well, what's an adventure without
-            treasure hunting?
-            
-            Am I right, or am I right?", MSGBOX_YESNO)
+    msgbox("哦。你在和宝可梦\n一起冒险？\p那么，冒险怎么能少了\n寻宝呢？\p我说得对吧？", MSGBOX_YESNO)
     if (var(VAR_RESULT) == YES) {
-        msgbox("Good! You understand the true
-                spirit of adventure.
-                
-                I like that! Take this with you.")
+        msgbox("好！你懂冒险的\n真正精神。\p我喜欢！这个拿去用吧。")
         giveitem(ITEM_DOWSING_MACHINE)
         setflag(FLAG_GOT_DOWSING_MACHINE)
-        msgbox("There are many items lying about
-                that aren't obvious.
-                
-                Use the Dowsing Machine for a while
-                to see if it points you towards them.
-                
-                When it does, you know there's an
-                item near you.")
+        msgbox("地上散落着很多\n一眼看不出的道具。\p把探宝器用上一会儿，\n看看它会不会指向道具。\p它一有反应，就说明\n附近有道具。")
     } else {
-        msgbox("Oh... To each his own, I suppose...")
+        msgbox("哦……大概是\n人各有志吧……")
     }
     release
     end

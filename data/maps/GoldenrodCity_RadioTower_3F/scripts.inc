@@ -131,103 +131,103 @@ GoldenrodCity_RadioTower_3F_EventScript_Sign2::
 	end
 
 GoldenrodCity_RadioTower_3F_Text_CardKeySlot:
-	.string "It's the Card Key slot.$"
+	.string "这里是钥匙卡的插口。$"
 
 GoldenrodCity_RadioTower_3F_Text_InsertedCardKey:
-	.string "{PLAYER} inserted the Card Key.$"
+	.string "{PLAYER}插入了钥匙卡。$"
  
 GoldenrodCity_RadioTower_3F_Text_Open:
-	.string "The gate is open.$"
+	.string "铁门开着。$"
 
 GoldenrodCity_RadioTower_3F_Text_PersonnelSign:
-	.string "3F Personnel$"
+	.string "3楼　人事部$"
 
 GoldenrodCity_RadioTower_3F_Text_PokemonMusicSign:
-	.string "Pokémon Music with Host Dj Ben$"
+	.string "宝可梦音乐　主持人：靖史$"
 
 GoldenrodCity_RadioTower_3F_Text_SuperNerd:
-	.string "We have recordings of the cries\n"
-	.string "of all Pokémon that have been\l"
-	.string "found.\p"
-	.string "We must have over 1000 kinds.$"
+	.string "我们录下了\n所有已发现的\l宝可梦的叫声。\p我们的收藏\n肯定超过1000种。$"
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_3F_Text_GymGuideRockets:
-	.string "To trainers, Pokémon are their\n"
-	.string "beloved partners.\p"
-	.string "It's terrible how Team Rocket is\n"
-	.string "trying to control Pokémon.$"
+	.string "对训练家来说，宝可梦\n是心爱的伙伴。\p火箭队想要控制宝可梦，\n真是太恶劣了。$"
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_3F_Text_GymGuide:
-	.string "We run 24 hours a day to broadcast\n"
-	.string "entertaining programs.\p"
-	.string "I'll do my best to run around the\n"
-	.string "clock too!$"
+	.string "我们24小时不间断地\n播出有趣的节目。\p我也会全天候\n努力工作！$"
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_3F_Text_CooltrainerFPleaseSave:
-	.string "The Team Rocket boss has locked\n"
-	.string "himself in.\p"
-	.string "But the Director can open it.\p"
-	.string "He's up on the fifth floor.\p"
-	.string "Please save him!$"
+	.string "火箭队的老大把自己\n关在了里面。\p不过局长能打开它。\p局长在5楼。\p求求您，救救他！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_3F_Text_CooltrainerFDirectorSafe:
-	.string "Is the Director safe?$"
+	.string "局长没事吧？$"
 
 GoldenrodCity_RadioTower_3F_Text_CooltrainerFHeroGift:
-	.string "Thank you! You're my hero!\p"
-	.string "This is a token of my appreciation.$"
+	.string "谢谢您！您是我的英雄！\p这是我的一点心意。$"
+	.string ""
 
 GoldenrodCity_RadioTower_3F_Text_CooltrainerFSunnyDay:
-	.string "It's Round. It powers up\n"
-	.string "other Pokémon use it at once.$"
+	.string "是轮唱。其他宝可梦\n同时使用时，威力会提升。$"
+	.string ""
 
 GoldenrodCity_RadioTower_3F_Text_CooltrainerFMarvelous:
-	.string "You were simply marvelous!$"
+	.string "您的表现真是太精彩了！$"
 
 GoldenrodCity_RadioTower_3F_Text_GruntM7Seen:
-	.string "I've been given strict orders.\p"
-	.string "I'm to crush anyone who challenges\n"
-	.string "Team Rocket!$"
+	.string "我接到了严格的命令。\p凡是敢挑战火箭队的家伙，\n统统击溃！$"
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_3F_Text_GruntM7Beaten:
-	.string "What?!$"
+	.string "什么？！$"
 
 GoldenrodCity_RadioTower_3F_Text_GruntM7After:
-	.string "I failed in my duties…\p"
-	.string "Archer will be so upset...$"
+	.string "我任务失败了……\p阿波罗会发火的……$"
+	.string ""
 
 GoldenrodCity_RadioTower_3F_Text_GruntM8Seen:
-	.string "It feels great ordering Pokémon\n"
-	.string "to commit crimes.$"
+	.string "命令宝可梦去干坏事，\n感觉真爽。$"
+	.string ""
 
 GoldenrodCity_RadioTower_3F_Text_GruntM8Beaten:
-	.string "You're kidding!$"
+	.string "怎么可能！$"
 
 GoldenrodCity_RadioTower_3F_Text_GruntM8After:
-	.string "I feel lousy over losing!\p"
-	.string "Darn it! I hate useless Pokémon!$"
+	.string "输了真窝火！\p可恶！\n我最讨厌没用的宝可梦了！$"
+	.string ""
 
 GoldenrodCity_RadioTower_3F_Text_GruntM9Seen:
-	.string "Why did the shutter open? Did you\n"
-	.string "have something to do with this?$"
+	.string "卷帘门为什么开了？\n这事跟你有关吗？$"
+	.string ""
 
 GoldenrodCity_RadioTower_3F_Text_GruntM9Beaten:
-	.string "I'm done for!$"
+	.string "我完了！$"
 
 GoldenrodCity_RadioTower_3F_Text_GruntM9After:
-	.string "What?! You made it past our men in\n"
-	.string "the Underground?\p"
-	.string "How could you?$"
+	.string "什么？！你居然闯过了\n地下通道的看守？\p怎么可能？$"
+	.string ""
+	.string ""
 
 GoldenrodCity_RadioTower_3F_Text_ScientistMarcSeen:
-	.string "An unknown child wandering here?\p"
-	.string "Who are you?$"
+	.string "有个陌生小孩在这儿乱转？\p你是什么人？$"
+	.string ""
 
 GoldenrodCity_RadioTower_3F_Text_ScientistMarcBeaten:
-	.string "Tch! I took you too lightly!$"
+	.string "啧！是我太小看你了！$"
 
 GoldenrodCity_RadioTower_3F_Text_ScientistMarcAfter:
-	.string "Bwahahaha…\p"
-	.string "I can transmit as strong a signal\n"
-	.string "as I need from here.$"
+	.string "哇哈哈哈……\p在这里，我想发多强的信号\n都发得出去。$"
+	.string ""
+	.string ""
 

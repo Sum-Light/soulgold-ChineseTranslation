@@ -270,45 +270,45 @@ PlayersHouse_2F_EventScript_GameCube::
 	end
 
 PlayersHouse_2F_Text_ClockIsStopped:
-	.string "The clock is stopped…\p"
-	.string "Better set it and start it!$"
+	.string "时钟停着……\p把时间调好吧！$"
+	.string ""
 
 PlayersHouse_2F_Text_CurrentTime:
-	.string "It is currently {STR_VAR_1}.\p"
-	.string "Would you like to adjust the time?$"
+	.string "现在是{STR_VAR_1}。\p要调整时间吗？$"
+	.string ""
 
 PlayersHouse_2F_Text_CheckTime:
-	.string "Check time$"
+	.string "查看时间$"
 
 PlayersHouse_2F_Text_AdjustTime:
-	.string "Adjust time$"
+	.string "调整时间$"
 
 PlayersHouse_2F_Text_Cancel:
-	.string "Cancel$"
+	.string "取消$"
 
 PlayersHouse_2F_Text_HowDoYouLikeYourRoom:
-	.string "Mom: {PLAYER}, how do you like your\n"
-	.string "new room?\p"
-	.string "Good! Everything's put away neatly!\p"
-	.string "They finished moving everything in\n"
-	.string "downstairs, too.\p"
-	.string "Pokémon movers are so convenient!\p"
-	.string "Oh, you should make sure that\n"
-	.string "everything's all there on your desk.$"
+	.string "妈妈：{PLAYER}，喜欢你的\n新房间吗？\p太好了！房间收拾得很整洁呢！\p楼下的行李也都\n整理完毕了。\p宝可梦搬家服务真方便啊！\p对了，记得检查一下你桌子上\n的东西是不是都齐了。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 PlayersHouse_2F_Text_Notebook:
-	.string "{PLAYER} flipped open the notebook.\p"
-	.string "Adventure Rule No. 1\n"
-	.string "Open the Menu with Start.\p"
-	.string "Adventure Rule No. 2\n"
-	.string "Record your progress with Save.\p"
-	.string "The remaining pages are blank…$"
+	.string "{PLAYER}翻开笔记。\p冒险须知第一条\n用START键打开菜单。\p冒险须知第二条\n记录选项可以写下记录。\p后面是空白……$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Common_Text_LookCloserAtMap:
-	.string "{PLAYER} took a closer look at the\n"
-	.string "{REGION} region map.$"
+	.string "{PLAYER}仔细察看\n{REGION}地区的地图。$"
+	.string ""
 
 PlayersHouse_2F_Text_ItsAGameCube:
-	.string "It's a Nintendo GameCube.\p"
-	.string "A Game Boy Advance is connected to\n"
-	.string "serve as the Controller.$"
+	.string "这是NGC。\p上面连着个GBA\n当做手柄。$"
+	.string ""
+	.string ""

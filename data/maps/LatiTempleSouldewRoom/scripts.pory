@@ -3,7 +3,7 @@ mapscripts LatiTempleSouldewRoom_MapScripts {}
 script SouldewPlatform {
     lock
     if (flag(FLAG_OBTAINED_SOULDEW)) {
-        msgbox("The pedestal is empty.")
+        msgbox("台座上空空如也。")
         release
         end
     }

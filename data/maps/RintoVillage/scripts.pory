@@ -9,33 +9,22 @@ mapscripts RintoVillage_MapScripts {
 }
 
 script Rinto_Sign {
-    msgbox("Rinto Village
-            Sunbathed Village", MSGBOX_SIGN)
+    msgbox("林都村\n阳光沐浴的村庄", MSGBOX_SIGN)
 }
 
 script Rinto_OldLady {
-    msgbox("Oh more tourists?
-    
-            I hope you don't mind the
-            temperature variations! Ho ho ho!", MSGBOX_NPC)
+    msgbox("哎呀，又来了游客吗？\p希望您不介意\n气温变化这么大！呵呵呵！", MSGBOX_NPC)
 }
 
 script Rinto_TempleSage {
-    msgbox("I used to be a member of the Team
-            Magma. 
-            
-            After leaving I decided that I want
-            to travel the world as a pilgrim.
-            
-            It has been quite refreshing, seeing
-            the beauty of the world.", MSGBOX_NPC)
+    msgbox("我以前是熔岩队的一员。\p离开以后，我决定\n以朝圣者的身份周游世界。\p能见识世界的美好，\n真是让人神清气爽。", MSGBOX_NPC)
 }
 
 script Rinto_Gible {
     lock
     faceplayer
     playmoncry(SPECIES_GIBLE, CRY_MODE_NORMAL)
-    msgbox("Gible: Gibgib!")
+    msgbox("圆陆鲨：嘎嘎！")
     waitmoncry
     release
     end
@@ -45,7 +34,7 @@ script Rinto_Maractus {
     lock
     faceplayer
     playmoncry(SPECIES_MARACTUS, CRY_MODE_NORMAL)
-    msgbox("Maractus: Maaaai!")
+    msgbox("沙铃仙人掌：沙啊啊伊！")
     waitmoncry
     release
     end
@@ -53,7 +42,7 @@ script Rinto_Maractus {
 
 script Rinto_Piplup {
     lock
-    msgbox("...The Piplup appears to have dozed off.")
+    msgbox("……波加曼好像睡着了。")
     release
     end
 }
@@ -62,34 +51,20 @@ script Rinto_Gentleman {
     lock
     faceplayer
     if (flag(FLAG_GOT_TM_REST)) {
-        msgbox("Rest let's you restore health and
-        keep going. 
-        
-        Do not push yourself without taking 
-        the time to heal.")
+        msgbox("“睡觉”能让您恢复体力，\n继续上路。\p别硬撑，\n记得抽空好好休养。")
         release
         end
     }
-    msgbox("Resting after travelling afar is
-            equally important! Do not neglect
-            your health even at a young age!
-            
-            Take this.")
+    msgbox("远行之后好好休息，\n同样重要！年轻也别\l不顾身体！\p这个给您。")
     giveitem(ITEM_TM_REST)
     setflag(FLAG_GOT_TM_REST)
-    msgbox("Rest let's you restore health and
-            keep going. 
-            
-            Do not push yourself without taking 
-            the time to heal.")
+    msgbox("“睡觉”能让您恢复体力，\n继续上路。\p别硬撑，\n记得抽空好好休养。")
     release
     end
 }
 
 script Rinto_EastGuard {
-    msgbox("The sandstorms are too intense right
-            now. I cannot allow you to pass until
-            they calm down.", MSGBOX_NPC)
+    msgbox("现在沙暴太猛了。\n在它平息之前，\l我不能放您过去。", MSGBOX_NPC)
 }
 
 script Rinto_TriggerEastGuard {
@@ -98,9 +73,7 @@ script Rinto_TriggerEastGuard {
     waitmovement
     applymovement(LOCALID_PLAYER, moves(face_up))
     waitmovement
-    msgbox("The sandstorms are too intense right
-            now. I cannot allow you to pass until
-            they calm down.")
+    msgbox("现在沙暴太猛了。\n在它平息之前，\l我不能放您过去。")
     closemessage
     applymovement(LOCALID_PLAYER, moves(walk_left))
     waitmovement
@@ -110,22 +83,16 @@ script Rinto_TriggerEastGuard {
 }
 
 script Rinto_LittleGirl {
-    msgbox("I saw it! 
-    
-            Red and blue!
-            
-            They flew over the town to the east!", MSGBOX_NPC)
+    msgbox("我看见了！\p红的和蓝的！\p它们往东边飞过镇子了！", MSGBOX_NPC)
 }
 
 script Rinto_Fatman {
-    msgbox("The blazing sun would make this place
-            uninhabitable if not for the small
-            opening to the sea.", MSGBOX_NPC)
+    msgbox("要不是有那一小处\n通向大海的缺口，\l这烈日早把这里烤得没法住人了。", MSGBOX_NPC)
 }
 
 script Rinto_Dancer {
     lock
-    msgbox("Let's go Oricorio, show them our moves!")
+    msgbox("上吧，花舞鸟！露一手给他们看！")
     release
     end
 }
@@ -133,7 +100,7 @@ script Rinto_Dancer {
 script Rinto_DancerOricorio {
     lock
     playmoncry(SPECIES_ORICORIO_SENSU, CRY_MODE_NORMAL)
-    msgbox("Oriiii!")
+    msgbox("哩咿咿！")
     waitmoncry
     release
     end
@@ -142,9 +109,9 @@ script Rinto_DancerOricorio {
 script Rinto_Merchant {
     lock
     faceplayer
-    msgbox("Hey check out my wares!")
+    msgbox("嘿，来看看我的货吧！")
     pokemart(Rinto_Stall)
-    msgbox("Come back soon!")
+    msgbox("欢迎您再来！")
     release
     end
 }
@@ -159,9 +126,5 @@ mart Rinto_Stall {
 }
 
 script Rinto_GameboyKid {
-    msgbox("The pyramid in the west has been locked
-            up for a long time. 
-            
-            I wonder if the key to opening 
-            it even exists anymore?", MSGBOX_NPC)
+    msgbox("西边那座金字塔\n已经锁了很久了。\p我怀疑打开它的钥匙\n现在还存在吗？", MSGBOX_NPC)
 }

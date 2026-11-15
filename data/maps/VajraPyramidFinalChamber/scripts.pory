@@ -3,19 +3,17 @@ mapscripts VajraPyramidFinalChamber_MapScripts {}
 script FinalChamber_HoopaPrison {
     lock
     if (flag(FLAG_CAUGHT_HOOPA)) {
-        msgbox("The contraption is empty.")
+        msgbox("装置里面空无一物。")
         release
         end
     }
-    msgbox("Something seems to be sealed inside
-            this contraption. Release it?", MSGBOX_YESNO)
+    msgbox("这装置里似乎封印着\n什么东西。要把它放出来吗？", MSGBOX_YESNO)
     if (var(VAR_RESULT) == YES) {
         playmoncry(SPECIES_HOOPA, 0)
         waitmoncry
         bosslegendaryencounter(SPECIES_HOOPA, 80, LOCALID_NONE, FLAG_CAUGHT_HOOPA, 3, SPECIES_NONE, 110, BOSS_PHASE_PROFILE_HOOPA)
         if (var(VAR_RESULT) == B_OUTCOME_CAUGHT) {
-            msgbox("Something is at the bottom of the
-                    now empty contraption.")
+            msgbox("在已经空了的装置底部，\n似乎有什么东西。")
             finditem(ITEM_PRISON_BOTTLE)
             release
             end
@@ -24,9 +22,7 @@ script FinalChamber_HoopaPrison {
             end
         }
     } else {
-        msgbox("Mom did always warn about touching
-                strange objects found deep within
-                ancient pyramids.")
+        msgbox("妈妈总是告诫我，\n不要碰在古老金字塔深处\l发现的奇怪东西。")
         release
         end
     }

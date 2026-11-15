@@ -283,155 +283,97 @@ MadScientistEvent_Movement_10:
 	step_end
 
 GoldenrodApartments_BasementGuard_Text_0:
-	.string "Sorry but this stairway leads to the\n"
-	.string "apartments storage. Besides, I don't\l"
-	.string "think there's any reason why a trainer\l"
-	.string "would want to check out old house\l"
-	.string "appliances that have been abandoned\l"
-	.string "due to rampant consumerism.$"
+	.string "抱歉，这道楼梯通往\n公寓的储藏室。再说，\l我想也不会有哪个训练家\l会想去看那些因为过度消费\l而被丢在这里的\l旧家电吧。$"
 
 GoldenrodApartments_BasementGuard_Text_1:
-	.string "...What? You have a Rotom that wants\n"
-	.string "check out the appliances? Well... \l"
-	.string "I suppose the tenants wouldn't\l"
-	.string "use them anyway. Let's say I never\l"
-	.string "saw you if anyone asks. I'm going to\l"
-	.string "have a coffee break.$"
+	.string "……什么？你的洛托姆\n想去看看那些家电？好吧……\l反正住客也不会\l再用它们了。要是有人问起，\l我们就当没见过。我要去\l喝杯咖啡歇歇了。$"
 
 GoldenrodApartments_OldLady_Text_0:
-	.string "The city has been expanding a lot in\n"
-	.string "recent years. I fear I've been left\l"
-	.string "behind by the rapid changes.$"
+	.string "这几年这座城市\n一直在不断扩张。\l我真怕自己被这飞速的\l变化甩在了后头。$"
 
 GoldenrodApartments_Child_Text_0:
-	.string "Mom always comes home late...$"
+	.string "妈妈总是很晚才回家……$"
 
 GoldenrodApartments_Girl_Text_0:
-	.string "Our mother works at the radio tower,\n"
-	.string "which makes her very busy. Luckily\l"
-	.string "we have mom's Breloom to help with\l"
-	.string "everything!$"
+	.string "我们妈妈在播音塔工作，\n所以总是很忙。还好\l有妈妈的斗笠菇帮忙\l料理一切！$"
 
 GoldenrodApartments_Breloom_Text_0:
-	.string "Breloom is joyfully doing the dishes!$"
+	.string "斗笠菇正开开心心地洗着碗！$"
 
 GoldenrodApartments_Gameboykid_Text_0:
-	.string "Strange noises can be heard from the\n"
-	.string "floor above this. I have never seen\l"
-	.string "anyone who lives there though, strange.$"
+	.string "这上面那层楼\n总会传来奇怪的声音。\l可我从来没见过\l住在那里的人，真奇怪。$"
 
 GoldenrodApartments_ScientistF_Text_0:
-	.string "Goldenrod recently invited scientists\n"
-	.string "from other regions to the Radio Tower\l"
-	.string "for a business meeting.$"
+	.string "满金市最近邀请了\n其他地区的研究员\l到播音塔开商务会议。$"
 
 GoldenrodApartments_ScientistM_Text_0:
-	.string "These SkyBNB apartments are barely\n"
-	.string "equipped with the most basics of\l"
-	.string "tools... How vexing.$"
+	.string "这些天空民宿公寓\n只勉强配有最基本的\l工具……真让人烦心。$"
 
 GoldenrodApartments_LockedDoor_Text_0:
-	.string "The door is now open.$"
+	.string "门已经开了。$"
 
 GoldenrodApartments_LockedDoor_Text_1:
-	.string "The way seems to be barred by a metal\n"
-	.string "door. A small keyhole is visible. \p"
-	.string "You used the Apartment Key.$"
+	.string "前路似乎被一道金属门\n挡住了。能看见一个小锁孔。\p你使用了公寓钥匙。$"
 
 GoldenrodApartments_LockedDoor_Text_2:
-	.string "The way is now open.$"
+	.string "路已经通了。$"
 
 GoldenrodApartments_LockedDoor_Text_3:
-	.string "The way seems to be barred by a metal\n"
-	.string "door. A small keyhole is visible, but\l"
-	.string "you have nothing that would fit it.$"
+	.string "前路被一道金属门\n挡住了。能看见一个小锁孔，\l可你身上没有能配上的东西。$"
 
 GoldenrodApartments_Apartment1_Text_0:
-	.string "Goldenrod Sky Apartments F1$"
+	.string "满金天空公寓1楼$"
 
 GoldenrodApartments_Apartment2_Text_0:
-	.string "Goldenrod Sky Apartments F2$"
+	.string "满金天空公寓2楼$"
 
 GoldenrodApartments_Apartment3_Text_0:
-	.string "Goldenrod Sky Apartments F3$"
+	.string "满金天空公寓3楼$"
 
 MadScientistEvent_Text_0:
-	.string "You sense trouble in this direction.$"
+	.string "你感到这个方向有麻烦。$"
 
 MadScientistEvent_Text_1:
-	.string "Are you prepared to go forward?$"
+	.string "你准备好继续往前了吗？$"
 
 MadScientistEvent_Text_2:
-	.string "Scientist: Ha haa! The machine is nearly\n"
-	.string "complete! \p"
-	.string "I shall have my revenge on those \n"
-	.string "Rocket executives for taking my\l"
-	.string "research funding!$"
+	.string "科学家：哈哈！机器就快\n完成了！\p我要向那些夺走我\n研究经费的火箭队干部\l报仇！$"
 
 MadScientistEvent_Text_3:
-	.string "Scientist: And then! The rest of those\n"
-	.string "snobby scientific committee members!\p"
-	.string "This will be my ultimate creation!\n"
-	.string "Ahahahahahahahahaaaaaaaaaaaaaa!$"
+	.string "科学家：还有！还有那些\n自以为是的科学委员会成员！\p这将是我的究极之作！\n啊哈哈哈哈哈哈哈哈——！$"
 
 MadScientistEvent_Text_4:
-	.string "But first...$"
+	.string "首先……$"
 
 MadScientistEvent_Text_5:
-	.string "Scientist: Who are you and how \n"
-	.string "did you get in?!$"
+	.string "科学家：你是谁？\n你是怎么进来的？！$"
 
 MadScientistEvent_Text_6:
-	.string "I don't have time for \n"
-	.string "debt collectors or salespeople! \p"
-	.string "I will be rid of you!$"
+	.string "我没空搭理\n讨债的，也没空搭理推销员！\p我这就把你打发走！$"
 
 MadScientistEvent_Text_7:
-	.string "No! I can't afford this!$"
+	.string "不！这我可付不起！$"
 
 MadScientistEvent_Text_8:
-	.string "Scientist: It seems the tax office has \n"
-	.string "sent quite a tough customer this time. \p"
-	.string "No matter!\p"
-	.string "I've been looking for volunteers\n"
-	.string "actually, so this will work out nicely!\p"
-	.string "You shall be the first to witness the\n"
-	.string "raw power of my mechanical Pokémon!$"
+	.string "科学家：看来这次税务局\n派来了个硬茬子。\p不过没关系！\p我正想找志愿者呢，\n这反倒正好！\p就让你第一个见识\n我这只机械宝可梦的\l真正力量！$"
 
 MadScientistEvent_Text_9:
-	.string "Scientist: Magearna! Destroy this \n"
-	.string "foolish intruder!$"
+	.string "科学家：玛机雅娜！\n消灭这个愚蠢的闯入者！$"
 
 MadScientistEvent_Text_10:
-	.string "Scientist: This... THIS CANNOT BE!\p"
-	.string "My creation... Gone? JUST LIKE THAT?\p"
-	.string "It was supposed to be invincible!\p"
-	.string "This isn't over! I can still-$"
+	.string "科学家：这……这不可能！\p我的作品……没了？就这样没了？\p它本该是无敌的！\p这还没完！我还能——$"
 
 MadScientistEvent_Text_11:
-	.string "??? Hold it right there!$"
+	.string "？？？：站住别动！$"
 
 MadScientistEvent_Text_12:
-	.string "Police: You're under arrest for tax \n"
-	.string "evasion, having ties to the Team Rocket\l"
-	.string "and for developing illegal Pokémon.$"
+	.string "警察：你因逃税、与火箭队\n有牵连，以及开发非法宝可梦\l而被捕了。$"
 
 MadScientistEvent_Text_13:
-	.string "Scientist: B-But I was the one whom \n"
-	.string "Team Rocket abandoned!\p"
-	.string "I'm innocent! I just wanted\n"
-	.string "to show them they were in the wrong!$"
+	.string "科学家：可、可我是\n被火箭队抛弃的人啊！\p我是无辜的！我只是想\n证明他们错了！$"
 
 MadScientistEvent_Text_14:
-	.string "Save it for the judge.$"
+	.string "留着去跟法官说吧。$"
 
 MadScientistEvent_Text_15:
-	.string "Police: I thank you for help \n"
-	.string "subduing this crook. \p"
-	.string "They've been holed up here\n"
-	.string "for a while, causing all sorts of\l"
-	.string "disturbance.\p"
-	.string "We'll let you keep the Pokémon if\n"
-	.string "you stay quiet about it. \p"
-	.string "We trust it will be in good \n"
-	.string "hands with you.$"
+	.string "警察：谢谢你帮忙\n制服了这个坏家伙。\p他躲在这里好一阵子了，\n到处惹是生非。\p只要你守口如瓶，\n那只宝可梦就归你了。\p我们相信你会好好\n照顾它的。$"

@@ -21,12 +21,12 @@ CianwoodGym_EventScript_Statue2::
 	end
 
 CianwoodGym_Text_GymStatue:
-	.string "Cianwood City Pokémon Gym$"
+	.string "湛蓝市宝可梦道馆$"
 
 CianwoodGym_Text_GymStatueCertified:
-	.string "Cianwood City Pokémon Gym\p"
-	.string "Chuck's Certified Trainers:\n"
-	.string "{PLAYER}$"
+	.string "湛蓝市宝可梦道馆\p阿四认证训练家：\n{PLAYER}$"
+	.string ""
+	.string ""
 
 CianwoodGym_EventScript_Chuck::
 	lock
@@ -84,10 +84,10 @@ CianwoodGym_EventScript_ChuckGotoDojo::
 	end
 
 CianwoodGym_Text_ChuckGotoDojo:
-	.string "Wahahaha {PLAYER}!\n"
-	.string "I'm in the middle of my training!\p"
-	.string "If you want another match, come to\n"
-	.string "the Fighting Dojo in Saffron!$"	
+	.string "哇哈哈，{PLAYER}！\n我正修炼到一半呢！\p想再打一场的话，就来\n金黄市的格斗道场吧！$"
+	.string ""
+	.string ""
+	.string ""	
 
 CianwoodGym_EventScript_ChuckAtDojo::
 	msgbox CianwoodGym_Text_ChuckAtDojo, MSGBOX_DEFAULT
@@ -96,8 +96,8 @@ CianwoodGym_EventScript_ChuckAtDojo::
 	end
 
 CianwoodGym_Text_ChuckAtDojo:
-	.string "I will see you at the Dojo!\n"
-	.string "Wahahahahaha$"
+	.string "我在道场等你！\n哇哈哈哈哈$"
+	.string ""
 
 CianwoodGym_EventScript_OlivineCheckMahog::
 	goto_if_set FLAG_DEFEATED_MAHOGANY_TOWN_GYM, CianwoodGym_EventScript_Chuck_Battle3
@@ -137,60 +137,60 @@ CianwoodGym_Movement_ChuckRight:
 	step_end
 
 CianwoodGym_Text_ChuckIntro1:
-	.string "Wahahah!\p"
-	.string "So you've come this far!\p"
-	.string "Let me tell you, I'm tough!\p"
-	.string "My Pokémon will crush stones and\n"
-	.string "shatter bones!\p"
-	.string "Watch this!$"
+	.string "哇哈哈！\p你终于来到这里了！\p告诉你，我可是很强的！\p我的宝可梦能碎石断骨！\p看好了！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CianwoodGym_Text_ChuckIntro2:
-	.string "Chuck: Urggh!\n"
-	.string "…\p"
-	.string "Oooarrgh!$"
+	.string "阿四：唔唔！\n……\p嗷嗷——！$"
+	.string ""
+	.string ""
 
 CianwoodGym_Text_ChuckIntro3:
-	.string "There! Scared now, are you?\p"
-	.string "What? It has nothing to do with\n"
-	.string "Pokémon?\p"
-	.string "That's true!\p"
-	.string "Come on. We shall do battle!$"
+	.string "怎么样！吓到了吧？\p什么？跟宝可梦没关系？\p说得也是！\p来吧。我们来对战！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CianwoodGym_Text_ChuckLoss:
-	.string "Wha? Huh? I lost?\p"
-	.string "How about that!\n"
-	.string "You're worthy of Stormbadge!$"
+	.string "咦？啊？我输了？\p真没想到！\n你有资格拿打击徽章！$"
+	.string ""
+	.string ""
 
 CianwoodGym_Text_GetStormBadge:
-	.string "{PLAYER} received Stormbadge.$"
+	.string "{PLAYER}得到了打击徽章。$"
 
 CianwoodGym_Text_ChuckBadgeSpeech:
-	.string "Stormbadge makes all Pokémon up to\n"
-	.string "L70 obey, even traded ones.\p"
-	.string "It also lets your Pokémon use Fly\n"
-	.string "when you're not in a battle.\p"
-	.string "Here, take this too!$"
+	.string "有了打击徽章，70级以下的宝可梦\n都会听话，交换来的也一样。\p对战之外，还能让你的宝可梦\n使用飞翔。\p这个也拿去吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 CianwoodGym_Text_ChuckTMSpeech:
-	.string "That is Bulk Up.\p"
-	.string "It bolsters your Pokémon both \n"
-	.string "offensively and defensively!$"
+	.string "那是健美。\p能同时提升宝可梦的\n攻击和防御！$"
+	.string ""
+	.string ""
 
 CianwoodGym_Text_ChuckAfter:
-	.string "Wahahah! I enjoyed battling you!\p"
-	.string "But a loss is a loss!\p"
-	.string "From now on, I'm going to train\n"
-	.string "24 hours a day!$"
+	.string "哇哈哈！跟你对战真开心！\p不过输就是输！\p从今天起，我要每天\n24小时地修炼！$"
+	.string ""
+	.string ""
+	.string ""
 
 CianwoodGym_Text_ChuckRematch:
-	.string "Wahahah! Johto Champion!\p"
-	.string "You've come back for more!\p"
-	.string "I see your skills have improved!\p"
-	.string "Ready to see who's stronger?$"
+	.string "哇哈哈！城都冠军！\p你又来挑战了啊！\p看得出你的实力又精进了！\p准备好比一比谁更强了吗？$"
+	.string ""
+	.string ""
+	.string ""
 
 CianwoodGym_Text_ChuckRematchDefeat:
-	.string "Wha? Huh? I lost?\n"
-	.string "Again?$"
+	.string "咦？啊？我输了？\n又输了？$"
+	.string ""
 
 CianwoodGym_EventScript_Yoshi::
 	trainerbattle_single TRAINER_YOSHI CianwoodGym_Text_BlackbeltYoshiSeen, CianwoodGym_Text_BlackbeltYoshiBeaten
@@ -198,16 +198,16 @@ CianwoodGym_EventScript_Yoshi::
 	end
 
 CianwoodGym_Text_BlackbeltYoshiSeen:
-	.string "My Pokémon and I are bound togeth-\n"
-	.string "er by friendship.\p"
-	.string "Our bond will never be broken!$"
+	.string "我和宝可梦靠友谊\n紧紧相连。\p这份纽带绝不会断！$"
+	.string ""
+	.string ""
 
 CianwoodGym_Text_BlackbeltYoshiBeaten:
-	.string "This isn't real!$"
+	.string "这不是真的！$"
 
 CianwoodGym_Text_BlackbeltYoshiAfter:
-	.string "You seem to have a strong bond\n"
-	.string "with your Pokémon too!$"
+	.string "看来你也和宝可梦\n有着牢固的纽带！$"
+	.string ""
 
 CianwoodGym_EventScript_Lao::
 	trainerbattle_single TRAINER_LAO CianwoodGym_Text_BlackbeltLaoSeen, CianwoodGym_Text_BlackbeltLaoBeaten
@@ -215,14 +215,14 @@ CianwoodGym_EventScript_Lao::
 	end
 
 CianwoodGym_Text_BlackbeltLaoSeen:
-	.string "We martial artists fear nothing!$"
+	.string "我们格斗家无所畏惧！$"
 
 CianwoodGym_Text_BlackbeltLaoBeaten:
-	.string "That's shocking!$"
+	.string "真叫人震惊！$"
 
 CianwoodGym_Text_BlackbeltLaoAfter:
-	.string "Fighting Pokémon are afraid of\n"
-	.string "psychics…$"
+	.string "格斗宝可梦很怕\n超能力……$"
+	.string ""
 
 
 CianwoodGym_EventScript_Nob::
@@ -231,14 +231,14 @@ CianwoodGym_EventScript_Nob::
 	end
 
 CianwoodGym_Text_BlackbeltNobSeen:
-	.string "Words are useless.\n"
-	.string "Let your fists do the talking!$"
+	.string "废话少说。\n用拳头说话吧！$"
+	.string ""
 
 CianwoodGym_Text_BlackbeltNobBeaten:
 	.string "…$"
 
 CianwoodGym_Text_BlackbeltNobAfter:
-	.string "I lost! I'm speechless!$"
+	.string "我输了！\n我无话可说！$"
 
 CianwoodGym_EventScript_Lung::
 	trainerbattle_single TRAINER_LUNG CianwoodGym_Text_BlackbeltLungSeen, CianwoodGym_Text_BlackbeltLungBeaten
@@ -246,12 +246,12 @@ CianwoodGym_EventScript_Lung::
 	end
 
 CianwoodGym_Text_BlackbeltLungSeen:
-	.string "My raging fists will shatter your\n"
-	.string "Pokémon!$"
+	.string "我狂暴的拳头\n会把你的宝可梦击碎！$"
+	.string ""
 
 CianwoodGym_Text_BlackbeltLungBeaten:
-	.string "I got shattered!$"
+	.string "我被击碎了！$"
 
 CianwoodGym_Text_BlackbeltLungAfter:
-	.string "My Pokémon lost…\n"
-	.string "My… my pride is shattered…$"
+	.string "我的宝可梦输了……\n我……我的自尊也被击碎了……$"
+	.string ""

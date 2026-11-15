@@ -193,24 +193,24 @@ static const u32 sHiddenMonIconGfx[] = INCBIN_U32("graphics/dexnav/hidden.4bpp.s
 
 // strings
 static const u8 sText_DexNav_NoInfo[] = _("--------");
-static const u8 sText_DexNav_CaptureToSee[] = _("Capture first!");
-static const u8 sText_DexNav_Register[] = _("Register");
-static const u8 sText_DexNav_UnbindRegisteredSpecies[] = _("{SELECT_BUTTON} Unbind {STR_VAR_1}");
-static const u8 sText_DexNav_NotFoundHere[] = _("This Pokémon cannot be found here!");
+static const u8 sText_DexNav_CaptureToSee[] = _("捕捉后可见！");
+static const u8 sText_DexNav_Register[] = _("登记");
+static const u8 sText_DexNav_UnbindRegisteredSpecies[] = _("{SELECT_BUTTON} 解除{STR_VAR_1}");
+static const u8 sText_DexNav_NotFoundHere[] = _("该宝可梦无法\n在这里找到！");
 static const u8 sText_ThreeQmarks[] = _("???");
-static const u8 sText_SearchLevel[] = _("SEARCH {LV}. {STR_VAR_1}");
+static const u8 sText_SearchLevel[] = _("搜寻 {LV}. {STR_VAR_1}");
 static const u8 sText_MonLevel[] = _("{LV}. {STR_VAR_1}");
-static const u8 sText_EggMove[] = _("MOVE: {STR_VAR_1}");
+static const u8 sText_EggMove[] = _("招式：{STR_VAR_1}");
 static const u8 sText_HeldItem[] = _("{STR_VAR_1}");
-static const u8 sText_StartExit[] = _("{START_BUTTON} EXIT");
+static const u8 sText_StartExit[] = _("{START_BUTTON} 退出");
 static const u8 sText_DexNavChain[] = _("{NO} {STR_VAR_1}");
 static const u8 sText_DexNavChainLong[] = _("{NO}{STR_VAR_1}");
-static const u8 sText_AreaProgress[] = _("AREA PROGRESS");
-static const u8 sText_AreaComplete[] = _("AREA COMPLETE!");
-static const u8 sText_AreaLandWater[] = _("Land {STR_VAR_1}/{STR_VAR_2}   Water {STR_VAR_3}/");
-static const u8 sText_AreaLand[] = _("Land {STR_VAR_1}/{STR_VAR_2}");
-static const u8 sText_AreaWater[] = _("Water {STR_VAR_1}/{STR_VAR_2}");
-static const u8 sText_AreaNoData[] = _("No encounters here!");
+static const u8 sText_AreaProgress[] = _("区域进度");
+static const u8 sText_AreaComplete[] = _("区域完成！");
+static const u8 sText_AreaLandWater[] = _("陆地 {STR_VAR_1}/{STR_VAR_2}   水面 {STR_VAR_3}/");
+static const u8 sText_AreaLand[] = _("陆地 {STR_VAR_1}/{STR_VAR_2}");
+static const u8 sText_AreaWater[] = _("水面 {STR_VAR_1}/{STR_VAR_2}");
+static const u8 sText_AreaNoData[] = _("这里没有野生宝可梦！");
 
 static const u8 sText_ArrowLeft[] = _("{LEFT_ARROW}");
 static const u8 sText_ArrowRight[] = _("{RIGHT_ARROW}");

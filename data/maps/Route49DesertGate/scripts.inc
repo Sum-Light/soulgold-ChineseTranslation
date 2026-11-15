@@ -14,7 +14,7 @@ Route49GateJoy::
 
 
 Route49GateJoy_Text_0:
-	.string "Hi! Let me heal your Pokémon!$"
+	.string "您好！我来为您治疗宝可梦！$"
 
 Route49GateJoy_Text_1:
-	.string "Done! All good to go!$"
+	.string "好了！全都恢复精神了！$"

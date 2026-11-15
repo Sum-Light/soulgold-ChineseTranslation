@@ -42,69 +42,69 @@ Route15_EventScript_Sign::
 	end
 
 Route15_Text_TeacherColetteSeen:
-	.string "Have you forgotten anything?$"
+	.string "没忘带什么东西吧？$"
 
 Route15_Text_TeacherColetteBeaten:
-	.string "Kyaaah!$"
+	.string "呀啊啊！$"
 
 Route15_Text_TeacherColetteAfterBattle:
-	.string "Before I became a teacher, I used\n"
-	.string "to forget a lot of things.$"
+	.string "我当老师以前，\n也经常忘东西。$"
+	.string ""
 
 Route15_Text_TeacherHillarySeen:
-	.string "On sunny days, I think that the\n"
-	.string "kids would rather be playing in the\n"
-	.string "schoolyard than studying in class.$"
+	.string "天气好的时候，我觉得孩子们\n更想在校园里玩，而不是上课。$"
+	.string ""
+	.string ""
 
 Route15_Text_TeacherHillaryBeaten:
-	.string "I didn't want to lose…$"
+	.string "我本不想输的……$"
 
 Route15_Text_TeacherHillaryAfterBattle:
-	.string "Studying is important, but\n"
-	.string "exercise is just as vital.$"
+	.string "学习固然重要，\n但运动同样必不可少。$"
+	.string ""
 
 Route15_Text_SchoolboyKippSeen:
-	.string "Hang on. I have to phone my mom.$"
+	.string "等一下。\n我得给妈妈打个电话。$"
 
 Route15_Text_SchoolboyKippBeaten:
-	.string "Sorry, Mom! I was beaten!$"
+	.string "对不起，妈妈！\n我输了！$"
 
 Route15_Text_SchoolboyKippAfterBattle:
-	.string "My mom worries so much about me, I\n"
-	.string "have to phone her all the time.$"
+	.string "妈妈太担心我了，\n我得经常给她打电话。$"
+	.string ""
 
 Route15_Text_SchoolboyTommySeen:
-	.string "Let's battle. I won't lose!$"
+	.string "来对战吧。\n我可不会输！$"
 
 Route15_Text_SchoolboyTommyBeaten:
-	.string "I forgot to do my homework!$"
+	.string "我忘了写作业！$"
 
 Route15_Text_SchoolboyTommyAfterBattle:
-	.string "Sayonara! I just learned that in\n"
-	.string "my Japanese class.$"
+	.string "撒由那拉！这是我\n在日语课刚学的词。$"
+	.string ""
 
 Route15_Text_SchoolboyJohnnySeen:
-	.string "We're on a field trip to Lavender\n"
-	.string "Radio Tower for social studies.$"
+	.string "为了社会课，我们正要去\n紫苑播音塔参观。$"
+	.string ""
 
 Route15_Text_SchoolboyJohnnyBeaten:
-	.string "You're wickedly tough!$"
+	.string "你强得离谱！$"
 
 Route15_Text_SchoolboyJohnnyAfterBattle:
-	.string "I'm tired of walking. I need to\n"
-	.string "take a break.$"
+	.string "走累了。\n我得歇一会儿。$"
+	.string ""
 
 Route15_Text_SchoolboyBillySeen:
-	.string "My favorite class is gym!$"
+	.string "我最喜欢的课是体育课！$"
 
 Route15_Text_SchoolboyBillyBeaten:
-	.string "Oh, no! How could I lose?$"
+	.string "糟了！\n我怎么会输呢？$"
 
 Route15_Text_SchoolboyBillyAfterBattle:
-	.string "If Pokémon were a subject at\n"
-	.string "school, I'd be the best!$"
+	.string "要是学校有宝可梦课，\n我肯定是第一名！$"
+	.string ""
 
 Route15_Text_Sign:
-	.string "Route 15\p"
-	.string "Fuchsia City - Lavender Town$"
+	.string "15号道路\p浅红市——紫苑镇$"
+	.string ""
 

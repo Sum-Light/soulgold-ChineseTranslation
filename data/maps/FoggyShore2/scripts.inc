@@ -30,31 +30,25 @@ FoggyShoreBuizel::
 
 
 NijoTrainer_Text_0:
-	.string "What are you doing here so far off the\n"
-	.string "beaten path?$"
+	.string "这种荒郊野外，\n你跑这儿来做什么？$"
 
 NijoTrainer_Text_1:
-	.string "You'll be fine.$"
+	.string "你不会有事的。$"
 
 NijoTrainer_Text_2:
-	.string "Nearby path leads to a forest where\n"
-	.string "many get lost. \p"
-	.string "Be careful if you decide to \n"
-	.string "venture there.$"
+	.string "附近的小路通向一座森林，\n很多人都在里面迷了路。\p要是打算进去，\n可得当心点。$"
 
 SaeTrainer_Text_0:
-	.string "A quiet beach, the perfect getaway!$"
+	.string "安静的海滩，最适合度假了！$"
 
 SaeTrainer_Text_1:
-	.string "Peace, ruined!$"
+	.string "清静全毁了！$"
 
 SaeTrainer_Text_2:
-	.string "Not that many wander down here due to\n"
-	.string "the rumours of the spooky woods\l"
-	.string "nearby.$"
+	.string "因为附近有闹鬼树林的传闻，\n很少有人会到这儿来。$"
 
 FoggyShoreSign_Text_0:
-	.string "{UP_ARROW} Lost Woods$"
+	.string "{UP_ARROW}迷失森林$"
 
 FoggyShoreBuizel_Text_0:
-	.string "Buizel: Buibuibuiiii!$"
+	.string "泳圈鼬：噗咿噗咿噗咿——！$"

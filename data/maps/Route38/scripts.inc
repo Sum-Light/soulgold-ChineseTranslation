@@ -53,105 +53,105 @@ Route38_EventScript_Sign2::
 	end
 
 Route38_Text_BirdKeeperTobySeen:
-	.string "Fly high into the sky,\n"
-	.string "my beloved bird Pokémon!$"
+	.string "展翅高飞吧，\n我心爱的鸟宝可梦！$"
+	.string ""
 
 Route38_Text_BirdKeeperTobyBeaten:
-	.string "I feel like just flying\n"
-	.string "away now.$"
+	.string "我现在真想就这么\n飞走算了。$"
+	.string ""
 
 Route38_Text_BirdKeeperTobyAfter:
-	.string "I plan to train in Cianwood City\n"
-	.string "to teach my Pokémon how to Fly.$"
+	.string "我打算去湛蓝市修行，\n教宝可梦学会飞翔。$"
+	.string ""
 
 Route38_Text_SchoolboyChad1Seen:
-	.string "Let me try something\n"
-	.string "I learned today.$"
+	.string "让我试试今天\n学到的东西。$"
+	.string ""
 
 Route38_Text_SchoolboyChad1Beaten:
-	.string "I didn't study enough,\n"
-	.string "I guess.$"
+	.string "看来是我学得\n还不够啊。$"
+	.string ""
 
 Route38_Text_SchoolboyChadAfter:
-	.string "I have to take so many\n"
-	.string "tests, I don't have much\l"
-	.string "time for Pokémon.\p"
-	.string "So when I do get to play,\n"
-	.string "I really concentrate.$"
+	.string "我要考的试太多了，\n没什么时间\l玩宝可梦。\p所以每次能玩的时候，\n我都特别投入。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route38_Text_LassDana1Seen:
-	.string "You seem to be good at\n"
-	.string "Pokémon.\p"
-	.string "If you are, how about\n"
-	.string "giving me some advice?$"
+	.string "你好像很擅长\n宝可梦。\p既然这样，能不能\n给我点建议？$"
+	.string ""
+	.string ""
+	.string ""
 
 Route38_Text_LassDana1Beaten:
-	.string "I see. So you can battle\n"
-	.string "that way.$"
+	.string "原来如此。还可以\n那样对战啊。$"
+	.string ""
 
 Route38_Text_LassDanaAfter:
-	.string "I know something good!\p"
-	.string "Moomoo Farm's milk is\n"
-	.string "famous for its flavor.$"
+	.string "我告诉你个好消息！\p哞哞牧场的牛奶\n以味道好而闻名。$"
+	.string ""
+	.string ""
 
 Route38_Text_BeautyValerieSeen:
-	.string "Hi! Aren't you a cute\n"
-	.string "trainer!\p"
-	.string "May I see your Pokémon?$"
+	.string "嗨！你真是个\n可爱的训练家！\p让我看看你的宝可梦吧？$"
+	.string ""
+	.string ""
 
 Route38_Text_BeautyValerieBeaten:
-	.string "I'm glad I got to see\n"
-	.string "your Pokémon!$"
+	.string "能看到你的宝可梦，\n我很开心！$"
+	.string ""
 
 Route38_Text_BeautyValerieAfter:
-	.string "When I see Pokémon, it\n"
-	.string "seems to soothe my nerves.$"
+	.string "一看到宝可梦，\n我的心情就会平静下来。$"
+	.string ""
 
 Route38_Text_SailorHarrySeen:
-	.string "I've been overseas, so I\n"
-	.string "know about all sorts of\l"
-	.string "Pokémon!$"
+	.string "我出过国，所以各种\n宝可梦我都\l知道！$"
+	.string ""
+	.string ""
 
 Route38_Text_SailorHarryBeaten:
-	.string "Your skill is world class!$"
+	.string "你的实力是世界级的！$"
 
 Route38_Text_SailorHarryAfter:
-	.string "All kinds of people around\n"
-	.string "the world live happily with\l"
-	.string "Pokémon.$"
+	.string "世界各地的人们\n都和宝可梦一起\l幸福地生活着。$"
+	.string ""
+	.string ""
 
 Route38_Text_BeautyOliviaSeen:
-	.string "Don't you think my Pokémon\n"
-	.string "and I are beautiful?$"
+	.string "你不觉得我和我的\n宝可梦都很美吗？$"
+	.string ""
 
 Route38_Text_BeautyOliviaBeaten:
-	.string "We drink Moomoo Milk every\n"
-	.string "day.$"
+	.string "我们每天都喝哞哞鲜奶。$"
+	.string ""
 
 Route38_Text_BeautyOliviaAfter:
-	.string "Moomoo Milk is good for\n"
-	.string "beauty and health,\p"
-	.string "but inconveniently, they\n"
-	.string "only sell one bottle at a time.$"
+	.string "哞哞鲜奶对美容和健康\n都很好。\p可麻烦的是，每次\n只能买一瓶。$"
+	.string ""
+	.string ""
+	.string ""
 
 Route38_Text_Sign:
-	.string "Route 38\p"
-	.string "Olivine City - Ecruteak City$"
+	.string "38号道路\p浅葱市——缘朱市$"
+	.string ""
 
 Route38_Text_TrainerTips:
-	.string "Trainer Tips\p"
-	.string "If a Pokémon is trying to\n"
-	.string "evolve, you can stop it.\p"
-	.string "Press the B Button during\n"
-	.string "evolution to cancel it.\p"
-	.string "That startles the Pokémon\n"
-	.string "and stops its evolution.$"
+	.string "训练家提示\p宝可梦快要进化的时候，\n你是可以阻止的。\p在进化途中按下B键\n就能取消这次进化。\p宝可梦会受到惊吓，\n进化也就停止了。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 
 Route38_Text_WaterSign:
-	.string "No Swimming Or Fishing.\n"
-	.string "Water For Farming Only.\p"
-	.string "-Ecruteak Council$"
+	.string "禁止游泳和钓鱼。\n水域仅用于农业。\p——缘朱市议会$"
+	.string ""
+	.string ""
 
 Route38_HiddenGrotto::
 	msgbox Route38_HiddenGrotto_Text_0, MSGBOX_YESNO
@@ -168,5 +168,4 @@ Route38_HiddenGrotto_2:
 
 
 Route38_HiddenGrotto_Text_0:
-	.string "There seems to be a path behind the\n"
-	.string "trees. Enter?$"
+	.string "树丛后面好像有一条路。\n要进去吗？$"

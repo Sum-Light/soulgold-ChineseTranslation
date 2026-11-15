@@ -21,19 +21,19 @@ MahoganyTown_PokemonCenter_EventScript_Girl::
 	end
 
 MahoganyTown_PokemonCenter_Text_PokefanM:
-    .string "What's this? Team Rocket has come\n"
-    .string "back?\p"
-    .string "I saw some men in black at Lake Of\n"
-    .string "Rage…$"
+    .string "什么？火箭队又回来了？\p我在愤怒之湖见到了几个\n穿黑衣服的男人……$"
+    .string ""
+    .string ""
+    .string ""
 
 MahoganyTown_PokemonCenter_Text_Youngster:
-    .string "I stop my Pokémon from evolving too\n"
-    .string "early.\p"
-    .string "I make them learn certain moves\n"
-    .string "before I let them evolve.$"
+    .string "我会阻止我的宝可梦\n过早进化。\p我会先让它学会某些招式，\n再让它进化。$"
+    .string ""
+    .string ""
+    .string ""
 
 MahoganyTown_PokemonCenter_Text_CooltrainerF:
-    .string "Pokémon do become stronger when they\n"
-    .string "evolve,\p"
-    .string "but they also learn moves more\n"
-    .string "slowly.$"
+    .string "宝可梦进化后确实会\n变强，\p但学会招式也会\n变慢。$"
+    .string ""
+    .string ""
+    .string ""

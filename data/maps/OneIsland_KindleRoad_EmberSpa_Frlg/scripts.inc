@@ -42,56 +42,56 @@ OneIsland_KindleRoad_EmberSpa_EventScript_SpaHeal::
 	end
 
 OneIsland_KindleRoad_EmberSpa_Text_WaterWarmsMeToCore::
-	.string "Hm!\n"
-	.string "Haaaaaaaaaaah!\p"
-	.string "Aaaah! This is heavenly!\n"
-	.string "The water warms me to my core!\p"
-	.string "You should jump in, too.\p"
-	.string "Go to the middle, relax, and get\n"
-	.string "good and warm!$"
+	.string "嗯！\n哈哈！\p真是天堂般的感受！\n这些温暖的水涌入我的心！\p你也应该跳进来的。\p到中间去，放松，\n去体会温暖和美好！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OneIsland_KindleRoad_EmberSpa_Text_EnjoyBowlOfChowder::
-	.string "My favorite part of bathing comes\n"
-	.string "up right after this.\p"
-	.string "I enjoy a bowl of chowder to\n"
-	.string "warm me from the inside, too!$"
+	.string "马上要进行的是\n沐浴中我最喜欢的一个环节。\p我也喜欢吃下一碗大杂烩，\n享受从身体内部涌出温暖的感觉。$"
+	.string ""
+	.string ""
+	.string ""
 
 OneIsland_KindleRoad_EmberSpa_Text_WaterExquisiteFullyRefreshed::
-	.string "The water is perfectly warm.\n"
-	.string "It feels exquisite…\p"
-	.string "{PLAYER} and the Pokémon were\n"
-	.string "fully refreshed!$"
+	.string "水非常温暖。\n有一种绝妙的感觉……\p{PLAYER}的宝可梦完全恢复精神了！$"
+	.string ""
+	.string ""
+	.string ""
 
 OneIsland_KindleRoad_EmberSpa_Text_HotSpringIsTherapeutic::
-	.string "Soaking in a hot spring pool is\n"
-	.string "therapeutic, people say.$"
+	.string "据说，\n泡温泉有益于身体健康。$"
+	.string ""
 
 OneIsland_KindleRoad_EmberSpa_Text_SeeHowSmoothMySkinIs::
-	.string "Have a look at my face.\n"
-	.string "See how smooth my skin is?\p"
-	.string "The hot spring's water keeps my\n"
-	.string "skin younger than my age.$"
+	.string "看看我的脸。\n我的皮肤是不是很光滑？\p泡温泉使我看起来更年轻。$"
+	.string ""
+	.string ""
+	.string ""
 
 OneIsland_KindleRoad_EmberSpa_Text_BrunoVisitsSpaOnOccasion::
-	.string "After an honest day of training,\n"
-	.string "nothing beats a relaxing soak in\l"
-	.string "the hot spring pool.\p"
-	.string "BRUNO, who's a senior ahead of me,\n"
-	.string "visits the SPA on occasion.\p"
-	.string "He comes to rehab injuries, both\n"
-	.string "his own and his Pokémon's.$"
+	.string "在经过一天辛苦的训练之后，\n没有比泡温泉更让人惬意的事了。\p我的一个前辈叫做希巴。\n有时会他会和他的宝可梦\p一起来到这个温泉，\n在这里做水疗。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OneIsland_KindleRoad_EmberSpa_Text_UsedThisToMakeEmberSpa::
-	.string "Hot springs go hand-in-hand with\n"
-	.string "volcanoes.\p"
-	.string "The EMBER SPA here, well,\n"
-	.string "I made it years ago.\p"
-	.string "I hewed the pool right out of a\n"
-	.string "gigantic boulder by hand.\p"
-	.string "I was using this at the time.\n"
-	.string "I suppose I can part with it.$"
+	.string "温泉是伴随着火山而产生的。\p几年前，\n我在这里建造了灯火温泉。\p我从一堆巨大的岩石中，\n亲手开辟出了这个池子。\p那时我使用了这招，\n我想我是时候该放开它了。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OneIsland_KindleRoad_EmberSpa_Text_ExplainHM06::
-	.string "That shatters boulders as if they\n"
-	.string "were made of crackers.$"
+	.string "就像它们是用饼干做的一样，\n我用这招砸碎了巨石。$"
+	.string ""
 

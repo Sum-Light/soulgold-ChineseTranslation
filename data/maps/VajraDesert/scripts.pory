@@ -7,51 +7,42 @@ mapscripts VajraDesert_MapScripts {
 }
 
 script VajraDesert_ManSighing {
-    msgbox("Man... The sandpits seem terrible at
-            this moment. The path to the village
-            is blocked. I hope it clears up soon.", MSGBOX_NPC)
+    msgbox("哎呀……这会儿的沙坑实在\n糟得很。去村里的路\l都堵住了。真希望它快点\l平息下来。", MSGBOX_NPC)
 }
 
 script VajraDesert_TrainerJill {
-        trainerbattle_single(TRAINER_JILL, "I read in a magazine that training in
-                                            harsh environments is great for you!",
-                                            "I wanna go home...")
-        msgbox("I should've listened to mom, that
-                magazine was really sketchy...", MSGBOX_AUTOCLOSE)
+        trainerbattle_single(TRAINER_JILL, "我在杂志上读到过，在\n严酷的环境里锻炼\l对身体特别好！",
+                                            "我想回家……")
+        msgbox("我该听妈妈的话的，\n那本杂志真不靠谱……", MSGBOX_AUTOCLOSE)
 }
 script VajraDesert_TrainerRodaros {
-        trainerbattle_single(TRAINER_RODAROS, "Behold the might of the sandstorm!",
-                                            "Gah! Sand in my mouth!")
-        msgbox("The area can be unstable with the
-                sandpits shifting around by phases
-                of the moon.", MSGBOX_AUTOCLOSE)
+        trainerbattle_single(TRAINER_RODAROS, "见识一下沙暴的威力吧！",
+                                            "呸！满嘴都是沙子！")
+        msgbox("这一带会随着月相变化，\n流沙坑不断移动，很不安定。", MSGBOX_AUTOCLOSE)
 }
 script VajraDesert_TrainerBelmare {
-        trainerbattle_single(TRAINER_BELMARE, "Let me show you my cutest Pokémon!",
-                                            "Oh dear...")
-        msgbox("My Maractus is absolutely the most
-                adorable Pokémon. We come here to
-                sunbathe!", MSGBOX_AUTOCLOSE)
+        trainerbattle_single(TRAINER_BELMARE, "让你看看我最可爱的宝可梦！",
+                                            "哎呀……")
+        msgbox("我的沙铃仙人掌绝对是\n最可爱的宝可梦。我们来这儿\l晒太阳！", MSGBOX_AUTOCLOSE)
 }
 script VajraDesert_TrainerKennedy {
-        trainerbattle_single(TRAINER_KENNEDY, "Overcoming harsh ordeals with your
-                                               Pokémon is the spirit of the journey!",
-                                            "Marvelous battling skills!")
-        msgbox("I've lived in the nearby village for the
-                past 40 years, we've never missed a
-                training day.", MSGBOX_AUTOCLOSE)
+        trainerbattle_single(TRAINER_KENNEDY, "和宝可梦一起克服严酷的\n考验，这才是旅行的精神！",
+                                            "对战本领真了不起！")
+        msgbox("我在附近的村子住了\n四十年，从没落下过\l一天训练。", MSGBOX_AUTOCLOSE)
 }
 raw `
 VajraDesert_BrailleRegirock:
-	.braille "TYRANT OF\n"
-	.braille "THE DESERT\n"
-	.braille "FULLY EVOLVED.$"
+	.string "斑驳岩甲披身，\n"
+	.string "基岩踏碎成尘。\l"
+	.string "拉起漫天沙暴，\l"
+	.string "斯为最终之形。$"
 `
 script VajraDesert_SusDoor {
     lock
-    msgbox("Something is carved on the door...")
+    msgbox("门上刻着什么……")
     closemessage
-    braillemsgbox(VajraDesert_BrailleRegirock)
+    msgbox(VajraDesert_BrailleRegirock, MSGBOX_DEFAULT)
+    closemessage
     checkspecies(SPECIES_TYRANITAR)
     if (var(VAR_RESULT) == TRUE) {
         setflag(FLAG_SUS_DESERT_DOOR)
@@ -64,8 +55,7 @@ script VajraDesert_SusDoor {
 }
 
 script VajraDesertWest_GrottoDoor {
-    msgbox("There seems to be a small path in
-            the sand. Enter?", MSGBOX_YESNO)
+    msgbox("沙子里好像有一条\n小路。要进去吗？", MSGBOX_YESNO)
     if (var(VAR_RESULT) == YES) {
         warp(MAP_HIDDEN_GROTTO_UNUSED, 0)
         waitstate
@@ -75,10 +65,9 @@ script VajraDesertWest_GrottoDoor {
 }
 
 script VajraDesertWest_WestSign {
-    msgbox("Vajra Desert
-            {RIGHT_ARROW} Rinto Village", MSGBOX_SIGN)
+    msgbox("金刚沙漠\n{RIGHT_ARROW} 林都村", MSGBOX_SIGN)
 }
 
 script VajraDesertWest_EastSign {
-    msgbox("{UP_ARROW}{RIGHT_ARROW} Rinto Village", MSGBOX_SIGN)
+    msgbox("{UP_ARROW}{RIGHT_ARROW} 林都村", MSGBOX_SIGN)
 }

@@ -21,15 +21,15 @@ OlivineLighthouse_EventScript_1FPokefanF::
 	end
 
 OlivineLighthouse_Text_1FSailor:
-	.string "People train at this Lighthouse.\p"
-	.string "It's not easy to climb with all\n"
-	.string "the trainers waiting inside.$"
+	.string "很多人在这座浅葱灯塔里修行。\p里面等着挑战的训练家很多，\n想爬到上面可不容易。$"
+	.string ""
+	.string ""
 
 OlivineLighthouse_Text_1FPokefanF:
-	.string "In the past, Pokémon used to light\n"
-	.string "the sea around Olivine at night.\p"
-	.string "The Lighthouse was built in honor\n"
-	.string "of those noble Pokémon.$"
+	.string "从前，宝可梦会在夜里\n照亮浅葱一带的海面。\p这座灯塔就是为了纪念\n那些高贵的宝可梦而建的。$"
+	.string ""
+	.string ""
+	.string ""
 
 @2nd floor==============================================================================================================================
 
@@ -44,30 +44,30 @@ OlivineLighthouse_EventScript_GentlemanAlfred::
     end
 
 OlivineLighthouse_Text_SailorHueySeen:
-	.string "Men of the sea are always\n"
-	.string "spoiling for a good fight!$"
+	.string "大海的男儿，\n随时都想痛痛快快打一场！$"
+	.string ""
 
 OlivineLighthouse_Text_SailorHueyBeaten:
-	.string "Urf!\n"
-	.string "I lose!$"
+	.string "呜啊！\n我输了！$"
+	.string ""
 
 OlivineLighthouse_Text_SailorHueyAfter:
-	.string "What power! How would you like\n"
-	.string "to sail the seas with me?$"
+	.string "好厉害的力量！要不要\n跟我一起出海远航？$"
+	.string ""
 
 OlivineLighthouse_Text_GentlemanAlfredSeen:
-	.string "Hm? This is no place\n"
-	.string "for playing.$"
+	.string "嗯？这里可不是\n玩耍的地方。$"
+	.string ""
 
 OlivineLighthouse_Text_GentlemanAlfredBeaten:
-	.string "Ah! I can see that you're\n"
-	.string "serious.$"
+	.string "啊！看得出来，\n你是认真的。$"
+	.string ""
 
 OlivineLighthouse_Text_GentlemanAlfredAfter:
-	.string "Up top is a Pokémon that keeps\n"
-	.string "the Lighthouse lit.\p"
-	.string "But I hear that it's sick now,\n"
-	.string "and can't be cured normally.$"
+	.string "塔顶有一只宝可梦，\n一直照亮着灯塔。\p但我听说它现在病了，\n普通的办法治不好。$"
+	.string ""
+	.string ""
+	.string ""
 
 @3rd floor==============================================================================================================================
 
@@ -88,41 +88,41 @@ OlivineLighthouse_EventScript_GentlemanPreston::
 
 
 OlivineLighthouse_Text_BirdKeeperTheoSeen:
-	.string "Why are you here? Are you just\n"
-	.string "going to gawk? I suggest you leave!$"
+	.string "你跑来干什么？就为了\n看热闹？我劝你快走！$"
+	.string ""
 
 OlivineLighthouse_Text_BirdKeeperTheoBeaten:
-	.string "You really are concerned about\n"
-	.string "the sick Pokémon…$"
+	.string "你还真是关心\n那只生病的宝可梦啊……$"
+	.string ""
 
 OlivineLighthouse_Text_BirdKeeperTheoAfter:
-	.string "How the heck do you go up?\p"
-	.string "I want to visit the sick Pokémon,\n"
-	.string "but I can't get up there…$"
+	.string "到底要怎么上去啊？\p我想去看看那只生病的宝可梦，\n可就是上不去……$"
+	.string ""
+	.string ""
 
 OlivineLighthouse_Text_SailorTerrellSeen:
-	.string "Sailors are both kind and strong.\n"
-	.string "How about you?$"
+	.string "水手既温柔又强壮。\n你怎么样？$"
+	.string ""
 
 OlivineLighthouse_Text_SailorTerrellBeaten:
-	.string "You are both kind and strong…$"
+	.string "你既温柔又强壮……$"
 
 OlivineLighthouse_Text_SailorTerrellAfter:
-	.string "Every time I return to Olivine,\n"
-	.string "I visit the Gym.\p"
-	.string "The Gym Leader’s Pokémon type\n"
-	.string "changed without me noticing.$"
+	.string "每次回浅葱市，\n我都会去道馆看看。\p不知不觉间，馆主用的\n宝可梦属性已经变了。$"
+	.string ""
+	.string ""
+	.string ""
 
 OlivineLighthouse_Text_GentlemanPrestonSeen:
-	.string "I travel the world to train my\n"
-	.string "Pokémon. I wish to battle you.$"
+	.string "我环游世界，锻炼\n自己的宝可梦。我想和你一战。$"
+	.string ""
 
 OlivineLighthouse_Text_GentlemanPrestonBeaten:
-	.string "…sigh… I must train some more…$"
+	.string "……唉……我还得再修行啊……$"
 
 OlivineLighthouse_Text_GentlemanPrestonAfter:
-	.string "Jasmine used to use rock-type\n"
-	.string "Pokémon like Onix.$"
+	.string "阿蜜以前用的是大岩蛇\n那样的岩石属性宝可梦。$"
+	.string ""
 
 @4th floor==============================================================================================================================
 
@@ -138,30 +138,30 @@ OlivineLighthouse_EventScript_LassConnie::
 
 
 OlivineLighthouse_Text_SailorKentSeen:
-	.string "Jasmine must be worried sick about\n"
-	.string "the Pokémon here.\p"
-	.string "She won't even smile these days.$"
+	.string "阿蜜一定担心那只宝可梦\n担心得不得了。\p这些天她连笑都不笑了。$"
+	.string ""
+	.string ""
 
 OlivineLighthouse_Text_SailorKentBeaten:
-	.string "I can't manage a smile either…$"
+	.string "我也笑不出来……$"
 
 OlivineLighthouse_Text_SailorKentAfter:
-	.string "Speaking of sick, I've heard there's\n"
-	.string "a good Pharmacy in Cianwood.$"
+	.string "说到生病，我听说湛蓝市\n有一家很不错的药店。$"
+	.string ""
 
 OlivineLighthouse_Text_LassConnieSeen:
-	.string "Jasmine is this city's Gym Leader.\p"
-	.string "I mean to bring her back with me.\p"
-	.string "Nobody had better get in my way!$"
+	.string "阿蜜是这个城市的道馆馆主。\p我一定要把她带回去。\p谁也别想拦我！$"
+	.string ""
+	.string ""
 
 OlivineLighthouse_Text_LassConnieBeaten:
-	.string "Aaack! My Pokémon!$"
+	.string "啊啊！我的宝可梦！$"
 
 OlivineLighthouse_Text_LassConnieAfter:
-	.string "Right. Anybody would be worried if\n"
-	.string "his or her own Pokémon were hurt.\p"
-	.string "I'll pray for the Pokémon here, so\n"
-	.string "Jasmine can come back to the Gym.$"
+	.string "是啊。自己的宝可梦受了伤，\n谁都会担心的。\p我会为这里的宝可梦祈祷，\n让阿蜜能回道馆来。$"
+	.string ""
+	.string ""
+	.string ""
 
 @5th floor==============================================================================================================================
 
@@ -176,31 +176,31 @@ OlivineLighthouse_EventScript_BirdKeeperDenis::
     end
 
 OlivineLighthouse_Text_SailorErnestSeen:
-	.string "I wanted to battle Jasmine, but she's\n"
-	.string "not up to it now.\p"
-	.string "So, how about you?$"
+	.string "我本来想和阿蜜对战，\n可她现在的状态不行。\p那就找你吧，怎么样？$"
+	.string ""
+	.string ""
 
 OlivineLighthouse_Text_SailorErnestBeaten:
-	.string "Whoa, whoa. You're overwhelming!$"
+	.string "哇，哇。你太强了！$"
 
 OlivineLighthouse_Text_SailorErnestAfter:
-	.string "A Gym Leader isn't just about being\n"
-	.string "strong.\p"
-	.string "A Leader also needs to be\n"
-	.string "compassionate.$"
+	.string "道馆馆主不只是要强。\p馆主还得有一颗\n体谅他人的心。$"
+	.string ""
+	.string ""
+	.string ""
 
 OlivineLighthouse_Text_BirdKeeperDenisSeen:
-	.string "We're pretty high up here. My bird\n"
-	.string "Pokémon are in prime form.$"
+	.string "这里离地面很高，\n我的鸟宝可梦状态正佳。$"
+	.string ""
 
 OlivineLighthouse_Text_BirdKeeperDenisBeaten:
-	.string "Oops… They crashed…$"
+	.string "哎呀……它们摔下来了……$"
 
 OlivineLighthouse_Text_BirdKeeperDenisAfter:
-	.string "My Pokémon learned how to use Fly in\n"
-	.string "Cianwood.\p"
-	.string "Well, since I'm a loser, I'll Fly\n"
-	.string "across the sea…$"
+	.string "我的宝可梦在湛蓝市\n学会了飞翔。\p既然我输了，就让我用飞翔\n飞过大海吧……$"
+	.string ""
+	.string ""
+	.string ""
 
 @6th floor==============================================================================================================================
 
@@ -246,30 +246,30 @@ OlivineLighthouse_EventScript_AmpharosSick::
 	end
 
 OlivineLighthouse_Text_JasmineCianwoodPharmacy:
-	.string "Jasmine: …This Pokémon always kept\n"
-	.string "the sea lit at night.\p"
-	.string "…But it suddenly got sick… It's\n"
-	.string "gasping for air…\p"
-	.string "…I understand that there is a\n"
-	.string "wonderful Pharmacy in Cianwood…\p"
-	.string "But that's across the sea…\n"
-	.string "And I can't leave Amphy unattended…$"
+	.string "阿蜜：……这孩子一直\n在夜里照亮海面。\p……可它突然病了……\n现在呼吸都很困难……\p……我听说湛蓝市\n有一家很棒的药店……\p可那在大海对岸……\n我又不能丢下光儿不管……$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OlivineLighthouse_Text_JasmineGetMedicine:
-	.string "…May I ask you to get some medicine\n"
-	.string "for me? Please?$"
+	.string "……能不能请你替我\n去买些药回来？求你了。$"
+	.string ""
 
 OlivineLighthouse_Text_JasmineGetMedicine2:
-	.string "There is a wonderful Pharmacy\n"
-	.string "in Cianwood…\p"
-	.string "But that's across the sea…\n"
-	.string "And I can't leave Amphy unattended…\p"
-	.string "…May I ask you to get some medicine\n"
-	.string "for me? Please?$"
+	.string "湛蓝市有一家很棒的药店……\p可那在大海对岸……\n我又不能丢下光儿不管……\p……能不能请你替我\n去买些药回来？求你了。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OlivineLighthouse_Text_JasmineCureAmphy:
-	.string "Jasmine: …Will that medicine cure\n"
-	.string "Amphy?$"
+	.string "阿蜜：……那个药\n能治好光儿吗？$"
+	.string ""
 
 
 OlivineLighthouse_EventScript_JasmineDeliverPotion::
@@ -336,40 +336,40 @@ OlivineLighthouse_EventScript_JasmineRefuse::
 	end
 
 OlivineLighthouse_Text_PlayerHandedSecretpotion:
-	.string "{PLAYER} handed the Secretpotion to\n"
-	.string "Jasmine.$"
+	.string "{PLAYER}把秘传之药\n交给了阿蜜。$"
+	.string ""
 
 OlivineLighthouse_Text_JasmineDontBeOffended:
-	.string "Jasmine: …Um, please don't be\n"
-	.string "offended…\p"
-	.string "…Amphy will not take anything from\n"
-	.string "anyone but me…$"
+	.string "阿蜜：……那个，请你\n不要介意……\p……除了我，光儿不会\n接受任何人给的东西……$"
+	.string ""
+	.string ""
+	.string ""
 
 OlivineLighthouse_Text_JasmineAmphyHowFeeling:
-	.string "Jasmine: …\p"
-	.string "Amphy, how are you feeling?$"
+	.string "阿蜜：……\p光儿，你感觉怎么样？$"
+	.string ""
 
 OlivineLighthouse_Text_JasmineThankYou:
-	.string "Jasmine: …Oh, I'm so relieved…\p"
-	.string "This is just so wonderful…\p"
-	.string "Thank you so very, very much.\p"
-	.string "…I will return to the Gym…\p"
-	.string "I'll also warn you, steel types\n"
-	.string "are powerful.$"
+	.string "阿蜜：……啊，太好了……\p真是太让人高兴了……\p真的、真的非常感谢你。\p……我这就回道馆去……\p另外提醒你一句，\n钢属性的宝可梦很强。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 OlivineLighthouse_Text_JasmineISee:
-	.string "Jasmine: …I see…\n"
-	.string "…Amphy, hang on!$"
+	.string "阿蜜：……我明白了……\n……光儿，撑住！$"
+	.string ""
 
 OlivineLighthouse_Text_AmphyPalPaloo:
-	.string "Amphy: …\n"
-	.string "…Pa… paloo…$"
+	.string "光儿：……\n……噼……噼露……$"
+	.string ""
 
 OlivineLighthouse_Text_AmphyBreathingLabored:
-	.string "Its breathing is terribly\n"
-	.string "labored…$"
+	.string "它的呼吸\n非常艰难……$"
+	.string ""
 
 OlivineLighthouse_Text_AmphyPaluPalulu:
-	.string "Amphy: Palu! Palulu!$"
+	.string "光儿：噼露！噼露啾！$"
 
 

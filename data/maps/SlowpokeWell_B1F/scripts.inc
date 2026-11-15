@@ -69,103 +69,103 @@ SlowpokeWell_B1F_Movement_Kurt:
 	step_end
 
 SlowpokeWell_B1F_Text_KurtIntro:
-	.string "Kurt: Hey there, {PLAYER}!\p"
-	.string "The guard up top took off when\n"
-	.string "I shouted at him.\p"
-	.string "But then I took a tumble down\n"
-	.string "the Well.\p"
-	.string "I slammed down hard on my back,\n"
-	.string "so I can't move.\p"
-	.string "Rats! If I were fit, my Pokémon\n"
-	.string "would've punished them…\p"
-	.string "Ah, it can't be helped.\p"
-	.string "{PLAYER}, show them how gutsy\n"
-	.string "you are in my place!$"
+	.string "钢铁：嘿，{PLAYER}！\p我冲上面那个看守大吼，\n把他吓跑了。\p可我自己也从井上\n摔了下来。\p后背重重着地，\n现在动都动不了。\p可恶！要是我身体没事，\n我的宝可梦早就教训他们了……\p唉，没办法了。\p{PLAYER}，你就代替我，\n让他们见识见识你的胆量！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SlowpokeWell_B1F_Text_KurtAfter:
-	.string "Kurt: Way to go, {PLAYER}!\p"
-	.string "Team Rocket has taken off.\p"
-	.string "My back's better too.\n"
-	.string "Let's get out of here.$"
+	.string "钢铁：干得好，{PLAYER}！\p火箭队都跑了。\p我的腰也好多了。\n我们出去吧。$"
+	.string ""
+	.string ""
+	.string ""
 
 SlowpokeWell_B1F_Text_GruntM29Seen:
-	.string "Darn! I was standing guard up\n"
-	.string "top when some old coot yelled\l"
-	.string "at me.\p"
-	.string "He startled me so much that\n"
-	.string "I fell down here.\p"
-	.string "I think I'll vent my anger by\n"
-	.string "taking it out on you!$"
+	.string "可恶！我在上面\n放哨的时候，\l被个老头子吼了一嗓子。\p吓了我一大跳，\n结果就掉到这儿来了。\p我就拿你出出气，\n发泄一下！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SlowpokeWell_B1F_Text_GruntM29Beaten:
-	.string "Arrgh! This is Not my day!$"
+	.string "呃啊！今天真不该出门！$"
 
 SlowpokeWell_B1F_Text_GruntM29After:
-	.string "Sure, we've been hacking the\n"
-	.string "tails off Slowpoke and selling\l"
-	.string "them.\p"
-	.string "Everything we do is for profit.\p"
-	.string "That's right! We're Team Rocket,\n"
-	.string "and we'll do anything for money!$"
+	.string "没错，我们把呆呆兽的\n尾巴砍下来\l拿去卖。\p我们干什么都是为了赚钱。\p没错！我们就是火箭队，\n为了钱什么都干得出来！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SlowpokeWell_B1F_Text_ProtonSeen:
-	.string "What do you want?\p"
-	.string "If you interrupt our work,\n"
-	.string "don't expect any mercy!$"
+	.string "你想干什么？\p要是妨碍我们干活，\n可别指望我会手下留情！$"
+	.string ""
+	.string ""
 
 SlowpokeWell_B1F_Text_ProtonBeaten:
-	.string "You did Ok today,\n"
-	.string "but wait till next time!$"
+	.string "你今天算是走运，\n下次等着瞧！$"
+	.string ""
 
 SlowpokeWell_B1F_Text_ProtonAfter:
-	.string "Yeah, Team Rocket was broken up\n"
-	.string "three years ago.\p"
-	.string "The boss went into hiding.\p"
-	.string "But we continued our activities\n"
-	.string "underground!\p"
-	.string "A small obstacle like you won't be\n"
-	.string "much of a problem for our mission.\p"
-	.string "I advise you to be very afraid of\n"
-	.string "what is to come!$"
+	.string "没错，三年前火箭队\n是解散了。\p老大也躲了起来。\p但我们转入地下，\n继续活动！\p像你这样的小障碍，\n根本挡不住我们的计划。\p我劝你，对接下来要发生的事\n害怕一点比较好！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SlowpokeWell_B1F_Text_GruntM2Seen:
-	.string "Hyuck-hyuck-hyuck!\n"
-	.string "Quit taking Slowpoketails?\p"
-	.string "You're nuts!\n"
-	.string "If we obeyed you, Team Rocket's\l"
-	.string "rep would be ruined!$"
+	.string "嘻嘻嘻！\n不让我们砍呆呆兽的尾巴？\p你疯了吧！\n要是听你的，火箭队的\l收入可就完了！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SlowpokeWell_B1F_Text_GruntM2Beaten:
-	.string "Hyuck…\n"
-	.string "Too strong…$"
+	.string "嘻嘻……\n太强了……$"
+	.string ""
 
 SlowpokeWell_B1F_Text_GruntM2After:
-	.string "We need the money,\n"
-	.string "but selling Slowpoketails?\p"
-	.string "It's tough being a Rocket Grunt!$"
+	.string "我们需要钱，\n可是卖呆呆兽的尾巴？\p当火箭队的小兵真不容易！$"
+	.string ""
+	.string ""
 
 SlowpokeWell_B1F_Text_GruntF1Seen:
-	.string "Stop taking Tails?\p"
-	.string "Yeah, just try to defeat all\n"
-	.string "of us!$"
+	.string "不让我们砍尾巴？\p行啊，那你就试试\n把我们全打倒吧！$"
+	.string ""
+	.string ""
 
 SlowpokeWell_B1F_Text_GruntF1Beaten:
-	.string "You rotten brat!$"
+	.string "你这小鬼真可恶！$"
 
 SlowpokeWell_B1F_Text_GruntF1After:
-	.string "Slowpoketails grow back fast!\p"
-	.string "What's wrong with selling them?$"
+	.string "呆呆兽的尾巴\n很快就长回来！\p卖卖有什么关系？$"
+	.string ""
 
 SlowpokeWell_B1F_Text_SlowpokeWithMail:
-	.string "A Slowpoke with its Tail cut off…\p"
-	.string "Huh? It has Mail.\n"
-	.string "Read it?$"
+	.string "一只尾巴被砍掉的\n呆呆兽……\p咦？它带着邮件。\n要读读看吗？$"
+	.string ""
+	.string ""
 
 SlowpokeWell_B1F_Text_SlowpokeMail:
-	.string "{PLAYER} read the Mail.\p"
-	.string "Be good and look after the\n"
-	.string "house with Grandpa and Slowpoke.\p"
-	.string "Love, Dad$"
+	.string "{PLAYER}读了邮件。\p要和爷爷、呆呆兽\n一起好好看家哦。\p爱你的爸爸$"
+	.string ""
+	.string ""
+	.string ""
 
 SlowpokeWell_B1F_Text_TaillessSlowpoke:
-	.string "A Slowpoke with its Tail cut off…$"
+	.string "一只尾巴被砍掉的\n呆呆兽……$"

@@ -16,8 +16,4 @@ DeepIlex_Hex::
 
 
 DeepIlex_Hex_Text_0:
-	.string "Engineers from Hoenn tried to\n"
-	.string "build another Battle Factory here.\p"
-	.string "They were chased away by the\n"
-	.string "guardian of the forest before\l"
-	.string "they made much progress.$"
+	.string "丰缘的工程师曾想\n在这里再建一座\l对战工厂。\p他们还没取得多少\n进展，就被森林的\l守护神赶走了。$"

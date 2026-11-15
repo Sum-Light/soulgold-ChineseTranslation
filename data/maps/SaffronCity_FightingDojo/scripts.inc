@@ -54,7 +54,7 @@ SaffronCity_FightingDojo_EventScript_BattleLickilicky_EV_HP::
 	end
 	
 SaffronCity_FightingDojo_Text_Lickilicky:
-	.string "Lickilicky: Liiiiick!$"
+	.string "大舌舔：舔——！$"
 
 SaffronCity_FightingDojo_EventScript_Machamp_EV_Attack::
 	lock
@@ -82,7 +82,7 @@ SaffronCity_FightingDojo_EventScript_BattleMachamp_EV_Attack::
 	end
 
 SaffronCity_FightingDojo_Text_Machamp:
-	.string "Machamp: Champ!$"
+	.string "怪力：恰姆！$"
 
 SaffronCity_FightingDojo_EventScript_Steelix_EV_Defense::
 	lock
@@ -110,7 +110,7 @@ SaffronCity_FightingDojo_EventScript_BattleSteelix_EV_Defense::
 	end
 
 SaffronCity_FightingDojo_Text_Steelix:
-	.string "Steelix: Grrrind!$"
+	.string "大钢蛇：嘎隆隆！$"
 
 SaffronCity_FightingDojo_EventScript_Alakazam_EV_SpecialAttack::
 	lock
@@ -138,7 +138,7 @@ SaffronCity_FightingDojo_EventScript_BattleAlakazam_EV_SpecialAttack::
 	end
 
 SaffronCity_FightingDojo_Text_Alakazam:
-	.string "Alakazam: Zam!$"
+	.string "胡地：嗡姆！$"
 
 SaffronCity_FightingDojo_EventScript_Slowking_EV_SpecialDefense::
 	lock
@@ -166,7 +166,7 @@ SaffronCity_FightingDojo_EventScript_BattleSlowking_EV_SpecialDefense::
 	end
 
 SaffronCity_FightingDojo_Text_Slowking:
-	.string "Slowking: HMMM...$"
+	.string "呆呆王：嗯姆……$"
 
 SaffronCity_FightingDojo_EventScript_Raichu_EV_Speed::
 	lock
@@ -194,38 +194,38 @@ SaffronCity_FightingDojo_EventScript_BattleRaichu_EV_Speed::
 	end
 
 SaffronCity_FightingDojo_Text_Raichu:
-	.string "Raichu: Chuuu!$"
+	.string "雷丘：啾——！$"
 
 SaffronCity_FightingDojo_Text_HP:
-	.string "Hp$"
+	.string "HP$"
 SaffronCity_FightingDojo_Text_Attack:
-	.string "Atk$"
+	.string "攻击$"
 SaffronCity_FightingDojo_Text_Defense:
-	.string "Def$"
+	.string "防御$"
 SaffronCity_FightingDojo_Text_SpecialAttack:
-	.string "Sp.Atk$"
+	.string "特攻$"
 SaffronCity_FightingDojo_Text_SpecialDefense:
-	.string "Sp.Def$"
+	.string "特防$"
 SaffronCity_FightingDojo_Text_Speed:
-	.string "Spd$"
+	.string "速度$"
 
 SaffronCity_FightingDojo_Text_WouldYouLikeToBattle:
-	.string "Battle {STR_VAR_1} for 3 {STR_VAR_2} EVs?$"
+	.string "和{STR_VAR_1}对战，\n获得3点{STR_VAR_2}基础点数？$"
 
 SaffronCity_FightingDojo_Text_BlackBelt:
-	.string "You enter the Fighting Dojo!\p"
-	.string "Here, you may hone the stats of\n"
-	.string "of your Pokémon by battle!$"
+	.string "你走进了格斗道场！\p在这里，你可以通过对战\n锻炼宝可梦的能力！$"
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojo_Text_Sign1:
-	.string "Left: Hp, Def, Sdef$"
+	.string "左侧：HP、防御、特防$"
 
 SaffronCity_FightingDojo_Text_Sign2:
-	.string "Right: Atk, Spatk, Spd$"
+	.string "右侧：攻击、特攻、速度$"
 
 SaffronCity_FightingDojo_Text_Cooltrainer::
-	.string "Only trainers with all Kanto badges\n"
-	.string "may enter the Vip lounge.$"
+	.string "集齐关都徽章的训练家\n方可进入VIP休息室。$"
+	.string ""
 
 @Ability swapper
 
@@ -291,31 +291,31 @@ SaffronCity_FightingDojo_Ability_Finish:
 	end
 
 SaffronCity_FightingDojo_Ability_Finish_Text:
-	.string "That's it! You're welcome!$"
+	.string "好了！不用谢！$"
 
 SaffronCity_FightingDojo_Ability_Text1:
-	.string "Welcome! I'm the Ability Expert!\p"
-	.string "I can swap Pokémon's abilities in\n"
-	.string "a heartbeat, only for 25.000¥!\p"
-	.string "Would you like me to swap any\n"
-	.string "Pokémon's ability?$"
+	.string "欢迎！我是特性专家！\p只要¥25,000，我就能\n瞬间替换宝可梦的特性！\p要替换哪只宝可梦的\n特性吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojo_Ability_Text_No:
-	.string "Sure. I'll be here if you need me.$"
+	.string "好的。需要我时就来找我。$"
 
 SaffronCity_FightingDojo_Ability_Text_Cant:
-	.string "I cannot do that. This Pokémon\n"
-	.string "does not have a second Ability!$"
+	.string "这我可办不到。这只宝可梦\n没有第二种特性！$"
+	.string ""
 
 SaffronCity_FightingDojo_Ability_Text_NoChampion:
-	.string "Welcome! I'm the Ability Expert!\p"
-	.string "I can swap Pokémon's abilities\n"
-	.string "in a heartbeat.\p"
-	.string "Unfortunately, my back hurts and\n"
-	.string "I can't work today.\p"
-	.string "Come again later!$"
+	.string "欢迎！我是特性专家！\p我能在转眼之间替换\n宝可梦的特性。\p不巧，我今天腰疼，\n没法干活。\p下次再来吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojo_SetZeroTextNoMoney:
-	.string "You don't have enough money.\p"
-	.string "Come back when you have.$"
+	.string "您的钱不够。\p等钱够了再来吧。$"
+	.string ""
 

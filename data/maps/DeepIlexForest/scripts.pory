@@ -10,10 +10,5 @@ script Ilex_Larvesta {
 }
 
 script DeepIlex_Hex {
-    msgbox("Engineers from Hoenn tried to
-            build another Battle Factory here.
-            
-            They were chased away by the
-            guardian of the forest before
-            they made much progress.", MSGBOX_NPC)
+    msgbox("丰缘的工程师曾想\n在这里再建一座\l对战工厂。\p他们还没取得多少\n进展，就被森林的\l守护神赶走了。", MSGBOX_NPC)
 }

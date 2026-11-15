@@ -46,8 +46,7 @@ VictoryRoad_Rival2::
 
 
 VictoryRoad_Rival_Text_0:
-	.string "Don't.$"
+	.string "别跟来。$"
 
 VictoryRoad_Rival2_Text_0:
-	.string "I just need to train more.\p"
-	.string "That's all there ever is to it.$"
+	.string "我还得再多训练。\p仅此而已。$"

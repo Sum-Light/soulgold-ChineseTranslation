@@ -17,4 +17,4 @@ SouldewPlatform_2:
 
 
 SouldewPlatform_Text_0:
-	.string "The pedestal is empty.$"
+	.string "台座上空空如也。$"

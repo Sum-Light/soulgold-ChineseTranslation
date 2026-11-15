@@ -13,13 +13,13 @@ MtSilver_PokemonCenter_EventScript_Meara::
 	end
 
 MtSilver_PokemonCenter_Text_Meara:
-	.string "I'm a researcher from the Pewter\n"
-	.string "City museum.\p"
-	.string "An unusual amount of artifacts have\n"
-	.string "been discovered in this area, so\l"
-	.string "I've come here to investigate.\p"
-	.string "There are no records of a civilization\n"
-	.string "around the mountain, but the\l"
-	.string "artifacts are almost certainly\l"
-	.string "man-made.\p"
-	.string "It is really quite mysterious.$"
+	.string "我是深灰市\n博物馆的研究员。\p这一带发现了数量异常多的\n文物，所以我\l特地前来调查。\p这座山周围并没有文明的记录，\n可这些文物\l几乎可以确定\l是人工制作的。\p真是相当不可思议。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""

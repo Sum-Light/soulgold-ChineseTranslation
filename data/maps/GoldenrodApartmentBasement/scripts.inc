@@ -93,4 +93,4 @@ RotomMachine_Oven_2:
 
 
 RotomMachine_Wash_Text_0:
-	.string "Rotom's form was changed!$"
+	.string "洛托姆的形态改变了！$"

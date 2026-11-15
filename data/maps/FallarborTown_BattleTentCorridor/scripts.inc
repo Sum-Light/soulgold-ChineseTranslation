@@ -42,27 +42,27 @@ FallarborTown_BattleTentCorridor_Movement_AttendantEnterDoor:
 @ Leftover text from when this was a Contest Hall in R/S
 @ Unused
 FallarborTown_ContestHall_Text_DoAllRightInPreliminary:
-	.string "We do all right in the preliminary round,\n"
-	.string "but we can never win the appeals…\p"
-	.string "Maybe it means I have to watch what\n"
-	.string "other contestants are doing…$"
+	.string "我们在预选赛中确实做得很好，\n但是我们丝毫没有赢得吸引力……\p也许这意味着我不得不去观看\n其他对手是如何做的……$"
+	.string ""
+	.string ""
+	.string ""
 
 @ Unused
 FallarborTown_ContestHall_Text_MonAllTheseRibbons:
-	.string "See!\n"
-	.string "My Pokémon won all these Ribbons!\p"
-	.string "Have your Pokémon earned any Ribbons?\n"
-	.string "You can check them on your PokéNav.$"
+	.string "看吧！\n我的宝可梦赢得了所有的奖章！\p你的宝可梦赢到过奖章吗？\n你可以在你的宝可导航中查看。$"
+	.string ""
+	.string ""
+	.string ""
 
 @ Unused
 FallarborTown_ContestHall_Text_CantWinEverywhere:
-	.string "I can't beat Gym Leaders…\p"
-	.string "I can't win any Contests…\p"
-	.string "I've been here, there, and everywhere,\n"
-	.string "and it's all for naught…$"
+	.string "我赢不了道馆馆主……\p我赢不了任何华丽大赛……\p我去过这里，那里和所有地方，\n但这都是徒劳的……$"
+	.string ""
+	.string ""
+	.string ""
 
 @ Unused
 FallarborTown_ContestHall_Text_SuperRankStage:
-	.string "Pokémon Contests\n"
-	.string "Super Rank Stage!$"
+	.string "宝可梦华丽大赛\n超级会场！$"
+	.string ""
 

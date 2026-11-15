@@ -84,143 +84,143 @@ Route34_EventScript_Sign3::
 	end
 
 Route34_Text_YoungsterSamuel_Seen:
-	.string "Hey! I'm looking for Makuhita!$"
+	.string "嘿！我正在找幕下力士！$"
 
 Route34_Text_YoungsterSamuel_Beaten:
-	.string "Beaten by a passing stranger!$"
+	.string "居然被路过的陌生人打败了！$"
 
 Route34_Text_YoungsterSamuel_After:
-	.string "I'm going to train even harder.\p"
-	.string "After all, I'm trying to become\n"
-	.string "a Gym Leader.$"
+	.string "我要更加努力地特训。\p毕竟，我的目标是\n当上道馆馆主。$"
+	.string ""
+	.string ""
 
 Route34_Text_YoungsterIan_Seen:
-	.string "I'm the best in my class at\n"
-	.string "Pokémon.$"
+	.string "在班上，我的宝可梦\n是最厉害的。$"
+	.string ""
 
 Route34_Text_YoungsterIan_Beaten:
-	.string "No! There are better trainers…$"
+	.string "不！原来还有更强的\n训练家……$"
 
 Route34_Text_YoungsterIan_After:
-	.string "I'm trying hard so I can be the\n"
-	.string "star in my class.$"
+	.string "我正在努力，好成为\n班上的明星。$"
+	.string ""
 
 Route34_Text_CamperTodd_Seen:
-	.string "I'm confident in my ability to\n"
-	.string "raise Pokémon.\p"
-	.string "Want to see?$"
+	.string "我对培育宝可梦很有自信。\p想看成果吗？$"
+	.string ""
+	.string ""
 
 Route34_Text_CamperTodd_Beaten:
-	.string "Did I screw up my training?$"
+	.string "是我的培育方法错了吗？$"
 
 Route34_Text_CamperTodd_After:
-	.string "Maybe I should take one to Day-Care,\n"
-	.string "or maybe use some items…$"
+	.string "要不把一只送去培育屋，\n或者用些道具……$"
+	.string ""
 
 Route34_Text_PicnickerGina_Seen:
-	.string "Are you a trainer?\p"
-	.string "Let's have a practice battle.$"
+	.string "你是训练家吗？\p来陪我练习对战吧。$"
+	.string ""
 
 Route34_Text_PicnickerGina_Beaten:
-	.string "Oh, no! I just can't win…$"
+	.string "不行！我怎么就是赢不了……$"
 
 Route34_Text_PicnickerGina_After:
-	.string "You're too strong to be a\n"
-	.string "practice partner.$"
+	.string "你太强了，\n没法当练习对手。$"
+	.string ""
 
 Route34_Text_OfficerKeith_Seen:
-	.string "Who goes there?\n"
-	.string "What are you up to?$"
+	.string "什么人？\n你在干什么？$"
+	.string ""
 
 Route34_Text_OfficerKeith_Win:
-	.string "You're a tough little kid.$"
+	.string "你这个小鬼还挺能打。$"
 
 Route34_Text_OfficerKeith_After:
-	.string "Yep, nothing wrong today.\p"
-	.string "Be good and stay out of trouble.$"
+	.string "嗯，今天没什么异常。\p乖乖的，别惹麻烦。$"
+	.string ""
 
 Route34_Text_OfficerKeith_Daytime:
-	.string "I'm on patrol for suspicious\n"
-	.string "individuals.$"
+	.string "我在巡逻，查看有没有\n可疑人物。$"
+	.string ""
 
 Route34_Text_PokefanBrandon_Seen:
-	.string "I just got my Pokémon back from\n"
-	.string "Day-Care.\p"
-	.string "Let's see how much stronger it got!$"
+	.string "我的宝可梦刚从培育屋\n接回来。\p让我看看它变强了多少！$"
+	.string ""
+	.string ""
 
 Route34_Text_PokefanBrandon_Beaten:
-	.string "Why does it end this way?$"
+	.string "怎么会是这样的结局？$"
 
 Route34_Text_PokefanBrandon_After:
-	.string "My Pokémon came back with new moves.\p"
-	.string "That confounded me to no end!$"
+	.string "我的宝可梦回来后\n学会了新招式。\p这可真让我摸不着头脑！$"
+	.string ""
 
 Route34_Text_Sign_IlexForest:
-	.string "Ilex Forest\n"
-	.string "Through The Gate$"
+	.string "栎树林\n穿过这道门$"
+	.string ""
 
 Route34_Text_Sign_Route34:
-	.string "Route 34\n"
-	.string "Goldenrod City - Azalea Town\p"
-	.string "Ilex Forest Somewhere Between$"
+	.string "34号道路\n满金市——桧皮镇\p栎树林　就在两者之间$"
+	.string ""
+	.string ""
 
 Route34_Text_TrainerTips:
-	.string "Trainer Tips\p"
-	.string "Berry trees grow new Berries\n"
-	.string "several times a day.\p"
-	.string "Note which trees bear which\n"
-	.string "Berries.$"
+	.string "训练家提示\p树果树一天会\n结好几次树果。\p记清哪棵树结哪种树果。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route34_Text_CooltrainerIrene_Seen:
-	.string "Irene: Kyaaah! Someone found us!$"
+	.string "真理纱：呀啊！\n被人发现了！$"
 
 Route34_Text_CooltrainerIrene_Beaten:
-	.string "Irene: Ohhh! You're too strong!$"
+	.string "真理纱：呜！你太强了！$"
 
 Route34_Text_CooltrainerIrene_After1:
-	.string "Irene: My sister Kate will get you\n"
-	.string "for this!$"
+	.string "真理纱：我姐姐真理亚\n会替我报仇的！$"
+	.string ""
 
 Route34_Text_CooltrainerIrene_After2:
-	.string "Irene: Isn't this beach great?\p"
-	.string "It's our secret little getaway!$"
+	.string "真理纱：这片海滩不错吧？\p这是只属于我们的\n秘密据点！$"
+	.string ""
 
 Route34_Text_CooltrainerJenn_Seen:
-	.string "Jenn: You can't beat Irene and go\n"
-	.string "unpunished!$"
+	.string "真理香：打赢了真理纱，\n可别以为就这么算了！$"
+	.string ""
 
 Route34_Text_CooltrainerJenn_Beaten:
-	.string "Jenn: So sorry, Irene! Dear Sis!$"
+	.string "真理香：对不起，真理纱！\n我亲爱的姐姐！$"
 
 Route34_Text_CooltrainerJenn_After1:
-	.string "Jenn: Don't get cocky! My sister\n"
-	.string "Kate is tough!$"
+	.string "真理香：别得意！我姐姐\n真理亚很厉害的！$"
+	.string ""
 
 Route34_Text_CooltrainerJenn_After2:
-	.string "Jenn: Sunlight makes your body\n"
-	.string "stronger.$"
+	.string "真理香：晒晒太阳，\n身体就会变结实。$"
+	.string ""
 
 Route34_Text_CooltrainerKate_Seen:
-	.string "Kate: You sure were mean to my\n"
-	.string "little sisters!$"
+	.string "真理亚：你对我的妹妹们\n可真够狠的！$"
+	.string ""
 
 Route34_Text_CooltrainerKate_Beaten:
-	.string "Kate: No! I can't believe I lost.$"
+	.string "真理亚：不！真不敢相信\n我居然输了。$"
 
 Route34_Text_CooltrainerKate_GiveSoftSand:
-	.string "Kate: You're too strong. I didn't\n"
-	.string "stand a chance. Here, you deserve\n"
-	.string "this.$"
+	.string "真理亚：你太强了，我不是对手。\n这个给你，是你应得的。$"
+	.string ""
+	.string ""
 
 Route34_Text_CooltrainerKate_After:
-	.string "Kate: I'm sorry we jumped you.\p"
-	.string "We never expected anyone to find\n"
-	.string "us here. You sure startled us.$"
+	.string "真理亚：突然袭击你，很抱歉。\p我们从没想过会有人找到这里。\n你可真把我们吓了一跳。$"
+	.string ""
+	.string ""
 
 
 Route34_Text_Sign_DayCare:
-	.string "Day-Care\p"
-	.string "Let Us Raise Your Pokémon For You!$"
+	.string "培育屋\p让我们来培育您的宝可梦吧！$"
+	.string ""
 
 Route34_RivalEncounter::
 	lock
@@ -306,41 +306,25 @@ Route34_RivalEncounter_Movement_2:
 	step_end
 
 Route34_RivalEncounter_Text_0:
-	.string "Good pace, {PLAYER}!\n"
-	.string "You've almost reached Goldenrod City!\p"
-	.string "I was visiting my grandparents, they\n"
-	.string "own the daycare on this route.\p"
-	.string "Since you're here and grandpa is\n"
-	.string "watching, how about a battle? I'll\l"
-	.string "finally get to show them how much\l"
-	.string "better I've gotten!$"
+	.string "脚步不错，{PLAYER}！\n你马上就要到满金市了！\p我是来探望祖父母的，\n他们在这一带经营培育屋。\p既然你来了，爷爷又在看着，\n要不要打一场？我终于能\l让他们看看我进步了多少！$"
 
 Route34_RivalEncounter_Text_1:
-	.string "Still not good enough...$"
+	.string "还是不够强……$"
 
 Route34_RivalEncounter_Text_2:
-	.string "How... When grandma hears\n"
-	.string "of this, I'll never hear the end of it...\p"
-	.string "Let me just heal your party quick since\n"
-	.string "I was the one who started this.$"
+	.string "怎么会……要是奶奶知道了，\n我非得被念叨个没完……\p这次是我挑起的，就让我\n先快速帮你治疗一下队伍吧。$"
 
 Route34_RivalEncounter_Text_3:
-	.string "My grandparents found this strange egg\n"
-	.string "recently. They said I could have it, but\l"
-	.string "I think you'd be a better fit for it.\p"
-	.string "Take it as a prize for beating me!$"
+	.string "我祖父母最近发现了这颗奇怪的蛋。\n他们说我想要的话就拿去，不过\l我觉得它更适合你。\p就当作打赢我的奖品，收下吧！$"
 
 Route34_RivalEncounter_Text_4:
-	.string "Oh you have no space, how strange...$"
+	.string "咦，你身上没空位了，真奇怪……$"
 
 Route34_RivalEncounter_Text_5:
-	.string "{PLAYER} Received the Odd Egg.$"
+	.string "{PLAYER}得到了奇怪的蛋。$"
 
 Route34_RivalEncounter_Text_6:
-	.string "The Odd Egg was sent to your PC.$"
+	.string "奇怪的蛋被送进了你的电脑。$"
 
 Route34_RivalEncounter_Text_7:
-	.string "Now then, I can't keep losing to you\n"
-	.string "every time, so I'm going to start\l"
-	.string "training seriously! \p"
-	.string "Look forward to a complete beatdown!$"
+	.string "那么，我可不能每次都输给你，\n我要开始认真特训了！\p你就等着被我彻底打败吧！$"

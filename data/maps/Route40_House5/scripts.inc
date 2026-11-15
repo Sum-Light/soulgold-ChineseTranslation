@@ -97,28 +97,25 @@ CafeCook2:
 	.2byte ITEM_NONE
 
 Route40Cafe_InpatientWoman_Text_0:
-	.string "Where's my order?! I've been waiting for\n"
-	.string "10 minutes already!$"
+	.string "我的点单呢？！我都等了\n十分钟了！$"
 
 Route40Cafe_Fatman_Text_0:
-	.string "This cafe has been a hit among the \n"
-	.string "tourists ever since it opened last year.$"
+	.string "这家咖啡厅从去年开业起\n就一直很受游客欢迎。$"
 
 Route40Cafe_Rocker_Text_0:
-	.string "I'll have uhh...$"
+	.string "我要一份，呃……$"
 
 Route40Cafe_Lady_Text_0:
-	.string "I bought a mint from the lady over\n"
-	.string "there and my Pokémon's nature changed!$"
+	.string "我在那边那位女士那儿买了\n薄荷，结果宝可梦的性格变了！$"
 
 Route40Cafe_SellerLady_Text_0:
-	.string "Welcome! We sell mints for Pokémon!$"
+	.string "欢迎光临！本店出售宝可梦薄荷！$"
 
 Route40Cafe_SellerLady_Text_1:
-	.string "We hope to see you again!$"
+	.string "欢迎您随时再来！$"
 
 Route40Cafe_SellerCook_Text_0:
-	.string "Welcome, what will you have?$"
+	.string "欢迎光临，您要点什么？$"
 
 Route40Cafe_SellerCook_Text_1:
-	.string "Come back soon!$"
+	.string "欢迎下次再来！$"

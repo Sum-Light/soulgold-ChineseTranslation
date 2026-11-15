@@ -43,52 +43,50 @@ GoldenrodCity_BikeShop_EventScript_Bike::
 	end
 
 GoldenrodCity_BikeShop_Text_Clerk2:
-	.string "Riding the bike is as simple as\n"
-	.string "pressing a button if you\l"
-	.string "Register it from the Bag.$"
+	.string "只要把它在包包里登记，\n骑车就简单得只需\l按一下按键。$"
+	.string ""
+	.string ""
 
 GoldenrodCity_BikeShop_Text_ClerkIntro:
-    .string "…sigh… I moved here, but I can't\n"
-    .string "sell my Bicycles. Why is that?\p"
-    .string "Could you ride a Bicycle and\n"
-    .string "advertise for me?$"
+    .string "……唉……我搬来这里，\n可自行车就是卖不掉。为什么？\p你能骑着自行车到处跑，\n帮我做做宣传吗？$"
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodCity_BikeShop_Text_ClerkAgreed:
-    .string "Really? Great!\p"
-    .string "Give me your name and phone number,\n"
-    .string "and I'll loan you a Bicycle.$"
+    .string "真的吗？太好了！\p把名字和电话号码告诉我，\n我就把自行车借给你。$"
+    .string ""
+    .string ""
 
 GoldenrodCity_BikeShop_Text_BorrowedBicycle:
-    .string "{PLAYER} borrowed a Bicycle.$"
+    .string "{PLAYER}借用了自行车。$"
 
 GoldenrodCity_BikeShop_Text_Mainshop:
-	.string "The main shop is at Cerulean back\n"
-	.string "in Kanto.\p"
-	.string "Say hello to the shop manager if\n"
-	.string "if you happen to go there!$"
+	.string "总店在关都地区的华蓝市。\p要是你去那边，替我向\n店长问个好！$"
+	.string ""
+	.string ""
+	.string ""
 
 GoldenrodCity_BikeShop_Text_Refused:
-    .string "…sigh… Oh, for the kindness of\n"
-    .string "people…$"
+    .string "……唉……\n人啊，怎么就不能多点善意呢……$"
+    .string ""
 
 GoldenrodCity_BikeShop_Text_JustReleasedCompact:
-    .string "Just released!\p"
-    .string "First-rate compact Bicycles!$"
+    .string "新品上市！\p一流的小型自行车！$"
+    .string ""
 
 GoldenrodCity_BikeShop_Text_Bicycle:
-    .string "It's a shiny new Bicycle!$"
+    .string "是闪闪发亮的自行车！$"
 `
 
 script receivedBikePostDialogue {
     if (flag(FLAG_SYS_GAME_CLEAR)) {
-        msgbox("Hey kid! Thanks to you, my business
-                is booming! I owe it to you!")
+        msgbox("喂，小家伙！多亏了你，我的\n生意红火得不得了！\l真是欠你个人情！")
         closemessage
         release
         end
     }
-    msgbox("I hope people start paying attention
-            to my Bicycles now!")
+    msgbox("希望现在大家能开始\n关注我的自行车了！")
     closemessage
     release
     end

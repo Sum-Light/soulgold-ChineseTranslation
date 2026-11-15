@@ -58,41 +58,41 @@ Route10_PowerPlantBackRoom_EventScript_Engineer::
 	end
 
 Route10_PowerPlantBackRoom_Text_ManagerWhoWouldRuinMyGenerator:
-	.string "Manager: I, I, I'm ready to blast\n"
-	.string "someone!\p"
-	.string "Who would dare ruin my\n"
-	.string "generator?\p"
-	.string "I spent so much time on it!\p"
-	.string "If I catch him, he's going to\n"
-	.string "get a taste of my Zap Cannon!$"
+	.string "厂长：我、我、我恨不得\n把谁炸飞！\p是谁竟敢弄坏我的\n发电机？\p我可是花了\n那么多心血在上面！\p要是让我逮到他，\n就让他尝尝我的电磁炮！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route10_PowerPlantBackRoom_Text_ManagerIWontForgiveCulprit:
-	.string "Manager: I won't forgive him!\p"
-	.string "The culprit can cry and\n"
-	.string "apologize,\p"
-	.string "but I'll still hammer him!\p"
-	.string "Gahahahah!$"
+	.string "厂长：我绝不原谅他！\p就算犯人哭着道歉，\p我也照样要狠狠教训他！\p哇哈哈哈！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route10_PowerPlantBackRoom_Text_ManagerThatsThePart:
-	.string "Manager: Ah! Yeah!\p"
-	.string "That's the missing Part from my\n"
-	.string "beloved generator! You found it?$"
+	.string "厂长：啊！没错！\p我心爱的发电机缺的那个零件！\n你找到了？$"
+	.string ""
+	.string ""
 
 Route10_PowerPlantBackRoom_Text_ManagerTakeThisTM:
-	.string "Wahah! Thanks!\p"
-	.string "Here! Take this TM as a reward!$"
+	.string "哇哈！谢谢！\p来！这个招式学习器\n就当谢礼，拿去吧！$"
+	.string ""
 
 Route10_PowerPlantBackRoom_Text_ManagerTM07IsZapCannon:
-	.string "Manager: That TM is Thunder.\p"
-	.string "It's a powerful technique!\p"
-	.string "It's not what anyone would\n"
-	.string "consider accurate, but it packs a\l"
-	.string "wallop!$"
+	.string "厂长：招式学习器里装的是打雷。\p它的威力可强了！\p虽然算不上百发百中，\n但挨上一下，\l可够受的！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 Route10_PowerPlantBackRoom_Text_ManagerMyBelovedGenerator:
-	.string "Manager: My beloved generator!\p"
-	.string "Keep pumping the electricity out!$"
+	.string "厂长：我心爱的发电机！\p继续发电吧，\n把电力源源不断地送出去！$"
+	.string ""
 
 Route10_PowerPlantBackRoom_Text_Engineer:
-	.string "This door is unsafe without power.$"
+	.string "没有电，这扇门不安全。$"
 

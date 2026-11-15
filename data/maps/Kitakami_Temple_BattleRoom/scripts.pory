@@ -4,7 +4,7 @@ script BattleRoom_Audino {
     lock
     faceplayer
     playmoncry(SPECIES_AUDINO, CRY_MODE_NORMAL)
-    msgbox("Audino: Audiini!")
+    msgbox("差不多娃娃：嗷呜！")
     waitmoncry
     release
     end
@@ -13,7 +13,7 @@ script BattleRoom_Audino {
 script BattleRoom_Machamp {
     lock
     playmoncry(SPECIES_MACHAMP, CRY_MODE_NORMAL)
-    msgbox("Machamp: Mach!")
+    msgbox("怪力：哼哈！")
     waitmoncry
     release
     end
@@ -22,7 +22,7 @@ script BattleRoom_Machamp {
 script BattleRoom_Mienshao {
     lock
     playmoncry(SPECIES_MIENSHAO, CRY_MODE_NORMAL)
-    msgbox("Mienshao: Mii!")
+    msgbox("师父鼬：咪！")
     waitmoncry
     release
     end
@@ -30,7 +30,7 @@ script BattleRoom_Mienshao {
 
 script BattleRoom_BattleGirl {
     lock
-    msgbox("Now Mienshao, use Hi Jump Kick!")
+    msgbox("师父鼬，用飞膝踢！")
     playmoncry(SPECIES_MIENSHAO, CRY_MODE_NORMAL)
     applymovement(LOCALID_KITAKAMI_MIENSHAO, moves(jump_in_place_left*2))
     waitmovement(0)
@@ -41,7 +41,7 @@ script BattleRoom_BattleGirl {
 
 script BattleRoom_BlackBelt {
     lock
-    msgbox("Machamp, counter with Protect!")
+    msgbox("怪力，用守住挡下来！")
     playmoncry(SPECIES_MACHAMP, CRY_MODE_NORMAL)
     applymovement(LOCALID_KITAKAMI_MACHAMP, moves(jump_in_place_right*2))
     waitmovement(0)
@@ -54,24 +54,15 @@ script BattleRoom_MoneyTrainer {
     lock
     faceplayer
     if (flag(FLAG_TEMP_1) == FALSE) {
-        msgbox("Greetings, we offer paid training
-                services for visitors. 
-            
-                The money will be used to support our 
-                temple and the village. Interested?")
+        msgbox("您好，我们为来访者\n提供付费训练服务。\p这笔钱将用于资助寺院\n和村子。有意向吗？")
         setflag(FLAG_TEMP_1)   
     }
     showmoneybox(0,0)
-    msgbox("For a low price of ¥10,000, we will
-            let you train with our Audinos and 
-            Blisseys.", MSGBOX_YESNO)
+    msgbox("只要¥10,000，就能和\n差不多娃娃、幸福蛋一起训练。", MSGBOX_YESNO)
     if (var(VAR_RESULT) == YES) {
         checkmoney(10000)
         if (var(VAR_RESULT) == FALSE) {
-            msgbox("Oh my, it seems you do not have the
-                    money right now. 
-                    
-                    Please come back when you have some.")
+            msgbox("哎呀，看来您现在\n手头不太宽裕。\p请筹到钱后再来。")
             hidemoneybox
             release
             end
@@ -81,12 +72,12 @@ script BattleRoom_MoneyTrainer {
         playse(SE_SHOP)
         waitse
         hidemoneybox
-        msgbox("Thank you, let us begin.")
-        trainerbattle_no_intro(TRAINER_DOJO_AUDINO, "Thank you for your support.")
-        msgbox("Come back if you wish to train again.")
+        msgbox("谢谢，我们开始吧。")
+        trainerbattle_no_intro(TRAINER_DOJO_AUDINO, "感谢您的资助。")
+        msgbox("想再训练的话，欢迎再来。")
     } else {
         hidemoneybox
-        msgbox("That's fine.")
+        msgbox("好的，没关系。")
         release
         end
     }

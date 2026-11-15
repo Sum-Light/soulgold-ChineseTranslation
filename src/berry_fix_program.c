@@ -35,27 +35,27 @@ static int BerryFix_TrySetScene(int);
 static void BerryFix_SetScene(int);
 static void BerryFix_HideScene(void);
 
-static const u8 sText_BerryProgramUpdate[] = _("Berry Program Update");
-static const u8 sText_RubySapphire[] = _("Ruby/Sapphire");
-static const u8 sText_Emerald[] = _("Emerald");
-static const u8 sText_BerryProgramWillBeUpdatedPressA[] = _("The Berry Program on your Pokémon\n"
-                                                            "Ruby/Sapphire Game Pak will be updated.\n"
-                                                            "{COLOR RED}{SHADOW LIGHT_RED}Press the A Button.");
-static const u8 sText_EnsureGBAConnectionMatches[] = _("Please ensure the connection of your\n"
-                                                       "Game Boy Advance system matches this.\n"
-                                                       "{COLOR RED}{SHADOW LIGHT_RED}YES: Press the A Button.\n"
-                                                       "NO: Turn off the power and try again.");
-static const u8 sText_TurnOffPowerHoldingStartSelect[] = _("Please turn on the power of Pokémon\n"
-                                                           "Ruby/Sapphire while holding START and\n"
-                                                           "SELECT simultaneously. Then, ensure\n"
-                                                           "the picture above appears.");
-static const u8 sText_TransmittingPleaseWait[] = _("Transmitting. Please wait.\n"
-                                                   "{COLOR RED}{SHADOW LIGHT_RED}Please do not turn off the power or\n"
-                                                   "unplug the Game Boy Advance Game\nLink Cable.");
-static const u8 sText_PleaseFollowInstructionsOnScreen[] = _("Please follow the instructions on your\n"
-                                                             "Pokémon Ruby/Sapphire screen.");
-static const u8 sText_TransmissionFailureTryAgain[] = _("Transmission failure.\n"
-                                                        "{COLOR RED}{SHADOW LIGHT_RED}Please try again.");
+static const u8 sText_BerryProgramUpdate[] = _("树果问题修复补丁程序");
+static const u8 sText_RubySapphire[] = _("红宝石·蓝宝石");
+static const u8 sText_Emerald[] = _("绿宝石");
+static const u8 sText_BerryProgramWillBeUpdatedPressA[] = _("将更新宝可梦红宝石·蓝宝石\n游戏卡带中的树果程序。\n{COLOR RED}{SHADOW LIGHT_RED}请按A键。"
+                                                            ""
+                                                            "");
+static const u8 sText_EnsureGBAConnectionMatches[] = _("请确认Game Boy Advance主机的\n连接状态与上图一致。\n{COLOR RED}{SHADOW LIGHT_RED}是：请按A键。\n否：请关闭电源后重试。"
+                                                       ""
+                                                       ""
+                                                       "");
+static const u8 sText_TurnOffPowerHoldingStartSelect[] = _("请同时按住START键和SELECT键，\n打开宝可梦红宝石·蓝宝石的电源。\n然后，请确认画面上出现了\n上方的图片。"
+                                                           ""
+                                                           ""
+                                                           "");
+static const u8 sText_TransmittingPleaseWait[] = _("正在传输，请稍候。\n{COLOR RED}{SHADOW LIGHT_RED}传输过程中请勿关闭电源，\n也不要拔出Game Boy Advance\n通信线。"
+                                                   ""
+                                                   "");
+static const u8 sText_PleaseFollowInstructionsOnScreen[] = _("请根据红宝石·蓝宝石\n游戏画面操作。"
+                                                             "");
+static const u8 sText_TransmissionFailureTryAgain[] = _("传输失败。\n{COLOR RED}{SHADOW LIGHT_RED}请重试。"
+                                                        "");
 
 static const struct BgTemplate sBerryFixBgTemplates[] = {
     {

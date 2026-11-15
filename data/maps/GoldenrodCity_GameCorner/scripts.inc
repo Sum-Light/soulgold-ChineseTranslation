@@ -262,78 +262,78 @@ GoldenrodCity_GameCorner_EventScript_Pharmacist::
 	end
 
 GoldenrodCity_GameCorner_PrizeRoom_Text_YouWantPrize:
-	.string "{STR_VAR_1} is what you want?$"
+	.string "您要的是{STR_VAR_1}吗？$"
 
 GoldenrodCity_GameCorner_Text_PlayerObtainedTheMon:
-	.string "{PLAYER} got {STR_VAR_1}!$"
+	.string "{PLAYER}得到了{STR_VAR_1}！$"
 
 GoldenrodGamecorner_Text_GiveNicknameToThisMon:
-	.string "Nickname {STR_VAR_1}?$"
+	.string "要给{STR_VAR_1}起昵称吗？$"
 
 GoldenrodCity_GameCorner_Text_PrizeVendorIntro:
-    .string "Welcome!\p"
-    .string "We exchange your game coins for\n"
-    .string "fabulous prizes!$"
+    .string "欢迎光临！\p在这里，您可以用游戏代币\n兑换精美的奖品！$"
+    .string ""
+    .string ""
 
 GoldenrodCity_GameCorner_Text_PrizeVendorWhichPrize:
-    .string "Which prize would you like?$"
+    .string "您想兑换哪件奖品？$"
 
 GoldenrodCity_GameCorner_Text_PrizeVendorHereYouGo:
-    .string "Here you go!$"
+    .string "拿好了！$"
 
 GoldenrodCity_GameCorner_Text_PrizeVendorNeedMoreCoins:
-    .string "Sorry! You need more coins.$"
+    .string "抱歉！您的代币不够。$"
 
 GoldenrodCity_GameCorner_Text_PrizeVendorNoMoreRoom:
-    .string "Sorry. You can't carry any more.$"
+    .string "抱歉。您已经拿不下更多了。$"
 
 GoldenrodCity_GameCorner_Text_PrizeVendorQuit:
-    .string "Ok. Please save your coins and come\n"
-    .string "again!$"
+    .string "好的。请多攒些代币，\n再来吧！$"
+    .string ""
 
 GoldenrodCity_GameCorner_Text_PrizeVendorNoCoinCase:
-    .string "Oh? You don't have a Coin Case.$"
+    .string "哦？您没有代币盒啊。$"
 
 GoldenrodCity_GameCorner_Text_Pharmacist:
-    .string "I always play this slot machine.\n"
-    .string "It pays out more than others,\l"
-    .string "I think.$"
+    .string "我总玩这台老虎机。\n我觉得它比别的机器\l出币出得多。$"
+    .string ""
+    .string ""
 
 GoldenrodCity_GameCorner_Text_Woman:
-    .string "I can't stop winning!$"
+    .string "我赢个不停！$"
 
 GoldenrodCity_GameCorner_Text_PokefanM1:
-    .string "I just love this new slot machine.\p"
-    .string "It's more of a challenge than the\n"
-    .string "ones in Celadon.$"
+    .string "我太喜欢这台新老虎机了。\p它比玉虹市的那些\n更有挑战性。$"
+    .string ""
+    .string ""
 
 GoldenrodCity_GameCorner_Text_CooltrainerM:
-    .string "Life is a gamble. I'm going to pull\n"
-    .string "till I drop!$"
+    .string "人生就是赌博。我要一直\n拉杆，直到倒下为止！$"
+    .string ""
 
 GoldenrodCity_GameCorner_Text_PokefanF:
-    .string "Roulette…\p"
-    .string "I prefer it over the slots because\n"
-    .string "it's easier to figure the odds.\p"
-    .string "But the payout is much lower.$"
+    .string "轮盘……\p比起老虎机，我更喜欢它，\n因为赔率容易算。\p不过奖金也低得多。$"
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodCity_GameCorner_Text_CooltrainerF:
-    .string "I won't quit until I win!$"
+    .string "不赢我就不走！$"
 
 GoldenrodCity_GameCorner_Text_Gentleman:
-    .string "I taught Blizzard to my Pokémon.\p"
-    .string "It was hard to get enough coins for\n"
-    .string "it, but it was worth it.$"
+    .string "我让我的宝可梦学会了暴风雪。\p攒够代币可费了不少劲，\n不过很值得。$"
+    .string ""
+    .string ""
 
 GoldenrodCity_GameCorner_Text_PokefanM2:
-    .string "I couldn't win at the slots, and I\n"
-    .string "blew it on roulette.\p"
-    .string "I got so furious, I tossed out my\n"
-    .string "Coin Case in the Underground.$"
+    .string "老虎机赢不了，\n轮盘又把代币输光了。\p我一气之下，把代币盒\n扔在了地下通道里。$"
+    .string ""
+    .string ""
+    .string ""
 
 GoldenrodCity_GameCorner_Text_MoveTutorInside:
-    .string "Wahahah! The coins keep rolling in!$"
+    .string "哇哈哈！代币滚滚来！$"
 
 GoldenrodCity_GameCorner_Text_LeftTheirDrink:
-    .string "Someone left their drink.\p"
-    .string "It smells sweet.$"
+    .string "有人把饮料落在这儿了。\p闻起来甜甜的。$"
+    .string ""

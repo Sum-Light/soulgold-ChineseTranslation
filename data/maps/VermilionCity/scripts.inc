@@ -260,79 +260,79 @@ VermilionCity_Movement_EusineLeave:
 	step_end
 
 VermilionCity_Text_Eusine:
-	.string "Eusine: That was so close!\n"
-	.string "I though I could corner it by\l"
-	.string "ambushing it here.\p"
-	.string "But running on the water is beyond\n"
-	.string "me.\p"
-	.string "Still, I am starting to see\n"
-	.string "a pattern.\p"
-	.string "Suicune prefers water!\p"
-	.string "That means...$"
+	.string "米那君：只差一点点了！\n我本以为在这里埋伏，\l就能把它逼进死角。\p可是在水上奔跑，\n我可实在办不到。\p不过，我渐渐看出\n它的规律了。\p水君喜欢水！\p也就是说……$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 VermilionCity_Text_Eusine2:
-	.string "Sorry {PLAYER}, I've got to go!$"
+	.string "抱歉，{PLAYER}！我先走了！$"
 
 VermilionCity_Text_Teacher:
-	.string "Vermilion Port is Kanto's seaside\n"
-	.string "gateway.\p"
-	.string "Luxury liners from around the\n"
-	.string "world dock here.$"
+	.string "枯叶港是关都的\n海上大门。\p世界各地的豪华客船\n都在这里靠岸。$"
+	.string ""
+	.string ""
+	.string ""
 
 VermilionCity_Text_MachopOwner:
-	.string "My Pokémon is preparing the land\n"
-	.string "for construction.\p"
-	.string "But I have no money to start the\n"
-	.string "project…$"
+	.string "我的宝可梦正在平整土地，\n准备施工。\p可我拿不出开工的\n钱……$"
+	.string ""
+	.string ""
+	.string ""
 
 VermilionCity_Text_Machop1:
-	.string "Machop: Guooh gogogoh!$"
+	.string "腕力：咕哦，咕噜噜！$"
 
 VermilionCity_Text_Machop2:
-	.string "A Machop is growling while\n"
-	.string "stomping the ground flat.$"
+	.string "一只腕力一边低吼，\n一边把地面踩平。$"
+	.string ""
 
 VermilionCity_Text_SuperNerd:
-	.string "There are eight Gyms in Kanto.\p"
-	.string "That big building is Vermilion's\n"
-	.string "Pokémon Gym.$"
+	.string "关都有八家道馆。\p那栋大楼就是枯叶市的\n宝可梦道馆。$"
+	.string ""
+	.string ""
 
 VermilionCity_Text_SnorlaxSleeping:
-	.string "Snorlax is snoring peacefully…$"
+	.string "卡比兽睡得很香……$"
 
 VermilionCity_Text_RadioNearSnorlax:
-	.string "The Radio was placed near the\n"
-	.string "sleeping Snorlax…\p"
-	.string "…\p"
-	.string "Snorlax woke up!$"
+	.string "收音机放到了睡着的\n卡比兽旁边……\p……\p卡比兽醒了！$"
+	.string ""
+	.string ""
+	.string ""
 
 VermilionCity_Text_BadgeGuy_Trainer:
-	.string "Skilled trainers gather in Kanto.\p"
-	.string "Gym Leaders are especially strong.\p"
-	.string "They won't be easy to defeat.$"
+	.string "关都聚集着厉害的训练家。\p道馆馆主尤其强。\p他们可没那么容易打赢。$"
+	.string ""
+	.string ""
 
 VermilionCity_Text_BadgeGuy_SomeBadges:
-	.string "You've started to collect Kanto\n"
-	.string "Gym Badges?\p"
-	.string "Don't you agree that the trainers\n"
-	.string "here are tough?$"
+	.string "你开始收集关都的\n道馆徽章了？\p你不觉得这里的训练家\n都很强吗？$"
+	.string ""
+	.string ""
+	.string ""
 
 VermilionCity_Text_BadgeGuy_MostBadges:
-	.string "I guess you'll be finished with\n"
-	.string "your conquest of Kanto Gyms soon.\p"
-	.string "Let me know if you get all eight\n"
-	.string "Badges.$"
+	.string "我看你很快就能\n称霸关都的道馆了。\p集齐八枚徽章以后，\n记得来告诉我。$"
+	.string ""
+	.string ""
+	.string ""
 
 VermilionCity_Text_BadgeGuy_AllBadges:
-	.string "Congratulations!\p"
-	.string "You got all the Kanto Gym Badges.\p"
-	.string "I've got a reward for your efforts.$"
+	.string "恭喜！\p你集齐了关都的所有道馆徽章。\p我要送你一份努力的奖励。$"
+	.string ""
+	.string ""
 
 VermilionCity_Text_BadgeGuy_BattleEdge:
-	.string "Having a variety of Pokémon types\n"
-	.string "should give you an edge in battle.\p"
-	.string "I'm sure the Kanto Gym Badges will\n"
-	.string "help you.$"
+	.string "多准备几种属性的宝可梦，\n对战时才占优势。\p关都的道馆徽章\n一定会帮上你的忙。$"
+	.string ""
+	.string ""
+	.string ""
 
 VermilionCity_EventScript_CitySign::
 	msgbox VermilionCity_Text_Sign, MSGBOX_SIGN
@@ -348,22 +348,22 @@ VermilionCity_EventScript_DiglettsCaveSign::
 	end
 
 VermilionCity_Text_Sign:
-	.string "Vermilion City\p"
-	.string "The Port of Exquisite Sunsets$"
+	.string "枯叶市\p夕阳绝美的港口$"
+	.string ""
 
 VermilionCity_Text_GymSign:
-	.string "Vermilion City\n"
-	.string "Pokémon Gym\p"
-	.string "Leader: Lt.Surge\p"
-	.string "The Lightning American$"
+	.string "枯叶市\n宝可梦道馆\p馆主：马志士\p闪电美国人！$"
+	.string ""
+	.string ""
+	.string ""
 
 VermilionCity_Text_FanClubSign:
-	.string "Pokémon Fan Club\p"
-	.string "All Pokémon Fans Welcome!$"
+	.string "宝可梦发烧友俱乐部\p欢迎所有宝可梦发烧友！$"
+	.string ""
 
 VermilionCity_Text_DiglettsCaveSign:
-	.string "Diglett's Cave$"
+	.string "地鼠洞穴$"
 
 VermilionCity_Text_PortSign:
-	.string "Vermilion Port\n"
-	.string "Entrance$"
+	.string "枯叶港入口$"
+	.string ""

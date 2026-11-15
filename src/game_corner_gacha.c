@@ -155,7 +155,7 @@ struct Gacha {
     u8 canGiveMon;
 };    
 
-static const u8 sText_FromGacha[] = _("You got {STR_VAR_1}!");
+static const u8 sText_FromGacha[] = _("获得了{STR_VAR_1}！");
 
 static const s8 sTradeBallVerticalVelocityTable[] =
 {
@@ -182,7 +182,7 @@ static void GachaVBlankCallback(void);
 static void SpriteCB_BouncingPokeball(struct Sprite *);
 static void SpriteCB_BouncingPokeballArrive(struct Sprite *);
 
-static const u8 sMessageText[] = _("New Pokémon : {STR_VAR_1}%");
+static const u8 sMessageText[] = _("新宝可梦：{STR_VAR_1}%");
 
 static void SpriteCB_Null(struct Sprite *sprite)
 {

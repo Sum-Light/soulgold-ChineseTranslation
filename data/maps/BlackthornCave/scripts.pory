@@ -1,27 +1,18 @@
 mapscripts BlackthornCave_MapScripts {}
 
 script BlackthornCave_Hint {
-    msgbox("Noon o'clock, one to add,
-            another to subtract.", MSGBOX_SIGN)
+    msgbox("正午时分，一格加上，\n另一格减去。", MSGBOX_SIGN)
 }
 
 script BlackThornCave_Expert {
     lock
     faceplayer
     if (flag(FLAG_GOT_KUBFU)) {
-        msgbox("Now leave me be! I wish to meditate!")
+        msgbox("让我一个人待着！我要冥想！")
         release
         end
     }
-    msgbox("Hmph, 
-            of course someone had figure it out.
-            
-            I've been living as a hermit in this
-            cave to hone my martial and spiritual
-            talents.
-            
-            I suppose you are expecting something
-            from me. Fine! Take this and leave.")
+    msgbox("哼，\n果然有人解开了啊。\p我一直作为隐者\n在这洞窟里修行，\l磨炼武术与精神。\p看来你是想从我\n这里得到点什么。\l行吧！拿上这个，走吧。")
     closemessage
     setvar(VAR_TEMP_TRANSFERRED_SPECIES, SPECIES_KUBFU)
     bufferspeciesname(STR_VAR_1, SPECIES_KUBFU)
@@ -30,13 +21,7 @@ script BlackThornCave_Expert {
     call(Common_EventScript_GiftMon)
     hidemonpic
     setflag(FLAG_GOT_KUBFU)
-    msgbox("I hear a batch of scrolls for evolving
-            that Pokémon were stolen by Team
-            Rocket.
-            
-            Such an act of disgrace! If I was 30
-            years younger, I would hunt them down
-            myself!")
+    msgbox("我听说，一批用来让\n那只宝可梦进化的挂轴\l被火箭队偷走了。\p真是丢人现眼！要是\n我再年轻30岁，一定\l亲手去追回来！")
     release
     end
 }

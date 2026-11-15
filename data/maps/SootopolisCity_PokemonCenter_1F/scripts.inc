@@ -44,27 +44,27 @@ SootopolisCity_PokemonCenter_1F_EventScript_WomanNoLegendaries::
 	end
 
 SootopolisCity_PokemonCenter_1F_Text_WallaceToughestInHoenn:
-	.string "Wallace is rumored to be the toughest\n"
-	.string "Trainer in the whole Hoenn region.\p"
-	.string "This town's Gym is led by the Trainer\n"
-	.string "who taught Wallace.\p"
-	.string "But the Elite Four… They're said to be\n"
-	.string "even stronger than Wallace's mentor.\p"
-	.string "How strong could they be?$"
+	.string "传说米可利是整个丰缘地区\n最强的训练家，\p而这城镇道馆的训练家\n是米可利的老师。\p但四天王……据说比米可利的老师\n还要强。\p那么他们会有多强呢？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SootopolisCity_PokemonCenter_1F_Text_EveryoneTakenRefuge:
-	.string "Everyone in town has taken refuge\n"
-	.string "and won't come out of their homes.\p"
-	.string "Even I would rather not venture\n"
-	.string "outside.$"
+	.string "城镇里的人都躲在家里\n不愿出来，\p就算是我也\n不想出门冒险。$"
+	.string ""
+	.string ""
+	.string ""
 
 SootopolisCity_PokemonCenter_1F_Text_AlwaysBeFriendsWithPokemon:
-	.string "Whenever, wherever, and whatever\n"
-	.string "happens, I will always be friends with\l"
-	.string "Pokémon.\p"
-	.string "Because it's fun to be with Pokémon!$"
+	.string "无论何时，无论何地，\n无论发生什么，\l我都会和宝可梦在一起。\p和宝可梦交朋友是我的乐趣！$"
+	.string ""
+	.string ""
+	.string ""
 
 SootopolisCity_PokemonCenter_1F_Text_ArentPokemonOurFriends:
-	.string "Aren't Pokémon our friends?\p"
-	.string "Why are they going wild this way?$"
+	.string "宝可梦不是我们的朋友吗？\p它们为什么会如此疯狂？$"
+	.string ""
 

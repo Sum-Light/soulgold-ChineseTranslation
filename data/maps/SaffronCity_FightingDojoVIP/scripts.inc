@@ -262,7 +262,7 @@ SaffronCity_FightingDojoVIP_EventScript_Scizor::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Scizor:
-	.string "Scizor: Scii-zor!$"
+	.string "巨钳螳螂：钳——！$"
 
 SaffronCity_FightingDojoVIP_EventScript_Miltank::
 	lock
@@ -276,7 +276,7 @@ SaffronCity_FightingDojoVIP_EventScript_Miltank::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Miltank:
-	.string "Miltank: MooOOO!$"
+	.string "大奶罐：哞——！$"
 
 SaffronCity_FightingDojoVIP_EventScript_Poliwhirl::
 	lock
@@ -290,7 +290,7 @@ SaffronCity_FightingDojoVIP_EventScript_Poliwhirl::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Poliwhirl:
-	.string "Poliwhirl: Whirl-whirl!$"
+	.string "蚊香君：转转！$"
 
 SaffronCity_FightingDojoVIP_EventScript_Dewgong::
 	lock
@@ -304,7 +304,7 @@ SaffronCity_FightingDojoVIP_EventScript_Dewgong::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Dewgong:
-	.string "Dewgong: Goooooong!$"
+	.string "白海狮：咕——！$"
 
 SaffronCity_FightingDojoVIP_EventScript_Steelix::
 	lock
@@ -318,7 +318,7 @@ SaffronCity_FightingDojoVIP_EventScript_Steelix::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Steelix:
-	.string "Steelix: GraaAAANk!$"
+	.string "大钢蛇：嘎啊啊！$"
 
 SaffronCity_FightingDojoVIP_EventScript_Kingdra::
 	lock
@@ -332,7 +332,7 @@ SaffronCity_FightingDojoVIP_EventScript_Kingdra::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Kingdra:
-	.string "Kingdra: Draaa...$"
+	.string "刺龙王：呜啦……$"
 
 SaffronCity_FightingDojoVIP_EventScript_Onix::
 	lock
@@ -346,7 +346,7 @@ SaffronCity_FightingDojoVIP_EventScript_Onix::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Onix:
-	.string "Onix: Oooonix!$"
+	.string "大岩蛇：岩——！$"
 
 SaffronCity_FightingDojoVIP_EventScript_Starmie::
 	lock
@@ -360,7 +360,7 @@ SaffronCity_FightingDojoVIP_EventScript_Starmie::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Starmie:
-	.string "Starmie: Hyaaa!$"
+	.string "宝石海星：吓呀！$"
 
 SaffronCity_FightingDojoVIP_EventScript_Victreebel::
 	lock
@@ -374,7 +374,7 @@ SaffronCity_FightingDojoVIP_EventScript_Victreebel::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Victreebel:
-	.string "Victreebel: Vreeee!$"
+	.string "大食花：咿——！$"
 
 SaffronCity_FightingDojoVIP_EventScript_Muk::
 	lock
@@ -388,7 +388,7 @@ SaffronCity_FightingDojoVIP_EventScript_Muk::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Muk:
-	.string "Muk: Muuuk...$"
+	.string "臭臭泥：呜咕……$"
 
 SaffronCity_FightingDojoVIP_EventScript_Kadabra::
 	lock
@@ -402,7 +402,7 @@ SaffronCity_FightingDojoVIP_EventScript_Kadabra::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Kadabra:
-	.string "Kadabra: Kadabra!$"
+	.string "勇基拉：勇基拉！$"
 
 SaffronCity_FightingDojoVIP_EventScript_Magmar::
 	lock
@@ -416,7 +416,7 @@ SaffronCity_FightingDojoVIP_EventScript_Magmar::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Magmar:
-	.string "Magmar: Magmaaaar!$"
+	.string "鸭嘴火兽：熔岩——！$"
 
 SaffronCity_FightingDojoVIP_EventScript_Raichu::
 	lock
@@ -430,7 +430,7 @@ SaffronCity_FightingDojoVIP_EventScript_Raichu::
 	release
 	end
 SaffronCity_FightingDojoVIP_Text_Raichu:
-	.string "Raichu: Rai-Chu!$"
+	.string "雷丘：雷——丘！$"
 
 SaffronCity_FightingDojoVIP_EventScript_Machamp::
 	lock
@@ -824,221 +824,221 @@ BattleTower_Outside_EventScript_ChooseNewMove::
 	end
 
 BattleTower_Outside_Text_LeftTutorIntro:
-	.string "Buhahaha!\p"
-	.string "You couldn't tell it from looking now,\n"
-	.string "but I used to be one tough Trainer.\p"
-	.string "I had a reputation as the toughest\n"
-	.string "Beauty around, I tell you!\p"
-	.string "… … … … … …\p"
-	.string "What is it now?\n"
-	.string "You don't believe me.\p"
-	.string "I'm not like that blowhard woman over\n"
-	.string "there. I'm actually talented!\p"
-	.string "Let me prove it to you.\n"
-	.string "I can teach your Pokémon special and\l"
-	.string "yet cute moves.\p"
-	.string "But my lessons don't come free.\n"
-	.string "How about paying for the moves I teach\l"
-	.string "with a wee bit of Battle Points?$"
+	.string "哇哈哈哈！\p现在看不出来，可当年\n我可是个强悍的训练家。\p大家都说我是附近\n最厉害的大姐姐呢！\p………………\p怎么了？\n你不信我。\p我可不像那边那个\n爱吹牛的女人。我是有真本事的！\p让我证明给你看。\n我能教你的宝可梦既特别\l又可爱的招式。\p不过我可不白教。\n用一点点对战点数来换\l我教的招式，怎么样？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_LeftTutorWelcomeBack:
-	.string "Buhahaha!\p"
-	.string "Are you back to learn special and\n"
-	.string "yet cute Pokémon moves?$"
+	.string "哇哈哈哈！\p你又来学特别又可爱的\n宝可梦招式了？$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_TeachWhichMove:
-	.string "Fine, fine, look here!\n"
-	.string "Which move should I teach?$"
+	.string "好啦好啦，看这边！\n要教哪一招？$"
+	.string ""
 
 BattleTower_Outside_Text_MoveWillBeXBattlePoints:
-	.string "The move {STR_VAR_1}, is it?\n"
-	.string "That will be {STR_VAR_2} Battle Points, okay?$"
+	.string "要教{STR_VAR_1}这招是吧？\n收费{STR_VAR_2}对战点数，可以吗？$"
+	.string ""
 
 BattleTower_Outside_Text_TeachMoveToWhichMon:
-	.string "Fine, fine, now pick the Pokémon\n"
-	.string "I should teach the move to.$"
+	.string "好啦好啦，接下来选\n要学招式的宝可梦。$"
+	.string ""
 
 BattleTower_Outside_Text_HaventGotEnoughPoints:
-	.string "What the…\n"
-	.string "You haven't got enough Battle Points!$"
+	.string "什么……\n你的对战点数不够！$"
+	.string ""
 
 BattleTower_Outside_Text_IllTakeBattlePoints:
-	.string "Do you see how skilled I am now?\n"
-	.string "I'll take your Battle Points, thanks!$"
+	.string "见识到我的本事了吧？\n那我就收下对战点数啦！$"
+	.string ""
 
 BattleTower_Outside_Text_YouDontWantTo:
-	.string "What's that?\n"
-	.string "You don't want to…\p"
-	.string "If you want to see how skilled I am,\n"
-	.string "you come see me anytime!$"
+	.string "什么？\n你不想学了……\p想看我的本事，\n随时来找我！$"
+	.string ""
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_RightTutorIntro:
-	.string "Ihihihi!\p"
-	.string "I know it's hard to see now, but I used\n"
-	.string "to be one fantastic Trainer.\p"
-	.string "I had a reputation as the most\n"
-	.string "invincible Swimmer around, I tell you!\p"
-	.string "… … … … … …\p"
-	.string "What's wrong?\n"
-	.string "You don't believe me.\p"
-	.string "I'm not like that buffoonish woman over\n"
-	.string "there. I'm actually experienced!\p"
-	.string "I can prove it to you.\n"
-	.string "I can teach your Pokémon hard and\l"
-	.string "yet pretty moves.\p"
-	.string "But my lessons don't come free.\n"
-	.string "How about paying for the moves I teach\l"
-	.string "with a wee bit of Battle Points?$"
+	.string "嘻嘻嘻！\p现在看不出来，可当年\n我可是个了不起的训练家。\p大家都说我是\n最无敌的比基尼姐姐呢！\p………………\p怎么了？\n你不信我。\p我可不像那边那个\n滑稽的女人。我是有经验的！\p我能证明给你看。\n我能教你的宝可梦又强硬\l又漂亮的招式。\p不过我可不白教。\n用一点点对战点数来换\l我教的招式，怎么样？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_RightTutorWelcomeBack:
-	.string "Ihihihi!\p"
-	.string "Have you come to learn hard and\n"
-	.string "yet pretty Pokémon moves?$"
+	.string "嘻嘻嘻！\p你是来学又强硬又漂亮的\n宝可梦招式的吗？$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_ThinkLadiesDontGetAlong:
-	.string "Those ladies, the way they bad-mouth\n"
-	.string "each other, you probably think that\l"
-	.string "they don't get along.\p"
-	.string "But if that were true, they wouldn't\n"
-	.string "stay out here together, would they?$"
+	.string "那两位大姐，彼此之间\n说起话来可难听了，你大概\l会以为她们关系不好。\p可要是真关系不好，她们\n也不会一起待在这儿了吧？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_LadiesWereStrongAndBeautiful:
-	.string "When I was just a wee Youngster,\n"
-	.string "those ladies were strong and beautiful.\p"
-	.string "They were idols among us Trainers.\p"
-	.string "Even now, age hasn't dulled their\n"
-	.string "abilities.\p"
-	.string "In fact, their Pokémon moves have\n"
-	.string "grown even more polished.\p"
-	.string "But… For some reason, I can't help\n"
-	.string "but feel this…\p"
-	.string "Time is so cruel…$"
+	.string "我还是个小毛孩的时候，\n那两位大姐就又强又美。\p她们是我们训练家中的偶像。\p就算现在，岁月\n也没让她们的本事有半点生锈。\p不如说，她们宝可梦的\n招式反而更加精纯了。\p可是……不知为何，我总\n忍不住觉得……\p时间真是无情……$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_SoftboiledDesc::
-	.string "Recovers up to\n"
-	.string "half the user's\n"
-	.string "maximum Hp.$"
+	.string "回复自身\n最大HP的一半。$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_SeismicTossDesc::
-	.string "Inflicts damage\n"
-	.string "identical to the\n"
-	.string "user's level.$"
+	.string "给予对手与自身\n等级相同的伤害。$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_DreamEaterDesc::
-	.string "Recovers half the\n"
-	.string "damage inflicted\n"
-	.string "on a sleeping foe.$"
+	.string "回复对睡眠中对手\n造成伤害的一半。$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_MegaPunchDesc::
-	.string "A strong punch\n"
-	.string "thrown with\n"
-	.string "incredible power.$"
+	.string "以惊人的力量\n打出的强力一拳。$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_MegaKickDesc::
-	.string "An extremely\n"
-	.string "powerful kick with\n"
-	.string "intense force.$"
+	.string "以强烈的力道\n使出的强大踢击。$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_BodySlamDesc::
-	.string "A full-body slam\n"
-	.string "that may cause\n"
-	.string "paralysis.$"
+	.string "用整个身体压击，\n有时会让对手麻痹。$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_RockSlideDesc::
-	.string "Large boulders\n"
-	.string "are hurled. May\n"
-	.string "cause flinching.$"
+	.string "投掷大石块攻击，\n有时会让对手畏缩。$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_CounterDesc::
-	.string "Retaliates any\n"
-	.string "physical hit with\n"
-	.string "double the power.$"
+	.string "以双倍威力\n反击物理攻击。$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_ThunderWaveDesc::
-	.string "A weak jolt of\n"
-	.string "electricity that\n"
-	.string "paralyzes the foe.$"
+	.string "用微弱电流\n使对手陷入麻痹。$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_SwordsDanceDesc::
-	.string "A fighting dance\n"
-	.string "that sharply\n"
-	.string "raises Attack.$"
+	.string "以战舞\n大幅提高攻击。$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_DefenseCurlDesc::
-	.string "Curls up to con-\n"
-	.string "ceal weak spots\n"
-	.string "and raise Defense.$"
+	.string "蜷缩身体藏起弱点，\n同时提高防御。$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_SnoreDesc::
-	.string "A loud attack\n"
-	.string "that can be used\n"
-	.string "only while asleep.$"
+	.string "只能在睡眠时\n使用的巨响攻击。$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_MudSlapDesc::
-	.string "Hurls mud in the\n"
-	.string "foe's face to re-\n"
-	.string "duce its accuracy.$"
+	.string "向对手脸上扔泥，\n降低其命中率。$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_SwiftDesc::
-	.string "Sprays star-\n"
-	.string "shaped rays\n"
-	.string "that never miss.$"
+	.string "射出星形光线，\n攻击必定命中。$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_IcyWindDesc::
-	.string "A chilling attack\n"
-	.string "that lowers the\n"
-	.string "foe's Speed.$"
+	.string "冰冷的攻击，\n降低对手的速度。$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_EndureDesc::
-	.string "Endures any at-\n"
-	.string "tack for 1 turn,\n"
-	.string "leaving 1HP.$"
+	.string "在1回合内\n忍受攻击，留下1HP。$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_PsychUpDesc::
-	.string "Copies the foe's\n"
-	.string "effect(s) and\n"
-	.string "gives to the user.$"
+	.string "复制对手的\n能力效果，加于自身。$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_IcePunchDesc::
-	.string "An icy punch\n"
-	.string "that may\n"
-	.string "freeze the foe.$"
+	.string "冰冷的拳头，\n有时会让对手冰冻。$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_ThunderPunchDesc::
-	.string "An electrified\n"
-	.string "punch that may\n"
-	.string "paralyze the foe.$"
+	.string "带电的拳头，\n有时会让对手麻痹。$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_FirePunchDesc::
-	.string "A fiery punch\n"
-	.string "that may burn\n"
-	.string "the foe.$"
+	.string "灼热的拳头，\n有时会让对手灼伤。$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_ElementalTutorIntro::
-	.string "Zzzzzz…\p"
-	.string "What, how, what?\p"
-	.string "Oh, sorry, I was snoozing a bit.\p"
-	.string "I'm the Elemental Tutor.\p"
-	.string "I have the power to teach the most\n"
-	.string "powerful moves to Grass, Fire and\l"
-	.string "Water Type Pokémon.\p"
-	.string "Did you come to learn such a strong\n"
-	.string "power?$"
+	.string "呼……呼……\p啊？怎么了？\p哦，抱歉，我刚打了个盹。\p我是属性专家。\p我有能力把最强的招式\n教给草、火、水属性的\l宝可梦。\p你是来学这种强大\n力量的？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_ElementalTutorWelcomeBack:
-	.string "Zzzzzz…\p"
-	.string "What, how, what, who?\p"
-	.string "Oh, did you come to learn the\n"
-	.string "power of my strongest moves?$"
+	.string "呼……呼……\p啊？怎么了，谁呀？\p哦，你是来学我最强\n招式的力量的？$"
+	.string ""
+	.string ""
+	.string ""
 
 BattleTower_Outside_Text_TeachWhichMoveElemental::
-	.string "Which move do you think is suitable\n"
-	.string "for your Pokémon?$"
+	.string "你觉得哪一招适合\n你的宝可梦？$"
+	.string ""
 
 BattleTower_Outside_Text_StrongElementalMoveDesc::
-	.string "Powerful, but\n"
-	.string "leaves the user\n"
-	.string "immobile one turn.$"
+	.string "威力强大，\n但下一回合无法行动。$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_EventScript_ClerkWelcome::
 	msgbox BattleTower_Outside_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize, MSGBOX_DEFAULT
@@ -1484,533 +1484,533 @@ BattleTower_Outside_ExchangeServiceCorner_EventScript_OldWTMan::
 	end
 
 BattleTower_Outside_ExchangeServiceCorner_Text_YouAlreadyHaveThis:
-	.string "You already have this item.$"
+	.string "您已经有这个道具了。$"
 
 BattleTower_Outside_ExchangeServiceCorner_EventScript_OldWTMan_Text:
-	.string "Hi! If you are looking for the\n"
-	.string "Wondertrade, they're now located in\l"
-	.string "every Pokémon Center. Have fun!$"
+	.string "您好！您要是找奇迹交换，\n它现在已经搬到\l每一间宝可梦中心了。玩得开心！$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_WelcomePleaseChoosePrize:
-	.string "Hello, this is the Exchange Service\n"
-	.string "Corner.\p"
-	.string "We exchange the Battle Points you\n"
-	.string "have collected for lovely prizes.\p"
-	.string "Please choose a prize from this list.$"
+	.string "您好，这里是对战点数\n兑换服务区。\p您积攒的对战点数，可以\n在这里换成精美的奖品。\p请从这张单子上挑选奖品。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 @ Unused
 BattleTower_Outside_ExchangeServiceCorner_Text_PleaseChoosePrize:
-	.string "Please choose a prize from this list.$"
+	.string "请从这张单子上挑选奖品。$"
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmKissPoster:
-	.string "You've chosen the Kiss Poster.\n"
-	.string "Is that correct?$"
+	.string "您选的是亲吻海报。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmKissCushion:
-	.string "You've chosen the Kiss Cushion.\n"
-	.string "Is that correct?$"
+	.string "您选的是亲吻靠垫。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmSmoochumDoll:
-	.string "You've chosen the Smoochum Doll.\n"
-	.string "Is that correct?$"
+	.string "您选的是迷唇娃玩偶。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmTogepiDoll:
-	.string "You've chosen the Togepi Doll.\n"
-	.string "Is that correct?$"
+	.string "您选的是波克比玩偶。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmMeowthDoll:
-	.string "You've chosen the Meowth Doll.\n"
-	.string "Is that correct?$"
+	.string "您选的是喵喵玩偶。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmClefairyDoll:
-	.string "You've chosen the Clefairy Doll.\n"
-	.string "Is that correct?$"
+	.string "您选的是皮皮玩偶。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmDittoDoll:
-	.string "You've chosen the Ditto Doll.\n"
-	.string "Is that correct?$"
+	.string "您选的是百变怪玩偶。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmCyndaquilDoll:
-	.string "You've chosen the Cyndaquil Doll.\n"
-	.string "Is that correct?$"
+	.string "您选的是火球鼠玩偶。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmChikoritaDoll:
-	.string "You've chosen the Chikorita Doll.\n"
-	.string "Is that correct?$"
+	.string "您选的是菊草叶玩偶。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmTotodileDoll:
-	.string "You've chosen the Totodile Doll.\n"
-	.string "Is that correct?$"
+	.string "您选的是小锯鳄玩偶。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmLaprasDoll:
-	.string "You've chosen the Lapras Doll.\n"
-	.string "Is that correct?$"
+	.string "您选的是拉普拉斯玩偶。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmSnorlaxDoll:
-	.string "You've chosen the Snorlax Doll.\n"
-	.string "Is that correct?$"
+	.string "您选的是卡比兽玩偶。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmVenusaurDoll:
-	.string "You've chosen the Venusaur Doll.\n"
-	.string "Is that correct?$"
+	.string "您选的是妙蛙花玩偶。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmCharizardDoll:
-	.string "You've chosen the Charizard Doll.\n"
-	.string "Is that correct?$"
+	.string "您选的是喷火龙玩偶。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmBlastoiseDoll:
-	.string "You've chosen the Blastoise Doll.\n"
-	.string "Is that correct?$"
+	.string "您选的是水箭龟玩偶。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmProtein:
-	.string "You've chosen the Protein.\n"
-	.string "Is that correct?$"
+	.string "您选的是攻击增强剂。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmCalcium:
-	.string "You've chosen the Calcium.\n"
-	.string "Is that correct?$"
+	.string "您选的是特攻增强剂。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmIron:
-	.string "You've chosen the Iron.\n"
-	.string "Is that correct?$"
+	.string "您选的是防御增强剂。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmZinc:
-	.string "You've chosen the Zinc.\n"
-	.string "Is that correct?$"
+	.string "您选的是特防增强剂。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmCarbos:
-	.string "You've chosen the Carbos.\n"
-	.string "Is that correct?$"
+	.string "您选的是速度增强剂。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmHpUp:
-	.string "You've chosen the Hp Up.\n"
-	.string "Is that correct?$"
+	.string "您选的是HP增强剂。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmBrightpowder:
-	.string "You've chosen the Brightpowder.\n"
-	.string "Is that correct?$"
+	.string "您选的是光粉。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmWhiteHerb:
-	.string "You've chosen the White Herb.\n"
-	.string "Is that correct?$"
+	.string "您选的是白色香草。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmQuickClaw:
-	.string "You've chosen the Quick Claw.\n"
-	.string "Is that correct?$"
+	.string "您选的是先制之爪。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmMentalHerb:
-	.string "You've chosen the Mental Herb.\n"
-	.string "Is that correct?$"
+	.string "您选的是心灵香草。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmChoiceBand:
-	.string "You've chosen the Choice Band.\n"
-	.string "Is that correct?$"
+	.string "您选的是讲究头带。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmKingsRock:
-	.string "You've chosen the King's Rock.\n"
-	.string "Is that correct?$"
+	.string "您选的是王者之证。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmFocusBand:
-	.string "You've chosen the Focus Band.\n"
-	.string "Is that correct?$"
+	.string "您选的是气势头带。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmScopeLens:
-	.string "You've chosen the Scope Lens.\n"
-	.string "Is that correct?$"
+	.string "您选的是焦点镜。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ConfirmLeftovers:
-	.string "You've chosen the Leftovers.\n"
-	.string "Is that correct?$"
+	.string "您选的是吃剩的东西。\n确认吗？$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_WellSendItToPC:
-	.string "Thank you!\n"
-	.string "We'll send it to your PC at home.$"
+	.string "谢谢惠顾！\n我们会把它送到您家里的电脑。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_HereIsYourPrize:
-	.string "Here is your prize!$"
+	.string "这是您的奖品！$"
 
 BattleTower_Outside_ExchangeServiceCorner_Text_DontHaveEnoughPoints:
-	.string "I'm so sorry…\n"
-	.string "You don't have enough Battle Points…$"
+	.string "非常抱歉……\n您的对战点数不够……$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_PCIsFull:
-	.string "I'm so sorry…\n"
-	.string "Your PC appears to be full…$"
+	.string "非常抱歉……\n您的电脑似乎已经满了……$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_DontHaveSpaceToHoldIt:
-	.string "I'm so sorry…\n"
-	.string "You don't have space to hold it…$"
+	.string "非常抱歉……\n您的包包已经没有空位了……$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ThankYouVisitWithPoints:
-	.string "Thank you very much.\p"
-	.string "Please visit us when you have\n"
-	.string "saved up Battle Points.$"
+	.string "非常感谢。\p您攒够对战点数以后，\n再来光顾吧。$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_WishIHadAllDolls:
-	.string "Oh, they're so nice!\n"
-	.string "I wish I had them!\l"
-	.string "Cute cushions!\l"
-	.string "Big plush Dolls!\l"
-	.string "Little plush Dolls!\l"
-	.string "I wish I had them all!$"
+	.string "哇，都好棒啊！\n真想把它们全收下！\l可爱的靠垫！\l大大的毛绒玩偶！\l小小的毛绒玩偶！\l全都想要！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_GetYouAnythingYouWant:
-	.string "Leave it to your mommy!\p"
-	.string "If it's anything you want, I'll go\n"
-	.string "through anything to get it, honey!$"
+	.string "交给妈妈吧！\p不管你想要什么，\n妈妈都会想办法弄来，宝贝！$"
+	.string ""
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ItemsWillGetMonTougher:
-	.string "If I can get hold of the items here,\n"
-	.string "my Pokémon will get tougher.\p"
-	.string "You bet they will!\n"
-	.string "No question about it!$"
+	.string "要是能弄到这里的道具，\n我的宝可梦就会变强。\p那是一定的！\n毫无疑问！$"
+	.string ""
+	.string ""
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_GoGetYourOwnDoll:
-	.string "Hah?\n"
-	.string "What are you gawking at?\p"
-	.string "I don't like you staring at my plush\n"
-	.string "doll like that.\p"
-	.string "If you want it, go get one yourself!\n"
-	.string "Isn't that right, Smoochum?$"
+	.string "嗯？\n你在看什么？\p我不喜欢你那样盯着\n我的毛绒玩偶。\p想要就自己去换啊！\n对吧，迷唇娃？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_MoreBattlePointsForRecord:
-	.string "Did you know?\p"
-	.string "If you stretch your record at any of\n"
-	.string "the Battle facilities, they start\l"
-	.string "giving you more and more Battle Points.$"
+	.string "你知道吗？\p只要在对战设施刷新纪录，\n他们给的对战点数就会\l越来越多。$"
+	.string ""
+	.string ""
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_KissPosterDesc::
-	.string "A large poster with a Smoochum print.$"
+	.string "印着迷唇娃的大海报。$"
 
 BattleTower_Outside_ExchangeServiceCorner_Text_KissCushionDesc::
-	.string "A Smoochum cushion.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "迷唇娃靠垫。\n可以放在垫子或桌子上。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_SmoochumDollDesc::
-	.string "A Smoochum Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "迷唇娃玩偶。\n可以放在垫子或桌子上。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_TogepiDollDesc::
-	.string "A Togepi Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "波克比玩偶。\n可以放在垫子或桌子上。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_MeowthDollDesc::
-	.string "A Meowth Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "喵喵玩偶。\n可以放在垫子或桌子上。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ClefairyDollDesc::
-	.string "A Clefairy Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "皮皮玩偶。\n可以放在垫子或桌子上。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_DittoDollDesc::
-	.string "A Ditto Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "百变怪玩偶。\n可以放在垫子或桌子上。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_CyndaquilDollDesc::
-	.string "A Cyndaquil Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "火球鼠玩偶。\n可以放在垫子或桌子上。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ChikoritaDollDesc::
-	.string "A Chikorita Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "菊草叶玩偶。\n可以放在垫子或桌子上。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_TotodileDollDesc::
-	.string "A Totodile Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "小锯鳄玩偶。\n可以放在垫子或桌子上。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_LargeDollDesc::
-	.string "A large Doll.\n"
-	.string "Place it on a mat or a desk.$"
+	.string "大号玩偶。\n可以放在垫子或桌子上。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ProteinDesc::
-	.string "A strange ticket that will get\n"
-	.string "you to an abandoned island.$"
+	.string "能提高宝可梦的\n攻击基础点数。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_CalciumDesc::
-	.string "A strange ticket that will get\n"
-	.string "you to an abandoned island.$"
+	.string "能提高宝可梦的\n特攻基础点数。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_IronDesc::
-	.string "A strange ticket that will get\n"
-	.string "you to an abandoned island.$"
+	.string "能提高宝可梦的\n防御基础点数。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ZincDesc::
-	.string "An… old map? Maybe\n"
-	.string "it will get you somewhere.$"
+	.string "能提高宝可梦的\n特防基础点数。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_CarbosDesc::
-	.string "x10 EV gain, but halves speed.$"
+	.string "能提高宝可梦的\n速度基础点数。$"
 
 BattleTower_Outside_ExchangeServiceCorner_Text_HPUpDesc::
-	.string "A peculiar box made\n"
-	.string "by Silph Co.$"  
+	.string "能提高宝可梦的\nHP基础点数。$"
+	.string ""  
 
 BattleTower_Outside_ExchangeServiceCorner_Text_LeftoversDesc::
-	.string "A hold item that gradually restores\n"
-	.string "Hp in battle.$"
+	.string "携带后，对战中\n会逐渐回复HP。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_WhiteHerbDesc::
-	.string "A hold item that restores any\n"
-	.string "lowered stat.$"
+	.string "携带后，能复原\n降低的能力。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_QuickClawDesc::
-	.string "A hold item that occasionally allows\n"
-	.string "the first strike.$"
+	.string "携带后，有时能\n率先发动攻击。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_MentalHerbDesc::
-	.string "A hold item that snaps Pokémon out\n"
-	.string "of infatuation.$"
+	.string "携带后，能让宝可梦\n从着迷状态恢复。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_BrightpowderDesc::
-	.string "A hold item that casts a glare to\n"
-	.string "reduce accuracy.$"
+	.string "携带后，会发出强光\n降低对手命中率。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ChoiceBandDesc::
-	.string "Raises a move's power, but permits\n"
-	.string "only that move.$"
+	.string "提高招式威力，\n但只能使出那一招。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_KingsRockDesc::
-	.string "A hold item that may cause flinching\n"
-	.string "when the foe is hit.$"
+	.string "携带后，攻击命中时\n有时会让对手畏缩。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_FocusBandDesc::
-	.string "A hold item that occasionally\n"
-	.string "prevents fainting.$"
+	.string "携带后，有时能\n防止濒死。$"
+	.string ""
 
 BattleTower_Outside_ExchangeServiceCorner_Text_ScopeLensDesc::
-	.string "A hold item that raises the\n"
-	.string "critical-hit rate.$"
+	.string "携带后，提高\n击中要害的概率。$"
+	.string ""
 
 
 SaffronCity_FightingDojoVIP_Text_Machamp:
-	.string "Machamp: Maa-champ!$"
+	.string "怪力：恰姆！$"
 
 SaffronCity_FightingDojo_EventScript_Chased::
 	msgbox SaffronCity_FightingDojoVIP_Text_Chased, MSGBOX_NPC
 	end
 
 SaffronCity_FightingDojoVIP_Text_Chased:
-	.string "Help!$"
+	.string "救命！$"
 
 SaffronCity_FightingDojoVIP_EvetScript_Statue::
 	msgbox SaffronCity_FightingDojoVIP_Text_Statue, MSGBOX_SIGN
 	end
 
 SaffronCity_FightingDojoVIP_Text_Statue:
-	.string "Fighting Dojo Vip Lounge$"
+	.string "格斗道场VIP休息室$"
 
 SaffronCity_FightingDojoVIP_Text_Falkner_Rematch:
-	.string "Congratulations on defeating\n"
-	.string "the Elite 4!\p"
-	.string "I've been training my\n"
-	.string "Flying-type Pokémon even harder.\p"
-	.string "Think you can take on the power\n"
-	.string "of the skies again?$"
+	.string "恭喜你战胜了\n四天王！\p我一直在更刻苦地训练\n我的飞行属性宝可梦。\p还想再挑战一次\n天空的力量吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Falkner_RematchDefeat:
-	.string "Wow… You beat me again.\p"
-	.string "I'm going to train harder to\n"
-	.string "become the greatest bird master!$"
+	.string "哇……我又输给你了。\p我会更加刻苦地训练，\n成为最了不起的鸟类大师！$"
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Bugsy_Rematch:
-	.string "Wow, you're the Johto Champion\n"
-	.string "now!\p"
-	.string "Your skills are truly impressive!\p"
-	.string "I've been busy with my research.\p"
-	.string "I'm ready to show you my new\n"
-	.string "findings.\p"
-	.string "Want to have a rematch with me?$"
+	.string "哇，你现在已经是\n城都冠军了！\p你的实力真让人佩服！\p我一直忙着做研究。\p现在我准备好向你展示\n新的研究成果了。\p要再和我对战一次吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Bugsy_RematchDefeat:
-	.string "Wow, you must be an expert\n"
-	.string "trainer.\p"
-	.string "My research must not be\n"
-	.string "complete…$"
+	.string "哇，你一定是一位\n专家级训练家。\p我的研究一定还\n没有完成……$"
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Whitney_Rematch:
-	.string "Hi! It's you!\p"
-	.string "Wow, Johto Champion now?\p"
-	.string "You really are amazing!\p"
-	.string "I want to see how strong you are.\p"
-	.string "Want to have a rematch with me?$"
+	.string "嗨！是你呀！\p哇，你现在是\n城都冠军了？\p你真的好厉害！\p我想看看你有多强。\p要再和我对战一次吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Whitney_RematchDefeat:
-	.string "Waaaaah!\p"
-	.string "Waaaaah!\p"
-	.string "…Snivel, hic… …You meanie!$"
+	.string "哇啊啊啊！\p哇啊啊啊！\p……呜呜，抽噎……你太过分了！$"
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Morty_Rematch:
-	.string "Ah, the Johto Champion! Good of\n"
-	.string "you to come.\p"
-	.string "You've shown your strength and\n"
-	.string "skill, but have you improved\l"
-	.string "since our last battle?\p"
-	.string "I've been training with my\n"
-	.string "Ghost-type Pokémon.\p"
-	.string "Let's see if you can overcome\n"
-	.string "the shadows once again.\p"
-	.string "Want to have a rematch with me?$"
+	.string "啊，城都冠军！\n感谢你前来。\p你已经展示了实力和\n技巧，比起上次对战\l你有进步了吗？\p我一直在和幽灵属性\n宝可梦一起修行。\p让我看看你能否再次\n战胜那些影子。\p要再和我对战一次吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Morty_RematchDefeat:
-	.string "I'm not good enough yet…\p"
-	.string "You have witnessed much more\n"
-	.string "than I.\p"
-	.string "I envy you for that…$"
+	.string "我还不够强……\p你见识过的\n比我多得多。\p我好羡慕你……$"
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Chuck_Rematch:
-	.string "Wahahah! Johto Champion!\p"
-	.string "You've come back for more!\p"
-	.string "I see your skills have improved!\p"
-	.string "Ready to see who's stronger?$"
+	.string "哇哈哈！城都冠军！\p你又回来求战了！\p看得出你的本事长进了！\p准备好分个高下了吗？$"
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Chuck_RematchDefeat:
-	.string "Wha? Huh? I lost? Again?$"
+	.string "啥？啊？我输了？又输了？$"
 
 SaffronCity_FightingDojoVIP_Text_Jasmine_Rematch:
-	.string "…Congratulations, Johto\n"
-	.string "Champion.\p"
-	.string "You have become so strong…\p"
-	.string "I wonder if I have improved.\p"
-	.string "Would you like to test that?\p"
-	.string "Want to have a rematch with me?$"
+	.string "……恭喜你，城都\n冠军。\p你变得这么强了……\p不知道我有没有进步。\p你愿意来验证一下吗？\p要再和我对战一次吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Jasmine_RematchDefeat:
-	.string "…You are a better trainer than\n"
-	.string "me,\p"
-	.string "in both skill and kindness.$"
+	.string "……你是一位比我\n更好的训练家，\p无论技巧还是温柔。$"
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Pryce_Rematch:
-	.string "Ah, Johto Champion!\p"
-	.string "Your skills are indeed\n"
-	.string "remarkable.\p"
-	.string "I am impressed.\p"
-	.string "But even now, there is much to\n"
-	.string "learn from each other.\p"
-	.string "I, Pryce--the winter trainer--\p"
-	.string "still have a few tricks left.\p"
-	.string "Want to have a rematch with me?$"
+	.string "啊，城都冠军！\p你的本事确实\n不同凡响。\p老夫很佩服。\p不过就算到现在，我们\n仍能互相学到很多。\p老夫柳伯——\n冬之训练家——\p还有几手绝活。\p要再和我对战一次吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Pryce_RematchDefeat:
-	.string "Ah, yet again I'm impressed by\n"
-	.string "your prowess.\p"
-	.string "With your strong will, I know\n"
-	.string "you will overcome all life's\l"
-	.string "obstacles.$"
+	.string "啊，你的身手又一次\n让老夫佩服。\p有这份坚强的意志，\n我知道你一定能跨过\l人生的一切障碍。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Clair_Rematch:
-	.string "You did it, huh?\p"
-	.string "You are now the Johto Champ.\p"
-	.string "You've proven your strength but\n"
-	.string "can you handle me again?\p"
-	.string "As a Dragon Master, I won't hold\n"
-	.string "back.\p"
-	.string "Not this time.\p"
-	.string "Want to have a rematch with me?$"
+	.string "你做到了啊。\p你现在是城都冠军了。\p你证明了自己的实力，\n可还能应付我吗？\p身为驯龙师，我不会\n手下留情。\p这次不会了。\p要再和我对战一次吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Clair_RematchDefeat:
-	.string "I lost?\p"
-	.string "Again?\p"
-	.string "I don't believe it. There must\n"
-	.string "be some mistake…$"
+	.string "我输了？\p又输了？\p难以置信。一定是哪里\n搞错了……$"
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Brock_Rematch:
-	.string "Brock: Hey there, {PLAYER}!\p"
-	.string "I heard you are now the Kanto\n"
-	.string "Champion.\p"
-	.string "That's incredible!\p"
-	.string "You must be even stronger now.\p"
-	.string "Want to have a rematch with me?$"
+	.string "小刚：嘿，{PLAYER}！\p听说你现在是关都冠军了。\p真是太厉害了！\p你一定变得更强了。\p要不要再和我打一场？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Brock_RematchDefeat:
-	.string "Brock: Your Pokémon once again\n"
-	.string "overcame my rock-hard defense…$"
+	.string "小刚：你的宝可梦又一次\n攻破了我坚如磐石的防守……$"
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Misty_Rematch:
-	.string "Misty: Wow, you're the Kanto\n"
-	.string "Champion now!\p"
-	.string "That's amazing! You've come a\n"
-	.string "long way, {PLAYER}.\p"
-	.string "But I'm not backing down.\p"
-	.string "Want to have a rematch with me?$"
+	.string "小霞：哇，你现在是\n关都冠军了！\p太厉害了！你一路成长了\n好多啊，{PLAYER}。\p但我可不会退缩。\p要不要再和我打一场？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Misty_RematchDefeat:
-	.string "Misty: You really are good…$"
+	.string "小霞：你还真有两下子……$"
 
 SaffronCity_FightingDojoVIP_Text_Surge_Rematch:
-	.string "Surge: So, you're now Kanto\n"
-	.string "Champion!\p"
-	.string "Impressive work, kid! But don't\n"
-	.string "think I'm done!\p"
-	.string "How about we have a go again?$"
+	.string "马志士：这么说，你现在是\n关都冠军了！\p干得漂亮，小家伙！但别以为\n我就到此为止了！\p再来一决胜负怎么样？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Surge_RematchDefeat:
-	.string "Surge: Arrrgh! You're still just\n"
-	.string "as strong!$"
+	.string "马志士：可恶！你还是\n这么强！$"
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Erika_Rematch:
-	.string "Erika: Oh, hello.\p"
-	.string "What a surprise, Champion!\p"
-	.string "It's so lovely to see you again.\p"
-	.string "Your journey must have been so\n"
-	.string "exciting.\p"
-	.string "Even champions enjoy a challenge.\p"
-	.string "Want to have a rematch with me?$"
+	.string "莉佳：哎呀，你好。\p真没想到，冠军！\p能再见到你真是太好了。\p你的旅程一定非常\n精彩吧。\p就算是冠军也乐于挑战。\p要不要再和我打一场？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Erika_RematchDefeat:
-	.string "Erika: Losing still leaves a\n"
-	.string "bitter aftertaste…\p"
-	.string "But knowing that there are strong\n"
-	.string "trainers spurs me to do better…$"
+	.string "莉佳：输了还是让人\n有点不甘心……\p但知道有强大的训练家\n存在，反倒让我更想努力……$"
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Sabrina_Rematch:
-	.string "Sabrina: Ah, the Champion.\p"
-	.string "I sensed your return.\p"
-	.string "Your power has grown immensely.\p"
-	.string "Even now, I feel your aura.\p"
-	.string "Want to have a rematch with me?$"
+	.string "娜姿：啊，冠军。\p我感应到你的归来了。\p你的力量已经大幅成长。\p直到现在，我仍能感到你的气场。\p要不要再和我打一场？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Sabrina_RematchDefeat:
-	.string "Sabrina: Your love for your\n"
-	.string "Pokémon again overwhelmed my\l"
-	.string "psychic power…$"
+	.string "娜姿：你对宝可梦的爱\n又一次压过了我的\l超能力……$"
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Janine_Rematch:
-	.string "Fufufufu…\p"
-	.string "Wow, you did it!\p"
-	.string "You're the Champion now!\p"
-	.string "I'm so proud of you! But don't\n"
-	.string "think I'll go easy on you.\p"
-	.string "Want to have a rematch with me?$"
+	.string "嘻嘻嘻……\p哇，你做到了！\p你现在是冠军了！\p我真为你骄傲！但别以为\n我会手下留情。\p要不要再和我打一场？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Janine_RematchDefeat:
-	.string "Janine: You're still just as\n"
-	.string "tough!\p"
-	.string "You definitely won…$"
+	.string "阿杏：你还是那么\n厉害！\p这次确实是你赢了……$"
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Blaine_Rematch:
-	.string "Blaine: Whoa!\p"
-	.string "I see you've become the Kanto\n"
-	.string "Champion!\p"
-	.string "That's blazing!\p"
-	.string "Your skills are top-notch.\p"
-	.string "I'm always up for a battle.\p"
-	.string "Want to have a rematch with me?$"
+	.string "夏伯：哇哦！\p我看你已经成了关都冠军！\p真是火热啊！\p你的本事是一流的。\p我随时都乐意来一场。\p要不要再和我打一场？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Blaine_RematchDefeat:
-	.string "Blaine: Your skills are truly\n"
-	.string "fiery!\p"
-	.string "You've burned right through my\n"
-	.string "defenses.$"
+	.string "夏伯：你的本事真是\n炽热如火！\p我的防线都被你\n烧穿了。$"
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Blue_Rematch:
-	.string "Blue: Well, well. Champion!\p"
-	.string "Looks like you've come a long way.\p"
-	.string "I used to have that title too,\n"
-	.string "you know. But I won't go easy.\p"
-	.string "Let's see if you can keep it up.\p"
-	.string "Want to have a rematch with me?$"
+	.string "青绿：呵，呵。冠军！\p看来你一路成长了不少。\p我以前也拿过那个头衔。\n不过我可不会放水。\p让我看看你能守住多久。\p要不要再和我打一场？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 SaffronCity_FightingDojoVIP_Text_Blue_RematchDefeat:
-	.string "Blue: What?\p"
-	.string "How the heck did I lose again?$"
+	.string "青绿：什么？\p我怎么又输了？$"
+	.string ""
 

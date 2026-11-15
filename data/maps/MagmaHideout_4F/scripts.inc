@@ -126,99 +126,99 @@ MagmaHideout_4F_EventScript_Tabitha::
 	end
 
 MagmaHideout_4F_Text_Grunt11Intro:
-	.string "I want to see Groudon, too, but they\n"
-	.string "won't let me see even its tail…\p"
-	.string "It's got me feeling really frustrated.\p"
-	.string "Oh, no!\n"
-	.string "I blabbed about Groudon!$"
+	.string "我也想见固拉多，\n但他们连尾巴都不让我看……\p真让我难受。\p哦，不好！\n我怎么说出固拉多的事了！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MagmaHideout_4F_Text_Grunt11Defeat:
-	.string "I guess it's impossible to win if one\n"
-	.string "doesn't have a calm mind…$"
+	.string "我想头脑不够冷静的话\n是不可能赢的……$"
+	.string ""
 
 MagmaHideout_4F_Text_Grunt11PostBattle:
-	.string "I wonder if Groudon even has a tail?$"
+	.string "不知道固拉多有没有尾巴？$"
 
 MagmaHideout_4F_Text_Grunt12Intro:
-	.string "Fuhahaha!\n"
-	.string "Soon! Very soon!\l"
-	.string "Our grand objective will be achieved!$"
+	.string "哇哈哈！\n快了！就快了！\l我们的伟大目标就要实现了！$"
+	.string ""
+	.string ""
 
 MagmaHideout_4F_Text_Grunt12Defeat:
-	.string "Grrr…\n"
-	.string "I've come so far, but now this?$"
+	.string "啊……\n我努力了半天得到的就是这种结局？$"
+	.string ""
 
 MagmaHideout_4F_Text_Grunt12PostBattle:
-	.string "Maxie, sir!\n"
-	.string "An intruder is headed your way!$"
+	.string "赤焰松老大！\n有一名入侵者去你那儿了！$"
+	.string ""
 
 MagmaHideout_4F_Text_Grunt13Intro:
-	.string "You're not finished yet!\n"
-	.string "You're not getting by me easily!$"
+	.string "还没完呢！\n你别以为能轻易地干掉我！$"
+	.string ""
 
 MagmaHideout_4F_Text_Grunt13Defeat:
-	.string "Was I that easy to knock down?$"
+	.string "我那么容易就被干掉了？$"
 
 MagmaHideout_4F_Text_Grunt13PostBattle:
-	.string "C-come on, one more match…$"
+	.string "来——来吧，再战一回……$"
 
 MagmaHideout_4F_Text_TabithaIntro:
-	.string "Hehehe!\n"
-	.string "You made it this far, so I'll tell you!\p"
-	.string "That's right!\n"
-	.string "Up ahead, Groudon is sleeping!\p"
-	.string "Maxie went to Groudon just seconds\n"
-	.string "ago!\p"
-	.string "It's going to awaken real soon!\n"
-	.string "Hehe! Hehehe!$"
+	.string "嘿嘿嘿！看在你这么努力的份上，\n我就告诉你好了！\p没错！\n固拉多就在前方沉睡着！\p赤焰松刚刚已经\n过去找固拉多了！\p它很快就要被唤醒了！\n嘿嘿！嘿嘿嘿！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MagmaHideout_4F_Text_TabithaDefeat:
-	.string "Taken down again…\n"
-	.string "Hehe…$"
+	.string "又输给你了……\n嘿嘿嘿……$"
+	.string ""
 
 MagmaHideout_4F_Text_TabithaPostBattle:
-	.string "…And while you wasted time with me,\n"
-	.string "Maxie should have awakened Groudon…$"
+	.string "……在你和我浪费时间的时候，\n赤焰松应该已经唤醒了固拉多……$"
+	.string ""
 
 MagmaHideout_4F_Text_MaxieAwakenGroudon:
-	.string "Maxie: Groudon…\p"
-	.string "Nothing could awaken you from your\n"
-	.string "sleep bathed in magma…\p"
-	.string "This Blue Orb is what you sought.\n"
-	.string "Wasn't it?\p"
-	.string "I have brought you the Blue Orb.\n"
-	.string "Let its shine awaken you!\p"
-	.string "And show me…\n"
-	.string "Show me the full extent of your power!$"
+	.string "赤焰松：固拉多……\p无论怎样也不会\n从岩浆中苏醒的你……\p一直在寻求的，\n是这个靛蓝色宝珠吧？\p我已带来了靛蓝色宝珠。\n就让它的光芒唤醒你吧！\p向我展示……\n展示的你全部的力量吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MagmaHideout_4F_Text_MaxieGroudonWhatsWrong:
-	.string "Maxie: Groudon!\n"
-	.string "What's wrong?\p"
-	.string "Wasn't the Blue Orb the key?\p"
-	.string "Groudon!\n"
-	.string "Where have you gone…$"
+	.string "赤焰松：固拉多！\n怎么回事？\p难道靛蓝色宝珠不行吗？\p固拉多！\n你去哪了……$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MagmaHideout_4F_Text_MaxieOhItWasYou:
-	.string "Maxie: Oh, so it was you?\p"
-	.string "I've seen you poking around uninvited\n"
-	.string "here and there…\p"
-	.string "I get it now!\n"
-	.string "You must have pulled a cheap stunt!$"
+	.string "赤焰松：哦，原来是你？\p我早就注意到你一直\n到处鬼鬼祟祟的……\p明白了！\n一定是你动了手脚！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 MagmaHideout_4F_Text_MaxieDefeat:
-	.string "What makes you so adept at handling\n"
-	.string "Pokémon?$"
+	.string "你为什么能如此娴熟地\n指挥宝可梦？$"
+	.string ""
 
 MagmaHideout_4F_Text_MaxieImGoingAfterGroudon:
-	.string "Maxie: There has to be some reason\n"
-	.string "why Groudon fled…\p"
-	.string "That's what you're trying to say,\n"
-	.string "aren't you?\p"
-	.string "… … … … … …\n"
-	.string "… … … … … …\p"
-	.string "Humph…\n"
-	.string "You think I didn't know that?\p"
-	.string "With Groudon gone, there is no longer\n"
-	.string "any need for this blasted volcano.\p"
-	.string "I am going after Groudon, so this\n"
-	.string "is where we part!$"
+	.string "赤焰松：固拉多逃跑\n另有原因……\p你想说这个，\n对不对？\p…… …… ……\n…… …… ……\p哼……\n你以为我不知道吗？\p既然固拉多走了，\n这座破火山也没意义了。\p我要去追固拉多，\n告辞了！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""

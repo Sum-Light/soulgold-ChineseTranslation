@@ -1,52 +1,52 @@
 gText_WouldYouLikeToRestYourPkmn::
-	.string "Hello, and welcome to\n"
-	.string "the Pokémon Center.\p"
-	.string "We restore your tired Pokémon\n"
-	.string "to full health.\p"
-	.string "Would you like to rest your Pokémon?$"
+	.string "辛苦了！\n这里是宝可梦中心。\p在这里可以\n回复宝可梦的体力。\p要让您的宝可梦休息一下吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 gText_IllTakeYourPkmn::
-	.string "Okay, I'll take your Pokémon\n"
-	.string "for a few seconds.$"
+	.string "那么，就交给我吧！$"
+	.string ""
 
 gText_RestoredPkmnToFullHealth::
-	.string "Thank you for waiting.\p"
-	.string "We've restored your Pokémon\n"
-	.string "to full health.$"
+	.string "久等了！\p交给我的宝可梦们\n全都变得精力充沛了哦！$"
+	.string ""
+	.string ""
 
 gText_WeHopeToSeeYouAgain::
-	.string "We hope to see you again!$"
+	.string "欢迎下次再来！$"
 
 gText_WelcomeCutShort::
-	.string "Hello, and welcome to\n"
-	.string "the Pokémon CENTER.\p"
-	.string "We restore your tired Pokémon\n"
-	.string "to full health.\p"
-	.string "Would you like to…$"
+	.string "辛苦了！\n这里是宝可梦中心。\p在这里，\n可以回复宝可梦的体力。\p要让您的宝可梦……$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 gText_NoticesGoldCard::
-	.string "Th-that card…\n"
-	.string "Could it be… The Gold Card?!\p"
-	.string "Oh, the gold color is brilliant!\n"
-	.string "The four stars seem to sparkle!\p"
-	.string "I've seen several Trainers with\n"
-	.string "a Silver Card before, but, {PLAYER},\l"
-	.string "you're the first Trainer I've ever\l"
-	.string "seen with a Gold Card!\p"
-	.string "Okay, {PLAYER}, please allow me\n"
-	.string "the honor of resting your Pokémon!$"
+	.string "那、那张卡……\n难道是……黄金卡？！\p啊，金色是多么耀眼！\n4颗星星仿佛在闪闪发光！\p持有白银卡的训练家\n我以前见过几位，但{PLAYER}，\l持有黄金卡的训练家，\l我还是第一次见到！\p那么，{PLAYER}，\n请允许我让您的宝可梦休息一下吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 gText_YouWantTheUsual::
-	.string "I'm delighted to see you, {PLAYER}!\n"
-	.string "You want the usual, am I right?$"
+	.string "很高兴见到您，{PLAYER}！\n还是和往常一样，对吗？$"
+	.string ""
 
 gText_IllTakeYourPkmn2::
-	.string "Okay, I'll take your Pokémon\n"
-	.string "for a few seconds.$"
+	.string "那就交给我吧！$"
+	.string ""
 
 gText_ThankYouForWaiting::
-	.string "Thank you for waiting.$"
+	.string "让您久等了！$"
 
 gText_WeHopeToSeeYouAgain2::
-	.string "We hope to see you again!$"
+	.string "欢迎您随时再来！$"
 

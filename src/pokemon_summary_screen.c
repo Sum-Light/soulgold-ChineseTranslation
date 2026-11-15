@@ -872,11 +872,11 @@ static const TaskFunc sTextPrinterTasks[] =
     [PSS_PAGE_CONTEST_MOVES] = Task_PrintContestMoves
 };
 
-static const u8 sText_Relearn[] = _("{START_BUTTON} RELEARN"); // future note: don't decap this, because it mimics the summary screen BG graphics which will not get decapped
-static const u8 sText_Relearn_LevelUp[] = _("{START_BUTTON} RELEARN LEVEL");
-static const u8 sText_Relearn_Egg[] = _("{START_BUTTON} RELEARN EGG");
-static const u8 sText_Relearn_TM[] = _("{START_BUTTON} RELEARN TM");
-static const u8 sText_Relearn_Tutor[] = _("{START_BUTTON} RELEARN TUTOR");
+static const u8 sText_Relearn[] = _("{START_BUTTON}回忆"); // future note: don't decap this, because it mimics the summary screen BG graphics which will not get decapped
+static const u8 sText_Relearn_LevelUp[] = _("{START_BUTTON}回忆 升级");
+static const u8 sText_Relearn_Egg[] = _("{START_BUTTON}回忆 蛋");
+static const u8 sText_Relearn_TM[] = _("{START_BUTTON}回忆 学习器");
+static const u8 sText_Relearn_Tutor[] = _("{START_BUTTON}回忆 教授");
 
 static const u8 sMemoNatureTextColor[] = _("{COLOR LIGHT_RED}{SHADOW GREEN}");
 static const u8 sMemoMiscTextColor[] = _("{COLOR WHITE}{SHADOW DARK_GRAY}"); // This is also affected by palettes, apparently
@@ -1818,34 +1818,38 @@ static void ChangeStatLabel(s16 mode)
 {
     enum
     {
-        STAT_LABEL_X = 12,
-        STAT_LABEL_Y = 6,
-        STAT_LABEL_WIDTH = 4,
-        STAT_LABEL_PALETTE = 2 << 12,
+        STAT_LABEL_X = 11,
+        STAT_LABEL_Y = 5,
+        STAT_LABEL_WIDTH = 6,
+        STAT_LABEL_HEIGHT = 3,
     };
-#if P_SUMMARY_SCREEN_IV_EV_TILESET
-    static const u16 sStatLabelTiles[][STAT_LABEL_WIDTH] =
+    static const u16 sStatLabelTiles[][STAT_LABEL_HEIGHT][STAT_LABEL_WIDTH] =
     {
-        [SUMMARY_SKILLS_MODE_STATS] = {0xA9, 0xAA, 0xAB, 0xAC},
-        [SUMMARY_SKILLS_MODE_IVS]   = {0xDD, 0xDE, 0xDF, 0xAD},
-        [SUMMARY_SKILLS_MODE_EVS]   = {0xDA, 0xDB, 0xDC, 0xAD},
+        [SUMMARY_SKILLS_MODE_STATS] = {
+            {0x7147, 0x7148, 0x7149, 0x70AE, 0x70AE, 0x70AE},
+            {0x214A, 0x214B, 0x214C, 0x20CF, 0x20CF, 0x2031},
+            {0x714D, 0x714E, 0x714F, 0x70E9, 0x70E9, 0x74BE},
+        },
+        [SUMMARY_SKILLS_MODE_IVS] = {
+            {0x7179, 0x7179, 0x717A, 0x717B, 0x70AE, 0x70AE},
+            {0x217C, 0x217D, 0x217E, 0x217F, 0x20CF, 0x2031},
+            {0x7180, 0x7181, 0x7182, 0x7183, 0x70E9, 0x74BE},
+        },
+        [SUMMARY_SKILLS_MODE_EVS] = {
+            {0x7184, 0x7185, 0x7149, 0x717B, 0x70AE, 0x70AE},
+            {0x2186, 0x2187, 0x2188, 0x217F, 0x20CF, 0x2031},
+            {0x7189, 0x718A, 0x714F, 0x7183, 0x70E9, 0x74BE},
+        },
     };
-#else
-    static const u16 sStatLabelTiles[][STAT_LABEL_WIDTH] =
-    {
-        [SUMMARY_SKILLS_MODE_STATS] = {0xA9, 0xAA, 0xAB, 0xAC},
-        [SUMMARY_SKILLS_MODE_IVS]   = {0xCF, 0xC7, 0xCF, 0xCF},
-        [SUMMARY_SKILLS_MODE_EVS]   = {0xCF, 0xC6, 0xCF, 0xCF},
-    };
-#endif
     u16 *tilemap = sMonSummaryScreen->bgTilemapBuffers[PSS_PAGE_SKILLS][1];
-    u32 i;
+    u32 x, y;
 
     if (mode < SUMMARY_SKILLS_MODE_STATS || mode > SUMMARY_SKILLS_MODE_EVS)
         return;
 
-    for (i = 0; i < STAT_LABEL_WIDTH; i++)
-        tilemap[STAT_LABEL_Y * 32 + STAT_LABEL_X + i] = STAT_LABEL_PALETTE | sStatLabelTiles[mode][i];
+    for (y = 0; y < STAT_LABEL_HEIGHT; y++)
+        for (x = 0; x < STAT_LABEL_WIDTH; x++)
+            tilemap[(STAT_LABEL_Y + y) * 32 + STAT_LABEL_X + x] = sStatLabelTiles[mode][y][x];
 
     if (GetBgTilemapBuffer(1) == sMonSummaryScreen->bgTilemapBuffers[PSS_PAGE_SKILLS][0])
         ScheduleBgCopyTilemapToVram(1);
@@ -3617,7 +3621,7 @@ static void PrintPageNamesAndStats(void)
     #endif
     PrintTextOnWindow(PSS_LABEL_WINDOW_POKEMON_SKILLS_TITLE, gText_PkmnSkills, 2, 1, 0, 1);
     PrintTextOnWindow(PSS_LABEL_WINDOW_BATTLE_MOVES_TITLE, gText_BattleMoves, 2, 1, 0, 1);
-    PrintTextOnWindow(PSS_LABEL_WINDOW_CONTEST_MOVES_TITLE, COMPOUND_STRING("Ability Info"), 2, 1, 0, 1);
+    PrintTextOnWindow(PSS_LABEL_WINDOW_CONTEST_MOVES_TITLE, COMPOUND_STRING("特性信息"), 2, 1, 0, 1);
 
     ShowUtilityPrompt(SUMMARY_MODE_NORMAL);
 
@@ -4076,8 +4080,8 @@ static void PrintEggMemo(void)
     PrintTextOnWindow(AddWindowFromTemplateList(sPageInfoTemplate, PSS_DATA_WINDOW_INFO_MEMO), text, 0, 1, 0, 0);
 }
 #if MAX_MON_TRAITS > 1
-    static const u8 sText_InnateUnlockLevel[] = _("Lvl. ");
-    static const u8 sText_TraitLockedBody[] = _("This innate unlocks at\nlevel ");
+    static const u8 sText_InnateUnlockLevel[] = _("Lv.");
+    static const u8 sText_TraitLockedBody[] = _("此天赋特性的解锁等级：\nLv.");
 
     static void PrintTraits(void)
     {
@@ -5396,11 +5400,11 @@ static inline bool32 ShouldShowIvEvPrompt(void)
 static inline void ShowUtilityPrompt(s16 mode)
 {
     const u8* promptText = NULL;
-    const u8* gText_SkillPageIvs = COMPOUND_STRING("Show IVs");
-    const u8* gText_SkillPageEvs = COMPOUND_STRING("Show EVs");
-    const u8* gText_SkillPageStats = COMPOUND_STRING("Show Stats");
-    const u8* gText_Rename = COMPOUND_STRING("Rename");
-    const u8* gText_Close = COMPOUND_STRING("Close");
+    const u8* gText_SkillPageIvs = COMPOUND_STRING("显示个体");
+    const u8* gText_SkillPageEvs = COMPOUND_STRING("显示努力");
+    const u8* gText_SkillPageStats = COMPOUND_STRING("显示能力");
+    const u8* gText_Rename = COMPOUND_STRING("更改昵称");
+    const u8* gText_Close = COMPOUND_STRING("关闭");
 
     if (sMonSummaryScreen->currPageIndex == PSS_PAGE_INFO)
     {

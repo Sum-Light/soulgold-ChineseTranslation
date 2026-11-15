@@ -33,11 +33,7 @@ RuinsSecretRoom_8:
 
 
 RuinsSecretRoom_Text_0:
-	.string "Hoopa seems to want to show you\n"
-	.string "something.\p"
-	.string "Allow it to interact with the wall?$"
+	.string "胡帕似乎想让你看\n什么东西。\p要让它与墙壁互动吗？$"
 
 RuinsSecretRoom_Text_1:
-	.string "The wall depicts a small creature\n"
-	.string "opening a portal to some distant\l"
-	.string "place.$"
+	.string "墙上画着一只小生物，\n正在打开通往遥远\l某处的传送门。$"

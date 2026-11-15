@@ -14,15 +14,18 @@ RailwayCave_2F_MapScripts_MAP_SCRIPT_ON_LOAD_1:
 
 
 RailwayCave_BrailleRegisteel:
-	.braille "THE ONE WHO\n"
-	.braille "CLANGS THE\n"
-	.braille "SCALES.$"
+	.string "杖影随尾舞，\n"
+	.string "尾振百鳞鸣。\l"
+	.string "鳞声如金铁，\l"
+	.string "甲坚护其身。\l"
+	.string "龙吟震四方。$"
 
 RailwayCave_SusDoor::
 	lock
 	msgbox RailwayCave_SusDoor_Text_0
 	closemessage
-	braillemsgbox RailwayCave_BrailleRegisteel
+	msgbox RailwayCave_BrailleRegisteel, MSGBOX_DEFAULT
+	closemessage
 	checkspecies SPECIES_KOMMO_O
 	compare VAR_RESULT, TRUE
 	goto_if_eq RailwayCave_SusDoor_2
@@ -64,53 +67,40 @@ RailwayCave_TrainerSanada::
 
 
 RailwayCave_SusDoor_Text_0:
-	.string "Something is carved on the door...$"
+	.string "门上刻着什么……$"
 
 RailwayCave_TrainerBob_Text_0:
-	.string "Did you know? Digletts and Dugtrios\n"
-	.string "helped us dig these tunnels.$"
+	.string "你知道吗？地鼠和三地鼠\n帮我们挖了这些隧道。$"
 
 RailwayCave_TrainerBob_Text_1:
-	.string "Did you know? It still took many years\n"
-	.string "to complete!$"
+	.string "你知道吗？可即便如此，\n也花了好多年才完成！$"
 
 RailwayCave_TrainerBob_Text_2:
-	.string "Did you know? This crag is much harder\n"
-	.string "than the average mountain rock. \l"
-	.string "It has a lot of metal mixed into it, \l"
-	.string "making digging take more time.$"
+	.string "你知道吗？这里的岩壁\n比普通的山岩硬多了。\l里面混了很多金属，\l挖起来特别费时间。$"
 
 RailwayCave_TrainerMason_Text_0:
-	.string "Ow! Something latched onto my foot!$"
+	.string "哇！有东西咬住我的脚了！$"
 
 RailwayCave_TrainerMason_Text_1:
-	.string "Oh, it was only my Stunfisk!$"
+	.string "哦，原来是我的泥巴鱼！$"
 
 RailwayCave_TrainerMason_Text_2:
-	.string "Stunfisk like to burrow into the ground\n"
-	.string "here. They seem to enjoy the\l"
-	.string "atmosphere.$"
+	.string "泥巴鱼喜欢钻到这里的\n地下。它们似乎很中意\l这儿的气氛。$"
 
 RailwayCave_TrainerYoda_Text_0:
-	.string "Hya! The electricity running though the\n"
-	.string "air is great for my muscles!$"
+	.string "哈！空气里流动的电流，\n对我的肌肉很有好处！$"
 
 RailwayCave_TrainerYoda_Text_1:
-	.string "We must keep training!$"
+	.string "我们还得继续锻炼！$"
 
 RailwayCave_TrainerYoda_Text_2:
-	.string "The jolts of electricity that run here\n"
-	.string "are great for relaxing the muscles\l"
-	.string "after a long workout!$"
+	.string "这里流动的电流，对长时间\n锻炼后的肌肉放松\l很有好处！$"
 
 RailwayCave_TrainerSanada_Text_0:
-	.string "This is the maintenance tunnel for\n"
-	.string "the train tracks, how did you get in?$"
+	.string "这里是铁轨的维护隧道，\n你到底是怎么进来的？$"
 
 RailwayCave_TrainerSanada_Text_1:
-	.string "I'm reporting this to my superiors!$"
+	.string "我要把这事报告给上级！$"
 
 RailwayCave_TrainerSanada_Text_2:
-	.string "Just because you can run into\n"
-	.string "any place you want with your Pokémon\l"
-	.string "doesn't mean you should!$"
+	.string "就算你能带着宝可梦\n闯进任何地方，\l也不代表你就可以这么做！$"

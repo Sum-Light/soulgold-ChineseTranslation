@@ -27,19 +27,19 @@ RuinsOfAlph_Lab_EventScript_Fossils::
 	end
 
 RuinsOfAlph_Lab_Text_Scientist1:
-	.string "The Ruins are about 1500 years old.\p"
-	.string "But it's not known why they were\n"
-	.string "built--or by whom.$"
+	.string "这座遗迹大约有1500年历史。\p但没人知道它为何而建——\n又是谁建的。$"
+	.string ""
+	.string ""
 
 RuinsOfAlph_Lab_Text_Scientist2:
-	.string "There are odd patterns drawn on\n"
-	.string "on the walls of the Ruins.\p"
-	.string "They must be the keys for\n"
-	.string "unraveling the Ruins' mystery.$"
+	.string "遗迹的墙壁上画着\n奇怪的图案。\p它们一定是解开遗迹\n谜题的钥匙。$"
+	.string ""
+	.string ""
+	.string ""
 
 RuinsOfAlph_Lab_Text_Fossils:
-	.string "Fossils found within the Ruins.\n"
-	.string "Maybe there are more somewhere...$"
+	.string "遗迹中发现的化石。\n也许别处还有更多……$"
+	.string ""
 
 
 RuinsOfAlph_Lab_EventScript_FossilScientist::
@@ -509,125 +509,125 @@ RuinsOfAlph_Lab_EventScript_WorkOnNext::
 	end
 
 RuinsOfAlph_Lab_Text_DeviceForTalkingToPokemon:
-	.string "We're developing a device for talking\n"
-	.string "with Pokémon.\p"
-	.string "But we haven't had much success…$"
+	.string "我们正在开发能和宝可梦\n对话的装置。\p但进展不太顺利……$"
+	.string ""
+	.string ""
 
 RuinsOfAlph_Lab_Text_DevelopingNewBalls:
-	.string "I'm developing new kinds of\n"
-	.string "Poké Balls…\p"
-	.string "But I haven't made much headway…$"
+	.string "我正在开发新型的\n精灵球……\p但一直没什么进展……$"
+	.string ""
+	.string ""
 
 RuinsOfAlph_Lab_Text_WeFinallyMadeNewBalls:
-	.string "We finally made new kinds of\n"
-	.string "Poké Balls!\p"
-	.string "The Repeat Ball makes it easier to\n"
-	.string "catch Pokémon you've caught before.\p"
-	.string "The Timer Ball gets better at catching\n"
-	.string "Pokémon the longer a battle runs.\p"
-	.string "Both are proudly developed by\n"
-	.string "the Devon Corporation.\p"
-	.string "Please give them a try!$"
+	.string "我们终于做出了新型的\n精灵球！\p重复球更容易捕捉\n以前抓到过的宝可梦。\p计时球在战斗拖得越久时\n越容易捕捉宝可梦。\p这两种都是得文公司\n引以为傲的力作。\p请务必试用一下！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 RuinsOfAlph_Lab_Text_IMadePokenav:
-	.string "I made the Pokégear!\p"
-	.string "As an engineer, I feel blessed to have\n"
-	.string "made something so great!$"
+	.string "宝可梦装置是我做的！\p身为工程师，能做出\n这么了不起的东西，我很幸福！$"
+	.string ""
+	.string ""
 
 RuinsOfAlph_Lab_Text_WowThatsAPokenav:
-	.string "Oh, wow!\n"
-	.string "That's a Pokégear!\p"
-	.string "It came about as a result of our\n"
-	.string "President's desire to learn about\l"
-	.string "the feelings of Pokémon.\p"
-	.string "Would you like me to describe its\n"
-	.string "features in detail?\p"
-	.string "No, no. I think you'll find out just by\n"
-	.string "trying the Pokégear out.$"
+	.string "哎呀！\n那是宝可梦装置！\p这是为满足我们社长\n想了解宝可梦心情的\l愿望而诞生的。\p要我详细说明它的\n功能吗？\p不不，你还是自己\n试用一下宝可梦装置吧。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 RuinsOfAlph_Lab_Text_DeviceToVisualizePokemonDreams:
-	.string "I'm trying to develop a device that\n"
-	.string "visually reproduces the dreams of\l"
-	.string "Pokémon…\p"
-	.string "But it's not going well.$"
+	.string "我正在开发一种装置，\n能把宝可梦的梦境\l再现成影像……\p但进展不顺利。$"
+	.string ""
+	.string ""
+	.string ""
 
 RuinsOfAlph_Lab_Text_DevelopDeviceToResurrectFossils:
-	.string "I've been trying to develop a device\n"
-	.string "that resurrects Pokémon from fossils…\p"
-	.string "And, it's working!$"
+	.string "我一直在开发能从化石中\n让宝可梦复活的装置……\p而且，成功了！$"
+	.string ""
+	.string ""
 
 RuinsOfAlph_Lab_Text_WantToBringFossilBackToLife:
-	.string "Would you like to bring that Pokémon\n"
-	.string "back to life?\p"
-	.string "I can with my newly developed\n"
-	.string "Fossil Regenerator.$"
+	.string "你想让那只宝可梦\n复活吗？\p用我新开发的\n化石再生装置就能做到。$"
+	.string ""
+	.string ""
+	.string ""
 
 RuinsOfAlph_Lab_Text_OhIsThatSo:
-	.string "Oh, is that so?\p"
-	.string "My technological expertise\n"
-	.string "is outstanding, I tell you.$"
+	.string "哦，是这样吗？\p跟你说，我的技术水平\n可是非常高超的。$"
+	.string ""
+	.string ""
 
 RuinsOfAlph_Lab_Text_OhIsThatSo2:
-	.string "Oh, you don't have this fossil.\n"
-	.string "Come back if you manage to find it.$"
+	.string "哦，你没有这块化石。\n找到了再来找我吧。$"
+	.string ""
 
 RuinsOfAlph_Lab_Text_TwoFossilsPickOne:
-	.string "Oh, now that's a surprise!\n"
-	.string "You have more than one fossil?\p"
-	.string "Unfortunately, my machine can only\n"
-	.string "regenerate one Pokémon at a time.\p"
-	.string "Which fossil would you like to\n"
-	.string "regenerate?$"
+	.string "哦，真让人吃惊！\n你有不止一块化石？\p可惜我的机器一次\n只能复原一只宝可梦。\p你想复原哪一块\n化石呢？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 RuinsOfAlph_Lab_Text_PickFossilFromBag:
-	.string "Please choose the fossil you'd like\n"
-	.string "to regenerate.$"
+	.string "请选择你想复原的\n化石。$"
+	.string ""
 
 RuinsOfAlph_Lab_Text_ThatsNotAFossil:
-	.string "That's not a fossil!$"
+	.string "那不是化石！$"
 
 RuinsOfAlph_Lab_Text_HandedFossilToResearcher:
-	.string "Excellent!\n"
-	.string "Let's do this right away.\p"
-	.string "{PLAYER} handed the {STR_VAR_1} to\n"
-	.string "the Ruins Researcher.$"
+	.string "太好了！\n我们马上开始吧。\p{PLAYER}把{STR_VAR_1}交给了\n遗迹研究所的研究员。$"
+	.string ""
+	.string ""
+	.string ""
 
 RuinsOfAlph_Lab_Text_FossilRegeneratorTakesTime:
-	.string "The Fossil Regenerator, which I made,\n"
-	.string "is incredible.\p"
-	.string "But it has one drawback--it takes\n"
-	.string "a long time to work.\p"
-	.string "So, uh… How about you go for a stroll\n"
-	.string "and look around for a while?$"
+	.string "我做的这台化石再生装置\n非常了不起。\p但它有个缺点——\n工作要花很长时间。\p所以……你能去散散步，\n四处转转打发会儿时间吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 RuinsOfAlph_Lab_Text_FossilizedMonBroughtBackToLife:
-	.string "Thanks for waiting!\p"
-	.string "Your fossilized Pokémon has been\n"
-	.string "brought back to life!\p"
-	.string "The fossil was an ancient Pokémon.\n"
-	.string "{STR_VAR_2}, it was!$"
+	.string "让你久等了！\p你的化石宝可梦\n已经复活了！\p那块化石就是古代宝可梦。\n原来它就是{STR_VAR_2}！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 RuinsOfAlph_Lab_Text_ReceivedMonFromResearcher:
-	.string "{PLAYER} received {STR_VAR_2} from\n"
-	.string "the Researcher.$"
+	.string "{PLAYER}从研究员那里\n得到了{STR_VAR_2}。$"
+	.string ""
 
 @ Unused
 RuinsOfAlph_Lab_Text_TooManyPokemon:
-	.string "Uh-oh, you've got too many Pokémon.\n"
-	.string "You have no room for this one.$"
+	.string "哎呀，你的宝可梦太多了。\n没有空位收下这只了。$"
+	.string ""
 
 RuinsOfAlph_Lab_Text_DevelopNewPokenavFeature:
-	.string "I'm trying to develop a new feature\n"
-	.string "for the Pokégear...\p"
-	.string "But it's not going well.$"
+	.string "我正在为宝可梦装置\n开发新功能……\p但进展不顺利。$"
+	.string ""
+	.string ""
 
 RuinsOfAlph_Lab_Text_WhatToWorkOnNext:
-	.string "Well, now what shall I work on\n"
-	.string "developing next?\p"
-	.string "Our company allows us to make our\n"
-	.string "inspirations into reality.\p"
-	.string "One couldn't ask for a better\n"
-	.string "environment as an engineer.$"
+	.string "那么，接下来开发\n什么好呢？\p我们公司允许我们\n把灵感变成现实。\p作为工程师，没有比这\n更好的环境了。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 
 `

@@ -15,8 +15,4 @@ BlockSouthJohtoAccess_Movement_0:
 	step_end
 
 BlockSouthJohtoAccess_Text_0:
-	.string "The tides ahead seem too strong to \n"
-	.string "proceed right now. Better turn back\l"
-	.string "for now.\p"
-	.string "System note: The area ahead is not \n"
-	.string "yet accessible in this version.$"
+	.string "前方的潮水似乎太急，现在\n过不去。最好先回去吧。\p系统提示：前方区域在此版本\n中尚未开放。$"

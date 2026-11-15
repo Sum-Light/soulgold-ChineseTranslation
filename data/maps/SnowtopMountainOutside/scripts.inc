@@ -31,8 +31,7 @@ SnowtopMountainOutside_Sign::
 
 
 SnowtopMountainOutside_Snover_Text_0:
-	.string "Snover: Snoo!$"
+	.string "雪笠怪：雪呜！$"
 
 SnowtopMountainOutside_Sign_Text_0:
-	.string "Snowtop Mountain\n"
-	.string "Chilling temperatures ahead!$"
+	.string "雪顶山\n前方气温严寒！$"

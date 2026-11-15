@@ -1357,430 +1357,430 @@ LilycoveCity_ContestLobby_EventScript_DelayForRSPlayer::
 	return
 
 LilycoveCity_ContestLobby_Text_ReceptionDontHavePokeblockCase:
-	.string "Hello!\p"
-	.string "This is the reception counter for\n"
-	.string "Pokémon Contests.\p"
-	.string "Oh? It appears that you don't have\n"
-	.string "a {POKEBLOCK} Case yet.\p"
-	.string "In that case, we need to provide you\n"
-	.string "with this!$"
+	.string "您好！\p这里是宝可梦华丽大赛的\n接待前台。\p哎呀？看起来您还没有\n宝可方块盒吧。\p这样的话，我们就提供\n一个给您吧！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LilycoveCity_ContestLobby_Text_NowThatWeveClearedThatUp:
-	.string "Okay, now that we've cleared that\n"
-	.string "up…\p"
-	.string "Hello!\p"
-	.string "This is the reception counter for\n"
-	.string "Pokémon Contests.$"
+	.string "好的，\n这样就没问题了……\p您好！\p这里是宝可梦华丽大赛的\n接待前台。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LilycoveCity_ContestLobby_Text_ContestReception:
-	.string "Hello!\p"
-	.string "This is the reception counter for\n"
-	.string "Pokémon Contests.$"
+	.string "您好！\p这里是宝可梦华丽大赛的\n接待前台。$"
+	.string ""
+	.string ""
 
 @ Unused
 LilycoveCity_ContestLobby_Text_CounterOnlyFor4PlayerContests:
-	.string "Hello!\p"
-	.string "This reception counter is only\n"
-	.string "for 4-player Pokémon Contests.$"
+	.string "您好！\p这里是为4名选手\n比赛准备的接待前台。$"
+	.string ""
+	.string ""
 
 LilycoveCity_ContestLobby_Text_EnterContest1:
-	.string "Would you like to enter your Pokémon\n"
-	.string "in our Contests?$"
+	.string "要让您的宝可梦\n参加华丽大赛吗？$"
+	.string ""
 
 LilycoveCity_ContestLobby_Text_WhichTopic1:
-	.string "Which topic would you like?$"
+	.string "您想听哪部分的说明呢？$"
 
 LilycoveCity_ContestLobby_Text_ExplainContests:
-	.string "A Pokémon Contest involves four\n"
-	.string "Trainers entering one Pokémon each\l"
-	.string "in competitive judging.\p"
-	.string "A Contest has two stages of judging,\n"
-	.string "primary and secondary.\p"
-	.string "Primary judging is a popularity poll\n"
-	.string "involving the audience.\p"
-	.string "Secondary judging features appeals\n"
-	.string "by the Pokémon using their moves.\p"
-	.string "Plan appeals carefully to earn the\n"
-	.string "most attention of the JUDGE and\l"
-	.string "excite the audience.\l"
-	.string "Do your best to stand out.\p"
-	.string "The primary and secondary scores are\n"
-	.string "added at the end.\p"
-	.string "The Pokémon garnering the highest\n"
-	.string "score is declared the winner.$"
+	.string "华丽大赛需要4位参赛选手各自派出\n1只宝可梦参加评审比赛。\p华丽大赛分为第1轮和\n第2轮评审2个阶段。\p第1轮评审是通过观众人气\n投票来评选的。\p第2轮评审是宝可梦通过\n招式展示进行表演。\p您应该精心设计您的\n宝可梦的表演招式\l以获得更高的评价。\p最后将第1轮和第2轮的成绩\n相加作为最终的总成绩。\p总成绩最高的宝可梦\n就是华丽大赛的冠军。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LilycoveCity_ContestLobby_Text_ExplainContestTypes:
-	.string "There are five kinds of Contests.\p"
-	.string "Cool, Beauty, Cute, Smart, and\n"
-	.string "Tough are the five categories.\p"
-	.string "Choose the Contest that is right for\n"
-	.string "the Pokémon you plan to enter.$"
+	.string "一共有5个类别的比赛。\p分别是帅气、美丽、可爱、\n聪明，以及强壮！\p请为您报名的宝可梦\n选择最适合它的类别！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LilycoveCity_ContestLobby_Text_ExplainContestRanks:
-	.string "There are four ranks of Pokémon\n"
-	.string "Contests.\p"
-	.string "Normal, Super, Hyper, and Master\n"
-	.string "are the four ranks.\p"
-	.string "In the Normal Rank, any Pokémon may\n"
-	.string "enter.\p"
-	.string "Any Pokémon that won a Normal Rank\n"
-	.string "Contest may move up to the Super Rank\l"
-	.string "in the same category.\p"
-	.string "In the same way, a Super Rank winner\n"
-	.string "can move up to the Hyper Rank, and\l"
-	.string "a Hyper Rank winner can advance to\l"
-	.string "the Master Rank in the same category.\p"
-	.string "A Pokémon that won in the Master Rank\n"
-	.string "may compete in the Master Rank as\l"
-	.string "often as its Trainer wants.$"
+	.string "在华丽大赛中共有4个\n不同的级别。\p分别是普通级、高手级、究极级\n和大师级。\p任何宝可梦都可以参加\n华丽大赛的普通级。\p获得普通级胜利的宝可梦\n就获得了参加同一类别的\l华丽大赛的高手级的资格。\p依此类推，获得高手级比赛胜利的\n就能参加究极级，究极级比赛胜利\l的就能参加大师级。\p而大师级比赛中获胜的宝可梦\n可以随意再次参加华丽大赛的大师级。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LilycoveCity_ContestLobby_Text_EnterWhichRank:
-	.string "Which Rank would you like to enter?$"
+	.string "您想要参加哪个级别呢？$"
 
 LilycoveCity_ContestLobby_Text_EnterWhichContest1:
-	.string "Which Contest would you like to enter?$"
+	.string "您想要参加哪种华丽大赛呢？$"
 
 LilycoveCity_ContestLobby_Text_EnterWhichPokemon1:
-	.string "Which Pokémon would you like to enter?$"
+	.string "您想让哪只宝可梦参加呢？$"
 
 LilycoveCity_ContestLobby_Text_MonNotQualifiedForRank:
-	.string "I'm terribly sorry, but your Pokémon\n"
-	.string "is not qualified to compete at this\l"
-	.string "Rank yet…$"
+	.string "非常抱歉，您的宝可梦\n尚未取得参加这个级别\l的华丽大赛的资格……$"
+	.string ""
+	.string ""
 
 LilycoveCity_ContestLobby_Text_EggCannotTakePart:
-	.string "I'm sorry, but an Egg cannot take part\n"
-	.string "in a Pokémon Contest.$"
+	.string "非常抱歉，宝可梦蛋是\n无法参加华丽大赛的。$"
+	.string ""
 
 LilycoveCity_ContestLobby_Text_MonInNoConditionForContest:
-	.string "Your Pokémon appears to be in no\n"
-	.string "condition to take part in a Contest…$"
+	.string "您的宝可梦当前状态不佳，\n无法参加华丽大赛……$"
+	.string ""
 
 LilycoveCity_ContestLobby_Text_AlreadyWonEnterAnyway:
-	.string "Oh, but that Ribbon…\p"
-	.string "Your Pokémon has won this Contest\n"
-	.string "before, hasn't it?\p"
-	.string "Would you like to enter it in this\n"
-	.string "Contest anyway?$"
+	.string "啊，这个奖章……\p您的宝可梦曾在这个级别\n的华丽大赛中获胜过吧？\p要继续参加这个级别\n的华丽大赛吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LilycoveCity_ContestLobby_Text_ConfirmContestMon:
-	.string "Is that your Contest Pokémon?$"
+	.string "要用这些宝可梦参加华丽大赛吗？$"
 
 LilycoveCity_ContestLobby_Text_YourMonIsEntryNum4:
-	.string "Okay, your Pokémon will be entered\n"
-	.string "in this Contest.\p"
-	.string "Your Pokémon is Entry No. 4.\n"
-	.string "The Contest will begin shortly.$"
+	.string "那么，我来为您的宝可梦\n办理报名手续！\p它的参赛编号是4号。\n华丽大赛即将开始。$"
+	.string ""
+	.string ""
+	.string ""
 
 LilycoveCity_ContestLobby_Text_ComeThroughHere:
-	.string "Please come in through here.\n"
-	.string "Good luck!$"
+	.string "那么，这边请！\n比赛要加油哦！$"
+	.string ""
 
 LilycoveCity_ContestLobby_Text_PokemonWonWeHavePrize:
-	.string "Congratulations! Your Pokémon is the\n"
-	.string "Contest winner!\p"
-	.string "We have your prize right here.\n"
-	.string "Please, right this way!$"
+	.string "恭喜！您的宝可梦\n获得了华丽大赛的胜利！\p我们为您准备了奖品。\n那么，这边请！$"
+	.string ""
+	.string ""
+	.string ""
 
 LilycoveCity_ContestLobby_Text_ComeBackForPrizeLater:
-	.string "Please come back for your prize\n"
-	.string "later on.$"
+	.string "请稍后再来领取\n您的奖品吧。$"
+	.string ""
 
 ContestHall_Text_GettingStartedParticipantsAsFollows:
-	.string "MC: Hello! We're just getting started\n"
-	.string "with a {STR_VAR_3} Rank Pokémon\l"
-	.string "{STR_VAR_2}!\p"
-	.string "The participating Trainers and their\n"
-	.string "Pokémon are as follows:$"
+	.string "主持人：大家好！\n{STR_VAR_2}的\l{STR_VAR_3}即将开始！\p参加比赛的训练家和\n宝可梦有——$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 ContestHall_Text_GettingStartedParticipantsAsFollowsLink:
-	.string "MC: Hello! We're just getting started\n"
-	.string "with a 4-player linked Pokémon\l"
-	.string "{STR_VAR_2}!\p"
-	.string "The participating Trainers and their\n"
-	.string "Pokémon are as follows:$"
+	.string "主持人：大家好！\n4名玩家的连接\l{STR_VAR_2}即将开始！\p参加比赛的训练家和\n宝可梦有——$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 ContestHall_Text_EntryXTrainersMon:
-	.string "MC: Entry No. {STR_VAR_2}!\n"
-	.string "{STR_VAR_1}'s {STR_VAR_3}!$"
+	.string "主持人：参赛编号{STR_VAR_2}号！\n{STR_VAR_1}的{STR_VAR_3}！$"
+	.string ""
 
 ContestHall_Text_SeenContestantsAudienceWillVote:
-	.string "MC: We've just seen the four Pokémon\n"
-	.string "contestants.\p"
-	.string "Now it's time for primary judging!\p"
-	.string "The audience will vote on their\n"
-	.string "favorite Pokémon contestants.\p"
-	.string "Without any further ado, let the\n"
-	.string "voting begin!$"
+	.string "主持人：4位参赛选手的宝可梦\n已经全部登场完毕！\p现在进入第1轮评审！\p现场观众将为您最喜爱的\n宝可梦选手投票！\p话不多说——\n投票现在开始！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 ContestHall_Text_VotingUnderWay:
-	.string "Voting under way…$"
+	.string "投票进行中……$"
 
 ContestHall_Text_VotingCompleteLetsAppeal:
-	.string "Voting is now complete!\p"
-	.string "While the votes are being tallied,\n"
-	.string "let's move on to secondary judging!\p"
-	.string "The second stage of judging is the\n"
-	.string "much anticipated appeal time!\p"
-	.string "May the contestants amaze us with\n"
-	.string "superb appeals of dazzling moves!\p"
-	.string "Let's see a little enthusiasm!\n"
-	.string "Let's appeal!$"
+	.string "投票环节圆满结束！\p在统计票数的同时，\n让我们进入第2轮评审！\p接下来将迎来万众期待的\n宝可梦表演时间！\p请各位选手用炫目的招式\n展现最精彩的演出吧！\p拿出你们的热情——\n表演现在开始！$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 ContestHall_Text_ThatsItForJudging:
-	.string "MC: That's it for judging!$"
+	.string "主持人：评审到此结束！$"
 
 ContestHall_Text_ThankYouForAppeals:
-	.string "Thank you all for a most wonderful\n"
-	.string "display of quality appeals!\p"
-	.string "This concludes all judging!\n"
-	.string "Thank you for your fine efforts!$"
+	.string "感谢大家为我们带来了\n如此出色的表演！\p全部评审已完成！\n衷心感谢大家的出色表现！$"
+	.string ""
+	.string ""
+	.string ""
 
 ContestHall_Text_JudgeLooksReady:
-	.string "Now, all that remains is the pulse-\n"
-	.string "pounding proclamation of the winner.\p"
-	.string "The JUDGE looks ready to make\n"
-	.string "the announcement!$"
+	.string "现在只剩下最激动人心的环节——\n冠军的最终揭晓！\p评委已准备好\n宣布最终结果！$"
+	.string ""
+	.string ""
+	.string ""
 
 ContestHall_Text_WeWillNowDeclareWinner:
-	.string "JUDGE: We will now declare the winner!$"
+	.string "评委：现在公布本次大赛的冠军！$"
 
 ContestHall_Text_CongratsTrainerXandMon:
-	.string "MC: Entry No. {STR_VAR_2}!\p"
-	.string "{STR_VAR_3} and {STR_VAR_1},\n"
-	.string "congratulations!$"
+	.string "主持人：{STR_VAR_2}号！\p{STR_VAR_3}和{STR_VAR_1}，\n恭喜你们！$"
+	.string ""
+	.string ""
 
 ContestHall_Text_CongratsPleaseCompeteAgain:
-	.string "MC: Congratulations!\n"
-	.string "Please do compete again!$"
+	.string "主持人：恭喜获胜！\n期待您下次再参加！$"
+	.string ""
 
 ContestHall_Text_AcceptYourPrize:
-	.string "MC: Here you are!\n"
-	.string "Please accept your prize!$"
+	.string "主持人：请来领取\n您的奖品！$"
+	.string ""
 
 ContestHall_Text_ConferRibbonAsPrize:
-	.string "We confer on you this Ribbon\n"
-	.string "as your prize!$"
+	.string "我们将授予您这个奖章\n作为比赛的奖励！$"
+	.string ""
 
 ContestHall_Text_ReceivedRibbon:
-	.string "{PLAYER} received a Ribbon.$"
+	.string "{PLAYER}获得了奖章。$"
 
 ContestHall_Text_PutRibbonOnMon:
-	.string "{PLAYER} put the Ribbon on\n"
-	.string "{STR_VAR_1}.$"
+	.string "{PLAYER}给{STR_VAR_1}\n戴上了奖章！$"
+	.string ""
 
 ContestHall_Text_PickUpPrizeAtCounterLater:
-	.string "Please pick up your prize at\n"
-	.string "the reception counter later.\l"
-	.string "Please do compete again!$"
+	.string "请稍后在服务台\n领取您的奖品。\l期待您下次再参加！$"
+	.string ""
+	.string ""
 
 @ Unused
 ContestHall_Text_OnlyRegister4Players:
-	.string "I only register four players for\n"
-	.string "Pokémon Contests.\p"
-	.string "If three other players link up, all\n"
-	.string "four may enter the same Contest.\p"
-	.string "Would you like to take part?$"
+	.string "我只登记了4个选手\n参加比赛。\p如果另外3个选手连接过来\n所有4人将进入同一场比赛。\p您想加入吗？$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LilycoveCity_ContestLobby_Text_ProgressWillBeSaved:
-	.string "Before entering a Contest, your\n"
-	.string "progress will be saved.$"
+	.string "在比赛开始之前，\n需要先写入记录。$"
+	.string ""
 
 LilycoveCity_ContestLobby_Text_ParticipateAnotherTime:
-	.string "We hope you will participate another\n"
-	.string "time.$"
+	.string "期待您下次再参加！$"
+	.string ""
 
 @ Unused
 LilycoveCity_ContestLobby_Text_EnterContest2:
-	.string "Would you like to enter a Contest?$"
+	.string "您想参加比赛吗？$"
 
 @ Unused
 LilycoveCity_ContestLobby_Text_Explain4PlayerContest:
-	.string "When four players are ready, connect\n"
-	.string "over a Game Link cable, and register\l"
-	.string "with me, please.\p"
-	.string "Please choose the same Contest\n"
-	.string "as your fellow contestants.\p"
-	.string "The Contest begins as soon as all\n"
-	.string "players register their entry.\p"
-	.string "After that, the usual Contest rules\n"
-	.string "apply.$"
+	.string "当4个选手准备完毕，通过\n连接线进行连接，\l然后在我这里进行登记。\p请叫您的对手们\n选择同一个比赛。\p比赛会在所有选手登记进入后\n开启。\p之后，正常的比赛规则\n就会启动。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 @ Unused
 LilycoveCity_ContestLobby_Text_EnterWhichContest2:
-	.string "Which Contest would you like to enter?$"
+	.string "您想参加哪个比赛？$"
 
 @ Unused
 LilycoveCity_ContestLobby_Text_EnterWhichPokemon2:
-	.string "Which Pokémon would you like to enter?$"
+	.string "要让哪只宝可梦参加？$"
 
 LilycoveCity_ContestLobby_Text_Transmitting:
-	.string "Transmitting…$"
+	.string "连接中……$"
 
 LilycoveCity_ContestLobby_Text_TransmissionError:
-	.string "Transmission error…$"
+	.string "连接错误……$"
 
 LilycoveCity_ContestLobby_Text_PlayersChoseDifferentContest:
-	.string "You may have chosen a different\n"
-	.string "Contest than another player.$"
+	.string "您可能选择了和其他玩家\n不同的比赛。$"
+	.string ""
 
 LilycoveCity_ContestLobby_Text_PlayersMadeDifferentChoice:
-	.string "You may have made a different\n"
-	.string "choice than another player.$"
+	.string "您可能和其他玩家的\n选择不一致。$"
+	.string ""
 
 LilycoveCity_ContestLobby_Text_PleaseWaitBButtonCancel:
-	.string "Please wait.\n"
-	.string "… … B Button: Cancel$"
+	.string "请稍候。\n…… B键：取消$"
+	.string ""
 
 @ Unused
 LilycoveCity_ContestLobby_Text_ParticipateAnotherTime2:
-	.string "We hope you will participate another\n"
-	.string "time.$"
+	.string "希望您下次\n再来参加。$"
+	.string ""
 
 @ Unused
 LilycoveCity_ContestLobby_Text_TransmissionErrorTryAgain:
-	.string "Transmission error.\n"
-	.string "Please try again.$"
+	.string "连接错误。\n请重试。$"
+	.string ""
 
 LilycoveCity_ContestLobby_Text_YourMonIsEntryNumX:
-	.string "Your Pokémon will be entered in\n"
-	.string "the Contest.\p"
-	.string "Your Pokémon is Entry No. {STR_VAR_2}.$"
+	.string "那么，我来为您的宝可梦\n办理报名手续！\p它的参赛编号是{STR_VAR_2}号。$"
+	.string ""
+	.string ""
 
 LilycoveCity_ContestLobby_Text_ContestBeginShortly:
-	.string "The Contest will begin shortly.$"
+	.string "华丽大赛即将开始。$"
 
 LilycoveCity_ContestLobby_Text_LinkContestReception:
-	.string "Welcome! This is the Pokémon Contest\n"
-	.string "link reception counter.\p"
-	.string "You may enter Contests together with\n"
-	.string "one or more friends.$"
+	.string "欢迎！这里是宝可梦华丽大赛\n连接前台。\p您可以和朋友们在这里\n进行连接华丽大赛。$"
+	.string ""
+	.string ""
+	.string ""
 
 LilycoveCity_ContestLobby_Text_WhichTopic2:
-	.string "Which topic would you like?$"
+	.string "您想听哪部分的说明呢？$"
 
 LilycoveCity_ContestLobby_Text_EnterContest3:
-	.string "Would you like to enter a Contest?$"
+	.string "要参加华丽大赛吗？$"
 
 LilycoveCity_ContestLobby_Text_EnterWhichContest3:
-	.string "Which Contest would you like to enter?$"
+	.string "您想要参加哪种华丽大赛呢？$"
 
 LilycoveCity_ContestLobby_Text_MonInNoCondition2:
-	.string "Your Pokémon appears to be in no\n"
-	.string "condition to take part in a Contest…$"
+	.string "您的宝可梦尚未取得参加\n这个级别的华丽大赛的资格……$"
+	.string ""
 
 LilycoveCity_ContestLobby_Text_EggCannotTakePart2:
-	.string "I'm sorry, but an Egg cannot take part\n"
-	.string "in a Pokémon Contest.$"
+	.string "非常抱歉，宝可梦蛋是\n无法参加华丽大赛的。$"
+	.string ""
 
 LilycoveCity_ContestLobby_Text_EnterWhichPokemon3:
-	.string "Which Pokémon would you like to enter?$"
+	.string "您想让哪只宝可梦参加呢？$"
 
 LilycoveCity_ContestLobby_Text_PleaseDecideLinkLeader:
-	.string "Please decide which of you will\n"
-	.string "become the Group Leader.\p"
-	.string "The other players must then choose\n"
-	.string "“Join Group.”$"
+	.string "请先确定由哪一位\n担任组长。\p其他成员请选择\n“加入群组。”$"
+	.string ""
+	.string ""
+	.string ""
 
 LilycoveCity_ContestLobby_Text_PlayerAt4PCounterUseGMode:
-	.string "At least one player has entered using\n"
-	.string "the 4-player reception counter.\p"
-	.string "There must be four players connected\n"
-	.string "using a GBA Game Link cable.\p"
-	.string "When the four players are ready,\n"
-	.string "select G-MODE (Global Mode),\l"
-	.string "then register to enter again, please.$"
+	.string "有1名或以上的玩家在连接前台\n报名参加了这次的联机比赛。\p4名玩家需要都使用\nGBA连接线进行连接。\p当所有玩家全部准备就绪时，\n请选择G-模式 (全球模式)，\l重新完成报名。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LilycoveCity_ContestLobby_Text_ExplainLinkContest:
-	.string "This is a Contest for two to four\n"
-	.string "players linked using a Wireless\l"
-	.string "Adapter or a GBA Game Link cable.\p"
-	.string "Participants are first asked to choose\n"
-	.string "the mode they wish to enter.\p"
-	.string "There are two different modes.\p"
-	.string "E-MODE (Emerald Mode) is for\n"
-	.string "two to four players, each with a\l"
-	.string "Pokémon Emerald Game Pak.\p"
-	.string "G-MODE (Global Mode) is only for\n"
-	.string "four players, each with a Pokémon\l"
-	.string "Emerald, Ruby, or Sapphire Game Pak.\p"
-	.string "The players should discuss which mode\n"
-	.string "they want, then choose the same mode.\p"
-	.string "Once all the players have chosen\n"
-	.string "the same Contest in the same mode,\l"
-	.string "the entry registration is complete.\p"
-	.string "After that, a Contest will start in\n"
-	.string "the usual manner.$"
+	.string "这里举行由2~4名玩家使用\n无线适配器或GBA连接线\l进行的华丽大赛。\p参加者先要选择他们所\n想要参加的模式。\p共有2种不同的模式。\pE模式(绿宝石模式)适用于\n2~4名玩家全部使用宝可梦\l绿宝石的卡带的情况。\pG-模式(全球模式)则只适用于\n4名玩家全部使用宝可梦\l红/蓝/绿宝石的卡带的情况。\p4名玩家需要讨论确定\n要选择的模式。\p当所有玩家都选择了\n相同的模式和比赛类别，\l即完成报名登记。\p之后华丽大赛将按照\n常规流程开始。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LilycoveCity_ContestLobby_Text_ExplainEMode:
-	.string "In E-MODE (Emerald Mode),\n"
-	.string "a Link Contest can be held with\l"
-	.string "two to four players. Each player must\l"
-	.string "have a Pokémon Emerald Game Pak.\p"
-	.string "The players must be linked with each\n"
-	.string "other using Wireless Adapters or\l"
-	.string "GBA Game Link cables.\p"
-	.string "If there are fewer than four players,\n"
-	.string "Trainers in the hall will join to fill\l"
-	.string "the 4-player Contest lineup.\p"
-	.string "Please be aware that E-MODE is not\n"
-	.string "available in Pokémon Ruby or Sapphire.$"
+	.string "在E模式(绿宝石模式)，\n2~4名玩家可以进行连接华丽大赛，\l而且每名玩家都需要使用\l宝可梦绿宝石的卡带。\p玩家们需要通过无线适配器\n或者是GBA连接线进行连接。\p如果玩家数量少于4人，\n那么在会场里的训练家就会\l作为补充参加到华丽大赛中。\p要注意的是使用红/蓝宝石卡带\n的玩家不能使用E模式。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LilycoveCity_ContestLobby_Text_ExplainGMode:
-	.string "G-MODE (Global Mode) is specifically\n"
-	.string "for four players who are linked using\l"
-	.string "GBA Game Link cables.\p"
-	.string "Each player must have a Pokémon\n"
-	.string "Emerald, Ruby, or Sapphire Game Pak.\p"
-	.string "The Contest starts after all players\n"
-	.string "choose G-MODE (Pokémon Emerald) or\l"
-	.string "enter through the 4-player reception\l"
-	.string "counter (Pokémon Ruby or Sapphire).$"
+	.string "G模式(全球模式)专供\n使用GBA连接线连接\l的4名玩家使用。\p每名玩家都需要持有\n红/蓝/绿宝石中的任意卡带。\p华丽大赛将在所有玩家\n选择了G模式后(绿宝石)，\l或是在连接前台报名后(红/蓝宝石)\l正式开始。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LilycoveCity_ContestLobby_Text_NoWirelessAdapterInGMode:
-	.string "I'm terribly sorry.\p"
-	.string "G-MODE does not function\n"
-	.string "with Wireless Adapters.\p"
-	.string "Please select E-MODE or try\n"
-	.string "again using a GBA Game Link cable.$"
+	.string "非常抱歉。\pG模式不能通过\n无线适配器连接。\p请选择E模式或\n使用GBA连接线重试。$"
+	.string ""
+	.string ""
+	.string ""
+	.string ""
 
 LilycoveCity_ContestLobby_Text_WhichContestMode:
-	.string "Which Contest MODE would you like\n"
-	.string "to enter?$"
+	.string "您想要参加哪个模式呢？$"
+	.string ""
 
 ContestHall_Text_GettingStartedWireless:
-	.string "MC: Hello! We're just getting started\n"
-	.string "with a 4-player linked Pokémon\l"
-	.string "{STR_VAR_2}!$"
+	.string "主持人：大家好！\n4名玩家的连接\l{STR_VAR_2}即将开始！$"
+	.string ""
+	.string ""
 
 ContestHall_Text_ParticipantsAsFollows:
-	.string "The participating Trainers and their\n"
-	.string "Pokémon are as follows:$"
+	.string "参加比赛的训练家和\n宝可梦有——$"
+	.string ""
 
 ContestHall_Text_WeveSeenContestants:
-	.string "MC: We've just seen the four Pokémon\n"
-	.string "contestants.\p"
-	.string "Now it's time for primary judging!$"
+	.string "主持人：4位参赛选手的宝可梦\n已经全部登场完毕！\p现在进入第1轮评审！$"
+	.string ""
+	.string ""
 
 ContestHall_Text_AudienceWillVote:
-	.string "The audience will vote on their\n"
-	.string "favorite Pokémon contestants.$"
+	.string "现场观众将为您最喜爱的\n宝可梦选手投票！$"
+	.string ""
 
 ContestHall_Text_LetVotingBegin:
-	.string "Without any further ado,\n"
-	.string "let the voting begin!$"
+	.string "话不多说——\n投票现在开始！$"
+	.string ""
 
 ContestHall_Text_VotingComplete:
-	.string "Voting is now complete!\p"
-	.string "While the votes are being tallied,\n"
-	.string "let's move on to secondary judging!$"
+	.string "投票环节圆满结束！\p在统计票数的同时，\n让我们进入第2轮评审！$"
+	.string ""
+	.string ""
 
 ContestHall_Text_SecondStageOfJudging:
-	.string "The second stage of judging is\n"
-	.string "the much-anticipated appeal time!\p"
-	.string "May the contestants amaze us with\n"
-	.string "superb appeals of dazzling moves!$"
+	.string "接下来将迎来万众期待的\n宝可梦表演时间！\p请各位选手用炫目的招式\n展现最精彩的演出吧！$"
+	.string ""
+	.string ""
+	.string ""
 
 ContestHall_Text_LetsAppeal:
-	.string "Let's see a little enthusiasm!\n"
-	.string "Let's appeal!$"
+	.string "拿出你们的热情——\n表演现在开始！$"
+	.string ""

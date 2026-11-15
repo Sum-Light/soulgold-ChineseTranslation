@@ -46,10 +46,10 @@ LakeOfRage_EventScript_Pryce::
     end
 
 LakeOfRage_Text_Pryce:
-    .string "{PLAYER}.\p"
-	.string "Even here, the cold keeps me sharp.\p"
-	.string "If you wish to battle again, come\n"
-	.string "to the Fighting Dojo.$"
+    .string "{PLAYER}。\p即使在这里，\n寒冷也让我保持敏锐。\p还想再战的话，就到\n格斗道场来吧。$"
+	.string ""
+	.string ""
+	.string ""
 
 LakeOfRage_EventScript_Gramps::
 	goto_if_ge VAR_MAHOGANY_TOWN_STATE, 14, LakeOfRage_EventScript_Gramps2
@@ -233,124 +233,124 @@ LakeOfRage_Movement_DragoniteLeave:
 	step_end
 
 LakeOfRage_Text_Dragonite:
-	.string "Dragonite: Gyafooha!$"
+	.string "快龙：嘎呜吼——！$"
 
 LakeOfRage_Text_LanceForcedToEvolve:
-    .string "This lake is full of Gyarados\n"
-    .string "but nothing else…\p"
-    .string "So the Magikarp are being forced\n"
-    .string "to evolve…$"
+    .string "这湖里全是暴鲤龙，\n别的什么都没有……\p看来是有人在强迫\n鲤鱼王进化……$"
+    .string ""
+    .string ""
+    .string ""
 
 LakeOfRage_Text_LanceIntro1:
-    .string "Did you come here because of\n"
-    .string "the rumors?\p"
-    .string "You're {PLAYER}? I'm Lance, a\n"
-    .string "trainer like you.$"
+    .string "你是因为这里的\n传闻才来的吗？\p你是{PLAYER}？我是阿渡，\n和你一样的训练家。$"
+    .string ""
+    .string ""
+    .string ""
 
 LakeOfRage_Text_LanceIntro2:
-    .string "This man here informed me of\n"
-    .string "some rumors.\p"
-    .string "So we came to investigate…$"
+    .string "是这位先生告诉了我\n一些传闻。\p所以我们就来调查一下……$"
+    .string ""
+    .string ""
 
 LakeOfRage_Text_LanceIntro3:
-    .string "I saw the way you battled\n"
-    .string "earlier, {PLAYER}.\p"
-    .string "I can tell that you're a trainer\n"
-    .string "with considerable skill.\p"
-    .string "If you don't mind, could you help\n"
-    .string "us investigate?$"
+    .string "我看到了你刚才的\n战斗，{PLAYER}。\p看得出来，你是位\n相当有实力的训练家。\p如果不介意，能帮我们\n一起调查吗？$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 LakeOfRage_Text_LanceRadioSignal:
-    .string "Lance: Excellent!\p"
-    .string "It seems that the Lake's Magikarp\n"
-    .string "are being forced to evolve.\p"
-    .string "A mysterious radio broadcast\n"
-    .string "coming from Mahogany is the cause.\p"
-    .string "We'll be waiting for you,\n"
-    .string "{PLAYER}.$"
+    .string "阿渡：太好了！\p看来湖里的鲤鱼王\n是被强迫进化的。\p原因是卡吉镇传来的\n神秘电波。\p{PLAYER}，我们\n就在前面等你。$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 LakeOfRage_Text_LanceRefused:
-    .string "Oh… Well, if you change your mind,\n"
-    .string "please help us.$"
+    .string "哦……好吧，如果你\n改变主意了，就来帮帮我们吧。$"
+    .string ""
 
 LakeOfRage_Text_LanceAskHelp:
-    .string "Lance: Hm? Are you going to help\n"
-    .string "us?$"
+    .string "阿渡：嗯？你愿意\n帮我们吗？$"
+    .string ""
 
 LakeOfRage_Text_GyaradosCry:
-    .string "Gyarados: Gyashaa!$"
+    .string "暴鲤龙：嘎吓——！$"
 
 LakeOfRage_Text_Gramps:
-    .string "The Gyarados are angry!\p"
-    .string "It's a bad omen!$"
+    .string "暴鲤龙发怒了！\p这是凶兆啊！$"
+    .string ""
 
 LakeOfRage_Text_GrampsCleared:
-    .string "Hahah! The Magikarp are biting!$"
+    .string "哈哈！鲤鱼王上钩啦！$"
 
 LakeOfRage_Text_SuperNerd:
-    .string "I heard this lake was made by\n"
-    .string "rampaging Gyarados.\p"
-    .string "I wonder if there is any\n"
-    .string "connection to their mass outbreak\l"
-    .string "now?$"
+    .string "听说这湖是暴走的\n暴鲤龙造就的。\p不知道这跟它们\n现在的大量出现\l有没有什么关系？$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 LakeOfRage_Text_CooltrainerF:
-    .string "Did my eyes deceive me? I saw a\n"
-    .string "red Gyarados in the Lake…\p"
-    .string "But I thought Gyarados were\n"
-    .string "usually blue?$"
+    .string "是我看错了吗？我在湖里\n看到了一只红色暴鲤龙……\p可暴鲤龙一般不都是\n蓝色的吗？$"
+    .string ""
+    .string ""
+    .string ""
 
 
 LakeOfRage_Text_FisherAndreSeen:
-    .string "Let me battle with the Pokémon I\n"
-    .string "just caught!$"
+    .string "就用我刚钓到的宝可梦\n来分个胜负吧！$"
+    .string ""
 
 LakeOfRage_Text_FisherAndreBeaten:
-    .string "I might be an expert angler, but\n"
-    .string "I stink as a Pokémon trainer…$"
+    .string "我钓鱼也许算行家，\n可当训练家就差远了……$"
+    .string ""
 
 LakeOfRage_Text_FisherAndreAfter:
-    .string "I won't lose as an angler! I catch\n"
-    .string "Pokémon all day.$"
+    .string "钓鱼我可不会输！我可是\n一整天都在钓宝可梦的！$"
+    .string ""
 
 
 LakeOfRage_Text_FisherRaymondSeen:
-    .string "No matter what I do, all I catch\n"
-    .string "are the same Pokémon…$"
+    .string "不管我怎么钓，钓到的\n总是同样的宝可梦……$"
+    .string ""
 
 LakeOfRage_Text_FisherRaymondBeaten:
-    .string "My line's all tangled up…$"
+    .string "钓线全缠在一起了……$"
 
 LakeOfRage_Text_FisherRaymondAfter:
-    .string "Why can't I catch any good\n"
-    .string "Pokémon?$"
+    .string "为什么就钓不到\n好一点的宝可梦呢？$"
+    .string ""
 
 LakeOfRage_Text_CooltrainermAaronSeen:
-    .string "If a trainer spots another trainer,\n"
-    .string "he has to make a challenge.\p"
-    .string "That is our destiny.$"
+    .string "训练家看到训练家，\n就非得挑战一场不可。\p这就是我们的宿命。$"
+    .string ""
+    .string ""
 
 LakeOfRage_Text_CooltrainermAaronBeaten:
-    .string "Whew… Good battle.$"
+    .string "呼……打得不错。$"
 
 LakeOfRage_Text_CooltrainermAaronAfter:
-    .string "Pokémon and their trainer become\n"
-    .string "powerful through constant battling.$"
+    .string "宝可梦和训练家，都是靠\n一次次战斗才变强的。$"
+    .string ""
 
 LakeOfRage_Text_CooltrainerfLoisSeen:
-    .string "What happened to the red\n"
-    .string "Gyarados?\p"
-    .string "It's gone?\p"
-    .string "Oh, darn. I came here for\n"
-    .string "nothing?\p"
-    .string "I know--let's battle!$"
+    .string "那只红色暴鲤龙\n怎么样了？\p已经走了？\p唉，真倒霉。我岂不是\n白跑一趟了？\p对了——那就来对战吧！$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 LakeOfRage_Text_CooltrainerfLoisBeaten:
-    .string "Good going!$"
+    .string "干得漂亮！$"
 
 LakeOfRage_Text_CooltrainerfLoisAfter:
-    .string "Come to think of it, I've seen a\n"
-    .string "pink Butterfree.$"
+    .string "说起来，我见过一只\n粉色的巴大蝶。$"
+    .string ""
 
 
 
@@ -399,26 +399,26 @@ LakeOfRage_EventScript_WesleyCompleted::
 	end
 
 LakeOfRage_Text_MeetWesley:
-    .string "Wesley: Well, how do you do?\p"
-    .string "I'm a member of the Weekday family!\n"
-	.string "Can you guess my favorite day?$"
+    .string "星琪山：哎呀，你好你好。\p我是星期兄弟中的一员！\n你猜得出我最喜欢哪天吗？$"
+    .string ""
+	.string ""
 
 LakeOfRage_Text_WesleyGivesGift:
-    .string "Pleased to meet you. Please take a\n"
-    .string "souvenir.$"
+    .string "初次见面。这个就当作\n见面礼，请收下吧。$"
+    .string ""
 
 LakeOfRage_Text_WesleyGaveGift:
-    .string "Wesley: Blackbelt beefs up the\n"
-    .string "power of fighting moves.$"
+    .string "星琪山：黑带能提升\n格斗招式的威力。$"
+    .string ""
 
 LakeOfRage_Text_WesleyWednesday:
-    .string "Wesley: Since you found me, you\n"
-    .string "must have met my brothers and\l"
-    .string "sisters.\p"
-    .string "Or did you just get lucky?$"
+    .string "星琪山：你能找到我，\n一定是见过了我的\l兄弟姐妹吧。\p还是说只是运气好？$"
+    .string ""
+    .string ""
+    .string ""
 
 LakeOfRage_Text_WesleyNotWednesday:
-    .string "Wesley: Not exactly...$"
+    .string "星琪山：不对哦……$"
 
 LakeOfRage_EventScript_Sign1::
 	msgbox LakeOfRage_Text_Sign, MSGBOX_SIGN
@@ -429,11 +429,11 @@ LakeOfRage_EventScript_Sign2::
 	end
 
 LakeOfRage_Text_Sign:
-    .string "Lake Of Rage,\n"
-    .string "also known as Gyarados Lake.$"
+    .string "愤怒之湖，\n又名暴鲤龙湖。$"
+    .string ""
 
 LakeOfRage_Text_FishingGuruSign:
-    .string "Fishing Guru's House$"
+    .string "钓鱼名人的家$"
 
 Lakeofrage_HiddenGrotto::
 	msgbox Lakeofrage_HiddenGrotto_Text_0, MSGBOX_YESNO
@@ -506,51 +506,31 @@ LakeOfRageRoute50Sign::
 
 
 Lakeofrage_HiddenGrotto_Text_0:
-	.string "There seems to be a path behind the\n"
-	.string "trees. Enter?$"
+	.string "树丛后面似乎有条小路。\n要进去吗？$"
 
 Lakeofrage_PryceRematch_Text_0:
-	.string "{PLAYER}, the cold of Indigo Plateau\n"
-	.string "has not worn you down I see.\p"
-	.string "Personally I prefer the cold, it keeps\n"
-	.string "my senses sharp. Warmth can make one\l"
-	.string "drop their guard.$"
+	.string "{PLAYER}，看来石英高原的\n寒冷没能让你倒下。\p我个人更喜欢寒冷，它能让\n我保持敏锐。暖意会让人\l放松警惕。$"
 
 Lakeofrage_PryceRematch_Text_1:
-	.string "How about I show you what I mean\n"
-	.string "in a battle. I won't be holding\l"
-	.string "back this time.$"
+	.string "要不要我用一场对战来\n让你明白？这次我可不会\l手下留情。$"
 
 Lakeofrage_PryceRematch_Text_2:
-	.string "Reminds me of the old days.$"
+	.string "让我想起了\n过去的岁月。$"
 
 Lakeofrage_PryceRematch_Text_3:
-	.string "I worry less for the future generations\n"
-	.string "when I see trainers like you rise up.\p"
-	.string "I hope you will foster the growth\n"
-	.string "of future generations in your own\l"
-	.string "time, too.\p"
-	.string "I believe I still have more I can\n"
-	.string "show you another time, but I must\l"
-	.string "return to my training in order\l"
-	.string "to achieve it.$"
+	.string "看到像你这样的训练家\n成长起来，我对下一代\l就放心多了。\p希望有朝一日，你也能够\n亲手培育起下一代。\p我相信还有不少东西\n能让你见识，不过要做到这点，\l我必须先回去继续修行。$"
 
 LakeOfRagePostgamePoliceman_Text_0:
-	.string "The road has been blocked by a\n"
-	.string "landslide, we're working on clearing\l"
-	.string "it up, so please have patience.$"
+	.string "道路因为塌方被堵住了，\n我们正在清理，\l请您耐心等待。$"
 
 LakeOfRageCresseliaPath_Text_0:
-	.string "After a careful search, you manage to\n"
-	.string "uncover a barely visible path behind\l"
-	.string "the trees.$"
+	.string "仔细搜寻之后，你在树丛\n后面发现了一条几乎\l看不见的小路。$"
 
 LakeOfRageCresseliaPath_Text_1:
-	.string "Enter?$"
+	.string "要进去吗？$"
 
 LakeOfRageCresseliaPath_Text_2:
-	.string "Wood yew look at that. An inconspicuous\n"
-	.string "row of trees extends before you.$"
+	.string "哟，瞧这树。\n眼前是一排毫不起眼的树。$"
 
 LakeOfRageRoute50Sign_Text_0:
-	.string "Route 50 and Battle Cafe ahead.$"
+	.string "前方是50号道路和对战咖啡馆。$"

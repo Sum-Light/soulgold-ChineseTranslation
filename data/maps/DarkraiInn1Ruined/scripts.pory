@@ -8,27 +8,22 @@ script Inn_RuinedPiano {
     lock
     if (var(VAR_DARKRAI_INN_PROGRESS) < 6) {
         playse(SE_NOTE_G)
-        msgbox("The piano has a sound, but
-            something feels off.")
+        msgbox("钢琴能弹出声音，\n但总觉得哪里不对。")
         waitse
         release
         end
     }
     if (var(VAR_DARKRAI_INN_PROGRESS) == 6) {
-        msgbox("One of the notes is loose now.
-        
-                ...
-                
-                Under it you find a small key!")
+        msgbox("有个琴键松动了。\p……\p下面藏着一把小钥匙！")
         playfanfare(MUS_HG_OBTAIN_ITEM)
-        msgbox("{PLAYER} obtained a small key!")
+        msgbox("{PLAYER}得到了小钥匙！")
         waitfanfare
         setvar(VAR_DARKRAI_INN_PROGRESS, 7)
         release
         end
     }
     if (var(VAR_DARKRAI_INN_PROGRESS) >= 7) {
-        msgbox("Nothing of note is left in the piano.")
+        msgbox("钢琴里已经没剩下什么了。")
         release
         end
     }
@@ -38,20 +33,16 @@ script Inn_RuinedPiano {
 }
 
 script Inn_RuinedDrums {
-    msgbox("The drums are covered in dust.", MSGBOX_SIGN)
+    msgbox("架子鼓上落满了灰尘。", MSGBOX_SIGN)
 }
 
 script Inn_RuinedSafe {
     if (var(VAR_DARKRAI_INN_PROGRESS) < 7) {
-        msgbox("The safe is locked tight.", MSGBOX_SIGN)
+        msgbox("保险箱锁得严严实实。", MSGBOX_SIGN)
     }
     if (var(VAR_DARKRAI_INN_PROGRESS) == 7) {
-        msgbox("The key you found fits perfectly into
-                the lock of the safe.
-                
-                Inside the safe seems to be a hidden
-                tunnel dug through the wall.")
-        msgbox("Enter?", MSGBOX_YESNO)
+        msgbox("你找到的钥匙正好\n插进保险箱的锁里。\p保险箱里面似乎有\n一条挖穿墙壁的密道。")
+        msgbox("要进去吗？", MSGBOX_YESNO)
         if (var(VAR_RESULT) == YES) {
             warp(MAP_DARKRAI_INN_FINAL_ROOM, 0)
             waitstate
@@ -71,24 +62,19 @@ script InnHideCresselia {
 script Inn_RuinedTelephone {
     lock
     if (var(VAR_DARKRAI_INN_PROGRESS) < 4) {
-        msgbox("An old telephone. The dial
-                appears to be missing.")
+        msgbox("一部老式电话。\n拨号盘好像不见了。")
         release
         end
     }
     if (var(VAR_DARKRAI_INN_PROGRESS) == 4) {
-        msgbox("You fit the dial to the telephone.
-        
-                ...
-                
-                It fits perfectly!")
+        msgbox("你把拨号盘装到电话上。\p……\p装得严丝合缝！")
         setvar(VAR_DARKRAI_INN_PROGRESS, 5)
-        msgbox("Which number should you try to dial?")
+        msgbox("要拨哪个号码？")
         dynmultichoice(20,4,TRUE,4,0,DYN_MULTICHOICE_CB_NONE, "4114", "1144", "4141")
         switch(var(VAR_RESULT)) {
             case 0:
             case 2:
-                msgbox("There's no response...")
+                msgbox("没有回应……")
                 release
                 end
             case 1:
@@ -102,12 +88,12 @@ script Inn_RuinedTelephone {
         }
     }
     if (var(VAR_DARKRAI_INN_PROGRESS) == 5) {
-        msgbox("Which number should you try to dial?")
+        msgbox("要拨哪个号码？")
         dynmultichoice(20,4,TRUE,4,0,DYN_MULTICHOICE_CB_NONE, "4114", "1144", "4141")
         switch(var(VAR_RESULT)) {
             case 0:
             case 2:
-                msgbox("There's no response...")
+                msgbox("没有回应……")
                 release
                 end
             case 1:
@@ -121,38 +107,23 @@ script Inn_RuinedTelephone {
         }
     }
     if (var(VAR_DARKRAI_INN_PROGRESS) > 5) {
-        msgbox("The telephone is unresponsive.")
+        msgbox("电话没有反应。")
         release
         end
     }
 }
 
 script  Inn_RuinedDoor {
-    msgbox("The door is locked tight, maybe there's
-            a key somewhere?", MSGBOX_SIGN)
+    msgbox("门锁得紧紧的，\n说不定钥匙就在哪里？", MSGBOX_SIGN)
 }
 
 script Inn_NotesOnWall {
     lock
     if (var(VAR_DARKRAI_INN_PROGRESS) == 2) {
-        msgbox("The notes on the wall seem to detail
-                the floor plan of the inn. 
-                
-                There's a detailed marking for all the
-                furniture.
-                
-                11 Wall Lamps
-                4 Large Windows
-                4 Sawsbuck Trophies
-                
-                ...")
+        msgbox("墙上的图纸似乎是\n旅馆的平面图。\p所有家具都标得\n清清楚楚。\p壁灯11盏\n大窗户4扇\l萌芽鹿标本4个\p……")
         setvar(VAR_DARKRAI_INN_PROGRESS, 3)
     } else {
-        msgbox("11 Wall Lamps
-                4 Large Windows
-                4 Sawsbuck Trophies
-                
-                ...")
+        msgbox("壁灯11盏\n大窗户4扇\l萌芽鹿标本4个\p……")
     }
     release
     end
@@ -161,27 +132,15 @@ script Inn_NotesOnWall {
 script Inn_LuxrayHead {
     lock
     if (var(VAR_DARKRAI_INN_PROGRESS) == 3) {
-        msgbox("This trophy was not accounted for
-                in the floor plan. 
-                
-                You take a closer look...
-                
-                In the mouth of the trophy,
-                there's a dial.")
+        msgbox("平面图上没有\n这个标本。\p你凑近看了看……\p标本的嘴里，\n有一个拨号盘。")
         playfanfare(MUS_HG_OBTAIN_ITEM)
-        msgbox("{PLAYER} obtained a Dial!")
+        msgbox("{PLAYER}得到了拨号盘！")
         waitfanfare
         setvar(VAR_DARKRAI_INN_PROGRESS, 4)
         release
         end
     } else {
-        msgbox("A stuffed trophy depicting a head
-                of a Pokémon.
-                
-                ...
-                
-                It feels like the eyes are following 
-                you.")
+        msgbox("一只宝可梦头部的\n填充标本。\p……\p总觉得那双眼睛\n在盯着你。")
         release
         end
     }

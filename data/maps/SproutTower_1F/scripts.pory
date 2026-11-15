@@ -40,56 +40,51 @@ SproutTower_1F_EventScript_Teacher::
 	end
 
 SproutTower_Text_SageChow_Seen:
-	.string "We stand guard in this tower.\p"
-	.string "Here, we express our gratitude\n"
-	.string "to honor all Pokémon.$"
+	.string "我们在这座塔里站岗放哨。\p在这里，我们怀着感激之情，\n向所有的宝可梦致敬。$"
+	.string ""
+	.string ""
 
 SproutTower_Text_SageChow_Beaten:
-	.string "Th-Thank you!$"
+	.string "谢、谢谢你！$"
 
 SproutTower_Text_SageChow_AfterBattle:
-	.string "All living beings coexist\n"
-	.string "through cooperation.\p"
-	.string "We must always be thankful\n"
-	.string "for this.$"
+	.string "众生相依，\n互助共存。\p我们应当永远\n对此心怀感激。$"
+	.string ""
+	.string ""
+	.string ""
 
 SproutTower_Text_1F_Sage1:
-	.string "Only if you reach the top will\n"
-	.string "you obtain an HM.$"
+	.string "只有登上塔顶，\n才能得到秘传学习器。$"
+	.string ""
 
 SproutTower_Text_1F_Sage2:
-	.string "Sprout Tower was built long ago\n"
-	.string "as a place for Pokémon training.$"
+	.string "这座喇叭芽之塔是很久以前\n为了修炼宝可梦而建的。$"
+	.string ""
 
 SproutTower_Text_1F_Granny:
-	.string "A Bellsprout over 100 feet\n"
-	.string "tall…\p"
-	.string "People say that it became the\n"
-	.string "center pillar here.$"
+	.string "据说曾有一株\n高达100英尺的喇叭芽……\p人们说，它后来变成了\n这座塔正中央的柱子。$"
+	.string ""
+	.string ""
+	.string ""
 
 SproutTower_Text_1F_Teacher:
-	.string "See the pillar shaking?\p"
-	.string "People are training upstairs.$"
+	.string "看到柱子在晃了吗？\p上面有人正在修行呢。$"
+	.string ""
 
 SproutTower_Text_1F_Statue:
-	.string "A Pokémon statue…\p"
-	.string "It looks very distinguished.$"
+	.string "一座宝可梦雕像……\p看起来非常庄严肃穆。$"
+	.string ""
 `
 
 script SproutTower_1F_Guard {
     lock
     faceplayer
     if (flag(FLAG_BADGE08_GET) == FALSE) {
-        msgbox("My apologies, but the entry to the lower
-            floors is restricted. Only those
-            approved by the Sage may enter.")
+        msgbox("非常抱歉，通往下面\n楼层的入口禁止入内。\l只有获得长老许可的人\l才能进入。")
         release
         end
     }
-    msgbox("Greetings, {PLAYER}.
-            Elder Li would like to speak with you.
-
-            Please see him on the top floor.")
+    msgbox("你好，{PLAYER}。\n李长老想和你谈谈。\p请到顶层去见他。")
     release
     end
 }

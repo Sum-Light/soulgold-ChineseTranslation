@@ -742,219 +742,209 @@ BattleArcade_Challenge_EventScript_BrainCongratsText_2:
 
 
 BattleArcade_Challenge_EventScript_BeginChallenge_Text_0:
-	.string "Welcome to the Rocket Arcade!$"
+	.string "欢迎来到火箭游戏城！$"
 
 BattleArcade_Challenge_EventScript_BeginChallenge_Text_1:
-	.string "First, I’ll need to hold on to any items\n"
-	.string "held by your Pokémon.$"
+	.string "首先，我要替你保管宝可梦身上的道具。$"
 
 BattleArcade_Challenge_EventScript_AnnounceGameNumber_Text_0:
-	.string "Game no. {STR_VAR_1}! Come on!$"
+	.string "第{STR_VAR_1}局！来吧！$"
 
 BattleArcade_Challenge_EventScript_PlayGameBoard_Text_0:
-	.string "Without further ado... Let’s activate\n"
-	.string "the game board!$"
+	.string "那么事不宜迟……启动游戏盘吧！$"
 
 BattleArcade_Challenge_EventScript_HandleGameResults_Text_0:
-	.string "This is our current event!$"
+	.string "本次的事件就是这个！$"
 
 BattleArcade_Challenge_EventScript_HandleGameResults_Text_1:
-	.string "OK! Let the battle commence!$"
+	.string "好！对战开始！$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Success_Text_0:
-	.string "The match will commence with\n"
-	.string "{STR_VAR_1}’s Pokémon without full\l"
-	.string "HP!$"
+	.string "比赛开始时，\n"
+	.string "{STR_VAR_1}的宝可梦\l"
+	.string "将不会以满HP状态上场！$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Success_Text_1:
-	.string "The match will commence with\n"
-	.string "{STR_VAR_1}’s Pokémon poisoned!$"
+	.string "比赛开始时，\n"
+	.string "{STR_VAR_1}的宝可梦\l"
+	.string "将处于中毒状态！$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Success_Text_2:
-	.string "The match will commence with\n"
-	.string "{STR_VAR_1}’s Pokémon paralyzed!$"
+	.string "比赛开始时，\n"
+	.string "{STR_VAR_1}的宝可梦\l"
+	.string "将处于麻痹状态！$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Success_Text_3:
-	.string "The match will commence with\n"
-	.string "{STR_VAR_1}’s Pokémon burned!$"
+	.string "比赛开始时，\n"
+	.string "{STR_VAR_1}的宝可梦\l"
+	.string "将处于灼伤状态！$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Success_Text_4:
-	.string "The match will commence with\n"
-	.string "{STR_VAR_1}’s Pokémon asleep!$"
+	.string "比赛开始时，\n"
+	.string "{STR_VAR_1}的宝可梦\l"
+	.string "将处于睡眠状态！$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Success_Text_5:
-	.string "The match will commence with\n"
-	.string "{STR_VAR_1}’s Pokémon frozen!$"
+	.string "比赛开始时，\n"
+	.string "{STR_VAR_1}的宝可梦\l"
+	.string "将处于冰冻状态！$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Success_Text_6:
-	.string "{STR_VAR_1}’s Pokémon will be loaned\n"
-	.string "the {STR_VAR_3}.$"
+	.string "将把{STR_VAR_3}借给\n"
+	.string "{STR_VAR_1}的宝可梦。$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Success_Text_7:
-	.string "The match will commence with\n"
-	.string "{STR_VAR_1}’s Pokémon leveled up!$"
+	.string "比赛开始时，\n"
+	.string "{STR_VAR_1}的宝可梦\l"
+	.string "等级将会提升！$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Success_Text_8:
-	.string "This match will be conducted under\n"
-	.string "harsh sunlight.$"
+	.string "本场比赛将在强烈的日照下进行。$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Success_Text_9:
-	.string "This match will be conducted under a\n"
-	.string "steady rainfall.$"
+	.string "本场比赛将在持续的降雨中进行。$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Success_Text_10:
-	.string "This match will be conducted under a\n"
-	.string "raging sandstorm.$"
+	.string "本场比赛将在猛烈的沙暴中进行。$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Success_Text_11:
-	.string "This match will be conducted under\n"
-	.string "pelting hail.$"
+	.string "本场比赛将在倾泻的冰雹中进行。$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Success_Text_12:
-	.string "This match will be conducted in a dense\n"
-	.string "fog.$"
+	.string "本场比赛将在浓雾中进行。$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Success_Text_13:
-	.string "This match will be conducted on a floor\n"
-	.string "where time and space are distorted.$"
+	.string "本场比赛将在时空扭曲的场地上进行。$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Success_Text_14:
-	.string "Your Pokémon will be switched with the\n"
-	.string "other Trainer’s for this match.$"
+	.string "本场比赛中，你的宝可梦\n"
+	.string "将与对手训练家的宝可梦交换。$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Success_Text_15:
-	.string "From the next game on, the game board’s\n"
-	.string "speed will be increased.$"
+	.string "从下一局开始，\n"
+	.string "游戏盘的速度将会加快。$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Success_Text_16:
-	.string "From the next game on, the game board’s\n"
-	.string "speed will be decreased.$"
+	.string "从下一局开始，\n"
+	.string "游戏盘的速度将会减慢。$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Success_Text_17:
-	.string "For the next game, the game board’s\n"
-	.string "motion will become random.$"
+	.string "下一局中，游戏盘的移动将变得随机。$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Success_Text_18:
-	.string "The prize panel flashes, but the Rocket\n"
-	.string "Arcade only pays out after a win!$"
+	.string "奖品面板亮起来了，但火箭游戏城\n"
+	.string "只会在获胜后支付奖金！$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Success_Text_19:
-	.string "Oh! Lucky! You can skip the battle!$"
+	.string "哦！太幸运了！你可以跳过这场对战！$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Success_Text_20:
-	.string "Too bad! There is no event this time!$"
+	.string "真遗憾！这次没有触发事件！$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Failure_Text_0:
-	.string "{STR_VAR_1}’s Pokémon will enter the\n"
-	.string "match poisoned... Oh! A lucky break!\l"
-	.string "{STR_VAR_1} has no Pokémon that\l"
-	.string "can be poisoned!$"
+	.string "{STR_VAR_1}的宝可梦\n"
+	.string "本会以中毒状态上场……\l"
+	.string "哦！走运了！{STR_VAR_1}\l"
+	.string "没有会中毒的宝可梦！$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Failure_Text_1:
-	.string "{STR_VAR_1}’s Pokémon will enter the\n"
-	.string "match paralyzed... Oh! A lucky break!\l"
-	.string "{STR_VAR_1} has no Pokémon that\l"
-	.string "can be paralyzed!$"
+	.string "{STR_VAR_1}的宝可梦\n"
+	.string "本会以麻痹状态上场……\l"
+	.string "哦！走运了！{STR_VAR_1}\l"
+	.string "没有会麻痹的宝可梦！$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Failure_Text_2:
-	.string "{STR_VAR_1}’s Pokémon will enter the\n"
-	.string "match burned... Oh! A lucky break!\l"
-	.string "{STR_VAR_1} has no Pokémon that\l"
-	.string "can be burned!$"
+	.string "{STR_VAR_1}的宝可梦\n"
+	.string "本会以灼伤状态上场……\l"
+	.string "哦！走运了！{STR_VAR_1}\l"
+	.string "没有会灼伤的宝可梦！$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Failure_Text_3:
-	.string "{STR_VAR_1}’s Pokémon will enter the\n"
-	.string "match asleep... Oh! A lucky break!\l"
-	.string "{STR_VAR_1} has no Pokémon that\l"
-	.string "can be made to sleep!$"
+	.string "{STR_VAR_1}的宝可梦\n"
+	.string "本会以睡眠状态上场……\l"
+	.string "哦！走运了！{STR_VAR_1}\l"
+	.string "没有能陷入睡眠的宝可梦！$"
 
 BattleArcade_Challenge_AnnounceImpactGiveItem_Failure_Text_4:
-	.string "{STR_VAR_1}’s Pokémon will enter the\n"
-	.string "match frozen... Oh! A lucky break!\l"
-	.string "{STR_VAR_1} has no Pokémon that\l"
-	.string "can be frozen!$"
+	.string "{STR_VAR_1}的宝可梦\n"
+	.string "本会以冰冻状态上场……\l"
+	.string "哦！走运了！{STR_VAR_1}\l"
+	.string "没有会被冰冻的宝可梦！$"
 
 BattleArcade_Challenge_GiveItem_Script_Text_0:
-	.string "Here you go!$"
+	.string "给你！$"
 
 BattleArcade_Challenge_EventScript_HandleBattleResult_Text_0:
-	.string "You lost it all! Better luck next time.$"
+	.string "你全输光了！下次再来吧。$"
 
 BattleArcade_Challenge_EventScript_CashOutOrDoubleDown_Text_0:
-	.string "You won ¥{STR_VAR_1}!\n"
-	.string "Cash out or risk it all?$"
+	.string "你赢得了¥{STR_VAR_1}！\n"
+	.string "要兑现离场，还是全部押上？$"
 
 BattleArcade_Challenge_EventScript_CashOut_Text_0:
-	.string "You cashed out ¥{STR_VAR_2}!$"
+	.string "你兑现了¥{STR_VAR_2}！$"
 
 BattleArcade_Challenge_EventScript_DoubleDown_Text_0:
-	.string "Double down accepted! The next round\n"
-	.string "puts it all on the line.$"
+	.string "接受双倍下注！下一局将押上全部。$"
 
 BattleArcade_RoulettRoom_EventScript_ResolveEndChallenge_Text_0:
-	.string "We will return any items we were holding\n"
-	.string "for you.$"
+	.string "我们会把代为保管的道具还给你。$"
 
 BattleArcade_Challenge_EventScript_GivePrize_Text_0:
-	.string "Congratulations! You earned\n"
-	.string "¥{STR_VAR_2} as your prize!$"
+	.string "恭喜！你获得了¥{STR_VAR_2}的奖金！$"
 
 BattleArcade_Challenge_EventScript_HealPlayer_Text_0:
-	.string "Good going! We’ll heal your Pokémon now.$"
+	.string "干得好！现在为你治疗宝可梦。$"
 
 BattleArcade_Challenge_EventScript_ReadyForOpponent_Text_0:
-	.string "Next up, game no. {STR_VAR_1}! Are\n"
-	.string "you ready?$"
+	.string "接下来是第{STR_VAR_1}局！准备好了吗？$"
 
 BattleArcade_Challenge_EventScript_AskPauseChallenge_Text_0:
-	.string "Would you like to save and take a break\n"
-	.string "from playing?$"
+	.string "要保存游戏并暂时休息吗？$"
 
 BattleArcade_Challenge_EventScript_AskRetireChallenge_Text_0:
-	.string "Would you like to retire from this\n"
-	.string "challenge?$"
+	.string "要退出本次挑战吗？$"
 
 BattleArcade_Challenge_EventScript_BrainUpNext_Text_0:
-	.string "Congratulations, Trainer! In\n"
-	.string "recognition of your outstanding nerve,\l"
-	.string "our Frontier Brain is demanding a match\l"
-	.string "with you. So, your next match is against\l"
-	.string "Archer, the Rocket Arcade Boss; no ifs\l"
-	.string "or buts! Are you ready?$"
+	.string "恭喜你，训练家！\n"
+	.string "为表彰你过人的胆识，\l"
+	.string "本设施的开拓首脑点名要与你一战。\l"
+	.string "也就是说，你的下一场对手是\l"
+	.string "火箭游戏城的老板阿波罗——\l"
+	.string "不接受任何推辞！准备好了吗？$"
 
 BattleArcade_Challenge_EventScript_BrainIntro_Text_0:
-	.string "Archer: The Rocket Arcade rewards\n"
-	.string "skill, not luck.\p"
-	.string "You have pressed your advantage well\n"
-	.string "enough to stand before me once more.\l"
-	.string "But this time I will show you the true\l"
-	.string "might of Team Rocket.$"
+	.string "阿波罗：火箭游戏城奖赏的是实力，\n"
+	.string "而非运气。\p"
+	.string "你确实把优势保持到\n"
+	.string "再次站到我面前。\l"
+	.string "但这一次，我会让你见识\l"
+	.string "火箭队真正的力量。$"
 
 BattleArcade_Challenge_EventScript_BrainIntro_Text_1:
-	.string "Show me whether your skill is true, or\n"
-	.string "mere luck.$"
+	.string "让我看看你的实力是真的，\n"
+	.string "还是仅仅靠运气。$"
 
 BattleArcade_Challenge_EventScript_BrainIntro_Text_2:
-	.string "You have returned with the same\n"
-	.string "arrogance as before. I will correct\l"
-	.string "that.$"
+	.string "你又带着和之前一样的傲慢回来了。\n"
+	.string "我会纠正这一点。$"
 
 BattleArcade_Challenge_EventScript_BufferBrainPreBattleText_Text_0:
-	.string "Archer: A proper Rocket Operative\n"
-	.string "never leaves victory to chance. Let us\l"
-	.string "see if you can stand against it.$"
+	.string "阿波罗：真正的火箭队干部，\n"
+	.string "绝不会把胜利交给运气。\l"
+	.string "让我们看看你能否与之抗衡。$"
 
 BattleArcade_Challenge_EventScript_BufferBrainPreBattleText_Text_1:
-	.string "Archer: You have pushed deeper into my\n"
-	.string "house than most. Now pay attention to\l"
-	.string "how a Rocket closes a game.$"
+	.string "阿波罗：你闯进我的地盘，\n"
+	.string "比大多数人都要深。\l"
+	.string "现在，看清楚了，\l"
+	.string "火箭队是如何收局的。$"
 
 BattleArcade_Challenge_EventScript_BrainCongratsText_Text_0:
-	.string "Archer: Hmph. You read the table\n"
-	.string "correctly and struck when it mattered.\l"
-	.string "Take your winnings.$"
+	.string "阿波罗：哼。你看准了牌面，\n"
+	.string "在关键时刻出手。拿走你的奖金吧。$"
 
 BattleArcade_Challenge_EventScript_BrainCongratsText_Text_1:
-	.string "Archer: You have taken even the\n"
-	.string "house's best hand. Remember this\l"
-	.string "feeling. It is expensive to chase.$"
+	.string "阿波罗：你连庄家最好的牌都赢走了。\n"
+	.string "记住这种感觉。\l"
+	.string "想追回它，代价可不小。$"

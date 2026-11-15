@@ -17,18 +17,18 @@ DarkCave2_EventScript_BlackGlassesGot::
 	end
 
 DarkCave2_Text_Nerd:
-    .string "Whoa! You startled me there!\p"
-    .string "I had my Black-Glasses on, so I\n"
-    .string "didn't notice you at all.\p"
-    .string "What am I doing here?\p"
-    .string "Hey, don't you worry about it.\p"
-    .string "I'll give you a pair of Black-\n"
-    .string "Glasses, so forget you saw me,\n"
-    .string "Ok?$"
+    .string "哇！你吓了我一跳！\p我戴着黑色眼镜，\n所以完全没注意到你。\p你问我在这里做什么？\p嘿，这你就别管了。\p我送你一副黑色眼镜，\n你就当没见过我，好吗？$"
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
+    .string ""
 
 DarkCave2_Text_Nerd2:
-    .string "Black-Glasses ups the power of\n"
-    .string "Dark-type moves.$"
+    .string "黑色眼镜能提高\n恶属性招式的威力。$"
+    .string ""
 
 DarkCave_NorthSide_MapScripts::
 	map_script MAP_SCRIPT_ON_TRANSITION, DarkCave_NorthSide_MapScripts_MAP_SCRIPT_ON_TRANSITION

@@ -3,14 +3,9 @@ mapscripts Kitakami_Temple_TrainingRoom_MapScripts {}
 script dojoFexpert {
     lock
     faceplayer
-    msgbox("Training yourself mentally and 
-            physically is as important as 
-            training your Pokémon. 
-            
-            Tough challenges cannot be faced 
-            with weak body and mind.")
+    msgbox("锻炼身心与锻炼宝可梦\n同样重要。\p身心柔弱，就无法\n面对艰难的挑战。")
     if (!flag(FLAG_RECEIVED_FOCUS_SASH)) {
-        msgbox(format("Perhaps this will help you focus on your training."))
+        msgbox(format("这个或许能帮您集中精神修行。"))
         giveitem(ITEM_FOCUS_SASH)
         setflag(FLAG_RECEIVED_FOCUS_SASH)
     }
@@ -20,8 +15,7 @@ script dojoFexpert {
 
 script dojoTrainer {
     lock
-    msgbox("The trainee is meditating, 
-            it would be rude to disturb them.")
+    msgbox("弟子正在打坐，\n打扰他未免失礼。")
     closemessage
     release
     end

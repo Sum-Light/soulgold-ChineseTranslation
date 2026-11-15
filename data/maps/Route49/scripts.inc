@@ -50,54 +50,37 @@ Route49_Hiker::
 
 
 Route49_Desert_Sign_Text_0:
-	.string "{RIGHT_ARROW} Vajra Desert\n"
-	.string "{UP_ARROW} Snowtop Mountain$"
+	.string "{RIGHT_ARROW}金刚沙漠\n{UP_ARROW}雪顶山$"
 
 Route49_RoadSign_Text_0:
-	.string "Route 49\n"
-	.string "The road to harsher climates.$"
+	.string "49号道路\n前方气候严酷。$"
 
 Route49_FisherJo_Text_0:
-	.string "This is my secret fishing spot, check \n"
-	.string "out what I just caught!$"
+	.string "这是我的秘密钓点，看\n我刚钓上来的东西！$"
 
 Route49_FisherJo_Text_1:
-	.string "Wait, how many badges do you have?$"
+	.string "等等，你有几枚徽章？$"
 
 Route49_FisherJo_Text_2:
-	.string "I bring my daughter along when I go\n"
-	.string "fishing so we can get some family time.\l"
-	.string "I'm glad she has her Stantler to play\l"
-	.string "with her.$"
+	.string "我钓鱼时会把女儿\n带上，好一家人聚聚。\l很高兴她有惊角鹿\l陪着一起玩。$"
 
 Route49_Girl_Text_0:
-	.string "Stantler and I like to climb around\n"
-	.string "while Papa is fishing.$"
+	.string "爸爸钓鱼的时候，\n我喜欢和惊角鹿到处爬。$"
 
 Route49_Stantler_Text_0:
-	.string "Stantler: Staaaaa!$"
+	.string "惊角鹿：咩啊啊啊！$"
 
 Route49_CooltrainerEma_Text_0:
-	.string "I will check if you are prepared for\n"
-	.string "the harsher environments ahead!$"
+	.string "我来检验你\n有没有准备好面对前方\l更严酷的环境！$"
 
 Route49_CooltrainerEma_Text_1:
-	.string "You shall pass!$"
+	.string "你合格了！$"
 
 Route49_CooltrainerEma_Text_2:
-	.string "Whether it's the desert or the Snowtop\n"
-	.string "Mountain, both will test your skills as\l"
-	.string "a trainer.$"
+	.string "不管是沙漠还是雪顶山，\n都会考验你作为\l训练家的实力。$"
 
 Route49_Fatman_Text_0:
-	.string "The cold snow from the mountains melts\n"
-	.string "and flows down here. It's really\l"
-	.string "clear!$"
+	.string "山上冰冷的雪化成水\n流到这儿来。真是\l清澈啊！$"
 
 Route49_Hiker_Text_0:
-	.string "They call this The Thousand Steps. At\n"
-	.string "the top you will arrive at the base\l"
-	.string "of Snowtop Mountain.\p"
-	.string "Rumours have been circulating that\n"
-	.string "a majestic blue bird has been \l"
-	.string "sighted flying around the mountain.$"
+	.string "这里叫作千级台阶。\n爬到顶上，就到\l雪顶山脚下了。\p最近有传闻说，\n有人目击一只威严的蓝色鸟\l在山周围飞翔。$"
